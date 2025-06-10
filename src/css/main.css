@@ -1,0 +1,412 @@
+/* Reset e stili base */
+html, body { 
+    margin: 0; 
+    padding: 0; 
+    height: 100%; 
+    font-family: sans-serif; 
+}
+
+/* Header components */
+header { 
+    height: 30px; 
+    background: #003366; 
+    color: white; 
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between;
+    padding: 0 1rem; 
+    font-size: 0.9rem; 
+}
+
+.header-left, .header-right {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.header-button {
+    background: none;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    color: white;
+    padding: 2px 8px;
+    font-size: 0.8rem;
+    border-radius: 3px;
+    cursor: pointer;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.header-button:hover {
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.speed-select {
+    background: none;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    color: white;
+    padding: 1px 5px;
+    font-size: 0.8rem;
+    border-radius: 3px;
+    cursor: pointer;
+    height: 20px;
+}
+
+.speed-select option {
+    background: #003366;
+    color: white;
+}
+
+.header-time {
+    font-family: monospace;
+    font-size: 1.1rem;
+    font-weight: bold;
+    padding: 0 10px;
+}
+
+/* Layout griglia */
+.griglia { 
+    display: grid; 
+    grid-template-columns: 1fr 1fr; 
+    grid-template-rows: 1fr 1fr; 
+    height: calc(100vh - 30px); 
+    gap: 10px; 
+    padding: 10px; 
+    box-sizing: border-box; 
+}
+
+/* Box comuni */
+.box { 
+    border: 2px solid #ccc; 
+    border-radius: 8px; 
+    background: #f9f9f9; 
+    display: flex; 
+    flex-direction: column; 
+    overflow: hidden; 
+}
+
+.box h2 { 
+    margin: 0; 
+    padding: 0.5rem; 
+    font-size: 1rem; 
+    background: #003366; 
+    color: white; 
+}
+
+.box-content {
+    flex: 1;
+    overflow-y: auto;
+    padding: 10px;
+}
+
+/* Mappa */
+#game-map { 
+    height: 400px; /* Imposta un'altezza visibile */
+    width: 100%;
+}
+
+.box#mappa {
+    flex: 1;
+}
+
+/* Popup missione */
+#popupMissione { 
+    display: none; 
+    position: fixed; 
+    width: 1200px !important;
+    min-width: 600px !important;
+    max-width: 98vw !important;
+    height: auto;
+    min-height: 200px !important;
+    max-height: 98vh !important;
+    left: 50% !important;
+    top: 50% !important;
+    transform: translate(-50%, -50%) !important;
+    padding: 0 !important; 
+    background: white; 
+    border: 2px solid #003366; 
+    box-shadow: 0 0 10px rgba(0,0,0,0.5); 
+    z-index: 10000; 
+    border-radius: 10px;
+    resize: both;
+    overflow: auto;
+}
+
+/* Maniglia grafica per il resize in basso a destra del popup missione */
+#popupMissione .popup-resize-handle {
+    position: absolute;
+    right: 2px;
+    bottom: 2px;
+    width: 28px;
+    height: 28px;
+    cursor: nwse-resize;
+    z-index: 10001;
+    background: none;
+    margin-bottom: 0 !important;
+}
+#popupMissione .popup-resize-handle::after {
+    content: '';
+    position: absolute;
+    right: 4px;
+    bottom: 4px;
+    width: 20px;
+    height: 20px;
+    background: linear-gradient(135deg, transparent 60%, #1976d2 60%, #1976d2 100%);
+    opacity: 0.7;
+    border-bottom-right-radius: 6px;
+    pointer-events: none;
+}
+#popupMissione .popup-resize-handle:hover::after {
+    opacity: 1;
+}
+
+/* Popup missione header super compatto */
+.popup-header {
+    background: #1976d2;
+    color: white;
+    padding: 0 6px 0 10px; /* ridotto */
+    font-weight: bold;
+    cursor: move;
+    border-bottom: 2px solid #003366;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 0.92rem;
+    min-height: 0;
+    height: 28px; /* più alto per accessibilità, ma compatto */
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+}
+.popup-header span {
+    font-size: 1em;
+    letter-spacing: 0.5px;
+    padding: 0 2px;
+    font-weight: 500;
+    line-height: 1.1;
+}
+
+.popup-close {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 18px;
+    line-height: 1;
+    cursor: pointer;
+    padding: 0 2px;
+    margin-left: 4px;
+    border-radius: 3px;
+    transition: background 0.15s;
+    height: 24px;
+    width: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Form popup missione ancora più compatto */
+.popup-form {
+    padding: 2px 4px 2px 4px !important;
+    min-width: 0;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+/* Riduci padding e margin su tutti gli input, select e label nel popup missione */
+#popupMissione input,
+#popupMissione select {
+    padding: 4px 6px !important;
+    margin-bottom: 2px !important;
+    font-size: 15px !important;
+}
+#popupMissione label {
+    margin-top: 2px !important;
+    margin-bottom: 0 !important;
+    font-size: 15px !important;
+}
+
+/* Riduci margini e padding su blocchi interni */
+#popupMissione #mezziAssegnatiScroll {
+    margin-top: 2px !important;
+    margin-bottom: 2px !important;
+    padding: 2px 0 2px 0 !important;
+    max-height: 180px !important;
+}
+#popupMissione #btnsRapidiMezzi {
+    margin-bottom: 0 !important;
+    gap: 4px !important;
+}
+
+/* Bottoni popup missione */
+#popupMissione button {
+    padding: 5px 12px !important;
+    font-size: 15px !important;
+    border-radius: 4px !important;
+    margin: 1px 2px !important;
+}
+
+/* Tabella mezzi: header e celle più compatti */
+#mezziAssegnatiScroll th, #mezziAssegnatiScroll td {
+    padding: 3px 4px !important;
+    font-size: 14px !important;
+}
+
+/* Riduci gap e margin su blocchi titolo e mezzi disponibili */
+#popupMissione .popup-form > div[style*='margin-bottom:10px'] {
+    margin-bottom: 4px !important;
+}
+#popupMissione .popup-form > div[style*='margin:18px 0 6px 0'] {
+    margin: 6px 0 2px 0 !important;
+}
+
+/* Lista mezzi */
+#listaMezziCheckbox { 
+    max-height: 150px; 
+    overflow-y: auto; 
+    border: 1px solid #ccc; 
+    margin-bottom: 1rem; 
+    padding: 5px; 
+}
+
+/* Card chiamate e eventi */
+.evento, .chiamata {
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-bottom: 8px;
+    padding: 10px;
+}
+
+/* Bottoni */
+button {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 4px;
+    background: #003366;
+    color: white;
+    cursor: pointer;
+    margin: 2px;
+}
+
+button:hover {
+    background: #004480;
+}
+
+button.secondary {
+    background: #666;
+}
+
+/* Form elements */
+select {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    color: #666;
+}
+
+/* Checkbox container */
+.checkbox-container {
+    display: flex;
+    align-items: center;
+    margin: 5px 0;
+}
+
+.checkbox-container input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+/* Status badges */
+.status {
+    display: inline-block;
+    padding: 2px 6px;
+    border-radius: 3px;
+    font-size: 0.8em;
+    margin-left: 5px;
+}
+
+.status-active { background: #e3f2fd; color: #1976d2; }
+.status-completed { background: #e8f5e9; color: #2e7d32; }
+.status-pending { background: #fff3e0; color: #f57c00; }
+
+/* Responsive */
+@media (max-width: 768px) {
+    .griglia {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(4, 1fr);
+    }
+}
+
+/* Markers */
+.vehicle-marker {
+    background: white;
+    border: 2px solid #003366;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    line-height: 25px;
+}
+
+.call-marker {
+    background: #ff4444;
+    border: 2px solid white;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    line-height: 25px;
+    color: white;
+}
+
+/* Tabella stato mezzi */
+.stato-mezzi-table {
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+    font-size: 0.97em;
+    table-layout: auto;
+}
+
+.stato-mezzi-table th, .stato-mezzi-table td {
+    padding: 3px 4px;
+    font-size: 13px;
+    word-break: break-word;
+    white-space: normal;
+    overflow: visible;
+    text-overflow: unset;
+    vertical-align: middle;
+    text-align: left;
+}
+
+.stato-mezzi-table th:nth-child(1), .stato-mezzi-table td:nth-child(1) { width: 20% !important; }
+.stato-mezzi-table th:nth-child(2), .stato-mezzi-table td:nth-child(2) { width: 13% !important; }
+.stato-mezzi-table th:nth-child(3), .stato-mezzi-table td:nth-child(3) { width: 13% !important; }
+.stato-mezzi-table th:nth-child(4), .stato-mezzi-table td:nth-child(4) { width: 18% !important; }
+.stato-mezzi-table th:nth-child(5), .stato-mezzi-table td:nth-child(5) { width: 12% !important; text-align: right; }
+.stato-mezzi-table th:nth-child(6), .stato-mezzi-table td:nth-child(6) { width: 24% !important; }
+
+.stato-mezzi-table th {
+    background: #1976d2;
+    color: #fff;
+    font-weight: 600;
+    text-align: left;
+}
+
+.stato-mezzi-table td {
+    background: #f7fafd;
+    color: #003366;
+    border-bottom: 1px solid #e3eafc;
+}
+
+.stato-mezzi-table td.mezzo-comunicazioni {
+    min-width: 60px;
+}
