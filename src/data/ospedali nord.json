@@ -14,7 +14,7 @@
     "PSICHIATRIA": true
   },
   {
-    "OSPEDALE": "H MATERNO INFANTILE SASSARI",
+    "OSPEDALE": "H MATERNO INFANTILE",
     "COORDINATE": "40.720009, 8.553465",
     "N° pazienti Max": 35,
     "CLASSE": "PEDIATRIA",
@@ -28,7 +28,7 @@
     "PSICHIATRIA": false
   },
   {
-    "OSPEDALE": "H CIVILE ALGHERO",
+    "OSPEDALE": "H ALGHERO",
     "COORDINATE": "40.579969, 8.319386",
     "N° pazienti Max": 30,
     "CLASSE": "PS",
@@ -126,7 +126,7 @@
     "PSICHIATRIA": true
   },
   {
-    "OSPEDALE": "H  SORGONO",
+    "OSPEDALE": "H SORGONO",
     "COORDINATE": "40.021518, 9.099648",
     "N° pazienti Max": 25,
     "CLASSE": "PS",

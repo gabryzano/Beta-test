@@ -28,7 +28,7 @@
     "PSICHIATRIA": true
   },
   {
-    "OSPEDALE": "H  ISILI",
+    "OSPEDALE": "H ISILI",
     "COORDINATE": "39.742495, 9.110168",
     "N° pazienti Max": 25,
     "CLASSE": "PS",
@@ -98,7 +98,7 @@
     "PSICHIATRIA": true
   },
   {
-    "OSPEDALE": "H  BROTZU - PES HOSPITAL",
+    "OSPEDALE": "H BROTZU - PES HOSPITAL",
     "COORDINATE": "39.249180, 9.108089",
     "N° pazienti Max": 60,
     "CLASSE": "EAS",
@@ -112,7 +112,7 @@
     "PSICHIATRIA": true
   },
   {
-    "OSPEDALE": "H SANTISSIMA TRINITA'",
+    "OSPEDALE": "H SS TRINITA'",
     "COORDINATE": "39.235842, 9.108614",
     "N° pazienti Max": 35,
     "CLASSE": "DEA",
@@ -126,7 +126,7 @@
     "PSICHIATRIA": true
   },
   {
-    "OSPEDALE": "H POLICLINICO MONSERRATO",
+    "OSPEDALE": "H POL. MONSERRATO",
     "COORDINATE": "39.271828, 9.126390",
     "N° pazienti Max": 60,
     "CLASSE": "DEA",

@@ -243,7 +243,7 @@
         if (hdr) hdr.textContent = sel.options[sel.selectedIndex].text;
         // Load corresponding indirizzi file for selected central
         try {
-            const path = `src/data/indirizzi ${window.selectedCentral}.json`;
+            const path = `src/data/indirizzi ${window.selectedCentral.toLowerCase()}.json`;
             const resp = await fetch(path);
             const data = await resp.json();
             // Costruisci mappa categorie per selezione indirizzo in generateNewCall
@@ -291,7 +291,7 @@
         
         // Ricarica indirizzi per la nuova centrale
         try {
-            const path = `src/data/indirizzi ${newCentral}.json`;
+            const path = `src/data/indirizzi ${newCentral.toLowerCase()}.json`;
             const resp = await fetch(path);
             const data = await resp.json();
             
