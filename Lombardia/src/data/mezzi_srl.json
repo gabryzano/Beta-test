@@ -1,0 +1,1460 @@
+[
+    {
+        "Nome Postazione": "Agrate B.za Dist. VOLVIM",
+        "Coordinate Postazione": "45.5873456,9.3580023",
+        "Mezzo": "MSB",
+        "Nome radio": "VOLVIM_154.02B1",
+        "Convenzione": "H24",
+        "Orario di lavoro": "00:00-00:00",
+        "Giorni": "LUN-DOM"
+    },
+    {
+        "Nome Postazione": "Arcore Dist. VOLVIM",
+        "Coordinate Postazione": "45.613961,9.323324",
+        "Mezzo": "MSB",
+        "Nome radio": "VOLVIM_144.05B2",
+        "Convenzione": "H12",
+        "Orario di lavoro": "7:00-19:00",
+        "Giorni": "LUN-DOM"
+    },
+    {
+        "Nome Postazione": "AVIS Meda",
+        "Coordinate Postazione": "45.655419,9.170387",
+        "Mezzo": "MSB",
+        "Nome radio": "AVIMED_103.06B2 ",
+        "Convenzione": "H12",
+        "Orario di lavoro": "7:00-19:00",
+        "Giorni": "LUN-SAB"
+    },
+    {
+        "Nome Postazione": "AVPS Vimercate",
+        "Coordinate Postazione": "45.618771,9.376584",
+        "Mezzo": "MSB",
+        "Nome radio": "VOLVIM_150.02A1 ",
+        "Convenzione": "H24",
+        "Orario di lavoro": "00:00-00:00",
+        "Giorni": "LUN-DOM"
+    },
+    {
+        "Nome Postazione": "AVPS Vimercate",
+        "Coordinate Postazione": "45.618771,9.376584",
+        "Mezzo": "MSB",
+        "Nome radio": "VOLVIM_245 ",
+        "Convenzione": "GET",
+        "Orario di lavoro": "8:00-16:00",
+        "Giorni": "LUN-DOM"
+    },
+    {
+        "Nome Postazione": "AVSA Cornate",
+        "Coordinate Postazione": "45.645382,9.467512",
+        "Mezzo": "MSB",
+        "Nome radio": "VOLCOR_106.07A1",
+        "Convenzione": "H24",
+        "Orario di lavoro": "8:00-20:00",
+        "Giorni": "LUN-DOM"
+    },
+    {
+        "Nome Postazione": "AVSA Cornate",
+        "Coordinate Postazione": "45.645382,9.467512",
+        "Mezzo": "MSB",
+        "Nome radio": "VOLVIM_153.07A1 ",
+        "Convenzione": "H24",
+        "Orario di lavoro": "20:00-8:00",
+        "Giorni": "LUN-DOM"
+    },
+    {
+        "Nome Postazione": "Busnago Soccorso",
+        "Coordinate Postazione": "45.6005815,9.4582827",
+        "Mezzo": "MSB",
+        "Nome radio": "SOCBUS_373 ",
+        "Convenzione": "GET",
+        "Orario di lavoro": "19:00-00:00, SAB-DOM 8:00-14:00",
+        "Giorni": "LUN-DOM"
+    },
+    {
+        "Nome Postazione": "Casargo Dist. CRIPRE",
+        "Coordinate Postazione": "46.0388184,9.3882746",
+        "Mezzo": "MSB",
+        "Nome radio": "CRIPRE+351",
+        "Convenzione": "GET",
+        "Orario di lavoro": "21:00-6:00",
+        "Giorni": "SAB-DOM"
+    },
+    {
+        "Nome Postazione": "Cislago Dist CRISAR",
+        "Coordinate Postazione": "45.660923,8.974269",
+        "Mezzo": "MSB",
+        "Nome radio": "CRISAR_199.22A2",
+        "Convenzione": "H8",
+        "Orario di lavoro": "10:00-18:00",
+        "Giorni": "LUN-SAB"
+    },
+    {
+        "Nome Postazione": "Cittiglio Dist. CRIGAV",
+        "Coordinate Postazione": "45.8931293,8.6678866",
+        "Mezzo": "MSB",
+        "Nome radio": "CRIGAV_120.01C1",
+        "Convenzione": "H24",
+        "Orario di lavoro": "00:00-00:00",
+        "Giorni": "LUN-DOM"
+    },
+    {
+        "Nome Postazione": "Croce Argento Limbiate",
+        "Coordinate Postazione": "45.593897,9.138892",
+        "Mezzo": "MSB",
+        "Nome radio": "ARGLIM_105.07A1 ",
+        "Convenzione": "H24",
+        "Orario di lavoro": "8:00-20:00",
+        "Giorni": "LUN-DOM"
+    },
+    {
+        "Nome Postazione": "Croce Argento Saronno",
+        "Coordinate Postazione": "45.619298,9.046789",
+        "Mezzo": "MSB",
+        "Nome radio": "ARGSAR_331 ",
+        "Convenzione": "GET",
+        "Orario di lavoro": "9:00-18:00",
+        "Giorni": "LUN-VEN"
+    },
+    {
+        "Nome Postazione": "Croce Azzurra Cadorago",
+        "Coordinate Postazione": "45.7254998,9.0380364",
+        "Mezzo": "MSB",
+        "Nome radio": "AZZCAD_152.04C1 ",
+        "Convenzione": "H24",
+        "Orario di lavoro": "8:00-20:00",
+        "Giorni": "LUN-DOM"
+    },
+    {
+        "Nome Postazione": "Croce Azzurra Caronno Pertusella",
+        "Coordinate Postazione": "45.596266,9.048169",
+        "Mezzo": "MSB",
+        "Nome radio": "AZZCAR_137.23A1 ",
+        "Convenzione": "H24",
+        "Orario di lavoro": "8:00-20:00",
+        "Giorni": "LUN-DOM"
+    },
+    {
+        "Nome Postazione": "Croce Azzurra Como",
+        "Coordinate Postazione": "45.790055,9.087885",
+        "Mezzo": "MSB",
+        "Nome radio": "AZZ_CO_152.05B1 ",
+        "Convenzione": "H24",
+        "Orario di lavoro": "00:00-00:00",
+        "Giorni": "LUN-DOM"
+    },
+    {
+        "Nome Postazione": "Croce Azzurra Porlezza",
+        "Coordinate Postazione": "46.0364666,9.1290498",
+        "Mezzo": "MSB",
+        "Nome radio": "AZZPOR_133.01A1 ",
+        "Convenzione": "H24",
+        "Orario di lavoro": "00:00-00:00",
+        "Giorni": "LUN-DOM"
+    },
+    {
+        "Nome Postazione": "Croce Azzurra Rovellasca",
+        "Coordinate Postazione": "45.6651888,9.0567227",
+        "Mezzo": "MSB",
+        "Nome radio": "AZZROV_151.04B1 ",
+        "Convenzione": "H24",
+        "Orario di lavoro": "00:00-00:00",
+        "Giorni": "LUN-DOM"
+    },
+    {
+        "Nome Postazione": "Croce Bianca Besana Brianza",
+        "Coordinate Postazione": "45.701124,9.282241",
+        "Mezzo": "MSB",
+        "Nome radio": "BIABES_168.01A2 ",
+        "Convenzione": "H12",
+        "Orario di lavoro": "7:00-19:00",
+        "Giorni": "LUN-DOM"
+    },
+    {
+        "Nome Postazione": "Croce Bianca Besana Brianza",
+        "Coordinate Postazione": "45.701124,9.282241",
+        "Mezzo": "MSB",
+        "Nome radio": "BIABES_179.01A1",
+        "Convenzione": "H24",
+        "Orario di lavoro": "00:00-00:00",
+        "Giorni": "LUN-DOM"
+    },
+    {
+        "Nome Postazione": "Croce Bianca Biassono",
+        "Coordinate Postazione": "45.6309402,9.273582",
+        "Mezzo": "MSB",
+        "Nome radio": "BIABIA_411 ",
+        "Convenzione": "GET",
+        "Orario di lavoro": "21:00-7:00",
+        "Giorni": "LUN-SAB"
+    },
+    {
+        "Nome Postazione": "Croce Bianca Bovisio Masciago",
+        "Coordinate Postazione": "45.6098911,9.1466598",
+        "Mezzo": "MSB",
+        "Nome radio": "BIACES_396 ",
+        "Convenzione": "GET",
+        "Orario di lavoro": "18:30-00:30",
+        "Giorni": "LUN-VEN"
+    },
+    {
+        "Nome Postazione": "Croce Bianca Brugherio",
+        "Coordinate Postazione": "45.5543219,9.305386",
+        "Mezzo": "MSB",
+        "Nome radio": "BIABRU_150.05A1 ",
+        "Convenzione": "H24",
+        "Orario di lavoro": "6:00-14:00",
+        "Giorni": "LUN-DOM"
+    },
+    {
+        "Nome Postazione": "Croce Bianca Brugherio",
+        "Coordinate Postazione": "45.5543219,9.305386",
+        "Mezzo": "MSB",
+        "Nome radio": "BIABRU_150 ",
+        "Convenzione": "GET",
+        "Orario di lavoro": "22:00-6:00",
+        "Giorni": "LUN-DOM"
+    },
+    {
+        "Nome Postazione": "Croce Bianca Castello di Brianza",
+        "Coordinate Postazione": "45.7666801,9.3463132",
+        "Mezzo": "MSB",
+        "Nome radio": "BIABEC_371 ",
+        "Convenzione": "GET",
+        "Orario di lavoro": "19:00-00:00",
+        "Giorni": "LUN-DOM"
+    },
+    {
+        "Nome Postazione": "Croce Bianca Cesano Maderno",
+        "Coordinate Postazione": "45.6244233,9.140358",
+        "Mezzo": "MSB",
+        "Nome radio": "BIACES_194.08A1 ",
+        "Convenzione": "H24",
+        "Orario di lavoro": "00:00-00:00",
+        "Giorni": "LUN-DOM"
+    },
+    {
+        "Nome Postazione": "Croce Bianca Giussano",
+        "Coordinate Postazione": "45.6913316,9.203068",
+        "Mezzo": "MSB",
+        "Nome radio": "BIAGIU_222 ",
+        "Convenzione": "GET",
+        "Orario di lavoro": "10:00-16:00, 18:00-00:00",
+        "Giorni": "LUN-DOM"
+    },
+    {
+        "Nome Postazione": "Croce Bianca Mariano Comense",
+        "Coordinate Postazione": "45.6943316,9.1827115",
+        "Mezzo": "MSB",
+        "Nome radio": "BIAMAR_104.06D1 ",
+        "Convenzione": "H24",
+        "Orario di lavoro": "00:00-00:00",
+        "Giorni": "LUN-DOM"
+    },
+    {
+        "Nome Postazione": "Croce Bianca Merate",
+        "Coordinate Postazione": "45.6932192,9.4268477",
+        "Mezzo": "MSB",
+        "Nome radio": "BIAMER_112.06A1",
+        "Convenzione": "H24",
+        "Orario di lavoro": "00:00-00:00",
+        "Giorni": "LUN-DOM"
+    },
+    {
+        "Nome Postazione": "Croce Bianca Seveso",
+        "Coordinate Postazione": "45.651548,9.135717",
+        "Mezzo": "MSB",
+        "Nome radio": "BIASEV_323 ",
+        "Convenzione": "GET",
+        "Orario di lavoro": "19:30-00:30",
+        "Giorni": "LUN-DOM"
+    },
+    {
+        "Nome Postazione": "Croce Medica Dist. Castiglione",
+        "Coordinate Postazione": "45.9548909,9.0917016",
+        "Mezzo": "MSA1",
+        "Nome radio": "CO_008 ",
+        "Convenzione": "H12",
+        "Orario di lavoro": "8:00-20:00",
+        "Giorni": "LUN-DOM"
+    },
+    {
+        "Nome Postazione": "Croce Medica Dist. Castiglione",
+        "Coordinate Postazione": "45.9548909,9.0917016",
+        "Mezzo": "MSB",
+        "Nome radio": "MDCCST_135.02A2 ",
+        "Convenzione": "H24",
+        "Orario di lavoro": "00:00-00:00",
+        "Giorni": "LUN-DOM"
+    },
+    {
+        "Nome Postazione": "Croce Rossa Italiana - Asso",
+        "Coordinate Postazione": "45.8616959,9.2696378",
+        "Mezzo": "MSB",
+        "Nome radio": "CRIASS+313 ",
+        "Convenzione": "GET",
+        "Orario di lavoro": "21:00-7:00",
+        "Giorni": "LUN-DOM"
+    },
+    {
+        "Nome Postazione": "Croce Rossa Italiana - Ballabio",
+        "Coordinate Postazione": "45.920654,9.4391789",
+        "Mezzo": "MSB",
+        "Nome radio": "CRIBAL_283",
+        "Convenzione": "GET",
+        "Orario di lavoro": "9:00-19:00",
+        "Giorni": "LUN-DOM"
+    },
+    {
+        "Nome Postazione": "Croce Rossa Italiana - Ballabio",
+        "Coordinate Postazione": "45.920654,9.4391789",
+        "Mezzo": "MSB",
+        "Nome radio": "CRIBAL_184.02A1 ",
+        "Convenzione": "H24",
+        "Orario di lavoro": "20:00-8:00",
+        "Giorni": "LUN-DOM"
+    },
+    {
+        "Nome Postazione": "Croce Rossa Italiana - Barzanò",
+        "Coordinate Postazione": "45.7417565,9.3214771",
+        "Mezzo": "MSB",
+        "Nome radio": "CRICAN_156.06B1",
+        "Convenzione": "H24",
+        "Orario di lavoro": "14:00-6:00",
+        "Giorni": "LUN-DOM"
+    },
+    {
+        "Nome Postazione": "Croce Rossa Italiana - Brugherio",
+        "Coordinate Postazione": "45.549869,9.307872",
+        "Mezzo": "MSB",
+        "Nome radio": "CRIBRU_151.05A1",
+        "Convenzione": "H24",
+        "Orario di lavoro": "14:00-6:00",
+        "Giorni": "LUN-DOM"
+    },
+    {
+        "Nome Postazione": "Croce Rossa Italiana - Busto Arsizio",
+        "Coordinate Postazione": "45.6204195,8.8517789",
+        "Mezzo": "MSB",
+        "Nome radio": "CRIBUS_146.06E1 ",
+        "Convenzione": "H24",
+        "Orario di lavoro": "00:00-00:00",
+        "Giorni": "LUN-DOM"
+    },
+    {
+        "Nome Postazione": "Croce Rossa Italiana - Busto Arsizio",
+        "Coordinate Postazione": "45.6204195,8.8517789",
+        "Mezzo": "MSB",
+        "Nome radio": "CRIBUS_166.06D1",
+        "Convenzione": "H24",
+        "Orario di lavoro": "00:00-00:00",
+        "Giorni": "LUN-DOM"
+    },
+    {
+        "Nome Postazione": "Croce Rossa Italiana - Busto Arsizio",
+        "Coordinate Postazione": "45.6204195,8.8517789",
+        "Mezzo": "MSA1",
+        "Nome radio": "VA_006 ",
+        "Convenzione": "H12",
+        "Orario di lavoro": "8:00-20:00",
+        "Giorni": "LUN-DOM"
+    },
+    {
+        "Nome Postazione": "Croce Rossa Italiana - Cantù",
+        "Coordinate Postazione": "45.735904,9.1237527",
+        "Mezzo": "MSB",
+        "Nome radio": "CRICTU_105.06B1",
+        "Convenzione": "H24",
+        "Orario di lavoro": "00:00-00:00",
+        "Giorni": "LUN-DOM"
+    },
+    {
+        "Nome Postazione": "Croce Rossa Italiana - Cermenate",
+        "Coordinate Postazione": "45.7012481,9.0778371",
+        "Mezzo": "MSB",
+        "Nome radio": "CRICMN+308",
+        "Convenzione": "GET",
+        "Orario di lavoro": "19:30-6:30",
+        "Giorni": "LUN-DOM"
+    },
+    {
+        "Nome Postazione": "Croce Rossa Italiana - Cernobbio",
+        "Coordinate Postazione": "45.839133,9.0650818",
+        "Mezzo": "MSB",
+        "Nome radio": "CRICRN_192.02B1",
+        "Convenzione": "H24",
+        "Orario di lavoro": "6:00-22:00",
+        "Giorni": "LUN-DOM"
+    },
+    {
+        "Nome Postazione": "Croce Rossa Italiana - Colico",
+        "Coordinate Postazione": "46.1392862,9.3956714",
+        "Mezzo": "MSB",
+        "Nome radio": "CRICOL_117.01B1",
+        "Convenzione": "H24",
+        "Orario di lavoro": "00:00-00:00",
+        "Giorni": "LUN-DOM"
+    },
+    {
+        "Nome Postazione": "Croce Rossa Italiana - Colico",
+        "Coordinate Postazione": "46.1392862,9.3956714",
+        "Mezzo": "MSA2",
+        "Nome radio": "LC_006",
+        "Convenzione": "H24",
+        "Orario di lavoro": "00:00-00:00",
+        "Giorni": "LUN-DOM"
+    },
+    {
+        "Nome Postazione": "Croce Rossa Italiana - Como",
+        "Coordinate Postazione": "45.804252,9.083708",
+        "Mezzo": "MSA1",
+        "Nome radio": "CO_003 ",
+        "Convenzione": "H12",
+        "Orario di lavoro": "20:00-8:00",
+        "Giorni": "LUN-DOM"
+    },
+    {
+        "Nome Postazione": "Croce Rossa Italiana - Como",
+        "Coordinate Postazione": "45.804252,9.083708",
+        "Mezzo": "MSA2",
+        "Nome radio": "CO_003 ",
+        "Convenzione": "H12",
+        "Orario di lavoro": "8:00-20:00",
+        "Giorni": "LUN-DOM"
+    },
+    {
+        "Nome Postazione": "Croce Rossa Italiana - Como",
+        "Coordinate Postazione": "45.804252,9.083708",
+        "Mezzo": "MSB",
+        "Nome radio": "CRI_CO_122.05A1 ",
+        "Convenzione": "H24",
+        "Orario di lavoro": "00:00-00:00",
+        "Giorni": "LUN-DOM"
+    },
+    {
+        "Nome Postazione": "Croce Rossa Italiana - Desio",
+        "Coordinate Postazione": "45.6252665,9.2034786",
+        "Mezzo": "MSB",
+        "Nome radio": "CRIDES_329",
+        "Convenzione": "GET",
+        "Orario di lavoro": "19:30-6:30, SAB-DOM 7:00-18:00",
+        "Giorni": "LUN-DOM"
+    },
+    {
+        "Nome Postazione": "Croce Rossa Italiana - Galbiate",
+        "Coordinate Postazione": "45.8164625,9.3776936",
+        "Mezzo": "MSB",
+        "Nome radio": "CRIGLB+399 ",
+        "Convenzione": "GET",
+        "Orario di lavoro": "19:30-6:30, SAB-DOM 7:00-18:00",
+        "Giorni": "LUN-DOM"
+    },
+    {
+        "Nome Postazione": "Croce Rossa Italiana - Gallarate",
+        "Coordinate Postazione": "45.6675037,8.8037716",
+        "Mezzo": "MSB",
+        "Nome radio": "CRIGAL_136.05B1 ",
+        "Convenzione": "H24",
+        "Orario di lavoro": "00:00-00:00",
+        "Giorni": "LUN-DOM"
+    },
+    {
+        "Nome Postazione": "Croce Rossa Italiana - Gallarate",
+        "Coordinate Postazione": "45.6675037,8.8037716",
+        "Mezzo": "MSB",
+        "Nome radio": "CRIGAL_139.05A1",
+        "Convenzione": "H24",
+        "Orario di lavoro": "00:00-00:00",
+        "Giorni": "LUN-DOM"
+    },
+    {
+        "Nome Postazione": "Croce Rossa Italiana - Gavirate",
+        "Coordinate Postazione": "45.8439529,8.7129882",
+        "Mezzo": "MSB",
+        "Nome radio": "CRIGAV_343 ",
+        "Convenzione": "GET",
+        "Orario di lavoro": "19:30-00:30",
+        "Giorni": "LUN-DOM"
+    },
+    {
+        "Nome Postazione": "Croce Rossa Italiana - Grandate",
+        "Coordinate Postazione": "45.7730457,9.0561846",
+        "Mezzo": "MSB",
+        "Nome radio": "CRIGRA_193.05C1",
+        "Convenzione": "H24",
+        "Orario di lavoro": "00:00-00:00",
+        "Giorni": "LUN-DOM"
+    },
+    {
+        "Nome Postazione": "Croce Rossa Italiana - Lainate",
+        "Coordinate Postazione": "45.562788,9.024662",
+        "Mezzo": "MSB",
+        "Nome radio": "CRILAI_305 ",
+        "Convenzione": "GET",
+        "Orario di lavoro": "18:00-00:00, SAB-DOM 8:00-18:00",
+        "Giorni": "LUN-DOM"
+    },
+    {
+        "Nome Postazione": "Croce Rossa Italiana - Lecco",
+        "Coordinate Postazione": "45.8613483,9.4005782",
+        "Mezzo": "MSB",
+        "Nome radio": "CRI_LC_177.03A1",
+        "Convenzione": "H24",
+        "Orario di lavoro": "00:00-00:00",
+        "Giorni": "LUN-DOM"
+    },
+    {
+        "Nome Postazione": "Croce Rossa Italiana - Lentate",
+        "Coordinate Postazione": "45.677521,9.119524",
+        "Mezzo": "MSB",
+        "Nome radio": "CRILEN_339 ",
+        "Convenzione": "GET",
+        "Orario di lavoro": "19:30-6:30, SAB-DOM 7:00-18:00",
+        "Giorni": "LUN-DOM"
+    },
+    {
+        "Nome Postazione": "Croce Rossa Italiana - Lipomo",
+        "Coordinate Postazione": "45.7940846,9.1163124",
+        "Mezzo": "MSB",
+        "Nome radio": "CRILIP_120.06C1",
+        "Convenzione": "H24",
+        "Orario di lavoro": "00:00-00:00",
+        "Giorni": "LUN-DOM"
+    },
+    {
+        "Nome Postazione": "Croce Rossa Italiana - Lomazzo",
+        "Coordinate Postazione": "45.6981653,9.03271",
+        "Mezzo": "MSB",
+        "Nome radio": "CRILOM_148.04D1",
+        "Convenzione": "H24",
+        "Orario di lavoro": "00:00-00:00",
+        "Giorni": "LUN-DOM"
+    },
+    {
+        "Nome Postazione": "Croce Rossa Italiana - Luino",
+        "Coordinate Postazione": "45.990969,8.7620458",
+        "Mezzo": "MSB",
+        "Nome radio": "CRILUI_128.01A1 ",
+        "Convenzione": "H24",
+        "Orario di lavoro": "00:00-00:00",
+        "Giorni": "LUN-DOM"
+    },
+    {
+        "Nome Postazione": "Croce Rossa Italiana - Lurate Caccivio",
+        "Coordinate Postazione": "45.771265,8.9978786",
+        "Mezzo": "MSB",
+        "Nome radio": "CRILUR_154.04E1 ",
+        "Convenzione": "H24",
+        "Orario di lavoro": "00:00-00:00",
+        "Giorni": "LUN-DOM"
+    },
+    {
+        "Nome Postazione": "Croce Rossa Italiana - Lurate Caccivio",
+        "Coordinate Postazione": "45.771265,8.9978786",
+        "Mezzo": "MSA1",
+        "Nome radio": "CO_004",
+        "Convenzione": "H24",
+        "Orario di lavoro": "00:00-00:00",
+        "Giorni": "LUN-DOM"
+    },
+    {
+        "Nome Postazione": "Croce Rossa Italiana - Masilianico",
+        "Coordinate Postazione": "45.8404098,9.0444822",
+        "Mezzo": "MSB",
+        "Nome radio": "CRIMAS_192.02B1 ",
+        "Convenzione": "H24",
+        "Orario di lavoro": "22:00-6:00",
+        "Giorni": "LUN-DOM"
+    },
+    {
+        "Nome Postazione": "Croce Rossa Italiana - Menaggio",
+        "Coordinate Postazione": "46.0213657,9.2403722",
+        "Mezzo": "MSB",
+        "Nome radio": "CRIMEN_121.01B1",
+        "Convenzione": "H24",
+        "Orario di lavoro": "00:00-00:00",
+        "Giorni": "LUN-DOM"
+    },
+    {
+        "Nome Postazione": "Croce Rossa Italiana - Misinto",
+        "Coordinate Postazione": "45.657469,9.07889",
+        "Mezzo": "MSB",
+        "Nome radio": "CRIMIS_130.07A2 ",
+        "Convenzione": "H12",
+        "Orario di lavoro": "7:00-19:00",
+        "Giorni": "LUN-DOM"
+    },
+    {
+        "Nome Postazione": "Croce Rossa Italiana - Misinto",
+        "Coordinate Postazione": "45.657469,9.07889",
+        "Mezzo": "MSA1",
+        "Nome radio": "CO_007 ",
+        "Convenzione": "H12",
+        "Orario di lavoro": "8:00-20:00",
+        "Giorni": "LUN-DOM"
+    },
+    {
+        "Nome Postazione": "Croce Rossa Italiana - Montorfano",
+        "Coordinate Postazione": "45.7838303,9.1501239",
+        "Mezzo": "MSB",
+        "Nome radio": "CRIMNT+373 ",
+        "Convenzione": "GET",
+        "Orario di lavoro": "18:00-2:00",
+        "Giorni": "LUN-DOM"
+    },
+    {
+        "Nome Postazione": "Croce Rossa Italiana - Monza",
+        "Coordinate Postazione": "45.5764677,9.2678848",
+        "Mezzo": "MSB",
+        "Nome radio": "CRI_MB_288.05B1",
+        "Convenzione": "H24",
+        "Orario di lavoro": "22:00-6:00",
+        "Giorni": "LUN-DOM"
+    },
+    {
+        "Nome Postazione": "Croce Rossa Italiana - Monza",
+        "Coordinate Postazione": "45.5764677,9.2678848",
+        "Mezzo": "MSB",
+        "Nome radio": "CRI_MB_184.05C1 ",
+        "Convenzione": "H24",
+        "Orario di lavoro": "00:00-00:00",
+        "Giorni": "LUN-DOM"
+    },
+    {
+        "Nome Postazione": "Croce Rossa Italiana - Monza",
+        "Coordinate Postazione": "45.5764677,9.2678848",
+        "Mezzo": "MSB",
+        "Nome radio": "CRI_MB_196.05B2 ",
+        "Convenzione": "H12",
+        "Orario di lavoro": "7:00-19:00",
+        "Giorni": "LUN-SAB"
+    },
+    {
+        "Nome Postazione": "Croce Rossa Italiana - Monza",
+        "Coordinate Postazione": "45.5764677,9.2678848",
+        "Mezzo": "MSB",
+        "Nome radio": "CRI_MB_A.BK ",
+        "Convenzione": "AGG",
+        "Orario di lavoro": "22:00-6:00",
+        "Giorni": "LUN-DOM"
+    },
+    {
+        "Nome Postazione": "Croce Rossa Italiana - Muggiò",
+        "Coordinate Postazione": "45.595134,9.2303846",
+        "Mezzo": "MSB",
+        "Nome radio": "CRIMUG_323 ",
+        "Convenzione": "GET",
+        "Orario di lavoro": "18:00-2:00",
+        "Giorni": "LUN-DOM"
+    },
+    {
+        "Nome Postazione": "Croce Rossa Italiana - Nova Milanese",
+        "Coordinate Postazione": "45.5867611,9.2039573",
+        "Mezzo": "MSB",
+        "Nome radio": "CRINOV_343",
+        "Convenzione": "GET",
+        "Orario di lavoro": "18:30-00:30",
+        "Giorni": "LUN-DOM"
+    },
+    {
+        "Nome Postazione": "Croce Rossa Italiana - Olgiate Molgora",
+        "Coordinate Postazione": "45.7191623,9.3995321",
+        "Mezzo": "MSB",
+        "Nome radio": "CRIOLG+303",
+        "Convenzione": "GET",
+        "Orario di lavoro": "19:30-00:30",
+        "Giorni": "LUN-DOM"
+    },
+    {
+        "Nome Postazione": "Croce Rossa Italiana - Premana",
+        "Coordinate Postazione": "46.0542433,9.4172059",
+        "Mezzo": "MSB",
+        "Nome radio": "CRIPRE_194.02B1",
+        "Convenzione": "H24",
+        "Orario di lavoro": "00:00-00:00",
+        "Giorni": "LUN-DOM"
+    },
+    {
+        "Nome Postazione": "Croce Rossa Italiana - San Fedele Intelvi",
+        "Coordinate Postazione": "45.9702052,9.0776858",
+        "Mezzo": "MSB",
+        "Nome radio": "CRISFD_314",
+        "Convenzione": "GET",
+        "Orario di lavoro": "18:30-00:30",
+        "Giorni": "LUN-DOM"
+    },
+    {
+        "Nome Postazione": "Croce Rossa Italiana - San Fermo della Battaglia",
+        "Coordinate Postazione": "45.806793,9.051056",
+        "Mezzo": "MSB",
+        "Nome radio": "CRISFB+393",
+        "Convenzione": "GET",
+        "Orario di lavoro": "19:30-00:30",
+        "Giorni": "RANDOM"
+    },
+    {
+        "Nome Postazione": "Croce Rossa Italiana - Saronno",
+        "Coordinate Postazione": "45.623675,9.037303",
+        "Mezzo": "MSB",
+        "Nome radio": "CRISAR_192.22A1",
+        "Convenzione": "H24",
+        "Orario di lavoro": "00:00-00:00",
+        "Giorni": "LUN-DOM"
+    },
+    {
+        "Nome Postazione": "Croce Rossa Italiana - Tradate",
+        "Coordinate Postazione": "45.7050341,8.9074299",
+        "Mezzo": "MSB",
+        "Nome radio": "CRITRA_122.04A1",
+        "Convenzione": "H24",
+        "Orario di lavoro": "00:00-00:00",
+        "Giorni": "LUN-DOM"
+    },
+    {
+        "Nome Postazione": "Croce Rossa Italiana - Tradate",
+        "Coordinate Postazione": "45.7050341,8.9074299",
+        "Mezzo": "MSA1",
+        "Nome radio": "VA_003 ",
+        "Convenzione": "H24",
+        "Orario di lavoro": "00:00-00:00",
+        "Giorni": "LUN-DOM"
+    },
+    {
+        "Nome Postazione": "Croce Rossa Italiana - Uggiate Trevano",
+        "Coordinate Postazione": "45.8237455,8.9529333",
+        "Mezzo": "MSB",
+        "Nome radio": "CRIUGG+354",
+        "Convenzione": "GET",
+        "Orario di lavoro": "21:00-6:00",
+        "Giorni": "LUN-DOM"
+    },
+    {
+        "Nome Postazione": "Croce Rossa Italiana - Valceresio",
+        "Coordinate Postazione": "45.8628819,8.8620013",
+        "Mezzo": "MSB",
+        "Nome radio": "CRIVLC_181.02C2",
+        "Convenzione": "H12",
+        "Orario di lavoro": "8:00-20:00",
+        "Giorni": "LUN-DOM"
+    },
+    {
+        "Nome Postazione": "Croce Rossa Italiana - Valceresio",
+        "Coordinate Postazione": "45.8628819,8.8620013",
+        "Mezzo": "MSB",
+        "Nome radio": "CRIVLC+382",
+        "Convenzione": "GET",
+        "Orario di lavoro": "20:30-7:30",
+        "Giorni": "RANDOM"
+    },
+    {
+        "Nome Postazione": "Croce Rossa Italiana - Valmadrera",
+        "Coordinate Postazione": "45.8469095,9.3602592",
+        "Mezzo": "MSB",
+        "Nome radio": "CRIVMD_327 ",
+        "Convenzione": "GET",
+        "Orario di lavoro": "20:30-7:30",
+        "Giorni": "RANDOM"
+    },
+    {
+        "Nome Postazione": "Croce Rossa Italiana - Varedo",
+        "Coordinate Postazione": "45.5991642,9.1518244",
+        "Mezzo": "MSB",
+        "Nome radio": "CRIVAR_141.07A1 ",
+        "Convenzione": "H24",
+        "Orario di lavoro": "20:00-8:00",
+        "Giorni": "LUN-DOM"
+    },
+    {
+        "Nome Postazione": "Croce Rossa Italiana - Varese",
+        "Coordinate Postazione": "45.7965279,8.846416",
+        "Mezzo": "MSB",
+        "Nome radio": "CRI_VA_108.02A1",
+        "Convenzione": "H24",
+        "Orario di lavoro": "00:00-00:00",
+        "Giorni": "LUN-DOM"
+    },
+    {
+        "Nome Postazione": "Croce Rossa Italiana - Varese",
+        "Coordinate Postazione": "45.7965279,8.846416",
+        "Mezzo": "MSB",
+        "Nome radio": "CRI_VA_125.02B1 ",
+        "Convenzione": "H24",
+        "Orario di lavoro": "00:00-00:00",
+        "Giorni": "LUN-DOM"
+    },
+    {
+        "Nome Postazione": "Croce Rossa Italiana - Varese",
+        "Coordinate Postazione": "45.7965279,8.846416",
+        "Mezzo": "MSB",
+        "Nome radio": "CRI_VA_109.02A2 ",
+        "Convenzione": "H12",
+        "Orario di lavoro": "8:00-20:00",
+        "Giorni": "LUN-DOM"
+    },
+    {
+        "Nome Postazione": "Croce Rossa Italiana - Villasanta",
+        "Coordinate Postazione": "45.6015832,9.3037616",
+        "Mezzo": "MSB",
+        "Nome radio": "CRIVLS_329 ",
+        "Convenzione": "GET",
+        "Orario di lavoro": "20:30-7:30, SAB-DOM 9:00-19:00",
+        "Giorni": "LUN-DOM"
+    },
+    {
+        "Nome Postazione": "Croce San Nicolò",
+        "Coordinate Postazione": "45.841086,9.4080434",
+        "Mezzo": "MSB",
+        "Nome radio": "CRO_LC_136.03A2 ",
+        "Convenzione": "H12",
+        "Orario di lavoro": "7:30-19:30",
+        "Giorni": "LUN-DOM"
+    },
+    {
+        "Nome Postazione": "Croce San Nicolò",
+        "Coordinate Postazione": "45.841086,9.4080434",
+        "Mezzo": "MSB",
+        "Nome radio": "CRO_LC_335",
+        "Convenzione": "GET",
+        "Orario di lavoro": "19:30-6:30",
+        "Giorni": "VEN-SAB"
+    },
+    {
+        "Nome Postazione": "Croce Verde Bosisio",
+        "Coordinate Postazione": "45.8006579,9.2872012",
+        "Mezzo": "MSB",
+        "Nome radio": "VERBOS_112.04A1 ",
+        "Convenzione": "H24",
+        "Orario di lavoro": "00:00-00:00",
+        "Giorni": "LUN-DOM"
+    },
+    {
+        "Nome Postazione": "Croce Verde Fino Mornasco",
+        "Coordinate Postazione": "45.743566,9.052472",
+        "Mezzo": "MSB",
+        "Nome radio": "VERFIN_353",
+        "Convenzione": "GET",
+        "Orario di lavoro": "8:00-20:00",
+        "Giorni": "SAB-DOM"
+    },
+    {
+        "Nome Postazione": "Croce Verde Fino Mornasco",
+        "Coordinate Postazione": "45.743566,9.052472",
+        "Mezzo": "MSB",
+        "Nome radio": "VERFIN_152.04C1 ",
+        "Convenzione": "H24",
+        "Orario di lavoro": "20:00-8:00",
+        "Giorni": "LUN-DOM"
+    },
+    {
+        "Nome Postazione": "Croce Verde Lissone",
+        "Coordinate Postazione": "45.6179265,9.2384601",
+        "Mezzo": "MSB",
+        "Nome radio": "VERLIS_145.04A1 ",
+        "Convenzione": "H24",
+        "Orario di lavoro": "00:00-00:00",
+        "Giorni": "LUN-DOM"
+    },
+    {
+        "Nome Postazione": "Croce Verde Lissone",
+        "Coordinate Postazione": "45.6179265,9.2384601",
+        "Mezzo": "MSB",
+        "Nome radio": "VERLIS_238.04A2",
+        "Convenzione": "H12",
+        "Orario di lavoro": "7:00-19:00",
+        "Giorni": "LUN-DOM"
+    },
+    {
+        "Nome Postazione": "Croce Viola Cesate",
+        "Coordinate Postazione": "45.5891414,9.0704301",
+        "Mezzo": "MSB",
+        "Nome radio": "VIOCST_146.23A1 ",
+        "Convenzione": "H24",
+        "Orario di lavoro": "20:00-8:00",
+        "Giorni": "LUN-DOM"
+    },
+    {
+        "Nome Postazione": "Gazzada Dist. CRI_VA",
+        "Coordinate Postazione": "45.7730789,8.8240692",
+        "Mezzo": "MSB",
+        "Nome radio": "CRI_VA_135.04B2",
+        "Convenzione": "H12",
+        "Orario di lavoro": "8:00-20:00",
+        "Giorni": "LUN-DOM"
+    },
+    {
+        "Nome Postazione": "Gazzada Dist. CRI_VA",
+        "Coordinate Postazione": "45.7730789,8.8240692",
+        "Mezzo": "MSB",
+        "Nome radio": "CRI_VA+333",
+        "Convenzione": "GET",
+        "Orario di lavoro": "20:30-7:30",
+        "Giorni": "VEN-SAB"
+    },
+    {
+        "Nome Postazione": "Inter SOS Dist. Desio",
+        "Coordinate Postazione": "45.6282312,9.2126976",
+        "Mezzo": "MSB",
+        "Nome radio": "INTDES_187.06A1",
+        "Convenzione": "H24",
+        "Orario di lavoro": "00:00-00:00",
+        "Giorni": "LUN-DOM"
+    },
+    {
+        "Nome Postazione": "Lariosoccorso Dongo",
+        "Coordinate Postazione": "46.122947,9.280596",
+        "Mezzo": "MSB",
+        "Nome radio": "LARDON_193.01C1",
+        "Convenzione": "H24",
+        "Orario di lavoro": "00:00-00:00",
+        "Giorni": "LUN-DOM"
+    },
+    {
+        "Nome Postazione": "Lariosoccorso Erba",
+        "Coordinate Postazione": "45.803505,9.228768",
+        "Mezzo": "MSB",
+        "Nome radio": "LARERB_167.06A1 ",
+        "Convenzione": "H24",
+        "Orario di lavoro": "00:00-00:00",
+        "Giorni": "LUN-DOM"
+    },
+    {
+        "Nome Postazione": "Lariosoccorso Erba",
+        "Coordinate Postazione": "45.803505,9.228768",
+        "Mezzo": "MSA2",
+        "Nome radio": "CO_006",
+        "Convenzione": "H12",
+        "Orario di lavoro": "8:00-20:00",
+        "Giorni": "LUN-DOM"
+    },
+    {
+        "Nome Postazione": "Lariosoccorso Erba",
+        "Coordinate Postazione": "45.803505,9.228768",
+        "Mezzo": "MSA1",
+        "Nome radio": "CO_006",
+        "Convenzione": "H12",
+        "Orario di lavoro": "20:00-8:00",
+        "Giorni": "LUN-DOM"
+    },
+    {
+        "Nome Postazione": "Lecco Soccorso",
+        "Coordinate Postazione": "45.841036,9.408472",
+        "Mezzo": "MSB",
+        "Nome radio": "SOC_LC+341",
+        "Convenzione": "GET",
+        "Orario di lavoro": "8:30-19:30",
+        "Giorni": "RANDOM"
+    },
+    {
+        "Nome Postazione": "Limido Dist AZZCAD",
+        "Coordinate Postazione": "45.680589,8.987465",
+        "Mezzo": "MSB",
+        "Nome radio": "AZZCAD_134.04F1 ",
+        "Convenzione": "H24",
+        "Orario di lavoro": "6:00-22:00",
+        "Giorni": "LUN-DOM"
+    },
+    {
+        "Nome Postazione": "Lombardia Soccorso",
+        "Coordinate Postazione": "45.6619637,8.8914252",
+        "Mezzo": "MSB",
+        "Nome radio": "LOSGOR+315",
+        "Convenzione": "GET",
+        "Orario di lavoro": "10:00-16:00, 18:00-00:00",
+        "Giorni": "RANDOM"
+    },
+    {
+        "Nome Postazione": "Missaglia Dist. BIAMER",
+        "Coordinate Postazione": "45.7090561,9.333384",
+        "Mezzo": "MSB",
+        "Nome radio": "BIAMER_120.06B1",
+        "Convenzione": "H24",
+        "Orario di lavoro": "6:00-14:00",
+        "Giorni": "LUN-DOM"
+    },
+    {
+        "Nome Postazione": "Monza Dist. VOLVIM",
+        "Coordinate Postazione": "45.564316,9.27043",
+        "Mezzo": "MSB",
+        "Nome radio": "VOLVIM_451 ",
+        "Convenzione": "AGG",
+        "Orario di lavoro": "6:00-22:00",
+        "Giorni": "LUN-DOM"
+    },
+    {
+        "Nome Postazione": "Monza Dist. VOLVIM",
+        "Coordinate Postazione": "45.564316,9.27043",
+        "Mezzo": "MSB",
+        "Nome radio": "VOLVIM_151.05B1 ",
+        "Convenzione": "H24",
+        "Orario di lavoro": "6:00-22:00",
+        "Giorni": "LUN-DOM"
+    },
+    {
+        "Nome Postazione": "Nesso Dist. SOSCNZ",
+        "Coordinate Postazione": "45.9089868,9.1605779",
+        "Mezzo": "MSB",
+        "Nome radio": "SOSCNZ_161.03C1 ",
+        "Convenzione": "H24",
+        "Orario di lavoro": "8:00-20:00",
+        "Giorni": "LUN-DOM"
+    },
+    {
+        "Nome Postazione": "Padana Emergenza Luino",
+        "Coordinate Postazione": "46.0043885,8.754254",
+        "Mezzo": "MSB",
+        "Nome radio": "PEMLUI_105.01B1 ",
+        "Convenzione": "H24",
+        "Orario di lavoro": "00:00-00:00",
+        "Giorni": "LUN-DOM"
+    },
+    {
+        "Nome Postazione": "Postazione AREU - Bellano",
+        "Coordinate Postazione": "46.04828,9.306907",
+        "Mezzo": "MSA1",
+        "Nome radio": " LC_001",
+        "Convenzione": "H24",
+        "Orario di lavoro": "00:00-00:00",
+        "Giorni": "LUN-DOM"
+    },
+    {
+        "Nome Postazione": "Postazione AREU - Cantù",
+        "Coordinate Postazione": "45.739193,9.14035",
+        "Mezzo": "MSA1",
+        "Nome radio": "CO_005",
+        "Convenzione": "H12",
+        "Orario di lavoro": "8:00-20:00",
+        "Giorni": "LUN-DOM"
+    },
+    {
+        "Nome Postazione": "Postazione AREU - Cantù",
+        "Coordinate Postazione": "45.739193,9.14035",
+        "Mezzo": "MSA2",
+        "Nome radio": "CO_005",
+        "Convenzione": "H12",
+        "Orario di lavoro": "20:00-8:00",
+        "Giorni": "LUN-DOM"
+    },
+    {
+        "Nome Postazione": "Postazione AREU - Desio",
+        "Coordinate Postazione": "45.6269342,9.1963828",
+        "Mezzo": "MSA2",
+        "Nome radio": "MB_003",
+        "Convenzione": "H24",
+        "Orario di lavoro": "00:00-00:00",
+        "Giorni": "LUN-DOM"
+    },
+    {
+        "Nome Postazione": "Postazione AREU - Gallarate",
+        "Coordinate Postazione": "45.6558635,8.7925187",
+        "Mezzo": "MSA2",
+        "Nome radio": "VA_004 ",
+        "Convenzione": "H24",
+        "Orario di lavoro": "00:00-00:00",
+        "Giorni": "LUN-DOM"
+    },
+    {
+        "Nome Postazione": "Postazione AREU - Gravedona",
+        "Coordinate Postazione": "46.142989,9.300284",
+        "Mezzo": "MSA1",
+        "Nome radio": "CO_001 ",
+        "Convenzione": "H24",
+        "Orario di lavoro": "00:00-00:00",
+        "Giorni": "LUN-DOM"
+    },
+    {
+        "Nome Postazione": "Postazione AREU - Lecco",
+        "Coordinate Postazione": "45.852326, 9.415311",
+        "Mezzo": "MSA2",
+        "Nome radio": "LC_002",
+        "Convenzione": "H24",
+        "Orario di lavoro": "00:00-00:00",
+        "Giorni": "LUN-DOM"
+    },
+    {
+        "Nome Postazione": "Postazione AREU - Luino",
+        "Coordinate Postazione": "45.9972301,8.7461974",
+        "Mezzo": "MSA2",
+        "Nome radio": "VA_001 ",
+        "Convenzione": "H24",
+        "Orario di lavoro": "00:00-00:00",
+        "Giorni": "LUN-DOM"
+    },
+    {
+        "Nome Postazione": "Postazione AREU - Menaggio",
+        "Coordinate Postazione": "46.017983,9.228001",
+        "Mezzo": "MSA2",
+        "Nome radio": "CO_002",
+        "Convenzione": "H24",
+        "Orario di lavoro": "00:00-00:00",
+        "Giorni": "LUN-DOM"
+    },
+    {
+        "Nome Postazione": "Postazione AREU - Merate",
+        "Coordinate Postazione": "45.697072, 9.426777",
+        "Mezzo": "MSA1",
+        "Nome radio": "LC_004",
+        "Convenzione": "H24",
+        "Orario di lavoro": "00:00-00:00",
+        "Giorni": "LUN-DOM"
+    },
+    {
+        "Nome Postazione": "Postazione AREU - Molteno",
+        "Coordinate Postazione": "45.778411,9.306803",
+        "Mezzo": "MSA1",
+        "Nome radio": "LC_003",
+        "Convenzione": "H24",
+        "Orario di lavoro": "00:00-00:00",
+        "Giorni": "LUN-DOM"
+    },
+    {
+        "Nome Postazione": "Postazione AREU - Monza",
+        "Coordinate Postazione": "45.6022413,9.2580486",
+        "Mezzo": "MSA2",
+        "Nome radio": "MB_011",
+        "Convenzione": "H24",
+        "Orario di lavoro": "00:00-00:00",
+        "Giorni": "LUN-DOM"
+    },
+    {
+        "Nome Postazione": "Postazione AREU - Saronno",
+        "Coordinate Postazione": "45.630968,9.0387396",
+        "Mezzo": "MSA1",
+        "Nome radio": "MI_012 ",
+        "Convenzione": "H24",
+        "Orario di lavoro": "00:00-00:00",
+        "Giorni": "LUN-DOM"
+    },
+    {
+        "Nome Postazione": "Postazione AREU - Varese",
+        "Coordinate Postazione": "45.8085062,8.8399358",
+        "Mezzo": "MSA2",
+        "Nome radio": "VA_002",
+        "Convenzione": "H24",
+        "Orario di lavoro": "00:00-00:00",
+        "Giorni": "LUN-DOM"
+    },
+    {
+        "Nome Postazione": "Postazione AREU - Vimercate",
+        "Coordinate Postazione": "45.6069618,9.3562818",
+        "Mezzo": "MSA2",
+        "Nome radio": "MB_004",
+        "Convenzione": "H12",
+        "Orario di lavoro": "8:00-20:00",
+        "Giorni": "LUN-DOM"
+    },
+    {
+        "Nome Postazione": "Postazione AREU - Vimercate",
+        "Coordinate Postazione": "45.6069618,9.3562818",
+        "Mezzo": "MSA1",
+        "Nome radio": "MB_004",
+        "Convenzione": "H12",
+        "Orario di lavoro": "20:00-8:00",
+        "Giorni": "LUN-DOM"
+    },
+    {
+        "Nome Postazione": "Seregno Soccorso",
+        "Coordinate Postazione": "45.6468209,9.2087062",
+        "Mezzo": "MSB",
+        "Nome radio": "SOCSER_112.06B1",
+        "Convenzione": "H24",
+        "Orario di lavoro": "00:00-00:00",
+        "Giorni": "LUN-DOM"
+    },
+    {
+        "Nome Postazione": "Soccorso Bellanese",
+        "Coordinate Postazione": "46.0409336,9.3006632",
+        "Mezzo": "MSB",
+        "Nome radio": "SOCBEL_122.01A1 ",
+        "Convenzione": "H24",
+        "Orario di lavoro": "00:00-00:00",
+        "Giorni": "LUN-DOM"
+    },
+    {
+        "Nome Postazione": "Soccorso Centro Valsassina ",
+        "Coordinate Postazione": "45.9773224,9.446444",
+        "Mezzo": "MSB",
+        "Nome radio": "SOCINT_174.02A1",
+        "Convenzione": "H24",
+        "Orario di lavoro": "8:00-20:00",
+        "Giorni": "LUN-DOM"
+    },
+    {
+        "Nome Postazione": "Soccorso Centro Valsassina ",
+        "Coordinate Postazione": "45.9773224,9.446444",
+        "Mezzo": "MSB",
+        "Nome radio": "SOCINT_273 ",
+        "Convenzione": "GET",
+        "Orario di lavoro": "21:00-6:00",
+        "Giorni": "LUN-DOM"
+    },
+    {
+        "Nome Postazione": "Soccorso Mandello del Lario",
+        "Coordinate Postazione": "45.918032,9.3228926",
+        "Mezzo": "MSB",
+        "Nome radio": "SOCMAN_122.01C1 ",
+        "Convenzione": "H24",
+        "Orario di lavoro": "00:00-00:00",
+        "Giorni": "LUN-DOM"
+    },
+    {
+        "Nome Postazione": "Solaro Dist. CRIMIS",
+        "Coordinate Postazione": "45.616564,9.077873",
+        "Mezzo": "MSB",
+        "Nome radio": "CRIMIS_307 ",
+        "Convenzione": "GET",
+        "Orario di lavoro": "22:00-7:00",
+        "Giorni": "LUN-DOM"
+    },
+    {
+        "Nome Postazione": "Somma Lombardo Dist. CRIGAL",
+        "Coordinate Postazione": "45.683377,8.714549",
+        "Mezzo": "MSB",
+        "Nome radio": "CRIGAL_135.05C1",
+        "Convenzione": "H24",
+        "Orario di lavoro": "00:00-00:00",
+        "Giorni": "LUN-DOM"
+    },
+    {
+        "Nome Postazione": "SOS Appiano Gentile",
+        "Coordinate Postazione": "45.733122,8.9889164",
+        "Mezzo": "MSB",
+        "Nome radio": "SOSAPP_169.04A1",
+        "Convenzione": "H24",
+        "Orario di lavoro": "20:00-8:00",
+        "Giorni": "LUN-DOM"
+    },
+    {
+        "Nome Postazione": "SOS Canzo",
+        "Coordinate Postazione": "45.8514634,9.2826358",
+        "Mezzo": "MSB",
+        "Nome radio": "SOSCNZ_166.03B1",
+        "Convenzione": "H24",
+        "Orario di lavoro": "00:00-00:00",
+        "Giorni": "LUN-DOM"
+    },
+    {
+        "Nome Postazione": "SOS dei Laghi Dist Travedona ",
+        "Coordinate Postazione": "45.808006,8.6744576",
+        "Mezzo": "MSB",
+        "Nome radio": "SOSTRA_208.03B1",
+        "Convenzione": "H24",
+        "Orario di lavoro": "00:00-00:00",
+        "Giorni": "LUN-DOM"
+    },
+    {
+        "Nome Postazione": "SOS dei Laghi Dist. Besozzo",
+        "Coordinate Postazione": "45.8416676,8.6641259",
+        "Mezzo": "MSB",
+        "Nome radio": "SOSBES+202",
+        "Convenzione": "GET",
+        "Orario di lavoro": "8:00-14:00",
+        "Giorni": "SAB-DOM"
+    },
+    {
+        "Nome Postazione": "SOS del Seprio Carnago",
+        "Coordinate Postazione": "45.7136074,8.8450277",
+        "Mezzo": "MSB",
+        "Nome radio": "SOSCAR_176.06E2 ",
+        "Convenzione": "H12",
+        "Orario di lavoro": "8:00-20:00",
+        "Giorni": "LUN-DOM"
+    },
+    {
+        "Nome Postazione": "SOS Lurago d Erba",
+        "Coordinate Postazione": "45.750788,9.2213151",
+        "Mezzo": "MSB",
+        "Nome radio": "SOSLRG_167.06E1 ",
+        "Convenzione": "H24",
+        "Orario di lavoro": "00:00-00:00",
+        "Giorni": "LUN-DOM"
+    },
+    {
+        "Nome Postazione": "SOS Malnate",
+        "Coordinate Postazione": "45.8023566,8.8826956",
+        "Mezzo": "MSB",
+        "Nome radio": "SOSMAL_183.02D1",
+        "Convenzione": "H24",
+        "Orario di lavoro": "00:00-00:00",
+        "Giorni": "LUN-DOM"
+    },
+    {
+        "Nome Postazione": "SOS Mozzate",
+        "Coordinate Postazione": "45.6752385,8.9564359",
+        "Mezzo": "MSB",
+        "Nome radio": "SOSMOZ_134.04F1 ",
+        "Convenzione": "H24",
+        "Orario di lavoro": "22:00-6:00",
+        "Giorni": "LUN-DOM"
+    },
+    {
+        "Nome Postazione": "SOS Olgiate Comasco",
+        "Coordinate Postazione": "45.7851213,8.9685263",
+        "Mezzo": "MSB",
+        "Nome radio": "SOSOLG_169.04A1",
+        "Convenzione": "H24",
+        "Orario di lavoro": "8:00-20:00",
+        "Giorni": "LUN-DOM"
+    },
+    {
+        "Nome Postazione": "SOS Tre valli Curnardo",
+        "Coordinate Postazione": "45.933276,8.803148",
+        "Mezzo": "MSB",
+        "Nome radio": "SOSCUN_149.01D1 ",
+        "Convenzione": "H24",
+        "Orario di lavoro": "00:00-00:00",
+        "Giorni": "LUN-DOM"
+    },
+    {
+        "Nome Postazione": "SOS Uboldo",
+        "Coordinate Postazione": "45.6134521,9.0092297",
+        "Mezzo": "MSB",
+        "Nome radio": "SOSUBO_129.23A2 ",
+        "Convenzione": "H12",
+        "Orario di lavoro": "8:00-20:00",
+        "Giorni": "LUN-SAB"
+    },
+    {
+        "Nome Postazione": "SOS Uboldo",
+        "Coordinate Postazione": "45.6134521,9.0092297",
+        "Mezzo": "MSB",
+        "Nome radio": "SOSUBO_328",
+        "Convenzione": "GET",
+        "Orario di lavoro": "20:30-01:30",
+        "Giorni": "SAB-DOM"
+    },
+    {
+        "Nome Postazione": "SOS Valbossa - Azzate",
+        "Coordinate Postazione": "45.7789924,8.7988565",
+        "Mezzo": "MSB",
+        "Nome radio": "SOSAZZ_138.04B1",
+        "Convenzione": "H24",
+        "Orario di lavoro": "00:00-00:00",
+        "Giorni": "LUN-DOM"
+    },
+    {
+        "Nome Postazione": "SOS Valceresio - Besano",
+        "Coordinate Postazione": "45.8881927,8.8872929",
+        "Mezzo": "MSB",
+        "Nome radio": "SOSBES_102.02C1 ",
+        "Convenzione": "H24",
+        "Orario di lavoro": "00:00-00:00",
+        "Giorni": "LUN-DOM"
+    },
+    {
+        "Nome Postazione": "Sumirago Dist. CRIGAL",
+        "Coordinate Postazione": "45.7403116,8.7807055",
+        "Mezzo": "MSB",
+        "Nome radio": "CRIGAL+382",
+        "Convenzione": "GET",
+        "Orario di lavoro": "19:30-00:30",
+        "Giorni": "LUN-DOM"
+    },
+    {
+        "Nome Postazione": "Volontari Ambulanza Angera",
+        "Coordinate Postazione": "45.775637,8.578263",
+        "Mezzo": "MSB",
+        "Nome radio": "VOLANG_102.03A1 ",
+        "Convenzione": "H24",
+        "Orario di lavoro": "00:00-00:00",
+        "Giorni": "LUN-DOM"
+    },
+    {
+        "Nome Postazione": "Volontari Ambulanza Lanzo",
+        "Coordinate Postazione": "45.9789033,9.0230975",
+        "Mezzo": "MSB",
+        "Nome radio": "VOLLAN_731 ",
+        "Convenzione": "GET",
+        "Orario di lavoro": "21:00-6:00",
+        "Giorni": "LUN-DOM"
+    },
+    {
+        "Nome Postazione": "Volontari Ambulanze Angera Sez Sesto Calende",
+        "Coordinate Postazione": "45.7276866,8.6502599",
+        "Mezzo": "MSA1",
+        "Nome radio": "VA_007 ",
+        "Convenzione": "H24",
+        "Orario di lavoro": "00:00-00:00",
+        "Giorni": "LUN-DOM"
+    },
+    {
+        "Nome Postazione": "Volontari Ambulanze Angera Sez Sesto Calende",
+        "Coordinate Postazione": "45.7276866,8.6502599",
+        "Mezzo": "MSB",
+        "Nome radio": "VOLANG_103.03A2 ",
+        "Convenzione": "H12",
+        "Orario di lavoro": "8:00-20:00",
+        "Giorni": "LUN-DOM"
+    },
+    {
+        "Nome Postazione": "Volontari Ambulanze Angera Sez Sesto Calende",
+        "Coordinate Postazione": "45.7276866,8.6502599",
+        "Mezzo": "MSB",
+        "Nome radio": "VOLANG+107",
+        "Convenzione": "GET",
+        "Orario di lavoro": "21:00-7:00",
+        "Giorni": "LUN-DOM"
+    },
+    {
+        "Nome Postazione": "Volontari Calolziocorte",
+        "Coordinate Postazione": "45.8033924,9.4224543",
+        "Mezzo": "MSB",
+        "Nome radio": "VOLCAL_106.05A1",
+        "Convenzione": "H24",
+        "Orario di lavoro": "00:00-00:00",
+        "Giorni": "LUN-DOM"
+    },
+    {
+        "Nome Postazione": "Volontari del soccorso Bellagio",
+        "Coordinate Postazione": "45.97689,9.25868",
+        "Mezzo": "MSB",
+        "Nome radio": "VOLBEL_107.03A1 ",
+        "Convenzione": "H24",
+        "Orario di lavoro": "00:00-00:00",
+        "Giorni": "LUN-DOM"
+    },
+    {
+        "Nome Postazione": "Volontari del soccorso Faggeto Lario",
+        "Coordinate Postazione": "45.8581034,9.1583425",
+        "Mezzo": "MSB",
+        "Nome radio": "VOLFGT_161.03C1 ",
+        "Convenzione": "H24",
+        "Orario di lavoro": "20:00-8:00",
+        "Giorni": "LUN-DOM"
+    },
+    {
+        "Nome Postazione": "Volontari Del Soccorso Veleso",
+        "Coordinate Postazione": "45.9081452,9.1822873",
+        "Mezzo": "MSB",
+        "Nome radio": "VOLVEL_301",
+        "Convenzione": "GET",
+        "Orario di lavoro": "19:00-00:00",
+        "Giorni": "LUN-VEN, SAB-DOM 8:00-16:00"
+    },
+      {
+        "Nome Postazione": "HighCare",
+        "Coordinate Postazione": "45.5720112,9.272325",
+        "Mezzo": "MSB",
+        "Nome radio": "HCR_MB_307",
+        "Convenzione": "GET",
+        "Orario di lavoro": "00:00-00:00",
+        "Giorni": "LUN-VEN"
+    },
+    {
+        "Nome Postazione": "La Varesina Emergenza",
+        "Coordinate Postazione": "45.7453756,8.7698675",
+        "Mezzo": "MSB",
+        "Nome radio": "VARMOR_329",
+        "Convenzione": "GET",
+        "Orario di lavoro": "8:00-18:00",
+        "Giorni": "LUN-VEN"
+    },
+    {
+        "Nome Postazione": "Due Stelle Soccorso",
+        "Coordinate Postazione": "45.7024456,9.1652485",
+        "Mezzo": "MSB",
+        "Nome radio": "SOCMAR_ 311",
+        "Convenzione": "GET",
+        "Orario di lavoro": "8:00-18:00",
+        "Giorni": "LUN-VEN"
+    }
+]
