@@ -1,0 +1,614 @@
+[
+    {
+      "Nome Postazione": "Elisoccorso Latina",
+      "Coordinate Postazione": "41.53481,12.916231",
+      "Mezzo": "ELI",
+      "Nome radio": "ARES 44",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": "Postazione 118 - Cassino Centro",
+      "Coordinate Postazione": "41.4872995,13.8543077",
+      "Mezzo": "AM",
+      "Nome radio": "1142 ",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": "Postazione 118 - Castelforte",
+      "Coordinate Postazione": "41.300715,13.821989",
+      "Mezzo": "ASI",
+      "Nome radio": "1195 ",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": "Postazione 118 - Ceprano Ferrari",
+      "Coordinate Postazione": "41.5500076,13.5084353",
+      "Mezzo": "AM",
+      "Nome radio": "1185 ",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": "Postazione 118 - Cisterna di Latina",
+      "Coordinate Postazione": "41.5896846,12.8230725",
+      "Mezzo": "ASI",
+      "Nome radio": "1393 ",
+      "Convenzione": "H12",
+      "Orario di lavoro": "8:00-20:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": "Postazione 118 - Cisterna Vivaldi",
+      "Coordinate Postazione": "41.5722786,12.8381328",
+      "Mezzo": "ASI",
+      "Nome radio": "1160 ",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": "Postazione 118 - Cori",
+      "Coordinate Postazione": "41.642877,12.913154",
+      "Mezzo": "ASI",
+      "Nome radio": "1162 ",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": "Postazione 118 - Fiuggi",
+      "Coordinate Postazione": "41.7923346,13.2219545",
+      "Mezzo": "AM",
+      "Nome radio": "1141 ",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": "Postazione 118 - Formia Nord",
+      "Coordinate Postazione": "41.2616538,13.6173005",
+      "Mezzo": "ASI",
+      "Nome radio": "1302 ",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": "Postazione 118 - Formia Penitro",
+      "Coordinate Postazione": "41.2733324,13.6955915",
+      "Mezzo": "ASI",
+      "Nome radio": "1282 ",
+      "Convenzione": "H12",
+      "Orario di lavoro": "8:00-20:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": "Postazione 118 - Formia Penitro",
+      "Coordinate Postazione": "41.2733324,13.6955915",
+      "Mezzo": "AM",
+      "Nome radio": "1191 ",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": "Postazione 118 - Gaeta",
+      "Coordinate Postazione": "41.2250411,13.5604918",
+      "Mezzo": "ASI",
+      "Nome radio": "1110",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": "Postazione 118 - Latina Lestrella",
+      "Coordinate Postazione": "41.4534782,12.8814477",
+      "Mezzo": "ASI",
+      "Nome radio": "1163 ",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": "Postazione 118 - Latina OSCI",
+      "Coordinate Postazione": "41.4636767,12.9207574",
+      "Mezzo": "ASI",
+      "Nome radio": "1260 ",
+      "Convenzione": "H12",
+      "Orario di lavoro": "8:00-20:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": "Postazione 118 - Latina OSCI",
+      "Coordinate Postazione": "41.4636767,12.9207574",
+      "Mezzo": "ASI",
+      "Nome radio": "1392 ",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": "Postazione 118 - Latina Scalo",
+      "Coordinate Postazione": "41.5334296,12.9462166",
+      "Mezzo": "ASI",
+      "Nome radio": "1161 ",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": "Postazione 118 - Latina Scalo",
+      "Coordinate Postazione": "41.5334296,12.9462166",
+      "Mezzo": "AM",
+      "Nome radio": "1692 ",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": "Postazione 118 - Pontinia",
+      "Coordinate Postazione": "41.4073598,13.0466238",
+      "Mezzo": "ASI",
+      "Nome radio": "1391 ",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": "Postazione 118 - Ponza",
+      "Coordinate Postazione": "40.909095,12.956356",
+      "Mezzo": "ASM",
+      "Nome radio": "1164 ",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": "Postazione 118 - Priverno Pignatari",
+      "Coordinate Postazione": "41.4882523,13.1549894",
+      "Mezzo": "ASI",
+      "Nome radio": "1390 ",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": "Postazione 118 - Sabaudia",
+      "Coordinate Postazione": "41.30333,13.020345",
+      "Mezzo": "ASI",
+      "Nome radio": "1253 ",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": "Postazione 118 - Sermoneta",
+      "Coordinate Postazione": "41.5654086,12.9694211",
+      "Mezzo": "ASI",
+      "Nome radio": "1379 ",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": "Postazione 118 - Sonnino",
+      "Coordinate Postazione": "41.4309781,13.1987392",
+      "Mezzo": "ASI",
+      "Nome radio": "1071 ",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": "Postazione 118 - Terracina Badino",
+      "Coordinate Postazione": "41.293766,13.2439597",
+      "Mezzo": "AM",
+      "Nome radio": "1264 ",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": "Postazione ARES - Alatri",
+      "Coordinate Postazione": "41.73761,13.334345",
+      "Mezzo": "ASI",
+      "Nome radio": "0712 ",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": "Postazione ARES - Alatri",
+      "Coordinate Postazione": "41.73761,13.334345",
+      "Mezzo": "ASI",
+      "Nome radio": "0746",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": "Postazione ARES - Anagni",
+      "Coordinate Postazione": "41.7414463,13.1628496",
+      "Mezzo": "ASI",
+      "Nome radio": "0742 ",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": "Postazione ARES - Anagni",
+      "Coordinate Postazione": "41.7414463,13.1628496",
+      "Mezzo": "ASI",
+      "Nome radio": "0722 ",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": "Postazione ARES - Aprilia",
+      "Coordinate Postazione": "41.5869314,12.6483384",
+      "Mezzo": "ASI",
+      "Nome radio": "0719 ",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": "Postazione ARES - Aprilia",
+      "Coordinate Postazione": "41.5869314,12.6483384",
+      "Mezzo": "ASI",
+      "Nome radio": "0662 ",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": "Postazione ARES - Arpino",
+      "Coordinate Postazione": "41.6418341,13.6116729",
+      "Mezzo": "ASI",
+      "Nome radio": "0740 ",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": "Postazione ARES - Atina",
+      "Coordinate Postazione": "41.63523,13.781048",
+      "Mezzo": "ASI",
+      "Nome radio": "0724 ",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": "Postazione ARES - Cassino",
+      "Coordinate Postazione": "41.505235,13.843017",
+      "Mezzo": "ASI",
+      "Nome radio": "0694 ",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": "Postazione ARES - Cassino",
+      "Coordinate Postazione": "41.505235,13.843017",
+      "Mezzo": "ASI",
+      "Nome radio": "0717 ",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": "Postazione ARES - Cassino",
+      "Coordinate Postazione": "41.505235,13.843017",
+      "Mezzo": "ASI",
+      "Nome radio": "0736 ",
+      "Convenzione": "H12",
+      "Orario di lavoro": "8:00-20:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": "Postazione ARES - Ceccano",
+      "Coordinate Postazione": "41.571343,13.339567",
+      "Mezzo": "ASI",
+      "Nome radio": "0647 ",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": "Postazione ARES - Ceccano",
+      "Coordinate Postazione": "41.571343,13.339567",
+      "Mezzo": "ASI",
+      "Nome radio": "0735 ",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": "Postazione ARES - Ceprano",
+      "Coordinate Postazione": "41.544704,13.518222",
+      "Mezzo": "ASI",
+      "Nome radio": "0641 ",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": "Postazione ARES - Ceprano",
+      "Coordinate Postazione": "41.544704,13.518222",
+      "Mezzo": "ASI",
+      "Nome radio": "0725 ",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": "Postazione ARES - Cisterna di Latina",
+      "Coordinate Postazione": "41.5943202,12.8240265",
+      "Mezzo": "AM",
+      "Nome radio": "CIS ",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": "Postazione ARES - Ferentino",
+      "Coordinate Postazione": "41.6907054,13.2555992",
+      "Mezzo": "ASI",
+      "Nome radio": "0657 ",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": "Postazione ARES - Fiuggi",
+      "Coordinate Postazione": "41.7910821,13.2236771",
+      "Mezzo": "ASI",
+      "Nome radio": "0644 ",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": "Postazione ARES - Fondi",
+      "Coordinate Postazione": "41.361797,13.415656",
+      "Mezzo": "ASI",
+      "Nome radio": "0660 ",
+      "Convenzione": "H12",
+      "Orario di lavoro": "8:00-20:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": "Postazione ARES - Fondi",
+      "Coordinate Postazione": "41.361797,13.415656",
+      "Mezzo": "ASI",
+      "Nome radio": "0695 ",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": "Postazione ARES - Fondi",
+      "Coordinate Postazione": "41.361797,13.415656",
+      "Mezzo": "AM",
+      "Nome radio": "FON ",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": "Postazione ARES - Formia",
+      "Coordinate Postazione": "41.2689488,13.6303632",
+      "Mezzo": "ASI",
+      "Nome radio": "0699 ",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": "Postazione ARES - Formia",
+      "Coordinate Postazione": "41.2689488,13.6303632",
+      "Mezzo": "ASI",
+      "Nome radio": "0729 ",
+      "Convenzione": "H12",
+      "Orario di lavoro": "8:00-20:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": "Postazione ARES - Frosinone",
+      "Coordinate Postazione": "41.6368509,13.3243041",
+      "Mezzo": "ASI",
+      "Nome radio": "0713 ",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": "Postazione ARES - Frosinone",
+      "Coordinate Postazione": "41.6368509,13.3243041",
+      "Mezzo": "ASI",
+      "Nome radio": "0709 ",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": "Postazione ARES - Frosinone",
+      "Coordinate Postazione": "41.6368509,13.3243041",
+      "Mezzo": "AM",
+      "Nome radio": "FRO ",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": "Postazione ARES - Isola del Liri",
+      "Coordinate Postazione": "41.681453,13.577629",
+      "Mezzo": "ASI",
+      "Nome radio": "0621 ",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": "Postazione ARES - Isola del Liri",
+      "Coordinate Postazione": "41.681453,13.577629",
+      "Mezzo": "AM",
+      "Nome radio": "ISL ",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": "Postazione ARES - Minturno",
+      "Coordinate Postazione": "41.2588954,13.7523396",
+      "Mezzo": "ASI",
+      "Nome radio": "0628 ",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": "Postazione ARES - Pontecorvo",
+      "Coordinate Postazione": "41.4603059,13.6677083",
+      "Mezzo": "ASI",
+      "Nome radio": "0643 ",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": "Postazione ARES - Pontecorvo",
+      "Coordinate Postazione": "41.4603059,13.6677083",
+      "Mezzo": "ASI",
+      "Nome radio": "0666 ",
+      "Convenzione": "H12",
+      "Orario di lavoro": "8:00-20:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": "Postazione ARES - Priverno",
+      "Coordinate Postazione": "41.4545467,13.2013628",
+      "Mezzo": "AM",
+      "Nome radio": "PRI ",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": "Postazione ARES - Sezze",
+      "Coordinate Postazione": "41.5002198,13.0622812",
+      "Mezzo": "ASI",
+      "Nome radio": "0671 ",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": "Postazione ARES - Sora",
+      "Coordinate Postazione": "41.7271056,13.6258871",
+      "Mezzo": "ASI",
+      "Nome radio": "0748",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": "Postazione ARES - Sora",
+      "Coordinate Postazione": "41.7271056,13.6258871",
+      "Mezzo": "ASI",
+      "Nome radio": "0731",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": "Postazione ARES - Terracina",
+      "Coordinate Postazione": "41.2932549,13.2427021",
+      "Mezzo": "ASI",
+      "Nome radio": "0718 ",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": "Postazione ARES - Terracina",
+      "Coordinate Postazione": "41.2932549,13.2427021",
+      "Mezzo": "ASI",
+      "Nome radio": "0732 ",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": "Postazione ARES - Ventotene",
+      "Coordinate Postazione": "40.79859,13.431848",
+      "Mezzo": "ASM",
+      "Nome radio": "0628 ",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": "Postazione ARES - Veroli",
+      "Coordinate Postazione": "41.6924223,13.4201462",
+      "Mezzo": "ASI",
+      "Nome radio": "0622 ",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": "Postazione ARES Estiva - Latina Lido",
+      "Coordinate Postazione": "41.4140184,12.8505294",
+      "Mezzo": "ASI",
+      "Nome radio": "0850 ",
+      "Convenzione": "H12",
+      "Orario di lavoro": "09:00-21:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": "Postazione ARES Estiva- Sabaudia",
+      "Coordinate Postazione": "41.3030194,13.0197104",
+      "Mezzo": "ASI",
+      "Nome radio": "0851 ",
+      "Convenzione": "H12",
+      "Orario di lavoro": "09:00-21:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": "Postazione ARES Estiva - San Felice Circeo",
+      "Coordinate Postazione": "41.2414952,13.0985772",
+      "Mezzo": "ASI",
+      "Nome radio": "0852 ",
+      "Convenzione": "H12",
+      "Orario di lavoro": "09:00-21:00",
+      "Giorni": "LUN-DOM"
+    },
+       {
+      "Nome Postazione": "Postazione ARES Estiva - Sperlonga",
+      "Coordinate Postazione": "41.2588233,13.4305644",
+      "Mezzo": "ASI",
+      "Nome radio": "0853 ",
+      "Convenzione": "H12",
+      "Orario di lavoro": "09:00-21:00",
+      "Giorni": "LUN-DOM"
+    },
+       {
+      "Nome Postazione": "Postazione ARES Estiva - Piana S. Agostino",
+      "Coordinate Postazione": "41.2349163,13.4909553",
+      "Mezzo": "ASI",
+      "Nome radio": "0854 ",
+      "Convenzione": "H12",
+      "Orario di lavoro": "09:00-21:00",
+      "Giorni": "LUN-DOM"
+    }
+]
