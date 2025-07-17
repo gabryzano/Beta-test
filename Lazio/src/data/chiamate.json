@@ -419,7 +419,7 @@
         },
         "caso_critico": {
             "MSB": "Femmina circa 50 anni, incosciente, incastrata, FC 150 bpm, PA non rilevabile. Richiesta MSA. [CTZ]",
-            "ASI": "Femmina, circa 50 anni, GCS 3, politrauma grave, PNX decompresso, trauma addome e bacino, FC 150, PA 70/40, SpO₂ 82%, Bolo 250 di ringer + tranex 1mg Ev, posizionata cintura pelvica, necessario trasporto presso CTZ, richiesta MSA2. [CTZ]",
+            "ASI": "Femmina, circa 50 anni, GCS 3, politrauma grave, PNX decompresso, trauma addome e bacino, FC 150, PA 70/40, SpO₂ 82%, Bolo 250 di ringer + tranex 1mg Ev, posizionata cintura pelvica, necessario trasporto presso CTZ, richiesto supporto medico. [CTZ]",
             "ASM": "Femmina, circa 50 anni, GCS 3, politrauma grave, PNX decompresso, trauma addome e bacino, FC 150, PA 70/40, SpO₂ 82%, Bolo 250 di ringer + tranex 1mg Ev, posizionata cintura pelvica, necessario trasporto presso CTZ. [CTZ]"
                     }
      },
@@ -710,7 +710,7 @@
     "testo_chiamata":"Pronto, c'è stato un brutto incidente a (strada) , un’auto si è scontrata con un camion. una persona sembra sia incastrata in auto, serve aiuto urgente!",
     "caso_stabile": {
         "MSB": "Maschio, 35 anni, incidente frontale auto vs camion, pz incarcerato estratto dai VVF, vigile, trauma toracico ed addominale, PA 130/80 mmHg, FC 95 bpm, SpO₂ 97%, Spinalizzato, anamesi muta. [CTZ]",
-        "ASI": "Maschio, 35 anni, incidente frontale auto vs camion, pz incarcerato estratto dai VVF, vigile, trauma toracico ed addominale, PA 130/80 mmHg, FC 95 bpm, SpO₂ 97%, Spinalizzato, Somministrato fentanil 50 mcg, anamesi muta. [CTZ]",
+        "ASI": "Maschio, 35 anni, incidente frontale auto vs camion, pz incarcerato estratto dai VVF, vigile, trauma toracico ed addominale, PA 130/80 mmHg, FC 95 bpm, SpO₂ 97%, Spinalizzato. [CTZ]",
         "ASM": "Maschio, 35 anni, incidente frontale auto vs camion, pz incarcerato estratto dai VVF, vigile, trauma toracico ed addominale, PA 130/80 mmHg, FC 95 bpm, SpO₂ 97%, Spinalizzato, Somministrato fentanil 50 mcg, anamesi muta. [CTZ]"
       },
       "poco_stabile": {
@@ -720,7 +720,7 @@
       },
       "critico": {
         "MSB": "Maschio, 35 anni, incosciente, policontuso, trauma cranico, torace ed addome, estrazione complessa, PA 70/40 mmHg, FC 150 bpm, SpO₂ 85%, Necessaria MSA. [CTS]",
-        "ASI": "Maschio, 35 anni, GCS 3, incosciente, policontuso, trauma cranico con anisocoria, sospetto PNX, trauma addominale con sospetta frattura di bacino, estrazione complessa, PA 70/40 mmHg, FC 150 bpm, SpO₂ 85%. Eseguita decompresisione pleurica, in corso fisio 250 con tranex 1 gr. Posizionato T-POD e spinale, necessaria centralizzazione. [CTS]",
+        "ASI": "Maschio, 35 anni, GCS 3, incosciente, policontuso, trauma cranico con anisocoria, sospetto PNX, trauma addominale con sospetta frattura di bacino, estrazione complessa, PA 70/40 mmHg, FC 150 bpm, SpO₂ 85%. In corso fisio 250 con tranex 1 gr. Posizionato T-POD e spinale, necessaria centralizzazione. [CTS]",
         "ASM": "Maschio, 35 anni, GCS 3, incosciente, policontuso, trauma cranico con anisocoria, sospetto PNX, trauma addominale con sospetta frattura di bacino, estrazione complessa, PA 70/40 mmHg, FC 150 bpm, SpO₂ 85%. Eseguita decompresisione pleurica, All'eco FAST sospetta emorragia interna, in corso fisio 250 con tranex 1 gr. Intubato, posizionato T-POD e spinale, necessaria centralizzazione. [CTS]"
       }
     },

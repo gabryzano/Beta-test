@@ -519,8 +519,17 @@ class GameUI {
                 }
 
                 // Gestione menu ospedali e codice trasporto
-                // Mostra il menu solo dopo il report del singolo mezzo e se non confermato
-                const showMenu = !m._trasportoConfermato && hasReportPronto;
+                // Mostra il menu solo per mezzi che trasportano pazienti, dopo il report e se non confermato
+                const canTransport = m.tipo_mezzo && (
+                    m.tipo_mezzo.toUpperCase().startsWith('ASI') || 
+                    m.tipo_mezzo.toUpperCase().includes('ELI')
+                ); // Solo ASI ed ELI trasportano direttamente
+                const canAccompany = m.tipo_mezzo && (
+                    m.tipo_mezzo.toUpperCase().startsWith('AM') ||
+                    m.tipo_mezzo === 'MSA1' || 
+                    m.tipo_mezzo === 'MSA2'
+                ); // AM, MSA1, MSA2 possono accompagnare
+                const showMenu = !m._trasportoConfermato && hasReportPronto && (canTransport || canAccompany);
                 if (showMenu) {
                     almenoUnMezzoReportPronto = true;
                     // Reset dei campi solo la prima volta che il menu appare
@@ -567,8 +576,8 @@ class GameUI {
                         return 0;
                     });
 
-                    // Per veicoli MSA1 e MSA2 mostriamo solo rientro o accompagna
-                    if (m.tipo_mezzo === 'MSA1' || m.tipo_mezzo === 'MSA2') {
+                    // Per veicoli MSA1, MSA2 e AM (Automediche) mostriamo solo rientro o accompagna
+                    if (m.tipo_mezzo === 'MSA1' || m.tipo_mezzo === 'MSA2' || m.tipo_mezzo.toUpperCase().startsWith('AM')) {
                         const selectOsp = `<select class='select-ospedale' data-nome='${m.nome_radio}'>`+
                             `<option value="__rientro__">Rientro in sede</option>`+
                             `<option value="__accompagna__">Accompagna in ospedale</option>`+
@@ -674,8 +683,8 @@ class GameUI {
                         const codiceSel = dettagli.querySelector(`.select-codice-trasporto[data-nome='${nome}']`)?.value;
                         const mezzo = mezzi.find(m => m.nome_radio === nome);
                         if (!mezzo) return;
-                        // Escort for MSA1/MSA2: accompany confirmed transport to hospital in Verde
-                        if ((mezzo.tipo_mezzo === 'MSA1' || mezzo.tipo_mezzo === 'MSA2') && ospedaleSel === '__accompagna__') {
+                        // Escort for MSA1/MSA2/AM: accompany confirmed transport to hospital in Verde
+                        if ((mezzo.tipo_mezzo === 'MSA1' || mezzo.tipo_mezzo === 'MSA2' || mezzo.tipo_mezzo.toUpperCase().startsWith('AM')) && ospedaleSel === '__accompagna__') {
                             const lead = mezzi.find(x =>
                                 (call.mezziAssegnati || []).includes(x.nome_radio) &&
                                 (x.tipo_mezzo.startsWith('MSB') || x.tipo_mezzo.endsWith('_A') || x.tipo_mezzo === 'ELI')
@@ -744,7 +753,7 @@ class GameUI {
                         // Se questo mezzo è un MSB/ELI che ha appena confermato, aggiorna eventuali MSA in attesa
                         if ((mezzo.tipo_mezzo.startsWith('MSB') || mezzo.tipo_mezzo.endsWith('_A') || mezzo.tipo_mezzo === 'ELI') && mezzo._trasportoConfermato && mezzo.ospedale) {
                             (mezzi || []).forEach(m => {
-                                if ((m.tipo_mezzo === 'MSA1' || m.tipo_mezzo === 'MSA2') && m._attesaDestinazioneDa === mezzo.nome_radio) {                                    m.ospedale = mezzo.ospedale;
+                                if ((m.tipo_mezzo === 'MSA1' || m.tipo_mezzo === 'MSA2' || m.tipo_mezzo.toUpperCase().startsWith('AM')) && m._attesaDestinazioneDa === mezzo.nome_radio) {                                    m.ospedale = mezzo.ospedale;
                                     m.codice_trasporto = 'Verde';
                                     m._trasportoConfermato = true;
                                     m._reportProntoInviato = true; // Assicuriamoci che il report sia segnato come inviato
@@ -866,10 +875,25 @@ class GameUI {
                 // Calcola missioneId se presente
                 const call = Array.from(window.game.calls.values()).find(c => (c.mezziAssegnati||[]).includes(m.nome_radio));
                 const missioneId = call ? call.missioneId : '';
-                const statoLabel = getStatoLabel(m.stato) || m.stato;
-                const comunicazione = Array.isArray(m.comunicazioni) && m.comunicazioni.length
-                    ? m.comunicazioni[m.comunicazioni.length - 1]
-                    : '';
+                // Stato sempre numerico
+                const statoLabel = m.stato;
+                
+                // Comunicazioni: per stato 7 usa messaggio specifico basato su stato precedente
+                let comunicazione = '';
+                if (m.stato === 7 && m.statoPrecedente) {
+                    if (m.statoPrecedente === 3) {
+                        comunicazione = 'Non trasporta';
+                    } else if (m.statoPrecedente === 2) {
+                        comunicazione = 'Missione interrotta';
+                    } else {
+                        comunicazione = 'Diretto in sede';
+                    }
+                } else {
+                    // Per altri stati, usa l'ultima comunicazione
+                    comunicazione = Array.isArray(m.comunicazioni) && m.comunicazioni.length
+                        ? m.comunicazioni[m.comunicazioni.length - 1]
+                        : '';
+                }
                 // Build row: Nome, Tipo/Convenzione, Stato, Comunicazioni
                 const hasReport = comunicazione.toLowerCase().includes('report pronto');
                 // differenzia report non letto (lampeggio) da report letto
