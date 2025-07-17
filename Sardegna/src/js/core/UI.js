@@ -867,10 +867,25 @@ class GameUI {
                 // Calcola missioneId se presente
                 const call = Array.from(window.game.calls.values()).find(c => (c.mezziAssegnati||[]).includes(m.nome_radio));
                 const missioneId = call ? call.missioneId : '';
-                const statoLabel = getStatoLabel(m.stato) || m.stato;
-                const comunicazione = Array.isArray(m.comunicazioni) && m.comunicazioni.length
-                    ? m.comunicazioni[m.comunicazioni.length - 1]
-                    : '';
+                // Stato sempre numerico
+                const statoLabel = m.stato;
+                
+                // Comunicazioni: per stato 7 usa messaggio specifico basato su stato precedente
+                let comunicazione = '';
+                if (m.stato === 7 && m.statoPrecedente) {
+                    if (m.statoPrecedente === 3) {
+                        comunicazione = 'Non trasporta';
+                    } else if (m.statoPrecedente === 2) {
+                        comunicazione = 'Missione interrotta';
+                    } else {
+                        comunicazione = 'Diretto in sede';
+                    }
+                } else {
+                    // Per altri stati, usa l'ultima comunicazione
+                    comunicazione = Array.isArray(m.comunicazioni) && m.comunicazioni.length
+                        ? m.comunicazioni[m.comunicazioni.length - 1]
+                        : '';
+                }
                 // Build row: Nome, Tipo/Convenzione, Stato, Comunicazioni
                 const hasReport = comunicazione.toLowerCase().includes('report pronto');
                 // differenzia report non letto (lampeggio) da report letto

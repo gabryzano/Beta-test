@@ -522,12 +522,17 @@ class EmergencyDispatchGame {
             if (hour >=7 && hour <19) return lambdaDay;
             return lambdaNight;
         };
+        // Variabile per controllare la generazione automatica delle chiamate
+        window.autoCallsEnabled = true;
+
         const scheduleDynamicCall = () => {
             if (!window.simRunning) { simTimeout(scheduleDynamicCall, 1); return; }
             const rate = getRate();
             const dt = Math.max(1, Math.round(-Math.log(Math.random())/rate));
             simTimeout(() => {
-                this.generateNewCall();
+                if (window.autoCallsEnabled) {
+                    this.generateNewCall();
+                }
                 scheduleDynamicCall();
             }, dt);
         };
@@ -685,8 +690,10 @@ class EmergencyDispatchGame {
                 // Schedule the first call within at most 15 seconds
                 const firstInterval = Math.floor(Math.random() * 16); // seconds (0–15)
                 simTimeout(() => {
-                    this.generateNewCall();
-                    this.scheduleNextCall();
+                    if (window.autoCallsEnabled) {
+                        this.generateNewCall();
+                        this.scheduleNextCall();
+                    }
                 }, firstInterval);
             }
          } catch (e) {
@@ -752,8 +759,12 @@ class EmergencyDispatchGame {
         const interval = Math.round(baseInterval * randomFactor);
 
         simTimeout(() => {
-            this.generateNewCall();
-            this.scheduleNextCall();
+            if (window.autoCallsEnabled) {
+                this.generateNewCall();
+                this.scheduleNextCall();
+            } else {
+                this.scheduleNextCall();
+            }
         }, interval);
     }
 

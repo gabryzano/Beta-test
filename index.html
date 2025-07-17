@@ -6,13 +6,18 @@
     <title>Seleziona Regione - Operatore 118</title>
     <style>
         body {
-            background: radial-gradient(ellipse at center, #e0eafc 0%, #b6c6e6 100%);
+            background: 
+                radial-gradient(ellipse at center, rgba(224, 234, 252, 0.7) 0%, rgba(182, 198, 230, 0.7) 100%),
+                url('sfondo.png') center/cover no-repeat fixed;
             min-height: 100vh;
             display: flex;
             align-items: center;
             justify-content: center;
             font-family: 'Segoe UI', Arial, sans-serif;
             margin: 0;
+            background-size: cover;
+            background-position: center center;
+            background-attachment: fixed;
         }
         .centrale-container {
             background: rgba(255,255,255,0.95);
@@ -79,11 +84,12 @@
 <body>
     <div class="centrale-container">
         <img src="Calabria/src/assets/logo118.png" alt="Logo Centrale Operativa 118" class="logo-centrale">
-        <h1>Seleziona la Centrale Operativa</h1>
+        <h1>Selezionare la Regione</h1>
         <div class="regioni-container">
             <button class="regione-btn" onclick="location.href='Calabria/index.html'">Calabria</button>
             <button class="regione-btn" onclick="location.href='Lazio/index.html'">Lazio</button>
             <button class="regione-btn" onclick="location.href='Lombardia/index.html'">Lombardia</button>
+            <button class="regione-btn" onclick="location.href='Puglia/index.html'">Puglia</button>
             <button class="regione-btn" onclick="location.href='Sardegna/index.html'">Sardegna</button>
         </div>
     </div>

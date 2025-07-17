@@ -238,6 +238,12 @@
                     Silenzia suoni
                 </label>
             </div>
+            <div style="margin-bottom:20px;">
+                <label for="auto-calls" style='display:flex;align-items:center;gap:8px;font-weight:600;color:#333;cursor:pointer;'>
+                    <input type="checkbox" id="auto-calls" name="auto-calls" checked style="width:18px;height:18px;accent-color:#1976d2;">
+                    Generazione automatica chiamate
+                </label>
+            </div>
             <div style="display:flex;gap:12px;justify-content:flex-end;">
                 <button id='sim-settings-cancel' style='padding:10px 20px;border:2px solid #ddd;background:white;color:#666;border-radius:8px;font-weight:600;cursor:pointer;'>Annulla</button>
                 <button id='sim-settings-save' style='padding:10px 20px;border:none;background:linear-gradient(135deg,#1976d2,#1565c0);color:white;border-radius:8px;font-weight:600;cursor:pointer;'>Salva</button>
@@ -378,6 +384,8 @@
                 document.getElementById('sim-minute').value = m;
                 // Sync mute checkbox
                 document.getElementById('mute-sounds').checked = !!window.soundMuted;
+                // Sync auto-calls checkbox
+                document.getElementById('auto-calls').checked = window.autoCallsEnabled !== false;
                 // Sync call frequency slider
                 const slider = document.getElementById('call-frequency-slider');
                 const display = document.getElementById('frequency-display');
@@ -408,6 +416,10 @@
                 
                 // Save mute state
                 window.soundMuted = document.getElementById('mute-sounds')?.checked;
+                
+                // Save auto calls state
+                window.autoCallsEnabled = document.getElementById('auto-calls')?.checked;
+                console.log(`[INFO] Auto calls enabled: ${window.autoCallsEnabled}`);
                 
                 // Save call frequency multiplier
                 const slider = document.getElementById('call-frequency-slider');
