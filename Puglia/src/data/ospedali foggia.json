@@ -1,0 +1,87 @@
+[
+  {
+    "ospedale": "H FOGGIA",
+    "coordinate": {
+      "lat": 41.4571791,
+      "lon": 15.521238
+    },
+    "numero_pazienti_max": 60,
+    "classe": "EAS",
+    "punto_nascita": true,
+    "pediatria": true,
+    "trauma": "CTS",
+    "emodinamica": true,
+    "stroke_unit": true,
+    "nch": true,
+    "rianimazione": true,
+    "psichiatria": true
+  },
+  {
+    "ospedale": "H SAN SEVERO",
+    "coordinate": {
+      "lat": 41.69044,
+      "lon": 15.3862579
+    },
+    "numero_pazienti_max": 30,
+    "classe": "DEA",
+    "punto_nascita": true,
+    "pediatria": true,
+    "trauma": "CTZ",
+    "emodinamica": false,
+    "stroke_unit": false,
+    "nch": false,
+    "rianimazione": true,
+    "psichiatria": false
+  },
+  {
+    "ospedale": "H CERIGNOLA",
+    "coordinate": {
+      "lat": 41.27252,
+      "lon": 15.9183621
+    },
+    "numero_pazienti_max": 30,
+    "classe": "DEA",
+    "punto_nascita": true,
+    "pediatria": true,
+    "trauma": "CTZ",
+    "emodinamica": false,
+    "stroke_unit": false,
+    "nch": false,
+    "rianimazione": true,
+    "psichiatria": false
+  },
+  {
+    "ospedale": "H MANFREDONIA",
+    "coordinate": {
+      "lat": 41.633086,
+      "lon": 15.9190211
+    },
+    "numero_pazienti_max": 20,
+    "classe": "PS",
+    "punto_nascita": true,
+    "pediatria": true,
+    "trauma": "PST",
+    "emodinamica": false,
+    "stroke_unit": false,
+    "nch": false,
+    "rianimazione": false,
+    "psichiatria": true
+  },
+  {
+    "ospedale": "H S. GIOVANNI ROTONDO",
+    "coordinate": {
+      "lat": 41.7086763,
+      "lon": 15.7062555
+    },
+    "numero_pazienti_max": 40,
+    "classe": "DEA",
+    "punto_nascita": true,
+    "pediatria": true,
+    "trauma": "CTZ",
+    "emodinamica": true,
+    "stroke_unit": true,
+    "nch": false,
+    "rianimazione": true,
+    "psichiatria": false
+  }
+]

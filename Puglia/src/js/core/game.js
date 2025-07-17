@@ -323,9 +323,11 @@ function gestisciStato3(mezzo, call) {
         let reportKey = null;
         if (mezzoType.startsWith('MSB')) {
             reportKey = 'MSB';
-        } else if (mezzoType.startsWith('MSA1')) {
+        } else if (mezzoType.startsWith('MSI')) {
+            // MSI usa il report di MSA1
             reportKey = 'MSA1';
-        } else if (mezzoType.startsWith('MSA2')) {
+        } else if (mezzoType.startsWith('MSA') || mezzoType.startsWith('VLV')) {
+            // MSA e VLV usano il report di MSA2
             reportKey = 'MSA2';
         } else if (mezzoType === 'ELI') {
             // ELI uses MSA2 report
@@ -472,33 +474,6 @@ function aggiornaDisponibilitaMezzi() {
         window._lastAvailabilityCheck.giorno = giorno;    }
 }
 
-// Aggiunta una funzione per calcolare il ritardo di partenza in base al tipo di mezzo
-function getRitardoPartenza(tipoMezzo) {
-    if (!tipoMezzo) return randomMinuti(1, 4) * 60; // Default fallback
-    
-    // Normalizza il tipo di mezzo
-    const tipo = tipoMezzo.toUpperCase().trim();
-    
-    // ELI: 5-8 minuti
-    if (tipo.includes('ELI')) {
-        return randomMinuti(5, 8) * 60;
-    }
-    
-    // Mezzi terrestri (MSB, MSA1, MSA1_A, MSA2, MSA2_A): 30 secondi - 3 minuti
-    if (tipo.startsWith('MSB') || tipo.startsWith('MSA1') || tipo.startsWith('MSA2')) {
-        // Converti 30 secondi in frazione di minuto (0.5) e 3 minuti
-        const secondiMin = 30; // 30 secondi
-        const minutiMax = 3;   // 3 minuti
-        
-        // Genera un numero casuale tra 30 secondi e 3 minuti
-        const secondiTotali = Math.random() * (minutiMax * 60 - secondiMin) + secondiMin;
-        return Math.round(secondiTotali);
-    }
-    
-    // Default per altri tipi di mezzi
-    return randomMinuti(1, 4) * 60;
-}
-
 class EmergencyDispatchGame {
     constructor() {
         // Inizializza le proprietà base
@@ -516,8 +491,8 @@ class EmergencyDispatchGame {
             rsa: []
         };
 
-        // Counters for mission numbers per SOREU central
-        this.missionCounter = { SRA: 0, SRL: 0, SRM: 0, SRP: 0 };
+        // Counters for mission numbers per central
+        this.missionCounter = { BA: 0, BR: 0, FG: 0, LE: 0, TA: 0 };
         
         // Verifica che GameUI sia definito prima di creare l'istanza
         if (typeof GameUI === 'undefined') {
@@ -532,6 +507,14 @@ class EmergencyDispatchGame {
             };
         } else {
             this.ui = new GameUI(this);
+        }
+
+        // Aggiungi listener per cambiamenti centrale
+        if (window.centraliManager) {
+            window.centraliManager.onCentralChanged(async (newCentral) => {
+                console.log('[INFO] Cambio centrale detectato:', newCentral);
+                await this.onCentralChanged(newCentral);
+            });
         }
 
         // --- Dynamic call scheduling based on time-of-day ---
@@ -651,6 +634,32 @@ class EmergencyDispatchGame {
                 }
             });
         }, 5);
+    }
+
+    async onCentralChanged(newCentral) {
+        try {
+            // Ricarica mezzi per la nuova centrale
+            await this.loadMezzi();
+            
+            // Ricarica ospedali per la nuova centrale
+            await this.loadHospitals();
+            
+            // Reinizializza la mappa con la nuova posizione
+            this.initializeMap();
+            
+            // Aggiorna markers postazioni e mezzi
+            this.updatePostazioneMarkers();
+            this.updateMezzoMarkers();
+            
+            // Aggiorna UI mezzi
+            if (this.ui && typeof this.ui.updateStatoMezzi === 'function') {
+                this.ui.updateStatoMezzi();
+            }
+            
+            console.log(`[INFO] Cambio centrale completato: ${newCentral}`);
+        } catch (error) {
+            console.error('[ERROR] Errore durante cambio centrale:', error);
+        }
     }
 
     async loadStatiMezzi() {
@@ -797,355 +806,132 @@ class EmergencyDispatchGame {
         if (this.map) {
             this.map.remove();
         }
-        // Determine initial map center and zoom based on selected central
-        let initCenter = [45.685783, 9.636633]; // default Bergamo (SRA)
+        
+        // Determine initial map center and zoom based on selected central using CentraliManager
+        let initCenter = [41.1171, 16.8719]; // default Bari
         const initZoom = 13;
-        switch (window.selectedCentral) {
-            case 'SRM': // Ospedale Niguarda, Milano
-                initCenter = [45.5270, 9.1903]; break;
-            case 'SRP': // Pavia
-                initCenter = [45.1847, 9.1582]; break;
-            case 'SRL': // Como
-                initCenter = [45.8081, 9.0852]; break;
+        
+        if (window.centraliManager && window.centraliManager.getCentraleSelezionata()) {
+            const centraleInfo = window.centraliManager.getCentraleInfo(window.centraliManager.getCentraleSelezionata());
+            if (centraleInfo && centraleInfo.coordinate) {
+                initCenter = centraleInfo.coordinate;
+            }
         }
+        
         this.map = L.map('game-map').setView(initCenter, initZoom);
         L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png').addTo(this.map);
         this.updatePostazioneMarkers();
-    this.updateMezzoMarkers();
+        this.updateMezzoMarkers();
     }
     async loadMezzi() {
-         // Carica mezzi da tutte le centrali in parallelo e assegna campo central
-    const centralFiles = { SRA: 'src/data/mezzi_sra.json', SRL: 'src/data/mezzi_srl.json', SRM: 'src/data/mezzi_srm.json', SRP: 'src/data/mezzi_srp.json' };
-    const allRaw = [];
-    await Promise.all(Object.entries(centralFiles).map(async ([code, path]) => {
-        try {
-            const res = await fetch(path);
-            if (!res.ok) return console.error(`File ${path} mancante (HTTP ${res.status})`);
-            let data = await res.json();
-            if (!Array.isArray(data)) data = Object.values(data).find(v => Array.isArray(v)) || [];
-            data.forEach(item => { allRaw.push({ ...item, central: code }); });
-        } catch (e) { console.error(`Errore fetch ${path}`, e); }
-    }));
-    // Mappa raw in oggetti veicolo
-    this.mezzi = allRaw.map(m => {
-        let lat = m.lat ?? null, lon = m.lon ?? null;
-        if ((!lat || !lon) && m['Coordinate Postazione']) {
-            const coords = m['Coordinate Postazione'].split(',').map(s => Number(s.trim())); lat = coords[0]; lon = coords[1];
+        // Usa CentraliManager per caricare TUTTI i mezzi da tutte le centrali
+        if (!window.centraliManager) {
+            console.error('[ERROR] CentraliManager non disponibile');
+            this.mezzi = [];
+            return;
         }
-        return {
-            nome_radio: (m.nome_radio || m['Nome radio'] || '').trim(),
-            postazione: (m.postazione || m['Nome Postazione'] || '').trim(),
-            tipo_mezzo: m.tipo_mezzo || m.Mezzo || '',
-            convenzione: m.convenzione || m['Convenzione'] || '',
-            Giorni: m.Giorni || m.giorni || 'LUN-DOM',
-            'Orario di lavoro': m['Orario di lavoro'] || '',
-            lat, lon,
-            stato: 1,
-            _marker: null,
-            _callMarker: null,
-            _ospedaleMarker: null,
-            central: m.central
-        };
-    });
-    // Una postazione può ospitare più mezzi (anche con stesso nome_radio)
-    this.postazioniMap = {};
-    this.mezzi.forEach(m => {
-        if (!m.postazione || m.postazione.trim() === "" || !m.lat || !m.lon) return;
-        const key = m.postazione.trim() + '_' + m.lat + '_' + m.lon;
-        const flagKey = 'is' + m.central;
-        if (!this.postazioniMap[key]) {
-            this.postazioniMap[key] = {
-                nome: m.postazione.trim(),
-                lat: m.lat,
-                lon: m.lon,
-                mezzi: [],
-                isCreli: false
-            };
-        }
-        // mark postazione belonging to this central
-        this.postazioniMap[key][flagKey] = true;
-        this.postazioniMap[key].mezzi.push(m);
-    });
 
-            // Load Creli dispatch center vehicles
-            try {
-                const resCreli = await fetch('src/data/Creli.json');
-                let creli = await resCreli.json();
-                if (!Array.isArray(creli)) {
-                    const arr = Object.values(creli).find(v => Array.isArray(v));
-                    creli = arr || [];
-                }
-                creli.forEach(item => {
-                    const nomePost = (item['Nome Postazione'] || '').trim();
-                    if (!nomePost) return;
-                    const coords = item['Coordinate Postazione']?.split(',').map(s => Number(s.trim())) || [];
-                    const lat = coords[0], lon = coords[1];
-                    if (lat == null || lon == null) return;
-                    const mezzo = {
-                        nome_radio: (item['Nome radio'] || '').trim(),
-                        postazione: nomePost,
-                        tipo_mezzo: item['Mezzo'] || '',
-                        convenzione: item['Convenzione'] || '',
-                        Giorni: item['Giorni'] || item['giorni'] || "LUN-DOM",
-                        'Orario di lavoro': item['Orario di lavoro'] || '',
-                        lat, lon, stato: 1, _marker: null, _callMarker: null, _ospedaleMarker: null
-                    };
-                    this.mezzi.push(mezzo);
-                    const key = nomePost + '_' + lat + '_' + lon;
-                    if (!this.postazioniMap[key]) {
-                        this.postazioniMap[key] = { nome: nomePost, lat, lon, mezzi: [], isCreli: true };
-                    }
-                    this.postazioniMap[key].mezzi.push(mezzo);
-                });
-            } catch(e) { console.error('Error loading Creli.json:', e); }
+        // Carica tutti i mezzi da tutte le centrali + HEMS
+        const allMezzi = await window.centraliManager.getAllMezzi();
+        
+        // Filtra mezzi con dati mancanti prima di utilizzarli
+        this.mezzi = allMezzi.filter(m => {
+            const missing = [];
+            if (!m.nome_radio) missing.push('nome_radio');
+            if (!m.postazione) missing.push('postazione');
+            if (!m.lat) missing.push('lat');
+            if (!m.lon) missing.push('lon');
+            const hasValidData = missing.length === 0;
+            if (!hasValidData) {
+                console.warn(`[WARNING] Mezzo ignorato: mancano ${missing.join(', ')} |`, m);
+            }
+            return hasValidData;
+        });
+        
+        // Costruisci mappa postazioni
+        this.postazioniMap = {};
+        this.mezzi.forEach(m => {
+            if (!m.postazione || m.postazione.trim() === "" || !m.lat || !m.lon) return;
+            
+            const key = m.postazione.trim() + '_' + m.lat + '_' + m.lon;
+            
+            if (!this.postazioniMap[key]) {
+                this.postazioniMap[key] = {
+                    nome: m.postazione.trim(),
+                    lat: m.lat,
+                    lon: m.lon,
+                    mezzi: [],
+                    isCreli: false,
+                    centrali: [] // Traccia quali centrali hanno mezzi in questa postazione
+                };
+            }
+            
+            // Traccia la centrale di appartenenza
+            if (m.central && !this.postazioniMap[key].centrali.includes(m.central)) {
+                this.postazioniMap[key].centrali.push(m.central);
+            }
+            
+            // Marca se la postazione appartiene a una centrale specifica o HEMS
+            if (m.central === 'HEMS') {
+                this.postazioniMap[key].isHEMS = true;
+            } else if (m.central) {
+                this.postazioniMap[key][`is${m.central}`] = true;
+            }
+            
+            this.postazioniMap[key].mezzi.push(m);
+        });
 
+        console.log(`[INFO] Caricati ${this.mezzi.length} mezzi da TUTTE le centrali`);
     }
 
     async loadHospitals() {
-        try {           // SRA central: mostra ospedali SRA, Laghi, Metro e Pianura in ordine
-           if (window.selectedCentral === 'SRA') {
-               let hospitalsAll = [];
-               // 1) ospedali.json (SRA senza prefisso)
-               const resBase = await fetch('src/data/ospedali.json');
-               const baseList = await resBase.json();
-               (Array.isArray(baseList)? baseList : Object.values(baseList).find(v=>Array.isArray(v))||[])
-               .forEach(h => {
-                   const coords = (h.COORDINATE||'').split(',').map(s=>Number(s.trim()));
-                   const lat = coords[0], lon = coords[1];
-                   if(lat!=null&&lon!=null) hospitalsAll.push({ nome: h.OSPEDALE?.trim()||'', lat, lon, indirizzo: h.INDIRIZZO||'', raw: h });
-               });
-               // 2) PS SOREU Laghi (prefisso SRL)
-               const resLaghi = await fetch('src/data/PS SOREU laghi.json');
-               const laghiList = await resLaghi.json();
-               (Array.isArray(laghiList)? laghiList : []).forEach(h=>{
-                   const coords=(h.COORDINATE||'').split(',').map(s=>Number(s.trim()));
-                   const lat=coords[0], lon=coords[1];
-                   if(lat!=null&&lon!=null) hospitalsAll.push({ nome: `(SRL) ${h.OSPEDALE?.trim()||''}`, lat, lon, indirizzo: h.INDIRIZZO||'', raw: h });
-               });
-               // 3) PS SOREU Metro (prefisso SRM)
-               const resMetro = await fetch('src/data/PS SOREU Metro.json');
-               const metroList = await resMetro.json();
-               (Array.isArray(metroList)? metroList : []).forEach(h=>{
-                   const coords = (h.COORDINATE||'').split(',').map(s=>Number(s.trim()));
-                   const lat=coords[0], lon=coords[1];
-                   if(lat!=null&&lon!=null) hospitalsAll.push({ nome: `(SRM) ${h.OSPEDALE?.trim()||''}`, lat, lon, indirizzo: h.INDIRIZZO||'', raw: h });
-               });
-               // 4) PS SOREU Pianura (prefisso SRP)
-               const resPianura = await fetch('src/data/PS SOREU pianura.json');
-               const pianuraList = await resPianura.json();
-               (Array.isArray(pianuraList)? pianuraList : []).forEach(h=>{
-                   const coords = (h.COORDINATE||'').split(',').map(s=>Number(s.trim()));
-                   const lat=coords[0], lon=coords[1];
-                   if(lat!=null&&lon!=null) hospitalsAll.push({ nome: `(SRP) ${h.OSPEDALE?.trim()||''}`, lat, lon, indirizzo: h.INDIRIZZO||'', raw: h });
-               });
-               // render markers
-               this.hospitals = hospitalsAll;
-               hospitalsAll.forEach(hosp=>{
-                   const marker = L.marker([hosp.lat, hosp.lon], { icon: this.getHospitalIcon() })
-                       .addTo(this.map)
-                       .bindPopup(`<b>${hosp.nome}</b><br>${hosp.indirizzo||''}`);
-                   hosp._marker = marker;
-               });
-               return;
-           }
-           // SRL central: mostra ospedali Laghi, SRA, Metro e Pianura in ordine
-           if (window.selectedCentral === 'SRL') {
-               let hospitalsAll = [];
-               // 1) PS SOREU Laghi (appare prima)
-               const resLaghi = await fetch('src/data/PS SOREU laghi.json');
-               const laghiList = await resLaghi.json();
-               (Array.isArray(laghiList)? laghiList : []).forEach(h=>{
-                   const coords=(h.COORDINATE||'').split(',').map(s=>Number(s.trim()));
-                   const lat=coords[0], lon=coords[1];
-                   if(lat!=null&&lon!=null) hospitalsAll.push({ nome: h.OSPEDALE?.trim()||'', lat, lon, indirizzo: h.INDIRIZZO||'', raw: h });
-               });
-               // 2) ospedali.json (prefisso SRA)
-               const resBase = await fetch('src/data/ospedali.json');
-               const baseList = await resBase.json();
-               (Array.isArray(baseList)? baseList : Object.values(baseList).find(v=>Array.isArray(v))||[])
-               .forEach(h => {
-                   const coords = (h.COORDINATE||'').split(',').map(s=>Number(s.trim()));
-                   const lat = coords[0], lon = coords[1];
-                   if(lat!=null&&lon!=null) hospitalsAll.push({ nome: `(SRA) ${h.OSPEDALE?.trim()||''}`, lat, lon, indirizzo: h.INDIRIZZO||'', raw: h });
-               });
-               // 3) PS SOREU Metro (prefisso SRM)
-               const resMetro = await fetch('src/data/PS SOREU Metro.json');
-               const metroList = await resMetro.json();
-               (Array.isArray(metroList)? metroList : []).forEach(h=>{
-                   const coords = (h.COORDINATE||'').split(',').map(s=>Number(s.trim()));
-                   const lat=coords[0], lon=coords[1];
-                   if(lat!=null&&lon!=null) hospitalsAll.push({ nome: `(SRM) ${h.OSPEDALE?.trim()||''}`, lat, lon, indirizzo: h.INDIRIZZO||'', raw: h });
-               });
-               // 4) PS SOREU Pianura (prefisso SRP)
-               const resPianura = await fetch('src/data/PS SOREU pianura.json');
-               const pianuraList = await resPianura.json();
-               (Array.isArray(pianuraList)? pianuraList : []).forEach(h=>{
-                   const coords = (h.COORDINATE||'').split(',').map(s=>Number(s.trim()));
-                   const lat=coords[0], lon=coords[1];
-                   if(lat!=null&&lon!=null) hospitalsAll.push({ nome: `(SRP) ${h.OSPEDALE?.trim()||''}`, lat, lon, indirizzo: h.INDIRIZZO||'', raw: h });
-               });
-               // render markers
-               this.hospitals = hospitalsAll;
-               hospitalsAll.forEach(hosp=>{
-                   const marker = L.marker([hosp.lat, hosp.lon], { icon: this.getHospitalIcon() })
-                       .addTo(this.map)
-                       .bindPopup(`<b>${hosp.nome}</b><br>${hosp.indirizzo||''}`);
-                   hosp._marker = marker;
-               });
-               return;
-           }
-           // SRM central: mostra ospedali Metro, Laghi (SRL), Pianura (SRP), SRA in ordine
-           if (window.selectedCentral === 'SRM') {
-               let hospitalsAll = [];
-               // 1) PS SOREU Metro
-               const resMetro = await fetch('src/data/PS SOREU Metro.json');
-               const metroList = await resMetro.json();
-               (Array.isArray(metroList)? metroList : [])
-               .forEach(h=>{
-                   const coords = (h.COORDINATE||'').split(',').map(s=>Number(s.trim()));
-                   const lat = coords[0], lon = coords[1];
-                   if(lat!=null&&lon!=null) hospitalsAll.push({ nome: h.OSPEDALE?.trim()||'', lat, lon, indirizzo: h.INDIRIZZO||'', raw: h });
-               });
-               // 2) PS SOREU Laghi (prefisso SRL)
-               const resLaghi = await fetch('src/data/PS SOREU laghi.json');
-               const laghiList = await resLaghi.json();
-               (Array.isArray(laghiList)? laghiList : []).forEach(h=>{
-                   const coords = (h.COORDINATE||'').split(',').map(s=>Number(s.trim()));
-                   const lat=coords[0], lon=coords[1];
-                   if(lat!=null&&lon!=null) hospitalsAll.push({ nome: `(SRL) ${h.OSPEDALE?.trim()||''}`, lat, lon, indirizzo: h.INDIRIZZO||'', raw: h });
-               });
-               // 3) PS SOREU Pianura (prefisso SRP)
-               const resPianura = await fetch('src/data/PS SOREU pianura.json');
-               const pianuraList = await resPianura.json();
-               (Array.isArray(pianuraList)? pianuraList : []).forEach(h=>{
-                   const coords = (h.COORDINATE||'').split(',').map(s=>Number(s.trim()));
-                   const lat=coords[0], lon=coords[1];
-                   if(lat!=null&&lon!=null) hospitalsAll.push({ nome: `(SRP) ${h.OSPEDALE?.trim()||''}`, lat, lon, indirizzo: h.INDIRIZZO||'', raw: h });
-               });
-               // 4) ospedali.json (prefisso SRA)
-               const resBase = await fetch('src/data/ospedali.json');
-               const baseList = await resBase.json();
-               (Array.isArray(baseList)? baseList : Object.values(baseList).find(v=>Array.isArray(v))||[])
-               .forEach(h=>{
-                   const coords = (h.COORDINATE||'').split(',').map(s=>Number(s.trim()));
-                   const lat = coords[0], lon = coords[1];
-                   if(lat!=null&&lon!=null) hospitalsAll.push({ nome: `(SRA) ${h.OSPEDALE?.trim()||''}`, lat, lon, indirizzo: h.INDIRIZZO||'', raw: h });
-               });
-               // render
-               this.hospitals = hospitalsAll;
-               hospitalsAll.forEach(hosp=>{
-                   const marker = L.marker([hosp.lat,hosp.lon],{icon:this.getHospitalIcon()})
-                       .addTo(this.map)
-                       .bindPopup(`<b>${hosp.nome}</b><br>${hosp.indirizzo||''}`);
-                   hosp._marker=marker;
-               });
-               return;
-           }
-           // SRP central: mostra ospedali PS Pianura, Laghi (SRL), Metro (SRM) e SRA
-           if (window.selectedCentral === 'SRP') {
-               let hospitalsAll = [];
-               // 1) PS SOREU Pianura (appare prima)
-               const resPianura = await fetch('src/data/PS SOREU pianura.json');
-               const pianuraList = await resPianura.json();
-               (Array.isArray(pianuraList) ? pianuraList : []).forEach(h => {
-                   const coords = (h.COORDINATE||'').split(',').map(s=>Number(s.trim()));
-                   const lat = coords[0], lon = coords[1];
-                   if (lat!=null && lon!=null) hospitalsAll.push({ nome: h.OSPEDALE?.trim()||'', lat, lon, indirizzo: h.INDIRIZZO||'', raw: h });
-               });
-               // 2) PS SOREU Laghi (prefisso SRL)
-               const resLaghi = await fetch('src/data/PS SOREU laghi.json');
-               const laghiList = await resLaghi.json();
-               (Array.isArray(laghiList) ? laghiList : []).forEach(h => {
-                   const coords = (h.COORDINATE||'').split(',').map(s=>Number(s.trim()));
-                   const lat = coords[0], lon = coords[1];
-                   if (lat!=null && lon!=null) hospitalsAll.push({ nome: `(SRL) ${h.OSPEDALE?.trim()||''}`, lat, lon, indirizzo: h.INDIRIZZO||'', raw: h });
-               });
-               // 3) PS SOREU Metro (prefisso SRM)
-               const resMetro = await fetch('src/data/PS SOREU Metro.json');
-               const metroList = await resMetro.json();
-               (Array.isArray(metroList) ? metroList : []).forEach(h => {
-                   const coords = (h.COORDINATE||'').split(',').map(s=>Number(s.trim()));
-                   const lat = coords[0], lon = coords[1];
-                   if (lat!=null && lon!=null) hospitalsAll.push({ nome: `(SRM) ${h.OSPEDALE?.trim()||''}`, lat, lon, indirizzo: h.INDIRIZZO||'', raw: h });
-               });
-               // 4) ospedali.json (prefisso SRA)
-               const resBase = await fetch('src/data/ospedali.json');
-               const baseList = await resBase.json();
-               (Array.isArray(baseList) ? baseList : Object.values(baseList).find(v=>Array.isArray(v))||[])
-                   .forEach(h => {
-                       const coords = (h.COORDINATE||'').split(',').map(s=>Number(s.trim()));
-                       const lat = coords[0], lon = coords[1];
-                       if (lat!=null && lon!=null) hospitalsAll.push({ nome: `(SRA) ${h.OSPEDALE?.trim()||''}`, lat, lon, indirizzo: h.INDIRIZZO||'', raw: h });
-                   });
-               // render markers
-               this.hospitals = hospitalsAll;
-               hospitalsAll.forEach(hosp => {
-                   const marker = L.marker([hosp.lat, hosp.lon], { icon: this.getHospitalIcon() })
-                       .addTo(this.map)
-                       .bindPopup(`<b>${hosp.nome}</b><br>${hosp.indirizzo||''}`);
-                   hosp._marker = marker;
-               });
-               return;
-           }
-           // Carica ospedali da ospedali.json (fallback per centrali non riconosciute)
-           const response = await fetch('src/data/ospedali.json');
-            let hospitals = await response.json();
+        try {
+            // Usa CentraliManager per caricare TUTTI gli ospedali da tutte le centrali
+            if (!window.centraliManager) {
+                console.error('[ERROR] CentraliManager non disponibile');
+                this.hospitals = [];
+                return;
+            }
 
-            hospitals = hospitals.map(hosp => {
-                let lat = null, lon = null;
-                if (hosp.COORDINATE) {
-                    const coords = hosp.COORDINATE.split(',').map(s => Number(s.trim()));
-                    lat = coords[0];
-                    lon = coords[1];
-                }
-                return {
-                    nome: hosp.OSPEDALE?.trim() || "",
-                    lat,
-                    lon,
-                    indirizzo: hosp.INDIRIZZO || "",
-                    raw: hosp   // keep original fields for UI recommendations
-                };
-            }).filter(h => h.lat !== null && h.lon !== null && !isNaN(h.lat) && !isNaN(h.lon));
-
-            // Add PS SOREU Laghi hospitals (prefix SRL)
-            try {
-                const resSRL = await fetch('src/data/PS SOREU laghi.json');
-                let srlList = await resSRL.json();
-                (Array.isArray(srlList) ? srlList : []).forEach(h => {
-                    const coords = (h.COORDINATE||'').split(',').map(s => Number(s.trim()));
-                    const lat = coords[0], lon = coords[1];
-                    if (lat != null && lon != null) hospitals.push({ nome: `(SRL) ${h.OSPEDALE?.trim()||''}`, lat, lon, indirizzo: '', raw: h });
+            // Carica tutti gli ospedali da tutte le centrali
+            this.hospitals = await window.centraliManager.getAllOspedali();
+            console.log(`[INFO] Caricati ${this.hospitals.length} ospedali da TUTTE le centrali`);
+            
+            // Ordina gli ospedali: prima quelli della centrale corrente, poi gli altri
+            const currentCentral = (window.selectedCentral || '').trim().toUpperCase();
+            this.hospitals.sort((a, b) => {
+                const aIsCurrent = a.centrale === currentCentral;
+                const bIsCurrent = b.centrale === currentCentral;
+                
+                // Prima i della centrale corrente
+                if (aIsCurrent && !bIsCurrent) return -1;
+                if (!aIsCurrent && bIsCurrent) return 1;
+                
+                // Se entrambi sono della stessa categoria, ordina alfabeticamente per nome
+                return a.nome.localeCompare(b.nome);
+            });
+            
+            // Rimuovi eventuali marker esistenti
+            if (this.hospitals) {
+                this.hospitals.forEach(hosp => {
+                    if (hosp._marker) {
+                        this.map.removeLayer(hosp._marker);
+                        hosp._marker = null;
+                    }
                 });
-            } catch(e) { console.error('Error loading PS SOREU laghi:', e); }
-
-            // Add PS SOREU Metro hospitals (prefix SRM)
-            try {
-                const resSRM = await fetch('src/data/PS SOREU Metro.json');
-                let srmList = await resSRM.json();
-                (Array.isArray(srmList) ? srlList : []).forEach(h => {
-                    const coords = (h.COORDINATE||'').split(',').map(s => Number(s.trim()));
-                    const lat = coords[0], lon = coords[1];
-                    if (lat != null && lon != null) hospitals.push({ nome: `(SRM) ${h.OSPEDALE?.trim()||''}`, lat, lon, indirizzo: '', raw: h });
-                });
-            } catch(e) { console.error('Error loading PS SOREU Metro:', e); }
-
-            // Add PS SOREU Pianura hospitals (prefix SRP)
-            try {
-                const resSRP = await fetch('src/data/PS SOREU pianura.json');
-                let srpList = await resSRP.json();
-                (Array.isArray(srpList) ? srpList : []).forEach(h => {
-                    const coords = (h.COORDINATE||'').split(',').map(s => Number(s.trim()));
-                    const lat = coords[0], lon = coords[1];
-                    if (lat != null && lon != null) hospitals.push({ nome: `(SRP) ${h.OSPEDALE?.trim()||''}`, lat, lon, indirizzo: '', raw: h });
-                });
-            } catch(e) { console.error('Error loading PS SOREU pianura:', e); }
-
-            this.hospitals = hospitals;
-            hospitals.forEach(hosp => {
-                const marker = L.marker([hosp.lat, hosp.lon], { icon: this.getHospitalIcon() }).addTo(this.map)
-                    .bindPopup(`<b>${hosp.nome}</b><br>${hosp.indirizzo || ""}`);
+            }
+            
+            // Crea marker per tutti gli ospedali senza prefissi o descrizioni della centrale
+            this.hospitals.forEach(hosp => {
+                const popupContent = `<b>${hosp.nome}</b><br>${hosp.indirizzo||''}`;
+                    
+                const marker = L.marker([hosp.lat, hosp.lon], { icon: this.getHospitalIcon() })
+                    .addTo(this.map)
+                    .bindPopup(popupContent);
                 hosp._marker = marker;
             });
+            
+            // Aggiorna le missioni in corso se necessario
             if (this.calls && this.ui && typeof this.ui.updateMissioneInCorso === 'function') {
                 Array.from(this.calls.values()).forEach(call => {
                     this.ui.updateMissioneInCorso(call);
@@ -1175,15 +961,12 @@ class EmergencyDispatchGame {
         });
     }
 
-    getPostazioneIcon(hasLiberi, isCreli = false) {
-        // SRL and SRP postazioni also have white background
-        // White background for Creli or any external SOREU central markers
-        const whiteBg = isCreli;
-        // any isSRL, isSRM, isSRP flags passed as isCreli parameter
-        const bg = whiteBg ? "#ffffff" : (hasLiberi ? "#43a047" : "#d32f2f");
+    getPostazioneIcon(hasLiberi, isEsterna = false) {
+        // Usa sfondo bianco per postazioni esterne, altrimenti verde/rosso per disponibilità
+        const bg = isEsterna ? "#ffffff" : (hasLiberi ? "#43a047" : "#d32f2f");
         return L.divIcon({
             className: 'postazione-marker',
-            html: `<div style="font-size:18px;background:${bg};border-radius:6px;width:24px;height:24px;display:flex;align-items:center;justify-content:center;">🏠</div>`,
+            html: `<div style="font-size:18px;background:${bg};border-radius:6px;width:24px;height:24px;display:flex;align-items:center;justify-content:center;border:1px solid #ccc;">🏠</div>`,
             iconSize: [24, 24],  
             iconAnchor: [12, 24],
             popupAnchor: [0, -24]
@@ -1200,61 +983,47 @@ class EmergencyDispatchGame {
         const currentCentral = (window.selectedCentral||'').trim().toUpperCase();
         
         Object.values(this.postazioniMap).forEach(postazione => {
-           // Skip entire postazione if central compatibility doesn't match
-           const postazioniCentral = Object.keys(postazione).find(key => key.startsWith('is') && postazione[key] === true);
-           if (postazioniCentral) {
-               const centralCode = postazioniCentral.substring(2); // Remove "is" prefix
-               if ((currentCentral === 'SRA' && centralCode === 'SRM') || 
-                   (currentCentral === 'SRM' && centralCode === 'SRA')) {
-                   return; // Skip SRA postazioni in SRM view and vice versa
-               }
-           }
+           // Determina se è una postazione HEMS (sfondo bianco)
+           const isHEMS = postazione.isHEMS || false;
+           
+           // Determina se la postazione appartiene alla centrale corrente
+           const belongsToCurrentCentral = postazione[`is${currentCentral}`] || false;
+           
+           // Determina se è una postazione "esterna" (da evidenziare con sfondo bianco)
+           // Include sia HEMS che postazioni di altre centrali
+           let isEsterna = isHEMS || !belongsToCurrentCentral;
             
             const mezziLiberi = (this.mezzi || []).filter(m => {
-               // Filter out vehicles from incompatible centrals
-               const vehicleCentral = (m.central||'').trim().toUpperCase();
-               if ((currentCentral === 'SRA' && vehicleCentral === 'SRM') ||
-                   (currentCentral === 'SRM' && vehicleCentral === 'SRA')) {
-                   return false;
-               }
-                const isDisponibile = m.stato === 1; // è in stato disponibile
-                const inThisPostazione = m.postazione === postazione.nome; // appartiene alla postazione
-                const correctCoordinates = Math.abs(m.lat - postazione.lat) < 0.0001 && 
-                                         Math.abs(m.lon - postazione.lon) < 0.0001; // coordinate corrette
-                
-                return isDisponibile && inThisPostazione && correctCoordinates;
+               const isDisponibile = m.stato === 1; // è in stato disponibile
+               const inThisPostazione = m.postazione === postazione.nome; // appartiene alla postazione
+               const correctCoordinates = Math.abs(m.lat - postazione.lat) < 0.0001 && 
+                                        Math.abs(m.lon - postazione.lon) < 0.0001; // coordinate corrette
+               
+               return isDisponibile && inThisPostazione && correctCoordinates;
             });
             
             const hasLiberi = mezziLiberi.length > 0;
             
             const mezziPostazione = (this.mezzi || []).filter(m =>
-               // Filter out vehicles from incompatible centrals
-               !((currentCentral === 'SRA' && m.central === 'SRM') || 
-                 (currentCentral === 'SRM' && m.central === 'SRA')) &&
-                m.stato !== 8 &&
-                m.postazione === postazione.nome &&
-                Math.abs(m.lat - postazione.lat) < 0.0001 &&
-                Math.abs(m.lon - postazione.lon) < 0.0001
+               m.stato !== 8 &&
+               m.postazione === postazione.nome &&
+               Math.abs(m.lat - postazione.lat) < 0.0001 &&
+               Math.abs(m.lon - postazione.lon) < 0.0001
             );
-              // If no matching vehicles after filtering, skip this postazione
-            // Ottieni tutti i mezzi della postazione (inclusi quelli in stato 8) per garantire 
-            // che tutte le postazioni vengano visualizzate, anche se hanno solo mezzi in stato 8
+              
             const tuttiMezziPostazione = (this.mezzi || []).filter(m =>
-                !((currentCentral === 'SRA' && m.central === 'SRM') || 
-                  (currentCentral === 'SRM' && m.central === 'SRA')) &&
-                m.postazione === postazione.nome &&
-                Math.abs(m.lat - postazione.lat) < 0.0001 &&
-                Math.abs(m.lon - postazione.lon) < 0.0001
+               m.postazione === postazione.nome &&
+               Math.abs(m.lat - postazione.lat) < 0.0001 &&
+               Math.abs(m.lon - postazione.lon) < 0.0001
             );
-            // Se non ci sono proprio mezzi in questa postazione dopo il filtro, allora salta
-            // if (tuttiMezziPostazione.length === 0) return;  // keep station visible even if all vehicles left coordinates
             
             let mezziHtml = '';
             if (mezziPostazione.length > 0) {
                 mezziHtml = mezziPostazione.map(m => {
                     // Aggiungi un identificatore data per facilitare gli aggiornamenti tramite DOM
-                    return `<div data-mezzo-id="${m.nome_radio}">
-                        <b>${m.nome_radio}</b>
+                    const nomeRadio = m.nome_radio || 'Sconosciuto';
+                    return `<div data-mezzo-id="${nomeRadio}">
+                        <b>${nomeRadio}</b>
                         <span style="color:#555;">(${m.tipo_mezzo || '-'}</span>
                         <span style="color:#888;">${m.convenzione ? m.convenzione : ''}</span>)
                     </div>`;
@@ -1263,24 +1032,28 @@ class EmergencyDispatchGame {
                 mezziHtml = `<div style="color:#d32f2f;"><i>Nessun mezzo</i></div>`;
             }
             
-            // SRL, SRP, SRM postazioni should use white background: detect flags
-            // Determine if postazione is external to selected central or a Creli postazione
-            const sel = window.selectedCentral;
-            const isSpecial = postazione.isCreli ||
-                (sel === 'SRA' && (postazione.isSRL || postazione.isSRP)) ||
-                (sel === 'SRL' && (postazione.isSRA || postazione.isSRP || postazione.isSRM)) ||
-                (sel === 'SRM' && (postazione.isSRL || postazione.isSRP)) ||
-                (sel === 'SRP' && (postazione.isSRA || postazione.isSRL || postazione.isSRM));
+            // Determina il nome della centrale di appartenenza per il popup
+            let centraleLabel = '';
+            if (isHEMS) {
+                centraleLabel = ' (HEMS)';
+            } else if (!belongsToCurrentCentral) {
+                // Trova a quale centrale appartiene
+                const centraliList = ['BA', 'BR', 'FG', 'LE', 'TA'];
+                const centraleProp = centraliList.find(c => postazione[`is${c}`]);
+                if (centraleProp) {
+                    centraleLabel = ` (${centraleProp})`;
+                }
+            }
+            
+            // Usa sfondo bianco per postazioni HEMS e centrali esterne
             const marker = L.marker([postazione.lat, postazione.lon], { 
-                icon: this.getPostazioneIcon(hasLiberi, isSpecial) 
+                icon: this.getPostazioneIcon(hasLiberi, isEsterna) 
             }).addTo(this.map)
-            .bindPopup(`<div style="font-weight:bold;font-size:15px;">${postazione.nome}</div>${mezziHtml}`);
+            .bindPopup(`<div style="font-weight:bold;font-size:15px;">${postazione.nome}${centraleLabel}</div>${mezziHtml}`);
             
             marker.on('popupopen', () => {
+                // Aggiorna dati in tempo reale quando si apre il popup
                 const mezziLiberiNow = (this.mezzi || []).filter(m =>
-                   // Filter out vehicles from incompatible centrals
-                   !((currentCentral === 'SRA' && m.central === 'SRM') || 
-                     (currentCentral === 'SRM' && m.central === 'SRA')) &&
                     m.stato === 1 &&
                     m.postazione === postazione.nome &&
                     Math.abs(m.lat - postazione.lat) < 0.0001 &&
@@ -1289,9 +1062,6 @@ class EmergencyDispatchGame {
                 const hasLiberiNow = mezziLiberiNow.length > 0;
                 
                 const mezziPostazioneNow = (this.mezzi || []).filter(m =>
-                   // Filter out vehicles from incompatible centrals
-                   !((currentCentral === 'SRA' && m.central === 'SRM') || 
-                     (currentCentral === 'SRM' && m.central === 'SRA')) &&
                     m.stato !== 8 &&
                     m.postazione === postazione.nome &&
                     Math.abs(m.lat - postazione.lat) < 0.0001 &&
@@ -1301,8 +1071,9 @@ class EmergencyDispatchGame {
                 let mezziHtmlNow = '';
                 if (mezziPostazioneNow.length > 0) {
                     mezziHtmlNow = mezziPostazioneNow.map(m => {
-                        return `<div data-mezzo-id="${m.nome_radio}">
-                            <b>${m.nome_radio}</b>
+                        const nomeRadio = m.nome_radio || 'Sconosciuto';
+                        return `<div data-mezzo-id="${nomeRadio}">
+                            <b>${nomeRadio}</b>
                             <span style="color:#555;">(${m.tipo_mezzo || '-'}</span>
                             <span style="color:#888;">${m.convenzione ? m.convenzione : ''}</span>)
                         </div>`;
@@ -1312,9 +1083,9 @@ class EmergencyDispatchGame {
                 }
                 
                 marker.setPopupContent(
-                    `<div style="font-weight:bold;font-size:15px;">${postazione.nome}</div>${mezziHtmlNow}`
+                    `<div style="font-weight:bold;font-size:15px;">${postazione.nome}${centraleLabel}</div>${mezziHtmlNow}`
                 );
-                marker.setIcon(this.getPostazioneIcon(hasLiberiNow, isSpecial));
+                marker.setIcon(this.getPostazioneIcon(hasLiberiNow, isEsterna));
             });
             
             this._postazioneMarkers.push(marker);
@@ -1323,28 +1094,27 @@ class EmergencyDispatchGame {
 
     updateMezzoMarkers() {
         if (!this.map || !this.mezzi) return;
-        this.mezzi.forEach(m => {
+        
+        // Rimuovi marker esistenti
+        this.mezzi.filter(m => m.nome_radio).forEach(m => {
             if (m._marker) {
                 this.map.removeLayer(m._marker);
                 m._marker = null;
             }
         });
-        this.mezzi.forEach(m => {
-            // Filter out SRA <-> SRM vehicles not belonging to current view
-            const currentCentral = (window.selectedCentral||'').trim().toUpperCase();
-            const vehicleCentral = (m.central||'').trim().toUpperCase();
-            if ((currentCentral === 'SRA' && vehicleCentral === 'SRM') ||
-                (currentCentral === 'SRM' && vehicleCentral === 'SRA')) return;            // Never show markers for vehicles in state 3 (sul posto)
+        
+        // Crea nuovi marker solo per mezzi con nome_radio valido
+        this.mezzi.filter(m => m.nome_radio).forEach(m => {
+            // Never show markers for vehicles in state 3 (sul posto)
             if (m.stato === 3) return;
             // Show markers only for movement states 2, 4 and 7
             if (![2, 4, 7].includes(m.stato)) return;
             
             // Determine icon based on vehicle type
-            let iconUrl = 'src/assets/MSB.png'; // Default icon
+            let iconUrl = 'src/assets/MSB.png'; // Default icon for MSB, MSA, MSI
             if (m.tipo_mezzo && m.tipo_mezzo.toUpperCase().includes('ELI')) {
                 iconUrl = 'src/assets/ELI.png';
-            } else if (m.tipo_mezzo && (m.tipo_mezzo.startsWith('MSA1') || m.tipo_mezzo.startsWith('MSA2'))
-           && m.tipo_mezzo !== 'MSA1_A' && m.tipo_mezzo !== 'MSA2_A') {
+            } else if (m.tipo_mezzo && m.tipo_mezzo.startsWith('VLV')) {
                 iconUrl = 'src/assets/MSA.png';
             }
             
@@ -1356,12 +1126,14 @@ class EmergencyDispatchGame {
                 popupAnchor: [0, -32]
             });
             
-            // Compute displayName with prefix when vehicle from another central
-            const prefixMap = { SRA:['SRL','SRP'], SRL:['SRA','SRM','SRP'], SRM:['SRL','SRP'], SRP:['SRA','SRL','SRM'] };
-            let markerName = m.nome_radio;
-            if (vehicleCentral && prefixMap[currentCentral]?.includes(vehicleCentral)) {
-                markerName = `(${vehicleCentral}) ${m.nome_radio}`;
+            // Compute displayName con controllo di sicurezza
+            let markerName = m.nome_radio || 'Sconosciuto';
+            
+            // Aggiungi prefisso HEMS per distinguere i mezzi HEMS
+            if (m.central === 'HEMS') {
+                markerName = `(HEMS) ${m.nome_radio || 'Sconosciuto'}`;
             }
+            
             // Get stato description
             const statiMezzi = {
                 1: "Libero in sede",
@@ -1449,33 +1221,14 @@ class EmergencyDispatchGame {
     }
 
     generateNewCall() {
-        // Inizializza array per tracciare chiamate recenti se non esiste
-        if (!this.recentChiamate) this.recentChiamate = [];
-        if (!this.recentIndirizzi) this.recentIndirizzi = [];
-        
-        // Seleziona template di chiamata evitando ripetizioni recenti
+        // Seleziona prima il template di chiamata casuale
         let chiamataTemplate = null;
         let testo_chiamata = '';
         if (this.chiamateTemplate) {
             const keys = Object.keys(this.chiamateTemplate);
-            let availableKeys = keys.filter(key => !this.recentChiamate.includes(key));
-            
-            // Se tutti i template sono stati usati di recente, reset della lista
-            if (availableKeys.length === 0) {
-                this.recentChiamate = [];
-                availableKeys = keys;
-            }
-            
-            const sel = availableKeys[Math.floor(Math.random() * availableKeys.length)];
+            const sel = keys[Math.floor(Math.random() * keys.length)];
             chiamataTemplate = this.chiamateTemplate[sel];
             testo_chiamata = chiamataTemplate.testo_chiamata;
-            
-            // Aggiungi alla lista delle chiamate recenti
-            this.recentChiamate.push(sel);
-            // Mantieni solo le ultime 8 chiamate per evitare ripetizioni immediate
-            if (this.recentChiamate.length > 8) {
-                this.recentChiamate.shift();
-            }
         }
         // Determina lista indirizzi in base al placeholder nel testo
         const rawText = testo_chiamata || '';
@@ -1491,30 +1244,8 @@ class EmergencyDispatchGame {
                 sourceList = catMap[key];
             }
         }
-        // Seleziona indirizzo evitando ripetizioni recenti
-        let availableIndices = [];
-        for (let i = 0; i < sourceList.length; i++) {
-            const addr = sourceList[i].indirizzo;
-            if (!this.recentIndirizzi.includes(addr)) {
-                availableIndices.push(i);
-            }
-        }
-        
-        // Se tutti gli indirizzi sono stati usati di recente, reset della lista
-        if (availableIndices.length === 0) {
-            this.recentIndirizzi = [];
-            availableIndices = Array.from({length: sourceList.length}, (_, i) => i);
-        }
-        
-        const idx = availableIndices[Math.floor(Math.random() * availableIndices.length)];
+        const idx = Math.floor(Math.random() * sourceList.length);
         const indirizzo = sourceList[idx] || { indirizzo: 'Indirizzo sconosciuto', lat: 45.68, lon: 9.67 };
-        
-        // Aggiungi alla lista degli indirizzi recenti
-        this.recentIndirizzi.push(indirizzo.indirizzo);
-        // Mantieni solo gli ultimi 15 indirizzi per evitare ripetizioni immediate
-        if (this.recentIndirizzi.length > 15) {
-            this.recentIndirizzi.shift();
-        }
         // Sostituisci ogni placeholder con il label della categoria (solo parte prima della virgola)
         const placeholderRegex = /\((?:indirizzo\s*)?[^)]+\)/gi;
         // Label: parte prima della virgola (es. 'RSA Treviglio')
@@ -1555,8 +1286,8 @@ class EmergencyDispatchGame {
         const year = now.getFullYear();
         const decina = Math.floor((year % 100) / 10);
         const unita = year % 10;
-        const central = window.selectedCentral || 'SRA';
-        const codeMap = { SRA: 1, SRL: 3, SRM: 5, SRP: 7 };
+        const central = window.selectedCentral || 'BA';
+        const codeMap = { BA: 1, BR: 2, FG: 3, LE: 4, TA: 5 };
         const code = codeMap[central] || 1;
         // incrementa contatore progressivo per central
         this.missionCounter[central] = (this.missionCounter[central] || 0) + 1;
@@ -1657,7 +1388,9 @@ class EmergencyDispatchGame {
             const orario = `${String(hh).padStart(2,'0')}:${String(mm).padStart(2,'0')}`;
             const raw = mezzi.filter(m => [1,2].includes(m.stato) && isMezzoOperativo(m, orario));
             const mezziFiltrati = Array.from(
-                new Map(raw.map(m => [m.nome_radio.trim(), m])).values()
+                new Map(raw
+                    .filter(m => m.nome_radio) // Filtra mezzi senza nome_radio
+                    .map(m => [m.nome_radio.trim(), m])).values()
             );
             let html = `<table class='stato-mezzi-table'>
                 <thead><tr>
@@ -1793,8 +1526,8 @@ class EmergencyDispatchGame {
 
         const btnsRapidi = [
             {tipo:'MSB', label:'MSB'},
-            {tipo:'MSA1', label:'MSA1'},
-            {tipo:'MSA2', label:'MSA2'},
+            {tipo:'MSI', label:'MSI'},
+            {tipo:'MSA', label:'MSA'},
             {tipo:'ELI', label:'ELI'}
         ];
         const btnsRapidiDiv = document.getElementById('btnsRapidiMezzi');
@@ -1808,7 +1541,9 @@ class EmergencyDispatchGame {
         const rawMezziFiltrati = mezzi.filter(m => [1,2,6,7].includes(m.stato) || (call.mezziAssegnati||[]).includes(m.nome_radio));
         const mezziFiltrati = Array.from(
             new Map(
-                rawMezziFiltrati.map(m => [m.nome_radio.trim(), m])
+                rawMezziFiltrati
+                    .filter(m => m.nome_radio) // Filtra mezzi senza nome_radio
+                    .map(m => [m.nome_radio.trim(), m])
             ).values()
         );
         let html = `<table class='stato-mezzi-table' style='width:100%;margin-bottom:0;'>
@@ -1868,7 +1603,17 @@ class EmergencyDispatchGame {
                     // Seleziona solo il primo mezzo non ancora selezionato di quel tipo
                     const checkboxes = Array.from(document.querySelectorAll('#mezziAssegnatiScroll input[type=checkbox]'));
                     // Consider only vehicles in state 1, 2 or 7
-                    const mezziTipo = mezziFiltrati.filter(m => m.tipo_mezzo && m.tipo_mezzo.startsWith(tipo) && [1,7].includes(m.stato));
+                    let mezziTipo = [];
+                    if (tipo === 'MSI') {
+                        // Seleziona mezzi di tipo MSI
+                        mezziTipo = mezziFiltrati.filter(m => m.tipo_mezzo && m.tipo_mezzo.startsWith('MSI') && [1,7].includes(m.stato));
+                    } else if (tipo === 'MSA') {
+                        // Seleziona mezzi di tipo MSA e VLV
+                        mezziTipo = mezziFiltrati.filter(m => m.tipo_mezzo && (m.tipo_mezzo.startsWith('MSA') || m.tipo_mezzo.startsWith('VLV')) && [1,7].includes(m.stato));
+                    } else {
+                        // Per MSB, ELI e altri tipi, usa la logica originale
+                        mezziTipo = mezziFiltrati.filter(m => m.tipo_mezzo && m.tipo_mezzo.startsWith(tipo) && [1,7].includes(m.stato));
+                    }
                     for (const m of mezziTipo) {
                         const cb = checkboxes.find(c => c.value === m.nome_radio);
                         if (cb && !cb.checked) {
@@ -2046,30 +1791,20 @@ class EmergencyDispatchGame {
         }
 
         // Esegui dopo che l'UI è stata aggiornata, per mantenere il sistema reattivo
-        // Avvia i movimenti dei mezzi verso la chiamata con ritardi specifici per tipo di mezzo
-        if (window.game && window.game.mezzi) {
-            const mezziDaProcessare = window.game.mezzi.filter(m => 
-                aggiunti.includes(m.nome_radio) && 
-                m.stato === 2 && 
-                !m._inMovimentoMissione && 
-                m.chiamata === call
-            );
-            
-            // Processa ogni mezzo con il suo ritardo specifico
-            mezziDaProcessare.forEach((m, indice) => {
-                // Calcola il ritardo di partenza specifico per questo tipo di mezzo
-                const ritardoPartenza = getRitardoPartenza(m.tipo_mezzo);
-                
-                console.log(`[INFO] Programmata partenza per ${m.nome_radio} (${m.tipo_mezzo}) tra ${Math.round(ritardoPartenza/60)} minuti`);
-                
-                // Programma la partenza del mezzo con il ritardo calcolato
-                simTimeout(() => {
-                    // Ricontrolla che il mezzo sia ancora assegnato a questa chiamata
-                    if (!m.chiamata || m.chiamata.id !== call.id || m._inMovimentoMissione) return;
-                    
+        // Avvia i movimenti dei mezzi verso la chiamata con un ritardo simulato di 1-4 minuti
+        simTimeout(() => {
+            if (window.game && window.game.mezzi) {
+                const mezziDaProcessare = window.game.mezzi.filter(m => 
+                    aggiunti.includes(m.nome_radio) && 
+                    m.stato === 2 && 
+                    !m._inMovimentoMissione && 
+                    m.chiamata === call
+                );
+                const processaBatchMezzi = (indice) => {
+                    if (indice >= mezziDaProcessare.length) return;
+                    const m = mezziDaProcessare[indice];
                     console.log('[INFO] Avvio movimento mezzo verso la nuova chiamata:', m.nome_radio);
-                    
-                    // Calcola la distanza e il tempo necessario
+                      // Calcola la distanza e il tempo necessario
                     const dist = distanzaKm(m.lat, m.lon, call.lat, call.lon);
                     
                     // Usa una versione preimpostata di velocità per ridurre i calcoli
@@ -2077,6 +1812,7 @@ class EmergencyDispatchGame {
                     if (m.tipo_mezzo === 'ELI') velBase = 180;
                     else if (m.tipo_mezzo.startsWith('MSA')) velBase = 60;
                     else velBase = 50; // MSB e altri
+                  
 
                     let riduzione = 0;
                     if (call.codice === 'Rosso') riduzione = 0.15;
@@ -2098,9 +1834,13 @@ class EmergencyDispatchGame {
                         m._inMovimentoMissione = false;
                         gestisciStato3.call(window.game, m, call);
                     });
-                }, ritardoPartenza);
-            });
-        }
+                    
+                    // Passa al prossimo mezzo con un piccolo ritardo per evitare blocchi
+                    setTimeout(() => processaBatchMezzi(indice + 1), 50);
+                };
+                processaBatchMezzi(0);
+            }
+        }, randomMinuti(1, 4) * 60);
     }
 
     gestisciStato7(mezzo) {

@@ -1,0 +1,138 @@
+[
+  {
+    "ospedale": "H LECCE",
+    "coordinate": {
+      "lat": 40.3302324,
+      "lon": 18.1588478
+    },
+    "numero_pazienti_max": 60,
+    "classe": "EAS",
+    "punto_nascita": true,
+    "pediatria": true,
+    "trauma": "CTS",
+    "emodinamica": true,
+    "stroke_unit": true,
+    "nch": true,
+    "rianimazione": true,
+    "psichiatria": true
+  },
+  {
+    "ospedale": "H GALLIPOLI",
+    "coordinate": {
+      "lat": 40.0567034,
+      "lon": 18.0144349
+    },
+    "numero_pazienti_max": 40,
+    "classe": "DEA",
+    "punto_nascita": true,
+    "pediatria": true,
+    "trauma": "CTZ",
+    "emodinamica": false,
+    "stroke_unit": false,
+    "nch": false,
+    "rianimazione": true,
+    "psichiatria": false
+  },
+  {
+    "ospedale": "H SCORRANO",
+    "coordinate": {
+      "lat": 40.0940922,
+      "lon": 18.3012984
+    },
+    "numero_pazienti_max": 40,
+    "classe": "DEA",
+    "punto_nascita": true,
+    "pediatria": true,
+    "trauma": "CTZ",
+    "emodinamica": false,
+    "stroke_unit": false,
+    "nch": false,
+    "rianimazione": true,
+    "psichiatria": true
+  },
+  {
+    "ospedale": "H CASARANO",
+    "coordinate": {
+      "lat": 40.0179526,
+      "lon": 18.1574797
+    },
+    "numero_pazienti_max": 20,
+    "classe": "PS",
+    "punto_nascita": false,
+    "pediatria": false,
+    "trauma": "PST",
+    "emodinamica": false,
+    "stroke_unit": false,
+    "nch": false,
+    "rianimazione": false,
+    "psichiatria": true
+  },
+  {
+    "ospedale": "H GALATINA",
+    "coordinate": {
+      "lat": 40.1763159,
+      "lon": 18.1583374
+    },
+    "numero_pazienti_max": 20,
+    "classe": "PS",
+    "punto_nascita": true,
+    "pediatria": true,
+    "trauma": "PST",
+    "emodinamica": false,
+    "stroke_unit": false,
+    "nch": false,
+    "rianimazione": false,
+    "psichiatria": true
+  },
+  {
+    "ospedale": "H COPERTINO",
+    "coordinate": {
+      "lat": 40.2786242,
+      "lon": 18.0462849
+    },
+    "numero_pazienti_max": 20,
+    "classe": "PS",
+    "punto_nascita": false,
+    "pediatria": false,
+    "trauma": "PST",
+    "emodinamica": false,
+    "stroke_unit": false,
+    "nch": false,
+    "rianimazione": false,
+    "psichiatria": false
+  },
+  {
+    "ospedale": "H TRICASE",
+    "coordinate": {
+      "lat": 39.9362821,
+      "lon": 18.3564109
+    },
+    "numero_pazienti_max": 40,
+    "classe": "DEA",
+    "punto_nascita": true,
+    "pediatria": true,
+    "trauma": "CTZ",
+    "emodinamica": true,
+    "stroke_unit": true,
+    "nch": false,
+    "rianimazione": true,
+    "psichiatria": false
+  },
+  {
+    "ospedale": "H CITTA DI LECCE",
+    "coordinate": {
+      "lat": 40.3407765,
+      "lon": 18.1290616
+    },
+    "numero_pazienti_max": 10,
+    "classe": false,
+    "punto_nascita": false,
+    "pediatria": false,
+    "trauma": false,
+    "emodinamica": true,
+    "stroke_unit": false,
+    "nch": false,
+    "rianimazione": false,
+    "psichiatria": false
+  }
+]

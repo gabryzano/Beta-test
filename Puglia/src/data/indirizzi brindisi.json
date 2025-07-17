@@ -1,0 +1,8 @@
+[
+ { "indirizzo abitazione": "Via Francesco Crispi, 34 – 70123 Bari BA", "lat": 41.1245709, "lon": 16.8590629 },
+ { "RSA": "RSA Bari Via Gaetano Postiglione, 14/D - 70126 Bari BA", "lat": 41.1123442, "lon": 16.8771654 },
+ { "Strada": "SS16 - 70124 Bari BA", "lat": 41.1030093, "lon": 16.8211435 },
+ { "Scuola": "IIS Bari Via Celso Ulpiani, 6 - 70124 Bari BA", "lat": 41.1107265, "lon": 16.8780869 },
+ { "impianto sportivo": "Centro Sportivo Bari Via Onofrio Lattanzio – 70125 Bari BA", "lat": 41.0904498, "lon": 16.8722677 },
+ { "impianto lavorativo": "Bridgestone Via delle Margherite, 40 – 70026 Modugno BA", "lat": 41.1034426, "lon": 16.7971304 }
+]

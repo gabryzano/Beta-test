@@ -1,0 +1,62 @@
+{
+  "BA": {
+    "codice": "BA",
+    "nome": "Bari Soccorso",
+    "provincia": "Bari",
+    "coordinate": [41.1171, 16.8719],
+    "telefono": "080-123456",
+    "email": "bari.soccorso@118puglia.it",
+    "mezziFile": "src/data/mezzi bari.json",
+    "ospedaliFile": "src/data/ospedali bari.json",
+    "indirizziFile": "src/data/indirizzi bari.json",
+    "centraliCollegate": ["BR", "FG", "LE", "TA"]
+  },
+  "BR": {
+    "codice": "BR", 
+    "nome": "Brindisi Soccorso",
+    "provincia": "Brindisi",
+    "coordinate": [40.6386, 17.9463],
+    "telefono": "0831-123456",
+    "email": "brindisi.soccorso@118puglia.it",
+    "mezziFile": "src/data/mezzi brindisi.json",
+    "ospedaliFile": "src/data/ospedali brindisi.json",
+    "indirizziFile": "src/data/indirizzi brindisi.json",
+    "centraliCollegate": ["BA", "FG", "LE", "TA"]
+  },
+  "FG": {
+    "codice": "FG",
+    "nome": "Foggia Soccorso", 
+    "provincia": "Foggia",
+    "coordinate": [41.4621, 15.5445],
+    "telefono": "0881-123456",
+    "email": "foggia.soccorso@118puglia.it",
+    "mezziFile": "src/data/mezzi foggia.json",
+    "ospedaliFile": "src/data/ospedali foggia.json",
+    "indirizziFile": "src/data/indirizzi foggia.json",
+    "centraliCollegate": ["BA", "BR", "LE", "TA"]
+  },
+  "LE": {
+    "codice": "LE",
+    "nome": "Lecce Soccorso",
+    "provincia": "Lecce", 
+    "coordinate": [40.3515, 18.1750],
+    "telefono": "0832-123456",
+    "email": "lecce.soccorso@118puglia.it",
+    "mezziFile": "src/data/mezzi lecce.json",
+    "ospedaliFile": "src/data/ospedali lecce.json",
+    "indirizziFile": "src/data/indirizzi lecce.json",
+    "centraliCollegate": ["BA", "BR", "FG", "TA"]
+  },
+  "TA": {
+    "codice": "TA",
+    "nome": "Taranto Soccorso",
+    "provincia": "Taranto",
+    "coordinate": [40.4668, 17.2725],
+    "telefono": "099-123456", 
+    "email": "taranto.soccorso@118puglia.it",
+    "mezziFile": "src/data/mezzi taranto.json",
+    "ospedaliFile": "src/data/ospedali taranto.json",
+    "indirizziFile": "src/data/indirizzi taranto.json",
+    "centraliCollegate": ["BA", "BR", "FG", "LE"]
+  }
+}

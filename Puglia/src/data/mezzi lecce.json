@@ -1,0 +1,335 @@
+[
+  {
+    "Nome Postazione": "Croce Rossa Italiana Lecce",
+    "Coordinate Postazione": "40.356388,18.166801",
+    "Mezzo": "MSI",
+    "Nome radio": "INDIA CRI",
+    "Convenzione": "H8",
+    "Orario di lavoro": "16:00-00:00",
+    "Giorni": "LUN-DOM"
+  },
+  {
+    "Nome Postazione": "Croce Rossa Italiana Lecce",
+    "Coordinate Postazione": "40.356388,18.166801",
+    "Mezzo": "MSI",
+    "Nome radio": "INDIA CRI",
+    "Convenzione": "H4",
+    "Orario di lavoro": "9:00-13:00",
+    "Giorni": "SAB-DOM"
+  },
+  {
+    "Nome Postazione": "Croce Rossa Italiana Leverano",
+    "Coordinate Postazione": "40.2893701,17.9956254",
+    "Mezzo": "MSB",
+    "Nome radio": "VICTOR LEVERANO",
+    "Convenzione": "H4",
+    "Orario di lavoro": "18:00-22:00",
+    "Giorni": "LUN-DOM"
+  },
+  {
+    "Nome Postazione": "Guagnano Soccorso",
+    "Coordinate Postazione": "40.401025,17.949788",
+    "Mezzo": "MSB",
+    "Nome radio": "VICTOR GUAGNANO",
+    "Convenzione": "H24",
+    "Orario di lavoro": "00:00-00:00",
+    "Giorni": "LUN-DOM"
+  },
+  {
+    "Nome Postazione": "S.E.T. 118 - Campi Salentina",
+    "Coordinate Postazione": "40.402869,18.013028",
+    "Mezzo": "VLV",
+    "Nome radio": "AM CAMPI",
+    "Convenzione": "H24",
+    "Orario di lavoro": "00:00-00:00",
+    "Giorni": "LUN-DOM"
+  },
+  {
+    "Nome Postazione": "S.E.T. 118 - Campi Salentina",
+    "Coordinate Postazione": "40.402869,18.013028",
+    "Mezzo": "MSI",
+    "Nome radio": "INDIA CAMPI",
+    "Convenzione": "H24",
+    "Orario di lavoro": "00:00-00:00",
+    "Giorni": "LUN-DOM"
+  },
+  {
+    "Nome Postazione": "S.E.T. 118 - Casarano",
+    "Coordinate Postazione": "40.017862,18.157374",
+    "Mezzo": "VLV",
+    "Nome radio": "AM CASARANO",
+    "Convenzione": "H24",
+    "Orario di lavoro": "00:00-00:00",
+    "Giorni": "LUN-DOM"
+  },
+  {
+    "Nome Postazione": "S.E.T. 118 - Casarano",
+    "Coordinate Postazione": "40.017862,18.157374",
+    "Mezzo": "MSI",
+    "Nome radio": "INDIA CASARANO",
+    "Convenzione": "H24",
+    "Orario di lavoro": "00:00-00:00",
+    "Giorni": "LUN-DOM"
+  },
+  {
+    "Nome Postazione": "S.E.T. 118 - Copertino",
+    "Coordinate Postazione": "40.278763,18.046056",
+    "Mezzo": "MSA",
+    "Nome radio": "MIKE COPERTINO",
+    "Convenzione": "H24",
+    "Orario di lavoro": "00:00-00:00",
+    "Giorni": "LUN-DOM"
+  },
+  {
+    "Nome Postazione": "S.E.T. 118 - Gagliano del Capo",
+    "Coordinate Postazione": "39.84517,18.365193",
+    "Mezzo": "VLV",
+    "Nome radio": "AM GAGLIANO",
+    "Convenzione": "H24",
+    "Orario di lavoro": "00:00-00:00",
+    "Giorni": "LUN-DOM"
+  },
+  {
+    "Nome Postazione": "S.E.T. 118 - Gagliano del Capo",
+    "Coordinate Postazione": "39.84517,18.365193",
+    "Mezzo": "MSI",
+    "Nome radio": "INDIA GAGLIANO",
+    "Convenzione": "H24",
+    "Orario di lavoro": "00:00-00:00",
+    "Giorni": "LUN-DOM"
+  },
+  {
+    "Nome Postazione": "S.E.T. 118 - Galatina",
+    "Coordinate Postazione": "40.175917,18.158566",
+    "Mezzo": "VLV",
+    "Nome radio": "AM GALATINA",
+    "Convenzione": "H24",
+    "Orario di lavoro": "00:00-00:00",
+    "Giorni": "LUN-DOM"
+  },
+  {
+    "Nome Postazione": "S.E.T. 118 - Galatina",
+    "Coordinate Postazione": "40.175917,18.158566",
+    "Mezzo": "MSI",
+    "Nome radio": "INDIA GALATINA",
+    "Convenzione": "H24",
+    "Orario di lavoro": "00:00-00:00",
+    "Giorni": "LUN-DOM"
+  },
+  {
+    "Nome Postazione": "S.E.T. 118 - Gallipoli",
+    "Coordinate Postazione": "40.0590568,17.9925369",
+    "Mezzo": "MSA",
+    "Nome radio": "MIKE GALLIPOLI",
+    "Convenzione": "H24",
+    "Orario di lavoro": "00:00-00:00",
+    "Giorni": "LUN-DOM"
+  },
+  {
+    "Nome Postazione": "S.E.T. 118 - Gallipoli",
+    "Coordinate Postazione": "40.0590568,17.9925369",
+    "Mezzo": "MSB",
+    "Nome radio": "VICTOR GALLIPOLI",
+    "Convenzione": "H24",
+    "Orario di lavoro": "00:00-00:00",
+    "Giorni": "LUN-DOM"
+  },
+  {
+    "Nome Postazione": "S.E.T. 118 - Lecce S. Oronzo",
+    "Coordinate Postazione": "40.353214,18.171898",
+    "Mezzo": "MSI",
+    "Nome radio": "INDIA S. ORONZO",
+    "Convenzione": "H24",
+    "Orario di lavoro": "00:00-00:00",
+    "Giorni": "LUN-DOM"
+  },
+  {
+    "Nome Postazione": "S.E.T. 118 - Lecce V. Fazzi Nuovo",
+    "Coordinate Postazione": "40.3317378,18.1569032",
+    "Mezzo": "VLV",
+    "Nome radio": "AM FAZZI",
+    "Convenzione": "H24",
+    "Orario di lavoro": "00:00-00:00",
+    "Giorni": "LUN-DOM"
+  },
+  {
+    "Nome Postazione": "S.E.T. 118 - Lecce V. Fazzi Nuovo",
+    "Coordinate Postazione": "40.3317378,18.1569032",
+    "Mezzo": "MSI",
+    "Nome radio": "INDIA FAZZI",
+    "Convenzione": "H24",
+    "Orario di lavoro": "00:00-00:00",
+    "Giorni": "LUN-DOM"
+  },
+  {
+    "Nome Postazione": "S.E.T. 118 - Lecce V. Fazzi Nuovo",
+    "Coordinate Postazione": "40.3317378,18.1569032",
+    "Mezzo": "MSI",
+    "Nome radio": "INDIA SPOKE",
+    "Convenzione": "H9",
+    "Orario di lavoro": "00:00-9:00",
+    "Giorni": "LUN-DOM"
+  },
+  {
+    "Nome Postazione": "S.E.T. 118 - Lecce V. Fazzi Nuovo",
+    "Coordinate Postazione": "40.3317378,18.1569032",
+    "Mezzo": "MSI",
+    "Nome radio": "INDIA SPOKE",
+    "Convenzione": "H3",
+    "Orario di lavoro": "13:00-16:00",
+    "Giorni": "LUN-DOM"
+  },
+  {
+    "Nome Postazione": "S.E.T. 118 - Lecce V. Fazzi Nuovo",
+    "Coordinate Postazione": "40.3317378,18.1569032",
+    "Mezzo": "MSI",
+    "Nome radio": "INDIA SPOKE",
+    "Convenzione": "H4",
+    "Orario di lavoro": "9:00-13:00",
+    "Giorni": "LUN-VEN"
+  },
+  {
+    "Nome Postazione": "S.E.T. 118 - Lecce V. Fazzi Vecchio",
+    "Coordinate Postazione": "40.345357,18.177673",
+    "Mezzo": "VLV",
+    "Nome radio": "AM CENTRO",
+    "Convenzione": "H24",
+    "Orario di lavoro": "00:00-00:00",
+    "Giorni": "LUN-DOM"
+  },
+  {
+    "Nome Postazione": "S.E.T. 118 - Lecce V. Fazzi Vecchio",
+    "Coordinate Postazione": "40.345357,18.177673",
+    "Mezzo": "MSI",
+    "Nome radio": "INDIA CENTRO",
+    "Convenzione": "H24",
+    "Orario di lavoro": "00:00-00:00",
+    "Giorni": "LUN-DOM"
+  },
+  {
+    "Nome Postazione": "S.E.T. 118 - Lecce Viale Libertà",
+    "Coordinate Postazione": "40.3567731,18.1849288",
+    "Mezzo": "MSI",
+    "Nome radio": "INDIA STADIO",
+    "Convenzione": "H24",
+    "Orario di lavoro": "00:00-00:00",
+    "Giorni": "LUN-DOM"
+  },
+  {
+    "Nome Postazione": "S.E.T. 118 - Lecce Viale Libertà",
+    "Coordinate Postazione": "40.3567731,18.1849288",
+    "Mezzo": "MSB",
+    "Nome radio": "VICTOR VELE",
+    "Convenzione": "H24",
+    "Orario di lavoro": "00:00-00:00",
+    "Giorni": "LUN-DOM"
+  },
+  {
+    "Nome Postazione": "S.E.T. 118 - Maglie",
+    "Coordinate Postazione": "40.12037,18.293523",
+    "Mezzo": "MSA",
+    "Nome radio": "MIKE MAGLIE",
+    "Convenzione": "H24",
+    "Orario di lavoro": "00:00-00:00",
+    "Giorni": "LUN-DOM"
+  },
+  {
+    "Nome Postazione": "S.E.T. 118 - Martano",
+    "Coordinate Postazione": "40.2038603,18.3047704",
+    "Mezzo": "VLV",
+    "Nome radio": "AM MARTANO",
+    "Convenzione": "H24",
+    "Orario di lavoro": "00:00-00:00",
+    "Giorni": "LUN-DOM"
+  },
+  {
+    "Nome Postazione": "S.E.T. 118 - Martano",
+    "Coordinate Postazione": "40.2038603,18.3047704",
+    "Mezzo": "MSI",
+    "Nome radio": "INDIA MARTANO",
+    "Convenzione": "H24",
+    "Orario di lavoro": "00:00-00:00",
+    "Giorni": "LUN-DOM"
+  },
+  {
+    "Nome Postazione": "S.E.T. 118 - Nardò",
+    "Coordinate Postazione": "40.1718,18.035243",
+    "Mezzo": "MSI",
+    "Nome radio": "INDIA NARDO",
+    "Convenzione": "H24",
+    "Orario di lavoro": "00:00-00:00",
+    "Giorni": "LUN-DOM"
+  },
+  {
+    "Nome Postazione": "S.E.T. 118 - Nardò",
+    "Coordinate Postazione": "40.1718,18.035243",
+    "Mezzo": "MSA",
+    "Nome radio": "MIKE NARDO",
+    "Convenzione": "H24",
+    "Orario di lavoro": "00:00-00:00",
+    "Giorni": "LUN-DOM"
+  },
+  {
+    "Nome Postazione": "S.E.T. 118 - Otranto",
+    "Coordinate Postazione": "40.137355,18.483273",
+    "Mezzo": "MSA",
+    "Nome radio": "MIKE OTRANTO",
+    "Convenzione": "H24",
+    "Orario di lavoro": "00:00-00:00",
+    "Giorni": "LUN-DOM"
+  },
+  {
+    "Nome Postazione": "S.E.T. 118 - Poggiardo",
+    "Coordinate Postazione": "40.058317,18.37447",
+    "Mezzo": "MSA",
+    "Nome radio": "MIKE POGGIARDO",
+    "Convenzione": "H24",
+    "Orario di lavoro": "00:00-00:00",
+    "Giorni": "LUN-DOM"
+  },
+  {
+    "Nome Postazione": "S.E.T. 118 - Scorrano",
+    "Coordinate Postazione": "40.094448,18.300641",
+    "Mezzo": "VLV",
+    "Nome radio": "AM SCORRANO",
+    "Convenzione": "H24",
+    "Orario di lavoro": "00:00-00:00",
+    "Giorni": "LUN-DOM"
+  },
+  {
+    "Nome Postazione": "S.E.T. 118 - Scorrano",
+    "Coordinate Postazione": "40.094448,18.300641",
+    "Mezzo": "MSI",
+    "Nome radio": "INDIA SCORRANO",
+    "Convenzione": "H24",
+    "Orario di lavoro": "00:00-00:00",
+    "Giorni": "LUN-DOM"
+  },
+  {
+    "Nome Postazione": "S.E.T. 118 - Tricase",
+    "Coordinate Postazione": "39.938667,18.354169",
+    "Mezzo": "MSA",
+    "Nome radio": "MIKE TRICASE",
+    "Convenzione": "H24",
+    "Orario di lavoro": "00:00-00:00",
+    "Giorni": "LUN-DOM"
+  },
+  {
+    "Nome Postazione": "S.E.T. 118 - Ugento",
+    "Coordinate Postazione": "39.9328217,18.1567333",
+    "Mezzo": "MSI",
+    "Nome radio": "INDIA UGENTO",
+    "Convenzione": "H24",
+    "Orario di lavoro": "00:00-00:00",
+    "Giorni": "LUN-DOM"
+  },
+  {
+    "Nome Postazione": "S.E.T. 118 - Veglie",
+    "Coordinate Postazione": "40.343772,17.9688108",
+    "Mezzo": "MSA",
+    "Nome radio": "MIKE VEGLIE",
+    "Convenzione": "H24",
+    "Orario di lavoro": "00:00-00:00",
+    "Giorni": "LUN-DOM"
+  }
+]

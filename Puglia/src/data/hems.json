@@ -1,0 +1,29 @@
+[
+  {
+    "Nome Postazione": "BASE HEMS Matera",
+    "Coordinate Postazione": "40.653062, 16.613949",
+    "Mezzo": "ELI",
+    "Nome radio": "SKT 02",
+    "Convenzione": "H12",
+    "Orario di lavoro": "7:30-19:30",
+    "Giorni": "LUN-DOM"
+  },
+  {
+    "Nome Postazione": "BASE HEMS Potenza",
+    "Coordinate Postazione": "40.652779, 15.803802",
+    "Mezzo": "ELI",
+    "Nome radio": "SKT 01",
+    "Convenzione": "H24",
+    "Orario di lavoro": "00:00-00:00",
+    "Giorni": "LUN-DOM"
+  },
+    {
+    "Nome Postazione": "Base Elisoccorso",
+    "Coordinate Postazione": "41.4243448,15.5345765",
+    "Mezzo": "ELI",
+    "Nome radio": "HEMS",
+    "Convenzione": "H24",
+    "Orario di lavoro": "00:00-00:00",
+    "Giorni": "lun-dom"
+  }
+]

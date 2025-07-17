@@ -75,12 +75,13 @@
         <div class="central-logo">
           <img src="src/assets/logo gioco.png" alt="Logo Gioco" />
         </div>
-        <h2>Seleziona la SOREU</h2>
+        <h2>Seleziona la Centrale Operativa</h2>
         <select id="central-select">
-          <option value="SRA">SOREU Alpina</option>
-          <option value="SRL">SOREU Laghi</option>
-          <option value="SRM">SOREU Metropolitana</option>
-          <option value="SRP">SOREU Pianura</option>
+          <option value="BA">Bari Soccorso</option>
+          <option value="BR">Brindisi Soccorso</option>
+          <option value="FG">Foggia Soccorso</option>
+          <option value="LE">Lecce Soccorso</option>
+          <option value="TA">Taranto Soccorso</option>
         </select>
         <button id="start-central">Avvia simulazione</button>
       </div>
@@ -89,6 +90,10 @@
     <header>
         <div class="header-left">
             <span class="header-title">Simulatore Centrale Operativa</span>
+            <div id="centrale-info" style="font-size:12px;color:#666;margin-top:4px;display:none;">
+                <span id="centrale-corrente"></span>
+                <span id="centrali-collegate" style="margin-left:8px;"></span>
+            </div>
         </div>
         <div class="header-controls" style="display:flex;align-items:center;gap:16px;margin-left:32px;">
             <label for="sim-speed" style="font-size:14px;">Velocità:</label>
@@ -259,6 +264,7 @@
     <script src="src/js/utils/orariMezzi.js"></script>
     
     <!-- Then load core files -->
+    <script src="src/js/core/CentraliManager.js"></script>
     <script src="src/js/core/UI.js"></script>
     <script src="src/js/core/game.js"></script>
     <!-- Initialize the game after selecting central -->
@@ -266,20 +272,29 @@
     document.getElementById('start-central').onclick = async () => {
         // Save selected central
         window.selectedCentral = document.getElementById('central-select').value;
+        
+        // Initialize CentraliManager
+        await window.centraliManager.loadCentrali();
+        window.centraliManager.setCentraleSelezionata(window.selectedCentral);
+        
         // Hide overlay
         document.getElementById('central-selector').style.display = 'none';
-        // Aggiorna il titolo in topbar con la SOREU selezionata
+        
+        // Aggiorna il titolo in topbar con la centrale selezionata
         const sel = document.getElementById('central-select');
         const hdr = document.querySelector('.header-title');
         if (hdr) hdr.textContent = sel.options[sel.selectedIndex].text;
-        // Load corresponding indirizzi file for selected central
+        
+        // Aggiorna informazioni centrali
+        updateCentraleInfo();
+        
+        // Load indirizzi for selected central using CentraliManager
         try {
-            const path = `src/data/indirizzi ${window.selectedCentral}.json`;
-            const resp = await fetch(path);
-            const data = await resp.json();
+            const indirizzi = await window.centraliManager.loadIndirizziCentrale(window.selectedCentral);
+            
             // Costruisci mappa categorie per selezione indirizzo in generateNewCall
             window.categorieIndirizzi = {};
-            data.forEach(item => {
+            indirizzi.forEach(item => {
                 Object.keys(item).forEach(prop => {
                     if (prop === 'lat' || prop === 'lon') return;
                     const key = prop.trim().toLowerCase().replace(/\s+/g, '_');
@@ -312,6 +327,54 @@
         window.game = new EmergencyDispatchGame();
         game.initialize();
     };
+
+    // Funzione globale per cambiare centrale dinamicamente
+    window.changeCentral = async function(newCentral) {
+        if (!window.game) return;
+        
+        // Aggiorna la centrale selezionata
+        window.selectedCentral = newCentral;
+        window.centraliManager.setCentraleSelezionata(newCentral);
+        
+        // Ricarica indirizzi per la nuova centrale usando CentraliManager
+        try {
+            const indirizzi = await window.centraliManager.loadIndirizziCentrale(newCentral);
+            
+            window.categorieIndirizzi = {};
+            indirizzi.forEach(item => {
+                Object.keys(item).forEach(prop => {
+                    if (prop === 'lat' || prop === 'lon') return;
+                    const key = prop.trim().toLowerCase().replace(/\s+/g, '_');
+                    window.categorieIndirizzi[key] = window.categorieIndirizzi[key] || [];
+                    window.categorieIndirizzi[key].push({
+                        indirizzo: item[prop],
+                        lat: item.lat,
+                        lon: item.lon
+                    });
+                });
+            });
+            window.indirizziReali = Object.values(window.categorieIndirizzi).flat();
+        } catch (e) {
+            console.error('Error loading indirizzi:', e);
+        }
+        
+        // Ricarica gli ospedali
+        await window.game.loadHospitals();
+        
+        // Reinizializza la mappa con la nuova posizione
+        window.game.initializeMap();
+        
+        // Aggiorna markers postazioni e mezzi
+        window.game.updatePostazioneMarkers();
+        window.game.updateMezzoMarkers();
+        
+        // Aggiorna UI
+        if (window.game.ui && typeof window.game.ui.updateStatoMezzi === 'function') {
+            window.game.ui.updateStatoMezzi();
+        }
+        
+        console.log(`Centrale cambiata a: ${newCentral}`);
+    };
     </script>
     
     <!-- Initialize the game -->
@@ -337,8 +400,8 @@
                 document.getElementById('sim-minute').value = m;
                 // Sync mute checkbox
                 document.getElementById('mute-sounds').checked = !!window.soundMuted;
-                // Sync auto calls checkbox
-                document.getElementById('auto-calls').checked = window.autoCallsEnabled !== false; // default true
+                // Sync auto-calls checkbox
+                document.getElementById('auto-calls').checked = window.autoCallsEnabled !== false;
                 // Sync call frequency slider
                 const slider = document.getElementById('call-frequency-slider');
                 const display = document.getElementById('frequency-display');
@@ -453,6 +516,41 @@
                 };
             }
         })();
+    </script>
+    <script>
+        // Funzione per aggiornare le informazioni della centrale corrente
+        function updateCentraleInfo() {
+            const centraleInfo = document.getElementById('centrale-info');
+            const centraleCorrente = document.getElementById('centrale-corrente');
+            const centraliCollegate = document.getElementById('centrali-collegate');
+            
+            if (!window.centraliManager || !centraleInfo) return;
+            
+            const codiceCentrale = window.centraliManager.getCentraleSelezionata();
+            if (!codiceCentrale) return;
+            
+            const centrali = window.centraliManager.centrali;
+            if (!centrali || !centrali[codiceCentrale]) return;
+            
+            const centrale = centrali[codiceCentrale];
+            centraleCorrente.textContent = `Operando da: ${centrale.nome}`;
+            
+            // Mostra tutte le altre centrali come collegate
+            const altreCentrali = Object.values(centrali)
+                .filter(c => c.codice !== codiceCentrale)
+                .map(c => c.nome)
+                .join(', ');
+            
+            centraliCollegate.textContent = `Centrali visibili: ${altreCentrali}`;
+            centraleInfo.style.display = 'block';
+        }
+        
+        // Ascolta i cambiamenti di centrale per aggiornare le info
+        if (window.centraliManager) {
+            window.centraliManager.onCentralChanged(() => {
+                updateCentraleInfo();
+            });
+        }
     </script>
 </body>
 </html>
