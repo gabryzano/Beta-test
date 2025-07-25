@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
     <link rel="icon" type="image/png" href="src/assets/logo118.png">
+    <link rel="icon" type="image/x-icon" href="src/assets/logo118.png">
     <style>
         .draggable-popup {
             position: fixed;
@@ -60,7 +61,7 @@
             font-size: 14px;
             border-radius: 5px;
         }
-        .central-selector-overlay { position:fixed; top:0; left:0; width:100%; height:100%; background:rgba(0,0,0,0.8); display:flex; justify-content:center; align-items:center; z-index:20000; }
+        .central-selector-overlay { position:fixed; top:0; left:0; width:100%; height:100%; background:rgba(0,0,0,0.8) url('src/assets/sfondo.png') center center/cover no-repeat; display:flex; justify-content:center; align-items:center; z-index:20000; }
         .central-selector-content { background:#fff; padding:24px; border-radius:8px; text-align:center; }
         .central-logo img { max-width:200px; margin-bottom:16px; }
         .central-selector-content h2 { margin-bottom:12px; }
@@ -90,10 +91,6 @@
     <header>
         <div class="header-left">
             <span class="header-title">Simulatore Centrale Operativa</span>
-            <div id="centrale-info" style="font-size:12px;color:#666;margin-top:4px;display:none;">
-                <span id="centrale-corrente"></span>
-                <span id="centrali-collegate" style="margin-left:8px;"></span>
-            </div>
         </div>
         <div class="header-controls" style="display:flex;align-items:center;gap:16px;margin-left:32px;">
             <label for="sim-speed" style="font-size:14px;">Velocità:</label>
@@ -285,8 +282,7 @@
         const hdr = document.querySelector('.header-title');
         if (hdr) hdr.textContent = sel.options[sel.selectedIndex].text;
         
-        // Aggiorna informazioni centrali
-        updateCentraleInfo();
+        // Aggiorna informazioni centrali (rimosso: updateCentraleInfo eliminata)
         
         // Load indirizzi for selected central using CentraliManager
         try {
@@ -517,40 +513,6 @@
             }
         })();
     </script>
-    <script>
-        // Funzione per aggiornare le informazioni della centrale corrente
-        function updateCentraleInfo() {
-            const centraleInfo = document.getElementById('centrale-info');
-            const centraleCorrente = document.getElementById('centrale-corrente');
-            const centraliCollegate = document.getElementById('centrali-collegate');
-            
-            if (!window.centraliManager || !centraleInfo) return;
-            
-            const codiceCentrale = window.centraliManager.getCentraleSelezionata();
-            if (!codiceCentrale) return;
-            
-            const centrali = window.centraliManager.centrali;
-            if (!centrali || !centrali[codiceCentrale]) return;
-            
-            const centrale = centrali[codiceCentrale];
-            centraleCorrente.textContent = `Operando da: ${centrale.nome}`;
-            
-            // Mostra tutte le altre centrali come collegate
-            const altreCentrali = Object.values(centrali)
-                .filter(c => c.codice !== codiceCentrale)
-                .map(c => c.nome)
-                .join(', ');
-            
-            centraliCollegate.textContent = `Centrali visibili: ${altreCentrali}`;
-            centraleInfo.style.display = 'block';
-        }
-        
-        // Ascolta i cambiamenti di centrale per aggiornare le info
-        if (window.centraliManager) {
-            window.centraliManager.onCentralChanged(() => {
-                updateCentraleInfo();
-            });
-        }
-    </script>
+    <!-- Rimosso codice info centrale dalla topbar -->
 </body>
 </html>

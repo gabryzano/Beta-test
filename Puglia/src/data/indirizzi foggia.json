@@ -1,8 +1,262 @@
 [
- { "indirizzo abitazione": "Via Francesco Crispi, 34 – 70123 Bari BA", "lat": 41.1245709, "lon": 16.8590629 },
- { "RSA": "RSA Bari Via Gaetano Postiglione, 14/D - 70126 Bari BA", "lat": 41.1123442, "lon": 16.8771654 },
- { "Strada": "SS16 - 70124 Bari BA", "lat": 41.1030093, "lon": 16.8211435 },
- { "Scuola": "IIS Bari Via Celso Ulpiani, 6 - 70124 Bari BA", "lat": 41.1107265, "lon": 16.8780869 },
- { "impianto sportivo": "Centro Sportivo Bari Via Onofrio Lattanzio – 70125 Bari BA", "lat": 41.0904498, "lon": 16.8722677 },
- { "impianto lavorativo": "Bridgestone Via delle Margherite, 40 – 70026 Modugno BA", "lat": 41.1034426, "lon": 16.7971304 }
+ { "indirizzo abitazione": "Via Arpi, 71121 Foggia FG", "lat": 41.4622, "lon": 15.5446 }
+,{ "indirizzo abitazione": "Via Manzoni, 71036 Lucera FG", "lat": 41.5051, "lon": 15.3382 }
+,{ "indirizzo abitazione": "Via Roma, 71042 Cerignola FG", "lat": 41.2631, "lon": 15.9002 }
+,{ "indirizzo abitazione": "Via Vittorio Veneto, 71043 Manfredonia FG", "lat": 41.6275, "lon": 15.9101 }
+,{ "indirizzo abitazione": "Via XX Settembre, 71016 San Severo FG", "lat": 41.6851, "lon": 15.3792 }
+,{ "indirizzo abitazione": "Via Aldo Moro, 71017 Torremaggiore FG", "lat": 41.6932, "lon": 15.2951 }
+,{ "indirizzo abitazione": "Via Roma, 71011 Apricena FG", "lat": 41.7831, "lon": 15.4512 }
+,{ "indirizzo abitazione": "Via Garibaldi, 71013 San Giovanni Rotondo FG", "lat": 41.7062, "lon": 15.7262 }
+,{ "indirizzo abitazione": "Via Bari, 71010 San Nicandro Garganico FG", "lat": 41.8381, "lon": 15.5652 }
+,{ "indirizzo abitazione": "Via Roma, 71018 Vieste FG", "lat": 41.8851, "lon": 16.1752 }
+,{ "indirizzo abitazione": "Via Manzoni, 71019 Vieste FG", "lat": 41.8855, "lon": 16.1760 }
+,{ "indirizzo abitazione": "Via Roma, 71023 Bovino FG", "lat": 41.2401, "lon": 15.3402 }
+,{ "RSA": "RSA Bovino, Via Roma, 71023 Bovino FG", "lat": 41.2415, "lon": 15.3415 }
+,{ "Scuola": "I.C. Bovino, Via Garibaldi, 71023 Bovino FG", "lat": 41.2412, "lon": 15.3412 }
+,{ "impianto sportivo": "Campo Sportivo, Via Vittorio Veneto, 71023 Bovino FG", "lat": 41.2418, "lon": 15.3418 }
+,{ "impianto lavorativo": "Zona Industriale, 71023 Bovino FG", "lat": 41.2420, "lon": 15.3420 }
+,{ "Strada": "SP121 Bovino-Deliceto, Km 4 - 71023 Bovino FG", "lat": 41.2422, "lon": 15.3422 }
+,{ "RSA": "RSA Candela, Via Roma, 71024 Candela FG", "lat": 41.1675, "lon": 15.5455 }
+,{ "Scuola": "I.C. Candela, Via Garibaldi, 71024 Candela FG", "lat": 41.1672, "lon": 15.5452 }
+,{ "impianto sportivo": "Campo Sportivo, Via Vittorio Veneto, 71024 Candela FG", "lat": 41.1678, "lon": 15.5458 }
+,{ "impianto lavorativo": "Zona Industriale, 71024 Candela FG", "lat": 41.1680, "lon": 15.5460 }
+,{ "Strada": "SS655 Candela-Foggia, Km 7 - 71024 Candela FG", "lat": 41.1682, "lon": 15.5462 }
+,{ "RSA": "RSA Deliceto, Via Roma, 71026 Deliceto FG", "lat": 41.1875, "lon": 15.3885 }
+,{ "Scuola": "I.C. Deliceto, Via Garibaldi, 71026 Deliceto FG", "lat": 41.1872, "lon": 15.3882 }
+,{ "impianto sportivo": "Campo Sportivo, Via Vittorio Veneto, 71026 Deliceto FG", "lat": 41.1878, "lon": 15.3888 }
+,{ "impianto lavorativo": "Zona Industriale, 71026 Deliceto FG", "lat": 41.1880, "lon": 15.3890 }
+,{ "Strada": "SP130 Deliceto-Accadia, Km 5 - 71026 Deliceto FG", "lat": 41.1882, "lon": 15.3892 }
+,{ "RSA": "RSA Orsara, Via Roma, 71027 Orsara di Puglia FG", "lat": 41.2685, "lon": 15.2315 }
+,{ "Scuola": "I.C. Orsara, Via Garibaldi, 71027 Orsara di Puglia FG", "lat": 41.2682, "lon": 15.2312 }
+,{ "impianto sportivo": "Campo Sportivo, Via Vittorio Veneto, 71027 Orsara di Puglia FG", "lat": 41.2688, "lon": 15.2318 }
+,{ "impianto lavorativo": "Zona Industriale, 71027 Orsara di Puglia FG", "lat": 41.2690, "lon": 15.2320 }
+,{ "Strada": "SP125 Orsara-Bovino, Km 2 - 71027 Orsara di Puglia FG", "lat": 41.2692, "lon": 15.2322 }
+,{ "RSA": "RSA Panni, Via Roma, 71028 Panni FG", "lat": 41.2685, "lon": 15.2275 }
+,{ "Scuola": "I.C. Panni, Via Garibaldi, 71028 Panni FG", "lat": 41.2682, "lon": 15.2272 }
+,{ "impianto sportivo": "Campo Sportivo, Via Vittorio Veneto, 71028 Panni FG", "lat": 41.2688, "lon": 15.2278 }
+,{ "impianto lavorativo": "Zona Industriale, 71028 Panni FG", "lat": 41.2690, "lon": 15.2280 }
+,{ "Strada": "SP126 Panni-Accadia, Km 1 - 71028 Panni FG", "lat": 41.2692, "lon": 15.2282 }
+,{ "indirizzo abitazione": "Via Garibaldi, 71024 Candela FG", "lat": 41.1661, "lon": 15.5442 }
+,{ "indirizzo abitazione": "Via Roma, 71025 Castelluccio dei Sauri FG", "lat": 41.3281, "lon": 15.5632 }
+,{ "indirizzo abitazione": "Via Vittorio Veneto, 71026 Deliceto FG", "lat": 41.1861, "lon": 15.3872 }
+,{ "indirizzo abitazione": "Via Roma, 71027 Orsara di Puglia FG", "lat": 41.2661, "lon": 15.2292 }
+,{ "indirizzo abitazione": "Via Garibaldi, 71028 Panni FG", "lat": 41.2661, "lon": 15.2262 }
+,{ "indirizzo abitazione": "Via Roma, 71029 Rocchetta Sant'Antonio FG", "lat": 41.1661, "lon": 15.4872 }
+,{ "indirizzo abitazione": "Via Vittorio Veneto, 71030 Sant'Agata di Puglia FG", "lat": 41.1661, "lon": 15.3872 }
+,{ "indirizzo abitazione": "Via Roma, 71031 Torremaggiore FG", "lat": 41.6932, "lon": 15.2951 }
+,{ "indirizzo abitazione": "Via Garibaldi, 71032 Biccari FG", "lat": 41.3831, "lon": 15.2292 }
+,{ "indirizzo abitazione": "Via Roma, 71033 Carlantino FG", "lat": 41.5831, "lon": 15.2292 }
+,{ "indirizzo abitazione": "Via Vittorio Veneto, 71034 Celenza Valfortore FG", "lat": 41.5831, "lon": 15.2292 }
+,{ "indirizzo abitazione": "Via Roma, 71035 Pietramontecorvino FG", "lat": 41.5331, "lon": 15.2292 }
+,{ "indirizzo abitazione": "Via Garibaldi, 71037 Monte Sant'Angelo FG", "lat": 41.7071, "lon": 15.9602 }
+,{ "indirizzo abitazione": "Via Roma, 71038 Sannicandro Garganico FG", "lat": 41.8381, "lon": 15.5652 }
+,{ "indirizzo abitazione": "Via Vittorio Veneto, 71039 Vico del Gargano FG", "lat": 41.9301, "lon": 15.9562 }
+,{ "indirizzo abitazione": "Via Roma, 71040 Carpino FG", "lat": 41.8381, "lon": 15.8442 }
+,{ "indirizzo abitazione": "Via Garibaldi, 71041 Lesina FG", "lat": 41.8661, "lon": 15.3502 }
+,{ "indirizzo abitazione": "Via Roma, 71044 Margherita di Savoia BT", "lat": 41.3701, "lon": 16.1452 }
+,{ "indirizzo abitazione": "Via Vittorio Veneto, 71045 Orta Nova FG", "lat": 41.3281, "lon": 15.7102 }
+,{ "indirizzo abitazione": "Via Roma, 71046 San Ferdinando di Puglia BT", "lat": 41.3001, "lon": 16.0402 }
+,{ "indirizzo abitazione": "Via Garibaldi, 71047 Stornara FG", "lat": 41.3001, "lon": 15.8002 }
+,{ "indirizzo abitazione": "Via Roma, 71048 Stornarella FG", "lat": 41.3001, "lon": 15.8002 }
+,{ "indirizzo abitazione": "Via Vittorio Veneto, 71049 Trinitapoli BT", "lat": 41.3501, "lon": 16.0402 }
+,{ "indirizzo abitazione": "Via Roma, 71051 Accadia FG", "lat": 41.1831, "lon": 15.3402 }
+,{ "indirizzo abitazione": "Via Garibaldi, 71052 Anzano di Puglia FG", "lat": 41.1831, "lon": 15.3402 }
+,{ "indirizzo abitazione": "Via Roma, 71054 Apricena FG", "lat": 41.7831, "lon": 15.4512 }
+,{ "indirizzo abitazione": "Via Vittorio Veneto, 71055 Ascoli Satriano FG", "lat": 41.1831, "lon": 15.5502 }
+,{ "indirizzo abitazione": "Via Roma, 71056 Cagnano Varano FG", "lat": 41.8661, "lon": 15.7502 }
+,{ "indirizzo abitazione": "Via Garibaldi, 71057 Carpino FG", "lat": 41.8381, "lon": 15.8442 }
+,{ "indirizzo abitazione": "Via Roma, 71058 Castelluccio Valmaggiore FG", "lat": 41.3831, "lon": 15.2292 }
+,{ "indirizzo abitazione": "Via Vittorio Veneto, 71059 Castelnuovo della Daunia FG", "lat": 41.5331, "lon": 15.2292 }
+,{ "indirizzo abitazione": "Via Roma, 71060 Casalnuovo Monterotaro FG", "lat": 41.5831, "lon": 15.2292 }
+,{ "indirizzo abitazione": "Via Garibaldi, 71061 Casalvecchio di Puglia FG", "lat": 41.5831, "lon": 15.2292 }
+,{ "indirizzo abitazione": "Via Roma, 71062 Castelluccio dei Sauri FG", "lat": 41.3281, "lon": 15.5632 }
+,{ "indirizzo abitazione": "Via Vittorio Veneto, 71063 Castelnuovo della Daunia FG", "lat": 41.5331, "lon": 15.2292 }
+,{ "indirizzo abitazione": "Via Roma, 71064 Casalnuovo Monterotaro FG", "lat": 41.5831, "lon": 15.2292 }
+,{ "indirizzo abitazione": "Via Garibaldi, 71065 Casalvecchio di Puglia FG", "lat": 41.5831, "lon": 15.2292 }
+,{ "indirizzo abitazione": "Via della Repubblica, 71122 Foggia FG", "lat": 41.4628, "lon": 15.5439 }
+,{ "indirizzo abitazione": "Viale Michelangelo, 71121 Foggia FG", "lat": 41.4640, "lon": 15.5430 }
+,{ "indirizzo abitazione": "Via Federico II, 71036 Lucera FG", "lat": 41.5055, "lon": 15.3370 }
+,{ "indirizzo abitazione": "Via Napoli, 71042 Cerignola FG", "lat": 41.2635, "lon": 15.9010 }
+,{ "indirizzo abitazione": "Via Gargano, 71043 Manfredonia FG", "lat": 41.6280, "lon": 15.9110 }
+,{ "indirizzo abitazione": "Via Soccorso, 71016 San Severo FG", "lat": 41.6860, "lon": 15.3800 }
+,{ "indirizzo abitazione": "Via della Libertà, 71017 Torremaggiore FG", "lat": 41.6940, "lon": 15.2960 }
+,{ "indirizzo abitazione": "Via Roma, 71011 Apricena FG, fraz. San Nazario", "lat": 41.7900, "lon": 15.4600 }
+,{ "indirizzo abitazione": "Via Padre Pio, 71013 San Giovanni Rotondo FG, quartiere Matine", "lat": 41.7100, "lon": 15.7300 }
+,{ "indirizzo abitazione": "Via Gargano, 71010 San Nicandro Garganico FG, fraz. Torre Mileto", "lat": 41.8500, "lon": 15.5700 }
+,{ "indirizzo abitazione": "Via Santa Maria, 71018 Vieste FG, quartiere Defensola", "lat": 41.8900, "lon": 16.1800 }
+,{ "indirizzo abitazione": "Via Roma, 71023 Bovino FG, fraz. Scalo", "lat": 41.2500, "lon": 15.3500 }
+,{ "indirizzo abitazione": "Via Roma, 71044 Margherita di Savoia BT, zona terme", "lat": 41.3720, "lon": 16.1470 }
+,{ "indirizzo abitazione": "Via Roma, 71046 San Ferdinando di Puglia BT, quartiere Centro", "lat": 41.3010, "lon": 16.0410 }
+,{ "indirizzo abitazione": "Via Roma, 71049 Trinitapoli BT, quartiere Saline", "lat": 41.3520, "lon": 16.0420 }
+,{ "indirizzo abitazione": "Via Roma, 71042 Cerignola FG, quartiere Torricelli", "lat": 41.2650, "lon": 15.9050 }
+,{ "indirizzo abitazione": "Via Roma, 71121 Foggia FG, quartiere Cep", "lat": 41.4600, "lon": 15.5400 }
+,{ "indirizzo abitazione": "Via Roma, 71036 Lucera FG, quartiere Porta Troia", "lat": 41.5070, "lon": 15.3390 }
+,{ "indirizzo abitazione": "Via Roma, 71016 San Severo FG, quartiere Croce Santa", "lat": 41.6880, "lon": 15.3820 }
+,{ "RSA": "RSA Foggia, Via G. La Pira, 71121 Foggia FG", "lat": 41.4635, "lon": 15.5450 }
+,{ "Scuola": "I.C. Santa Chiara, Via Santa Chiara, 71121 Foggia FG", "lat": 41.4625, "lon": 15.5445 }
+,{ "impianto sportivo": "Stadio Zaccheria, Viale Ofanto, 71121 Foggia FG", "lat": 41.4645, "lon": 15.5435 }
+,{ "impianto lavorativo": "Zona Industriale Incoronata, 71122 Foggia FG", "lat": 41.4700, "lon": 15.5500 }
+,{ "Strada": "SS16 Foggia-San Severo, Km 5 - 71122 Foggia FG", "lat": 41.4705, "lon": 15.5505 }
+,{ "RSA": "RSA Lucera, Via Appulo, 71036 Lucera FG", "lat": 41.5060, "lon": 15.3385 }
+,{ "Scuola": "I.C. Tommasone-Alighieri, Via Tommasone, 71036 Lucera FG", "lat": 41.5058, "lon": 15.3388 }
+,{ "impianto sportivo": "Stadio Comunale, Via Montello, 71036 Lucera FG", "lat": 41.5062, "lon": 15.3392 }
+,{ "impianto lavorativo": "Zona Industriale, 71036 Lucera FG", "lat": 41.5070, "lon": 15.3400 }
+,{ "Strada": "SS17 Lucera-Campobasso, Km 2 - 71036 Lucera FG", "lat": 41.5080, "lon": 15.3410 }
+,{ "indirizzo abitazione": "Via Roma, 71014 San Marco in Lamis FG", "lat": 41.7080, "lon": 15.6290 }
+,{ "indirizzo abitazione": "Via Garibaldi, 71015 San Marco la Catola FG", "lat": 41.5630, "lon": 15.0490 }
+,{ "indirizzo abitazione": "Via Vittorio Veneto, 71020 Volturino FG", "lat": 41.5635, "lon": 15.1190 }
+,{ "indirizzo abitazione": "Via Roma, 71021 Accadia FG, fraz. Agata", "lat": 41.1835, "lon": 15.3410 }
+,{ "indirizzo abitazione": "Via Garibaldi, 71022 Anzano di Puglia FG, fraz. Panni", "lat": 41.1840, "lon": 15.3420 }
+,{ "indirizzo abitazione": "Via Roma, 71030 Orsara di Puglia FG, quartiere Centro Storico", "lat": 41.2670, "lon": 15.2300 }
+,{ "indirizzo abitazione": "Via Vittorio Veneto, 71032 Biccari FG, fraz. Lago Pescara", "lat": 41.3840, "lon": 15.2300 }
+,{ "indirizzo abitazione": "Via Roma, 71035 Pietramontecorvino FG, quartiere Castello", "lat": 41.5340, "lon": 15.2300 }
+,{ "indirizzo abitazione": "Via Garibaldi, 71037 Monte Sant'Angelo FG, quartiere Junno", "lat": 41.7080, "lon": 15.9610 }
+,{ "indirizzo abitazione": "Via Roma, 71039 Vico del Gargano FG, fraz. San Menaio", "lat": 41.9310, "lon": 15.9570 }
+,{ "indirizzo abitazione": "Via Vittorio Veneto, 71041 Lesina FG, fraz. Marina di Lesina", "lat": 41.8670, "lon": 15.3510 }
+,{ "indirizzo abitazione": "Via Roma, 71044 Margherita di Savoia BT, quartiere Centro Storico", "lat": 41.3730, "lon": 16.1480 }
+,{ "indirizzo abitazione": "Via Roma, 71046 San Ferdinando di Puglia BT, fraz. Torretta", "lat": 41.3020, "lon": 16.0420 }
+,{ "indirizzo abitazione": "Via Roma, 71049 Trinitapoli BT, quartiere Centro", "lat": 41.3530, "lon": 16.0430 }
+,{ "indirizzo abitazione": "Via Roma, 71042 Cerignola FG, fraz. Borgo Libertà", "lat": 41.2660, "lon": 15.9060 }
+,{ "indirizzo abitazione": "Via Roma, 71121 Foggia FG, quartiere Macchia Gialla", "lat": 41.4610, "lon": 15.5410 }
+,{ "indirizzo abitazione": "Via Roma, 71036 Lucera FG, fraz. Ripatetta", "lat": 41.5080, "lon": 15.3400 }
+,{ "indirizzo abitazione": "Via Roma, 71016 San Severo FG, quartiere Porta San Marco", "lat": 41.6890, "lon": 15.3830 }
+,{ "RSA": "RSA San Marco, Via Roma, 71014 San Marco in Lamis FG", "lat": 41.7085, "lon": 15.6295 }
+,{ "Scuola": "I.C. San Marco, Via Garibaldi, 71014 San Marco in Lamis FG", "lat": 41.7082, "lon": 15.6292 }
+,{ "impianto sportivo": "Stadio Comunale, Via Roma, 71014 San Marco in Lamis FG", "lat": 41.7088, "lon": 15.6298 }
+,{ "impianto lavorativo": "Zona Industriale, 71014 San Marco in Lamis FG", "lat": 41.7090, "lon": 15.6300 }
+,{ "Strada": "SP22 San Marco in Lamis-San Giovanni Rotondo, Km 3 - 71014 San Marco in Lamis FG", "lat": 41.7100, "lon": 15.6310 }
+,{ "RSA": "RSA Vico, Via Roma, 71039 Vico del Gargano FG", "lat": 41.9315, "lon": 15.9575 }
+,{ "Scuola": "I.C. Vico, Via Garibaldi, 71039 Vico del Gargano FG", "lat": 41.9305, "lon": 15.9565 }
+,{ "impianto sportivo": "Stadio Comunale, Via Roma, 71039 Vico del Gargano FG", "lat": 41.9318, "lon": 15.9578 }
+,{ "impianto lavorativo": "Zona Industriale, 71039 Vico del Gargano FG", "lat": 41.9320, "lon": 15.9580 }
+,{ "Strada": "SS89 Vico del Gargano-Peschici, Km 2 - 71039 Vico del Gargano FG", "lat": 41.9330, "lon": 15.9590 }
+,{ "indirizzo abitazione": "Via Roma, 71017 Torremaggiore FG, quartiere San Nicola", "lat": 41.6950, "lon": 15.2970 }
+,{ "indirizzo abitazione": "Via Garibaldi, 71011 Apricena FG, quartiere Centro Storico", "lat": 41.7840, "lon": 15.4520 }
+,{ "indirizzo abitazione": "Via Vittorio Veneto, 71013 San Giovanni Rotondo FG, fraz. Montenero", "lat": 41.7070, "lon": 15.7270 }
+,{ "indirizzo abitazione": "Via Roma, 71010 San Nicandro Garganico FG, quartiere Centro", "lat": 41.8390, "lon": 15.5660 }
+,{ "indirizzo abitazione": "Via Garibaldi, 71018 Vieste FG, fraz. Pugnochiuso", "lat": 41.8860, "lon": 16.1770 }
+,{ "indirizzo abitazione": "Via Roma, 71023 Bovino FG, quartiere Castello", "lat": 41.2410, "lon": 15.3410 }
+,{ "indirizzo abitazione": "Via Vittorio Veneto, 71024 Candela FG, fraz. Calaggio", "lat": 41.1670, "lon": 15.5450 }
+,{ "indirizzo abitazione": "Via Roma, 71025 Castelluccio dei Sauri FG, quartiere Centro", "lat": 41.3290, "lon": 15.5640 }
+,{ "indirizzo abitazione": "Via Garibaldi, 71026 Deliceto FG, fraz. Montagna", "lat": 41.1870, "lon": 15.3880 }
+,{ "indirizzo abitazione": "Via Roma, 71027 Orsara di Puglia FG, fraz. Giardinetto", "lat": 41.2680, "lon": 15.2310 }
+,{ "indirizzo abitazione": "Via Vittorio Veneto, 71028 Panni FG, quartiere Centro", "lat": 41.2670, "lon": 15.2270 }
+,{ "indirizzo abitazione": "Via Roma, 71029 Rocchetta Sant'Antonio FG, fraz. Sant'Antonio", "lat": 41.1670, "lon": 15.4880 }
+,{ "indirizzo abitazione": "Via Garibaldi, 71030 Sant'Agata di Puglia FG, quartiere Centro Storico", "lat": 41.1675, "lon": 15.3880 }
+,{ "indirizzo abitazione": "Via Roma, 71031 Torremaggiore FG, fraz. Castelnuovo della Daunia", "lat": 41.6960, "lon": 15.2980 }
+,{ "indirizzo abitazione": "Via Vittorio Veneto, 71032 Biccari FG, quartiere Centro", "lat": 41.3850, "lon": 15.2310 }
+,{ "indirizzo abitazione": "Via Roma, 71033 Carlantino FG, fraz. Lago di Carlantino", "lat": 41.5840, "lon": 15.2310 }
+,{ "indirizzo abitazione": "Via Garibaldi, 71034 Celenza Valfortore FG, quartiere Centro", "lat": 41.5845, "lon": 15.2315 }
+,{ "indirizzo abitazione": "Via Roma, 71035 Pietramontecorvino FG, fraz. Motta Montecorvino", "lat": 41.5350, "lon": 15.2310 }
+,{ "indirizzo abitazione": "Via Vittorio Veneto, 71037 Monte Sant'Angelo FG, fraz. Macchia", "lat": 41.7090, "lon": 15.9620 }
+,{ "indirizzo abitazione": "Via Roma, 71038 Sannicandro Garganico FG, quartiere Centro", "lat": 41.8395, "lon": 15.5665 }
+,{ "indirizzo abitazione": "Via Garibaldi, 71039 Vico del Gargano FG, fraz. Ischitella", "lat": 41.9325, "lon": 15.9585 }
+,{ "indirizzo abitazione": "Via Roma, 71040 Carpino FG, quartiere Centro", "lat": 41.8395, "lon": 15.8450 }
+,{ "indirizzo abitazione": "Via Vittorio Veneto, 71041 Lesina FG, fraz. Ripalta", "lat": 41.8680, "lon": 15.3520 }
+,{ "indirizzo abitazione": "Via Roma, 71044 Margherita di Savoia BT, fraz. Centro", "lat": 41.3740, "lon": 16.1490 }
+,{ "indirizzo abitazione": "Via Roma, 71046 San Ferdinando di Puglia BT, quartiere Centro Storico", "lat": 41.3030, "lon": 16.0430 }
+,{ "indirizzo abitazione": "Via Roma, 71049 Trinitapoli BT, fraz. Centro", "lat": 41.3540, "lon": 16.0440 }
+,{ "RSA": "RSA Torremaggiore, Via Roma, 71017 Torremaggiore FG", "lat": 41.6955, "lon": 15.2975 }
+,{ "Scuola": "I.C. Torremaggiore, Via Garibaldi, 71017 Torremaggiore FG", "lat": 41.6952, "lon": 15.2972 }
+,{ "impianto sportivo": "Stadio Comunale, Via Roma, 71017 Torremaggiore FG", "lat": 41.6958, "lon": 15.2978 }
+,{ "impianto lavorativo": "Zona Industriale, 71017 Torremaggiore FG", "lat": 41.6960, "lon": 15.2980 }
+,{ "Strada": "SP18 Torremaggiore-San Severo, Km 2 - 71017 Torremaggiore FG", "lat": 41.6970, "lon": 15.2990 }
+,{ "RSA": "RSA Apricena, Via Garibaldi, 71011 Apricena FG", "lat": 41.7845, "lon": 15.4525 }
+,{ "Scuola": "I.C. Apricena, Via Roma, 71011 Apricena FG", "lat": 41.7842, "lon": 15.4522 }
+,{ "impianto sportivo": "Stadio Comunale, Via Garibaldi, 71011 Apricena FG", "lat": 41.7848, "lon": 15.4528 }
+,{ "impianto lavorativo": "Zona Industriale, 71011 Apricena FG", "lat": 41.7850, "lon": 15.4530 }
+,{ "Strada": "SS89 Apricena-San Nicandro, Km 3 - 71011 Apricena FG", "lat": 41.7860, "lon": 15.4540 }
+,{ "indirizzo abitazione": "Via Roma, 71047 Stornara FG, quartiere Centro", "lat": 41.3010, "lon": 15.8010 }
+,{ "indirizzo abitazione": "Via Garibaldi, 71048 Stornarella FG, fraz. Centro", "lat": 41.3015, "lon": 15.8015 }
+,{ "indirizzo abitazione": "Via Vittorio Veneto, 71045 Orta Nova FG, quartiere Centro Storico", "lat": 41.3290, "lon": 15.7110 }
+,{ "indirizzo abitazione": "Via Roma, 71055 Ascoli Satriano FG, fraz. Centro", "lat": 41.1840, "lon": 15.5510 }
+,{ "indirizzo abitazione": "Via Garibaldi, 71056 Cagnano Varano FG, quartiere Centro", "lat": 41.8670, "lon": 15.7510 }
+,{ "indirizzo abitazione": "Via Roma, 71057 Carpino FG, fraz. Centro", "lat": 41.8390, "lon": 15.8460 }
+,{ "indirizzo abitazione": "Via Vittorio Veneto, 71058 Castelluccio Valmaggiore FG, quartiere Centro", "lat": 41.3840, "lon": 15.2305 }
+,{ "indirizzo abitazione": "Via Roma, 71059 Castelnuovo della Daunia FG, fraz. Centro", "lat": 41.5340, "lon": 15.2320 }
+,{ "indirizzo abitazione": "Via Garibaldi, 71060 Casalnuovo Monterotaro FG, quartiere Centro", "lat": 41.5845, "lon": 15.2325 }
+,{ "indirizzo abitazione": "Via Roma, 71061 Casalvecchio di Puglia FG, fraz. Centro", "lat": 41.5840, "lon": 15.2330 }
+,{ "indirizzo abitazione": "Via Vittorio Veneto, 71062 Castelluccio dei Sauri FG, quartiere Centro", "lat": 41.3295, "lon": 15.5650 }
+,{ "indirizzo abitazione": "Via Roma, 71063 Castelnuovo della Daunia FG, fraz. Centro", "lat": 41.5345, "lon": 15.2335 }
+,{ "indirizzo abitazione": "Via Garibaldi, 71064 Casalnuovo Monterotaro FG, quartiere Centro", "lat": 41.5850, "lon": 15.2340 }
+,{ "indirizzo abitazione": "Via Roma, 71065 Casalvecchio di Puglia FG, fraz. Centro", "lat": 41.5855, "lon": 15.2345 }
+,{ "RSA": "RSA Stornara, Via Roma, 71047 Stornara FG", "lat": 41.3012, "lon": 15.8012 }
+,{ "Scuola": "I.C. Stornara, Via Garibaldi, 71047 Stornara FG", "lat": 41.3013, "lon": 15.8013 }
+,{ "impianto sportivo": "Stadio Comunale, Via Roma, 71047 Stornara FG", "lat": 41.3014, "lon": 15.8014 }
+,{ "impianto lavorativo": "Zona Industriale, 71047 Stornara FG", "lat": 41.3016, "lon": 15.8016 }
+,{ "Strada": "SP110 Stornara-Orta Nova, Km 2 - 71047 Stornara FG", "lat": 41.3017, "lon": 15.8017 }
+,{ "RSA": "RSA Orta Nova, Via Vittorio Veneto, 71045 Orta Nova FG", "lat": 41.3292, "lon": 15.7112 }
+,{ "Scuola": "I.C. Orta Nova, Via Roma, 71045 Orta Nova FG", "lat": 41.3293, "lon": 15.7113 }
+,{ "impianto sportivo": "Stadio Comunale, Via Garibaldi, 71045 Orta Nova FG", "lat": 41.3294, "lon": 15.7114 }
+,{ "impianto lavorativo": "Zona Industriale, 71045 Orta Nova FG", "lat": 41.3296, "lon": 15.7116 }
+,{ "Strada": "SP81 Orta Nova-Stornara, Km 3 - 71045 Orta Nova FG", "lat": 41.3297, "lon": 15.7117 }
+,{ "indirizzo abitazione": "Via Roma, 71051 Accadia FG, quartiere Centro", "lat": 41.1845, "lon": 15.3415 }
+,{ "indirizzo abitazione": "Via Garibaldi, 71052 Anzano di Puglia FG, fraz. Centro", "lat": 41.1850, "lon": 15.3425 }
+,{ "indirizzo abitazione": "Via Vittorio Veneto, 71054 Apricena FG, quartiere Centro", "lat": 41.7910, "lon": 15.4610 }
+,{ "indirizzo abitazione": "Via Roma, 71055 Ascoli Satriano FG, quartiere Centro Storico", "lat": 41.1855, "lon": 15.5520 }
+,{ "indirizzo abitazione": "Via Garibaldi, 71056 Cagnano Varano FG, fraz. Centro", "lat": 41.8680, "lon": 15.7520 }
+,{ "indirizzo abitazione": "Via Roma, 71057 Carpino FG, quartiere Centro Storico", "lat": 41.8400, "lon": 15.8470 }
+,{ "indirizzo abitazione": "Via Vittorio Veneto, 71058 Castelluccio Valmaggiore FG, fraz. Centro", "lat": 41.3850, "lon": 15.2315 }
+,{ "indirizzo abitazione": "Via Roma, 71059 Castelnuovo della Daunia FG, quartiere Centro Storico", "lat": 41.5350, "lon": 15.2340 }
+,{ "indirizzo abitazione": "Via Garibaldi, 71060 Casalnuovo Monterotaro FG, fraz. Centro Storico", "lat": 41.5860, "lon": 15.2350 }
+,{ "indirizzo abitazione": "Via Roma, 71061 Casalvecchio di Puglia FG, quartiere Centro Storico", "lat": 41.5865, "lon": 15.2355 }
+,{ "indirizzo abitazione": "Via Vittorio Veneto, 71062 Castelluccio dei Sauri FG, fraz. Centro Storico", "lat": 41.3300, "lon": 15.5660 }
+,{ "indirizzo abitazione": "Via Roma, 71063 Castelnuovo della Daunia FG, quartiere Centro Storico", "lat": 41.5355, "lon": 15.2345 }
+,{ "indirizzo abitazione": "Via Garibaldi, 71064 Casalnuovo Monterotaro FG, fraz. Centro Storico", "lat": 41.5870, "lon": 15.2360 }
+,{ "indirizzo abitazione": "Via Roma, 71065 Casalvecchio di Puglia FG, quartiere Centro Storico", "lat": 41.5875, "lon": 15.2365 }
+,{ "RSA": "RSA Accadia, Via Roma, 71051 Accadia FG", "lat": 41.1847, "lon": 15.3417 }
+,{ "Scuola": "I.C. Accadia, Via Garibaldi, 71051 Accadia FG", "lat": 41.1848, "lon": 15.3418 }
+,{ "impianto sportivo": "Stadio Comunale, Via Roma, 71051 Accadia FG", "lat": 41.1849, "lon": 15.3419 }
+,{ "impianto lavorativo": "Zona Industriale, 71051 Accadia FG", "lat": 41.1851, "lon": 15.3421 }
+,{ "Strada": "SP101 Accadia-Anzano, Km 2 - 71051 Accadia FG", "lat": 41.1852, "lon": 15.3422 }
+,{ "RSA": "RSA Anzano, Via Garibaldi, 71052 Anzano di Puglia FG", "lat": 41.1853, "lon": 15.3423 }
+,{ "Scuola": "I.C. Anzano, Via Roma, 71052 Anzano di Puglia FG", "lat": 41.1854, "lon": 15.3424 }
+,{ "impianto sportivo": "Stadio Comunale, Via Garibaldi, 71052 Anzano di Puglia FG", "lat": 41.1855, "lon": 15.3425 }
+,{ "impianto lavorativo": "Zona Industriale, 71052 Anzano di Puglia FG", "lat": 41.1857, "lon": 15.3427 }
+,{ "Strada": "SP102 Anzano-Accadia, Km 3 - 71052 Anzano di Puglia FG", "lat": 41.1858, "lon": 15.3428 }
+,{ "RSA": "RSA Rocchetta, Via Roma, 71029 Rocchetta Sant'Antonio FG", "lat": 41.1675, "lon": 15.4885 }
+,{ "Scuola": "I.C. Rocchetta, Via Garibaldi, 71029 Rocchetta Sant'Antonio FG", "lat": 41.1672, "lon": 15.4882 }
+,{ "impianto sportivo": "Campo Sportivo, Via Vittorio Veneto, 71029 Rocchetta Sant'Antonio FG", "lat": 41.1678, "lon": 15.4888 }
+,{ "impianto lavorativo": "Zona Industriale, 71029 Rocchetta Sant'Antonio FG", "lat": 41.1680, "lon": 15.4890 }
+,{ "Strada": "SP130 Rocchetta-Accadia, Km 2 - 71029 Rocchetta Sant'Antonio FG", "lat": 41.1682, "lon": 15.4892 }
+,{ "RSA": "RSA Sant'Agata, Via Roma, 71030 Sant'Agata di Puglia FG", "lat": 41.1678, "lon": 15.3885 }
+,{ "Scuola": "I.C. Sant'Agata, Via Garibaldi, 71030 Sant'Agata di Puglia FG", "lat": 41.1676, "lon": 15.3882 }
+,{ "impianto sportivo": "Campo Sportivo, Via Vittorio Veneto, 71030 Sant'Agata di Puglia FG", "lat": 41.1680, "lon": 15.3888 }
+,{ "impianto lavorativo": "Zona Industriale, 71030 Sant'Agata di Puglia FG", "lat": 41.1682, "lon": 15.3890 }
+,{ "Strada": "SP131 Sant'Agata-Deliceto, Km 1 - 71030 Sant'Agata di Puglia FG", "lat": 41.1684, "lon": 15.3892 }
+,{ "RSA": "RSA San Marco la Catola, Via Roma, 71015 San Marco la Catola FG", "lat": 41.5635, "lon": 15.0495 }
+,{ "Scuola": "I.C. San Marco la Catola, Via Garibaldi, 71015 San Marco la Catola FG", "lat": 41.5632, "lon": 15.0492 }
+,{ "impianto sportivo": "Campo Sportivo, Via Vittorio Veneto, 71015 San Marco la Catola FG", "lat": 41.5638, "lon": 15.0498 }
+,{ "impianto lavorativo": "Zona Industriale, 71015 San Marco la Catola FG", "lat": 41.5640, "lon": 15.0500 }
+,{ "Strada": "SP132 San Marco la Catola-Volturara, Km 2 - 71015 San Marco la Catola FG", "lat": 41.5642, "lon": 15.0502 }
+,{ "RSA": "RSA Volturino, Via Roma, 71020 Volturino FG", "lat": 41.5640, "lon": 15.1195 }
+,{ "Scuola": "I.C. Volturino, Via Garibaldi, 71020 Volturino FG", "lat": 41.5637, "lon": 15.1192 }
+,{ "impianto sportivo": "Campo Sportivo, Via Vittorio Veneto, 71020 Volturino FG", "lat": 41.5643, "lon": 15.1198 }
+,{ "impianto lavorativo": "Zona Industriale, 71020 Volturino FG", "lat": 41.5645, "lon": 15.1200 }
+,{ "Strada": "SP133 Volturino-Motta, Km 1 - 71020 Volturino FG", "lat": 41.5647, "lon": 15.1202 }
+,{ "RSA": "RSA Celenza, Via Roma, 71034 Celenza Valfortore FG", "lat": 41.5848, "lon": 15.2318 }
+,{ "Scuola": "I.C. Celenza, Via Garibaldi, 71034 Celenza Valfortore FG", "lat": 41.5846, "lon": 15.2316 }
+,{ "impianto sportivo": "Campo Sportivo, Via Vittorio Veneto, 71034 Celenza Valfortore FG", "lat": 41.5850, "lon": 15.2320 }
+,{ "impianto lavorativo": "Zona Industriale, 71034 Celenza Valfortore FG", "lat": 41.5852, "lon": 15.2322 }
+,{ "Strada": "SP134 Celenza-Carlantino, Km 2 - 71034 Celenza Valfortore FG", "lat": 41.5854, "lon": 15.2324 }
+,{ "RSA": "RSA Carlantino, Via Roma, 71033 Carlantino FG", "lat": 41.5845, "lon": 15.2315 }
+,{ "Scuola": "I.C. Carlantino, Via Garibaldi, 71033 Carlantino FG", "lat": 41.5842, "lon": 15.2312 }
+,{ "impianto sportivo": "Campo Sportivo, Via Vittorio Veneto, 71033 Carlantino FG", "lat": 41.5848, "lon": 15.2318 }
+,{ "impianto lavorativo": "Zona Industriale, 71033 Carlantino FG", "lat": 41.5850, "lon": 15.2320 }
+,{ "Strada": "SP135 Carlantino-Motta, Km 1 - 71033 Carlantino FG", "lat": 41.5852, "lon": 15.2322 }
+,{ "RSA": "RSA Motta, Via Roma, 71040 Motta Montecorvino FG", "lat": 41.5355, "lon": 15.2315 }
+,{ "Scuola": "I.C. Motta, Via Garibaldi, 71040 Motta Montecorvino FG", "lat": 41.5352, "lon": 15.2312 }
+,{ "impianto sportivo": "Campo Sportivo, Via Vittorio Veneto, 71040 Motta Montecorvino FG", "lat": 41.5358, "lon": 15.2318 }
+,{ "impianto lavorativo": "Zona Industriale, 71040 Motta Montecorvino FG", "lat": 41.5360, "lon": 15.2320 }
+,{ "Strada": "SP136 Motta-Pietramontecorvino, Km 2 - 71040 Motta Montecorvino FG", "lat": 41.5362, "lon": 15.2322 }
+,{ "RSA": "RSA Casalvecchio, Via Roma, 71061 Casalvecchio di Puglia FG", "lat": 41.5868, "lon": 15.2358 }
+,{ "Scuola": "I.C. Casalvecchio, Via Garibaldi, 71061 Casalvecchio di Puglia FG", "lat": 41.5866, "lon": 15.2356 }
+,{ "impianto sportivo": "Campo Sportivo, Via Vittorio Veneto, 71061 Casalvecchio di Puglia FG", "lat": 41.5870, "lon": 15.2360 }
+,{ "impianto lavorativo": "Zona Industriale, 71061 Casalvecchio di Puglia FG", "lat": 41.5872, "lon": 15.2362 }
+,{ "Strada": "SP137 Casalvecchio-Castelluccio, Km 1 - 71061 Casalvecchio di Puglia FG", "lat": 41.5874, "lon": 15.2364 }
+,{ "RSA": "RSA Castelluccio, Via Roma, 71058 Castelluccio Valmaggiore FG", "lat": 41.3853, "lon": 15.2318 }
+,{ "Scuola": "I.C. Castelluccio, Via Garibaldi, 71058 Castelluccio Valmaggiore FG", "lat": 41.3851, "lon": 15.2316 }
+,{ "impianto sportivo": "Campo Sportivo, Via Vittorio Veneto, 71058 Castelluccio Valmaggiore FG", "lat": 41.3855, "lon": 15.2320 }
+,{ "impianto lavorativo": "Zona Industriale, 71058 Castelluccio Valmaggiore FG", "lat": 41.3857, "lon": 15.2322 }
+,{ "Strada": "SP138 Castelluccio-Valmaggiore-Biccari, Km 2 - 71058 Castelluccio Valmaggiore FG", "lat": 41.3859, "lon": 15.2324 }
 ]

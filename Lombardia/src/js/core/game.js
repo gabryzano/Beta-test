@@ -185,11 +185,11 @@ function setStatoMezzo(mezzo, nuovoStato) {
         if (nuovoStato === 7) {
             // Passaggio allo stato 7 (rientro in sede)
             if (statoAttuale === 2) {
-                mezzo.comunicazioni = ['missione interrotta'];
+                mezzo.comunicazioni = ['Missione interrotta'];
             } else if (statoAttuale === 6 || statoAttuale === 3) {
-                mezzo.comunicazioni = ['diretto in sede'];
+                mezzo.comunicazioni = ['Diretto in sede'];
             } else {
-                mezzo.comunicazioni = ['diretto in sede'];
+                mezzo.comunicazioni = ['Diretto in sede'];
             }
         } else if (nuovoStato === 1) {
             // Passaggio allo stato 1 (disponibile) - cancella tutti i messaggi

@@ -869,7 +869,7 @@
         "Mezzo": "MSB",
         "Nome radio": "PEM_BG_106.05A2",
         "Convenzione": "H24",
-        "Orario di lavoro": "dalle 07:00 alle 19:00",
+        "Orario di lavoro": "dalle 00:00 alle 00:00",
         "Giorni": "LUN-VEN"
     },
     {
@@ -1355,8 +1355,17 @@
         "Mezzo": "MSB",
         "Nome radio": "VOLBRE_115.04A1",
         "Convenzione": "H24",
-        "Orario di lavoro": "VEN 19:00-24:00, SAB 00:00-24:00, DOM 00:00-07:00",
-        "Giorni": "VEN-DOM"
+        "Orario di lavoro": "SAB 00:00-24:00, DOM 00:00-19:00",
+        "Giorni": "SAB-DOM"
+    },
+    {
+        "Nome Postazione": "Volontari Ambulanza Brembilla",
+        "Coordinate Postazione": "45.821788,9.5941955",
+        "Mezzo": "MSB",
+        "Nome radio": "VOLBRE_115.04A1",
+        "Convenzione": "H24",
+        "Orario di lavoro": "19:00-00:00",
+        "Giorni": "VEN"
     },
     {
         "Nome Postazione": "Volontari Ambulanza Capriolo",
@@ -1571,8 +1580,26 @@
         "Mezzo": "MSB",
         "Nome radio": "PEM_BG_106.04A1",
         "Convenzione": "H24",
-        "Orario di lavoro": "dalle 07:00 alle 19:00",
-        "Giorni": "LUN-VEN"
+        "Orario di lavoro": "dalle 00:00 alle 24:00",
+        "Giorni": "LUN-GIO"
+    },
+    {
+        "Nome Postazione": "Zogno Dist. PEM_BG",
+        "Coordinate Postazione": "45.791978,9.6597327",
+        "Mezzo": "MSB",
+        "Nome radio": "PEM_BG_106.04A1",
+        "Convenzione": "H24",
+        "Orario di lavoro": "dalle 00:00 alle 19:00",
+        "Giorni": "VEN"
+    },   
+    {
+        "Nome Postazione": "Zogno Dist. PEM_BG",
+        "Coordinate Postazione": "45.791978,9.6597327",
+        "Mezzo": "MSB",
+        "Nome radio": "PEM_BG_106.04A1",
+        "Convenzione": "H24",
+        "Orario di lavoro": "dalle 19:00 alle 00:00",
+        "Giorni": "DOM"
     },
     {
         "Nome Postazione": "Volontari 3 Valli",
@@ -1581,6 +1608,15 @@
         "Nome radio": "VTVPRA_302",
         "Convenzione": "GET",
         "Orario di lavoro": "dalle 07:00 alle 19:00",
-        "Giorni": "SAB-DOM, VEN 19:00-7:00,"
+        "Giorni": "SAB-DOM"
+    },
+        {
+        "Nome Postazione": "Volontari 3 Valli",
+        "Coordinate Postazione": "46.2399162,9.3970639",
+        "Mezzo": "MSB",
+        "Nome radio": "VTVPRA_302",
+        "Convenzione": "GET",
+        "Orario di lavoro": "dalle 19:00 alle 7:00",
+        "Giorni": "VEN-DOM"
     }
 ]
