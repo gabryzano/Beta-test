@@ -73,7 +73,7 @@
   },
   {
     "Nome Postazione": "AVOS Sant'Anna d'Arresi",
-    "Coordinate Postazione": "39.005627,8.640755",
+    "Coordinate Postazione": "38.965068, 8.595910",
     "Mezzo": "MSB",
     "Nome radio": "BE 172",
     "Convenzione": "H12",
@@ -1240,5 +1240,23 @@
     "Convenzione": "H24",
     "Orario di lavoro": "00:00-00:00",
     "Giorni": "LUN-DOM"
-  }
-]
+  },
+  {
+    "Nome Postazione": "Primo Soccorso Onlus",
+    "Coordinate Postazione": "39.2378444,9.1321465",
+    "Mezzo": "MSB",
+    "Nome radio": "CA 102",
+    "Convenzione": "H12",
+    "Orario di lavoro": "08:00-20:00",
+    "Giorni": "LUN-DOM"
+  },
+   {
+    "Nome Postazione": "Primo Soccorso Onlus - Cagliari Is Mirrisionis",
+    "Coordinate Postazione": "",
+    "Mezzo": "MSB",
+    "Nome radio": "CA 103",
+    "Convenzione": "H12",
+    "Orario di lavoro": "08:00-20:00",
+    "Giorni": "LUN-DOM"
+  } 
+]  

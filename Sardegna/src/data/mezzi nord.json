@@ -55,7 +55,7 @@
   },
   {
     "Nome Postazione": "Associazione Volontari Meana Sardo",
-    "Coordinate Postazione": "39.946788,9.0747919",
+    "Coordinate Postazione": "",
     "Mezzo": "MSB",
     "Nome radio": "NU 349",
     "Convenzione": "H4",
@@ -64,7 +64,7 @@
   },
   {
     "Nome Postazione": "Associazione Volontari Meana Sardo",
-    "Coordinate Postazione": "39.946788,9.0747919",
+    "Coordinate Postazione": "",
     "Mezzo": "MSB",
     "Nome radio": "NU 349",
     "Convenzione": "REP H20",
@@ -451,7 +451,7 @@
   },
   {
     "Nome Postazione": "Croce Verde Ortueri",
-    "Coordinate Postazione": "40.0374723,8.9848339",
+    "Coordinate Postazione": "",
     "Mezzo": "MSB",
     "Nome radio": "NU 348",
     "Convenzione": "H8",
@@ -460,7 +460,7 @@
   },
   {
     "Nome Postazione": "Croce Verde Ortueri",
-    "Coordinate Postazione": "40.0374723,8.9848339",
+    "Coordinate Postazione": "",
     "Mezzo": "MSB",
     "Nome radio": "NU 348",
     "Convenzione": "REP H16",
@@ -1162,7 +1162,7 @@
   },
   {
     "Nome Postazione": "POSTAZIONE ESTIVA - ALGHERO FERTILIA",
-    "Coordinate Postazione": "40.59417,8.28573",
+    "Coordinate Postazione": "",
     "Mezzo": "MSB",
     "Nome radio": "ESS 002",
     "Convenzione": "H12",
@@ -1171,7 +1171,7 @@
   },
   {
     "Nome Postazione": "POSTAZIONE ESTIVA - COSTA PARADISO",
-    "Coordinate Postazione": "41.059744,8.967891",
+    "Coordinate Postazione": "41.050965,8.948311",
     "Mezzo": "MSB",
     "Nome radio": "EOL 013",
     "Convenzione": "H24",
@@ -1200,7 +1200,7 @@
     "Nome Postazione": "POSTAZIONE ESTIVA - PORTO CERCO ABBIADORI",
     "Coordinate Postazione": "41.098816,9.523514",
     "Mezzo": "MSB",
-    "Nome radio": "ESS 002",
+    "Nome radio": "EOL010",
     "Convenzione": "H12",
     "Orario di lavoro": "08:00-20:00",
     "Giorni": "LUN-DOM"
@@ -1209,7 +1209,7 @@
     "Nome Postazione": "POSTAZIONE ESTIVA - PLATAMONA",
     "Coordinate Postazione": "40.81823,8.46391",
     "Mezzo": "MSB",
-    "Nome radio": "ESS 001",
+    "Nome radio": "ESS001",
     "Convenzione": "H12",
     "Orario di lavoro": "08:00-20:00",
     "Giorni": "LUN-DOM"
@@ -1227,7 +1227,7 @@
     "Nome Postazione": "POSTAZIONE ESTIVA - PORTO SAN PAOLO",
     "Coordinate Postazione": "40.875046,9.627779",
     "Mezzo": "MSB",
-    "Nome radio": "EOL 014",
+    "Nome radio": "EOL014",
     "Convenzione": "H24",
     "Orario di lavoro": "00:00-00:00",
     "Giorni": "LUN-DOM"
@@ -1236,7 +1236,7 @@
     "Nome Postazione": "POSTAZIONE ESTIVA - SOS ALINOS",
     "Coordinate Postazione": "40.440102,9.76579",
     "Mezzo": "MSB",
-    "Nome radio": "ENU 017",
+    "Nome radio": "ENU017",
     "Convenzione": "H24",
     "Orario di lavoro": "00:00-00:00",
     "Giorni": "LUN-DOM"
@@ -1245,7 +1245,7 @@
     "Nome Postazione": "POSTAZIONE ESTIVA - VIGNOLA",
     "Coordinate Postazione": "41.127133,9.07142",
     "Mezzo": "MSB",
-    "Nome radio": "EOL 016",
+    "Nome radio": "EOL016",
     "Convenzione": "H24",
     "Orario di lavoro": "00:00-00:00",
     "Giorni": "LUN-DOM"
