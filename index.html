@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seleziona Regione - Operatore 118</title>
+    <style>
+        body {
+            background: 
+                radial-gradient(ellipse at center, rgba(224, 234, 252, 0.7) 0%, rgba(182, 198, 230, 0.7) 100%),
+                url('sfondo.png') center/cover no-repeat fixed;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-family: 'Segoe UI', Arial, sans-serif;
+            margin: 0;
+            background-size: cover;
+            background-position: center center;
+            background-attachment: fixed;
+        }
+        .centrale-container {
+            background: rgba(255,255,255,0.95);
+            border-radius: 24px;
+            box-shadow: 0 8px 32px rgba(30, 60, 120, 0.18);
+            padding: 48px 36px 36px 36px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            min-width: 340px;
+        }
+        .logo-centrale {
+            width: 120px;
+            margin-bottom: 18px;
+            filter: drop-shadow(0 2px 8px #1976d2aa);
+        }
+        h1 {
+            color: #1a237e;
+            margin-bottom: 32px;
+            font-size: 2.2rem;
+            letter-spacing: 1px;
+            text-shadow: 0 2px 8px #b6c6e6;
+        }
+        .regioni-container {
+            display: flex;
+            gap: 2rem;
+        }
+        .regione-btn {
+            background: linear-gradient(90deg, #1976d2 60%, #42a5f5 100%);
+            color: #fff;
+            border: none;
+            border-radius: 14px;
+            padding: 1.5rem 2.5rem;
+            font-size: 1.3rem;
+            font-weight: 600;
+            cursor: pointer;
+            box-shadow: 0 4px 16px rgba(25, 118, 210, 0.15);
+            transition: background 0.2s, transform 0.2s, box-shadow 0.2s;
+            outline: none;
+        }
+        .regione-btn:hover, .regione-btn:focus {
+            background: linear-gradient(90deg, #0d47a1 60%, #1976d2 100%);
+            transform: translateY(-3px) scale(1.06);
+            box-shadow: 0 8px 24px rgba(25, 118, 210, 0.22);
+        }
+        @media (max-width: 700px) {
+            .centrale-container {
+                min-width: 0;
+                padding: 32px 8vw 24px 8vw;
+            }
+            .regioni-container {
+                flex-direction: column;
+                gap: 1.5rem;
+            }
+            h1 {
+                font-size: 1.5rem;
+            }
+            .logo-centrale {
+                width: 80px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="centrale-container">
+        <img src="Calabria/src/assets/logo118.png" alt="Logo Centrale Operativa 118" class="logo-centrale">
+        <h1>Selezionare la Regione</h1>
+        <div class="regioni-container">
+            <button class="regione-btn" onclick="location.href='Calabria/index.html'">Calabria</button>
+            <button class="regione-btn" onclick="location.href='Lazio/index.html'">Lazio</button>
+            <button class="regione-btn" onclick="location.href='Lombardia/index.html'">Lombardia</button>
+            <button class="regione-btn" onclick="location.href='Puglia/index.html'">Puglia</button>
+            <button class="regione-btn" onclick="location.href='Sardegna/index.html'">Sardegna</button>
+        </div>
+    </div>
+</body>
+</html>
