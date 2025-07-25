@@ -173,7 +173,7 @@ function interrompiMovimento(mezzo) {
     
     // Se il mezzo era in stato 7 (rientro in sede), mostra solo 'missione interrotta'
     if (mezzo.stato === 7) {
-        mezzo.comunicazioni = ['missione interrotta'];
+        mezzo.comunicazioni = ['Missione interrotta'];
     }
 }
 

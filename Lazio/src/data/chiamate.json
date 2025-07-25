@@ -1122,5 +1122,41 @@
       "ASI": "Maschio, 54 anni, aneurisma cerebrale rotto, GCS 6, intubato, ventilato, accessi EV bilaterali, in corso infusione di noradrenalina, sedazione profonda. TC: ESA massiva, idrocefalo, indicazione urgente a DVE e intervento. [NCH]",
       "ASM": "Maschio, 54 anni, paziente intubato per coma da ESA, GCS 6, stabilizzazione emodinamica in atto, noradrenalina in infusione, monitoraggio invasivo attivo, trasporto urgente richiesto per neurochirurgia d’urgenza. [NCH]"
     }
+  },
+  "chiamata_66": {
+  "testo_chiamata": "Pronto, chiamo da (indirizzo abitazione). Mio marito, 58 anni, ha iniziato all’improvviso a respirare malissimo, ansima e non riesce a parlare. È diventato blu in volto e si tiene il petto. Aiutateci, sta peggiorando velocemente!",
+  "caso_stabile": {
+    "MSB": "Maschio, 58 anni, vigile ma affaticato. Dispnea moderata, SpO₂ 94%, FC 96 bpm, PA 130/85 mmHg. Riferita bronchite cronica in anamnesi. Somministrato O₂ 4 l/min. [PS]",
+    "ASI": "Maschio, 58 anni, cosciente, GCS 15. Dispnea moderata, crepitii basali bilaterali. FC 98 bpm, PA 135/80 mmHg, SpO₂ 94%. Somministrato O₂ 6 l/min, accesso EV, eseguito aerosol con broncodilatatori. Anamnesi: BPCO. [PS]",
+    "ASM": "Maschio, 58 anni, vigile, difficoltà respiratoria in aumento. Parametri: FC 100 bpm, PA 130/85 mmHg, SpO₂ 93%. Somministrato salbutamolo + clenil aerosol e O₂ 6 l/min. Sospetta riacutizzazione di BPCO. [PS]"
+  },
+  "caso_poco_stabile": {
+    "MSB": "Maschio, 58 anni, agitato, dispnea severa. SpO₂ 88%, FC 110 bpm, PA 100/60 mmHg. Somministrato O₂ 6 l/min, monitoraggio continuo. Anamnesi: BPCO. [Rianimazione]",
+    "ASI": "Maschio, 58 anni, GCS 14. Dispnea grave, uso marcato della muscolatura accessoria. FC 115 bpm, PA 95/55 mmHg, SpO₂ 86%. Posizionata CPAP con FiO₂ 50%, terapia con broncodilatatori. [Rianimazione]",
+    "ASM": "Maschio, 58 anni, agitato, GCS 14. FC 118 bpm, PA 90/50 mmHg, SpO₂ 85%. Dispnico, ventilazione non invasiva con CPAP FiO₂ 50%. Probabile insufficienza respiratoria acuta ipossiemica. [Rianimazione]"
+  },
+  "caso_critico": {
+    "MSB": "Maschio, 58 anni, incosciente all’arrivo, respiro agonico. FC 40 bpm, PA 60/30 mmHg, SpO₂ 68%. Arresto respiratorio imminente. Richiesta MSA con urgenza. [Rianimazione]",
+    "ASI": "Maschio, 58 anni, GCS 5, grave insufficienza respiratoria. FC 38 bpm, PA 55/25 mmHg, SpO₂ 65%. Ventilazione con ambu e maschera avviata, sospetta insufficienza respiratoria acuta su BPCO riacutizzata. Richiesto supporto medico. [Rianimazione]",
+    "ASM": "Maschio, 58 anni, GCS 5, apneico all’arrivo. Intubato e ventilato. FC 35 bpm, PA 50/20 mmHg, SpO₂ 60%. ipossia marcata necessita di trasferimento urgente in Terapia Intensiva. [Rianimazione]"
+  }
+},
+"chiamata_67": {
+  "testo_chiamata": "Mi trovo a (indirizzo abitazione). Mio padre, ha 84 anni, ha iniziato a respirare male all’improvviso. È molto affannato, dice che sente un peso sul petto e ha le gambe gonfie. Ora è seduto ma sembra peggiorare, non sappiamo più cosa fare.",
+  "caso_stabile": {
+    "MSB": "Maschio, 84 anni, vigile, dispnea a riposo. FC 96 bpm, PA 140/85 mmHg, SpO₂ 93%. Edemi declivi, rantoli in fase espiratoria. Anamnesi: cardiopatico iperteso, pregressi scompensi cardiaci. Somministrato O₂ 4 l/min, monitoraggio continuo. [PS]",
+    "ASI": "Maschio, 84 anni, cosciente, GCS 15. Dispnea moderata, rantoli umidi all’auscultazione. FC 98 bpm, PA 135/80 mmHg, SpO₂ 92%. Posizionato accesso EV, O₂ 6 l/min, somministrato furosemide 1 fiala EV. probabile scompenso cardiaco. [PS]",
+    "ASM": "Maschio, 84 anni, vigile, affaticato. Parametri: FC 100 bpm, PA 130/80 mmHg, SpO₂ 91%. Dispnea in lieve peggioramento. Somministrato Furosemide 1 fiala EV, O₂ 6 l/min, ECG inviato. Probabile scompenso congestizio. [PS]"
+  },
+  "caso_poco_stabile": {
+    "MSB": "Maschio, 84 anni, confuso, dispnea severa. FC 110 bpm, PA 90/60 mmHg, SpO₂ 85%. Cianosi periferica, rantoli estesi, edemi importanti. Anamnesi di scompenso. Somministrato O₂ ad alti flussi, è possibile il supporto di MSA?. [Rianimazione]",
+    "ASI": "Maschio, 84 anni, GCS 13, ipossico. FC 115 bpm, PA 85/55 mmHg, SpO₂ 82%. Dispnea marcata con rantoli diffusi. Posizionata CPAP FiO₂ 50%, somministrato Furosemide 1 fiala EV + 1 puff di natispray. Sospetto edema polmonare acuto. [Rianimazione]",
+    "ASM": "Maschio, 84 anni, soporoso, GCS 13. FC 118 bpm, PA 80/50 mmHg, SpO₂ 80%. Grave insufficienza respiratoria ipossiemica. CPAP con FiO₂ 60%, Furosemide 1 fiala EV + nitroglicerina EV. Sospetto edema polmonare acuto. [Rianimazione]"
+  },
+  "caso_critico": {
+    "MSB": "Maschio, 84 anni, incosciente, respiro difficoltoso con rantoli. FC 40 bpm, PA 60/30 mmHg, SpO₂ 68%. Cianosi marcata. Paziente cardiopatico noto per scompenso. Richiesta MSA. [Rianimazione]",
+    "ASI": "Maschio, 84 anni, GCS 6, in peri arresto respiratorio. FC 35 bpm, PA 50/25 mmHg, SpO₂ 60%. Ventilato con ambu e maschera, O₂ 100%. Somministrato Furosemide 1 fiala EV. Edema polmonare acuto in shock. Richiesto supporto medico urgente. [Rianimazione]",
+    "ASM": "Maschio, 84 anni, GCS 6. Parametri gravemente compromessi: FC 30 bpm, PA 45/20 mmHg, SpO₂ 55%. Intubato, ventilato, supporto inotropo e vasopressorio in corso. Shock cardiogeno refrattario. Trasferimento urgente in Terapia Intensiva. [Rianimazione]"
   }
 }
+}  

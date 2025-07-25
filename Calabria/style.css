@@ -4,7 +4,11 @@ html, body {
     padding: 0;     
     height: 100%;     
     font-family: sans-serif; 
-    background: #e3eafc; /* Azzurro chiaro */
+    background: #e3eafc; /* Fallback azzurro chiaro */
+}
+
+body {
+    background: url('../src/assets/sfondo.png') center/cover no-repeat fixed, #e3eafc;
 }
 
 /* Header */
