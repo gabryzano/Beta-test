@@ -258,6 +258,12 @@ const _oldSetStatoMezzo = setStatoMezzo;
 setStatoMezzo = function(mezzo, nuovoStato) {
     const prevStato = mezzo.stato;
     const res = _oldSetStatoMezzo.apply(this, arguments);
+    
+    // Play confirm sound when vehicle goes to state 2 (heading to emergency)
+    if (res && nuovoStato === 2 && prevStato !== 2) {
+        window.soundManager?.play('confirm');
+    }
+    
     // Increment virtual patient count when a mezzo drops off (state 6)
     if (res && nuovoStato === 6 && mezzo.ospedale && window.game.hospitalPatientCount) {
         const key = mezzo.ospedale.nome;
@@ -1321,6 +1327,245 @@ class EmergencyDispatchGame {
         });
     }
 
+    updateDettLuogo(luogo) {
+        const dettLuogoSelect = document.getElementById('dett-luogo');
+        if (!dettLuogoSelect) return;
+        
+        // Salva il valore corrente prima di cancellare
+        const currentValue = dettLuogoSelect.value;
+        
+        dettLuogoSelect.innerHTML = '';
+        let opzioni = [];
+        
+        switch(luogo) {
+            case 'CASA':
+                opzioni = ['ABITAZIONE PRIVATA', 'CONDOMINIO'];
+                break;
+            case 'STR. SANITARIA':
+                opzioni = ['OSPEDALE', 'RSA/RSD','GUARDIA MEDICA', 'CENTRO ACCOGLIENZA','ALTRA STR. SANITARIA'];
+                break;
+            case 'STRADA':
+                opzioni = ['INCROCIO','PIAZZA','URBANA','PROVINCIALE/STATALE','AUTOSTRADA','PONTE/VIADOTTO','GALLERIA','MARCIAPIEDE','CICLABILE'];
+                break;
+            case 'UFFICI ED ES. PUBBL.':
+                opzioni = ['ALBERGO','BAR/RISTORANTI','NEGOZIO','UFFICI','POSTA','PARCO/GIARDINI PUBBLICI','PARCO DIVERTIMENTI','CENTRO COMMERCIALE','SUPERMERCATO','CAMPEGGIO','CINEMA/TEATRO','DISCOTECA'];
+                break;
+            case 'IMPIANTO SPORTIVO':
+                opzioni = ['STADIO','CENTRO SPORTIVO','PISCINA','PALESTRA','MANEGGIO','IMPIANTO SCIISTICO'];
+                break;
+            case 'IMPIANTO LAVORATIVO':
+                opzioni = ['FABBRICA','CANTIERE','CAPANNONE','FABBRICA SOSTANZE PERICOLOSE'];
+                break;
+            case 'SCUOLE':
+                opzioni = ['ASILO','SCUOLE ELEMENTARI','SCUOLE MEDIE','SCUOLE SUPERIORI','UNIVERSITA'];
+                break;
+            case 'STAZIONE':
+                opzioni = ['STAZIONE FERROVIARIA','STAZIONE METROPOLITANA', 'STAZIONE AUTOBUS'];
+                break;
+            case 'FERROVIA':
+                opzioni = ['LINEA FERROVIARIA','GALLERIA FERROVIARIA','PASSAGGIO LIVELLO','PONTE/ VIADOTTO FERROVIARIO'];
+                break;
+            case 'METROPOLITANA':
+                opzioni = ['LINEA METROPOLITANA','GALLERIA METROPOLITANA'];
+                break;
+            case 'AEREOPORTI':
+                opzioni = ['AEREOSUPERFICIE','AEREOPORTO','PUNTO DI PRIMO INTERVENTO AEROPORTUALE'];
+                break;
+            case 'QUESTURA/CASERME':
+                opzioni = ['RIFERIMENTO FF.OO.','RIFERIMENTO VV.FF', 'COMANDO POLIZIA LOCALE','QUESTURA','POLIZIA DI STATO','CASERMA CARABINIERI', 'CASERMA VVF','CASA CIRCONDARIALE'];
+                break;
+            case 'LUOGHI DI CULTO':
+                opzioni = ['CHIESA','ALTRO LUOGO DI CULTO','CIMITERO'];
+                break;
+            case 'IMPERVIO':
+                opzioni = ['RIFUGIO MONTANO','CORSO ACQUA','LAGO','BOSCO/FORESTA','SENTIERO','MONTAGNA','FORRA/GROTTA'];
+                break;
+            case 'ALTRO LUOGO':
+                opzioni = ['ALTRO'];
+                break;
+        }
+        
+        // Recupera il call object per gestire il salvataggio
+        const popup = document.getElementById('popupMissione');
+        const callId = popup?.getAttribute('data-call-id');
+        const call = callId ? this.calls.get(callId) : null;
+        
+        opzioni.forEach(opt => {
+            const option = document.createElement('option');
+            option.value = opt;
+            option.textContent = opt;
+            // Ripristina il valore salvato se corrisponde
+            option.selected = call && call.dettLuogo === opt;
+            dettLuogoSelect.appendChild(option);
+        });
+        
+        // Aggiungi listener per salvare automaticamente
+        dettLuogoSelect.onchange = () => {
+            if (call) {
+                call.dettLuogo = dettLuogoSelect.value; // Salva automaticamente
+            }
+        };
+    }
+
+    updateDettMotivo(motivo) {
+        const dettMotivoSelect = document.getElementById('dett-motivo');
+        if (!dettMotivoSelect) return;
+        
+        dettMotivoSelect.innerHTML = '';
+        let opzioni = [];
+        
+        switch(motivo) {
+            case 'MEDICO ACUTO':
+                opzioni = ['CARDIOCIRCOLATORIA','RESPIRATORIA','DIGERENTE','NEUROLOGICA','METABOLICA','NEOPLASTICA','URO-GENITALE','PSICHIATRICA','GRAVIDANZA/PARTO','OSTEO MUSCOLARE','ORECCHIO/NASO/GOLA', 'OCULISTICA', 'CUTE/TESS.CONNETTIVO','INFETTIVA', 'NON NOTO'];
+                break;
+            case 'INCIDENTE/INFORTUNIO':
+                opzioni = ['FERITA LACERO CONTUSA','FOLGORATO','USTIONI','AMPUTAZIONE','SCONTRO DI GIOCO','SCHIACCIAMENTO'];
+                break;
+            case 'SOCCORSO PERSONA':
+                opzioni = ['IMPICCAMENTO','TENTATO SUICIDIO','INC. DOMESTICO','APERTURA APPARTAMENTO','INCENDIO','ANNEGAMENTO','RICERCA DISPERSO','ASSISTENZA FFO', 'ASSISTENZA VVF'];
+                break;
+            case 'CADUTA':
+                opzioni = ['CADUTA SUOLO','CADUTA DA SCALA','CADUTA DA BICI','CADUTA DA MOTO','CADUTA DA CAVALLO','PRECIPITATO'];
+                break;
+            case 'EVENTO VIOLENTO':
+                opzioni = ['RISSA','AGGRESSIONE','FERITA','FERITA ARMA BIANCA','FERITA ARMA DA FUOCO', 'ASSISTENZA FFO'];
+                break;
+            case 'INC. STRADALE':
+                opzioni = ['INVESTIMENTO PEDONE','INVESTIMENTO CICLISTA','SCONTRO BICICLETTE','RIBALTAMENTO','SBALZATO/PROIETTATO','FUORI STRADA','CONTRO OSTACOLO','MOTO/MOTO','MOTO/AUTO','AUTO/AUTO','MOTO/MEZZO PESANTE','AUTO/MEZZO PESANTE','MEZZO PESANTE/MEZZO PESANTE', 'PIU VEICOLI','INCASTRATO', 'INCARCERATO', 'ARROTAMENTO PERSONA','MICROMOB. ELETTRICA', 'DINAMICA NON NOTA'];
+                break;
+            case 'INC. FERROVIA':
+                opzioni = ['ARROTAMENTO PERSONA', 'ALTRO INC. FERROVIARIO'];
+                break;
+            case 'INC. ACQUA':
+                opzioni = ['IMBARCAZIONE', 'ANNEGAMENTO PERSONA', 'SOCCORSO A PERSONA'];
+                break;
+            case 'INC. ARIA':
+                opzioni = ['AEROMOBILE'];
+                break;
+            case 'INC. MONTANO':
+            case 'INC. SPELEO/FORRA':
+                opzioni = ['INCRODATO', 'SOCCORSO A PERSONA', 'RICERCA DISPERSO', 'ALTRO'];
+                break;
+            case 'INTOSSICAZIONE':
+                opzioni = ['ALIMENTARE','FARMACI','SOSTANZE PERICOLOSE', 'ETILICA', 'ALTRA SOSTANZA PERICOLOSA'];
+                break;
+            case 'ANIMALI':
+                opzioni = ['PUNTURA ANIMALE','MORSO ANIMALE', 'MORSO DI VIPERA'];
+                break;
+            case 'PREVENZIONE':
+            case 'EVENTO DI MASSA':
+            case 'MAXI EMERGENZA':
+                opzioni = ['ESPLOSIONE','SCOPPIO','CROLLO','ESONDAZIONE','FRANA/VALANGA','NUBIFRAGIO','TERREMOTO','TROMBA D ARIA','FUGA GAS/ SOST. PERICOLOSE','INC. NUCLEARE','NUBE TOSSICA'];
+                break;
+            case 'SOCCORSO SECONDARIO':
+                opzioni = ['SOCCORSO SECONDARIO', 'TRASPORTO INTRAOSPEDALIERO', 'TRASPORTO EQUIPE ELI', 'TRASPORTO ORGANI', 'TRASPORTO EQUIPE TRAPIANTI'];
+                break;
+            case 'ALTRO/NON NOTO':
+                opzioni = ['PZ GRANDE OBESO','ALTRO', 'NON INDENTIFICATO'];
+                break;
+        }
+        
+        // Recupera il call object per gestire il salvataggio
+        const popup = document.getElementById('popupMissione');
+        const callId = popup?.getAttribute('data-call-id');
+        const call = callId ? this.calls.get(callId) : null;
+        
+        opzioni.forEach(opt => {
+            const option = document.createElement('option');
+            option.value = opt;
+            option.textContent = opt;
+            // Ripristina il valore salvato se corrisponde
+            option.selected = call && call.dettMotivo === opt;
+            dettMotivoSelect.appendChild(option);
+        });
+        
+        // Aggiungi listener per salvare automaticamente
+        dettMotivoSelect.onchange = () => {
+            if (call) {
+                call.dettMotivo = dettMotivoSelect.value; // Salva automaticamente
+            }
+        };
+    }
+
+    updateNoteEvento2(noteEvento) {
+        const noteEvento2Select = document.getElementById('note-evento2');
+        if (!noteEvento2Select) return;
+        
+        noteEvento2Select.innerHTML = '';
+        let opzioni = [];
+        
+        switch(noteEvento) {
+            case 'CARDIOCIRCOLATORIO':
+                opzioni = ['ACC','RCP IN CORSO','CARDIOPALMO','CARDIOPATICO','IPERTESO','IPOTESO','CARDIOPATICO IPERTESO','PREGRESSO IMA'];
+                break;
+            case 'RESPIRATORIA':
+                opzioni = ['NORMALE','A FATICA','TOSSE', 'BPCO', 'NON NOTO'];
+                break;
+            case 'RESPIRA':
+                opzioni = ['NORMALE','A FATICA','TOSSE', 'BPCO', 'NON NOTO'];
+                break;
+            case 'DOLORE':
+                opzioni = ['TESTA VOLTO','OCCHI','BOCCA','TORACE','TORACE/EPIGASTRICO/MANDIBOLA','ARTO SUP.','SPALLA','MANO','ADDOME','BACINO','SCHIENA','APPARATO GENITALE','ARTO INF.','PIEDE','SANGUINA','EPISTASSI'];
+                break;
+            case 'DEFORMITA':
+                opzioni = ['TESTA VOLTO','OCCHI','BOCCA','TORACE','ARTO SUP.','SPALLA','MANO','ADDOME','BACINO','SCHIENA','APPARATO GENITALE','ARTO INF.','PIEDE','SANGUINA','EPISTASSI'];
+                break;
+            case 'DISTRETTO TRAUMA':
+                opzioni = ['TESTA VOLTO','OCCHI','BOCCA','TORACE','ARTO SUP.','SPALLA','MANO','ADDOME','BACINO','SCHIENA','APPARATO GENITALE','ARTO INF.','PIEDE','SANGUINA','EPISTASSI'];
+                break;
+            case 'EDEMA':
+                opzioni = ['TESTA VOLTO','OCCHI','BOCCA','TORACE','ARTO SUP.','SPALLA','MANO','ADDOME','BACINO','SCHIENA','APPARATO GENITALE','ARTO INF.','PIEDE'];
+                break;
+            case 'SANGUINA':
+                opzioni = ['EPISTASSI','FERITA/LACERAZIONE','FERITA ARMA DA FUOCO','FERITA ARMA BIANCA', 'TESTA VOLTO','BOCCA','TORACE/EPIGASTRICO/MANDIBOLA','TORACE','ARTO SUP.','SPALLA','MANO','ADDOME','BACINO','SCHIENA','APPARATO GENITALE','ARTO INF.','PIEDE'];
+                break;
+            case 'CUTE':
+                opzioni = ['NORMALE','CIANOTICA','ARROSSATA','SUDATA','PALLIDO','PALLIDO + SUDATO','USTIONE'];
+                break;
+            case 'CPSS':
+                opzioni = ['POSITIVA','NEGATIVA','PREGRESSO ICTUS', 'NON NOTO'];
+                break;
+            case 'CONVULSIONI':
+                opzioni = ['EPILETTICO NOTO','MORSUS','IPO/IPERGLICEMIA', 'NON NOTO'];
+                break;
+            case 'DIABETICO':
+                opzioni = ['IPO/IPERGLICEMIA','INSULINO DIPENDENTE', 'NON NOTO'];
+                break;
+            case 'ALTRI SEGNI':
+                opzioni = ['ASTENIA','FEBBRE','TOSSE + FEBBRE','VOMITA','DIARREA','DIARREA E VOMITO','SPOSIZIONAMENTO CATETERE','NO/NON NOTO'];
+                break;
+            case 'TRAVAGLIO':
+                opzioni = ['CONTRAZIONI','ROTTURA DELLE ACQUE','ESPULSIONE','SECONDAMENTO'];
+                break;
+            case 'PSICHIATRICO NOTO':
+                opzioni = ['ASO/TSO','AGITATO', 'NON NOTO'];
+                break;
+            default:
+                opzioni = ['NO/NON NOTO'];
+        }
+        
+        // Recupera il call object per gestire il salvataggio
+        const popup = document.getElementById('popupMissione');
+        const callId = popup?.getAttribute('data-call-id');
+        const call = callId ? this.calls.get(callId) : null;
+        
+        opzioni.forEach(opt => {
+            const option = document.createElement('option');
+            option.value = opt;
+            option.textContent = opt;
+            // Ripristina il valore salvato se corrisponde
+            option.selected = call && call.noteEvento2 === opt;
+            noteEvento2Select.appendChild(option);
+        });
+        
+        // Aggiungi listener per salvare automaticamente
+        noteEvento2Select.onchange = () => {
+            if (call) {
+                call.noteEvento2 = noteEvento2Select.value; // Salva automaticamente
+            }
+        };
+    }
+
     updateMezzoMarkers() {
         if (!this.map || !this.mezzi) return;
         this.mezzi.forEach(m => {
@@ -1543,9 +1788,16 @@ class EmergencyDispatchGame {
             }
         }
 
-        const patologie = ['Trauma', 'Malore', 'Incidente', 'Dolore toracico', 'Dispnea', 'Altro'];
+        // Generazione automatica di alcuni campi
+        const luoghi = ['CASA','STRADA','UFFICI ED ES. PUBBL.','STR. SANITARIA','IMPIANTO SPORTIVO','SCUOLE'];
+        const luogo = luoghi[Math.floor(Math.random() * luoghi.length)];
+        
+        const motivi = ['MEDICO ACUTO','SOCCORSO PERSONA','CADUTA','INCIDENTE/INFORTUNIO','INC. STRADALE'];
+        const motivo = motivi[Math.floor(Math.random() * motivi.length)];
+        
+        const coscienze = ['RISPONDE','ALTERATA','NON RISPONDE','INCOSCIENTE','NON NOTO'];
+        const coscienza = coscienze[Math.floor(Math.random() * coscienze.length)];
 
-        const patologia = patologie[Math.floor(Math.random() * patologie.length)];
         // ensure codice list from loaded statiMezzi
         const codici = this.statiMezzi ? Object.keys(this.statiMezzi) : ['Rosso','Giallo','Verde'];
         const codice = codici[Math.floor(Math.random() * codici.length)];
@@ -1574,7 +1826,9 @@ class EmergencyDispatchGame {
             lon: indirizzo.lon,
             // Use only template text for call description
             simText: testo_chiamata,
-            patologia,
+            luogo,
+            motivo,
+            coscienza,
             codice,
             mezziAssegnati: [],
             selectedChiamata: chiamataTemplate,
@@ -1752,44 +2006,164 @@ class EmergencyDispatchGame {
         const luogoSelect = document.getElementById('luogo');
         if (luogoSelect) {
             luogoSelect.innerHTML = '';
-            const opzioniLuogo = ['Casa', 'Strada', 'Esercizi pubblici', 'Impianto lavorativo', 'Impianto sportivo', 'Scuola', 'Altro'];
+            // Aggiungi opzione vuota come prima opzione
+            const emptyOption = document.createElement('option');
+            emptyOption.value = '';
+            emptyOption.textContent = '-- Seleziona luogo --';
+            emptyOption.selected = !call.luogo; // Seleziona solo se non c'è valore salvato
+            luogoSelect.appendChild(emptyOption);
+            
+            const opzioniLuogo = ['CASA','STRADA','UFFICI ED ES. PUBBL.','STR. SANITARIA','IMPIANTO SPORTIVO','IMPIANTO LAVORATIVO','SCUOLE','STAZIONE','FERROVIA','METROPOLITANA','AEREOPORTI','QUESTURA/CASERME','LUOGHI DI CULTO','IMPERVIO','ALTRO LUOGO'];
             opzioniLuogo.forEach(opt => {
                 const option = document.createElement('option');
                 option.value = opt;
                 option.textContent = opt;
-                if (call.luogo === opt) option.selected = true;
+                option.selected = call.luogo === opt; // Ripristina valore salvato
                 luogoSelect.appendChild(option);
             });
+            
+            // Event listener per aggiornare Dett. Luogo e salvare automaticamente
+            luogoSelect.addEventListener('change', () => {
+                call.luogo = luogoSelect.value; // Salva automaticamente
+                this.updateDettLuogo(luogoSelect.value);
+            });
         }
-        const patologiaSelect = document.getElementById('patologia');
-        if (patologiaSelect) {
-            patologiaSelect.innerHTML = '';
-            const opzioniPatologia = [
-                'Traumatica','Cardiocircolatoria','Respiratoria','Neurologica','Psichiatrica','Tossicologica','Metabolica','Gastroenterologica','Urologica','Oculistica','Otorinolaringoiatrica','Dermatologica','Ostetrico-ginecologica','Infettiva','Neoplastica','Altra patologia','Non identificata'
-            ];
-            opzioniPatologia.forEach(opt => {
+        
+        // Lascia vuoto il campo Dett. Luogo inizialmente
+        
+        const motivoSelect = document.getElementById('motivo');
+        if (motivoSelect) {
+            motivoSelect.innerHTML = '';
+            // Aggiungi opzione vuota come prima opzione
+            const emptyOption = document.createElement('option');
+            emptyOption.value = '';
+            emptyOption.textContent = '-- Seleziona motivo --';
+            emptyOption.selected = !call.motivo; // Seleziona solo se non c'è valore salvato
+            motivoSelect.appendChild(emptyOption);
+            
+            const opzioniMotivo = ['MEDICO ACUTO','SOCCORSO PERSONA','EVENTO VIOLENTO','CADUTA','INCIDENTE/INFORTUNIO','INC. STRADALE','INC. FERROVIA','INC. ARIA','INC. ACQUA','INC. MONTANO','INC. SPELEO/FORRA','INTOSSICAZIONE','ANIMALI','PREVENZIONE','EVENTO DI MASSA','MAXI EMERGENZA','SOCCORSO SECONDARIO','ALTRO/NON NOTO'];
+            opzioniMotivo.forEach(opt => {
                 const option = document.createElement('option');
                 option.value = opt;
                 option.textContent = opt;
-                if (call.patologia === opt) option.selected = true;
-                patologiaSelect.appendChild(option);
+                option.selected = call.motivo === opt; // Ripristina valore salvato
+                motivoSelect.appendChild(option);
+            });
+            
+            // Event listener per aggiornare Dett. Motivo e salvare automaticamente
+            motivoSelect.addEventListener('change', () => {
+                call.motivo = motivoSelect.value; // Salva automaticamente
+                this.updateDettMotivo(motivoSelect.value);
             });
         }
+        
+        // Lascia vuoto il campo Dett. Motivo inizialmente
+        
+        const coscienzaSelect = document.getElementById('coscienza');
+        if (coscienzaSelect) {
+            coscienzaSelect.innerHTML = '';
+            // Aggiungi opzione vuota come prima opzione
+            const emptyOption = document.createElement('option');
+            emptyOption.value = '';
+            emptyOption.textContent = '-- Seleziona coscienza --';
+            emptyOption.selected = !call.coscienza; // Seleziona solo se non c'è valore salvato
+            coscienzaSelect.appendChild(emptyOption);
+            
+            const opzioniCoscienza = ['RISPONDE','ALTERATA','NON RISPONDE','NON RISPONDE NON RESPIRA','INCOSCIENTE','NON NOTO'];
+            opzioniCoscienza.forEach(opt => {
+                const option = document.createElement('option');
+                option.value = opt;
+                option.textContent = opt;
+                option.selected = call.coscienza === opt; // Ripristina valore salvato
+                coscienzaSelect.appendChild(option);
+            });
+            
+            // Aggiungi listener per salvare automaticamente
+            coscienzaSelect.addEventListener('change', () => {
+                call.coscienza = coscienzaSelect.value; // Salva automaticamente
+            });
+        }
+        
+        const noteEventoSelect = document.getElementById('note-evento');
+        if (noteEventoSelect) {
+            noteEventoSelect.innerHTML = '';
+            // Aggiungi opzione vuota come prima opzione
+            const emptyOption = document.createElement('option');
+            emptyOption.value = '';
+            emptyOption.textContent = '-- Seleziona note evento --';
+            emptyOption.selected = !call.noteEvento; // Seleziona solo se non c'è valore salvato
+            noteEventoSelect.appendChild(emptyOption);
+            
+            const opzioniNoteEvento = ['RESPIRA','DOLORE','DEFORMITA','CARDIOCIRCOLATORIO','EDEMA','DISTRETTO TRAUMA','CONVULSIONI','CPSS','VERTIGINI','STATO CONFUSIONALE','ASTENIA','SEGNI','CUTE','SANGUINA','ABRASIONE/CONTUSIONE','DIABETICO','INSUFFICIENZA RENALE','PENETRANTE','PROIETTATO','SBALZATO','INCASTRATO','-2.5 MT','2.5 - 5 MT','+ 5 MT','TRAVAGLIO','CONTRAZIONI - 5 MIN','GRAVIDANZA','PARTO','INCENDIO','INCENDIO INDUSTRIALE','INCENDIO ABITAZIONE','SOSP INTOSSICAZIONE DA MONOSSIDO','AUTOLESIONISMO','PSICHIATRICO NOTO','NO/NON NOTO','ALTRI SEGNI','SEGUE'];
+            opzioniNoteEvento.forEach(opt => {
+                const option = document.createElement('option');
+                option.value = opt;
+                option.textContent = opt;
+                option.selected = call.noteEvento === opt; // Ripristina valore salvato
+                noteEventoSelect.appendChild(option);
+            });
+            
+            // Event listener per aggiornare Note evento 2 e salvare automaticamente
+            noteEventoSelect.addEventListener('change', () => {
+                call.noteEvento = noteEventoSelect.value; // Salva automaticamente
+                this.updateNoteEvento2(noteEventoSelect.value);
+            });
+        }
+        
+        // Lascia vuoto il campo Note evento 2 inizialmente
+        
+        const noteEvento2Select = document.getElementById('note-evento2');
+        
         const codiceSelect = document.getElementById('codice');
         if (codiceSelect) {
             codiceSelect.innerHTML = '';
-            ['Rosso','Giallo','Verde'].forEach(opt => {
+            // Aggiungi opzione vuota come prima opzione
+            const emptyOption = document.createElement('option');
+            emptyOption.value = '';
+            emptyOption.textContent = '-- Seleziona codice --';
+            emptyOption.selected = !call.codice; // Seleziona solo se non c'è valore salvato
+            codiceSelect.appendChild(emptyOption);
+            
+            ['ROSSO','GIALLO','VERDE'].forEach(opt => {
                 const option = document.createElement('option');
                 option.value = opt;
                 option.textContent = opt;
-                if (call.codice === opt) option.selected = true;
+                option.selected = call.codice === opt; // Ripristina valore salvato
                 codiceSelect.appendChild(option);
             });
+            
+            // Aggiungi listener per salvare automaticamente
+            codiceSelect.addEventListener('change', () => {
+                call.codice = codiceSelect.value; // Salva automaticamente
+            });
         }
-        const note1 = document.getElementById('note1');
-        if (note1) note1.value = call.note1 || '';
+        const note1 = document.getElementById('altro-evento');
+        if (note1) {
+            note1.value = call.altroEvento || '';
+            // Aggiungi listener per salvare automaticamente
+            note1.addEventListener('input', () => {
+                call.altroEvento = note1.value; // Salva automaticamente
+            });
+        }
         const note2 = document.getElementById('note2');
-        if (note2) note2.value = call.note2 || '';
+        if (note2) {
+            note2.value = call.note2 || '';
+            // Aggiungi listener per salvare automaticamente
+            note2.addEventListener('input', () => {
+                call.note2 = note2.value; // Salva automaticamente
+            });
+        }
+
+        // Popola i campi dipendenti se ci sono valori salvati
+        if (call.luogo) {
+            this.updateDettLuogo(call.luogo);
+        }
+        if (call.motivo) {
+            this.updateDettMotivo(call.motivo);
+        }
+        if (call.noteEvento) {
+            this.updateNoteEvento2(call.noteEvento);
+        }
 
         const btnsRapidi = [
             {tipo:'MSB', label:'MSB'},
@@ -1900,15 +2274,24 @@ class EmergencyDispatchGame {
         }
         if (!call) return;
         const luogo = document.getElementById('luogo')?.value || '';
-        const patologia = document.getElementById('patologia')?.value || '';
+        const dettLuogo = document.getElementById('dett-luogo')?.value || '';
+        const motivo = document.getElementById('motivo')?.value || '';
+        const dettMotivo = document.getElementById('dett-motivo')?.value || '';
+        const coscienza = document.getElementById('coscienza')?.value || '';
+        const noteEvento = document.getElementById('note-evento')?.value || '';
+        const noteEvento2 = document.getElementById('note-evento2')?.value || '';
+        const altroEvento = document.getElementById('altro-evento')?.value || '';
         const codice = document.getElementById('codice')?.value || '';
-        const note1 = document.getElementById('note1')?.value || '';
-        const note2 = document.getElementById('note2')?.value || '';
+        
         call.luogo = luogo;
-        call.patologia = patologia;
+        call.dettLuogo = dettLuogo;
+        call.motivo = motivo;
+        call.dettMotivo = dettMotivo;
+        call.coscienza = coscienza;
+        call.noteEvento = noteEvento;
+        call.noteEvento2 = noteEvento2;
+        call.altroEvento = altroEvento;
         call.codice = codice;
-        call.note1 = note1;
-        call.note2 = note2;
         // Query robusta per i mezzi selezionati
         const mezziChecked = Array.from(document.querySelectorAll('#popupMissione input[type=checkbox][name=mezzi]:checked')).map(cb => cb.value);
         
@@ -2036,8 +2419,6 @@ class EmergencyDispatchGame {
         
         // Chiudi popup e aggiorna UI immediatamente
         popup?.classList.add('hidden');
-        // Play confirm sound
-        window.soundManager.play('confirm');
         const callDiv = document.getElementById(`call-${call.id}`);
         if (callDiv) callDiv.remove();
         // Aggiungi la missione al pannello "Eventi in corso"

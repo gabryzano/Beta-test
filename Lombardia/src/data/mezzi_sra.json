@@ -829,11 +829,20 @@
     },
     {
         "Nome Postazione": "Garda Emergenza Moniga",
-        "Coordinate Postazione": "45.526835,10.532725",
+        "Coordinate Postazione": "45.4874318,10.4724432",
         "Mezzo": "MSB",
         "Nome radio": "GARDA_109.05B1",
         "Convenzione": "H24",
         "Orario di lavoro": "Dalle 8:00 alle 20:00",
+        "Giorni": "LUN-DOM"
+    },
+     {
+        "Nome Postazione": "Garda Emergenza Moniga",
+        "Coordinate Postazione": "45.4874318,10.4724432",
+        "Mezzo": "MSB",
+        "Nome radio": "VVTENE_109.05B1",
+        "Convenzione": "H24",
+        "Orario di lavoro": "dalle 20:00 alle 8:00",
         "Giorni": "LUN-DOM"
     },
     {
@@ -1302,15 +1311,6 @@
         "Nome radio": "VLS_SO_302",
         "Convenzione": "GET",
         "Orario di lavoro": "20:00-7:00, SAB E DOM 7:00-20:00",
-        "Giorni": "LUN-DOM"
-    },
-    {
-        "Nome Postazione": "Valtenesi Soccorso",
-        "Coordinate Postazione": "45.5481154,10.5343912",
-        "Mezzo": "MSB",
-        "Nome radio": "VVTENE_109.05B1",
-        "Convenzione": "H24",
-        "Orario di lavoro": "dalle 20:00 alle 8:00",
         "Giorni": "LUN-DOM"
     },
     {

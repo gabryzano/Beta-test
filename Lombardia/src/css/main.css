@@ -173,26 +173,19 @@ header {
 }
 
 /* Popup missione */
-#popupMissione { 
-    display: none; 
+.popup { 
     position: fixed; 
-    width: 1200px !important;
-    min-width: 600px !important;
-    max-width: 98vw !important;
-    height: auto;
-    min-height: 200px !important;
-    max-height: 98vh !important;
-    left: 50% !important;
-    top: 50% !important;
-    transform: translate(-50%, -50%) !important;
-    padding: 0 !important; 
-    background: white; 
+    background: #ffffff; 
     border: 2px solid #003366; 
     box-shadow: 0 0 10px rgba(0,0,0,0.5); 
     z-index: 10000; 
     border-radius: 10px;
     resize: both;
     overflow: auto;
+    max-width: 95vw;
+    max-height: 90vh;
+    min-width: 600px;
+    min-height: 400px;
 }
 
 /* Maniglia grafica per il resize in basso a destra del popup missione */
@@ -276,6 +269,14 @@ header {
     gap: 2px;
 }
 
+/* Grid responsivo per i campi del form */
+#popupMissione .popup-form > div[style*="grid-template-columns"] {
+    display: grid !important;
+    grid-template-columns: 1fr 1fr !important;
+    gap: 6px 8px !important;
+    align-items: center !important;
+}
+
 /* Riduci padding e margin su tutti gli input, select e label nel popup missione */
 #popupMissione input,
 #popupMissione select {
@@ -294,7 +295,8 @@ header {
     margin-top: 2px !important;
     margin-bottom: 2px !important;
     padding: 2px 0 2px 0 !important;
-    max-height: 180px !important;
+    max-height: 200px !important;
+    overflow-y: auto;
 }
 #popupMissione #btnsRapidiMezzi {
     margin-bottom: 0 !important;

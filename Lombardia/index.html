@@ -140,16 +140,24 @@
         <form id="missionForm" class="popup-form" autocomplete="off" style="background:#f9f9f9;">
             <div style="margin-bottom:6px;font-size:14px;"><b>Indirizzo:</b> <span id="missione-indirizzo"></span></div>
             <div style="display:grid;grid-template-columns:1fr 1fr;gap:6px 8px;align-items:center;">
-                <label for="codice" style="font-weight:bold;color:#003366;">Codice gravità:</label>
+                <label for="codice" style="font-weight:bold;color:#003366;">Codice:</label>
                 <select id="codice" name="codice"></select>
-                <label for="luogo" style="font-weight:bold;color:#003366;">Luogo intervento:</label>
+                <label for="luogo" style="font-weight:bold;color:#003366;">Luogo:</label>
                 <select id="luogo" name="luogo"></select>
-                <label for="patologia" style="font-weight:bold;color:#003366;">Motivo:</label>
-                <select id="patologia" name="patologia"></select>
-                <label for="note1" style="font-weight:bold;color:#003366;">Note sanitarie 1:</label>
-                <input id="note1" name="note1" type="text">
-                <label for="note2" style="font-weight:bold;color:#003366;">Note sanitarie 2:</label>
-                <input id="note2" name="note2" type="text">
+                <label for="dett-luogo" style="font-weight:bold;color:#003366;">Dett. Luogo:</label>
+                <select id="dett-luogo" name="dett-luogo"></select>
+                <label for="motivo" style="font-weight:bold;color:#003366;">Motivo:</label>
+                <select id="motivo" name="motivo"></select>
+                <label for="dett-motivo" style="font-weight:bold;color:#003366;">Dett. Motivo:</label>
+                <select id="dett-motivo" name="dett-motivo"></select>
+                <label for="coscienza" style="font-weight:bold;color:#003366;">Coscienza:</label>
+                <select id="coscienza" name="coscienza"></select>
+                <label for="note-evento" style="font-weight:bold;color:#003366;">Note evento:</label>
+                <select id="note-evento" name="note-evento"></select>
+                <label for="note-evento2" style="font-weight:bold;color:#003366;">Note evento 2:</label>
+                <select id="note-evento2" name="note-evento2"></select>
+                <label for="altro-evento" style="font-weight:bold;color:#003366;">Altro evento:</label>
+                <input id="altro-evento" name="altro-evento" type="text" placeholder="Campo libero per note aggiuntive">
             </div>
             <div style="margin:4px 0; display:flex; align-items:center; gap:12px;">
                 <label for="check-vvf" style="margin:0;font-weight:bold;color:#003366;"><input type="checkbox" id="check-vvf" name="check-vvf"> Vigili del Fuoco</label>
@@ -221,6 +229,9 @@
                         <option value='30'>30</option>
                         <option value='45'>45</option>
                     </select>
+                </div>
+                <div style="text-align:center;margin-top:8px;">
+                    <button id='save-time-date' style='padding:8px 16px;border:none;background:#4CAF50;color:white;border-radius:6px;font-weight:600;cursor:pointer;font-size:13px;'>💾 Salva Ora/Giorno</button>
                 </div>
             </div>
             <div style="margin-bottom:20px;">
@@ -351,8 +362,10 @@
             // Annulla
             document.getElementById('sim-settings-cancel').onclick = function() {
                 document.getElementById('sim-settings-popup').style.display = 'none';
-            };            // Salva
-            document.getElementById('sim-settings-save').onclick = function() {
+            };
+            
+            // Salva solo Ora/Giorno (indipendente)
+            document.getElementById('save-time-date').onclick = function() {
                 window.simDay = document.getElementById('sim-day').value;
                 window._dayManuallySet = true; // Indica che il giorno è stato impostato manualmente
                 const h = document.getElementById('sim-hour-hour').value;
@@ -367,6 +380,19 @@
                     aggiornaDisponibilitaMezzi();
                 }
                 
+                // Feedback visivo
+                const btn = document.getElementById('save-time-date');
+                const originalText = btn.textContent;
+                btn.textContent = '✅ Salvato!';
+                btn.style.background = '#2E7D32';
+                setTimeout(() => {
+                    btn.textContent = originalText;
+                    btn.style.background = '#4CAF50';
+                }, 1500);
+                
+                console.log(`[INFO] Time/Date updated to: ${window.simDay} ${h}:${m}`);
+            };            // Salva
+            document.getElementById('sim-settings-save').onclick = function() {
                 // Save mute state
                 window.soundMuted = document.getElementById('mute-sounds')?.checked;
                 
