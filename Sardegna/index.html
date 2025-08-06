@@ -220,6 +220,9 @@
                         <option value='45'>45</option>
                     </select>
                 </div>
+                <div style="text-align:center;margin-top:8px;">
+                    <button id='save-time-date' style='padding:8px 16px;border:none;background:#4CAF50;color:white;border-radius:6px;font-weight:600;cursor:pointer;font-size:13px;'>💾 Salva Ora/Giorno</button>
+                </div>
             </div>
             <div style="margin-bottom:20px;">
                 <label for="call-frequency-slider" style='display:block;font-weight:600;color:#333;margin-bottom:8px;'>Frequenza chiamate/ora:</label>
@@ -398,8 +401,10 @@
             // Annulla
             document.getElementById('sim-settings-cancel').onclick = function() {
                 document.getElementById('sim-settings-popup').style.display = 'none';
-            };            // Salva
-            document.getElementById('sim-settings-save').onclick = function() {
+            };
+            
+            // Salva solo Ora/Giorno (indipendente)
+            document.getElementById('save-time-date').onclick = function() {
                 window.simDay = document.getElementById('sim-day').value;
                 window._dayManuallySet = true; // Indica che il giorno è stato impostato manualmente
                 const h = document.getElementById('sim-hour-hour').value;
@@ -414,6 +419,21 @@
                     aggiornaDisponibilitaMezzi();
                 }
                 
+                // Feedback visivo
+                const btn = document.getElementById('save-time-date');
+                const originalText = btn.textContent;
+                btn.textContent = '✅ Salvato!';
+                btn.style.background = '#2E7D32';
+                setTimeout(() => {
+                    btn.textContent = originalText;
+                    btn.style.background = '#4CAF50';
+                }, 1500);
+                
+                console.log(`[INFO] Time/Date updated to: ${window.simDay} ${h}:${m}`);
+            };
+            
+            // Salva
+            document.getElementById('sim-settings-save').onclick = function() {
                 // Save mute state
                 window.soundMuted = document.getElementById('mute-sounds')?.checked;
                 

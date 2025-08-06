@@ -94,8 +94,8 @@
     "Coordinate Postazione": "40.760576,8.346823",
     "Mezzo": "MSB",
     "Nome radio": "SS 424",
-    "Convenzione": "REP H12",
-    "Orario di lavoro": "8:00-20:00",
+    "Convenzione": "H24",
+    "Orario di lavoro": "8:00-8:00",
     "Giorni": "LUN-DOM"
   },
   {
@@ -167,7 +167,7 @@
     "Mezzo": "ELI",
     "Nome radio": "EL 02",
     "Convenzione": "H12",
-    "Orario di lavoro": "7:30-19:30",
+    "Orario di lavoro": "7:30-20:30",
     "Giorni": "LUN-DOM"
   },
   {
@@ -400,8 +400,8 @@
     "Coordinate Postazione": "40.61101,9.745972",
     "Mezzo": "MSB",
     "Nome radio": "NU 325",
-    "Convenzione": "H6",
-    "Orario di lavoro": "18:00-00:00",
+    "Convenzione": "H16",
+    "Orario di lavoro": "8:00-00:00",
     "Giorni": "LUN-DOM"
   },
   {
