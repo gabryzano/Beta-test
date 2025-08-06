@@ -1,0 +1,59 @@
+{
+  "Sheet1": [
+    {
+      "Nome Postazione": "Croce Rossa Italiana - Verona",
+      "Coordinate Postazione": "45.4384,10.9916",
+      "Mezzo": "MSA1",
+      "Nome radio": "ALFA VICTOR 01",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-24:00",
+      "Giorni": "LUN-DOM",
+      "Unnamed: 7": "",
+      "note": ""
+    },
+    {
+      "Nome Postazione": "Croce Rossa Italiana - Verona",
+      "Coordinate Postazione": "45.4384,10.9916",
+      "Mezzo": "MSA2",
+      "Nome radio": "ALFA VICTOR 02",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-24:00",
+      "Giorni": "LUN-DOM",
+      "Unnamed: 7": "",
+      "note": ""
+    },
+    {
+      "Nome Postazione": "Croce Rossa Italiana - Verona",
+      "Coordinate Postazione": "45.4384,10.9916",
+      "Mezzo": "MSB",
+      "Nome radio": "BRAVO VICTOR 01",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-24:00",
+      "Giorni": "LUN-DOM",
+      "Unnamed: 7": "",
+      "note": ""
+    },
+    {
+      "Nome Postazione": "Croce Rossa Italiana - Legnago",
+      "Coordinate Postazione": "45.1946,11.3067",
+      "Mezzo": "MSB",
+      "Nome radio": "BRAVO VICTOR 02",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-24:00",
+      "Giorni": "LUN-DOM",
+      "Unnamed: 7": "",
+      "note": ""
+    },
+    {
+      "Nome Postazione": "Croce Rossa Italiana - Villafranca",
+      "Coordinate Postazione": "45.3508,10.8451",
+      "Mezzo": "MSB",
+      "Nome radio": "BRAVO VICTOR 03",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-24:00",
+      "Giorni": "LUN-DOM",
+      "Unnamed: 7": "",
+      "note": ""
+    }
+  ]
+}

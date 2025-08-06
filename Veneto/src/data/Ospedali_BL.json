@@ -1,0 +1,46 @@
+{
+  "Sheet1": [
+    {
+      "OSPEDALE": "H BELLUNO",
+      "COORDINATE": "46.1427,12.2049",
+      "N° pazienti Max": 35,
+      "CLASSE": "EAS",
+      "PUNTO NASCITA": true,
+      "PEDIATRIA": true,
+      "TRAUMA": "CTZ",
+      "EMODINAMICA": false,
+      "STROKE UNIT": true,
+      "NCH": false,
+      "RIANIMAZIONE": true,
+      "PSICHIATRIA": true
+    },
+    {
+      "OSPEDALE": "H FELTRE",
+      "COORDINATE": "46.0198,11.9057",
+      "N° pazienti Max": 25,
+      "CLASSE": "PS",
+      "PUNTO NASCITA": false,
+      "PEDIATRIA": true,
+      "TRAUMA": "OTT",
+      "EMODINAMICA": false,
+      "STROKE UNIT": false,
+      "NCH": false,
+      "RIANIMAZIONE": false,
+      "PSICHIATRIA": false
+    },
+    {
+      "OSPEDALE": "H AGORDO",
+      "COORDINATE": "46.2833,11.9833",
+      "N° pazienti Max": 15,
+      "CLASSE": "PS",
+      "PUNTO NASCITA": false,
+      "PEDIATRIA": false,
+      "TRAUMA": "PST",
+      "EMODINAMICA": false,
+      "STROKE UNIT": false,
+      "NCH": false,
+      "RIANIMAZIONE": false,
+      "PSICHIATRIA": false
+    }
+  ]
+}

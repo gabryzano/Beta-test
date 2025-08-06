@@ -1,0 +1,14 @@
+[
+  {"Abitazioni civili": "Via Roma, 42, 45100 Rovigo RO", "lat": 45.0707, "lon": 11.7900},
+  {"Abitazioni civili": "Corso del Popolo, 28, 45100 Rovigo RO", "lat": 45.0720, "lon": 11.7920},
+  {"Abitazioni civili": "Via Silvestri, 15, 45100 Rovigo RO", "lat": 45.0690, "lon": 11.7880},
+  {"Abitazioni civili": "Piazza Vittorio Emanuele, 8, 45100 Rovigo RO", "lat": 45.0710, "lon": 11.7910},
+  {"Scuole": "Liceo Classico Celio, Via Carducci, 45100 Rovigo RO", "lat": 45.0700, "lon": 11.7890},
+  {"Scuole": "Istituto Tecnico Industriale, Via Tre Martiri, 45100 Rovigo RO", "lat": 45.0715, "lon": 11.7905},
+  {"Luoghi di lavoro": "Zona Industriale, Via dell'Artigianato, 45100 Rovigo RO", "lat": 45.0650, "lon": 11.8000},
+  {"Luoghi di lavoro": "Centro Commerciale Airone, Viale Luca Da Porto, 45100 Rovigo RO", "lat": 45.0730, "lon": 11.7850},
+  {"Abitazioni civili": "Via Roma, 15, 45011 Adria RO", "lat": 45.0577, "lon": 12.0573},
+  {"Abitazioni civili": "Piazza Garibaldi, 5, 45027 Trecenta RO", "lat": 45.0333, "lon": 11.4667},
+  {"Strade e autostrade": "SS 434 Transpolesana, km 35, 45100 Rovigo RO", "lat": 45.0600, "lon": 11.8200},
+  {"Strade e autostrade": "A31 Autostrada della Valdastico, km 1, 45100 Rovigo RO", "lat": 45.0800, "lon": 11.7600}
+]

@@ -1,0 +1,14 @@
+[
+  {"Abitazioni civili": "Via Roma, 15, 32100 Belluno BL", "lat": 46.1427, "lon": 12.2049},
+  {"Abitazioni civili": "Via Dante, 23, 32100 Belluno BL", "lat": 46.1420, "lon": 12.2060},
+  {"Abitazioni civili": "Via Mazzini, 8, 32100 Belluno BL", "lat": 46.1435, "lon": 12.2055},
+  {"Abitazioni civili": "Via Europa, 45, 32100 Belluno BL", "lat": 46.1440, "lon": 12.2045},
+  {"Scuole": "Liceo Classico Tiziano, Via Del Parco, 32100 Belluno BL", "lat": 46.1445, "lon": 12.2040},
+  {"Scuole": "Istituto Tecnico Commerciale, Via Volontari della Libertà, 32100 Belluno BL", "lat": 46.1425, "lon": 12.2065},
+  {"Luoghi di lavoro": "Zona Industriale, Via dell'Artigianato, 32100 Belluno BL", "lat": 46.1380, "lon": 12.2100},
+  {"Luoghi di lavoro": "Centro Commerciale, Viale Europa, 32100 Belluno BL", "lat": 46.1450, "lon": 12.2020},
+  {"Abitazioni civili": "Via Garibaldi, 12, 32032 Feltre BL", "lat": 46.0198, "lon": 11.9057},
+  {"Abitazioni civili": "Via Mezzaterra, 34, 32032 Feltre BL", "lat": 46.0205, "lon": 11.9065},
+  {"Strade e autostrade": "SS 51 di Alemagna, km 15, 32100 Belluno BL", "lat": 46.1500, "lon": 12.1900},
+  {"Strade e autostrade": "SP 1 del Passo San Pellegrino, km 8, 32020 Agordo BL", "lat": 46.2833, "lon": 11.9833}
+]

@@ -1,0 +1,48 @@
+{
+  "Sheet1": [
+    {
+      "Nome Postazione": "Croce Rossa Italiana - Rovigo",
+      "Coordinate Postazione": "45.0707,11.7900",
+      "Mezzo": "MSA1",
+      "Nome radio": "ALFA OSCAR 01",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-24:00",
+      "Giorni": "LUN-DOM",
+      "Unnamed: 7": "",
+      "note": ""
+    },
+    {
+      "Nome Postazione": "Croce Rossa Italiana - Rovigo",
+      "Coordinate Postazione": "45.0707,11.7900",
+      "Mezzo": "MSB",
+      "Nome radio": "BRAVO OSCAR 01",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-24:00",
+      "Giorni": "LUN-DOM",
+      "Unnamed: 7": "",
+      "note": ""
+    },
+    {
+      "Nome Postazione": "Croce Rossa Italiana - Adria",
+      "Coordinate Postazione": "45.0577,12.0573",
+      "Mezzo": "MSB",
+      "Nome radio": "BRAVO OSCAR 02",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-24:00",
+      "Giorni": "LUN-DOM",
+      "Unnamed: 7": "",
+      "note": ""
+    },
+    {
+      "Nome Postazione": "Croce Rossa Italiana - Lendinara",
+      "Coordinate Postazione": "45.0833,11.6000",
+      "Mezzo": "MSB",
+      "Nome radio": "BRAVO OSCAR 03",
+      "Convenzione": "H12",
+      "Orario di lavoro": "06:00-18:00",
+      "Giorni": "LUN-DOM",
+      "Unnamed: 7": "",
+      "note": ""
+    }
+  ]
+}

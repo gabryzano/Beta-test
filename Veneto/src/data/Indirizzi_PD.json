@@ -1,0 +1,14 @@
+[
+  {"Abitazioni civili": "Via Roma, 25, 35100 Padova PD", "lat": 45.4064, "lon": 11.8768},
+  {"Abitazioni civili": "Via del Santo, 15, 35100 Padova PD", "lat": 45.4020, "lon": 11.8850},
+  {"Abitazioni civili": "Corso del Popolo, 45, 35100 Padova PD", "lat": 45.4080, "lon": 11.8720},
+  {"Abitazioni civili": "Via Giotto, 12, 35100 Padova PD", "lat": 45.4050, "lon": 11.8800},
+  {"Scuole": "Università degli Studi di Padova, Via 8 Febbraio, 35100 Padova PD", "lat": 45.4070, "lon": 11.8770},
+  {"Scuole": "Liceo Scientifico Cornaro, Via Riccoboni, 35100 Padova PD", "lat": 45.4060, "lon": 11.8750},
+  {"Luoghi di lavoro": "Zona Industriale, Via dell'Industria, 35100 Padova PD", "lat": 45.3900, "lon": 11.8900},
+  {"Luoghi di lavoro": "Centro Commerciale Giotto, Via Zabarella, 35100 Padova PD", "lat": 45.4100, "lon": 11.8650},
+  {"Abitazioni civili": "Via Garibaldi, 8, 35042 Este PD", "lat": 45.2297, "lon": 11.6581},
+  {"Abitazioni civili": "Via Roma, 33, 35014 Fontaniva PD", "lat": 45.6372, "lon": 11.7556},
+  {"Strade e autostrade": "A4 Autostrada Serenissima, km 420, 35100 Padova PD", "lat": 45.4200, "lon": 11.8500},
+  {"Strade e autostrade": "SS 16 Adriatica, km 180, 35100 Padova PD", "lat": 45.3950, "lon": 11.9100}
+]

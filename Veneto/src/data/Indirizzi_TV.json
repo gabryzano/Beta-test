@@ -1,0 +1,14 @@
+[
+  {"Abitazioni civili": "Via Roma, 18, 31100 Treviso TV", "lat": 45.6669, "lon": 12.2430},
+  {"Abitazioni civili": "Via Calmaggiore, 35, 31100 Treviso TV", "lat": 45.6650, "lon": 12.2440},
+  {"Abitazioni civili": "Viale della Repubblica, 22, 31100 Treviso TV", "lat": 45.6680, "lon": 12.2420},
+  {"Abitazioni civili": "Via San Martino, 14, 31100 Treviso TV", "lat": 45.6660, "lon": 12.2450},
+  {"Scuole": "Liceo Canova, Via Alvise Cornaro, 31100 Treviso TV", "lat": 45.6670, "lon": 12.2410},
+  {"Scuole": "Università Ca' Foscari sede di Treviso, Via Torino, 31100 Treviso TV", "lat": 45.6690, "lon": 12.2400},
+  {"Luoghi di lavoro": "Zona Industriale Sile, Via del Commercio, 31100 Treviso TV", "lat": 45.6500, "lon": 12.2600},
+  {"Luoghi di lavoro": "Benetton Group, Via Villa Minelli, 31050 Ponzano Veneto TV", "lat": 45.6850, "lon": 12.1900},
+  {"Abitazioni civili": "Via Garibaldi, 25, 31015 Conegliano TV", "lat": 45.8897, "lon": 12.2997},
+  {"Abitazioni civili": "Via Roma, 12, 31044 Montebelluna TV", "lat": 45.7753, "lon": 12.0506},
+  {"Strade e autostrade": "A27 Autostrada d'Alemagna, km 25, 31100 Treviso TV", "lat": 45.6800, "lon": 12.2200},
+  {"Strade e autostrade": "SS 13 Pontebbana, km 95, 31100 Treviso TV", "lat": 45.6600, "lon": 12.2500}
+]

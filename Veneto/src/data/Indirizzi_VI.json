@@ -1,0 +1,14 @@
+[
+  {"Abitazioni civili": "Via Roma, 35, 36100 Vicenza VI", "lat": 45.5455, "lon": 11.5353},
+  {"Abitazioni civili": "Corso Palladio, 88, 36100 Vicenza VI", "lat": 45.5475, "lon": 11.5390},
+  {"Abitazioni civili": "Viale Roma, 14, 36100 Vicenza VI", "lat": 45.5440, "lon": 11.5320},
+  {"Abitazioni civili": "Via del Sole, 25, 36100 Vicenza VI", "lat": 45.5460, "lon": 11.5370},
+  {"Scuole": "Università di Padova sede di Vicenza, Viale Margherita, 36100 Vicenza VI", "lat": 45.5465, "lon": 11.5380},
+  {"Scuole": "Liceo Pigafetta, Contra Corte dei Risi, 36100 Vicenza VI", "lat": 45.5470, "lon": 11.5360},
+  {"Luoghi di lavoro": "Zona Industriale, Via dell'Oreficeria, 36100 Vicenza VI", "lat": 45.5300, "lon": 11.5500},
+  {"Luoghi di lavoro": "Fiera di Vicenza, Via dell'Oreficeria, 36100 Vicenza VI", "lat": 45.5280, "lon": 11.5520},
+  {"Abitazioni civili": "Via Garibaldi, 18, 36061 Bassano del Grappa VI", "lat": 45.7667, "lon": 11.7333},
+  {"Abitazioni civili": "Via Roma, 22, 36016 Thiene VI", "lat": 45.7089, "lon": 11.4808},
+  {"Strade e autostrade": "A31 Autostrada della Valdastico, km 45, 36100 Vicenza VI", "lat": 45.5200, "lon": 11.5200},
+  {"Strade e autostrade": "SS 46 del Pasubio, km 18, 36100 Vicenza VI", "lat": 45.5600, "lon": 11.5100}
+]

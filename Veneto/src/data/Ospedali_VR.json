@@ -1,0 +1,60 @@
+{
+  "Sheet1": [
+    {
+      "OSPEDALE": "H BORGO TRENTO",
+      "COORDINATE": "45.4384,10.9916",
+      "N° pazienti Max": 60,
+      "CLASSE": "EAS",
+      "PUNTO NASCITA": true,
+      "PEDIATRIA": true,
+      "TRAUMA": "CTS",
+      "EMODINAMICA": true,
+      "STROKE UNIT": true,
+      "NCH": true,
+      "RIANIMAZIONE": true,
+      "PSICHIATRIA": true
+    },
+    {
+      "OSPEDALE": "H BORGO ROMA",
+      "COORDINATE": "45.4174,10.9732",
+      "N° pazienti Max": 45,
+      "CLASSE": "EAS",
+      "PUNTO NASCITA": true,
+      "PEDIATRIA": true,
+      "TRAUMA": "OTT",
+      "EMODINAMICA": true,
+      "STROKE UNIT": true,
+      "NCH": false,
+      "RIANIMAZIONE": true,
+      "PSICHIATRIA": true
+    },
+    {
+      "OSPEDALE": "H LEGNAGO",
+      "COORDINATE": "45.1946,11.3067",
+      "N° pazienti Max": 30,
+      "CLASSE": "EOG",
+      "PUNTO NASCITA": true,
+      "PEDIATRIA": true,
+      "TRAUMA": "OTT",
+      "EMODINAMICA": false,
+      "STROKE UNIT": false,
+      "NCH": false,
+      "RIANIMAZIONE": false,
+      "PSICHIATRIA": true
+    },
+    {
+      "OSPEDALE": "H VILLAFRANCA",
+      "COORDINATE": "45.3508,10.8451",
+      "N° pazienti Max": 25,
+      "CLASSE": "EOG",
+      "PUNTO NASCITA": false,
+      "PEDIATRIA": true,
+      "TRAUMA": "OTT",
+      "EMODINAMICA": false,
+      "STROKE UNIT": false,
+      "NCH": false,
+      "RIANIMAZIONE": false,
+      "PSICHIATRIA": false
+    }
+  ]
+}

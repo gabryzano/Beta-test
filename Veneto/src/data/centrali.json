@@ -1,0 +1,79 @@
+{
+  "Belluno Emergenza": {
+    "codice": "BL",
+    "provincia": "Belluno",
+    "coordinate": "46.4337,12.3606",
+    "attiva": true,
+    "telefono": "118",
+    "indirizzo": "Via Europa, 22, 32100 Belluno BL",
+    "mezziFile": "src/data/Mezzi_BL.json",
+    "ospedaliFile": "src/data/Ospedali_BL.json",
+    "indirizziFile": "src/data/Indirizzi_BL.json"
+  },
+  "Padova Emergenza": {
+    "codice": "PD",
+    "provincia": "Padova",
+    "coordinate": "45.4064,11.8768",
+    "attiva": true,
+    "telefono": "118",
+    "indirizzo": "Via Giustiniani, 2, 35128 Padova PD",
+    "mezziFile": "src/data/Mezzi_PD.json",
+    "ospedaliFile": "src/data/Ospedali_PD.json",
+    "indirizziFile": "src/data/Indirizzi_PD.json"
+  },
+  "Treviso Emergenza": {
+    "codice": "TV",
+    "provincia": "Treviso",
+    "coordinate": "45.6669,12.2430",
+    "attiva": true,
+    "telefono": "118",
+    "indirizzo": "Piazza Ospedale, 1, 31100 Treviso TV",
+    "mezziFile": "src/data/Mezzi_TV.json",
+    "ospedaliFile": "src/data/Ospedali_TV.json",
+    "indirizziFile": "src/data/Indirizzi_TV.json"
+  },
+  "Venezia Emergenza": {
+    "codice": "VE",
+    "provincia": "Venezia",
+    "coordinate": "45.4864,12.2311",
+    "attiva": true,
+    "telefono": "118",
+    "indirizzo": "Campo SS. Giovanni e Paolo, 6777, 30122 Venezia VE",
+    "mezziFile": "src/data/Mezzi_VE.json",
+    "ospedaliFile": "src/data/Ospedali_VE.json",
+    "indirizziFile": "src/data/Indirizzi_VE.json"
+  },
+  "Verona Emergenza": {
+    "codice": "VR",
+    "provincia": "Verona",
+    "coordinate": "45.4384,10.9916",
+    "attiva": true,
+    "telefono": "118",
+    "indirizzo": "Piazzale A. Stefani, 1, 37126 Verona VR",
+    "mezziFile": "src/data/Mezzi_VR.json",
+    "ospedaliFile": "src/data/Ospedali_VR.json",
+    "indirizziFile": "src/data/Indirizzi_VR.json"
+  },
+  "Vicenza Emergenza": {
+    "codice": "VI",
+    "provincia": "Vicenza",
+    "coordinate": "45.5455,11.5353",
+    "attiva": true,
+    "telefono": "118",
+    "indirizzo": "Via Rodolfi, 37, 36100 Vicenza VI",
+    "mezziFile": "src/data/Mezzi_VI.json",
+    "ospedaliFile": "src/data/Ospedali_VI.json",
+    "indirizziFile": "src/data/Indirizzi_VI.json"
+  },
+  "Rovigo Emergenza": {
+    "codice": "RO",
+    "provincia": "Rovigo",
+    "coordinate": "45.0707,11.7900",
+    "attiva": true,
+    "telefono": "118",
+    "indirizzo": "Viale Tre Martiri, 89, 45100 Rovigo RO",
+    "mezziFile": "src/data/Mezzi_RO.json",
+    "ospedaliFile": "src/data/Ospedali_RO.json",
+    "indirizziFile": "src/data/Indirizzi_RO.json"
+  }
+}

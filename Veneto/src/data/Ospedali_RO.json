@@ -1,0 +1,46 @@
+{
+  "Sheet1": [
+    {
+      "OSPEDALE": "H ROVIGO",
+      "COORDINATE": "45.0707,11.7900",
+      "N° pazienti Max": 40,
+      "CLASSE": "EAS",
+      "PUNTO NASCITA": true,
+      "PEDIATRIA": true,
+      "TRAUMA": "OTT",
+      "EMODINAMICA": false,
+      "STROKE UNIT": true,
+      "NCH": false,
+      "RIANIMAZIONE": true,
+      "PSICHIATRIA": true
+    },
+    {
+      "OSPEDALE": "H ADRIA",
+      "COORDINATE": "45.0577,12.0573",
+      "N° pazienti Max": 25,
+      "CLASSE": "EOG",
+      "PUNTO NASCITA": false,
+      "PEDIATRIA": true,
+      "TRAUMA": "OTT",
+      "EMODINAMICA": false,
+      "STROKE UNIT": false,
+      "NCH": false,
+      "RIANIMAZIONE": false,
+      "PSICHIATRIA": false
+    },
+    {
+      "OSPEDALE": "H TRECENTA",
+      "COORDINATE": "45.0333,11.4667",
+      "N° pazienti Max": 15,
+      "CLASSE": "PS",
+      "PUNTO NASCITA": false,
+      "PEDIATRIA": false,
+      "TRAUMA": "PS",
+      "EMODINAMICA": false,
+      "STROKE UNIT": false,
+      "NCH": false,
+      "RIANIMAZIONE": false,
+      "PSICHIATRIA": false
+    }
+  ]
+}

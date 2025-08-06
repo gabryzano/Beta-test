@@ -1,0 +1,14 @@
+[
+  {"Abitazioni civili": "Campo San Polo, 1205, 30125 Venezia VE", "lat": 45.4890, "lon": 12.2328},
+  {"Abitazioni civili": "Fondamenta delle Zattere, 780, 30123 Venezia VE", "lat": 45.4255, "lon": 12.3232},
+  {"Abitazioni civili": "Castello, 4312, 30122 Venezia VE", "lat": 45.4325, "lon": 12.3475},
+  {"Abitazioni civili": "Cannaregio, 2850, 30121 Venezia VE", "lat": 45.4425, "lon": 12.3275},
+  {"Scuole": "Università Ca' Foscari, Dorsoduro 3246, 30123 Venezia VE", "lat": 45.4307, "lon": 12.3267},
+  {"Scuole": "Liceo Marco Polo, Castello 4939, 30122 Venezia VE", "lat": 45.4335, "lon": 12.3485},
+  {"Luoghi di lavoro": "Porto Marghera, Via dell'Elettricità, 30175 Venezia VE", "lat": 45.4700, "lon": 12.2400},
+  {"Luoghi di lavoro": "Aeroporto Marco Polo, Via Galilea, 30173 Tessera VE", "lat": 45.5055, "lon": 12.3519},
+  {"Abitazioni civili": "Via Roma, 45, 30027 San Donà di Piave VE", "lat": 45.6313, "lon": 12.5669},
+  {"Abitazioni civili": "Piazza Marconi, 8, 30035 Mirano VE", "lat": 45.4936, "lon": 12.1069},
+  {"Strade e autostrade": "A4 Autostrada Serenissima, km 470, 30170 Venezia VE", "lat": 45.4800, "lon": 12.2800},
+  {"Strade e autostrade": "SS 14 Triestina, km 25, 30173 Venezia VE", "lat": 45.5000, "lon": 12.3000}
+]

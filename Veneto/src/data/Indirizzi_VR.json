@@ -1,0 +1,14 @@
+[
+  {"Abitazioni civili": "Via Roma, 28, 37100 Verona VR", "lat": 45.4384, "lon": 10.9916},
+  {"Abitazioni civili": "Via Mazzini, 15, 37100 Verona VR", "lat": 45.4390, "lon": 10.9920},
+  {"Abitazioni civili": "Corso Porta Nuova, 22, 37100 Verona VR", "lat": 45.4350, "lon": 10.9880},
+  {"Abitazioni civili": "Via Cappello, 8, 37100 Verona VR", "lat": 45.4410, "lon": 10.9950},
+  {"Scuole": "Università degli Studi di Verona, Lungadige Porta Vittoria, 37100 Verona VR", "lat": 45.4420, "lon": 10.9980},
+  {"Scuole": "Liceo Maffei, Via Massalongo, 37100 Verona VR", "lat": 45.4400, "lon": 10.9940},
+  {"Luoghi di lavoro": "Zona Industriale ZAI, Via del Lavoro, 37100 Verona VR", "lat": 45.4100, "lon": 10.9700},
+  {"Luoghi di lavoro": "Fiera di Verona, Viale del Lavoro, 37100 Verona VR", "lat": 45.4250, "lon": 10.9600},
+  {"Abitazioni civili": "Via Roma, 33, 37121 Legnago VR", "lat": 45.1946, "lon": 11.3067},
+  {"Abitazioni civili": "Piazza Libertà, 12, 37069 Villafranca di Verona VR", "lat": 45.3508, "lon": 10.8451},
+  {"Strade e autostrade": "A4 Autostrada Serenissima, km 280, 37100 Verona VR", "lat": 45.4200, "lon": 10.9500},
+  {"Strade e autostrade": "A22 Autostrada del Brennero, km 195, 37100 Verona VR", "lat": 45.4500, "lon": 10.9800}
+]

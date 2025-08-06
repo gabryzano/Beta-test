@@ -42,41 +42,80 @@
             text-shadow: 0 2px 8px #b6c6e6;
         }
         .regioni-container {
-            display: flex;
-            gap: 2rem;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+            gap: 1.5rem;
+            max-width: 1200px;
+            justify-items: center;
         }
         .regione-btn {
             background: linear-gradient(90deg, #1976d2 60%, #42a5f5 100%);
             color: #fff;
             border: none;
             border-radius: 14px;
-            padding: 1.5rem 2.5rem;
-            font-size: 1.3rem;
+            padding: 1.2rem 2rem;
+            font-size: 1.1rem;
             font-weight: 600;
             cursor: pointer;
             box-shadow: 0 4px 16px rgba(25, 118, 210, 0.15);
             transition: background 0.2s, transform 0.2s, box-shadow 0.2s;
             outline: none;
+            width: 100%;
+            max-width: 220px;
+            min-height: 60px;
         }
         .regione-btn:hover, .regione-btn:focus {
             background: linear-gradient(90deg, #0d47a1 60%, #1976d2 100%);
             transform: translateY(-3px) scale(1.06);
             box-shadow: 0 8px 24px rgba(25, 118, 210, 0.22);
         }
+        
+        .regione-btn.regione-prossimamente {
+            background: linear-gradient(90deg, #90a4ae 60%, #b0bec5 100%);
+            color: #455a64;
+            cursor: not-allowed;
+        }
+        
+        .regione-btn.regione-prossimamente:hover {
+            background: linear-gradient(90deg, #78909c 60%, #90a4ae 100%);
+            transform: translateY(-1px);
+            box-shadow: 0 4px 16px rgba(120, 144, 156, 0.2);
+        }
         @media (max-width: 700px) {
             .centrale-container {
                 min-width: 0;
-                padding: 32px 8vw 24px 8vw;
+                padding: 32px 1rem 24px 1rem;
+                max-width: 95vw;
             }
             .regioni-container {
-                flex-direction: column;
-                gap: 1.5rem;
+                grid-template-columns: 1fr;
+                gap: 1rem;
+                max-width: 100%;
+            }
+            .regione-btn {
+                font-size: 1rem;
+                padding: 1rem 1.5rem;
+                min-height: 50px;
             }
             h1 {
                 font-size: 1.5rem;
             }
             .logo-centrale {
                 width: 80px;
+            }
+        }
+        
+        @media (min-width: 701px) and (max-width: 1000px) {
+            .regioni-container {
+                grid-template-columns: repeat(2, 1fr);
+                max-width: 600px;
+            }
+        }
+        
+        @media (min-width: 1001px) {
+            .regioni-container {
+                grid-template-columns: repeat(4, 1fr);
+                max-width: 1000px;
             }
         }
     </style>
@@ -86,11 +125,29 @@
         <img src="Calabria/src/assets/logo118.png" alt="Logo Centrale Operativa 118" class="logo-centrale">
         <h1>Selezionare la Regione</h1>
         <div class="regioni-container">
+            <!-- Regioni disponibili -->
             <button class="regione-btn" onclick="location.href='Calabria/index.html'">Calabria</button>
             <button class="regione-btn" onclick="location.href='Lazio/index.html'">Lazio</button>
             <button class="regione-btn" onclick="location.href='Lombardia/index.html'">Lombardia</button>
             <button class="regione-btn" onclick="location.href='Puglia/index.html'">Puglia</button>
             <button class="regione-btn" onclick="location.href='Sardegna/index.html'">Sardegna</button>
+            <button class="regione-btn" onclick="location.href='Veneto/index.html'">Veneto</button>
+            
+            <!-- Regioni prossimamente -->
+            <button class="regione-btn regione-prossimamente" onclick="alert('Abruzzo sarà disponibile prossimamente!')">Abruzzo</button>
+            <button class="regione-btn regione-prossimamente" onclick="alert('Basilicata sarà disponibile prossimamente!')">Basilicata</button>
+            <button class="regione-btn regione-prossimamente" onclick="alert('Campania sarà disponibile prossimamente!')">Campania</button>
+            <button class="regione-btn regione-prossimamente" onclick="alert('Emilia Romagna sarà disponibile prossimamente!')">Emilia Romagna</button>
+            <button class="regione-btn regione-prossimamente" onclick="alert('Friuli Venezia Giulia sarà disponibile prossimamente!')">Friuli Venezia Giulia</button>
+            <button class="regione-btn regione-prossimamente" onclick="alert('Liguria sarà disponibile prossimamente!')">Liguria</button>
+            <button class="regione-btn regione-prossimamente" onclick="alert('Marche sarà disponibile prossimamente!')">Marche</button>
+            <button class="regione-btn regione-prossimamente" onclick="alert('Molise sarà disponibile prossimamente!')">Molise</button>
+            <button class="regione-btn regione-prossimamente" onclick="alert('Piemonte sarà disponibile prossimamente!')">Piemonte</button>
+            <button class="regione-btn regione-prossimamente" onclick="alert('Sicilia sarà disponibile prossimamente!')">Sicilia</button>
+            <button class="regione-btn regione-prossimamente" onclick="alert('Toscana sarà disponibile prossimamente!')">Toscana</button>
+            <button class="regione-btn regione-prossimamente" onclick="alert('Trentino Alto Adige sarà disponibile prossimamente!')">Trentino Alto Adige</button>
+            <button class="regione-btn regione-prossimamente" onclick="alert('Umbria sarà disponibile prossimamente!')">Umbria</button>
+            <button class="regione-btn regione-prossimamente" onclick="alert('Valle d\'Aosta sarà disponibile prossimamente!')">Valle d'Aosta</button>
         </div>
     </div>
 </body>

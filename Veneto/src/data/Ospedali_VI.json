@@ -1,0 +1,60 @@
+{
+  "Sheet1": [
+    {
+      "OSPEDALE": "H VICENZA",
+      "COORDINATE": "45.5455,11.5353",
+      "N° pazienti Max": 50,
+      "CLASSE": "EAS",
+      "PUNTO NASCITA": true,
+      "PEDIATRIA": true,
+      "TRAUMA": "CTS",
+      "EMODINAMICA": true,
+      "STROKE UNIT": true,
+      "NCH": false,
+      "RIANIMAZIONE": true,
+      "PSICHIATRIA": true
+    },
+    {
+      "OSPEDALE": "H BASSANO DEL GRAPPA",
+      "COORDINATE": "45.7667,11.7333",
+      "N° pazienti Max": 35,
+      "CLASSE": "DEA",
+      "PUNTO NASCITA": true,
+      "PEDIATRIA": true,
+      "TRAUMA": "CTZ",
+      "EMODINAMICA": false,
+      "STROKE UNIT": true,
+      "NCH": false,
+      "RIANIMAZIONE": false,
+      "PSICHIATRIA": true
+    },
+    {
+      "OSPEDALE": "H THIENE",
+      "COORDINATE": "45.7089,11.4808",
+      "N° pazienti Max": 25,
+      "CLASSE": "DEA",
+      "PUNTO NASCITA": false,
+      "PEDIATRIA": true,
+      "TRAUMA": "CTZ",
+      "EMODINAMICA": false,
+      "STROKE UNIT": false,
+      "NCH": false,
+      "RIANIMAZIONE": false,
+      "PSICHIATRIA": false
+    },
+    {
+      "OSPEDALE": "H SANTORSO",
+      "COORDINATE": "45.7197,11.4664",
+      "N° pazienti Max": 20,
+      "CLASSE": "PS",
+      "PUNTO NASCITA": false,
+      "PEDIATRIA": false,
+      "TRAUMA": "PST",
+      "EMODINAMICA": false,
+      "STROKE UNIT": false,
+      "NCH": false,
+      "RIANIMAZIONE": false,
+      "PSICHIATRIA": false
+    }
+  ]
+}
