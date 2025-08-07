@@ -1,9 +1,14 @@
 // Helper: map mission code to color
 function getColoreCodice(codice) {
     switch (codice) {
+        case 'ROSSO':
         case 'Rosso': return '#e53935';
-        case 'Giallo': return '#ffeb3b';
+        case 'GIALLO':
+        case 'Giallo': return '#ffb300';
+        case 'VERDE':
         case 'Verde': return '#4caf50';
+        case 'BIANCO':
+        case 'Bianco': return '#ffffff';
         default: return '#888';
     }
 }
@@ -179,7 +184,7 @@ class GameUI {
             });
             const mezzoConOspedale = eligibleMezzi.find(m => m.ospedale && m.codice_trasporto && m._trasportoConfermato);
             if (mezzoConOspedale) {
-                ospedaleHtml = ` <span style='margin-left:12px;'></span><span style='font-size:13px;'>Destinazione: <b>${mezzoConOspedale.ospedale.nome}</b></span> <span style='display:inline-block;width:5px;height:5px;margin-left:6px;vertical-align:middle;background:${getColoreCodice(mezzoConOspedale.codice_trasporto)};background-size:cover;'></span>`;
+                ospedaleHtml = ` <span style='margin-left:12px;'></span><span style='font-size:13px;'>Destinazione: <b>${mezzoConOspedale.ospedale.nome}</b></span> <span style='display:inline-block;width:16px;height:16px;border-radius:3px;margin-left:6px;vertical-align:middle;background:${getColoreCodice(mezzoConOspedale.codice_trasporto)};border:1px solid #888;'></span>`;
             }
         }
           // Calcola fasce operative basate sul nome_radio assegnati e orario simulato
@@ -202,7 +207,7 @@ class GameUI {
         
         div.innerHTML = `            <div class="missione-header" style="display:flex;align-items:center;justify-content:space-between;gap:8px;cursor:pointer;">
                  <span>
-                     <span class="missione-codice-box" style="display:inline-block;width:5px;height:5px;margin-right:8px;vertical-align:middle;background:${getColoreCodice(call.codice)};background-size:cover;"></span>
+                     <span class="missione-codice-box" style="display:inline-block;width:18px;height:18px;border-radius:3px;margin-right:8px;vertical-align:middle;background:${getColoreCodice(call.codice)};border:1px solid #888;"></span>
                      ${call.missioneId} - ${indirizzoSintetico}${tipiMezziText}${ospedaleHtml}
                      ${missioneStatusIcon}${missioneStatusText}
                      ${call.vvfAllertati ? '<span style="margin-left:8px;color:#d32f2f;font-weight:bold;">VVF</span>' : ''}
@@ -380,7 +385,7 @@ class GameUI {
             
             header.innerHTML = `
             <span style="display:flex;align-items:center;gap:8px;">
-                <span class="missione-codice-box" style="display:inline-block;width:18px;height:18px;border-radius:4px;margin-right:8px;vertical-align:middle;background:${getColoreCodice(call.codice)};"></span>
+                <span class="missione-codice-box" style="display:inline-block;width:18px;height:18px;border-radius:3px;margin-right:8px;vertical-align:middle;background:${getColoreCodice(call.codice)};border:1px solid #888;"></span>
                 ${call.missioneId} - ${indirizzoSintetico}${tipiMezziText}${ospedaleHtml}
                 ${missioneStatusIcon}${missioneStatusText}
                 ${call.vvfAllertati ? '<span style="margin-left:8px;color:#d32f2f;font-weight:bold;">VVF</span>' : ''}
@@ -481,6 +486,12 @@ class GameUI {
                     else if (m.tipo_mezzo && m.tipo_mezzo.startsWith('MSA')) tipo = 'MSA2'; // MSA usa report MSA2
                     else if (m.tipo_mezzo && m.tipo_mezzo.startsWith('VLV')) tipo = 'MSA2'; // VLV usa report MSA2
                     else if (m.tipo_mezzo && m.tipo_mezzo.toUpperCase().includes('ELI')) tipo = 'MSA2'; // ELI usa sempre MSA2
+                    else if (m.tipo_mezzo && m.tipo_mezzo.startsWith('IDRO')) {
+                        // Mappatura idroambulanze di Venezia per i report
+                        if (m.tipo_mezzo === 'IDRO B') tipo = 'MSB'; // IDRO B → report MSB
+                        else if (m.tipo_mezzo === 'IDRO I') tipo = 'MSA1'; // IDRO I → report MSA1
+                        else if (m.tipo_mezzo === 'IDRO A') tipo = 'MSA2'; // IDRO A → report MSA2
+                    }
                     
                     // Cerca il report nella struttura dati della chiamata
                     if (tipo && call.selectedChiamata) {

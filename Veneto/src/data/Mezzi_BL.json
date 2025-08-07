@@ -114,7 +114,7 @@
     "Coordinate Postazione": "46.497887,11.876567",
     "Mezzo": "MSB",
     "Nome radio": "CHARLIE BRAVO 761",
-    "Convenzione": "H24",
+    "Convenzione": "REP",
     "Orario di lavoro": "00:00-00:00",
     "Giorni": "LUN-DOM",
     "note": "REPERIBILE"
@@ -144,7 +144,7 @@
     "Coordinate Postazione": "46.44484,12.060085",
     "Mezzo": "MSB",
     "Nome radio": "SELVA 25",
-    "Convenzione": "H24 ",
+    "Convenzione": "REP ",
     "Orario di lavoro": "00:00-00:00",
     "Giorni": "LUN-DOM",
     "note": "REPERIBILE"
@@ -165,8 +165,8 @@
     "Mezzo": "MSB",
     "Nome radio": "CHARLIE ROMEO 3",
     "Convenzione": "H12",
-    "Orario di lavoro": "08:00-20:00",
-    "Giorni": "LUN-MERC-VEN-SAB",
+    "Orario di lavoro": "08:00-14:00",
+    "Giorni": "LUN-DOM",
     "note": null
   },
   {
@@ -175,8 +175,8 @@
     "Mezzo": "MSB",
     "Nome radio": "CHARLIE ROMEO 4",
     "Convenzione": "H12",
-    "Orario di lavoro": "08:00-20:00",
-    "Giorni": "MAR-GIO-DOM",
+    "Orario di lavoro": "14:00-20:00",
+    "Giorni": "LUN-DOM",
     "note": null
   },
   {
@@ -195,8 +195,8 @@
     "Mezzo": "MSB",
     "Nome radio": "CHARLIE ROMEO 7",
     "Convenzione": "H12",
-    "Orario di lavoro": "08:00-20:00",
-    "Giorni": "LUN-MER-VEN-SAB",
+    "Orario di lavoro": "08:00-14:00",
+    "Giorni": "LUN-DOM",
     "note": null
   },
   {
@@ -205,8 +205,8 @@
     "Mezzo": "MSB",
     "Nome radio": "CHARLIE ROMEO 11",
     "Convenzione": "H12",
-    "Orario di lavoro": "08:00-20:00",
-    "Giorni": "MAR-GIO-DOM",
+    "Orario di lavoro": "14:00-20:00",
+    "Giorni": "LUN-DOM",
     "note": null
   },
   {
@@ -254,7 +254,7 @@
     "Coordinate Postazione": "46.40189,12.017789",
     "Mezzo": "MSB",
     "Nome radio": "ALLEGHE 15",
-    "Convenzione": "H24",
+    "Convenzione": "REP",
     "Orario di lavoro": "00:00-00:00",
     "Giorni": "LUN-DOM",
     "note": "REPERIBILE"
@@ -304,7 +304,7 @@
     "Coordinate Postazione": "46.35941,11.88731",
     "Mezzo": "MSB",
     "Nome radio": "BIOIS 23",
-    "Convenzione": "H24",
+    "Convenzione": "REP",
     "Orario di lavoro": "00:00-00:00",
     "Giorni": "LUN-DOM",
     "note": "REPERIBILE"
@@ -344,7 +344,7 @@
     "Coordinate Postazione": "46.375459,12.126805",
     "Mezzo": "MSB",
     "Nome radio": "ZULU 04",
-    "Convenzione": "H24",
+    "Convenzione": "REP",
     "Orario di lavoro": "00:00-00:00",
     "Giorni": "LUN-DOM",
     "note": "REPERIBILE"
@@ -381,7 +381,7 @@
   },
   {
     "Nome Postazione": "Elisococrso - Belluno",
-    "Coordinate Postazione": "46.16843,12.25089",
+    "Coordinate Postazione": "",
     "Mezzo": "VLV",
     "Nome radio": "TANGO 08",
     "Convenzione": "H14",
@@ -404,7 +404,7 @@
     "Coordinate Postazione": "46.13842,12.364403",
     "Mezzo": "MSB",
     "Nome radio": "VICTOR 02",
-    "Convenzione": "H24",
+    "Convenzione": "REP",
     "Orario di lavoro": "00:00-00:00",
     "Giorni": "LUN-DOM",
     "note": "REPERIBILE"
@@ -445,8 +445,8 @@
     "Mezzo": "MSI",
     "Nome radio": "ECHO 03",
     "Convenzione": "H14",
-    "Orario di lavoro": "07:00-21:00",
-    "Giorni": "SETTIMANE PARI",
+    "Orario di lavoro": "07:00-14:00",
+    "Giorni": "LUN-DOM",
     "note": null
   },
   {
@@ -455,8 +455,8 @@
     "Mezzo": "MSI",
     "Nome radio": "ECHO 04",
     "Convenzione": "H24",
-    "Orario di lavoro": "00:00-00:00",
-    "Giorni": "SETTIMANE PARI",
+    "Orario di lavoro": "8:00-20:00",
+    "Giorni": "LUN-DOM",
     "note": null
   },
   {
@@ -465,8 +465,8 @@
     "Mezzo": "MSI",
     "Nome radio": "ECHO 05",
     "Convenzione": "H14",
-    "Orario di lavoro": "07:00-21:00",
-    "Giorni": "SETTIMANE DISPARI",
+    "Orario di lavoro": "14:00-21:00",
+    "Giorni": "LUN-DOM",
     "note": null
   },
   {
@@ -475,8 +475,8 @@
     "Mezzo": "MSI",
     "Nome radio": "ECHO 06",
     "Convenzione": "H24",
-    "Orario di lavoro": "00:00-00:00",
-    "Giorni": "SETTIMANE DISPARI",
+    "Orario di lavoro": "20:00-8:00",
+    "Giorni": "LUN-DOM",
     "note": null
   },
   {
@@ -495,8 +495,8 @@
     "Mezzo": "MSI",
     "Nome radio": "ALFA 03",
     "Convenzione": "H24",
-    "Orario di lavoro": "00:00-00:00",
-    "Giorni": "SETTIMANE PARI",
+    "Orario di lavoro": "8:00-20:00",
+    "Giorni": "LUN-DOM",
     "note": null
   },
   {
@@ -505,7 +505,7 @@
     "Mezzo": "MSA",
     "Nome radio": "ALFA 04",
     "Convenzione": "H24",
-    "Orario di lavoro": "00:00-00:00",
+    "Orario di lavoro": "20:00-8:00",
     "Giorni": "LUN-DOM",
     "note": null
   },
@@ -515,8 +515,8 @@
     "Mezzo": "MSI",
     "Nome radio": "ALFA 05",
     "Convenzione": "H24",
-    "Orario di lavoro": "00:00-00:00",
-    "Giorni": "SETTIMANE DISPARI",
+    "Orario di lavoro": "8:00-20:00",
+    "Giorni": "LUN-DOM",
     "note": null
   },
   {
@@ -535,7 +535,7 @@
     "Mezzo": "MSI",
     "Nome radio": "ALFA 07",
     "Convenzione": "H24",
-    "Orario di lavoro": "00:00-00:00",
+    "Orario di lavoro": "20:00-8:00",
     "Giorni": "LUN-DOM",
     "note": null
   },
@@ -575,8 +575,8 @@
     "Mezzo": "MSI",
     "Nome radio": "BRAVO 03",
     "Convenzione": "H24",
-    "Orario di lavoro": "00:00-00:00",
-    "Giorni": "SETTIMANE DISPARI",
+    "Orario di lavoro": "8:00-20:00",
+    "Giorni": "LUN-DOM",
     "note": null
   },
   {
@@ -585,8 +585,8 @@
     "Mezzo": "MSI",
     "Nome radio": "BRAVO 04",
     "Convenzione": "H24",
-    "Orario di lavoro": "00:00-00:00",
-    "Giorni": "SETTIMANE PARI",
+    "Orario di lavoro": "20:00-8:00",
+    "Giorni": "LUN-DOM",
     "note": null
   },
   {
@@ -595,8 +595,8 @@
     "Mezzo": "MSA",
     "Nome radio": "BRAVO 05",
     "Convenzione": "H24",
-    "Orario di lavoro": "00:00-00:00",
-    "Giorni": "SETTIMANE PARI",
+    "Orario di lavoro": "8:00-20:00",
+    "Giorni": "LUN-DOM",
     "note": null
   },
   {
@@ -605,8 +605,8 @@
     "Mezzo": "MSA",
     "Nome radio": "BRAVO 06",
     "Convenzione": "H24",
-    "Orario di lavoro": "00:00-00:00",
-    "Giorni": "SETTIMANE DISPARI",
+    "Orario di lavoro": "20:00-8:00",
+    "Giorni": "LUN-DOM",
     "note": null
   },
   {
@@ -615,8 +615,8 @@
     "Mezzo": "MSI",
     "Nome radio": "BRAVO 07",
     "Convenzione": "H24",
-    "Orario di lavoro": "00:00-00:00",
-    "Giorni": "SETTIMANE PARI",
+    "Orario di lavoro": "20:00-8:00",
+    "Giorni": "LUN-DOM",
     "note": null
   },
   {
@@ -625,8 +625,8 @@
     "Mezzo": "MSI",
     "Nome radio": "BRAVO 08",
     "Convenzione": "H24",
-    "Orario di lavoro": "00:00-00:00",
-    "Giorni": "SETTIMANE DISPARI",
+    "Orario di lavoro": "8:00-20:00",
+    "Giorni": "LUN-DOM",
     "note": null
   },
   {
@@ -635,8 +635,8 @@
     "Mezzo": "MSI",
     "Nome radio": "BRAVO 09",
     "Convenzione": "H24",
-    "Orario di lavoro": "00:00-00:00",
-    "Giorni": "SETTIMANE DISPARI",
+    "Orario di lavoro": "8:00-20:00",
+    "Giorni": "LUN-DOM",
     "note": null
   },
   {
@@ -645,14 +645,14 @@
     "Mezzo": "MSI",
     "Nome radio": "BRAVO 10",
     "Convenzione": "H24",
-    "Orario di lavoro": "00:00-00:00",
-    "Giorni": "SETTIMANE PARI",
+    "Orario di lavoro": "20:00-8:00",
+    "Giorni": "LUN-DOM",
     "note": null
   },
   {
     "Nome Postazione": "SUEM 118 - Belluno",
     "Coordinate Postazione": "46.139465,12.201594",
-    "Mezzo": "MSA",
+    "Mezzo": "CMR",
     "Nome radio": "CHARLIE BRAVO",
     "Convenzione": "H24",
     "Orario di lavoro": "00:00-00:00",
@@ -961,7 +961,7 @@
   },
   {
     "Nome Postazione": "SUEM 118 - Pieve di Cadore",
-    "Coordinate Postazione": "46.432028,12.375675",
+    "Coordinate Postazione": "",
     "Mezzo": "VLV",
     "Nome radio": "TANGO 02",
     "Convenzione": "H24",
@@ -1034,7 +1034,7 @@
     "Coordinate Postazione": "46.151647,12.233008",
     "Mezzo": "MSB",
     "Nome radio": "INDIA 08",
-    "Convenzione": "H24",
+    "Convenzione": "REP",
     "Orario di lavoro": "00:00-00:00",
     "Giorni": "LUN-DOM",
     "note": "REPERIBILE"
@@ -1076,7 +1076,7 @@
     "Nome radio": "INDIA 09",
     "Convenzione": "H12",
     "Orario di lavoro": "08:00-20:00",
-    "Giorni": "VEN-SAB-DOM",
+    "Giorni": "VEN-DOM",
     "note": null
   },
   {
@@ -1115,8 +1115,8 @@
     "Mezzo": "MSB",
     "Nome radio": "KILO 03",
     "Convenzione": "H24",
-    "Orario di lavoro": "00:00-00:00",
-    "Giorni": "SETTIMANE DISPARI",
+    "Orario di lavoro": "8:00-20:00",
+    "Giorni": "LUN-DOM",
     "note": null
   },
   {
@@ -1125,8 +1125,8 @@
     "Mezzo": "MSB",
     "Nome radio": "KILO 04",
     "Convenzione": "H24",
-    "Orario di lavoro": "00:00-00:00",
-    "Giorni": "SETTIMANE PARI",
+    "Orario di lavoro": "20:00-8:00",
+    "Giorni": "LUN-DOM",
     "note": null
   },
   {
@@ -1134,7 +1134,7 @@
     "Coordinate Postazione": "46.06776,12.01691",
     "Mezzo": "MSB",
     "Nome radio": "KILO 05",
-    "Convenzione": "H24",
+    "Convenzione": "REP",
     "Orario di lavoro": "00:00-00:00",
     "Giorni": "LUN-DOM",
     "note": "REPERIBILE"
@@ -1144,7 +1144,7 @@
     "Coordinate Postazione": "46.427693,11.956525",
     "Mezzo": "MSB",
     "Nome radio": "ROCCA 17",
-    "Convenzione": "H24",
+    "Convenzione": "REP",
     "Orario di lavoro": "00:00-00:00",
     "Giorni": "LUN-DOM",
     "note": "REPERIBILE"

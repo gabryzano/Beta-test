@@ -332,6 +332,15 @@ function gestisciStato3(mezzo, call) {
         } else if (mezzoType === 'ELI') {
             // ELI uses MSA2 report
             reportKey = 'MSA2';
+        } else if (mezzoType.startsWith('IDRO')) {
+            // Mappatura idroambulanze di Venezia per i report
+            if (mezzoType === 'IDRO B') {
+                reportKey = 'MSB'; // IDRO B → report MSB
+            } else if (mezzoType === 'IDRO I') {
+                reportKey = 'MSA1'; // IDRO I → report MSA1
+            } else if (mezzoType === 'IDRO A') {
+                reportKey = 'MSA2'; // IDRO A → report MSA2
+            }
         }
 
         // Prima cerca nel caso selezionato
@@ -1508,33 +1517,140 @@ class EmergencyDispatchGame {
         const luogoSelect = document.getElementById('luogo');
         if (luogoSelect) {
             luogoSelect.innerHTML = '';
-            const opzioniLuogo = ['Casa', 'Strada', 'Esercizi pubblici', 'Impianto lavorativo', 'Impianto sportivo', 'Scuola', 'Altro'];
+            const opzioniLuogo = [
+                {value: 'K', text: 'K - CASA'},
+                {value: 'S', text: 'S - STRADA'},
+                {value: 'Y', text: 'Y - IMP. SPORTIVO'},
+                {value: 'L', text: 'L - IMP. LAVORATIVO'},
+                {value: 'Q', text: 'Q - SCUOLE'},
+                {value: 'P', text: 'P - UFF./ES. PUBBLICI'},
+                {value: 'Z', text: 'Z - ALTRO'}
+            ];
             opzioniLuogo.forEach(opt => {
+                const option = document.createElement('option');
+                option.value = opt.value;
+                option.textContent = opt.text;
+                if (call.luogo === opt.value) option.selected = true;
+                luogoSelect.appendChild(option);
+            });
+            
+            // Aggiungi listener per aggiornare DETT. LUOGO
+            luogoSelect.addEventListener('change', updateDettLuogo);
+        }
+        
+        // Funzione per aggiornare DETT. LUOGO basato sulla selezione LUOGO
+        function updateDettLuogo() {
+            const luogoValue = document.getElementById('luogo').value;
+            const dettLuogoSelect = document.getElementById('dett-luogo');
+            
+            if (!dettLuogoSelect) return;
+            
+            dettLuogoSelect.innerHTML = '';
+            
+            const dettagliLuogo = {
+                'K': ['ABITAZIONE PRIVATA', 'CONDOMINIO', 'ALTRO/NON NOTO'],
+                'S': ['URBANA', 'PIAZZA', 'EXTRA URBANA', 'AUTOSTRADA', 'MARCIAPIEDE', 'INCROCIO'],
+                'Y': ['STADIO', 'CENTRO SPORTIVO', 'PISCINE', 'PALESTRA', 'MANEGGIO', 'IMPIANTO SCIISTICO'],
+                'L': ['FABBRICA', 'CAPANNONE', 'CANTIERE', 'UFFICI', 'ALTRO'],
+                'Q': ['ASILO', 'ELEMENTARI', 'MEDIE', 'SUPERIORI', 'UNIVERSITA\'', 'ALTRO'],
+                'P': ['RSA/RSD', 'UFFICI', 'POSTE', 'SUPERMERCATO', 'PARCO', 'ALBERGO', 'BAR/RISTORANTI', 'CENTRO COMMERCIALE', 'CAMPEGGIO', 'CINEMA/TEATRO', 'DISCOTECA'],
+                'Z': ['STR. SANITARIA', 'OSPEDALE', 'PPI', 'ALTRA STRUTTURA SOCIO SANITARIA', 'IMPERVIO', 'SPIAGGIA', 'RIFUGIO MONTANO', 'CORSO ACQUA', 'LAGO', 'BOSCO/FORESTA', 'SENTIERO', 'MONTAGNA', 'FORRA/GROTTA', 'ALTRO', 'NON IDENTIFICATO']
+            };
+            
+            const opzioni = dettagliLuogo[luogoValue] || [];
+            opzioni.forEach(opt => {
                 const option = document.createElement('option');
                 option.value = opt;
                 option.textContent = opt;
-                if (call.luogo === opt) option.selected = true;
-                luogoSelect.appendChild(option);
+                dettLuogoSelect.appendChild(option);
             });
         }
+        
         const patologiaSelect = document.getElementById('patologia');
         if (patologiaSelect) {
             patologiaSelect.innerHTML = '';
             const opzioniPatologia = [
-                'Traumatica','Cardiocircolatoria','Respiratoria','Neurologica','Psichiatrica','Tossicologica','Metabolica','Gastroenterologica','Urologica','Oculistica','Otorinolaringoiatrica','Dermatologica','Ostetrico-ginecologica','Infettiva','Neoplastica','Altra patologia','Non identificata'
+                {value: 'C-01', text: 'C-01 TRAUMATICA'},
+                {value: 'C-02', text: 'C-02 CARDIO CIRCOLATORIA'},
+                {value: 'C-03', text: 'C-03 RESPIRATORIA'},
+                {value: 'C-04', text: 'C-04 NEUROLOGICA'},
+                {value: 'C-05', text: 'C-05 PSICHIATRICA'},
+                {value: 'C-06', text: 'C-06 NEOPLASTICA'},
+                {value: 'C-07', text: 'C-07 INTOSSICAZIONE'},
+                {value: 'C-08', text: 'C-08 METABOLICA'},
+                {value: 'C-09', text: 'C-09 GASTRO ENTEROLOGICA'},
+                {value: 'C-10', text: 'C-10 UROLOGICA'},
+                {value: 'C-11', text: 'C-11 OCULISTICA'},
+                {value: 'C-12', text: 'C-12 OTORINO LARINGOIATRICA'},
+                {value: 'C-13', text: 'C-13 DERMATOLOGICA'},
+                {value: 'C-14', text: 'C-14 OSTETRICO GINECOLOGICA'},
+                {value: 'C-15', text: 'C-15 INFETTIVA'},
+                {value: 'C-19', text: 'C-19 ALTRA PATOLOGIA'},
+                {value: 'C-20', text: 'C-20 NON IDENTIFICATA'}
             ];
             opzioniPatologia.forEach(opt => {
                 const option = document.createElement('option');
-                option.value = opt;
-                option.textContent = opt;
-                if (call.patologia === opt) option.selected = true;
+                option.value = opt.value;
+                option.textContent = opt.text;
+                if (call.patologia === opt.value) option.selected = true;
                 patologiaSelect.appendChild(option);
             });
+            
+            // Aggiungi listener per aggiornare DETT. PATOLOGIA
+            patologiaSelect.addEventListener('change', updateDettPatologia);
         }
+        
+        // Funzione per aggiornare DETT. PATOLOGIA basato sulla selezione PATOLOGIA
+        function updateDettPatologia() {
+            const patologiaValue = document.getElementById('patologia').value;
+            const dettPatologiaSelect = document.getElementById('dett-patologia');
+            
+            if (!dettPatologiaSelect) return;
+            
+            dettPatologiaSelect.innerHTML = '';
+            
+            const dettagliPatologia = {
+                'C-01': [ // TRAUMATICA
+                    'T.1 Incidente stradale',
+                    'T.2 Incidenti con veicoli particolari',
+                    'T.3 Caduta',
+                    'T.4 Traumatismi vari',
+                    'T.5 Ustioni',
+                    'T.6 Annegamento',
+                    'T.7 Atti violenti',
+                    'T.8 Elettrocuzione/folgorazione'
+                ],
+                'C-02': ['M. 5 DOLORE TORACICO/EPIGASTRICO', 'M .6 CARDIOPALMO/ARITMIA'], // CARDIO CIRCOLATORIA
+                'C-03': ['M. 4 DISPNEA'], // RESPIRATORIA
+                'C-04': ['M. 1 PERDITA O ALTERAZIONE STATO DI COSCIENZA', 'M. 2 TRANSITORIA PERDITA DI COSCIENZA', 'M. 3 CONVULSIONI', 'M. 9 MAL DI TESTA', 'M. 10 DEFICIT NEUROLOGICO ACUTO', 'M. 11 DISTURBI DEL LINGUAGGIO E DELLA FONAZIONE', 'M. 13 VERTIGINE'], // NEUROLOGICA
+                'C-05': [], // PSICHIATRICA
+                'C-06': [], // NEOPLASTICA
+                'C-07': ['M. 17 INTOSSICAZIONE/AVVELENAMENTO', 'M. 8 ANAFILASSI/ALLERGIE'], // INTOSSICAZIONE
+                'C-08': [], // METABOLICA
+                'C-09': ['M. 14 NAUSEA E/O VOMITO', 'M. 15 DOLORE ADDOMINALE'], // GASTRO ENTEROLOGICA
+                'C-10': ['M. 20 DISTURBI GENITOURINARI'], // UROLOGICA
+                'C-11': ['M. 12 DISTURBI DEL VISUS E DELL\'OCCHIO'], // OCULISTICA
+                'C-12': ['M. 22 DISTURBI DELL\'ORECCHIO', 'M. 23 DISTURBI ODONTOSTOMATOLOGICI'], // OTORINO LARINGOIATRICA
+                'C-13': ['M. 21 DISTURBI DERMATOLOGICI'], // DERMATOLOGICA
+                'C-14': ['M. 18 GRAVIDANZA/PARTO'], // OSTETRICO GINECOLOGICA
+                'C-15': ['M. 19 FEBBRE'], // INFETTIVA
+                'C-19': ['M. 7 EMORRAGIA NON TRAUMATICA', 'M. 16 DOLORE AL RACHIDE, COLLO, ARTI'], // ALTRA PATOLOGIA
+                'C-20': [] // NON IDENTIFICATA
+            };
+            
+            const opzioni = dettagliPatologia[patologiaValue] || [];
+            opzioni.forEach(opt => {
+                const option = document.createElement('option');
+                option.value = opt;
+                option.textContent = opt;
+                dettPatologiaSelect.appendChild(option);
+            });
+        }
+        
         const codiceSelect = document.getElementById('codice');
         if (codiceSelect) {
             codiceSelect.innerHTML = '';
-            ['Rosso','Giallo','Verde'].forEach(opt => {
+            ['ROSSO','GIALLO','VERDE','BIANCO'].forEach(opt => {
                 const option = document.createElement('option');
                 option.value = opt;
                 option.textContent = opt;
@@ -1542,10 +1658,29 @@ class EmergencyDispatchGame {
                 codiceSelect.appendChild(option);
             });
         }
-        const note1 = document.getElementById('note1');
-        if (note1) note1.value = call.note1 || '';
-        const note2 = document.getElementById('note2');
-        if (note2) note2.value = call.note2 || '';
+        
+        // Inizializza i menu dinamici
+        updateDettLuogo();
+        updateDettPatologia();
+        
+        // Gestisci i nuovi campi
+        const coscienzaSelect = document.getElementById('coscienza');
+        if (coscienzaSelect && call.coscienza) {
+            coscienzaSelect.value = call.coscienza;
+        }
+        
+        const dettLuogoSelect = document.getElementById('dett-luogo');
+        if (dettLuogoSelect && call.dettLuogo) {
+            dettLuogoSelect.value = call.dettLuogo;
+        }
+        
+        const dettPatologiaSelect = document.getElementById('dett-patologia');
+        if (dettPatologiaSelect && call.dettPatologia) {
+            dettPatologiaSelect.value = call.dettPatologia;
+        }
+        
+        const noteEvento = document.getElementById('note-evento');
+        if (noteEvento) noteEvento.value = call.noteEvento || '';
 
         const btnsRapidi = [
             {tipo:'MSB', label:'MSB'},
@@ -1668,15 +1803,20 @@ class EmergencyDispatchGame {
         }
         if (!call) return;
         const luogo = document.getElementById('luogo')?.value || '';
+        const dettLuogo = document.getElementById('dett-luogo')?.value || '';
         const patologia = document.getElementById('patologia')?.value || '';
+        const dettPatologia = document.getElementById('dett-patologia')?.value || '';
         const codice = document.getElementById('codice')?.value || '';
-        const note1 = document.getElementById('note1')?.value || '';
-        const note2 = document.getElementById('note2')?.value || '';
+        const coscienza = document.getElementById('coscienza')?.value || '';
+        const noteEvento = document.getElementById('note-evento')?.value || '';
+        
         call.luogo = luogo;
+        call.dettLuogo = dettLuogo;
         call.patologia = patologia;
+        call.dettPatologia = dettPatologia;
         call.codice = codice;
-        call.note1 = note1;
-        call.note2 = note2;
+        call.coscienza = coscienza;
+        call.noteEvento = noteEvento;
         // Query robusta per i mezzi selezionati
         const mezziChecked = Array.from(document.querySelectorAll('#popupMissione input[type=checkbox][name=mezzi]:checked')).map(cb => cb.value);
         

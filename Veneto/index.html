@@ -143,18 +143,89 @@
         <div id="testo-chiamata-popup" style="display:none;background:#fffbe6;color:#333;padding:10px 14px 10px 38px;border-bottom:1px solid #e0c200;font-size:15px;line-height:1.4;"></div>
         <form id="missionForm" class="popup-form" autocomplete="off" style="background:#f9f9f9;">
             <div style="margin-bottom:6px;font-size:14px;"><b>Indirizzo:</b> <span id="missione-indirizzo"></span></div>
-            <div style="display:grid;grid-template-columns:1fr 1fr;gap:6px 8px;align-items:center;">
-                <label for="codice" style="font-weight:bold;color:#003366;">Codice gravità:</label>
-                <select id="codice" name="codice"></select>
-                <label for="luogo" style="font-weight:bold;color:#003366;">Luogo intervento:</label>
-                <select id="luogo" name="luogo"></select>
-                <label for="patologia" style="font-weight:bold;color:#003366;">Motivo:</label>
-                <select id="patologia" name="patologia"></select>
-                <label for="note1" style="font-weight:bold;color:#003366;">Note sanitarie 1:</label>
-                <input id="note1" name="note1" type="text">
-                <label for="note2" style="font-weight:bold;color:#003366;">Note sanitarie 2:</label>
-                <input id="note2" name="note2" type="text">
+            
+            <!-- CODICE e LUOGO in colonna -->
+            <div style="display:grid;grid-template-columns:1fr 1fr;gap:6px 8px;align-items:center;margin-bottom:10px;">
+                <label for="codice" style="font-weight:bold;color:#003366;">CODICE:</label>
+                <select id="codice" name="codice">
+                    <option value="ROSSO">ROSSO</option>
+                    <option value="GIALLO">GIALLO</option>
+                    <option value="VERDE">VERDE</option>
+                    <option value="BIANCO">BIANCO</option>
+                </select>
             </div>
+            
+            <div style="display:grid;grid-template-columns:1fr 1fr;gap:6px 8px;align-items:center;margin-bottom:10px;">
+                <label for="luogo" style="font-weight:bold;color:#003366;">LUOGO:</label>
+                <select id="luogo" name="luogo">
+                    <option value="K">K - CASA</option>
+                    <option value="S">S - STRADA</option>
+                    <option value="Y">Y - IMP. SPORTIVO</option>
+                    <option value="L">L - IMP. LAVORATIVO</option>
+                    <option value="Q">Q - SCUOLE</option>
+                    <option value="P">P - UFF./ES. PUBBLICI</option>
+                    <option value="Z">Z - ALTRO</option>
+                </select>
+            </div>
+
+            <!-- Dettaglio luogo - griglia 2 colonne -->
+            <div style="display:grid;grid-template-columns:1fr 1fr;gap:6px 8px;align-items:center;margin-bottom:10px;">
+                <label for="dett-luogo" style="font-weight:bold;color:#003366;">DETT. LUOGO:</label>
+                <select id="dett-luogo" name="dett-luogo">
+                    <!-- Opzioni dinamiche basate sulla selezione del luogo -->
+                </select>
+            </div>
+
+            <!-- Patologia - griglia 2 colonne -->
+            <div style="display:grid;grid-template-columns:1fr 1fr;gap:6px 8px;align-items:center;margin-bottom:10px;">
+                <label for="patologia" style="font-weight:bold;color:#003366;">PATOLOGIA:</label>
+                <select id="patologia" name="patologia">
+                    <option value="C-01">C-01 TRAUMATICA</option>
+                    <option value="C-02">C-02 CARDIO CIRCOLATORIA</option>
+                    <option value="C-03">C-03 RESPIRATORIA</option>
+                    <option value="C-04">C-04 NEUROLOGICA</option>
+                    <option value="C-05">C-05 PSICHIATRICA</option>
+                    <option value="C-06">C-06 NEOPLASTICA</option>
+                    <option value="C-07">C-07 INTOSSICAZIONE</option>
+                    <option value="C-08">C-08 METABOLICA</option>
+                    <option value="C-09">C-09 GASTRO ENTEROLOGICA</option>
+                    <option value="C-10">C-10 UROLOGICA</option>
+                    <option value="C-11">C-11 OCULISTICA</option>
+                    <option value="C-12">C-12 OTORINO LARINGOIATRICA</option>
+                    <option value="C-13">C-13 DERMATOLOGICA</option>
+                    <option value="C-14">C-14 OSTETRICO GINECOLOGICA</option>
+                    <option value="C-15">C-15 INFETTIVA</option>
+                    <option value="C-19">C-19 ALTRA PATOLOGIA</option>
+                    <option value="C-20">C-20 NON IDENTIFICATA</option>
+                </select>
+            </div>
+
+            <!-- Dettaglio patologia - griglia 2 colonne -->
+            <div style="display:grid;grid-template-columns:1fr 1fr;gap:6px 8px;align-items:center;margin-bottom:10px;">
+                <label for="dett-patologia" style="font-weight:bold;color:#003366;">DETT. PATOLOGIA:</label>
+                <select id="dett-patologia" name="dett-patologia">
+                    <!-- Opzioni dinamiche basate sulla selezione della patologia -->
+                </select>
+            </div>
+
+            <!-- Coscienza - griglia 2 colonne -->
+            <div style="display:grid;grid-template-columns:1fr 1fr;gap:6px 8px;align-items:center;margin-bottom:10px;">
+                <label for="coscienza" style="font-weight:bold;color:#003366;">COSCIENZA:</label>
+                <select id="coscienza" name="coscienza">
+                    <option value="RISPONDE">RISPONDE</option>
+                    <option value="ALTERATA">ALTERATA</option>
+                    <option value="NON RISPONDE">NON RISPONDE</option>
+                    <option value="NON RISPONDE E NON RESPIRA">NON RISPONDE E NON RESPIRA</option>
+                    <option value="NON NOTO">NON NOTO</option>
+                </select>
+            </div>
+
+            <!-- Note evento - griglia 2 colonne -->
+            <div style="display:grid;grid-template-columns:1fr 1fr;gap:6px 8px;align-items:center;margin-bottom:10px;">
+                <label for="note-evento" style="font-weight:bold;color:#003366;">NOTE EVENTO:</label>
+                <textarea id="note-evento" name="note-evento" rows="2" style="resize:vertical;"></textarea>
+            </div>
+
             <div style="margin:4px 0; display:flex; align-items:center; gap:12px;">
                 <label for="check-vvf" style="margin:0;font-weight:bold;color:#003366;"><input type="checkbox" id="check-vvf" name="check-vvf"> Vigili del Fuoco</label>
                 <label for="check-ffo" style="margin:0;font-weight:bold;color:#003366;"><input type="checkbox" id="check-ffo" name="check-ffo"> Forze Ordine</label>

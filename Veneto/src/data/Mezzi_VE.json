@@ -71,7 +71,7 @@
         "Mezzo":"MSI",
         "Nome radio":"ALFA MIKE 02",
         "Convenzione":"H24",
-        "Orario di lavoro":"00:00-00:00",
+        "Orario di lavoro":"8:00-20:00",
         "Giorni":"LUN-DOM",
         "Unnamed: 7":null,
         "note":"SOLO SETTIMANE PARI VEDI ALTERNANZA MESTRE"
@@ -82,7 +82,7 @@
         "Mezzo":"MSB",
         "Nome radio":"ALFA MIKE 31",
         "Convenzione":"H24",
-        "Orario di lavoro":"00:00-00:00",
+        "Orario di lavoro":"20:00-8:00",
         "Giorni":"LUN-DOM",
         "Unnamed: 7":null,
         "note":"SOLO SETTIMANE DISPARI VEDI ALTERNANZA MESTRE"
@@ -533,7 +533,7 @@
         "Mezzo":"MSI",
         "Nome radio":"ALFA VICTOR 01",
         "Convenzione":"H24",
-        "Orario di lavoro":"00:00-00:00",
+        "Orario di lavoro":"8:00-20:00",
         "Giorni":"LUN-DOM",
         "Unnamed: 7":null,
         "note":"SOLO SETTIMANE DISPARI - VEDI ALTERNANZA CV MARCON"
@@ -555,7 +555,7 @@
         "Mezzo":"MSB",
         "Nome radio":"ALFA VICTOR 31",
         "Convenzione":"H24",
-        "Orario di lavoro":"00:00-00:00",
+        "Orario di lavoro":"20:00-8:00",
         "Giorni":"LUN-DOM",
         "Unnamed: 7":null,
         "note":"SOLO SETTIMANE PARI - VEDI ALTERNANZA CV MARCON"
@@ -1078,35 +1078,13 @@
         "note":null
     },
     {
-        "Nome Postazione":"SUEM 118 - ESTIVA Isola Verde QUAD",
-        "Coordinate Postazione":"45.182499,12.315137",
-        "Mezzo":"FR",
-        "Nome radio":"CHARLIE INDIA 50",
-        "Convenzione":"H12",
-        "Orario di lavoro":"09:00-19:00",
-        "Giorni":"LUN-DOM",
-        "Unnamed: 7":null,
-        "note":"QUAD"
-    },
-    {
-        "Nome Postazione":"SUEM 118 - ESTIVA Isola Verde QUAD",
-        "Coordinate Postazione":"45.182499,12.315137",
-        "Mezzo":"FR",
-        "Nome radio":"CHARLIE INDIA 51",
-        "Convenzione":"H12",
-        "Orario di lavoro":"09:00-19:00",
-        "Giorni":"LUN-DOM",
-        "Unnamed: 7":null,
-        "note":"MOTO"
-    },
-    {
         "Nome Postazione":"SUEM 118 - ESTIVA Jesolo Piazza Mazzini",
         "Coordinate Postazione":"45.496361,12.6184",
         "Mezzo":"MSB",
         "Nome radio":"INDIA ROMEO 31",
         "Convenzione":"H10",
         "Orario di lavoro":"20:00-06:00",
-        "Giorni":"LUN, GIO-DOM",
+        "Giorni":"GIO-LUN",
         "Unnamed: 7":null,
         "note":null
     }

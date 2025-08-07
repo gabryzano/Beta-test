@@ -215,7 +215,7 @@
         "Nome radio":"OSCAR ROMEO 37",
         "Convenzione":"H6",
         "Orario di lavoro":"18:00-00:00",
-        "Giorni":"LUN\/MERC\/VEN\/SAB\/DOM",
+        "Giorni":"MAR-MER",
         "Unnamed: 7":null,
         "note":null
     },
@@ -226,7 +226,7 @@
         "Nome radio":"OSCAR ROMEO 37",
         "Convenzione":"H8",
         "Orario di lavoro":"00:00-08:00",
-        "Giorni":"LUN\/VEN\/SAB\/DOM",
+        "Giorni":"SAB-DOM",
         "Unnamed: 7":null,
         "note":null
     },
@@ -237,7 +237,7 @@
         "Nome radio":"OSCAR ZULU 38",
         "Convenzione":"H5",
         "Orario di lavoro":"19:00-00:00",
-        "Giorni":"LUN E GIO",
+        "Giorni":"LUN, GIO",
         "Unnamed: 7":null,
         "note":null
     },
@@ -270,7 +270,7 @@
         "Nome radio":"ALFA DELTA 35",
         "Convenzione":"H5",
         "Orario di lavoro":"19:00-00:00",
-        "Giorni":"MERC E GIO",
+        "Giorni":"MER-GIO",
         "Unnamed: 7":null,
         "note":null
     },
@@ -380,7 +380,7 @@
         "Nome radio":"TANGO SIERRA 37",
         "Convenzione":"H12",
         "Orario di lavoro":"07:00-19:00",
-        "Giorni":"TUTTI I GIORNI",
+        "Giorni":"LUN-DOM",
         "Unnamed: 7":null,
         "note":null
     },
@@ -391,7 +391,7 @@
         "Nome radio":"LIMA INDIA 40",
         "Convenzione":"H16",
         "Orario di lavoro":"07:00-23:00",
-        "Giorni":"TUTTI I GIORNI",
+        "Giorni":"LUN-DOM",
         "Unnamed: 7":null,
         "note":null
     },
@@ -435,7 +435,7 @@
         "Nome radio":"MIKE VICTOR 42",
         "Convenzione":"H8",
         "Orario di lavoro":"00:00-08:00",
-        "Giorni":"LUN\/VEN\/SAB\/DOM",
+        "Giorni":"SAB-DOM",
         "Unnamed: 7":null,
         "note":null
     },
@@ -468,7 +468,7 @@
         "Nome radio":"ALFA SIERRA 32",
         "Convenzione":"H6",
         "Orario di lavoro":"18:30-00:00",
-        "Giorni":"LUN\/MERC\/GIO\/VEN\/SAB\/DOM",
+        "Giorni":"VEN-DOM",
         "Unnamed: 7":null,
         "note":null
     },
@@ -479,7 +479,7 @@
         "Nome radio":"ALFA SIERRA 32",
         "Convenzione":"H7",
         "Orario di lavoro":"00:00-07:30",
-        "Giorni":"LUN\/VEN\/SAB\/DOM",
+        "Giorni":"LUN-DOM",
         "Unnamed: 7":null,
         "note":null
     },
@@ -501,7 +501,7 @@
         "Nome radio":"ALFA ROMEO 31",
         "Convenzione":"H7",
         "Orario di lavoro":"00:00-07:00",
-        "Giorni":"LUN\/VEN\/SAB\/DOM",
+        "Giorni":"SAB-DOM",
         "Unnamed: 7":null,
         "note":null
     },
@@ -523,7 +523,7 @@
         "Nome radio":"ALFA ROMEO 32",
         "Convenzione":"H7",
         "Orario di lavoro":"00:00-07:00",
-        "Giorni":"LUN\/VEN\/SAB\/DOM",
+        "Giorni":"SAB-DOM",
         "Unnamed: 7":null,
         "note":null
     },
@@ -534,7 +534,7 @@
         "Nome radio":"ALFA LIMA 34",
         "Convenzione":"H6",
         "Orario di lavoro":"18:00-00:00",
-        "Giorni":"MAR\/MERC\/GIO",
+        "Giorni":"MAR-GIO",
         "Unnamed: 7":null,
         "note":null
     },
@@ -545,7 +545,7 @@
         "Nome radio":"ALFA VICTOR 33",
         "Convenzione":"H5",
         "Orario di lavoro":"19:00-00:00",
-        "Giorni":"LUN E MERC",
+        "Giorni":"LUN-MER",
         "Unnamed: 7":null,
         "note":null
     },
@@ -589,7 +589,7 @@
         "Nome radio":"SIERRA ECHO 36",
         "Convenzione":"H6",
         "Orario di lavoro":"18:00-24:00",
-        "Giorni":"GIO\/VEN",
+        "Giorni":"GIO-VEN",
         "Unnamed: 7":null,
         "note":null
     },
@@ -1062,7 +1062,7 @@
         "Nome radio":"LIMA PAPA 01",
         "Convenzione":"H12",
         "Orario di lavoro":"08:00-20:00",
-        "Giorni":"LUN\/VEN\/SAB\/DOM",
+        "Giorni":"SAB-DOM",
         "Unnamed: 7":null,
         "note":null
     },
@@ -1281,7 +1281,7 @@
         "Mezzo":"VLV",
         "Nome radio":"ALFA 22",
         "Convenzione":"H24",
-        "Orario di lavoro":"00:00-00:00",
+        "Orario di lavoro":"20:00-8:00",
         "Giorni":"LUN-DOM",
         "Unnamed: 7":null,
         "note":"alterna"
@@ -1292,14 +1292,14 @@
         "Mezzo":"VLV",
         "Nome radio":"ALFA 23",
         "Convenzione":"H24",
-        "Orario di lavoro":"00:00-00:00",
+        "Orario di lavoro":"8:00-20:00",
         "Giorni":"LUN-DOM",
         "Unnamed: 7":null,
         "note":"alterna"
     },
     {
         "Nome Postazione":"SUEM 118 - Treviso",
-        "Coordinate Postazione":"45.65576,12.26438",
+        "Coordinate Postazione":"",
         "Mezzo":"VLV",
         "Nome radio":"ALFA 24",
         "Convenzione":"H24",
@@ -1447,7 +1447,7 @@
         "Nome radio":"VICTOR PAPA 43",
         "Convenzione":"H12",
         "Orario di lavoro":"20:00-08:00",
-        "Giorni":"VEN E SAB",
+        "Giorni":"VEN-SAB",
         "Unnamed: 7":null,
         "note":null
     },
@@ -1458,7 +1458,7 @@
         "Nome radio":"VICTOR PAPA 43",
         "Convenzione":"H4",
         "Orario di lavoro":"20:00-00:00",
-        "Giorni":"MERC",
+        "Giorni":"MER",
         "Unnamed: 7":null,
         "note":null
     },
@@ -1480,7 +1480,7 @@
         "Nome radio":"CHARLIE OSCAR 44",
         "Convenzione":"H8",
         "Orario di lavoro":"16:00-00:00",
-        "Giorni":"LUN\/MAR\/SAB",
+        "Giorni":"LUN-MAR",
         "Unnamed: 7":null,
         "note":null
     },
@@ -1502,7 +1502,7 @@
         "Nome radio":"CHARLIE MIKE 45",
         "Convenzione":"H7",
         "Orario di lavoro":"00:00-07:00",
-        "Giorni":"VEN\/SAB",
+        "Giorni":"VEN-SAB",
         "Unnamed: 7":null,
         "note":null
     },
@@ -1513,7 +1513,7 @@
         "Nome radio":"CHARLIE MIKE 45",
         "Convenzione":"H24",
         "Orario di lavoro":"07:00-07:00",
-        "Giorni":"SAB\/DOM\/LUN",
+        "Giorni":"SAB-DOM",
         "Unnamed: 7":null,
         "note":null
     }
