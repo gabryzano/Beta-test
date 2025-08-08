@@ -19,8 +19,8 @@
             border-radius: 7px;
             box-shadow: 0 4px 24px #0002;
             z-index: 10000;
-            min-width: 340px;
-            max-width: 480px;
+            min-width: 420px;
+            max-width: 550px;
             padding: 0;
         }
         .popup-header {
@@ -144,7 +144,7 @@
         <form id="missionForm" class="popup-form" autocomplete="off" style="background:#f9f9f9;">
             <div style="margin-bottom:6px;font-size:14px;"><b>Indirizzo:</b> <span id="missione-indirizzo"></span></div>
             
-            <!-- CODICE e LUOGO in colonna -->
+            <!-- CODICE in griglia 2 colonne -->
             <div style="display:grid;grid-template-columns:1fr 1fr;gap:6px 8px;align-items:center;margin-bottom:10px;">
                 <label for="codice" style="font-weight:bold;color:#003366;">CODICE:</label>
                 <select id="codice" name="codice">
@@ -155,60 +155,25 @@
                 </select>
             </div>
             
+            <!-- LUOGO in griglia 2 colonne -->
             <div style="display:grid;grid-template-columns:1fr 1fr;gap:6px 8px;align-items:center;margin-bottom:10px;">
                 <label for="luogo" style="font-weight:bold;color:#003366;">LUOGO:</label>
                 <select id="luogo" name="luogo">
-                    <option value="K">K - CASA</option>
                     <option value="S">S - STRADA</option>
-                    <option value="Y">Y - IMP. SPORTIVO</option>
-                    <option value="L">L - IMP. LAVORATIVO</option>
+                    <option value="P">P - UFFICI ED ES. PUBBLICI</option>
+                    <option value="Y">Y - IMPIANTI SPORTIVI</option>
+                    <option value="K">K - CASA</option>
+                    <option value="L">L - IMPIANTI LAVORATIVI</option>
                     <option value="Q">Q - SCUOLE</option>
-                    <option value="P">P - UFF./ES. PUBBLICI</option>
-                    <option value="Z">Z - ALTRO</option>
+                    <option value="C">C - CAMPAGNA</option>
+                    <option value="M">M - MONTAGNA</option>
+                    <option value="A">A - MARE, SPIAGGIA, FIUMI, LAGHI</option>
+                    <option value="R">R - ISTITUTO DI RICOVERO</option>
+                    <option value="Z">Z - ALTRI LUOGHI</option>
                 </select>
             </div>
 
-            <!-- Dettaglio luogo - griglia 2 colonne -->
-            <div style="display:grid;grid-template-columns:1fr 1fr;gap:6px 8px;align-items:center;margin-bottom:10px;">
-                <label for="dett-luogo" style="font-weight:bold;color:#003366;">DETT. LUOGO:</label>
-                <select id="dett-luogo" name="dett-luogo">
-                    <!-- Opzioni dinamiche basate sulla selezione del luogo -->
-                </select>
-            </div>
-
-            <!-- Patologia - griglia 2 colonne -->
-            <div style="display:grid;grid-template-columns:1fr 1fr;gap:6px 8px;align-items:center;margin-bottom:10px;">
-                <label for="patologia" style="font-weight:bold;color:#003366;">PATOLOGIA:</label>
-                <select id="patologia" name="patologia">
-                    <option value="C-01">C-01 TRAUMATICA</option>
-                    <option value="C-02">C-02 CARDIO CIRCOLATORIA</option>
-                    <option value="C-03">C-03 RESPIRATORIA</option>
-                    <option value="C-04">C-04 NEUROLOGICA</option>
-                    <option value="C-05">C-05 PSICHIATRICA</option>
-                    <option value="C-06">C-06 NEOPLASTICA</option>
-                    <option value="C-07">C-07 INTOSSICAZIONE</option>
-                    <option value="C-08">C-08 METABOLICA</option>
-                    <option value="C-09">C-09 GASTRO ENTEROLOGICA</option>
-                    <option value="C-10">C-10 UROLOGICA</option>
-                    <option value="C-11">C-11 OCULISTICA</option>
-                    <option value="C-12">C-12 OTORINO LARINGOIATRICA</option>
-                    <option value="C-13">C-13 DERMATOLOGICA</option>
-                    <option value="C-14">C-14 OSTETRICO GINECOLOGICA</option>
-                    <option value="C-15">C-15 INFETTIVA</option>
-                    <option value="C-19">C-19 ALTRA PATOLOGIA</option>
-                    <option value="C-20">C-20 NON IDENTIFICATA</option>
-                </select>
-            </div>
-
-            <!-- Dettaglio patologia - griglia 2 colonne -->
-            <div style="display:grid;grid-template-columns:1fr 1fr;gap:6px 8px;align-items:center;margin-bottom:10px;">
-                <label for="dett-patologia" style="font-weight:bold;color:#003366;">DETT. PATOLOGIA:</label>
-                <select id="dett-patologia" name="dett-patologia">
-                    <!-- Opzioni dinamiche basate sulla selezione della patologia -->
-                </select>
-            </div>
-
-            <!-- Coscienza - griglia 2 colonne -->
+            <!-- COSCIENZA in griglia 2 colonne -->
             <div style="display:grid;grid-template-columns:1fr 1fr;gap:6px 8px;align-items:center;margin-bottom:10px;">
                 <label for="coscienza" style="font-weight:bold;color:#003366;">COSCIENZA:</label>
                 <select id="coscienza" name="coscienza">
@@ -217,6 +182,32 @@
                     <option value="NON RISPONDE">NON RISPONDE</option>
                     <option value="NON RISPONDE E NON RESPIRA">NON RISPONDE E NON RESPIRA</option>
                     <option value="NON NOTO">NON NOTO</option>
+                </select>
+            </div>
+
+            <!-- PROBLEMA in griglia 2 colonne -->
+            <div style="display:grid;grid-template-columns:1fr 1fr;gap:6px 8px;align-items:center;margin-bottom:10px;">
+                <label for="problema" style="font-weight:bold;color:#003366;">PROBLEMA:</label>
+                <select id="problema" name="problema">
+                    <option value="M">M - PROBLEMA MEDICO</option>
+                    <option value="T">T - PROBLEMA TRAUMATICO</option>
+                    <option value="A">A - ALTRO PROBLEMA</option>
+                </select>
+            </div>
+
+            <!-- Sottocategoria problema - griglia 2 colonne -->
+            <div style="display:grid;grid-template-columns:1fr 1fr;gap:6px 8px;align-items:center;margin-bottom:10px;">
+                <label for="sottocategoria-problema" style="font-weight:bold;color:#003366;">SOTTOCATEGORIA:</label>
+                <select id="sottocategoria-problema" name="sottocategoria-problema">
+                    <!-- Opzioni dinamiche basate sulla selezione del problema -->
+                </select>
+            </div>
+            
+            <!-- Dettaglio problema - griglia 2 colonne -->
+            <div style="display:grid;grid-template-columns:1fr 1fr;gap:6px 8px;align-items:center;margin-bottom:10px;">
+                <label for="dett-problema" style="font-weight:bold;color:#003366;">DETT. PROBLEMA:</label>
+                <select id="dett-problema" name="dett-problema">
+                    <!-- Opzioni dinamiche basate sulla sottocategoria del problema -->
                 </select>
             </div>
 

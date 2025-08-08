@@ -1518,13 +1518,17 @@ class EmergencyDispatchGame {
         if (luogoSelect) {
             luogoSelect.innerHTML = '';
             const opzioniLuogo = [
-                {value: 'K', text: 'K - CASA'},
                 {value: 'S', text: 'S - STRADA'},
-                {value: 'Y', text: 'Y - IMP. SPORTIVO'},
-                {value: 'L', text: 'L - IMP. LAVORATIVO'},
+                {value: 'P', text: 'P - UFFICI ED ES. PUBBLICI'},
+                {value: 'Y', text: 'Y - IMPIANTI SPORTIVI'},
+                {value: 'K', text: 'K - CASA'},
+                {value: 'L', text: 'L - IMPIANTI LAVORATIVI'},
                 {value: 'Q', text: 'Q - SCUOLE'},
-                {value: 'P', text: 'P - UFF./ES. PUBBLICI'},
-                {value: 'Z', text: 'Z - ALTRO'}
+                {value: 'C', text: 'C - CAMPAGNA'},
+                {value: 'M', text: 'M - MONTAGNA'},
+                {value: 'A', text: 'A - MARE, SPIAGGIA, FIUMI, LAGHI'},
+                {value: 'R', text: 'R - ISTITUTO DI RICOVERO'},
+                {value: 'Z', text: 'Z - ALTRI LUOGHI'}
             ];
             opzioniLuogo.forEach(opt => {
                 const option = document.createElement('option');
@@ -1533,117 +1537,117 @@ class EmergencyDispatchGame {
                 if (call.luogo === opt.value) option.selected = true;
                 luogoSelect.appendChild(option);
             });
-            
-            // Aggiungi listener per aggiornare DETT. LUOGO
-            luogoSelect.addEventListener('change', updateDettLuogo);
         }
         
-        // Funzione per aggiornare DETT. LUOGO basato sulla selezione LUOGO
-        function updateDettLuogo() {
-            const luogoValue = document.getElementById('luogo').value;
-            const dettLuogoSelect = document.getElementById('dett-luogo');
-            
-            if (!dettLuogoSelect) return;
-            
-            dettLuogoSelect.innerHTML = '';
-            
-            const dettagliLuogo = {
-                'K': ['ABITAZIONE PRIVATA', 'CONDOMINIO', 'ALTRO/NON NOTO'],
-                'S': ['URBANA', 'PIAZZA', 'EXTRA URBANA', 'AUTOSTRADA', 'MARCIAPIEDE', 'INCROCIO'],
-                'Y': ['STADIO', 'CENTRO SPORTIVO', 'PISCINE', 'PALESTRA', 'MANEGGIO', 'IMPIANTO SCIISTICO'],
-                'L': ['FABBRICA', 'CAPANNONE', 'CANTIERE', 'UFFICI', 'ALTRO'],
-                'Q': ['ASILO', 'ELEMENTARI', 'MEDIE', 'SUPERIORI', 'UNIVERSITA\'', 'ALTRO'],
-                'P': ['RSA/RSD', 'UFFICI', 'POSTE', 'SUPERMERCATO', 'PARCO', 'ALBERGO', 'BAR/RISTORANTI', 'CENTRO COMMERCIALE', 'CAMPEGGIO', 'CINEMA/TEATRO', 'DISCOTECA'],
-                'Z': ['STR. SANITARIA', 'OSPEDALE', 'PPI', 'ALTRA STRUTTURA SOCIO SANITARIA', 'IMPERVIO', 'SPIAGGIA', 'RIFUGIO MONTANO', 'CORSO ACQUA', 'LAGO', 'BOSCO/FORESTA', 'SENTIERO', 'MONTAGNA', 'FORRA/GROTTA', 'ALTRO', 'NON IDENTIFICATO']
-            };
-            
-            const opzioni = dettagliLuogo[luogoValue] || [];
-            opzioni.forEach(opt => {
-                const option = document.createElement('option');
-                option.value = opt;
-                option.textContent = opt;
-                dettLuogoSelect.appendChild(option);
-            });
-        }
-        
-        const patologiaSelect = document.getElementById('patologia');
-        if (patologiaSelect) {
-            patologiaSelect.innerHTML = '';
-            const opzioniPatologia = [
-                {value: 'C-01', text: 'C-01 TRAUMATICA'},
-                {value: 'C-02', text: 'C-02 CARDIO CIRCOLATORIA'},
-                {value: 'C-03', text: 'C-03 RESPIRATORIA'},
-                {value: 'C-04', text: 'C-04 NEUROLOGICA'},
-                {value: 'C-05', text: 'C-05 PSICHIATRICA'},
-                {value: 'C-06', text: 'C-06 NEOPLASTICA'},
-                {value: 'C-07', text: 'C-07 INTOSSICAZIONE'},
-                {value: 'C-08', text: 'C-08 METABOLICA'},
-                {value: 'C-09', text: 'C-09 GASTRO ENTEROLOGICA'},
-                {value: 'C-10', text: 'C-10 UROLOGICA'},
-                {value: 'C-11', text: 'C-11 OCULISTICA'},
-                {value: 'C-12', text: 'C-12 OTORINO LARINGOIATRICA'},
-                {value: 'C-13', text: 'C-13 DERMATOLOGICA'},
-                {value: 'C-14', text: 'C-14 OSTETRICO GINECOLOGICA'},
-                {value: 'C-15', text: 'C-15 INFETTIVA'},
-                {value: 'C-19', text: 'C-19 ALTRA PATOLOGIA'},
-                {value: 'C-20', text: 'C-20 NON IDENTIFICATA'}
+        const problemaSelect = document.getElementById('problema');
+        if (problemaSelect) {
+            problemaSelect.innerHTML = '';
+            const opzioniProblema = [
+                {value: 'M', text: 'M - PROBLEMA MEDICO'},
+                {value: 'T', text: 'T - PROBLEMA TRAUMATICO'},
+                {value: 'A', text: 'A - ALTRO PROBLEMA'}
             ];
-            opzioniPatologia.forEach(opt => {
+            opzioniProblema.forEach(opt => {
                 const option = document.createElement('option');
                 option.value = opt.value;
                 option.textContent = opt.text;
-                if (call.patologia === opt.value) option.selected = true;
-                patologiaSelect.appendChild(option);
+                if (call.problema === opt.value) option.selected = true;
+                problemaSelect.appendChild(option);
             });
             
-            // Aggiungi listener per aggiornare DETT. PATOLOGIA
-            patologiaSelect.addEventListener('change', updateDettPatologia);
+            // Aggiungi listener per aggiornare sottocategoria
+            problemaSelect.addEventListener('change', updateSottocategoriaProblema);
         }
         
-        // Funzione per aggiornare DETT. PATOLOGIA basato sulla selezione PATOLOGIA
-        function updateDettPatologia() {
-            const patologiaValue = document.getElementById('patologia').value;
-            const dettPatologiaSelect = document.getElementById('dett-patologia');
+        // Funzione per aggiornare SOTTOCATEGORIA basato sulla selezione PROBLEMA
+        function updateSottocategoriaProblema() {
+            const problemaValue = document.getElementById('problema').value;
+            const sottocategoriaSelect = document.getElementById('sottocategoria-problema');
             
-            if (!dettPatologiaSelect) return;
+            if (!sottocategoriaSelect) return;
             
-            dettPatologiaSelect.innerHTML = '';
+            sottocategoriaSelect.innerHTML = '';
             
-            const dettagliPatologia = {
-                'C-01': [ // TRAUMATICA
-                    'T.1 Incidente stradale',
-                    'T.2 Incidenti con veicoli particolari',
-                    'T.3 Caduta',
-                    'T.4 Traumatismi vari',
-                    'T.5 Ustioni',
-                    'T.6 Annegamento',
-                    'T.7 Atti violenti',
-                    'T.8 Elettrocuzione/folgorazione'
+            const sottocategorie = {
+                'M': [
+                    {value: 'C-02', text: 'C-02 CARDIO CIRCOLATORIA'},
+                    {value: 'C-03', text: 'C-03 RESPIRATORIA'},
+                    {value: 'C-04', text: 'C-04 NEUROLOGICA'},
+                    {value: 'C-05', text: 'C-05 PSICHIATRICA'},
+                    {value: 'C-06', text: 'C-06 NEOPLASTICA'},
+                    {value: 'C-07', text: 'C-07 INTOSSICAZIONE'},
+                    {value: 'C-08', text: 'C-08 METABOLICA'},
+                    {value: 'C-09', text: 'C-09 GASTRO ENTEROLOGICA'},
+                    {value: 'C-10', text: 'C-10 UROLOGICA'},
+                    {value: 'C-11', text: 'C-11 OCULISTICA'},
+                    {value: 'C-12', text: 'C-12 OTORINO LARINGOIATRICA'},
+                    {value: 'C-13', text: 'C-13 DERMATOLOGICA'},
+                    {value: 'C-14', text: 'C-14 OSTETRICO GINECOLOGICA'},
+                    {value: 'C-15', text: 'C-15 INFETTIVA'},
+                    {value: 'C-19', text: 'C-19 ALTRA PATOLOGIA'}
                 ],
-                'C-02': ['M. 1 PERDITA O ALTERAZIONE STATO DI COSCIENZA','M. 5 DOLORE TORACICO/EPIGASTRICO', 'M .6 CARDIOPALMO/ARITMIA', 'M. 7 EMORRAGIA NON TRAUMATICA'], // CARDIO CIRCOLATORIA
-                'C-03': ['M. 4 DISPNEA'], // RESPIRATORIA
-                'C-04': ['M. 1 PERDITA O ALTERAZIONE STATO DI COSCIENZA', 'M. 2 TRANSITORIA PERDITA DI COSCIENZA', 'M. 3 CONVULSIONI', 'M. 9 MAL DI TESTA', 'M. 10 DEFICIT NEUROLOGICO ACUTO', 'M. 11 DISTURBI DEL LINGUAGGIO E DELLA FONAZIONE', 'M. 13 VERTIGINE'], // NEUROLOGICA
-                'C-05': ['M. 22 PSICHIATRICA'], // PSICHIATRICA
-                'C-06': ['M. 23 NEOPLASTICA'], // NEOPLASTICA
-                'C-07': ['M. 17 INTOSSICAZIONE/AVVELENAMENTO', 'M. 8 ANAFILASSI/ALLERGIE'], // INTOSSICAZIONE
-                'C-08': ['M. 24 METABOLICA'], // METABOLICA
-                'C-09': ['M. 7 EMORRAGIA NON TRAUMATICA','M. 14 NAUSEA E/O VOMITO', 'M. 15 DOLORE ADDOMINALE'], // GASTRO ENTEROLOGICA
-                'C-10': ['M. 20 DISTURBI GENITOURINARI'], // UROLOGICA
-                'C-11': ['M. 12 DISTURBI DEL VISUS E DELL\'OCCHIO'], // OCULISTICA
-                'C-12': ['M. 13 VERTIGINE','M. 22 DISTURBI DELL\'ORECCHIO', 'M. 23 DISTURBI ODONTOSTOMATOLOGICI'], // OTORINO LARINGOIATRICA
-                'C-13': ['M. 21 DISTURBI DERMATOLOGICI'], // DERMATOLOGICA
-                'C-14': ['M. 18 GRAVIDANZA/PARTO'], // OSTETRICO GINECOLOGICA
-                'C-15': ['M. 19 FEBBRE'], // INFETTIVA
-                'C-19': ['M. 7 EMORRAGIA NON TRAUMATICA',  'M. 8 ANAFILASSI/ALLERGIE','M. 16 DOLORE AL RACHIDE, COLLO, ARTI'], // ALTRA PATOLOGIA
-                'C-20': ['M. 25 NON IDENTIFICATA'] // NON IDENTIFICATA
+                'T': [
+                    {value: 'C-01', text: 'C-01 TRAUMATICA'}
+                ],
+                'A': [
+                    {value: 'C-19', text: 'C-19 ALTRA PATOLOGIA'},
+                    {value: 'C-20', text: 'C-20 NON IDENTIFICATA'}
+                ]
             };
             
-            const opzioni = dettagliPatologia[patologiaValue] || [];
+            const opzioni = sottocategorie[problemaValue] || [];
+            opzioni.forEach(opt => {
+                const option = document.createElement('option');
+                option.value = opt.value;
+                option.textContent = opt.text;
+                sottocategoriaSelect.appendChild(option);
+            });
+            
+            // Aggiorna anche i dettagli quando cambia la sottocategoria
+            updateDettProblema();
+        }
+        
+        // Aggiungi listener per sottocategoria
+        const sottocategoriaSelect = document.getElementById('sottocategoria-problema');
+        if (sottocategoriaSelect) {
+            sottocategoriaSelect.addEventListener('change', updateDettProblema);
+        }
+        
+        // Funzione per aggiornare DETT. PROBLEMA basato sulla sottocategoria
+        function updateDettProblema() {
+            const sottocategoriaValue = document.getElementById('sottocategoria-problema').value;
+            const dettProblemaSelect = document.getElementById('dett-problema');
+            
+            if (!dettProblemaSelect) return;
+            
+            dettProblemaSelect.innerHTML = '';
+            
+            const dettagli = {
+                'C-01': ['AGGRESSIONE/VIOLENZA SESSUALE/FERITA DA ARMA', 'ANNEGAMENTO/IMMERSIONE', 'ASSIDERAMENTO/CONGELAMENTO', 'CADUTA', 'FOLGORAZIONE/ELETTROCUZIONE', 'INCIDENTE DA MACCHINARIO', 'INCIDENTE STRADALE', 'MORSO/GRAFFIO/PUNTURA DI ANIMALE', 'TRAUMI SPECIFICI', 'USTIONI/ESPLOSIONI/INCENDIO', 'VALANGA'],
+                'C-02': ['ARRESTO CARDIACO', 'PERDITA DI COSCIENZA', 'DOLORE TORACICO/EPIGASTRICO', 'PROBLEMI CARDIACI', 'EMORRAGIA NON TRAUMATICA', 'ESAURIMENTO DA CALORE/COLPO DI CALORE/IPERTERMIA'],
+                'C-03': ['ANAFILASSI/REAZIONE ALLERGICA', 'PROBLEMI RESPIRATORI', 'SOFFOCAMENTO/OSTRUZIONE VIA AREE/IMPICCAMENTO'],
+                'C-04': ['CEFALEA', 'CONVULSIONI', 'ICTUS/PROBLEMI NEUROLOGICI', 'PERDITA DI COSCIENZA'],
+                'C-05': ['PROBLEMI PSICHIATRICI/ MINACCIA SUICIDIO'],
+                'C-06': ['MALESSERE GENERICO'],
+                'C-07': ['INTOSSICAZIONE/AVVELENAMENTO'],
+                'C-08': ['DIABETE'],
+                'C-09': ['DOLORE ADDOMINALE', 'EMORRAGIA NON TRAUMATICA'],
+                'C-10': ['EMORRAGIA NON TRAUMATICA', 'DOLORE'],
+                'C-11': ['EMORRAGIA NON TRAUMATICA', 'DOLORE', 'CORPO ESTRANEO'],
+                'C-12': ['EMORRAGIA NON TRAUMATICA', 'DOLORE', 'CORPO ESTRANEO'],
+                'C-13': ['ANAFILASSI/REAZIONE ALLERGICA'],
+                'C-14': ['EMORRAGIA NON TRAUMATICA', 'GRAVIDANZA/PARTO'],
+                'C-15': ['ESAURIMENTO DA CALORE/COLPO DI CALORE/IPERTERMIA'],
+                'C-19': ['ANAFILASSI/REAZIONE ALLERGICA', 'DOLORE ALLA SCHIENA NON TRAUMATICO', 'MALESSERE GENERICO', 'APERTURA PORTE', 'PROBLEMI SCONOSCIUTI', 'MAXI EMERGENZA'],
+                'C-20': ['APERTURA PORTE', 'PROBLEMI SCONOSCIUTI', 'MAXI EMERGENZA']
+            };
+            
+            const opzioni = dettagli[sottocategoriaValue] || [];
             opzioni.forEach(opt => {
                 const option = document.createElement('option');
                 option.value = opt;
                 option.textContent = opt;
-                dettPatologiaSelect.appendChild(option);
+                dettProblemaSelect.appendChild(option);
             });
         }
         
@@ -1660,8 +1664,8 @@ class EmergencyDispatchGame {
         }
         
         // Inizializza i menu dinamici
-        updateDettLuogo();
-        updateDettPatologia();
+        updateSottocategoriaProblema();
+        updateDettProblema();
         
         // Gestisci i nuovi campi
         const coscienzaSelect = document.getElementById('coscienza');
@@ -1669,14 +1673,19 @@ class EmergencyDispatchGame {
             coscienzaSelect.value = call.coscienza;
         }
         
-        const dettLuogoSelect = document.getElementById('dett-luogo');
-        if (dettLuogoSelect && call.dettLuogo) {
-            dettLuogoSelect.value = call.dettLuogo;
+        const problemaSelect2 = document.getElementById('problema');
+        if (problemaSelect2 && call.problema) {
+            problemaSelect2.value = call.problema;
         }
         
-        const dettPatologiaSelect = document.getElementById('dett-patologia');
-        if (dettPatologiaSelect && call.dettPatologia) {
-            dettPatologiaSelect.value = call.dettPatologia;
+        const sottocategoriaSelect2 = document.getElementById('sottocategoria-problema');
+        if (sottocategoriaSelect2 && call.sottocategoriaProblema) {
+            sottocategoriaSelect2.value = call.sottocategoriaProblema;
+        }
+        
+        const dettProblemaSelect2 = document.getElementById('dett-problema');
+        if (dettProblemaSelect2 && call.dettProblema) {
+            dettProblemaSelect2.value = call.dettProblema;
         }
         
         const noteEvento = document.getElementById('note-evento');
@@ -1803,17 +1812,17 @@ class EmergencyDispatchGame {
         }
         if (!call) return;
         const luogo = document.getElementById('luogo')?.value || '';
-        const dettLuogo = document.getElementById('dett-luogo')?.value || '';
-        const patologia = document.getElementById('patologia')?.value || '';
-        const dettPatologia = document.getElementById('dett-patologia')?.value || '';
+        const problema = document.getElementById('problema')?.value || '';
+        const sottocategoriaProblema = document.getElementById('sottocategoria-problema')?.value || '';
+        const dettProblema = document.getElementById('dett-problema')?.value || '';
         const codice = document.getElementById('codice')?.value || '';
         const coscienza = document.getElementById('coscienza')?.value || '';
         const noteEvento = document.getElementById('note-evento')?.value || '';
         
         call.luogo = luogo;
-        call.dettLuogo = dettLuogo;
-        call.patologia = patologia;
-        call.dettPatologia = dettPatologia;
+        call.problema = problema;
+        call.sottocategoriaProblema = sottocategoriaProblema;
+        call.dettProblema = dettProblema;
         call.codice = codice;
         call.coscienza = coscienza;
         call.noteEvento = noteEvento;
