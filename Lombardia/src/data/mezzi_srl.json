@@ -12,7 +12,7 @@
         "Nome Postazione": "Arcore Dist. VOLVIM",
         "Coordinate Postazione": "45.613961,9.323324",
         "Mezzo": "MSB",
-        "Nome radio": "VOLVIM_144.05B2",
+        "Nome radio": "VOLVIM_155.05B2",
         "Convenzione": "H12",
         "Orario di lavoro": "7:00-19:00",
         "Giorni": "LUN-DOM"
@@ -37,7 +37,7 @@
     },
     {
         "Nome Postazione": "AVPS Vimercate",
-        "Coordinate Postazione": "45.618771,9.376584",
+        "Coordinate Postazione": "",
         "Mezzo": "MSB",
         "Nome radio": "VOLVIM_245 ",
         "Convenzione": "GET",
@@ -255,7 +255,7 @@
         "Nome Postazione": "Croce Bianca Merate",
         "Coordinate Postazione": "45.6932192,9.4268477",
         "Mezzo": "MSB",
-        "Nome radio": "BIAMER_112.06A1",
+        "Nome radio": "BIAMER_124.06A1",
         "Convenzione": "H24",
         "Orario di lavoro": "00:00-00:00",
         "Giorni": "LUN-DOM"
@@ -604,7 +604,7 @@
     },
     {
         "Nome Postazione": "Croce Rossa Italiana - Monza",
-        "Coordinate Postazione": "45.5764677,9.2678848",
+        "Coordinate Postazione": "",
         "Mezzo": "MSB",
         "Nome radio": "CRI_MB_288.05B1",
         "Convenzione": "H24",
@@ -624,16 +624,16 @@
         "Nome Postazione": "Croce Rossa Italiana - Monza",
         "Coordinate Postazione": "45.5764677,9.2678848",
         "Mezzo": "MSB",
-        "Nome radio": "CRI_MB_196.05B2 ",
-        "Convenzione": "H12",
+        "Nome radio": "CRI_MB_496 ",
+        "Convenzione": "AGG",
         "Orario di lavoro": "7:00-19:00",
-        "Giorni": "LUN-SAB"
+        "Giorni": "LUN-VEN"
     },
     {
         "Nome Postazione": "Croce Rossa Italiana - Monza",
         "Coordinate Postazione": "45.5764677,9.2678848",
         "Mezzo": "MSB",
-        "Nome radio": "CRI_MB_A.BK ",
+        "Nome radio": "CRI_MB_487 ",
         "Convenzione": "AGG",
         "Orario di lavoro": "22:00-6:00",
         "Giorni": "LUN-DOM"
@@ -982,7 +982,7 @@
     },
     {
         "Nome Postazione": "Monza Dist. VOLVIM",
-        "Coordinate Postazione": "45.564316,9.27043",
+        "Coordinate Postazione": "",
         "Mezzo": "MSB",
         "Nome radio": "VOLVIM_151.05B1 ",
         "Convenzione": "H24",

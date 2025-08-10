@@ -234,9 +234,9 @@
     {
       "Nome Postazione": "Croce Verde - Padova",
       "Coordinate Postazione": "45.402469,11.891862",
-      "Mezzo": "MSA",
+      "Mezzo": "STEN",
       "Nome radio": "ALFA VICTOR 20",
-      "Convenzione": "STEN",
+      "Convenzione": "H24",
       "Orario di lavoro": "00:00-00:00",
       "Giorni": "LUN-DOM",
       "Unnamed: 7": "",
@@ -716,7 +716,7 @@
       "note": ""
     },
     {
-      "Nome Postazione": "Ptonto Conselve - Sede di Vò Euganeo",
+      "Nome Postazione": "Pronto Conselve - Sede di Vò Euganeo",
       "Coordinate Postazione": "45.32911,11.64096",
       "Mezzo": "MSI",
       "Nome radio": "ECHO VICTOR 01",
