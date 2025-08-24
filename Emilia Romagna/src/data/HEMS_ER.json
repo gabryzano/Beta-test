@@ -1,0 +1,40 @@
+{
+  "Sheet1": [
+    {
+      "Nome Postazione": "Elibase Parma",
+      "Coordinate Postazione": "44.8001436,10.308524",
+      "Mezzo": "ELI",
+      "Nome radio": "ELI PARMA ",
+      "Convenzione": "H12",
+      "Orario di lavoro": "7:30-20:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": "Elibase Pavullo",
+      "Coordinate Postazione": "44.318469,10.829048",
+      "Mezzo": "ELI",
+      "Nome radio": "ELI PAVULLO",
+      "Convenzione": "H12",
+      "Orario di lavoro": "7:30-20:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": "Elibase Bologna",
+      "Coordinate Postazione": "44.5065772,11.3124126",
+      "Mezzo": "ELI",
+      "Nome radio": "ELI BOLOGNA",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": "Elibase Ravenna",
+      "Coordinate Postazione": "44.4094178,12.1868343",
+      "Mezzo": "ELI",
+      "Nome radio": "ELI RAVENNA",
+      "Convenzione": "H12",
+      "Orario di lavoro": "7:30-20:00",
+      "Giorni": "LUN-DOM"
+    }
+  ]
+}
