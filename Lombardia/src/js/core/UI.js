@@ -1,9 +1,14 @@
 // Helper: map mission code to color
 function getColoreCodice(codice) {
     switch (codice) {
+        case 'ROSSO':
         case 'Rosso': return '#e53935';
-        case 'Giallo': return '#ffeb3b';
+        case 'GIALLO':
+        case 'Giallo': return '#ffb300';
+        case 'VERDE':
         case 'Verde': return '#4caf50';
+        case 'BIANCO':
+        case 'Bianco': return '#ffffff';
         default: return '#888';
     }
 }
