@@ -118,6 +118,55 @@
                 max-width: 1000px;
             }
         }
+        
+        /* Pulsanti supporto */
+        .supporto-container {
+            margin-top: 2rem;
+            padding-top: 1.5rem;
+            border-top: 1px solid rgba(26, 35, 126, 0.2);
+            display: flex;
+            gap: 1rem;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        .supporto-btn {
+            border: none;
+            padding: 12px 24px;
+            border-radius: 50px;
+            font-size: 0.95rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            text-decoration: none;
+            color: white;
+        }
+        .supporto-btn:hover {
+            transform: translateY(-2px);
+        }
+        .facebook-btn {
+            background: linear-gradient(135deg, #4267B2 0%, #365899 100%);
+            box-shadow: 0 4px 15px rgba(66, 103, 178, 0.3);
+        }
+        .facebook-btn:hover {
+            box-shadow: 0 6px 20px rgba(66, 103, 178, 0.4);
+            background: linear-gradient(135deg, #365899 0%, #2d4373 100%);
+        }
+        .discord-btn {
+            background: linear-gradient(135deg, #5865F2 0%, #4752C4 100%);
+            box-shadow: 0 4px 15px rgba(88, 101, 242, 0.3);
+        }
+        .discord-btn:hover {
+            box-shadow: 0 6px 20px rgba(88, 101, 242, 0.4);
+            background: linear-gradient(135deg, #4752C4 0%, #3C4299 100%);
+        }
+        .social-icon {
+            width: 18px;
+            height: 18px;
+            fill: currentColor;
+        }
     </style>
 </head>
 <body>
@@ -127,6 +176,7 @@
         <div class="regioni-container">
             <!-- Regioni disponibili -->
             <button class="regione-btn" onclick="location.href='Calabria/index.html'">Calabria</button>
+            <button class="regione-btn" onclick="location.href='Emilia Romagna/index.html'">Emilia Romagna</button>
             <button class="regione-btn" onclick="location.href='Lazio/index.html'">Lazio</button>
             <button class="regione-btn" onclick="location.href='Lombardia/index.html'">Lombardia</button>
             <button class="regione-btn" onclick="location.href='Puglia/index.html'">Puglia</button>
@@ -134,20 +184,35 @@
             <button class="regione-btn" onclick="location.href='Veneto/index.html'">Veneto</button>
             
             <!-- Regioni prossimamente -->
-            <button class="regione-btn regione-prossimamente" onclick="alert('Abruzzo sarà disponibile prossimamente!')">Abruzzo</button>
-            <button class="regione-btn regione-prossimamente" onclick="alert('Basilicata sarà disponibile prossimamente!')">Basilicata</button>
-            <button class="regione-btn regione-prossimamente" onclick="alert('Campania sarà disponibile prossimamente!')">Campania</button>
-            <button class="regione-btn regione-prossimamente" onclick="alert('Emilia Romagna è in fase di costruzione, sarà disponibile prossimamente!')">Emilia Romagna</button>
-            <button class="regione-btn regione-prossimamente" onclick="alert('Friuli Venezia Giulia sarà disponibile prossimamente!')">Friuli Venezia Giulia</button>
-            <button class="regione-btn regione-prossimamente" onclick="alert('Liguria sarà disponibile prossimamente!')">Liguria</button>
-            <button class="regione-btn regione-prossimamente" onclick="alert('Marche sarà disponibile prossimamente!')">Marche</button>
-            <button class="regione-btn regione-prossimamente" onclick="alert('Molise sarà disponibile prossimamente!')">Molise</button>
-            <button class="regione-btn regione-prossimamente" onclick="alert('Piemonte sarà disponibile prossimamente!')">Piemonte</button>
-            <button class="regione-btn regione-prossimamente" onclick="alert('Sicilia sarà disponibile prossimamente!')">Sicilia</button>
-            <button class="regione-btn regione-prossimamente" onclick="alert('Toscana è in fase di costruzione, sarà disponibile prossimamente!')">Toscana</button>
-            <button class="regione-btn regione-prossimamente" onclick="alert('Trentino Alto Adige è in fase di costruzione, sarà disponibile prossimamente!')">Trentino Alto Adige</button>
-            <button class="regione-btn regione-prossimamente" onclick="alert('Umbria sarà disponibile prossimamente!')">Umbria</button>
-            <button class="regione-btn regione-prossimamente" onclick="alert('Valle d\'Aosta sarà disponibile prossimamente!')">Valle d'Aosta</button>
+            <button class="regione-btn regione-prossimamente" onclick="alert('In fase di costruzione, tempistiche non note al momento')">Abruzzo</button>
+            <button class="regione-btn regione-prossimamente" onclick="alert('Al momento non disponibile, per info contattateci')">Basilicata</button>
+            <button class="regione-btn regione-prossimamente" onclick="alert('Al momento non disponibile, per info contattateci')">Campania</button>
+            <button class="regione-btn regione-prossimamente" onclick="alert('In fase di costruzione, sarà disponibile a breve!')">Friuli Venezia Giulia</button>
+            <button class="regione-btn regione-prossimamente" onclick="alert('In fase di costruzione, sarà disponibile a breve!')">Liguria</button>
+            <button class="regione-btn regione-prossimamente" onclick="alert('Al momento non disponibile, per info contattateci')">Marche</button>
+            <button class="regione-btn regione-prossimamente" onclick="alert('Al momento non disponibile, per info contattateci')">Molise</button>
+            <button class="regione-btn regione-prossimamente" onclick="alert('Al momento non disponibile, per info contattateci')">Piemonte</button>
+            <button class="regione-btn regione-prossimamente" onclick="alert('Al momento non disponibile, per info contattateci')">Sicilia</button>
+            <button class="regione-btn regione-prossimamente" onclick="alert('In fase di costruzione, tempistiche non note al momento')">Toscana</button>
+            <button class="regione-btn regione-prossimamente" onclick="alert('In fase di costruzione, tempistiche non note al momento')">Trentino Alto Adige</button>
+            <button class="regione-btn regione-prossimamente" onclick="alert('Al momento non disponibile, per info contattateci')">Umbria</button>
+            <button class="regione-btn regione-prossimamente" onclick="alert('Al momento non disponibile, per info contattateci')">Valle d'Aosta</button>
+        </div>
+        
+        <!-- Sezione supporto -->
+        <div class="supporto-container">
+            <a href="https://www.facebook.com/people/Operatore-118/61576502672516/?locale=it_IT" target="_blank" class="supporto-btn facebook-btn">
+                <svg class="social-icon" viewBox="0 0 24 24">
+                    <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
+                </svg>
+                Facebook
+            </a>
+            <a href="https://discord.gg/eCzj6wGxvD" target="_blank" class="supporto-btn discord-btn">
+                <svg class="social-icon" viewBox="0 0 24 24">
+                    <path d="M20.317 4.37a19.791 19.791 0 0 0-4.885-1.515.074.074 0 0 0-.079.037c-.21.375-.444.864-.608 1.25a18.27 18.27 0 0 0-5.487 0 12.64 12.64 0 0 0-.617-1.25.077.077 0 0 0-.079-.037A19.736 19.736 0 0 0 3.677 4.37a.07.07 0 0 0-.032.027C.533 9.046-.32 13.58.099 18.057a.082.082 0 0 0 .031.057 19.9 19.9 0 0 0 5.993 3.03.078.078 0 0 0 .084-.028 14.09 14.09 0 0 0 1.226-1.994.076.076 0 0 0-.041-.106 13.107 13.107 0 0 1-1.872-.892.077.077 0 0 1-.008-.128 10.2 10.2 0 0 0 .372-.292.074.074 0 0 1 .077-.01c3.928 1.793 8.18 1.793 12.062 0a.074.074 0 0 1 .078.01c.12.098.246.198.373.292a.077.077 0 0 1-.006.127 12.299 12.299 0 0 1-1.873.892.077.077 0 0 0-.041.107c.36.698.772 1.362 1.225 1.993a.076.076 0 0 0 .084.028 19.839 19.839 0 0 0 6.002-3.03.077.077 0 0 0 .032-.054c.5-5.177-.838-9.674-3.549-13.66a.061.061 0 0 0-.031-.03zM8.02 15.33c-1.183 0-2.157-1.085-2.157-2.419 0-1.333.956-2.419 2.157-2.419 1.21 0 2.176 1.096 2.157 2.42 0 1.333-.956 2.418-2.157 2.418zm7.975 0c-1.183 0-2.157-1.085-2.157-2.419 0-1.333.955-2.419 2.157-2.419 1.21 0 2.176 1.096 2.157 2.42 0 1.333-.946 2.418-2.157 2.418z"/>
+                </svg>
+                 Discord
+            </a>
         </div>
     </div>
 </body>
