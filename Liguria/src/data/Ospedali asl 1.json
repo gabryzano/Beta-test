@@ -1,0 +1,44 @@
+[
+ {
+  "OSPEDALE": "H IMPERIA",
+  "COORDINATE": "43.8915573,8.0302904",
+  "N° pazienti Max": 40,
+  "CLASSE": "PS",
+  "PUNTO NASCITA": true,
+  "PEDIATRIA": true,
+  "TRAUMA": "OTT",
+  "EMODINAMICA": true,
+  "STROKE UNIT": true,
+  "NCH": false,
+  "RIANIMAZIONE": true,
+  "PSICHIATRIA": true
+ },
+ {
+  "OSPEDALE": "H SANREMO",
+  "COORDINATE": "43.8231393,7.7796591",
+  "N° pazienti Max": 45,
+  "CLASSE": "DEA",
+  "PUNTO NASCITA": true,
+  "PEDIATRIA": true,
+  "TRAUMA": "PST",
+  "EMODINAMICA": true,
+  "STROKE UNIT": false,
+  "NCH": false,
+  "RIANIMAZIONE": true,
+  "PSICHIATRIA": false
+ },
+ {
+  "OSPEDALE": "H BORDIGHERA",
+  "COORDINATE": "43.7847687,7.6483094",
+  "N° pazienti Max": 20,
+  "CLASSE": "PS",
+  "PUNTO NASCITA": false,
+  "PEDIATRIA": false,
+  "TRAUMA": false,
+  "EMODINAMICA": false,
+  "STROKE UNIT": false,
+  "NCH": false,
+  "RIANIMAZIONE": false,
+  "PSICHIATRIA": false
+ }
+]

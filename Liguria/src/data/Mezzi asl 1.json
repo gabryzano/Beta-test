@@ -1,0 +1,310 @@
+{
+  "Sheet1": [
+    {
+      "Nome Postazione": "Croce Azzurra Vallecrosia",
+      "Coordinate Postazione": "43.787656,7.635393",
+      "Mezzo": "MSB",
+      "Nome radio": "1-836 ",
+      "Convenzione": "H12",
+      "Orario di lavoro": "8:00-20:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": "Croce Azzurra Vallecrosia",
+      "Coordinate Postazione": "43.787656,7.635393",
+      "Mezzo": "MSB",
+      "Nome radio": "1-839",
+      "Convenzione": "H12",
+      "Orario di lavoro": "20:00-8:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": "Croce Azzurra Vallecrosia - Dist. Val Nervia",
+      "Coordinate Postazione": "43.799808,7.628531",
+      "Mezzo": "MSB",
+      "Nome radio": "1-835",
+      "Convenzione": "H12",
+      "Orario di lavoro": "8:00-20:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": "Croce Azzurra Vallecrosia - Dist. Val Nervia",
+      "Coordinate Postazione": "43.799808,7.628531",
+      "Mezzo": "MSB",
+      "Nome radio": "1-847",
+      "Convenzione": "H12",
+      "Orario di lavoro": "20:00-8:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": "Croce Bianca Imperia",
+      "Coordinate Postazione": "43.879748,8.0159",
+      "Mezzo": "MSB",
+      "Nome radio": "1-315",
+      "Convenzione": "H12",
+      "Orario di lavoro": "8:00-20:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": "Croce Bianca Imperia",
+      "Coordinate Postazione": "43.879748,8.0159",
+      "Mezzo": "MSB",
+      "Nome radio": "1-319",
+      "Convenzione": "H12",
+      "Orario di lavoro": "20:00-8:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": "Croce Bianca Imperia",
+      "Coordinate Postazione": "43.879748,8.0159",
+      "Mezzo": "MSA2",
+      "Nome radio": "ALFA 1",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": "Croce Bianca Pornassio",
+      "Coordinate Postazione": "44.085156,7.87388",
+      "Mezzo": "MSB",
+      "Nome radio": "1-411 ",
+      "Convenzione": "H12",
+      "Orario di lavoro": "20:00-8:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": "Croce D Oro Cervo",
+      "Coordinate Postazione": "43.92417,8.112289",
+      "Mezzo": "MSB",
+      "Nome radio": "1-133",
+      "Convenzione": "H12",
+      "Orario di lavoro": "20:00-8:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": "Croce D Oro Cervo",
+      "Coordinate Postazione": "43.92417,8.112289",
+      "Mezzo": "MSB",
+      "Nome radio": "1-141",
+      "Convenzione": "H12",
+      "Orario di lavoro": "8:00-20:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": "Croce D Oro Imperia",
+      "Coordinate Postazione": "43.888678,8.04559",
+      "Mezzo": "MSB",
+      "Nome radio": "1-131",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": "Croce Rossa Italiana - Bordighera",
+      "Coordinate Postazione": "43.783349,7.647512",
+      "Mezzo": "MSB",
+      "Nome radio": "1-066",
+      "Convenzione": "H12",
+      "Orario di lavoro": "20:00-8:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": "Croce Rossa Italiana - Bordighera",
+      "Coordinate Postazione": "43.783349,7.647512",
+      "Mezzo": "MSB",
+      "Nome radio": "1-072",
+      "Convenzione": "H12",
+      "Orario di lavoro": "8:00-20:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": "Croce Rossa Italiana - Diano Marina",
+      "Coordinate Postazione": "43.9056,8.078923",
+      "Mezzo": "MSB",
+      "Nome radio": "1-164",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": "Croce Rossa Italiana - Imperia",
+      "Coordinate Postazione": "43.887819,8.031094",
+      "Mezzo": "MSB",
+      "Nome radio": "1-190",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": "Croce Rossa Italiana - Pieve di Teco",
+      "Coordinate Postazione": "44.045268,7.918865",
+      "Mezzo": "MSB",
+      "Nome radio": "1-374",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": "Croce Rossa Italiana - Pontedassio",
+      "Coordinate Postazione": "43.940842,8.015912",
+      "Mezzo": "MSB",
+      "Nome radio": "1-171 ",
+      "Convenzione": "H12",
+      "Orario di lavoro": "8:00-20:00",
+      "Giorni": "SAB-DOM"
+    },
+    {
+      "Nome Postazione": "Croce Rossa Italiana - Sanremo",
+      "Coordinate Postazione": "43.822121,7.784729",
+      "Mezzo": "MSB",
+      "Nome radio": "1-467",
+      "Convenzione": "H12",
+      "Orario di lavoro": "20:00-8:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": "Croce Rossa Italiana - Sanremo",
+      "Coordinate Postazione": "43.822121,7.784729",
+      "Mezzo": "MSB",
+      "Nome radio": "1-481",
+      "Convenzione": "H12",
+      "Orario di lavoro": "8:00-20:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": "Croce Rossa Italiana - S. Stefano al Mare",
+      "Coordinate Postazione": "43.838959,7.894321",
+      "Mezzo": "MSB",
+      "Nome radio": "1-472",
+      "Convenzione": "H12",
+      "Orario di lavoro": "8:00-20:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": "Croce Rossa Italiana - Ventimiglia",
+      "Coordinate Postazione": "43.78851,7.616372",
+      "Mezzo": "MSB",
+      "Nome radio": "1-690 ",
+      "Convenzione": "H12",
+      "Orario di lavoro": "20:00-8:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": "Croce Rossa Italiana - Ventimiglia",
+      "Coordinate Postazione": "43.78851,7.616372",
+      "Mezzo": "MSB",
+      "Nome radio": "1-690 ",
+      "Convenzione": "H24",
+      "Orario di lavoro": "8:00-20:00",
+      "Giorni": "SAB-DOM"
+    },
+    {
+      "Nome Postazione": "Croce Verde - Arma Taggia",
+      "Coordinate Postazione": "43.835533,7.853271",
+      "Mezzo": "MSB",
+      "Nome radio": "1-004",
+      "Convenzione": "H12",
+      "Orario di lavoro": "20:00-8:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": "Croce Verde - Arma Taggia",
+      "Coordinate Postazione": "43.835533,7.853271",
+      "Mezzo": "MSB",
+      "Nome radio": "1-006",
+      "Convenzione": "H12",
+      "Orario di lavoro": "8:00-20:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": "Croce Verde - Arma Taggia Dist. Sanremo",
+      "Coordinate Postazione": "43.835533,7.853271",
+      "Mezzo": "MSB",
+      "Nome radio": "1-002 ",
+      "Convenzione": "H12",
+      "Orario di lavoro": "20:00-8:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": "Croce Verde - Arma Taggia Dist. Sanremo",
+      "Coordinate Postazione": "43.835533,7.853271",
+      "Mezzo": "MSB",
+      "Nome radio": "1-008",
+      "Convenzione": "H12",
+      "Orario di lavoro": "8:00-20:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": "Croce Verde - Arma Taggia Dist. Sanremo",
+      "Coordinate Postazione": "43.835533,7.853271",
+      "Mezzo": "MSA2",
+      "Nome radio": "ALFA 2",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": "Croce Verde - Arma Taggia Dist. Valle Argentina",
+      "Coordinate Postazione": "43.9900174,7.7742405",
+      "Mezzo": "MSB",
+      "Nome radio": "1-011 ",
+      "Convenzione": "H12",
+      "Orario di lavoro": "7:30-19:30",
+      "Giorni": "VEN-DOM"
+    },
+    {
+      "Nome Postazione": "Croce Verde - Intemelia",
+      "Coordinate Postazione": "43.792532,7.608295",
+      "Mezzo": "MSB",
+      "Nome radio": "1-787 ",
+      "Convenzione": "H12",
+      "Orario di lavoro": "8:00-20:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": "Croce Verde - Intemelia",
+      "Coordinate Postazione": "43.792532,7.608295",
+      "Mezzo": "MSB",
+      "Nome radio": "1-793",
+      "Convenzione": "H12",
+      "Orario di lavoro": "20:00-8:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": "Croce Verde - Intemelia",
+      "Coordinate Postazione": "43.792532,7.608295",
+      "Mezzo": "MSA2",
+      "Nome radio": "ALFA 3",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": "Ospedaletti Emergenza",
+      "Coordinate Postazione": "43.800881,7.721505",
+      "Mezzo": "MSB",
+      "Nome radio": "1-027 ",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": "Ponente Emergenza",
+      "Coordinate Postazione": "43.800064,7.700775",
+      "Mezzo": "MSB",
+      "Nome radio": "1-551",
+      "Convenzione": "H12",
+      "Orario di lavoro": "7:30-19:30",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": "Volontari del Soccorso Sanremo",
+      "Coordinate Postazione": "43.824212,7.781959",
+      "Mezzo": "MSB",
+      "Nome radio": "1-635 ",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    }
+  ]
+}

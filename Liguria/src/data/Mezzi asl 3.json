@@ -1,0 +1,931 @@
+{
+  "Sheet1": [
+    {
+      "Nome Postazione": "Elisoccorso Genova",
+      "Coordinate Postazione": "44.414171,8.8444458",
+      "Mezzo": "ELI",
+      "Nome radio": "DRAGO 145",
+      "Convenzione": "H12",
+      "Orario di lavoro": "8:00-20:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": "Elisoccorso Genova",
+      "Coordinate Postazione": "44.414171,8.8444458",
+      "Mezzo": "ELI",
+      "Nome radio": "GRIFO 1",
+      "Convenzione": "H24",
+      "Orario di lavoro": "20:00-8:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": "Croce Azzurra Bavari",
+      "Coordinate Postazione": "44.432964,9.018687",
+      "Mezzo": "MSB",
+      "Nome radio": "BAV 3-022 ",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": "Croce Azzurra Borzoli",
+      "Coordinate Postazione": "44.437455,8.875819",
+      "Mezzo": "MSB",
+      "Nome radio": "BOR 3-058",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": "Croce Azzurra Fegino",
+      "Coordinate Postazione": "44.451967,8.890934",
+      "Mezzo": "MSB",
+      "Nome radio": "FEG 3-158 ",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": "Croce Bianca Bolzaneto",
+      "Coordinate Postazione": "44.458907,8.902317",
+      "Mezzo": "MSB",
+      "Nome radio": "BOL 3-042",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": "Croce Bianca Cornigliano",
+      "Coordinate Postazione": "44.415999,8.871962",
+      "Mezzo": "MSB",
+      "Nome radio": "COR 3-141",
+      "Convenzione": "H12",
+      "Orario di lavoro": "7:00-19:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": "Croce Bianca Genova",
+      "Coordinate Postazione": "44.399109,8.952928",
+      "Mezzo": "MSB",
+      "Nome radio": "BIA 3-270",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": "Croce Bianca Genova",
+      "Coordinate Postazione": "44.399109,8.952928",
+      "Mezzo": "MSB",
+      "Nome radio": "BIA 3-280",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": "Croce Bianca Genovese Sez Carignano",
+      "Coordinate Postazione": "44.403194,8.9380015",
+      "Mezzo": "MSB",
+      "Nome radio": "CAR 3-278",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": "Croce Bianca Mignanego",
+      "Coordinate Postazione": "44.540499,8.932791",
+      "Mezzo": "MSB",
+      "Nome radio": "MIG 3-642",
+      "Convenzione": "H12",
+      "Orario di lavoro": "20:00-8:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": "Croce Bianca Mignanego",
+      "Coordinate Postazione": "44.540499,8.932791",
+      "Mezzo": "MSB",
+      "Nome radio": "MIG 3-642",
+      "Convenzione": "H12",
+      "Orario di lavoro": "8:00-20:00",
+      "Giorni": "SAB-DOM"
+    },
+    {
+      "Nome Postazione": "Croce Bianca San Desiderio",
+      "Coordinate Postazione": "44.418934,9.003056",
+      "Mezzo": "MSB",
+      "Nome radio": "DES 3-444",
+      "Convenzione": "H5",
+      "Orario di lavoro": "19:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": "Croce Bianca San Desiderio",
+      "Coordinate Postazione": "44.418934,9.003056",
+      "Mezzo": "MSB",
+      "Nome radio": "DES 3-444",
+      "Convenzione": "H12",
+      "Orario di lavoro": "00:00-7:00",
+      "Giorni": "SAB-DOM"
+    },
+    {
+      "Nome Postazione": "Croce Bianca Tiglieto",
+      "Coordinate Postazione": "44.5256706,8.6190744",
+      "Mezzo": "MSB",
+      "Nome radio": "TIG 3-811 ",
+      "Convenzione": "H5",
+      "Orario di lavoro": "19:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": "Croce Bianca Tiglieto",
+      "Coordinate Postazione": "44.5256706,8.6190744",
+      "Mezzo": "MSB",
+      "Nome radio": "TIG 3-811 ",
+      "Convenzione": "H12",
+      "Orario di lavoro": "00:00-7:00",
+      "Giorni": "SAB-DOM"
+    },
+    {
+      "Nome Postazione": "Croce Bianca Valsecca Serra Riccò",
+      "Coordinate Postazione": "44.498261,8.922298",
+      "Mezzo": "MSB",
+      "Nome radio": "VAL 3-779",
+      "Convenzione": "H12",
+      "Orario di lavoro": "19:00-7:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": "Croce Bianca Valsecca Serra Riccò",
+      "Coordinate Postazione": "44.498261,8.922298",
+      "Mezzo": "MSB",
+      "Nome radio": "VAL 3-779",
+      "Convenzione": "H24",
+      "Orario di lavoro": "7:00-19:00",
+      "Giorni": "SAB-DOM"
+    },
+    {
+      "Nome Postazione": "Croce Blu Castelletto",
+      "Coordinate Postazione": "44.414295,8.940762",
+      "Mezzo": "MSB",
+      "Nome radio": "BLU 3-132",
+      "Convenzione": "H12",
+      "Orario di lavoro": "19:00-7:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": "Croce Blu Castelletto",
+      "Coordinate Postazione": "44.414295,8.940762",
+      "Mezzo": "MSB",
+      "Nome radio": "BLU 3-132",
+      "Convenzione": "H24",
+      "Orario di lavoro": "7:00-19:00",
+      "Giorni": "SAB-DOM"
+    },
+    {
+      "Nome Postazione": "Croce Blu Castelletto sez- Oregina",
+      "Coordinate Postazione": "44.4155131,8.9301481",
+      "Mezzo": "MSB",
+      "Nome radio": "ORG 3-135 ",
+      "Convenzione": "H12",
+      "Orario di lavoro": "7:00-19:00",
+      "Giorni": "SAB-DOM"
+    },
+    {
+      "Nome Postazione": "Croce Celeste Genovese",
+      "Coordinate Postazione": "44.409852,8.907395",
+      "Mezzo": "MSB",
+      "Nome radio": "CEL 3-874",
+      "Convenzione": "H12",
+      "Orario di lavoro": "7:00-19:00",
+      "Giorni": "LUN-VEN"
+    },
+    {
+      "Nome Postazione": "Croce D Oro Manesseno",
+      "Coordinate Postazione": "44.476939,8.919702",
+      "Mezzo": "MSB",
+      "Nome radio": "MANESS 3-612",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": "Croce D Oro Sampierdarena",
+      "Coordinate Postazione": "44.411231,8.890874",
+      "Mezzo": "MSB",
+      "Nome radio": "ORO 3-218",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": "Croce D Oro Sampierdarena",
+      "Coordinate Postazione": "44.411231,8.890874",
+      "Mezzo": "MSB",
+      "Nome radio": "ORO 3-755",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": "Postazione Automedica San Martino",
+      "Coordinate Postazione": "44.407997,8.970658",
+      "Mezzo": "MSA2",
+      "Nome radio": "GOLF 1 ",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": "Croce D Oro Sciarborasca",
+      "Coordinate Postazione": "44.398548,8.615532",
+      "Mezzo": "MSB",
+      "Nome radio": "SCI 3-762 ",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": "Croce d’Oro Sciarborasca Sez. Lerca",
+      "Coordinate Postazione": "44.3998134,8.6578109",
+      "Mezzo": "MSB",
+      "Nome radio": "LERCA 3-764 ",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": "Croce Gialla Genova",
+      "Coordinate Postazione": "44.406129,8.975299",
+      "Mezzo": "MSB",
+      "Nome radio": "GIALLA 3-546",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": "Croce Rosa Rivarolese",
+      "Coordinate Postazione": "44.437584,8.892989",
+      "Mezzo": "MSB",
+      "Nome radio": "RIV 3-685",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": "Croce Rossa Italiana - Arenzano",
+      "Coordinate Postazione": "44.402024,8.68456",
+      "Mezzo": "MSB",
+      "Nome radio": "CRAREN 6098",
+      "Convenzione": "H5",
+      "Orario di lavoro": "19:00-00:00",
+      "Giorni": "LUN-VEN"
+    },
+    {
+      "Nome Postazione": "Croce Rossa Italiana - Arenzano",
+      "Coordinate Postazione": "44.402024,8.68456",
+      "Mezzo": "MSB",
+      "Nome radio": "CRAREN 6098",
+      "Convenzione": "H10",
+      "Orario di lavoro": "10:00-22:00",
+      "Giorni": "SAB-DOM"
+    },
+    {
+      "Nome Postazione": "Croce Rossa Italiana - Bargagli",
+      "Coordinate Postazione": "44.450306,9.086757",
+      "Mezzo": "MSB",
+      "Nome radio": "CRBARG 6086 ",
+      "Convenzione": "H14",
+      "Orario di lavoro": "18:00-8:00",
+      "Giorni": "LUN-VEN"
+    },
+    {
+      "Nome Postazione": "Croce Rossa Italiana - Bargagli",
+      "Coordinate Postazione": "44.450306,9.086757",
+      "Mezzo": "MSB",
+      "Nome radio": "CRBARG 6086 ",
+      "Convenzione": "H24",
+      "Orario di lavoro": "8:00-18:00",
+      "Giorni": "SAB-DOM"
+    },
+    {
+      "Nome Postazione": "Croce Rossa Italiana - Campo Ligure",
+      "Coordinate Postazione": "44.54024,8.696671",
+      "Mezzo": "MSB",
+      "Nome radio": "CRCLIG 6251",
+      "Convenzione": "H14",
+      "Orario di lavoro": "18:00-8:00",
+      "Giorni": "LUN-VEN"
+    },
+    {
+      "Nome Postazione": "Croce Rossa Italiana - Campo Ligure",
+      "Coordinate Postazione": "44.54024,8.696671",
+      "Mezzo": "MSB",
+      "Nome radio": "CRCLIG 6251",
+      "Convenzione": "H24",
+      "Orario di lavoro": "8:00-18:00",
+      "Giorni": "SAB-DOM"
+    },
+    {
+      "Nome Postazione": "Croce Rossa Italiana - Campomorone",
+      "Coordinate Postazione": "44.507564,8.891693",
+      "Mezzo": "MSB",
+      "Nome radio": "CRCMOR 6161",
+      "Convenzione": "H6",
+      "Orario di lavoro": "8:00-14:00",
+      "Giorni": "LUN-VEN"
+    },
+    {
+      "Nome Postazione": "Croce Rossa Italiana - Campomorone",
+      "Coordinate Postazione": "44.507564,8.891693",
+      "Mezzo": "MSB",
+      "Nome radio": "CRCMOR 6161",
+      "Convenzione": "H4",
+      "Orario di lavoro": "20:00-00:00",
+      "Giorni": "LUN-VEN"
+    },
+    {
+      "Nome Postazione": "Croce Rossa Italiana - Ceranesi",
+      "Coordinate Postazione": "44.510213,8.868563",
+      "Mezzo": "MSB",
+      "Nome radio": "CRCERA 612",
+      "Convenzione": "H6",
+      "Orario di lavoro": "18:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": "Croce Rossa Italiana - Ceranesi",
+      "Coordinate Postazione": "44.510213,8.868563",
+      "Mezzo": "MSB",
+      "Nome radio": "CRCERA 612",
+      "Convenzione": "H10",
+      "Orario di lavoro": "9:00-18:00",
+      "Giorni": "SAB-DOM"
+    },
+    {
+      "Nome Postazione": "Croce Rossa Italiana - Cogoleto",
+      "Coordinate Postazione": "44.390005,8.645242",
+      "Mezzo": "MSB",
+      "Nome radio": "CRCOGO 6214 ",
+      "Convenzione": "H8",
+      "Orario di lavoro": "10:00-18:00",
+      "Giorni": "SAB-DOM"
+    },
+    {
+      "Nome Postazione": "Croce Rossa Italiana - Cogoleto",
+      "Coordinate Postazione": "44.390005,8.645242",
+      "Mezzo": "MSB",
+      "Nome radio": "CRCOGO 6214 ",
+      "Convenzione": "H6",
+      "Orario di lavoro": "10:00-16:00",
+      "Giorni": "LUN-VEN"
+    },
+    {
+      "Nome Postazione": "Croce Rossa Italiana - Davagna",
+      "Coordinate Postazione": "44.460872,9.07711",
+      "Mezzo": "MSB",
+      "Nome radio": "CRDAVA 6072",
+      "Convenzione": "H14",
+      "Orario di lavoro": "18:00-8:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": "Croce Rossa Italiana - Davagna",
+      "Coordinate Postazione": "44.460872,9.07711",
+      "Mezzo": "MSB",
+      "Nome radio": "CRDAVA 6072",
+      "Convenzione": "H24",
+      "Orario di lavoro": "8:00-18:00",
+      "Giorni": "SAB-DOM"
+    },
+    {
+      "Nome Postazione": "Croce Rossa Italiana - Genova",
+      "Coordinate Postazione": "44.40453,8.960769",
+      "Mezzo": "MSB",
+      "Nome radio": "CRGENO 6010",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": "Croce Rossa italiana - Genova Apparizione",
+      "Coordinate Postazione": "44.404671,8.995787",
+      "Mezzo": "MSB",
+      "Nome radio": "CRAPPARIZIONE 6045",
+      "Convenzione": "H12",
+      "Orario di lavoro": "19:00-7:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": "Croce Rossa Italiana - Genova Ponente",
+      "Coordinate Postazione": "44.4287023,8.7483613",
+      "Mezzo": "MSB",
+      "Nome radio": "CRVTR 6053",
+      "Convenzione": "H14",
+      "Orario di lavoro": "7:00-21:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": "Croce Rossa Italiana - Genova Sturla",
+      "Coordinate Postazione": "44.401215,8.982166",
+      "Mezzo": "MSB",
+      "Nome radio": "CRSTUR 6027",
+      "Convenzione": "H14",
+      "Orario di lavoro": "18:00-8:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": "Croce Rossa Italiana - Genova Sturla",
+      "Coordinate Postazione": "44.401215,8.982166",
+      "Mezzo": "MSB",
+      "Nome radio": "CRSTUR 6027",
+      "Convenzione": "H24",
+      "Orario di lavoro": "8:00-18:00",
+      "Giorni": "SAB-DOM"
+    },
+    {
+      "Nome Postazione": "Croce Rossa Italiana - Isola Del Cantone",
+      "Coordinate Postazione": "44.6464205,8.9561022",
+      "Mezzo": "MSB",
+      "Nome radio": "CRISOL 6136",
+      "Convenzione": "H14",
+      "Orario di lavoro": "18:00-8:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": "Croce Rossa Italiana - Isola Del Cantone",
+      "Coordinate Postazione": "44.6464205,8.9561022",
+      "Mezzo": "MSB",
+      "Nome radio": "CRISOL 6136",
+      "Convenzione": "H24",
+      "Orario di lavoro": "8:00-18:00",
+      "Giorni": "SAB-DOM"
+    },
+    {
+      "Nome Postazione": "Croce Rossa Italiana - Masone",
+      "Coordinate Postazione": "44.50734,8.712344",
+      "Mezzo": "MSB",
+      "Nome radio": "CRMASO 6279",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": "Croce Rossa Italiana - Montebruno",
+      "Coordinate Postazione": "44.526227,9.249321",
+      "Mezzo": "MSB",
+      "Nome radio": "CRMTBR 6183",
+      "Convenzione": "H12",
+      "Orario di lavoro": "18:00-6:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": "Croce Rossa Italiana - Montebruno",
+      "Coordinate Postazione": "44.526227,9.249321",
+      "Mezzo": "MSB",
+      "Nome radio": "CRMTBR 6183",
+      "Convenzione": "H24",
+      "Orario di lavoro": "6:00-18:00",
+      "Giorni": "SAB-DOM"
+    },
+    {
+      "Nome Postazione": "Croce Rossa Italiana - Montoggio",
+      "Coordinate Postazione": "44.514416,9.04678",
+      "Mezzo": "MSB",
+      "Nome radio": "CRMONT 6196 ",
+      "Convenzione": "H4",
+      "Orario di lavoro": "20:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": "Croce Rossa Italiana - Montoggio",
+      "Coordinate Postazione": "44.514416,9.04678",
+      "Mezzo": "MSB",
+      "Nome radio": "CRMONT 6196 ",
+      "Convenzione": "H10",
+      "Orario di lavoro": "10:00-20:00",
+      "Giorni": "SAB-DOM"
+    },
+    {
+      "Nome Postazione": "Croce Rossa Italiana - Ronco Scrivia",
+      "Coordinate Postazione": "44.606645,8.956309",
+      "Mezzo": "MSB",
+      "Nome radio": "CRRONC 6142 ",
+      "Convenzione": "H4",
+      "Orario di lavoro": "20:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": "Croce Rossa Italiana - Ronco Scrivia",
+      "Coordinate Postazione": "44.606645,8.956309",
+      "Mezzo": "MSB",
+      "Nome radio": "CRRONC 6142 ",
+      "Convenzione": "H10",
+      "Orario di lavoro": "10:00-20:00",
+      "Giorni": "SAB-DOM"
+    },
+    {
+      "Nome Postazione": "Croce Rossa Italiana - Rossiglione",
+      "Coordinate Postazione": "44.564375,8.669076",
+      "Mezzo": "MSB",
+      "Nome radio": "CRROSS 6262",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": "Croce Rossa Italiana - Sant’ Olcese",
+      "Coordinate Postazione": "44.485377,8.979487",
+      "Mezzo": "MSB",
+      "Nome radio": "CROLCE 6152",
+      "Convenzione": "H4",
+      "Orario di lavoro": "20:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": "Croce Rossa Italiana - Sant’ Olcese",
+      "Coordinate Postazione": "44.485377,8.979487",
+      "Mezzo": "MSB",
+      "Nome radio": "CROLCE 6152",
+      "Convenzione": "H10",
+      "Orario di lavoro": "10:00-20:00",
+      "Giorni": "SAB-DOM"
+    },
+    {
+      "Nome Postazione": "Croce Rossa Italiana - Sori",
+      "Coordinate Postazione": "44.37287,9.104348",
+      "Mezzo": "MSB",
+      "Nome radio": "CRSORI 6454 ",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": "Croce Rossa Italiana - Torriglia",
+      "Coordinate Postazione": "44.51947,9.159649",
+      "Mezzo": "MSB",
+      "Nome radio": "CRTORR 6184",
+      "Convenzione": "H12",
+      "Orario di lavoro": "18:00-6:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": "Croce Rossa Italiana - Torriglia",
+      "Coordinate Postazione": "44.51947,9.159649",
+      "Mezzo": "MSB",
+      "Nome radio": "CRTORR 6184",
+      "Convenzione": "H24",
+      "Orario di lavoro": "6:00-18:00",
+      "Giorni": "SAB-DOM"
+    },
+    {
+      "Nome Postazione": "Croce Rossa Italiana - Uscio",
+      "Coordinate Postazione": "44.416175,9.157269",
+      "Mezzo": "MSB",
+      "Nome radio": "CRUSCIO 6391",
+      "Convenzione": "H12",
+      "Orario di lavoro": "7:00-19:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": "Croce Verde Bogliasco",
+      "Coordinate Postazione": "44.378522,9.067629",
+      "Mezzo": "MSB",
+      "Nome radio": "BGL 3-031 ",
+      "Convenzione": "H16",
+      "Orario di lavoro": "6:00-22:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": "Croce Verde Busallese",
+      "Coordinate Postazione": "44.569316,8.948631",
+      "Mezzo": "MSB",
+      "Nome radio": "BUS 3-073",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": "Croce Verde Camogli",
+      "Coordinate Postazione": "44.347721,9.156866",
+      "Mezzo": "MSB",
+      "Nome radio": "CAM 3-103 ",
+      "Convenzione": "H12",
+      "Orario di lavoro": "12:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": "Croce Verde Casellese",
+      "Coordinate Postazione": "44.533651,8.99724",
+      "Mezzo": "MSB",
+      "Nome radio": "CAS 3-130",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": "Croce Verde Crocefieschi",
+      "Coordinate Postazione": "44.583213,9.023682",
+      "Mezzo": "MSB",
+      "Nome radio": "CCF 3-897 ",
+      "Convenzione": "H5",
+      "Orario di lavoro": "19:00-00:00",
+      "Giorni": "LUN-VEN"
+    },
+    {
+      "Nome Postazione": "Croce Verde Crocefieschi",
+      "Coordinate Postazione": "44.583213,9.023682",
+      "Mezzo": "MSB",
+      "Nome radio": "CCF 3-897 ",
+      "Convenzione": "H8",
+      "Orario di lavoro": "16:00-00:00",
+      "Giorni": "SAB-DOM"
+    },
+    {
+      "Nome Postazione": "Croce Verde Genovese",
+      "Coordinate Postazione": "44.413515,8.922723",
+      "Mezzo": "MSB",
+      "Nome radio": "VER 3-297",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": "Croce Verde Isoverde",
+      "Coordinate Postazione": "44.528217,8.868386",
+      "Mezzo": "MSB",
+      "Nome radio": "ISO 3-582",
+      "Convenzione": "H8",
+      "Orario di lavoro": "7:00-15:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": "Croce Verde Lumarzo",
+      "Coordinate Postazione": "44.432021,9.137955",
+      "Mezzo": "MSB",
+      "Nome radio": "LUM 3-603 ",
+      "Convenzione": "H12",
+      "Orario di lavoro": "7:00-19:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": "Croce Verde Mele",
+      "Coordinate Postazione": "44.445971,8.749684",
+      "Mezzo": "MSB",
+      "Nome radio": "MEL 3-633 ",
+      "Convenzione": "H12",
+      "Orario di lavoro": "7:00-19:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": "Croce Verde Pegliese",
+      "Coordinate Postazione": "44.425868,8.818505",
+      "Mezzo": "MSB",
+      "Nome radio": "PGL 3-323",
+      "Convenzione": "H12",
+      "Orario di lavoro": "7:00-19:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": "Croce Verde Pontedecimo",
+      "Coordinate Postazione": "44.50051,8.904645",
+      "Mezzo": "MSB",
+      "Nome radio": "PDE 3-333",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": "Croce Verde Pontedecimo",
+      "Coordinate Postazione": "44.50051,8.904645",
+      "Mezzo": "MSB",
+      "Nome radio": "PDE 3-334",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": "Croce Verde Praese",
+      "Coordinate Postazione": "44.427954,8.787628",
+      "Mezzo": "MSB",
+      "Nome radio": "PRA 3-347 ",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": "Croce Verde Quarto dei Mille",
+      "Coordinate Postazione": "44.393725,8.99773",
+      "Mezzo": "MSB",
+      "Nome radio": "QUA 3-378 ",
+      "Convenzione": "H12",
+      "Orario di lavoro": "7:00-19:00",
+      "Giorni": "LUN-VEN"
+    },
+    {
+      "Nome Postazione": "Croce Verde Quinto",
+      "Coordinate Postazione": "44.386217,9.011307",
+      "Mezzo": "MSB",
+      "Nome radio": "QUI 3-385",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": "Croce Verde Recco",
+      "Coordinate Postazione": "44.363164,9.141992",
+      "Mezzo": "MSB",
+      "Nome radio": "RCC 3-658",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": "Croce Verde San Gottardo",
+      "Coordinate Postazione": "44.447674,8.969011",
+      "Mezzo": "MSB",
+      "Nome radio": "SGT 3-205",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": "Croce Verde San Gottardo Sez. Burlando",
+      "Coordinate Postazione": "44.42355,8.948449",
+      "Mezzo": "MSB",
+      "Nome radio": "BUR 3-207",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": "Croce Verde Sestri Ponente",
+      "Coordinate Postazione": "44.425669,8.850801",
+      "Mezzo": "MSB",
+      "Nome radio": "SES 3-411 ",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": "Croce Verde Sestri Ponente",
+      "Coordinate Postazione": "44.425669,8.850801",
+      "Mezzo": "MSB",
+      "Nome radio": "SES 3-413 ",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": "Misericordia - Volontari del Soccorso Fiumara",
+      "Coordinate Postazione": "44.415319,8.883143",
+      "Mezzo": "MSB",
+      "Nome radio": "FIU 3-712 ",
+      "Convenzione": "H16",
+      "Orario di lavoro": "8:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": "Misericordia - Volontari del Soccorso Fiumara",
+      "Coordinate Postazione": "44.415319,8.883143",
+      "Mezzo": "MSB",
+      "Nome radio": "FIU 3-712 ",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-8:00",
+      "Giorni": "VEN-SAB"
+    },
+    {
+      "Nome Postazione": "Misericordia Genova Centro",
+      "Coordinate Postazione": "44.41892,8.911394",
+      "Mezzo": "MSB",
+      "Nome radio": "MISGE 3-707",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": "Misericordia Ponente Soccorso",
+      "Coordinate Postazione": "44.430872,8.767646",
+      "Mezzo": "MSB",
+      "Nome radio": "POS 3-561 ",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": "Postazione Automedica Gallino",
+      "Coordinate Postazione": "44.4993138,8.8998364",
+      "Mezzo": "MSA2",
+      "Nome radio": "GOLF 2 ",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": "Postazione Automedica Piazzale Bligny",
+      "Coordinate Postazione": "44.439785,8.9644",
+      "Mezzo": "MSA2",
+      "Nome radio": "GOLF 3 ",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": "Croce D Oro Sampierdarena",
+      "Coordinate Postazione": "44.411231,8.890874",
+      "Mezzo": "MSA2",
+      "Nome radio": "GOLF 4",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": "Postazione Automedica Evangelico",
+      "Coordinate Postazione": "44.430136,8.745646",
+      "Mezzo": "MSA2",
+      "Nome radio": "GOLF 5",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": "Postazione Automedica Recco",
+      "Coordinate Postazione": "44.366011,9.14498",
+      "Mezzo": "MSA2",
+      "Nome radio": "GOLF 6",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": "Postazione Automedica Busalla",
+      "Coordinate Postazione": "44.565585,8.943299",
+      "Mezzo": "MSA2",
+      "Nome radio": "GOLF 7",
+      "Convenzione": "H12",
+      "Orario di lavoro": "8:00-20:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": "Pubblica Assistenza Fontanigorda",
+      "Coordinate Postazione": "44.54404,9.306133",
+      "Mezzo": "MSB",
+      "Nome radio": "FONGOR ",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": "Pubblica Assistenza G.A.U.",
+      "Coordinate Postazione": "44.449739,9.017917",
+      "Mezzo": "MSB",
+      "Nome radio": "STR 3-799",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": "Pubblica Assistenza Molassana",
+      "Coordinate Postazione": "44.454065,8.979308",
+      "Mezzo": "MSB",
+      "Nome radio": "MOL 3-501",
+      "Convenzione": "H12",
+      "Orario di lavoro": "8:00-20:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": "Pubblica Assistenza Nuova Volontari del Soccorso",
+      "Coordinate Postazione": "44.409563,8.951488",
+      "Mezzo": "MSB",
+      "Nome radio": "NSF 3-287",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": "Pubblica Assitenza Nervi",
+      "Coordinate Postazione": "44.384587,9.032626",
+      "Mezzo": "MSB",
+      "Nome radio": "NER 3-520",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": "Volontari del Soccorso Alta Val Trebbia",
+      "Coordinate Postazione": "44.556039,9.283352",
+      "Mezzo": "MSB",
+      "Nome radio": "AVT 3-181",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": "Volontari del Soccorso Ruta di Camogli",
+      "Coordinate Postazione": "44.343749,9.1704709",
+      "Mezzo": "MSB",
+      "Nome radio": "RUT 3-722 ",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    }
+  ]
+}

@@ -1,0 +1,344 @@
+[
+ {
+  "Nome Postazione": "Colonnina 118 - Comuneglia",
+  "Coordinate Postazione": "44.384032,9.518965",
+  "Mezzo": "MSB",
+  "Nome radio": "CRVL_4442",
+  "Convenzione": "H9",
+  "Orario di lavoro": "9:00-18:00",
+  "Giorni": "SAB-DOM"
+ },
+ {
+  "Nome Postazione": "Colonnina 118 - Portofino",
+  "Coordinate Postazione": "44.304216,9.207554",
+  "Mezzo": "MSB",
+  "Nome radio": "VSRA_4512 ",
+  "Convenzione": "H10",
+  "Orario di lavoro": "9:00-19:00",
+  "Giorni": "LUN-DOM"
+ },
+ {
+  "Nome Postazione": "Colonnina 118 - S. Michele di Pagana",
+  "Coordinate Postazione": "44.340713,9.223971",
+  "Mezzo": "MSB",
+  "Nome radio": "VSRA_4511 ",
+  "Convenzione": "H10",
+  "Orario di lavoro": "9:00-19:00",
+  "Giorni": "SAB-DOM"
+ },
+ {
+  "Nome Postazione": "Colonnina 118 - Zoagli",
+  "Coordinate Postazione": "44.337148,9.267015",
+  "Mezzo": "MSB",
+  "Nome radio": "CBRA_4383 ",
+  "Convenzione": "H10",
+  "Orario di lavoro": "9:00-19:00",
+  "Giorni": "SAB-DOM"
+ },
+ {
+  "Nome Postazione": "Croce Azzurra Moneglia",
+  "Coordinate Postazione": "44.240525,9.48787",
+  "Mezzo": "MSB",
+  "Nome radio": "CAMG_4353 ",
+  "Convenzione": "H24",
+  "Orario di lavoro": "00:00-00:00",
+  "Giorni": "LUN-DOM"
+ },
+ {
+  "Nome Postazione": "Croce Bianca Mezzanego",
+  "Coordinate Postazione": "44.387745,9.379644",
+  "Mezzo": "MSB",
+  "Nome radio": "CBRA_4383 ",
+  "Convenzione": "H24",
+  "Orario di lavoro": "00:00-00:00",
+  "Giorni": "LUN-DOM"
+ },
+ {
+  "Nome Postazione": "Croce Bianca Rapallese",
+  "Coordinate Postazione": "44.350798,9.224526",
+  "Mezzo": "MSB",
+  "Nome radio": "CBRA_4384",
+  "Convenzione": "H12",
+  "Orario di lavoro": "8:00-20:00",
+  "Giorni": "LUN-DOM"
+ },
+ {
+  "Nome Postazione": "Croce Bianca Rapallese",
+  "Coordinate Postazione": "44.350798,9.224526",
+  "Mezzo": "MSB",
+  "Nome radio": "CBRA_4384",
+  "Convenzione": "H24",
+  "Orario di lavoro": "20:00-8:00",
+  "Giorni": "VEN-SAB"
+ },
+ {
+  "Nome Postazione": "Croce Rossa Italiana - Chiavari",
+  "Coordinate Postazione": "44.319433,9.323492",
+  "Mezzo": "MSB",
+  "Nome radio": "CRCH_6302 ",
+  "Convenzione": "H24",
+  "Orario di lavoro": "00:00-00:00",
+  "Giorni": "LUN-DOM"
+ },
+ {
+  "Nome Postazione": "Croce Rossa Italiana - Chiavari",
+  "Coordinate Postazione": "44.319433,9.323492",
+  "Mezzo": "MSB",
+  "Nome radio": "CRCH_6314 ",
+  "Convenzione": "H12",
+  "Orario di lavoro": "08:00-20:00",
+  "Giorni": "LUN-DOM"
+ },
+ {
+  "Nome Postazione": "Croce Rossa Italiana - Chiavari",
+  "Coordinate Postazione": "44.319433,9.323492",
+  "Mezzo": "MSB",
+  "Nome radio": "CRCH_6314 ",
+  "Convenzione": "H24",
+  "Orario di lavoro": "20:00-8:00",
+  "Giorni": "VEN-SAB"
+ },
+ {
+  "Nome Postazione": "Croce Rossa Italiana - Cicagna",
+  "Coordinate Postazione": "44.408926,9.238421",
+  "Mezzo": "MSB",
+  "Nome radio": "CRCI_6326",
+  "Convenzione": "H24",
+  "Orario di lavoro": "00:00-00:00",
+  "Giorni": "LUN-DOM"
+ },
+ {
+  "Nome Postazione": "Croce Rossa Italiana - Cogorno",
+  "Coordinate Postazione": "44.327996,9.350772",
+  "Mezzo": "MSB",
+  "Nome radio": "CRCO_6472",
+  "Convenzione": "H24",
+  "Orario di lavoro": "00:00-00:00",
+  "Giorni": "LUN-DOM"
+ },
+ {
+  "Nome Postazione": "Croce Rossa Italiana - Gattorna",
+  "Coordinate Postazione": "44.429214,9.186466",
+  "Mezzo": "MSB",
+  "Nome radio": "CRGA_6332",
+  "Convenzione": "H24",
+  "Orario di lavoro": "00:00-00:00",
+  "Giorni": "LUN-DOM"
+ },
+ {
+  "Nome Postazione": "Croce Rossa Italiana - Rezzoaglio",
+  "Coordinate Postazione": "44.525695,9.387181",
+  "Mezzo": "MSB",
+  "Nome radio": "CRRE_6343",
+  "Convenzione": "H24",
+  "Orario di lavoro": "00:00-00:00",
+  "Giorni": "LUN-DOM"
+ },
+ {
+  "Nome Postazione": "Croce Rossa Italiana - Riva Trigoso",
+  "Coordinate Postazione": "44.257892,9.426756",
+  "Mezzo": "MSB",
+  "Nome radio": "CRRT_6487 ",
+  "Convenzione": "H12",
+  "Orario di lavoro": "8:00-20:00",
+  "Giorni": "LUN-DOM"
+ },
+ {
+  "Nome Postazione": "Croce Rossa Italiana - Riva Trigoso",
+  "Coordinate Postazione": "44.257892,9.426756",
+  "Mezzo": "MSB",
+  "Nome radio": "CRRT_6487 ",
+  "Convenzione": "H24",
+  "Orario di lavoro": "20:00-8:00",
+  "Giorni": "VEN-SAB"
+ },
+ {
+  "Nome Postazione": "Croce Rossa Italiana - S. Margherita Ligure",
+  "Coordinate Postazione": "44.335341,9.206521",
+  "Mezzo": "MSB",
+  "Nome radio": "CRML_6110",
+  "Convenzione": "H12",
+  "Orario di lavoro": "8:00-20:00",
+  "Giorni": "LUN-DOM"
+ },
+ {
+  "Nome Postazione": "Croce Rossa Italiana - S. Stefano D Aveto",
+  "Coordinate Postazione": "44.547615,9.450898",
+  "Mezzo": "MSB",
+  "Nome radio": "CRSA_6114 ",
+  "Convenzione": "H24",
+  "Orario di lavoro": "00:00-00:00",
+  "Giorni": "LUN-DOM"
+ },
+ {
+  "Nome Postazione": "Croce Rossa Italiana - Varese Ligure",
+  "Coordinate Postazione": "44.378203,9.591803",
+  "Mezzo": "MSB",
+  "Nome radio": "CRVL_6542",
+  "Convenzione": "H24",
+  "Orario di lavoro": "00:00-00:00",
+  "Giorni": "LUN-DOM"
+ },
+ {
+  "Nome Postazione": "Croce Verde - Carro",
+  "Coordinate Postazione": "44.273153,9.608117",
+  "Mezzo": "MSB",
+  "Nome radio": "CVCR_6754",
+  "Convenzione": "H24",
+  "Orario di lavoro": "00:00-00:00",
+  "Giorni": "LUN-DOM"
+ },
+ {
+  "Nome Postazione": "Croce Verde - Casarza Ligure",
+  "Coordinate Postazione": "44.272728,9.450001",
+  "Mezzo": "MSB",
+  "Nome radio": "CVCL_4862",
+  "Convenzione": "H24",
+  "Orario di lavoro": "00:00-00:00",
+  "Giorni": "LUN-DOM"
+ },
+ {
+  "Nome Postazione": "Croce Verde - Castiglione Chiavarese",
+  "Coordinate Postazione": "44.273611,9.51494",
+  "Mezzo": "MSB",
+  "Nome radio": "CVCC_6789 ",
+  "Convenzione": "H24",
+  "Orario di lavoro": "00:00-00:00",
+  "Giorni": "LUN-DOM"
+ },
+ {
+  "Nome Postazione": "Croce Verde - Chiavarese",
+  "Coordinate Postazione": "44.315294,9.327371",
+  "Mezzo": "MSB",
+  "Nome radio": "CVCH_4062 ",
+  "Convenzione": "H12",
+  "Orario di lavoro": "8:00-20:00",
+  "Giorni": "SAB-DOM"
+ },
+ {
+  "Nome Postazione": "Croce Verde - Chiavarese",
+  "Coordinate Postazione": "44.315294,9.327371",
+  "Mezzo": "MSB",
+  "Nome radio": "CVCH_4064",
+  "Convenzione": "H24",
+  "Orario di lavoro": "00:00-00:00",
+  "Giorni": "LUN-DOM"
+ },
+ {
+  "Nome Postazione": "Croce Verde - Chiavarese",
+  "Coordinate Postazione": "44.315294,9.327371",
+  "Mezzo": "MSB",
+  "Nome radio": "CVCH_4065",
+  "Convenzione": "H12",
+  "Orario di lavoro": "8:00-20:00",
+  "Giorni": "LUN-DOM"
+ },
+ {
+  "Nome Postazione": "Croce Verde - Chiavarese Sez. Borzonasca",
+  "Coordinate Postazione": "44.421956,9.387313",
+  "Mezzo": "MSB",
+  "Nome radio": "CVCH_6347",
+  "Convenzione": "H24",
+  "Orario di lavoro": "00:00-00:00",
+  "Giorni": "LUN-DOM"
+ },
+ {
+  "Nome Postazione": "Croce Verde - Chiavarese Sez. Carasco",
+  "Coordinate Postazione": "44.350889,9.343806",
+  "Mezzo": "MSB",
+  "Nome radio": "CVCH_4092",
+  "Convenzione": "H24",
+  "Orario di lavoro": "00:00-00:00",
+  "Giorni": "LUN-DOM"
+ },
+ {
+  "Nome Postazione": "Croce Verde - Chiavarese Sez. Lavagna",
+  "Coordinate Postazione": "44.305874,9.346374",
+  "Mezzo": "MSB",
+  "Nome radio": "CVCH_4081 ",
+  "Convenzione": "H24",
+  "Orario di lavoro": "00:00-00:00",
+  "Giorni": "LUN-DOM"
+ },
+ {
+  "Nome Postazione": "Croce Verde - Chiavarese Sez. Ne",
+  "Coordinate Postazione": "44.346423,9.394283",
+  "Mezzo": "MSB",
+  "Nome radio": "CVCH_6349 ",
+  "Convenzione": "H24",
+  "Orario di lavoro": "00:00-00:00",
+  "Giorni": "LUN-DOM"
+ },
+ {
+  "Nome Postazione": "Croce Verde - Santa Margherita Ligure",
+  "Coordinate Postazione": "44.335099,9.209734",
+  "Mezzo": "MSB",
+  "Nome radio": "CVML_4674 ",
+  "Convenzione": "H24",
+  "Orario di lavoro": "00:00-00:00",
+  "Giorni": "LUN-DOM"
+ },
+ {
+  "Nome Postazione": "Croce Verde - Sestri Levante",
+  "Coordinate Postazione": "44.269846,9.392876",
+  "Mezzo": "MSB",
+  "Nome radio": "CVSL_4785",
+  "Convenzione": "H24",
+  "Orario di lavoro": "00:00-00:00",
+  "Giorni": "LUN-DOM"
+ },
+ {
+  "Nome Postazione": "Postazione Autoinfermieristica - Sestri Levante",
+  "Coordinate Postazione": "44.2752665,9.4064691",
+  "Mezzo": "MSA1",
+  "Nome radio": "INDIA 1 ",
+  "Convenzione": "H12",
+  "Orario di lavoro": "08:00-20:00",
+  "Giorni": "LUN-DOM"
+ },
+ {
+  "Nome Postazione": "Postazione Automedica - Lavagna",
+  "Coordinate Postazione": "44.31517,9.349911",
+  "Mezzo": "MSA2",
+  "Nome radio": "TANGO 1",
+  "Convenzione": "H24",
+  "Orario di lavoro": "00:00-00:00",
+  "Giorni": "LUN-DOM"
+ },
+ {
+  "Nome Postazione": "Postazione Automedica - Rapallo",
+  "Coordinate Postazione": "44.358745,9.21358",
+  "Mezzo": "MSA2",
+  "Nome radio": "TANGO 2",
+  "Convenzione": "H24",
+  "Orario di lavoro": "00:00-00:00",
+  "Giorni": "LUN-DOM"
+ },
+ {
+  "Nome Postazione": "Pubblica Assistenza S. Pietro Vara",
+  "Coordinate Postazione": "44.33473,9.58922",
+  "Mezzo": "MSB",
+  "Nome radio": "PAPV_4662",
+  "Convenzione": "H24",
+  "Orario di lavoro": "00:00-00:00",
+  "Giorni": "LUN-DOM"
+ },
+ {
+  "Nome Postazione": "Volontari del Soccorso Rapallo",
+  "Coordinate Postazione": "44.353602,9.214144",
+  "Mezzo": "MSB",
+  "Nome radio": "VSRA_4523 ",
+  "Convenzione": "H24",
+  "Orario di lavoro": "00:00-00:00",
+  "Giorni": "LUN-DOM"
+ },
+ {
+  "Nome Postazione": "Volontari del Soccorso Sestri Levante",
+  "Coordinate Postazione": "44.269129,9.420186",
+  "Mezzo": "MSB",
+  "Nome radio": "VSSL_4851",
+  "Convenzione": "H24",
+  "Orario di lavoro": "00:00-00:00",
+  "Giorni": "LUN-DOM"
+ }
+]

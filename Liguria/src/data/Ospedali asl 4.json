@@ -1,0 +1,16 @@
+[
+ {
+  "OSPEDALE": "H LAVAGNA",
+  "COORDINATE": "44.315105,9.3495402",
+  "N° pazienti Max": 40,
+  "CLASSE": "DEA",
+  "PUNTO NASCITA": true,
+  "PEDIATRIA": true,
+  "TRAUMA": "PST",
+  "EMODINAMICA": true,
+  "STROKE UNIT": true,
+  "NCH": false,
+  "RIANIMAZIONE": true,
+  "PSICHIATRIA": true
+ }
+]

@@ -1,0 +1,697 @@
+{
+  "Sheet1": [
+    {
+      "Nome Postazione": "Elisoccorso Albenga",
+      "Coordinate Postazione": "44.0476182,8.1326713",
+      "Mezzo": "ELI",
+      "Nome radio": "GRIFO 1",
+      "Convenzione": "H24",
+      "Orario di lavoro": "8:00-20:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": "Croce Azzurra Calizzano",
+      "Coordinate Postazione": "44.236576,8.114133",
+      "Mezzo": "MSB",
+      "Nome radio": "2-823",
+      "Convenzione": "H24",
+      "Orario di lavoro": "8:00-20:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": "Croce Azzurra Calizzano",
+      "Coordinate Postazione": "44.236576,8.114133",
+      "Mezzo": "MSB",
+      "Nome radio": "2-824",
+      "Convenzione": "H24",
+      "Orario di lavoro": "20:00-8:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": "Croce Bianca Alassio",
+      "Coordinate Postazione": "44.0047144,8.1679037",
+      "Mezzo": "MSB",
+      "Nome radio": "2-006",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": "Croce Bianca Alassio",
+      "Coordinate Postazione": "44.0047144,8.1679037",
+      "Mezzo": "MSB",
+      "Nome radio": "2-012 ",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": "Croce Bianca Alassio - Sez. Laigueglia",
+      "Coordinate Postazione": "43.9796967,8.1578706",
+      "Mezzo": "MSB",
+      "Nome radio": "2-009",
+      "Convenzione": "H12",
+      "Orario di lavoro": "8:00-20:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": "Croce Bianca Albenga",
+      "Coordinate Postazione": "44.047204,8.2146",
+      "Mezzo": "MSB",
+      "Nome radio": "2-061",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": "Croce Bianca Albenga",
+      "Coordinate Postazione": "44.047204,8.2146",
+      "Mezzo": "MSB",
+      "Nome radio": "2-085 ",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": "Croce Bianca Albenga",
+      "Coordinate Postazione": "44.047204,8.2146",
+      "Mezzo": "MSB",
+      "Nome radio": "2-088 ",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": "Croce Bianca Albenga Sez. Arnasco",
+      "Coordinate Postazione": "44.0771161,8.1156559",
+      "Mezzo": "MSB",
+      "Nome radio": "2-070",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": "Croce Bianca Albenga Sez. Castelbianco",
+      "Coordinate Postazione": "44.1103073,8.0777678",
+      "Mezzo": "MSB",
+      "Nome radio": "2-042 ",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": "Croce Bianca Albenga Sez. Erli",
+      "Coordinate Postazione": "44.1355533,8.1066674",
+      "Mezzo": "MSB",
+      "Nome radio": "2-043",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": "Croce Bianca Albenga Sez. Garlenda",
+      "Coordinate Postazione": "44.0341251,8.0933262",
+      "Mezzo": "MSB",
+      "Nome radio": "2-083 ",
+      "Convenzione": "H13",
+      "Orario di lavoro": "7:30-21:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": "Croce Bianca Albenga Sez. Val Pennavaire Alto",
+      "Coordinate Postazione": "44.108106,8.003585",
+      "Mezzo": "MSB",
+      "Nome radio": "2-072",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": "Croce Bianca Albenga Sez. Val Pennavaire Nasino",
+      "Coordinate Postazione": "44.1133288,8.0309662",
+      "Mezzo": "MSB",
+      "Nome radio": "2-078",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": "Croce Bianca Albenga Sez. Vendone",
+      "Coordinate Postazione": "44.0736295,8.0738994",
+      "Mezzo": "MSB",
+      "Nome radio": "2-075 ",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": "Croce Bianca Albenga Sez. Villanova",
+      "Coordinate Postazione": "44.0467496,8.1427877",
+      "Mezzo": "MSB",
+      "Nome radio": "2-069",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": "Croce Bianca Altare",
+      "Coordinate Postazione": "44.337242,8.333545",
+      "Mezzo": "MSB",
+      "Nome radio": "2-133",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": "Croce Bianca Andora",
+      "Coordinate Postazione": "43.954506,8.142661",
+      "Mezzo": "MSB",
+      "Nome radio": "2-152",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": "Croce Bianca Andora",
+      "Coordinate Postazione": "43.954506,8.142661",
+      "Mezzo": "MSB",
+      "Nome radio": "2-154",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": "Croce Bianca Andora",
+      "Coordinate Postazione": "43.954506,8.142661",
+      "Mezzo": "MSB",
+      "Nome radio": "2-155",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": "Croce Bianca Borghetto Santo Spirito",
+      "Coordinate Postazione": "44.10997,8.241557",
+      "Mezzo": "MSB",
+      "Nome radio": "2-171",
+      "Convenzione": "H24",
+      "Orario di lavoro": "8:00-20:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": "Croce Bianca Borghetto Santo Spirito",
+      "Coordinate Postazione": "44.10997,8.241557",
+      "Mezzo": "MSB",
+      "Nome radio": "2-174",
+      "Convenzione": "H24",
+      "Orario di lavoro": "20:00-8:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": "Croce Bianca Borgio",
+      "Coordinate Postazione": "44.156811,8.304117",
+      "Mezzo": "MSB",
+      "Nome radio": "2-192",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": "Croce Bianca Cairo Montenotte",
+      "Coordinate Postazione": "44.40594,8.270086",
+      "Mezzo": "MSB",
+      "Nome radio": "2-201",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": "Croce Bianca Cairo Montenotte",
+      "Coordinate Postazione": "44.40594,8.270086",
+      "Mezzo": "MSB",
+      "Nome radio": "2-209",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": "Croce Bianca Calice",
+      "Coordinate Postazione": "44.203773,8.294684",
+      "Mezzo": "MSB",
+      "Nome radio": "2-241",
+      "Convenzione": "H12",
+      "Orario di lavoro": "8:00-14:00",
+      "Giorni": ""
+    },
+    {
+      "Nome Postazione": "Croce Bianca Calice",
+      "Coordinate Postazione": "44.203773,8.294684",
+      "Mezzo": "MSB",
+      "Nome radio": "2-242 ",
+      "Convenzione": "H12",
+      "Orario di lavoro": "14:00-20:00",
+      "Giorni": ""
+    },
+    {
+      "Nome Postazione": "Croce Bianca Carcare",
+      "Coordinate Postazione": "44.359355,8.288133",
+      "Mezzo": "MSB",
+      "Nome radio": "2-255",
+      "Convenzione": "H24",
+      "Orario di lavoro": "8:00-20:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": "Croce Bianca Carcare",
+      "Coordinate Postazione": "44.359355,8.288133",
+      "Mezzo": "MSB",
+      "Nome radio": "2-257",
+      "Convenzione": "H24",
+      "Orario di lavoro": "20:00-8:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": "Croce Bianca Dego",
+      "Coordinate Postazione": "44.448062,8.312639",
+      "Mezzo": "MSB",
+      "Nome radio": "2-864",
+      "Convenzione": "H12",
+      "Orario di lavoro": "7:30-19:30",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": "Croce Bianca Finale Ligure",
+      "Coordinate Postazione": "44.16961,8.343319",
+      "Mezzo": "MSB",
+      "Nome radio": "2-323",
+      "Convenzione": "H24",
+      "Orario di lavoro": "8:00-20:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": "Croce Bianca Finale Ligure",
+      "Coordinate Postazione": "44.16961,8.343319",
+      "Mezzo": "MSB",
+      "Nome radio": "2-327",
+      "Convenzione": "H24",
+      "Orario di lavoro": "20:00-8:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": "Croce Bianca Giusvalla",
+      "Coordinate Postazione": "44.449463,8.39369",
+      "Mezzo": "MSB",
+      "Nome radio": "2-351",
+      "Convenzione": "H12",
+      "Orario di lavoro": "7:30-19:30",
+      "Giorni": "SAB-DOM"
+    },
+    {
+      "Nome Postazione": "Croce Bianca Mioglia",
+      "Coordinate Postazione": "44.488849,8.411525",
+      "Mezzo": "MSB",
+      "Nome radio": "2-441",
+      "Convenzione": "H12",
+      "Orario di lavoro": "7:00-19:00",
+      "Giorni": "SAB-DOM"
+    },
+    {
+      "Nome Postazione": "Croce Bianca Noli",
+      "Coordinate Postazione": "44.2065175,8.4148474",
+      "Mezzo": "MSB",
+      "Nome radio": "2-453",
+      "Convenzione": "H12",
+      "Orario di lavoro": "7:00-19:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": "Croce Bianca Pontinvrea",
+      "Coordinate Postazione": "44.44221,8.433959",
+      "Mezzo": "MSB",
+      "Nome radio": "2-504",
+      "Convenzione": "H12",
+      "Orario di lavoro": "7:30-19:30",
+      "Giorni": "SAB-DOM"
+    },
+    {
+      "Nome Postazione": "Croce Bianca Savona",
+      "Coordinate Postazione": "44.304684,8.480063",
+      "Mezzo": "MSB",
+      "Nome radio": "2-525",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": "Croce Bianca Savona",
+      "Coordinate Postazione": "44.304684,8.480063",
+      "Mezzo": "MSB",
+      "Nome radio": "2-531 ",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": "Croce Bianca Spotorno",
+      "Coordinate Postazione": "44.225201,8.415372",
+      "Mezzo": "MSB",
+      "Nome radio": "2-592",
+      "Convenzione": "H10",
+      "Orario di lavoro": "22:00-6:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": "Croce Bianca Spotorno",
+      "Coordinate Postazione": "44.225201,8.415372",
+      "Mezzo": "MSB",
+      "Nome radio": "2-594 ",
+      "Convenzione": "H8",
+      "Orario di lavoro": "9:00-18:00",
+      "Giorni": "SAB-DOM"
+    },
+    {
+      "Nome Postazione": "Croce di Malta Boissano",
+      "Coordinate Postazione": "44.1340069,8.2182477",
+      "Mezzo": "MSB",
+      "Nome radio": "2-883",
+      "Convenzione": "H12",
+      "Orario di lavoro": "20:00-8:00",
+      "Giorni": "VEN-SAB"
+    },
+    {
+      "Nome Postazione": "Croce D Oro Albissola Marina",
+      "Coordinate Postazione": "44.329518,8.506894",
+      "Mezzo": "MSB",
+      "Nome radio": "2-091",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": "Croce D Oro Albissola Marina",
+      "Coordinate Postazione": "44.329518,8.506894",
+      "Mezzo": "MSB",
+      "Nome radio": "2-092",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": "Croce D Oro Albissola Marina Sez. Savona",
+      "Coordinate Postazione": "44.3143032,8.4720461",
+      "Mezzo": "MSB",
+      "Nome radio": "2-098 ",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": "Croce D Oro Albissola Marina Sez. Savona",
+      "Coordinate Postazione": "44.3143032,8.4720461",
+      "Mezzo": "MSB",
+      "Nome radio": "2-101",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": "Croce Rosa Celle Ligure",
+      "Coordinate Postazione": "44.342309,8.542967",
+      "Mezzo": "MSB",
+      "Nome radio": "2-263 ",
+      "Convenzione": "H24",
+      "Orario di lavoro": "8:00-20:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": "Croce Rosa Celle Ligure",
+      "Coordinate Postazione": "44.342309,8.542967",
+      "Mezzo": "MSB",
+      "Nome radio": "2-269",
+      "Convenzione": "H24",
+      "Orario di lavoro": "20:00-8:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": "Croce Rossa Italiana - Alassio",
+      "Coordinate Postazione": "44.002484,8.16029",
+      "Mezzo": "MSB",
+      "Nome radio": "2-024",
+      "Convenzione": "H24",
+      "Orario di lavoro": "8:00-8:00",
+      "Giorni": "SAB-DOM"
+    },
+    {
+      "Nome Postazione": "Croce Rossa Italiana - Albenga",
+      "Coordinate Postazione": "44.0429404,8.2145598",
+      "Mezzo": "MSB",
+      "Nome radio": "2-908",
+      "Convenzione": "H12",
+      "Orario di lavoro": "20:00-8:00",
+      "Giorni": "LUN-VEN"
+    },
+    {
+      "Nome Postazione": "Croce Rossa Italiana - Cengio",
+      "Coordinate Postazione": "44.38769,8.208471",
+      "Mezzo": "MSB",
+      "Nome radio": "2-279",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": "Croce Rossa Italiana - Ceriale",
+      "Coordinate Postazione": "44.09594,8.227413",
+      "Mezzo": "MSB",
+      "Nome radio": "2-296 ",
+      "Convenzione": "H12",
+      "Orario di lavoro": "8:00-20:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": "Croce Rossa Italiana - Loano",
+      "Coordinate Postazione": "44.1237746,8.2447955",
+      "Mezzo": "MSB",
+      "Nome radio": "2-374",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": "Croce Rossa Italiana - Magliolo",
+      "Coordinate Postazione": "44.1919006,8.2477218",
+      "Mezzo": "MSB",
+      "Nome radio": "2-401",
+      "Convenzione": "H12",
+      "Orario di lavoro": "20:00-8:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": "Croce Rossa Italiana - Millesimo",
+      "Coordinate Postazione": "44.365974,8.205889",
+      "Mezzo": "MSB",
+      "Nome radio": "2-414",
+      "Convenzione": "H12",
+      "Orario di lavoro": "20:00-8:00",
+      "Giorni": "LUN-VEN"
+    },
+    {
+      "Nome Postazione": "Croce Rossa Italiana - Sassello",
+      "Coordinate Postazione": "44.480073,8.490064",
+      "Mezzo": "MSB",
+      "Nome radio": "2-513",
+      "Convenzione": "H24",
+      "Orario di lavoro": "8:00-8:00",
+      "Giorni": "SAB-DOM"
+    },
+    {
+      "Nome Postazione": "Croce Rossa Italiana - Savona",
+      "Coordinate Postazione": "44.302083,8.475327",
+      "Mezzo": "MSB",
+      "Nome radio": "2-256 ",
+      "Convenzione": "H12",
+      "Orario di lavoro": "7:00-19:00",
+      "Giorni": "LUN-VEN"
+    },
+    {
+      "Nome Postazione": "Croce Rossa Italiana - Stella",
+      "Coordinate Postazione": "44.390224,8.515596",
+      "Mezzo": "MSB",
+      "Nome radio": "2-631",
+      "Convenzione": "H12",
+      "Orario di lavoro": "8:00-20:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": "Croce Rossa Italiana - Stella",
+      "Coordinate Postazione": "44.390224,8.515596",
+      "Mezzo": "MSB",
+      "Nome radio": "2-632",
+      "Convenzione": "H12",
+      "Orario di lavoro": "20:00-8:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": "Croce Rossa Italiana - Urbe",
+      "Coordinate Postazione": "44.4881729,8.5863033",
+      "Mezzo": "MSB",
+      "Nome radio": "2-674",
+      "Convenzione": "H12",
+      "Orario di lavoro": "8:00-20:00",
+      "Giorni": "VEN-DOM"
+    },
+    {
+      "Nome Postazione": "Croce Rossa Italiana - Vado Ligure",
+      "Coordinate Postazione": "44.27037,8.437129",
+      "Mezzo": "MSB",
+      "Nome radio": "2-681 ",
+      "Convenzione": "H12",
+      "Orario di lavoro": "8:00-20:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": "Croce Rossa Italiana - Vado Ligure Sez. Quiliano",
+      "Coordinate Postazione": "44.2925,8.416336",
+      "Mezzo": "MSB",
+      "Nome radio": "2-691 ",
+      "Convenzione": "H10",
+      "Orario di lavoro": "8:00-18:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": "Croce Rossa Italiana - Varazze",
+      "Coordinate Postazione": "44.353609,8.564829",
+      "Mezzo": "MSB",
+      "Nome radio": "2-734 ",
+      "Convenzione": "H24",
+      "Orario di lavoro": "7:00-19:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": "Croce Rossa Italiana - Varazze",
+      "Coordinate Postazione": "44.353609,8.564829",
+      "Mezzo": "MSB",
+      "Nome radio": "2-735",
+      "Convenzione": "H24",
+      "Orario di lavoro": "19:00-7:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": "Croce Verde Albisola",
+      "Coordinate Postazione": "44.332362,8.510794",
+      "Mezzo": "MSB",
+      "Nome radio": "2-112 ",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": "Croce Verde Bardineto",
+      "Coordinate Postazione": "44.1929241,8.1342006",
+      "Mezzo": "MSB",
+      "Nome radio": "2-811",
+      "Convenzione": "H12",
+      "Orario di lavoro": "7:30-19:30",
+      "Giorni": "VEN-DOM"
+    },
+    {
+      "Nome Postazione": "Croce Verde Finalborgo",
+      "Coordinate Postazione": "44.176236,8.32905",
+      "Mezzo": "MSB",
+      "Nome radio": "2-302",
+      "Convenzione": "H24",
+      "Orario di lavoro": "7:00-19:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": "Croce Verde Finalborgo",
+      "Coordinate Postazione": "44.176236,8.32905",
+      "Mezzo": "MSB",
+      "Nome radio": "2-307",
+      "Convenzione": "H24",
+      "Orario di lavoro": "19:00-7:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": "Croce Verde Murialdo",
+      "Coordinate Postazione": "44.316185,8.162462",
+      "Mezzo": "MSB",
+      "Nome radio": "2-831 ",
+      "Convenzione": "H12",
+      "Orario di lavoro": "7:00-13:00",
+      "Giorni": "SAB-DOM"
+    },
+    {
+      "Nome Postazione": "Croce Verde Murialdo",
+      "Coordinate Postazione": "44.316185,8.162462",
+      "Mezzo": "MSB",
+      "Nome radio": "2-833",
+      "Convenzione": "H12",
+      "Orario di lavoro": "13:00-19:00",
+      "Giorni": "SAB-DOM"
+    },
+    {
+      "Nome Postazione": "Pietra Soccorso",
+      "Coordinate Postazione": "44.154382,8.284108",
+      "Mezzo": "MSB",
+      "Nome radio": "2-493 ",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": "Pietra Soccorso",
+      "Coordinate Postazione": "44.154382,8.284108",
+      "Mezzo": "MSB",
+      "Nome radio": "2-494 ",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": "Postazione Automedica Albenga",
+      "Coordinate Postazione": "44.055297,8.20031",
+      "Mezzo": "MSA2",
+      "Nome radio": "SIERRA 2",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": "Postazione Automedica Cairo Montenotte",
+      "Coordinate Postazione": "44.401636,8.270075",
+      "Mezzo": "MSA2",
+      "Nome radio": "SIERRA 3",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": "Postazione Automedica Pietra Ligure",
+      "Coordinate Postazione": "44.143818,8.269929",
+      "Mezzo": "MSA2",
+      "Nome radio": "SIERRA 4",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": "Postazione Automedica Savona",
+      "Coordinate Postazione": "44.319173,8.490726",
+      "Mezzo": "MSA2",
+      "Nome radio": "SIERRA 1",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": "Postazone Autoinfermieristica Valbormida",
+      "Coordinate Postazione": "44.3634718,8.2084231",
+      "Mezzo": "MSA1",
+      "Nome radio": "INDIA 3",
+      "Convenzione": "H12",
+      "Orario di lavoro": "7:00-19:00",
+      "Giorni": "LUN-DOM"
+    }
+  ]
+}
