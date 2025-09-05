@@ -1,4 +1,4 @@
-{
+﻿{
     "chiamata_1": {
         "testo_chiamata": "Salve, chiamo da (indirizzo abitazione). C'è un signore, avrà circa 53 anni, che è per terra nel cortile. È caduto per terra da circa 5 minuti, non si muove, e non capiamo se è sveglio o no. Respira ma non ci risponde. Potete mandare qualcuno subito?",
         "caso_stabile": {
@@ -13,7 +13,7 @@
         },
         "caso_critico": {
             "MSB": "Maschio, circa 53 anni, riferita caduta improvvisa nel cortile di casa.All’arrivo, paziente incosciente, respiro superficiale. Parametri vitali compromessi: FC 40 bpm, PA 70/40 mmHg, SpO₂ 80%. Contusione occipitale evidente. Sospetto trauma cranico severo con compromissione neurologica. Immobilizzato, Anamnesi non disponibile. richiesto supporto MSA. [NCH]",
-            "MSA1": "Paziente incosciente dopo caduta, GCS 6. Parametri vitali: FC 35 bpm, PA 60/30 mmHg, SpO₂ 75%. Evidente contusione occipitale, stato neurologico gravemente compromesso. Posizionato accesso EV, O₂ ad alti flussi. Nessuna anamnesi nota, Sospetto trauma cranico grave. Richiesta MSA2. [NCH]",
+            "MSA1": "Paziente incosciente dopo caduta, GCS 6. Parametri vitali: FC 35 bpm, PA 60/30 mmHg, SpO₂ 75%. Evidente contusione occipitale, stato neurologico gravemente compromesso. Posizionato accesso EV, O₂ ad alti flussi. Nessuna anamnesi nota, Sospetto trauma cranico grave. Richiesta MSA. [NCH]",
             "MSA2": "Maschio, 53 anni, incosciente in seguito a caduta riferita da testimoni. GCS 3, parametri gravemente compromessi: FC 30 bpm, PA 55/25 mmHg, SpO₂ 70%. Lesione occipitale con probabile emorragia cerebrale. Sedato ed intubato. Trasferimento urgente verso CTZ con neurochirurgia. [NCH]"
         }
     },

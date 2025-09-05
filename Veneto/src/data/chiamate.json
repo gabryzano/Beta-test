@@ -1,4 +1,4 @@
-{
+﻿{
     "chiamata_1": {
         "testo_chiamata": "Salve, chiamo da (indirizzo abitazione). C'è un signore, avrà circa 53 anni, che è per terra nel cortile. È caduto per terra da circa 5 minuti, non si muove, e non capiamo se è sveglio o no. Respira ma non ci risponde. Potete mandare qualcuno subito?",
         "caso_stabile": {
@@ -13,7 +13,7 @@
         },
         "caso_critico": {
             "MSB": "Maschio, circa 53 anni, riferita caduta improvvisa nel cortile di casa.All’arrivo, paziente incosciente, respiro superficiale. Parametri vitali compromessi: FC 40 bpm, PA 70/40 mmHg, SpO₂ 80%. Contusione occipitale evidente. Sospetto trauma cranico severo con compromissione neurologica. Immobilizzato, Anamnesi non disponibile. richiesto supporto MSA. [NCH]",
-            "MSA1": "Paziente incosciente dopo caduta, GCS 6. Parametri vitali: FC 35 bpm, PA 60/30 mmHg, SpO₂ 75%. Evidente contusione occipitale, stato neurologico gravemente compromesso. Posizionato accesso EV, O₂ ad alti flussi. Nessuna anamnesi nota, Sospetto trauma cranico grave. Richiesta MSA2. [NCH]",
+            "MSA1": "Paziente incosciente dopo caduta, GCS 6. Parametri vitali: FC 35 bpm, PA 60/30 mmHg, SpO₂ 75%. Evidente contusione occipitale, stato neurologico gravemente compromesso. Posizionato accesso EV, O₂ ad alti flussi. Nessuna anamnesi nota, Sospetto trauma cranico grave. Richiesta MSA. [NCH]",
             "MSA2": "Maschio, 53 anni, incosciente in seguito a caduta riferita da testimoni. GCS 3, parametri gravemente compromessi: FC 30 bpm, PA 55/25 mmHg, SpO₂ 70%. Lesione occipitale con probabile emorragia cerebrale. Sedato ed intubato. Trasferimento urgente verso CTZ con neurochirurgia. [NCH]"
         }
     },
@@ -49,7 +49,7 @@
         },
         "caso_critico": {
             "MSB": "Maschio, 16 anni, incosciente all’arrivo, respiro superficiale. FC 40 bpm, PA 70/45 mmHg, SpO₂ 88%. Pallore marcato, stato neurologico compromesso. Nessuna anamnesi nota. Richiesta MSA.[Rianimazione]",
-            "MSA1": "Incosciente, GCS 6, FC 38 bpm, PA 60/30 mmHg, SpO₂ 82%. Accesso EV, O₂ ad alti flussi. ECG in corso, sospetto disturbo del ritmo grave. Richiesto supporto medico. [Rianimazione]",
+            "MSA1": "Incosciente, GCS 6, FC 38 bpm, PA 60/30 mmHg, SpO₂ 82%. Accesso EV, O₂ ad alti flussi. ECG in corso, sospetto disturbo del ritmo grave. Richiesto MSA2. [Rianimazione]",
             "MSA2": "Maschio, 16 anni, incosciente. Parametri vitali compromessi: GCS 12, FC 30 bpm, PA 55/25 mmHg, SpO₂ 78%. Sedato e intubato, ventilazione assistita. Sospetta bradiaritmia severa con sincope. [Rianimazione]"
         }
     },
@@ -1021,7 +1021,110 @@
       "MSA2": "Femmina, 32 anni, importante sanguinamento vaginale con dolore pelvico acuto, PA 95/60 mmHg, FC 115 bpm, SpO₂ 96%, in corso Fisiologica ed analgesico EV, in anamnesi cisti ovarica. [PS]"
     }
   },
-    "chiamata_66": {
+  "chiamata_61": {
+    "testo_chiamata": "Salve, chiamo da casa (indirizzo abitazione), mio figlio di 19 anni dice che gli batte fortissimo il cuore, è molto agitato, suda e dice che si sente svenire, non riesce a calmarsi. È cosciente ma respira in modo molto veloce, non gli è mai successo prima!.",
+
+    "caso_stabile": {
+      "MSB": "Maschio, 19 anni, riferisce cardiopalmo insorto da circa 20 minuti, PA 125/75 mmHg, FC 130 bpm, SpO₂ 99%, eupnoico, ansioso, anamnesi muta. [PS]",
+      "MSA1": "Maschio, 19 anni, tachicardia sinusale a 130 bpm, PA 125/75 mmHg, SpO₂ 99%, GCS 15, ansioso, anamnesi negativa per patologie cardiache, riferisce episodio simile in passato sotto stress. [PS]",
+      "MSA2": "Maschio, 19 anni, tachicardia sinusale con FC 130 bpm, PA 125/75 mmHg, GCS 15, stato d’ansia evidente, ECG sinusale, anamnesi negativa per patologie cardiache, riferisce episodio simile in passato sotto stress. [PS]"
+    },
+
+    "poco_stabile": {
+      "MSB": "Maschio, 19 anni, tachicardia improvvisa con senso di costrizione al giugulo e sudorazione profusa, PA 95/60 mmHg, FC 165 bpm, SpO₂ 96%, cosciente, anamnesi muta. [PS]",
+      "MSA1": "Maschio, 19 anni, tachicardia parossistica sopraventricolare a 165 bpm, PA 95/60 mmHg, SpO₂ 96%, GCS 15, eseguito manovra di Valsalva modificata con riduzione della frequnza, ora FC 90 bpm [PS]",
+      "MSA2": "Maschio, 19 anni, tachicardia sopraventricolare, FC 165 bpm, PA 95/60 mmHg, SpO₂ 96%, somministrata Adenosina 6 mg EV con ripristino del ritmo sinusale, monitoraggio in corso. [PS]"
+    },
+
+    "critico": {
+      "MSB": "Maschio, 19 anni, improvvisa perdita di coscienza dopo palpitazioni, al nostro arrivo risponde allo stimolo doloroso FC 190 bpm, PA 80/40 mmHg, SpO₂ 91%, sudorazione profusa, richiesta MSA. [DEA]",
+      "MSA1": "Maschio, 19 anni, tachiaritmia ventricolare polimorfa, GCS 9, PA 80/40 mmHg, FC 190 bpm, SpO₂ 91%, Somministrato Magnesio Solfato 2 gr ev, posizionate piaste, è possibile inviato supporto medico?. [DEA]",
+      "MSA2": "Maschio, 19 anni, tachicardia ventricolare polimorfa, sedato con midazolam 5 mg, eseguita cardioversione elettrica con ripristino ritmo sinusale, trasporto urgente in DEA. [DEA]"
+    }
+  },
+  "chiamata_62": {
+    "testo_chiamata": "Aiuto! Mio fratello si è tagliato con un coltello in cucina, ha una ferita profonda all’avambraccio, sta perdendo molto sangue! Abbiamo messo degli asciugamani per fermarlo ma non smette! Ci troviamo a (indirizzo abitazione)",
+
+    "caso_stabile": {
+      "MSB": "Maschio, 26 anni, ferita da taglio avambraccio sx con emorragia controllata da compressione diretta, cosciente, collaborante, PA 130/80 mmHg, FC 92 bpm, SpO₂ 99%, bendaggio compressivo in sede. [OTT]",
+      "MSA1": "Maschio, 26 anni, ferita da taglio avambraccio sx, sanguinamento venoso arrestato con bendaggio compressivo, dolore riferito 6/10, PA 130/80 mmHg, FC 92 bpm, SpO₂ 99%, necessria sutura, non lesioni vascolari. [OTT]",
+      "MSA2": "Maschio, 26 anni, ferita da taglio avambraccio sx, emorragia venosa fermata da compressione, PA 130/80 mmHg, FC 92 bpm, SpO₂ 99%, necessria sutura, non lesioni vascolari. [OTT]"
+    },
+
+    "poco_stabile": {
+      "MSB": "Maschio, 26 anni, ferita da taglio profonda avambraccio sx, sanguinamento importante in atto, cute fredda, pallido, PA 100/60 mmHg, FC 110 bpm, SpO₂ 97%, richiesta MSA. [PST]",
+      "MSA1": "Maschio, 26 anni, ferita da taglio profonda, sanguinamento attivo, PA 100/60 mmHg, FC 110 bpm, SpO₂ 97%, posizionato bendaggio compressivo, probabile lesione vascolare. [PST]",
+      "MSA2": "Maschio, 26 anni, ferita da taglio avambraccio sx, emorragia attiva da ramo arterioso, PA 100/60 mmHg, FC 110 bpm, SpO₂ 97%, posizionato bendaggio compressivo, accesso EV, infusione cristalloidi, necessaria valutazione chirurgica. [PST]"
+    },
+
+    "critico": {
+      "MSB": "Maschio, 26 anni, ferita da taglio profonda avambraccio sx, probabile lesione arteriosa, applicato bendaggio compressivo. Perdita di coscienza prima del nostro arrivo, ora sveglio ma rallentato, PA 80/40 mmHg, FC 130 bpm, SpO₂ 92%, segni di shock, necessaria MSA. [PST]",
+      "MSA1": "Maschio, 26 anni, shock emorragico da ferita arteriosa avambraccio sx, paziente confuso, GCS 10, PA 80/40 mmHg, FC 130 bpm, SpO₂ 92%, posizionato tourniquet, in corso bolo di 500ml di ringer+ Tranex 1 gr, necessaria valutazione chirurgica immediata. [PST]",
+      "MSA2": "Maschio, 26 anni, shock emorragico grave da lesione arteriosa avambraccio sx, GCS 10, PA 80/40 mmHg, FC 130 bpm, SpO₂ 92%, posizionato tourniquet, in corso bolo di 500ml di ringer+ Tranex 1 gr, necessaria valutazione chirurgica immediata. [PST]"
+    }
+  },
+  "chiamata_63": {
+    "testo_chiamata": "Sì pronto, mio padre è caduto da una scala in casa, ha battuto la testa e ha una ferita che sanguina molto. È un paziente anticoagulato, stava cambiando una lampadina. È cosciente ma confuso, serve subito un’ambulanza, vi prego!",
+
+    "caso_stabile": {
+      "MSB": "Maschio, 76 anni, caduta da scala da circa 1.5 m, trauma cranico con ferita frontale, anticoagulato (NAO), cosciente, GCS 15, PA 135/80 mmHg, FC 88 bpm, SpO₂ 98%, nausea, ferita compressa e medicata. [PST]",
+      "MSA1": "Maschio, 76 anni, trauma cranico contusivo con ferita frontale sanguinante, su NAO, cosciente ma lievemente disorientato, GCS 15, PA 135/80 mmHg, FC 88 bpm, SpO₂ 98%, ferita medicata, trasporto in PS per valutazione TC. [PST]",
+      "MSA2": "Maschio, 76 anni, trauma cranico su terapia anticoagulante, GCS 15, cosciente ma con nausea e ferita lacero-contusa fronte, PA 135/80 mmHg, FC 88 bpm, SpO₂ 98%, immobilizzato per precauzione, analgesia con paracetamolo EV. [PST]"
+    },
+
+    "poco_stabile": {
+      "MSB": "Maschio, 76 anni, trauma cranico con amnesia retrograda, su anticoagulanti (NAO), GCS 13, PA 110/70 mmHg, FC 95 bpm, SpO₂ 96%, ferita frontale con sanguinamento moderato, paziente rallentato. [CTZ]",
+      "MSA1": "Maschio, 76 anni, caduta da scala, trauma cranico su NAO, GCS 13, stato confusionale, PA 110/70 mmHg, FC 95 bpm, SpO₂ 96%, ferita frontale medicata, collocato in tavola spinale, infusione cristalloidi in corso. [CTZ]",
+      "MSA2": "Maschio, 76 anni, trauma cranico con stato confusionale e amnesia, su NAO, GCS 13, PA 110/70 mmHg, FC 95 bpm, SpO₂ 96%, ferita trattata, monitoraggio attivo, trasporto con codice giallo, possibile emorragia cerebrale. [CTZ]"
+    },
+
+    "critico": {
+      "MSB": "Maschio, 76 anni, caduta da scala, trauma cranico su NAO, incosciente al nostro arrivo, GCS 8, PA 90/60 mmHg, FC 120 bpm, SpO₂ 92%, ferita frontale con fuoriuscita di sangue e alterazione pupillare. [NCH]",
+      "MSA1": "Maschio, 76 anni, trauma cranico maggiore su anticoagulanti, GCS 8, PA 90/60 mmHg, FC 120 bpm, SpO₂ 92%, pupilla dx midriatica e non reagente, ventilazione assistita con Ambu, trasporto urgente in centro neurochirurgico. [NCH]",
+      "MSA2": "Maschio, 76 anni, trauma cranico severo con alterazione pupillare dx, GCS 8, PA 90/60 mmHg, FC 120 bpm, SpO₂ 92%, su NAO, intubato, accessi EV bilaterali, trasporto urgente verso NCH, TC cranio richiesta. [NCH]"
+    }
+  },
+  "chiamata_64": {
+    "testo_chiamata": "Sì pronto, sono a casa con mio marito a (indirizzo abitazione), gli è caduto addosso dell’olio bollente in cucina, si è ustionato il braccio e parte del torace, la pelle è molto rossa e ci sono delle bolle, ha davvero tanto dolore. Ci serve aiuto subito!", 
+
+    "caso_stabile": {
+      "MSB": "Maschio, 42 anni, ustione di II grado arto superiore dx e regione toracica anteriore, circa 10% TSA, dolore riferito 7/10, cosciente, stabile, PA 130/85 mmHg, FC 90 bpm, SpO₂ 99%, raffreddamento in atto con fisiologica. [PST]", 
+      "MSA1": "Maschio, 42 anni, ustione II grado arto sup. dx e torace con olio bollente, 10% TSA, cosciente, collaborante, raffreddamento effettuato con fisiologica. [PST]", 
+      "MSA2": "Maschio, 42 anni, ustione II grado arto sup. dx e torace con olio bollente, 10% TSA, cosciente, collaborante, raffreddamento effettuato con fisiologica, analgesia con paracetamolo EV, Non necessario supporto medico al momento. [PST]" 
+    },
+
+    "poco_stabile": {
+      "MSB": "Maschio, 42 anni, ustione di II grado arto superiore dx, torace e addome, 20% TSA, dolore intenso, PA 110/70 mmHg, FC 105 bpm, SpO₂ 97%, nausea e tremori. [PST]", 
+      "MSA1": "Maschio, 42 anni, ustione di II grado torace e addome 20% TSA, dolore severo, iniziato trattamento con garze per ustioni, 500 ml EV di cristalloidi. [PST]", 
+      "MSA2": "Maschio, 42 anni, ustione di II grado torace e addome circa 20% TSA, dolore severo, iniziato trattamento con garze per ustioni, 500 ml EV di cristalloidi, analgesia con ketorolac. Vie aeree libere, non ci sono criteri di centralizzazione al momento. [PST]" 
+    },
+
+    "critico": {
+      "MSB": "Maschio, 42 anni, ustione III grado volto, torace ed addome, 40% TSA, sospetta inalazione da vapore bollente, confuso, PA 90/60 mmHg, FC 125 bpm, SpO₂ 93%, paziente molto sofferente, è possibile inviare MSA?. [CTZ]", 
+      "MSA1": "Maschio, 42 anni, ustione III grado volto, torace ed addome, 40% TSA, segni di inalazione con stridore e dispnea, PA 90/60 mmHg, FC 125 bpm, SpO₂ 93%, in corso infusione di cristalloidi, necessario supporto medico e centralizzazione. [CTZ]", 
+      "MSA2": "Maschio, 42 anni, ustione III grado volto, torace ed addome, 40% TSA, segni di inalazione con stridore e dispnea, PA 90/60 mmHg, FC 125 bpm, SpO₂ 93%, in corso infusione di cristalloidi, fentanil 100mcg EV, intubato sul posto per rischio edema glottico, invio urgente in centro grandi ustionati. [CTZ]" 
+    }
+  },
+  "chiamata_65": {
+    "testo_chiamata": "Buongiorno, chiamo dal Pronto Soccorso dell’ospedale di (Pronto Soccorso), abbiamo un paziente con sospetta emorragia subaracnoidea da aneurisma cerebrale. Abbiamo eseguito TC e angio-TC che confermano il quadro, attualmente il paziente è stabile ma sintomatico. Necessitiamo di trasferimento urgente in centro neurochirurgico."
+    ,
+    "caso_stabile": {
+      "MSB": "Maschio, 54 anni, cefalea improvvisa e violenta, TC cranio positiva per ESA, angio-TC con evidenza di aneurisma comunicante anteriore, GCS 15, PA 145/90 mmHg, FC 88 bpm, SpO₂ 98%. In ossigenoterapia. Trasferimento richiesto in centro neurochirurgico. [NCH]",
+      "MSA1": "Maschio, 54 anni, emorragia subaracnoidea diagnosticata da TC, GCS 15, cefalea ingravescente, parametri vitali stabili. Accessi EV per infusione controllata, terapia antiipertensiva in corso. Necessita trasferimento per intervento neurochirurgico precoce. [NCH]",
+      "MSA2": "Maschio, 54 anni, aneurisma cerebrale rotto con ESA, vigilanza conservata, parametri emodinamici nella norma, trasferimento secondario in urgenza per trattamento endovascolare/chirurgico. Nessun supporto ventilatorio necessario al momento. [NCH]"
+    },
+    "poco_stabile": {
+      "MSB": "Maschio, 54 anni, emorragia subaracnoidea con stato confusionale e vomito, GCS 13, PA 165/95 mmHg, FC 102 bpm, SpO₂ 96%. TC positiva per ESA con ventricoli inizialmente dilatati. L'equipe medica dell'ospedale ci accompagna per il trasporto. [NCH]",
+      "MSA1": "Maschio, 54 anni, ESA con iniziale deterioramento neurologico, GCS 13, PA 165/95 mmHg, FC 102 bpm, segni iniziali di ipertensione endocranica. Posizionamento di accesso EV centrale in corso, analgesia e sedazione leggera, monitoraggio continuo. Trasporto in emergenza. [NCH]",
+      "MSA2": "Maschio, 54 anni, ESA con sintomi ingravescenti, GCS 13, segni di irritazione meningea, PA 165/95 mmHg, FC 102 bpm, SpO₂ 96%. Paziente sedato leggermente per contenere agitazione, in monitoraggio continuo. Trasferimento urgente per trattamento neurochirurgico. [NCH]"
+    },
+    "critico": {
+      "MSB": "Maschio, 54 anni, ESA massiva, giunto in PS incosciente, GCS 6, intubato, TC: emorragia diffusa con idrocefalo acuto. PA 90/50 mmHg, FC 120 bpm, SpO₂ 91%. L'equipe medica dell'ospedale ci accompagna per il trasporto. [NCH]",
+      "MSA1": "Maschio, 54 anni, aneurisma cerebrale rotto, GCS 6, intubato, ventilato, accessi EV bilaterali, in corso infusione di noradrenalina, sedazione profonda. TC: ESA massiva, idrocefalo, indicazione urgente a DVE e intervento. [NCH]",
+      "MSA2": "Maschio, 54 anni, paziente intubato per coma da ESA, GCS 6, stabilizzazione emodinamica in atto, noradrenalina in infusione, monitoraggio invasivo attivo, trasporto urgente richiesto per neurochirurgia d’urgenza. [NCH]"
+    }
+  },
+  "chiamata_66": {
   "testo_chiamata": "Pronto, chiamo da (indirizzo abitazione). Mio marito, 58 anni, ha iniziato all’improvviso a respirare malissimo, ansima e non riesce a parlare. È diventato blu in volto e si tiene il petto. Aiutateci, sta peggiorando velocemente!",
   "caso_stabile": {
     "MSB": "Maschio, 58 anni, vigile ma affaticato. Dispnea moderata, SpO₂ 94%, FC 96 bpm, PA 130/85 mmHg. Riferita bronchite cronica in anamnesi. Somministrato O₂ 4 l/min. [PS]",
@@ -1097,27 +1200,6 @@
       "MSB": "Femmina, 28 anni, incosciente dopo puntura d’ape, cianotica, PA 75/40 mmHg, FC 130 bpm, SpO₂ 86%, dispnea severa, rantoli, O₂ 15 lt/min, richiesta MSA con urgenza. [RIANIMAZIONE]",
       "MSA1": "Femmina, 28 anni, shock anafilattico con ipotensione severa e insufficienza respiratoria, PA 75/40 mmHg, FC 130 bpm, SpO₂ 86%. Somministrata adrenalina 0,5 mg IM, 0,5 mg per aerosol, clorfenamina 10 mg IM ed idrocortisone 1 gr EV, O₂ 15 lt/min, rischio compromissione vie aeree. Richiesto medico con urgenza. [RIANIMAZIONE]",
       "MSA2": "Femmina, 28 anni, anafilassi grave, incosciente, intubata sul posto per insufficienza respiratoria, Somministrata adrenalina 0,5 mg IM, 0,5 mg per aerosol, clorfenamina 10 mg IM ed idrocortisone 1 gr, cristalloidi EV, in trattamento per shock. Trasporto urgente in PS. [RIANIMAZIONE]"
-    }
-  },
-  "chiamata_70": {
-    "testo_chiamata": "Buongiorno, vi chiamo da casa mia a (indirizzo abitazione), mio padre di 84 anni è inciampato per terra, ora non riesce a muovere la gamba e urla dal dolore, ha la gamba storta. È cosciente ma molto spaventato e dolente, potete venire subito?",
-    
-    "caso_stabile": {
-      "MSB": "Maschio, 84 anni, caduta accidentale in casa, dolore intenso all'anca sx, arto accorciato ed extrarotato, PA 135/80 mmHg, FC 85 bpm, SpO₂ 97%. Cosciente e orientato. Immobilizzato con materassino. [OTT]",
-      "MSA1": "Maschio, 84 anni, sospetta frattura femore sx post caduta da scala, arto deformato, dolore 8/10, PA 135/80 mmHg, FC 85 bpm. Somministrato paracetamolo EV 1g. Immobilizzato con materassino. [OTT]",
-      "MSA2": "Maschio, 84 anni, sospetta frattura femorale sx, paziente stabile, analgesia in atto, immobilizzazione eseguita. Nessuna evidenza di altre lesioni, Immobilizzato con materassino, Non necessaria la presenza di MSA. [OTT]"
-    },
-
-    "poco_stabile": {
-      "MSB": "Maschio, 84 anni, caduta accidentale in casa, dolore intenso all'anca sx, arto accorciato ed extrarotato, dolore intenso, PA 100/60 mmHg, FC 110 bpm, SpO₂ 95%, pallido e sudato. Immobilizzato con materassino. [PST]",
-      "MSA1": "Maschio, 84 anni, sospetta frattura femore sx, segni di ipotensione post-traumatica, GCS 15, PA 100/60, FC 110 bpm, SpO₂ 95%. Somministrati 500 ml cristalloidi, immobilizzato con materassino. [PST]",
-      "MSA2": "Maschio, 84 anni, sospetta frattura femore sx con ipoperfusione, GCS 15, PA 100/60, FC 110 bpm, SpO₂ 95%, in corso infusione EV e analgesia. Attento monitoraggio. [PST]"
-    },
-
-    "critico": {
-      "MSB": "Maschio, 84 anni, caduta da scala, trauma cranico e bacino, trovato incosciente, PA 85/50 mmHg, FC 120 bpm, SpO₂ 89%, presenza di ematoma parietale dx. Pz scoagulato per Fibrillazione Atriale. Richiesto MSA urgente. [NCH]",
-      "MSA1": "Maschio, 84 anni, caduta da scala, sospetto trauma cranico e frattura femorale, GCS 9, PA 85/50 mmHg, FC 120 bpm, SpO₂ 89%. In corso infusione cristalloidi ed analgesia. Richiesta presenza medica per possibile intubazione. Pz in NAO per Fibrillazione Atriale. [NCH]",
-      "MSA2": "Maschio, 84 anni, caduta da scala, sospetto trauma cranico e frattura femorale con GCS 9, ipotensione e segni di shock. Intubato sul posto, trasporto urgente in neurochirurgia. Pz in NAO per Fibrillazione Atriale. [NCH]"
     }
   },
   "chiamata_71": {
@@ -1539,7 +1621,7 @@
       "MSA1": "Femmina, 27 anni, grave broncospasmo da inalazione di vapori tossici da miscela di candeggina e ammoniaca. Respiro sibilante marcato, SpO₂ 85%, PA 90/60 mmHg, FC 130 bpm. Accesso EV x2, O₂ alti flussi, somministrati: Salbutamolo 5 mg, Ipratropio 0.5 mg, Urbason 40 mg. Dopo terapia parziale miglioramento, necessaria osservazione in ospedale. [DEA]", 
       "MSA2": "Femmina, 27 anni, crisi respiratoria severa da inalazione di vapori chimici. Broncospasmo marcato a seguito di esposizione a vapori tossici da miscela di candeggina e ammoniaca, SpO₂ 84%, PA 88/55 mmHg, FC 132 bpm. Accesso EV x2, O₂ alti flussi, broncodilatatori nebulizzati, cortisonico EV, Ketamina 50 mg per agitazione. [DEA]" 
     }
-  },
+    },
   "chiamata_91": {
     "testo_chiamata": " Ci serve il vostro aiuto, mio fratello ha provato a bere della candeggina, dice che vuole farla finita. È un paziente seguito per problemi psichiatrici ed ora è agitato ma non capiamo se l'ha davvero ingerita o no. Siamo a casa, vi prego venite subito! L'indirizzo è (indirizzo abitazione).", 
 
