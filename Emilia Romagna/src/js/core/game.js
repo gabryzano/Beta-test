@@ -819,11 +819,11 @@ class EmergencyDispatchGame {
         // Definisce le centrali limitrofe per ogni centrale principale
         switch (centrale) {
             case 'OVEST':
-                return ['EST']; // Parma può richiedere supporto da Bologna
+                return ['Est']; // Parma può richiedere supporto da Bologna
             case 'EST':
-                return ['OVEST', 'ROMAGNA']; // Bologna può richiedere supporto da Parma e Ravenna
+                return ['Ovest', 'Romagna']; // Bologna può richiedere supporto da Parma e Ravenna
             case 'ROMAGNA':
-                return ['EST']; // Ravenna può richiedere supporto da Bologna
+                return ['Est']; // Ravenna può richiedere supporto da Bologna
             default:
                 return [];
         }
@@ -1709,7 +1709,15 @@ class EmergencyDispatchGame {
         const luogoSelect = document.getElementById('luogo');
         if (luogoSelect) {
             luogoSelect.innerHTML = '';
-            const opzioniLuogo = ['Casa', 'Strada', 'Esercizi pubblici', 'Impianto lavorativo', 'Impianto sportivo', 'Scuola', 'Altro'];
+            const opzioniLuogo = [
+                'S - Strada',
+                'P - Esercizio pubblico', 
+                'Y - Impianto sportivo',
+                'K - Casa',
+                'L - Impianto lavorativo',
+                'Q - Scuola',
+                'Z - Altro'
+            ];
             opzioniLuogo.forEach(opt => {
                 const option = document.createElement('option');
                 option.value = opt;
@@ -1722,7 +1730,23 @@ class EmergencyDispatchGame {
         if (patologiaSelect) {
             patologiaSelect.innerHTML = '';
             const opzioniPatologia = [
-                'Traumatica','Cardiocircolatoria','Respiratoria','Neurologica','Psichiatrica','Tossicologica','Metabolica','Gastroenterologica','Urologica','Oculistica','Otorinolaringoiatrica','Dermatologica','Ostetrico-ginecologica','Infettiva','Neoplastica','Altra patologia','Non identificata'
+                'C 1 - Traumatica',
+                'C 2 - Cardiocircolatoria', 
+                'C 3 - Respiratoria',
+                'C 4 - Neurologica',
+                'C 5 - Psichiatrica',
+                'C 6 - Neoplastica',
+                'C 7 - Tossicologica',
+                'C 8 - Metabolica',
+                'C 9 - Gastroenterologica',
+                'C10 - Urologica',
+                'C11 - Oculistica',
+                'C12 - Otorinolaringoiatrica',
+                'C13 - Dermatologica',
+                'C14 - Ostetricoginecologica',
+                'C15 - Infettiva',
+                'C19 - Altra patologia',
+                'C20 - Non identificata'
             ];
             opzioniPatologia.forEach(opt => {
                 const option = document.createElement('option');
@@ -1735,7 +1759,7 @@ class EmergencyDispatchGame {
         const codiceSelect = document.getElementById('codice');
         if (codiceSelect) {
             codiceSelect.innerHTML = '';
-            ['Rosso','Giallo','Verde'].forEach(opt => {
+            ['Bianco', 'Verde', 'Giallo', 'Rosso', 'Blu'].forEach(opt => {
                 const option = document.createElement('option');
                 option.value = opt;
                 option.textContent = opt;
