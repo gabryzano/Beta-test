@@ -817,13 +817,13 @@ class EmergencyDispatchGame {
 
     getCentraliLimitrofe(centrale) {
         // Definisce le centrali limitrofe per ogni centrale principale
-        switch (centrale) {
+        switch (centrale.toUpperCase()) {
             case 'OVEST':
-                return ['Est']; // Parma può richiedere supporto da Bologna
+                return ['EST']; // Parma può richiedere supporto da Bologna
             case 'EST':
-                return ['Ovest', 'Romagna']; // Bologna può richiedere supporto da Parma e Ravenna
+                return ['OVEST', 'ROMAGNA']; // Bologna può richiedere supporto da Parma e Ravenna
             case 'ROMAGNA':
-                return ['Est']; // Ravenna può richiedere supporto da Bologna
+                return ['EST']; // Ravenna può richiedere supporto da Bologna
             default:
                 return [];
         }
@@ -969,7 +969,9 @@ class EmergencyDispatchGame {
         // Carica mezzi delle centrali limitrofe
         const centraliLimitrofe = this.getCentraliLimitrofe(currentCentral);
         for (const centrale of centraliLimitrofe) {
-            const limitrofaMezziFile = `src/data/Mezzi_${centrale}.json`;
+            // Converti il nome centrale per il file (Prima lettera maiuscola, resto minuscolo)
+            const centraleFile = centrale.charAt(0).toUpperCase() + centrale.slice(1).toLowerCase();
+            const limitrofaMezziFile = `src/data/Mezzi_${centraleFile}.json`;
             try {
                 const res = await fetch(limitrofaMezziFile);
                 if (res.ok) {
@@ -1184,14 +1186,20 @@ class EmergencyDispatchGame {
            // Filtra postazioni per centrale: mostra postazioni limitrofe con sfondo bianco
            const currentCentral = (window.selectedCentral||'').trim().toUpperCase();
            
-           // Determina se la postazione appartiene alla centrale selezionata
-           const postazioneCentral = (postazione.central || '').trim().toUpperCase();
-           
-           // Determina se è una postazione "limitrofa" (da evidenziare con sfondo bianco)
+           // Determina se è una postazione "limitrofa" basandosi sui mezzi che contiene
            let isLimitrofa = false;
-           if (postazioneCentral && postazioneCentral !== currentCentral) {
-               const centraliLimitrofe = this.getCentraliLimitrofe(currentCentral);
-               isLimitrofa = centraliLimitrofe.includes(postazioneCentral) || postazioneCentral === 'HEMS';
+           const centraliLimitrofe = this.getCentraliLimitrofe(currentCentral);
+           
+           // Verifica se la postazione contiene mezzi di centrali limitrofe
+           const mezziDellaPostazione = postazione.mezzi || [];
+           for (const mezzo of mezziDellaPostazione) {
+               const mezzoCentral = (mezzo.central || '').trim().toUpperCase();
+               if (mezzoCentral && mezzoCentral !== currentCentral) {
+                   if (centraliLimitrofe.includes(mezzoCentral) || mezzoCentral === 'HEMS') {
+                       isLimitrofa = true;
+                       break;
+                   }
+               }
            }
             
             const mezziLiberi = (this.mezzi || []).filter(m => {
@@ -1243,12 +1251,19 @@ class EmergencyDispatchGame {
             marker.on('popupopen', () => {
                 // Determine if postazione is limitrofa (for icon update)
                 const currentCentralNow = (window.selectedCentral||'').trim().toUpperCase();
-                const postazioneCentralNow = (postazione.central || '').trim().toUpperCase();
+                const centraliLimitrofeNow = this.getCentraliLimitrofe(currentCentralNow);
                 
+                // Verifica se la postazione contiene mezzi di centrali limitrofe
                 let isSpecial = false;
-                if (postazioneCentralNow && postazioneCentralNow !== currentCentralNow) {
-                    const centraliLimitrofe = this.getCentraliLimitrofe(currentCentralNow);
-                    isSpecial = centraliLimitrofe.includes(postazioneCentralNow) || postazioneCentralNow === 'HEMS';
+                const mezziDellaPostazioneNow = postazione.mezzi || [];
+                for (const mezzo of mezziDellaPostazioneNow) {
+                    const mezzoCentral = (mezzo.central || '').trim().toUpperCase();
+                    if (mezzoCentral && mezzoCentral !== currentCentralNow) {
+                        if (centraliLimitrofeNow.includes(mezzoCentral) || mezzoCentral === 'HEMS') {
+                            isSpecial = true;
+                            break;
+                        }
+                    }
                 }
                 
                 const mezziLiberiNow = (this.mezzi || []).filter(m =>
