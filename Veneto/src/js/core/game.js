@@ -1541,7 +1541,11 @@ class EmergencyDispatchGame {
         
         const problemaSelect = document.getElementById('problema');
         if (problemaSelect) {
-            problemaSelect.innerHTML = '';
+            // RIMUOVI listener precedenti per evitare duplicati
+            problemaSelect.replaceWith(problemaSelect.cloneNode(false));
+            const newProblemaSelect = document.getElementById('problema');
+            
+            newProblemaSelect.innerHTML = '';
             const opzioniProblema = [
                 {value: 'M', text: 'M - PROBLEMA MEDICO'},
                 {value: 'T', text: 'T - PROBLEMA TRAUMATICO'},
@@ -1552,11 +1556,11 @@ class EmergencyDispatchGame {
                 option.value = opt.value;
                 option.textContent = opt.text;
                 if (call.problema === opt.value) option.selected = true;
-                problemaSelect.appendChild(option);
+                newProblemaSelect.appendChild(option);
             });
             
-            // Aggiungi listener per aggiornare sottocategoria
-            problemaSelect.addEventListener('change', updateSottocategoriaProblema);
+            // Aggiungi listener per aggiornare sottocategoria - UNA SOLA VOLTA
+            newProblemaSelect.addEventListener('change', updateSottocategoriaProblema);
         }
         
         // Funzione per aggiornare SOTTOCATEGORIA basato sulla selezione PROBLEMA
@@ -1607,10 +1611,12 @@ class EmergencyDispatchGame {
             updateDettProblema();
         }
         
-        // Aggiungi listener per sottocategoria
+        // Aggiungi listener per sottocategoria - RIMUOVI duplicati
         const sottocategoriaSelect = document.getElementById('sottocategoria-problema');
         if (sottocategoriaSelect) {
-            sottocategoriaSelect.addEventListener('change', updateDettProblema);
+            sottocategoriaSelect.replaceWith(sottocategoriaSelect.cloneNode(true));
+            const newSottocategoriaSelect = document.getElementById('sottocategoria-problema');
+            newSottocategoriaSelect.addEventListener('change', updateDettProblema);
         }
         
         // Funzione per aggiornare DETT. PROBLEMA basato sulla sottocategoria
