@@ -2005,13 +2005,17 @@ class EmergencyDispatchGame {
         }
         const luogoSelect = document.getElementById('luogo');
         if (luogoSelect) {
-            luogoSelect.innerHTML = '';
+            // RIMUOVI listener precedenti per evitare duplicati
+            luogoSelect.replaceWith(luogoSelect.cloneNode(false));
+            const newLuogoSelect = document.getElementById('luogo');
+            
+            newLuogoSelect.innerHTML = '';
             // Aggiungi opzione vuota come prima opzione
             const emptyOption = document.createElement('option');
             emptyOption.value = '';
             emptyOption.textContent = '-- Seleziona luogo --';
             emptyOption.selected = !call.luogo; // Seleziona solo se non c'è valore salvato
-            luogoSelect.appendChild(emptyOption);
+            newLuogoSelect.appendChild(emptyOption);
             
             const opzioniLuogo = ['CASA','STRADA','UFFICI ED ES. PUBBL.','STR. SANITARIA','IMPIANTO SPORTIVO','IMPIANTO LAVORATIVO','SCUOLE','STAZIONE','FERROVIA','METROPOLITANA','AEREOPORTI','QUESTURA/CASERME','LUOGHI DI CULTO','IMPERVIO','ALTRO LUOGO'];
             opzioniLuogo.forEach(opt => {
@@ -2019,13 +2023,13 @@ class EmergencyDispatchGame {
                 option.value = opt;
                 option.textContent = opt;
                 option.selected = call.luogo === opt; // Ripristina valore salvato
-                luogoSelect.appendChild(option);
+                newLuogoSelect.appendChild(option);
             });
             
-            // Event listener per aggiornare Dett. Luogo e salvare automaticamente
-            luogoSelect.addEventListener('change', () => {
-                call.luogo = luogoSelect.value; // Salva automaticamente
-                this.updateDettLuogo(luogoSelect.value);
+            // Event listener per aggiornare Dett. Luogo e salvare automaticamente - UNA SOLA VOLTA
+            newLuogoSelect.addEventListener('change', () => {
+                call.luogo = newLuogoSelect.value; // Salva automaticamente
+                this.updateDettLuogo(newLuogoSelect.value);
             });
         }
         
@@ -2033,13 +2037,17 @@ class EmergencyDispatchGame {
         
         const motivoSelect = document.getElementById('motivo');
         if (motivoSelect) {
-            motivoSelect.innerHTML = '';
+            // RIMUOVI listener precedenti per evitare duplicati
+            motivoSelect.replaceWith(motivoSelect.cloneNode(false));
+            const newMotivoSelect = document.getElementById('motivo');
+            
+            newMotivoSelect.innerHTML = '';
             // Aggiungi opzione vuota come prima opzione
             const emptyOption = document.createElement('option');
             emptyOption.value = '';
             emptyOption.textContent = '-- Seleziona motivo --';
             emptyOption.selected = !call.motivo; // Seleziona solo se non c'è valore salvato
-            motivoSelect.appendChild(emptyOption);
+            newMotivoSelect.appendChild(emptyOption);
             
             const opzioniMotivo = ['MEDICO ACUTO','SOCCORSO PERSONA','EVENTO VIOLENTO','CADUTA','INCIDENTE/INFORTUNIO','INC. STRADALE','INC. FERROVIA','INC. ARIA','INC. ACQUA','INC. MONTANO','INC. SPELEO/FORRA','INTOSSICAZIONE','ANIMALI','PREVENZIONE','EVENTO DI MASSA','MAXI EMERGENZA','SOCCORSO SECONDARIO','ALTRO/NON NOTO'];
             opzioniMotivo.forEach(opt => {
@@ -2047,13 +2055,13 @@ class EmergencyDispatchGame {
                 option.value = opt;
                 option.textContent = opt;
                 option.selected = call.motivo === opt; // Ripristina valore salvato
-                motivoSelect.appendChild(option);
+                newMotivoSelect.appendChild(option);
             });
             
-            // Event listener per aggiornare Dett. Motivo e salvare automaticamente
-            motivoSelect.addEventListener('change', () => {
-                call.motivo = motivoSelect.value; // Salva automaticamente
-                this.updateDettMotivo(motivoSelect.value);
+            // Event listener per aggiornare Dett. Motivo e salvare automaticamente - UNA SOLA VOLTA
+            newMotivoSelect.addEventListener('change', () => {
+                call.motivo = newMotivoSelect.value; // Salva automaticamente
+                this.updateDettMotivo(newMotivoSelect.value);
             });
         }
         
@@ -2061,13 +2069,17 @@ class EmergencyDispatchGame {
         
         const coscienzaSelect = document.getElementById('coscienza');
         if (coscienzaSelect) {
-            coscienzaSelect.innerHTML = '';
+            // RIMUOVI listener precedenti per evitare duplicati
+            coscienzaSelect.replaceWith(coscienzaSelect.cloneNode(false));
+            const newCoscienzaSelect = document.getElementById('coscienza');
+            
+            newCoscienzaSelect.innerHTML = '';
             // Aggiungi opzione vuota come prima opzione
             const emptyOption = document.createElement('option');
             emptyOption.value = '';
             emptyOption.textContent = '-- Seleziona coscienza --';
             emptyOption.selected = !call.coscienza; // Seleziona solo se non c'è valore salvato
-            coscienzaSelect.appendChild(emptyOption);
+            newCoscienzaSelect.appendChild(emptyOption);
             
             const opzioniCoscienza = ['RISPONDE','ALTERATA','NON RISPONDE','NON RISPONDE NON RESPIRA','INCOSCIENTE','NON NOTO'];
             opzioniCoscienza.forEach(opt => {
@@ -2075,24 +2087,28 @@ class EmergencyDispatchGame {
                 option.value = opt;
                 option.textContent = opt;
                 option.selected = call.coscienza === opt; // Ripristina valore salvato
-                coscienzaSelect.appendChild(option);
+                newCoscienzaSelect.appendChild(option);
             });
             
-            // Aggiungi listener per salvare automaticamente
-            coscienzaSelect.addEventListener('change', () => {
-                call.coscienza = coscienzaSelect.value; // Salva automaticamente
+            // Aggiungi listener per salvare automaticamente - UNA SOLA VOLTA
+            newCoscienzaSelect.addEventListener('change', () => {
+                call.coscienza = newCoscienzaSelect.value; // Salva automaticamente
             });
         }
         
         const noteEventoSelect = document.getElementById('note-evento');
         if (noteEventoSelect) {
-            noteEventoSelect.innerHTML = '';
+            // RIMUOVI listener precedenti per evitare duplicati
+            noteEventoSelect.replaceWith(noteEventoSelect.cloneNode(false));
+            const newNoteEventoSelect = document.getElementById('note-evento');
+            
+            newNoteEventoSelect.innerHTML = '';
             // Aggiungi opzione vuota come prima opzione
             const emptyOption = document.createElement('option');
             emptyOption.value = '';
             emptyOption.textContent = '-- Seleziona note evento --';
             emptyOption.selected = !call.noteEvento; // Seleziona solo se non c'è valore salvato
-            noteEventoSelect.appendChild(emptyOption);
+            newNoteEventoSelect.appendChild(emptyOption);
             
             const opzioniNoteEvento = ['RESPIRA','DOLORE','DEFORMITA','CARDIOCIRCOLATORIO','EDEMA','DISTRETTO TRAUMA','CONVULSIONI','CPSS','VERTIGINI','STATO CONFUSIONALE','ASTENIA','SEGNI','CUTE','SANGUINA','ABRASIONE/CONTUSIONE','DIABETICO','INSUFFICIENZA RENALE','PENETRANTE','PROIETTATO','SBALZATO','INCASTRATO','-2.5 MT','2.5 - 5 MT','+ 5 MT','TRAVAGLIO','CONTRAZIONI - 5 MIN','GRAVIDANZA','PARTO','INCENDIO','INCENDIO INDUSTRIALE','INCENDIO ABITAZIONE','SOSP INTOSSICAZIONE DA MONOSSIDO','AUTOLESIONISMO','PSICHIATRICO NOTO','NO/NON NOTO','ALTRI SEGNI','SEGUE'];
             opzioniNoteEvento.forEach(opt => {
@@ -2100,13 +2116,13 @@ class EmergencyDispatchGame {
                 option.value = opt;
                 option.textContent = opt;
                 option.selected = call.noteEvento === opt; // Ripristina valore salvato
-                noteEventoSelect.appendChild(option);
+                newNoteEventoSelect.appendChild(option);
             });
             
-            // Event listener per aggiornare Note evento 2 e salvare automaticamente
-            noteEventoSelect.addEventListener('change', () => {
-                call.noteEvento = noteEventoSelect.value; // Salva automaticamente
-                this.updateNoteEvento2(noteEventoSelect.value);
+            // Event listener per aggiornare Note evento 2 e salvare automaticamente - UNA SOLA VOLTA
+            newNoteEventoSelect.addEventListener('change', () => {
+                call.noteEvento = newNoteEventoSelect.value; // Salva automaticamente
+                this.updateNoteEvento2(newNoteEventoSelect.value);
             });
         }
         
@@ -2116,25 +2132,29 @@ class EmergencyDispatchGame {
         
         const codiceSelect = document.getElementById('codice');
         if (codiceSelect) {
-            codiceSelect.innerHTML = '';
+            // RIMUOVI listener precedenti per evitare duplicati
+            codiceSelect.replaceWith(codiceSelect.cloneNode(false));
+            const newCodiceSelect = document.getElementById('codice');
+            
+            newCodiceSelect.innerHTML = '';
             // Aggiungi opzione vuota come prima opzione
             const emptyOption = document.createElement('option');
             emptyOption.value = '';
             emptyOption.textContent = '-- Seleziona codice --';
             emptyOption.selected = !call.codice; // Seleziona solo se non c'è valore salvato
-            codiceSelect.appendChild(emptyOption);
+            newCodiceSelect.appendChild(emptyOption);
             
             ['ROSSO','GIALLO','VERDE'].forEach(opt => {
                 const option = document.createElement('option');
                 option.value = opt;
                 option.textContent = opt;
                 option.selected = call.codice === opt; // Ripristina valore salvato
-                codiceSelect.appendChild(option);
+                newCodiceSelect.appendChild(option);
             });
             
-            // Aggiungi listener per salvare automaticamente
-            codiceSelect.addEventListener('change', () => {
-                call.codice = codiceSelect.value; // Salva automaticamente
+            // Aggiungi listener UNA SOLA VOLTA
+            newCodiceSelect.addEventListener('change', () => {
+                call.codice = newCodiceSelect.value; // Salva automaticamente
             });
         }
         const note1 = document.getElementById('altro-evento');
