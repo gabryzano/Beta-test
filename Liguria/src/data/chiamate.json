@@ -31,7 +31,7 @@
         },
         "caso_critico": {
             "MSB": "Femmina, circa 75 anni, trovata incosciente, respiro lento. Parametri compromessi: FC 40 bpm, PA 70/40 mmHg, SpO₂ 85% non responsiva a nessuno stimolo, immobilizzata. Nessuna anamnesi disponibile. Richiesta MSA.[Rianimazione]",
-            "MSA1": "Paziente incosciente, GCS 6, FC 38 bpm, PA 60/30 mmHg, SpO₂ 80%. Pallore marcato, respiro irregolare. Accesso EV e ossigeno ad alti flussi. Defibrillatore pronto. Richiesto supporto MSA2. [Rianimazione]",
+            "MSA1": "Paziente incosciente, GCS 6, FC 38 bpm, PA 60/30 mmHg, SpO₂ 80%. Pallore marcato, respiro irregolare. Accesso EV e ossigeno ad alti flussi. Defibrillatore pronto. Richiesto supporto medico. [Rianimazione]",
             "MSA2": "Femmina, 75 anni, incosciente all’arrivo. Parametri critici: FC 35 bpm, PA 55/25 mmHg, SpO₂ 75%, GCS 3. Stato comatoso, assenza di risposta. Sedata e intubata. Ventilazione assistita avviata. Sospetto evento cardiovascolare maggiore. Trasferimento urgente in Rianimazione. [Rianimazione]"
         }
     },
@@ -43,13 +43,13 @@
             "MSA2": "Maschio, 16 anni, vigile. Parametri: FC 88 bpm, PA 122/72 mmHg, SpO₂ 98%, GCS 15. Nessuna alterazione neurologica. Episodio compatibile con sincope da sforzo. Nessuna anamnesi significativa.[PS]"
         },
         "caso_poco_stabile": {
-            "MSB": "Maschio, 16 anni, vigile ma ipoteso. FC 105 bpm, PA 90/60 mmHg, SpO₂ 95%. Pallore e sudorazione fredda. Posizionato su barella, idratazione orale. Sospetta disidratazione/ipotensione da calore. Nessuna patologia nota.[DEA]",
+            "MSB": "Maschio, 16 anni, vigile ma ipoteso. FC 105 bpm, PA 90/60 mmHg, SpO₂ 95%. Pallore e sudorazione fredda. Posizionato su barella, idratazione orale. Sospetta disidratazione o colpo di calore. Nessuna patologia nota.[DEA]",
             "MSA1": "Maschio, 16 anni, leggermente soporoso, GCS 13. FC 110 bpm, PA 85/55 mmHg, SpO₂ 94%. Tachicardico e sudato. Ringer Acetato 500ml EV, monitoraggio. Sospetta lipotimia.[DEA]",
             "MSA2": "Maschio, 16 anni, soporoso ma risvegliabile. Parametri: FC 115 bpm, PA 80/50 mmHg, SpO₂ 93%, GCS 12. Accesso EV e monitoraggio neurologico. Possibile reazione vaso-vagale severa. Nessuna anamnesi.[DEA]"
         },
         "caso_critico": {
             "MSB": "Maschio, 16 anni, incosciente all’arrivo, respiro superficiale. FC 40 bpm, PA 70/45 mmHg, SpO₂ 88%. Pallore marcato, stato neurologico compromesso. Nessuna anamnesi nota. Richiesta MSA.[Rianimazione]",
-            "MSA1": "Incosciente, GCS 6, FC 38 bpm, PA 60/30 mmHg, SpO₂ 82%. Accesso EV, O₂ ad alti flussi. ECG in corso, sospetto disturbo del ritmo grave. Richiesto MSA2. [Rianimazione]",
+            "MSA1": "Incosciente, GCS 6, FC 38 bpm, PA 60/30 mmHg, SpO₂ 82%. Accesso EV, O₂ ad alti flussi. ECG in corso, sospetto disturbo del ritmo grave. Richiesto supporto medico. [Rianimazione]",
             "MSA2": "Maschio, 16 anni, incosciente. Parametri vitali compromessi: GCS 12, FC 30 bpm, PA 55/25 mmHg, SpO₂ 78%. Sedato e intubato, ventilazione assistita. Sospetta bradiaritmia severa con sincope. [Rianimazione]"
         }
     },
@@ -80,19 +80,19 @@
         },
         "caso_poco_stabile": {
             "MSB": "Maschio, 25 anni, vigile, trauma emitorace dx, riferisce dispnea. Parametri: FC 110 bpm, PA 95/60 mmHg, SpO₂ 92%. Immobilizzato. Anamnesi muta.[PST]",
-            "MSA1": "Maschio, 25 anni, disorientato, GCS 13. FC 112 bpm, PA 90/55 mmHg, SpO₂ 90%. Dolore toracico e sospetta frattura costale. O₂ 6 l/min, accesso EV, somministrato fentanil 50 mcg. Richiesta valutazione presso PST. [PST]",
+            "MSA1": "Maschio, 25 anni, disorientato, GCS 13. FC 112 bpm, PA 90/55 mmHg, SpO₂ 90%. Dolore toracico e sospetta frattura costale. O₂ 6 l/min, accesso EV. Richiesta valutazione presso PST. [PST]",
             "MSA2": "Maschio, 25 anni, confuso, GCS 12. FC 115 bpm, PA 88/50 mmHg, SpO₂ 89%. Trauma toracico. O₂, somministrato fentanil 100 mcg Ev e monitoraggio. Sospetta contusione polmonare con emotorace. Richiesta valutazione presso PST. [PST]"
         },
         "caso_critico": {
             "MSB": "Maschio, 25 anni, incosciente, respiro russante. FC 40 bpm, PA 60/30 mmHg, SpO₂ 80%. Trauma cranico maggiore. Immobilizzazione spinale, richiesta MSA.[CTZ + NCH]",
-            "MSA1": "GCS 6, FC 38 bpm, PA 55/25 mmHg, SpO₂ 76%. Pupille anisocoriche. Accesso EV, O₂ ad alti flussi. Trauma cranico grave. Richiesta MSA2. [CTZ + NCH]",
+            "MSA1": "GCS 6, FC 38 bpm, PA 55/25 mmHg, SpO₂ 76%. Pupille anisocoriche. Accesso EV, O₂ ad alti flussi. Trauma cranico grave. Richiesto supporto medico. [CTZ + NCH]",
             "MSA2": "Maschio, 25 anni, GCS 6, incosciente. Parametri gravemente compromessi. Intubato, ventilato. Sospetta emorragia cerebrale post-traumatica. Trasferimento urgente in Neurochirurgia. [CTZ + NCH]"
         }
     },
     "chiamata_6": {
         "testo_chiamata": "Buongiorno, chiamo da (indirizzo abitazione). Mio padre, 68 anni, all’improvviso ha iniziato a parlare strano e non riesce a muovere il braccio destro. È successo pochi minuti fa, è sveglio ma molto confuso.",
         "caso_stabile": {
-            "MSB": "Maschio, 68 anni, vigile, lieve disartria. Parametri vitali: FC 76 bpm, PA 140/85 mmHg, SpO₂ 98%. Deficit lieve all’arto superiore dx. Sospetto TIA in risoluzione. Nessun trauma. Diabetico, glicemia 130 mg/dl. [STROKE UNIT]",
+            "MSB": "Maschio, 68 anni, vigile, lieve disartria. Parametri vitali: FC 76 bpm, PA 140/85 mmHg, SpO₂ 98%. Deficit lieve all’arto superiore dx. Sospetto TIA in risoluzione. Nessun trauma. Diabetico noto. [STROKE UNIT]",
             "MSA1": "Maschio, 68 anni, sveglio, orientato. Disartria e parestesie dx. Parametri: FC 78 bpm, PA 145/90 mmHg, SpO₂ 97%, GCS 15. ECG, glicemia 130 mg/dl. Sospetto TIA. [STROKE UNIT]",
             "MSA2": "Maschio, 68 anni, vigile. Paresi lieve arto sup. dx, eloquio rallentato. Parametri: FC 80 bpm, PA 150/90 mmHg, SpO₂ 96%, GCS 15. Richiesta Stroke Unit. [STROKE UNIT]"
         },
@@ -103,7 +103,7 @@
         },
         "caso_critico": {
             "MSB": "Maschio, 68 anni, incosciente. FC 45 bpm, PA 80/50 mmHg, SpO₂ 85%. Anisocoria. Iperteso e diabetico, glicemia 150 mg/dl. Supporto MSA richiesto. [NCH]",
-            "MSA1": "GCS 4, FC 40 bpm, PA 70/40 mmHg, SpO₂ 78%. Alterazione neurologica severa. Intubazione urgente. Richiesto MSA2. [NCH]",
+            "MSA1": "GCS 4, FC 40 bpm, PA 70/40 mmHg, SpO₂ 78%. Alterazione neurologica severa. Intubazione urgente. Richiesto supporto medico. [NCH]",
             "MSA2": "Maschio, 68 anni, incosciente. GCS 3, FC 35 bpm, PA 60/30 mmHg, SpO₂ 72%. Pupille anisocoriche, emorragia cerebrale massiva sospetta. Sedato ed intubato in posto, richiesta neurochirurgia. [NCH]"
         }
     },
@@ -121,25 +121,25 @@
         },
         "caso_critico": {
             "MSB": "Maschio, 40 anni, incosciente. Cianosi evidente. FC 40 bpm, PA 60/40 mmHg, SpO₂ 78%. Arresto respiratorio imminente. Sospetta anafilassi in allergico noto, richiesta MSA.[Rianimazione]",
-            "MSA1": "GCS 6, edema della grottide, SpO₂ 70%. gestione delle vie aeree difficoltosa. FC 38 bpm, PA 55/30 mmHg. Adrenalina 0,5 IM e 0,5 in aerosol, Idrocortisone 1 gr EV + trimeton 1 fiala IM, ventilazione assistita. Richiesto MSA2. [Rianimazione]",
+            "MSA1": "GCS 6, edema della grottide, SpO₂ 70%. gestione delle vie aeree difficoltosa. FC 38 bpm, PA 55/30 mmHg. Adrenalina 0,5 IM e 0,5 in aerosol, Idrocortisone 1 gr EV + trimeton 1 fiala IM, ventilazione assistita. Richiesto supporto medico. [Rianimazione]",
             "MSA2": "Maschio, 40 anni, GCS 3, intubato. Parametri gravemente instabili. Shock anafilattico refrattario alla terapia. Trasferimento urgente in rianimazione. [Rianimazione]"
         }
     },
     "chiamata_8": {
         "testo_chiamata": "Pronto, mi trovo a (indirizzo abitazione), mio marito ha dolore al petto molto forte, gli prende il braccio sinistro e suda freddo. È seduto ma sembra peggiorare. Ha 62 anni e ha già avuto problemi al cuore!",
         "caso_stabile": {
-            "MSB": "Maschio, 62 anni, vigile, dolore toracico irradiato. FC 78 bpm, PA 130/85 mmHg, SpO₂ 96%. ECG inviato. Rifersce dolore tipico. Anamnesi: iperteso, cardiopatico. [EMODINAMICA]",
+            "MSB": "Maschio, 62 anni, vigile, dolore toracico irradiato. FC 78 bpm, PA 130/85 mmHg, SpO₂ 96% Rifersce dolore tipico. Anamnesi: iperteso, cardiopatico. [EMODINAMICA]",
             "MSA1": "Maschio, 62 anni, GCS 15, dolore toracico tipico. FC 80 bpm, PA 135/90 mmHg, SpO₂ 95%. ECG non significativo. Anamnesi: iperteso, cardiopatico.[EMODINAMICA]",
             "MSA2": "Maschio, 62 anni, vigile. Parametri: FC 82 bpm, PA 140/90 mmHg, SpO₂ 94%.  dolore toracico tipico. ECG non significativo. Anamnesi: iperteso, cardiopatico.[EMODINAMICA]"
         },
         "caso_poco_stabile": {
-            "MSB": "Maschio, 62 anni, sudato, dolore toracico persistente. FC 95 bpm, PA 100/60 mmHg, SpO₂ 90%. ECG inviato. Anamnesi: pregresso IMA.[EMODINAMICA]",
+            "MSB": "Maschio, 62 anni, sudato, dolore toracico persistente. FC 95 bpm, PA 100/60 mmHg, SpO₂ 90%. Anamnesi: pregresso IMA.[EMODINAMICA]",
             "MSA1": "Maschio, 62 anni, GCS 14. FC 100 bpm, PA 90/55 mmHg, SpO₂ 94%. Dolore toracico tipico. ECG con sopraslivellamento ST. Aspirina, morfina, O₂, necessaria emodinamica. [EMODINAMICA]",
             "MSA2": "Maschio, 62 anni, instabile. Parametri: FC 110 bpm, PA 85/50 mmHg, SpO₂ 87%. STEMI anteriore. Aspirina, morfina, nitrati ed O₂. [EMODINAMICA]"
         },
         "caso_critico": {
             "MSB": "Maschio, 62 anni, incosciente, non respira. Arresto cardiaco, RCP in corso prima analisi con shock indicato. Riferito dolore toracico nelle ore precedenti, pz cardiopatico noto. Richiesto MSA.[Rianimazione]",
-            "MSA1": "Maschio, 62 anni, arresto cardiaco, RCP in corso dai parenti, eseguite 3 analisi, riscontro di FV. Adrenalina 1 mg EV + Amiodarone 300 mg. Posizionato massaggiatore esterno e LMA, EtCO₂ 28, Sospetto ACC da IMA, richiesta MSA2. [Rianimazione]",
+            "MSA1": "Maschio, 62 anni, arresto cardiaco, RCP in corso dai parenti, eseguite 3 analisi, riscontro di FV. Adrenalina 1 mg EV + Amiodarone 300 mg. Posizionato massaggiatore esterno e LMA, EtCO₂ 28, Sospetto ACC da IMA, richiesto supporto medico. [Rianimazione]",
             "MSA2": "Maschio, 62 anni, in arresto cardiaco, RCP in corso dai parenti, eseguite 3 analisi, riscontro di FV. Adrenalina 1 mg EV + Amiodarone 300 mg, intubato in posto, EtCO₂ 28, posizionato massaggiatore meccanico, pz candidabile ad un percorso ECMO. [Rianimazione]"
         }
     },
@@ -147,17 +147,17 @@
         "testo_chiamata": "Buongiorno, chiamo da (indirizzo abitazione). Un operaio è caduto da una scala, da circa tre metri. È finito a terra sul fianco. È cosciente, ma si lamenta molto e non riesce a muoversi. Abbiamo bisogno di aiuto!",
         "caso_stabile": {
             "MSB": "Maschio, 45 anni, cosciente. Riferito dolore a bacino e arto inferiore. FC 88 bpm, PA 130/80 mmHg, SpO₂ 97%. Immobilizzazione su materassino a depressione. Anamnesi muta. [PST]",
-            "MSA1": "Maschio, 45 anni, vigile, dolore intenso al bacino. FC 90 bpm, PA 135/85 mmHg, SpO₂ 96%, GCS 15. Immobilizzazione, somministrato Ketorolac 30 mg EV. [PST]",
+            "MSA1": "Maschio, 45 anni, vigile, dolore intenso al bacino. FC 90 bpm, PA 135/85 mmHg, SpO₂ 96%, GCS 15. Immobilizzazione spinale. [PST]",
             "MSA2": "Maschio, 45 anni, collaborante, dolore lombare e all’anca sx. FC 92 bpm, PA 130/85 mmHg, SpO₂ 96%. Immobilizzazione e Fentanil 50 mcg EV. Sospetta frattura del bacino. [PST]"
         },
         "caso_poco_stabile": {
             "MSB": "Maschio, 45 anni, cosciente ma pallido. FC 105 bpm, PA 100/65 mmHg, SpO₂ 92%. Trauma al torace e anca, dolore intenso. Immobilizzazione. [CTZ]",
-            "MSA1": "Maschio, 45 anni, disorientato, GCS 13. Trauma toraco-addominale sospetto. FC 110 bpm, PA 90/60 mmHg, SpO₂ 91%. Somministrato Fentanil 50 mcg, accesso EV. [CTZ]",
+            "MSA1": "Maschio, 45 anni, disorientato, GCS 13. Trauma toraco-addominale sospetto. FC 110 bpm, PA 90/60 mmHg, SpO₂ 91%. Necessaria valutazione presso CTZ. [CTZ]",
             "MSA2": "Maschio, 45 anni, GCS 12, trauma pelvico e lombare. Parametri: FC 115 bpm, PA 85/55 mmHg, SpO₂ 89%. Immobilizzazione, infusione Ringer lattato. Trasferimento urgente. [CTZ]"
         },
         "caso_critico": {
             "MSB": "Maschio, 45 anni, incosciente. Trauma cranico e toracico evidente. FC 40 bpm, PA 60/30 mmHg, SpO₂ 80%. Richiesta MSA.[CTS]",
-            "MSA1": "Paziente incosciente con segni di Trauma cranico grave. Pupille anisocoriche, FC 38 bpm, PA 55/25 mmHg. Accesso EV, ventilazione con O₂ 100%, Richiesto MSA2. [CTS]",
+            "MSA1": "Paziente incosciente con segni di Trauma cranico grave. Pupille anisocoriche, FC 38 bpm, PA 55/25 mmHg. Accesso EV, ventilazione con O₂ 100%, Richiesto supporto medico. [CTS]",
             "MSA2": "Maschio, 45 anni, GCS 3. Intubato in posto, trauma cranico severo con instabilità emodinamica. Trasferimento urgente in neurochirurgia. [CTS]"
         }
     },
@@ -175,7 +175,7 @@
         },
         "caso_critico": {
             "MSB": "Maschio, 18 anni, incosciente. FC 120 bpm, PA 80/50 mmHg, SpO₂ 86%. Crisi prolungata, sospetto stato epilettico. Richiesta MSA.[Rianimazione]",
-            "MSA1": "Maschio, 18 anni, in stato epilettico, non risponde a Midazolam. Necessita ventilazione assistita. Midazolam 10 mg EV, richiesta MSA2.[Rianimazione]",
+            "MSA1": "Maschio, 18 anni, in stato epilettico, non risponde a Midazolam. Necessita ventilazione assistita. Richiesto supporto medico.[Rianimazione]",
             "MSA2": "Maschio, 18 anni, in stato epilettico refrattario. GCS 3, intubato. Sedazione profonda, controllo vie aeree. Trasferimento urgente in Rianimazione. [Rianimazione]"
         }
     },
@@ -193,7 +193,7 @@
         },
         "caso_critico": {
             "MSB": "Maschio, 37 anni, incosciente. Emorragia massiva addominale. FC 40 bpm, PA 60/30 mmHg, SpO₂ 75%. Richiesta MSA. [CTS]",
-            "MSA1": "GCS 6, addome teso, ferita penetrante, segni di shock ipovolemico. PA 50/30 mmHg, FC 130, soporoso. Bolo di fisiologica 250ml + tranex 1 gr. Richiesta MSA2. [CTS]",
+            "MSA1": "GCS 6, addome teso, ferita penetrante, segni di shock ipovolemico. PA 50/30 mmHg, FC 130, soporoso. Bolo di fisiologica 250ml + tranex 1 gr. Richiesto supporto medico. [CTS]",
             "MSA2": "Maschio, 37 anni, GCS 3. Emorragia addominale massiva, instabilità emodinamica, PA 80/40, FC 140, soporoso. Intubato. Bolo di fisiologica 250ml + tranex 1 gr. [CTS]"
         }
     },
@@ -211,7 +211,7 @@
         },
         "caso_critico": {
             "MSB": "Femmina, 28 anni, ha tentato di buttarsi sotto un’auto. Incosciente per trauma cranico successivo. FC 45 bpm, PA 70/40 mmHg, SpO₂ 84%. Richiesto MSA. [NCH]",
-            "MSA1": "Paziente incosciente, trauma cranico, GCS 6. Pupille anisocoriche. Immobilizzata. O₂ ad alti flussi, accesso EV. Richiesta MSA2. [NCH]",
+            "MSA1": "Paziente incosciente, trauma cranico, GCS 6. Pupille anisocoriche. Immobilizzata. O₂ ad alti flussi, accesso EV. Richiesto supporto medico. [NCH]",
             "MSA2": "Femmina, 28 anni, GCS 3, trauma cranico maggiore post tentato suicidio. Intubata in posto, ventilazione assistita. Trasferimento urgente in rianimazione. [NCH]"
         }
     },
@@ -219,7 +219,7 @@
         "testo_chiamata": "Pronto? Ci troviamo a (indirizzo abitazione). Mio padre, 66 anni, ha appena vomitato in modo abbondante. Dice che gli gira la testa e si sente molto debole. È seduto sul divano e non riesce a parlare bene.",
         "caso_stabile": {
             "MSB": "Maschio, 66 anni, vigile. Episodio di emesi ed addominalgia. FC 85 bpm, PA 135/80 mmHg, SpO₂ 97%. Anamnesi: gastrite cronica.[PS]",
-            "MSA1": "Maschio, 66 anni, cosciente. Singolo episodio di emesi alimentare e dolore in area mesogastrica. FC 88 bpm, PA 130/85 mmHg, SpO₂ 96%, GCS 15. Somministrato ondansetron 4 mg EV. Pz noto per MRGE.[PS]",
+            "MSA1": "Maschio, 66 anni, cosciente. Singolo episodio di emesi alimentare e dolore in area mesogastrica. FC 88 bpm, PA 130/85 mmHg, SpO₂ 96%, GCS 15 Pz noto per MRGE.[PS]",
             "MSA2": "Maschio, 66 anni, collaborante. Singolo episodio di emesi alimentare e dolore in area mesogastrica. Parametri stabili. Anamnesi: MRGE. Somministrato pantoprazolo EV e plasil IM. [PS]"
         },
         "caso_poco_stabile": {
@@ -229,7 +229,7 @@
         },
         "caso_critico": {
             "MSB": "Maschio, 66 anni, incosciente. Vomito ematico, segni di shock. FC 40 bpm, PA 60/30 mmHg, SpO₂ 75%. Richiesto MSA.[Rianimazione]",
-            "MSA1": "Paziente in shock ipovolemico da emorragia gastrica. FC 35 bpm, PA 50/25 mmHgSpO₂ 75%, Bolo 500 di fisio Tranex 1 mg, Pz critico, richiesta MSA2 . [Rianimazione]",
+            "MSA1": "Paziente in shock ipovolemico da emorragia gastrica. FC 35 bpm, PA 50/25 mmHgSpO₂ 75%, Bolo 500 di fisio Tranex 1 mg, Pz critico, richiesto supporto medico. [Rianimazione]",
             "MSA2": "Maschio, 66 anni, GCS 3, incosciente, in shock ipovolemico, Ematemesi continua. Intubato, Bolo 500 di fisio Tranex 1 mg e pantoprazolo 40 mg, Necessita di trasport presso rianimazione. [Rianimazione]"
         }
     },
@@ -247,7 +247,7 @@
         },
         "caso_critico": {
             "MSB": "Femmina, 19 anni, incosciente, fortemente dispnoica. FC 40 bpm, PA 60/40 mmHg, SpO₂ 76%, ossigenoterapia a 15 lt/min. Grave crisi respiratoria, cianotica. Richiesta MSA.[Rianimazione]",
-            "MSA1": "Femmina, 19 anni, insufficienza respiratoria grave. GCS 8, FC 35 bpm, PA 55/30 mmHg, SpO₂ 72%. Ventilazione assistita, posizionata Cpap 50% FiO₂ 7 Peep, Necessaria MSA2. [Rianimazione]",
+            "MSA1": "Femmina, 19 anni, insufficienza respiratoria grave. GCS 8, FC 35 bpm, PA 55/30 mmHg, SpO₂ 72%. Ventilazione assistita, posizionata Cpap 50% FiO₂ 7 Peep, Necessario supporto medico. [Rianimazione]",
             "MSA2": "Femmina, 19 anni, GCS 8, insufficienza respiratoria grave da crisi asmatica. Sedata ed Intubata in posto, ventilata. Trasferimento urgente in terapia intensiva. [Rianimazione]"
         }
     },
@@ -307,12 +307,12 @@
         },
         "caso_poco_stabile": {
             "MSB": "Maschio, 52 anni, contorto dal dolore, nausea. FC 110 bpm, PA 100/60 mmHg, SpO₂ 94%. Dolore in quadrante inferiore dx, sospetta appendicite. In anamnesi diverticolite. [PS]",
-            "MSA1": "Maschio, 52 anni, GCS 14. Vomito biliare, addome dolente in FID. FC 112 bpm, PA 90/55 mmHg, SpO₂ 93%. Ketorolac 30mg + ondansetron 4 mg, in corso Ringer 500ml EV. In anamnesi diverticolite. Sospetta appendicite. [PS]",
+            "MSA1": "Maschio, 52 anni, GCS 14. Vomito biliare, addome dolente in FID. FC 112 bpm, PA 90/55 mmHg, SpO₂ 93%. In corso Ringer 500ml EV. In anamnesi diverticolite. Sospetta appendicite. [PS]",
             "MSA2": "Maschio, 52 anni, GCS 14. Vomito biliare, addome dolente in FID. FC 112 bpm, PA 90/55 mmHg, SpO₂ 93%. Ketorolac 30mg + ondansetron 4 mg, in corso Ringer 500ml EV. In anamnesi diverticolite. Sospetta appendicite. [PS]"
         },
         "caso_critico": {
             "MSB": "Maschio, 52 anni, incosciente. Addome rigido, sospetto shock settico. FC 40 bpm, PA 60/30 mmHg, SpO₂ 78%. Pallore e sudorazione fredda. Richiesta MSA.[Rianimazione]",
-            "MSA1": "Paziente incosciente, addome disteso e dolente, FC 38 bpm, PA 55/25 mmHg, SpO₂ 75%. Presunto addome acuto con perforazione. Accesso EV, fluidi, richiesta MSA2. [Rianimazione]",
+            "MSA1": "Paziente incosciente, addome disteso e dolente, FC 38 bpm, PA 55/25 mmHg, SpO₂ 75%. Presunto addome acuto con perforazione. Accesso EV, fluidi, richiesto supporto medico. [Rianimazione]",
             "MSA2": "Maschio, 52 anni, GCS 3, segni di sepsi grave. FC 35 bpm, PA 50/20 mmHg, SpO₂ 72%. Intubato, ventilato. Diagnosi sospetta: peritonite diffusa. Trasferimento urgente in rianimazione. [Rianimazione]"
         }
     },
@@ -330,7 +330,7 @@
         },
         "caso_critico": {
             "MSB": "Femmina, 30 anni, incinta, risponde allo stimolo doloroso, FC 135 bpm, PA 60/30 mmHg, SpO₂ 74%. Emorragia vaginale in atto. Richiesta MSA. [PUNTO NASCITA]",
-            "MSA1": "Paziente gravida con emorragia massiva, sospetto distacco di placenta. FC 135 bpm, PA 55/25 mmHg, SpO₂ 70%. Ringer 500ml + Tranex 1 gr EV. Richiesta MSA2. [PUNTO NASCITA]",
+            "MSA1": "Paziente gravida con emorragia massiva, sospetto distacco di placenta. FC 135 bpm, PA 55/25 mmHg, SpO₂ 70%. Ringer 500ml + Tranex 1 gr EV. Richiesto supporto medico. [PUNTO NASCITA]",
             "MSA2": "Femmina, 30 anni, incosciente, gravidanza a 35 settimane. Shock ipovolemico da emorragia acuta. Intubata, Ringer 500ml + Tranex 1 gr EV. Allertare la sala parto e rianimazione. [PUNTO NASCITA]"
         }
     },
@@ -348,25 +348,25 @@
         },
         "caso_critico": {
             "MSB": "Maschio, 3 anni, incosciente. FC 50 bpm, PA 60/30 mmHg, SpO₂ 72%. Arresto respiratorio imminente. Richiesta MSA. [PEDIATRIA + RIANIMAZIONE]",
-            "MSA1": "Paziente ipossico grave. GCS 6. Intubazione d’urgenza, O₂ 100%, adrenalina nebulizzata. Richiesto MSA2. [PEDIATRIA + RIANIMAZIONE]",
+            "MSA1": "Paziente ipossico grave. GCS 6. Intubazione d’urgenza, O₂ 100%, adrenalina nebulizzata. Richiesto supporto medico. [PEDIATRIA + RIANIMAZIONE]",
             "MSA2": "Maschio, 3 anni, GCS 6. Apnea. Intubato, ventilato, trasferimento urgente. [PEDIATRIA + RIANIMAZIONE]"
         }
     },
     "chiamata_22": {
         "testo_chiamata": "Pronto? Siamo in (RSA). Una signora di 85 anni ha iniziato a parlare in modo strano e non riconosce nessuno. Un minuto prima era tranquilla. Ora sembra completamente confusa e si muove a scatti. Serve aiuto immediato.",
         "caso_stabile": {
-            "MSB": "Femmina, 85 anni, vigile, disorientata nel tempo. Glicemia 112 mg/dL, PA 130/75 mmHg, FC 86 bpm, SpO₂ 97%. Episodio isolato, anamnesi: Morbo di Alzheimer. [PS]",
+            "MSB": "Femmina, 85 anni, vigile, disorientata nel tempo. PA 130/75 mmHg, FC 86 bpm, SpO₂ 97%. Episodio isolato, anamnesi: Morbo di Alzheimer. [PS]",
             "MSA1": "Femmina, 85 anni, GCS 15. Afasia lieve, no emiparesi. Glicemia 112 mg/dL, PA 130/75 mmHg, FC 86 bpm, SpO₂ 97%. Episodio isolato, anamnesi: Morbo di Alzheimer. [PS]",
             "MSA2": "Femmina, 85 anni, lucida al momento dell’arrivo. ECG e glicemia normali. Episodio isolato, anamnesi: Morbo di Alzheimer. [PS]"
         },
         "caso_poco_stabile": {
-            "MSB": "Femmina, 85 anni, confusa, afasica. FC 96 bpm, PA 110/70 mmHg, SpO₂ 94%. Glicemia 82 mg/dL. [STROKE UNIT]",
+            "MSB": "Femmina, 85 anni, confusa, afasica. FC 96 bpm, PA 110/70 mmHg, SpO₂ 94%. [STROKE UNIT]",
             "MSA1": "Femmina, 85 anni, GCS 12. Paresi facciale dx, linguaggio incomprensibile. FC 98 bpm, PA 105/65 mmHg, SpO₂ 92%. Protocollo stroke attivato. [STROKE UNIT]",
             "MSA2": "Femmina, 85 anni, disorientata, difficoltà motorie. FC 102 bpm, PA 100/60 mmHg, SpO₂ 90%. Somministrato O₂ e accesso EV. [STROKE UNIT]"
         },
         "caso_critico": {
             "MSB": "Femmina, 85 anni, incosciente. FC 38 bpm, PA 65/30 mmHg, SpO₂ 76%. Sospetto ictus. Richiesta MSA. [NCH]",
-            "MSA1": "GCS 4, pupille anisocoriche, crisi convulsiva in atto. Sedata con Midazolam 10 mg. SpO₂ 70%, PA 55/25 mmHg. Richiesta MSA2. [NCH]",
+            "MSA1": "GCS 4, pupille anisocoriche, crisi convulsiva in atto. Sedata con Midazolam 10 mg. SpO₂ 70%, PA 55/25 mmHg. Richiesto supporto medico. [NCH]",
             "MSA2": "Femmina, 85 anni, GCS 3. Intubata, in shock neurogeno. Sospetta emorragia cerebrale. Trasferimento urgente. [NCH]"
         }
     },
@@ -384,14 +384,14 @@
         },
         "caso_critico": {
             "MSB": "Maschio, 60 anni, in ACC, RCP in già corso da parte dei parenti al nostro arrivo. Prima analisi: Shock consigliato. Richiesta MSA. [Rianimazione]",
-            "MSA1": "Maschio, 60 anni, in ACC, ritmo di presentazione FV. RCP in corso da parte dei parenti, 2 scariche effettuate. Adrenalina 1 mg EV + Amiodarone 300 mg EV. LMA posizionata. Richiesta MSA2. [Rianimazione]",
+            "MSA1": "Maschio, 60 anni, in ACC, ritmo di presentazione FV. RCP in corso da parte dei parenti, 2 scariche effettuate. Adrenalina 1 mg EV + Amiodarone 300 mg EV. LMA posizionata. Richiesto supporto medico. [Rianimazione]",
             "MSA2": "Maschio, 60 anni, in ACC, ritmo di presentazione FV. RCP in corso da parte dei parenti, 2 scariche effettuate. Adrenalina 1 mg EV + Amiodarone 300 mg EV, intubato, EtCO₂ 20 mmHg, massaggiatore meccanico posizionato. Candidabile a percorso ECMO. [Rianimazione]"
         }
     },
     "chiamata_24": {
         "testo_chiamata": "Pronto? Siamo a casa in (indirizzo abitazione). Abbiamo trovato nostra figlia di 18 anni nel letto, molto stanca, con una scatola vuota di farmaci accanto. Ha detto che ha preso delle pillole ma non sa quante. È molto confusa e sembra peggiorare!",
         "caso_stabile": {
-            "MSB": "Femmina, 17 anni, vigile, rallentata. Riferita assunzione di benzodiazepine. FC 82 bpm, PA 120/75 mmHg, SpO₂ 98%. GCS 15, Anamnesi muta. [Psichiatria]",
+            "MSB": "Femmina, 17 anni, vigile, rallentata. Riferita assunzione di benzodiazepine. FC 82 bpm, PA 120/75 mmHg, SpO₂ 98%. Anamnesi muta. [Psichiatria]",
             "MSA1": "Femmina, 17 anni, cosciente, GCS 15. Assunte benzodiazepine a basso dosaggio con autolesivo. Parametri stabili. Anamnesi muta. [Psichiatria]",
             "MSA2": "Femmina, 17 anni, cosciente, GCS 15. Assunte benzodiazepine a basso dosaggio con autolesivo. Parametri stabili. Anamnesi muta. [Psichiatria]"
         },
@@ -420,7 +420,7 @@
         },
         "caso_critico": {
             "MSB": "Femmina circa 50 anni, incosciente, incastrata, FC 150 bpm, PA non rilevabile. Richiesta MSA. [CTZ]",
-            "MSA1": "Femmina, circa 50 anni, GCS 3, politrauma grave, PNX decompresso, trauma addome e bacino, FC 150, PA 70/40, SpO₂ 82%, Bolo 250 di ringer + tranex 1mg Ev, posizionata cintura pelvica, necessario trasporto presso CTZ, richiesta MSA2. [CTZ]",
+            "MSA1": "Femmina, circa 50 anni, GCS 3, politrauma grave, PNX decompresso, trauma addome e bacino, FC 150, PA 70/40, SpO₂ 82%, Bolo 250 di ringer + tranex 1mg Ev, posizionata cintura pelvica, necessario trasporto presso CTZ, richiesto supporto medico. [CTZ]",
             "MSA2": "Femmina, circa 50 anni, GCS 3, politrauma grave, PNX decompresso, trauma addome e bacino, FC 150, PA 70/40, SpO₂ 82%, Bolo 250 di ringer + tranex 1mg Ev, posizionata cintura pelvica, necessario trasporto presso CTZ. [CTZ]"
                     }
      },
@@ -438,7 +438,7 @@
     },
     "caso_critico": {
       "MSB": "Femmina, 82 anni, risponde allo stimomo doloroso. FC138 bpm, PA 60/30 mmHg, SpO₂ 70%. Emitorace sx non espande, enfisema sottocutaneo. Richiesta MSA. [CTZ]",
-      "MSA1": "Femmina, 82 anni, GCS 8,  FC138 bpm, PA 60/30 mmHg, SpO₂ 70%. Truma emitorace dx con sospetto PNX, inserito drenaggio. Necessario il supporto di MSA2. [CTZ]",
+      "MSA1": "Femmina, 82 anni, GCS 8,  FC138 bpm, PA 60/30 mmHg, SpO₂ 70%. Truma emitorace dx con sospetto PNX, inserito drenaggio. Necessario supporto medico. [CTZ]",
       "MSA2": "Femmina, 82 anni, GCS 8,  FC138 bpm, PA 60/30 mmHg, SpO₂ 70%. Truma emitorace dx con  PNX, all'eco sospetto emotorace, inserito drenaggio. Necessaria valutazione presso CTZ. [CTZ]"
     }
   },
@@ -505,7 +505,7 @@
     },
     "caso_critico": {
       "MSB": "Maschio, 12 anni, incosciente dopo caduta successiva al trauma oculare. FC 48 bpm, PA 70/40 mmHg, SpO₂ 82%. Sospetto trauma cranico associato. Richiesta MSA. [NCH]",
-      "MSA1": "Maschio, 12 anni, GCS 5 dopo caduta successiva al trauma oculare. FC 48 bpm, PA 70/40 mmHg, SpO₂ 82%, anisocoria presente, ventilato, necessaria MSA2. [NCH]",
+      "MSA1": "Maschio, 12 anni, GCS 5 dopo caduta successiva al trauma oculare. FC 48 bpm, PA 70/40 mmHg, SpO₂ 82%, anisocoria presente, ventilato, necessario supporto medico. [NCH]",
       "MSA2": "Maschio, 12 anni, GCS 5 dopo caduta successiva al trauma oculare. FC 48 bpm, PA 70/40 mmHg, SpO₂ 82%, anisocoria presente, intubato Necessario trasport presso NCH. [NCH]"
     }
   },
@@ -518,7 +518,7 @@
     },
     "caso_poco_stabile": {
       "MSB": "Maschio, 68 anni, Trauma anca sx. FC 108 bpm, PA 100/60 mmHg, SpO₂ 95%. Dolore alla palpazione del fianco, probabile frattura di femore. Immobilizzato su materassino a depressione, Anamnesi muta. [OTT]",
-      "MSA1": "Maschio, 68 anni, GCS 15, FC 108 bpm, PA 100/60 mmHg, SpO₂ 95%. Dolore alla palpazione del fianco, probabile frattura di femore, trattato con Ketorolac, immobilizzato su materassino a depressione. Anamnesi muta. [OTT]",
+      "MSA1": "Maschio, 68 anni, GCS 15, FC 108 bpm, PA 100/60 mmHg, SpO₂ 95%. Dolore alla palpazione del fianco, probabile frattura di femore, immobilizzato su materassino a depressione. Anamnesi muta. [OTT]",
       "MSA2": "Maschio, 68 anni, GCS 15, FC 108 bpm, PA 100/60 mmHg, SpO₂ 95%. Dolore alla palpazione del fianco, probabile frattura di femore, trattato con Ketorolac, immobilizzato su materassino a depressione. Anamnesi muta. [OTT]"
     },
     "caso_critico": {
@@ -541,7 +541,7 @@
     },
     "caso_critico": {
       "MSB": "Maschio, 45 anni, responsivo allo stimolo doloroso, sanguinamento massivo arto inferiore dx. PA 60/40, FC 140 bpm, SpO₂ 92%. Stato di shock avanzato. Necessaria MSA. [CTZ]",
-      "MSA1": "Maschio, 45 anni, GCS 3, PA 60/40, FC 140 bpm, SpO₂ 92%, shock emorragico massivo da semi amputazione arto inferiore dx, posizionato turniquet, in orso infusione bolo 250 ml di ringer,+ tranex 1 gr, se possibile inviare MSA2. [CTZ]",
+      "MSA1": "Maschio, 45 anni, GCS 3, PA 60/40, FC 140 bpm, SpO₂ 92%, shock emorragico massivo da semi amputazione arto inferiore dx, posizionato turniquet, in orso infusione bolo 250 ml di ringer,+ tranex 1 gr, se possibile inviare supporto medico. [CTZ]",
       "MSA2": "Maschio, 45 anni, GCS 3, PA 60/40, FC 140 bpm, SpO₂ 92%, shock emorragico massivo da semi amputazione arto inferiore dx, posizionato turniquet, in orso infusione bolo 250 ml di ringer,+ tranex 1 gr. [CTZ]"
     }
   },
@@ -608,7 +608,7 @@
        },
     "caso_poco_stabile": {
         "MSB": "Maschio, 37 anni, vigile e collaborante, SpO₂ 99%, PA 110/70 mmHg, FC 102 bpm, Tc 38.7°C. Dolore intenso al fianco dx irradiato in adome, riferisce nausea e febbre, pz noto per coliche renali. [PS]",
-        "MSA1": "Maschio, 37 anni, GCS 15, SpO₂ 99%, PA 110/70 mmHg, FC 102 bpm, Tc 38.7°C. Dolore intenso al fianco dx irradiato in adome, riferisce nausea e febbre, pz noto per coliche renali. In corso Ketorolac EV. [PS]",
+        "MSA1": "Maschio, 37 anni, GCS 15, SpO₂ 99%, PA 110/70 mmHg, FC 102 bpm, Tc 38.7°C. Dolore intenso al fianco dx irradiato in adome, riferisce nausea e febbre, pz noto per coliche renali. [PS]",
         "MSA2": "Maschio, 37 anni, GCS 15, SpO₂ 99%, PA 110/70 mmHg, FC 102 bpm, Tc 38.7°C. Dolore intenso al fianco dx irradiato in adome, riferisce nausea e febbre, pz noto per coliche renali. In corso Ketorolac EV. [PS]"
       },
     "caso_critico": {
@@ -644,12 +644,12 @@
     },
     "caso_poco_stabile": {
       "MSB": "Maschio, 68 anni, agitato, PA 140/70 mmHg, FC 120 bpm, SpO₂ 95%. Trauma anca sx con arto accorciato ed extrarotato a seguito di caduta accidentale. [OTT]",
-      "MSA1": "Maschio, 68 anni, agitato, PA 140/70 mmHg, FC 120 bpm, SpO₂ 95%. Sospetta frattura di femore sx a seguito di caduta accidentale, Somministrato ketorolac Ev per analgesia. [OTT]",
+      "MSA1": "Maschio, 68 anni, agitato, PA 140/70 mmHg, FC 120 bpm, SpO₂ 95%. Sospetta frattura di femore sx a seguito di caduta accidentale. [OTT]",
       "MSA2": "Maschio, 68 anni, agitato, PA 140/70 mmHg, FC 120 bpm, SpO₂ 95%. Sospetta frattura di femore sx a seguito di caduta accidentale, Somministrato ketorolac Ev per analgesia. [OTT]"
     },
     "caso_critico": {
       "MSB": "Maschio, 68 anni, risponde allo stimolo verbale, PA 70/40 mmHg, FC 130 bpm, SpO₂ 90%. Caduta accidentale da scala da circa 3 metri, Trauma cranico con ferita in area frontale, contusione evidente al bacino lato sx. [PST]",
-      "MSA1": "Maschio, 68 anni, GCS 12, PA 70/40 mmHg, FC 130 bpm, SpO₂ 90%. Caduta accidentale da scala da circa 3 metri, Trauma cranico con ferita in area frontale, contusione evidente al bacino lato sx, sospetta frattura di bacino, posizionato T-POD, In corso Bolo di fisiologica 250 + Tranex 1 gr, fentanil 100mcg per analgesia EV. [PST]",
+      "MSA1": "Maschio, 68 anni, GCS 12, PA 70/40 mmHg, FC 130 bpm, SpO₂ 90%. Caduta accidentale da scala da circa 3 metri, Trauma cranico con ferita in area frontale, contusione evidente al bacino lato sx, sospetta frattura di bacino, posizionato T-POD, In corso Bolo di fisiologica 250 + Tranex 1 gr. [PST]",
       "MSA2": "Maschio, 68 anni, GCS 12, PA 70/40 mmHg, FC 130 bpm, SpO₂ 90%. Caduta accidentale da scala da circa 3 metri, Trauma cranico con ferita in area frontale, contusione evidente al bacino lato sx, sospetta frattura di bacino, posizionato T-POD, In corso Bolo di fisiologica 250 + Tranex 1 gr, Ketamina 80 mg per analgesia EV. [PST]"
     }
   },
@@ -685,7 +685,7 @@
     },
     "critico": {
       "MSB": "Femmina, 8 anni, incosciente, crisi convulsiva in atto al nostro arrivo, tutt'ora presente , PA 80/40 mmHg, FC 140 bpm, SpO₂ 92% Tc 39.5°C. Non primo episodio di convulsioni febbrili i genitori hanno già somministrato paracetamolo e micropam, presenza di morsus, contusioni multiple. [PEDIATRIA]",
-      "MSA1": "Femmina, 8 anni, GCS 9, crisi convulsiva in atto al mio arrivo, tutt'ora presente , PA 80/40 mmHg, FC 140 bpm, SpO₂ 92% Tc 39.5°C. Non primo episodio di convulsioni febbrili i genitori hanno già somministrato paracetamolo e micropam senza beneficio, presenza di morsus, contusioni multiple. Somministrato nuovamente Midazolam 5 mg EV con parziale interruzione delle clonie. E' possibile inviare MSA2 in supporto? [PEDIATRIA]",
+      "MSA1": "Femmina, 8 anni, GCS 9, crisi convulsiva in atto al mio arrivo, tutt'ora presente , PA 80/40 mmHg, FC 140 bpm, SpO₂ 92% Tc 39.5°C. Non primo episodio di convulsioni febbrili i genitori hanno già somministrato paracetamolo e micropam senza beneficio, presenza di morsus, contusioni multiple. Somministrato nuovamente Midazolam 5 mg EV con parziale interruzione delle clonie. E' possibile inviare supporto medico? [PEDIATRIA]",
       "MSA2": "Femmina, 8 anni, GCS 9, crisi convulsiva in atto al mio arrivo, tutt'ora presente , PA 80/40 mmHg, FC 140 bpm, SpO₂ 92% Tc 39.5°C. Non primo episodio di convulsioni febbrili i genitori hanno già somministrato paracetamolo e micropam senza beneficio, presenza di morsus, contusioni multiple. Sedata con propofol, per il momento ventilata con ambu e maschera. [PEDIATRIA]"
     }
   },
@@ -716,7 +716,7 @@
       },
       "poco_stabile": {
         "MSB": "Maschio, 35 anni, incidente frontale auto vs camion, pz incastrato estratto dai VVF, vigile, trauma toracico, addominale e pelvico, PA 130/80 mmHg, FC 95 bpm, SpO₂ 97%, Spinalizzato, anamesi muta. [CTZ]",
-        "MSA1": "Maschio, 35 anni, GCS 10, incidente frontale auto vs camion, pz incastrato estratto dai VVF, vigile, trauma toracico, addominale e pelvico, PA 130/80 mmHg, FC 95 bpm, SpO₂ 97%,Posizionato T-POD, Spinalizzato, Somministrato Fentanil 100mcg. [CTZ]",
+        "MSA1": "Maschio, 35 anni, GCS 10, incidente frontale auto vs camion, pz incastrato estratto dai VVF, vigile, trauma toracico, addominale e pelvico, PA 130/80 mmHg, FC 95 bpm, SpO₂ 97%,Posizionato T-POD, Spinalizzato. [CTZ]",
         "MSA2": "Maschio, 35 anni, GCS 10, incidente frontale auto vs camion, pz incastrato estratto dai VVF, vigile, trauma toracico, addominale e pelvico, Eseguito Eco FAST con esito negatvo, PA 130/80 mmHg, FC 95 bpm, SpO₂ 97%,Posizionato T-POD, Spinalizzato, Somministrato Fentanil 100mcg. [CTZ]"
       },
       "critico": {
@@ -845,12 +845,12 @@
   "chiamata_52": {
     "testo_chiamata": "Salve, chiamo da (impianto lavorativo), un collega si è sentito poco bene mentre era alla postazione, è pallido e ha avuto un capogiro, si è seduto ma dice di sentirsi male e che gli manca fiato.", 
     "caso_stabile": {
-      "MSB": "Maschio, 52 anni, riferisce capogiro e senso di spossatezza insorti durante attività lavorativa, PA 130/80 mmHg, FC 88 bpm, SpO₂ 98%, Glicemia 64 mg/dL, orientato, riferisce digiuno prolungato, anamnesi muta. [PS]", 
+      "MSB": "Maschio, 52 anni, riferisce capogiro e senso di spossatezza insorti durante attività lavorativa, PA 130/80 mmHg, FC 88 bpm, SpO₂ 98%, orientato, riferisce digiuno prolungato, anamnesi muta. [PS]", 
       "MSA1": "Maschio, 52 anni, capogiro e astenia durante attività lavorativa, PA 130/80 mmHg, FC 88 bpm, SpO₂ 98%, GCS 15, orientato, riferisce digiuno prolungato, eseguita glicemia 64 mg/dL, anamnesi muta . [PS]", 
       "MSA2": "Maschio, 52 anni, capogiro e astenia durante attività lavorativa, PA 130/80 mmHg, FC 88 bpm, SpO₂ 98%, GCS 15, orientato, riferisce digiuno prolungato, eseguita glicemia 64 mg/dL, anamnesi muta. [PS]"
     },
     "poco_stabile": {
-      "MSB": "Maschio, 52 anni, riferisce capogiro improvviso e offuscamento visivo, PA 95/60 mmHg, FC 105 bpm, SpO₂ 97%, sudorazione fredda, glicemia 58 mg/dL, eseguito ECG. anamnesi muta. [PS]", 
+      "MSB": "Maschio, 52 anni, riferisce capogiro improvviso e offuscamento visivo, PA 95/60 mmHg, FC 105 bpm, SpO₂ 97%, sudorazione fredda. anamnesi muta. [PS]", 
       "MSA1": "Maschio, 52 anni, lipotimia sul luogo di lavoro, PA 95/60 mmHg, FC 105 bpm, SpO₂ 97%, GCS 15, glicemia 58 mg/dL, ecg non significativo, paziente in miglioramento. [PS]", 
       "MSA2": "Maschio, 52 anni, lipotimia sul luogo di lavoro, PA 95/60 mmHg, FC 105 bpm, SpO₂ 97%, GCS 15, glicemia 58 mg/dL, ecg non significativo, paziente in miglioramento. [PS]"
     },
@@ -864,7 +864,7 @@
     "testo_chiamata": "Pronto, sono un insegnante dell’Istituto (scuola), uno studente di 18 anni riferisce che gli batte fortissimo il cuore, è agitato e dice di sentirsi strano. È cosciente ma molto spaventato.",
     
     "caso_stabile": {
-      "MSB": "Maschio, 18 anni, riferisce cardiopalmo insorto improvvisamente in classe, PA 125/75 mmHg, FC 118 bpm, SpO₂ 99%, eupnoico, GCS 15, ansioso, anamnesi muta, ECG inviato. [PS]",
+      "MSB": "Maschio, 18 anni, riferisce cardiopalmo insorto improvvisamente in classe, PA 125/75 mmHg, FC 118 bpm, SpO₂ 99%, eupnoico, GCS 15, ansioso, anamnesi muta. [PS]",
       "MSA1": "Maschio, 18 anni, tachicardia sinusale a 118 bpm, PA 125/75 mmHg, SpO₂ 99%, GCS 15, ansioso, riferisce episodio simile già avuto in passato sotto stress. ECG: ritmo sinusale, no anomalie acute. [PS]",
       "MSA2": "Maschio, 18 anni, tachicardia sinusale a 118 bpm, PA 125/75 mmHg, SpO₂ 99%, GCS 15, ansioso, ECG sinusale, nessun trattamento farmacologico necessario, consiglio monitoraggio in PS. [PS]"
     },
@@ -885,19 +885,19 @@
     "testo_chiamata": "Salve, chiamo da (impianto sportivo), un ragazzo si è fermato durante l’allenamento lamentando giramenti di testa e affanno, è cosciente ma sembra molto provato.",
     
     "caso_stabile": {
-      "MSB": "Maschio, 22 anni, lamenta capogiro e affanno insorti durante attività sportiva, PA 130/80 mmHg, FC 110 bpm, SpO₂ 98%, GCS 15, eupnoico, riferisce possibile calo di zuccheri, glicemia 62 mg/dL. [PS]",
+      "MSB": "Maschio, 22 anni, lamenta capogiro e affanno insorti durante attività sportiva, PA 130/80 mmHg, FC 110 bpm, SpO₂ 98%, eupnoico, riferisce possibile calo di zuccheri [PS]",
       "MSA1": "Maschio, 22 anni, capogiro e lieve dispnea durante sforzo, PA 130/80 mmHg, FC 110 bpm, SpO₂ 98%, GCS 15, glicemia 62 mg/dL, probabile ipoglicemia reattiva da sforzo. [PS]",
       "MSA2": "Maschio, 22 anni, capogiro e lieve dispnea da sforzo, PA 130/80 mmHg, FC 110 bpm, SpO₂ 98%, GCS 15, glicemia 62 mg/dL, somministrato zucchero per os, sintomi regrediti. [PS]"
     },
 
     "poco_stabile": {
-      "MSB": "Maschio, 22 anni, episodio sincopale durante attività sportiva, cosciente al nostro arrivo, PA 90/60 mmHg, FC 125 bpm, SpO₂ 95%, sudato, pallido, Eseguito ECG ed inviato per refertazione (ECG normale). [PS]",
+      "MSB": "Maschio, 22 anni, episodio sincopale durante attività sportiva, cosciente al nostro arrivo, PA 90/60 mmHg, FC 125 bpm, SpO₂ 95%, sudato, pallido. [PS]",
       "MSA1": "Maschio, 22 anni, sincope da sforzo durante attività sportiva, PA 90/60 mmHg, FC 125 bpm, SpO₂ 95%, GCS 15, eseguito ECG: tachicardia sinusale, glicemia 59 mg/dL. [PS]",
       "MSA2": "Maschio, 22 anni, sincope da sforzo durante attività sportiva, PA 90/60 mmHg, FC 125 bpm, SpO₂ 95%, GCS 15, eseguito ECG: tachicardia sinusale, glicemia 59 mg/dL. [PS]"
     },
 
     "critico": {
-      "MSB": "Maschio, 22 anni, collassato improvvisamente in campo, incosciente, GCS 3, respiro assente, FC assente, RCP in corso da parte di astanti. [DEA]",
+      "MSB": "Maschio, 22 anni, collassato improvvisamente in campo, incosciente, respiro assente, FC assente, RCP in corso da parte di astanti. [DEA]",
       "MSA1": "Maschio, 22 anni, ACC durante attività sportiva, RCP in corso, defibrillatore ha rilevato FV, 1 shock erogato, somministrata adrenalina 1 mg, posizionata maschera laringea EtCO2 28 mmHg, richiesto supporto medico. [DEA]",
       "MSA2": "Maschio, 22 anni, ACC con FV iniziale, RCP in corso, intubato, somministrata adrenalina 1 mg + amiodarone 300 mg, EtCO2 28 mmHg, ROSC dopo 2 analisi. [DEA]"
     }
@@ -990,7 +990,7 @@
     "testo_chiamata": "Sì pronto, siamo sulla (strada), c'è stato un incidente con una moto, il motociclista è a terra sull’asfalto, la moto è distrutta. Sembra cosciente ma molto dolorante. Serve un’ambulanza subito.",
 
     "caso_stabile": {
-      "MSB": "Maschio, 35 anni, incidente in moto, cosciente, dinamica maggiore, riferisce dolore a gamba dx e polso sx, PA 135/85 mmHg, FC 92 bpm, SpO₂ 98%, GCS 15, casco integro, nessun trauma cranico apparente. [PST]",
+      "MSB": "Maschio, 35 anni, incidente in moto, cosciente, dinamica maggiore, riferisce dolore a gamba dx e polso sx, PA 135/85 mmHg, FC 92 bpm, SpO₂ 98%, casco integro, nessun trauma cranico apparente. [PST]",
       "MSA1": "Maschio, 35 anni, trauma gamba dx e polso sx da incidente in moto, dinamica significativa, paziente stabile, cosciente, nessun segno neurologico, immobilizzato, analgesia in corso. [PST]",
       "MSA2": "Maschio, 35 anni, trauma arto inferiore dx e polso sx, dinamica elevata, segni vitali stabili, immobilizzato su tavola spinale per sicurezza, analgesia con paracetamolo EV. [PST]"
     },
