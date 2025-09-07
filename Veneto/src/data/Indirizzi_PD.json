@@ -346,5 +346,8 @@
   {"strada": "A13 Autostrada Bologna-Padova, km 85, 35028 Piove di Sacco PD", "lat": 45.30000, "lon": 12.03000},
   {"strada": "SS 516 Piovese, km 65, 35029 Pontelongo PD", "lat": 45.23000, "lon": 11.98000},
   {"strada": "A13 Autostrada Bologna-Padova, km 75, 35030 Sant'Angelo di Piove PD", "lat": 45.27000, "lon": 12.01000},
-  {"strada": "SS 516 Piovese, km 75, 35032 Sant'Urbano PD", "lat": 45.15000, "lon": 11.63000}
+  {"strada": "SS 516 Piovese, km 75, 35032 Sant'Urbano PD", "lat": 45.15000, "lon": 11.63000},
+  { "Pronto Soccorso ": "H Cittadella, 35013 Cittadella PD", "lat": 45.6474941, "lon": 11.7886564 },
+  { "Pronto Soccorso ": "H Schiavonia, 35043 Monselice PD", "lat": 45.2061159, "lon": 11.7216594 },
+  { "Pronto Soccorso ": "H Piove di Sacco, 35028 Piove di Sacco PD", "lat": 45.2928345, "lon": 12.0295599 }
 ]

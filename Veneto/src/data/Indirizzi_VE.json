@@ -325,5 +325,8 @@
   {"strada": "A57 Tangenziale di Mestre, km 58, 30020 Cona VE", "lat": 45.30000, "lon": 12.15000},
   {"strada": "SS 309 Romea, km 58, 30020 Cona VE", "lat": 45.31000, "lon": 12.16000},
   {"strada": "A4 Autostrada Serenissima, km 428, 30020 Pramaggiore VE", "lat": 45.79000, "lon": 12.72000},
-  {"strada": "SS 53 Postumia, km 205, 30020 Pramaggiore VE", "lat": 45.80000, "lon": 12.73000}
+  {"strada": "SS 53 Postumia, km 205, 30020 Pramaggiore VE", "lat": 45.80000, "lon": 12.73000},
+  { "Pronto Soccorso ": "H Portogruaro, 30026 Portogruaro VE", "lat": 45.7707596, "lon": 12.8409655 },
+  { "Pronto Soccorso ": "H Mirano, 30035 Mirano VE", "lat": 45.4990942, "lon": 12.1116098 },
+  { "Pronto Soccorso ": "H Jesolo, 30016 Jesolo VE", "lat": 45.5110719, "lon": 12.6599521 }
 ]

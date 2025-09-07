@@ -405,5 +405,8 @@
   {"strada": "SS 14 della Venezia Giulia, km 65, 31020 Meduna di Livenza TV", "lat": 45.81000, "lon": 12.65000},
   {"strada": "A28 Portogruaro-Conegliano, km 48, 31020 Motta di Livenza TV", "lat": 45.78000, "lon": 12.62000},
   {"strada": "SS 53 Postumia, km 145, 31020 Mansuè TV", "lat": 45.80000, "lon": 12.59000},
-  {"strada": "A28 Portogruaro-Conegliano, km 52, 31020 Fontanelle TV", "lat": 45.83000, "lon": 12.55000}
+  {"strada": "A28 Portogruaro-Conegliano, km 52, 31020 Fontanelle TV", "lat": 45.83000, "lon": 12.55000},
+  { "Pronto Soccorso ": "H Castelfranco, 31033 Castelfranco Veneto TV", "lat": 45.6765452, "lon": 11.9311182 },
+  { "Pronto Soccorso ": "H Conegliano, 31015 Conegliano TV", "lat": 45.8816201, "lon": 12.2889709 },
+  { "Pronto Soccorso ": "H Vittorio Veneto, 31029 Vittorio Veneto TV", "lat": 45.986904, "lon": 12.3196225 }
 ]

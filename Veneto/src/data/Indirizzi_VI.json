@@ -247,5 +247,7 @@
   {"strada": "SS 47 della Valsugana, km 48, 36020 Solagna VI", "lat": 45.82000, "lon": 11.76000},
   {"strada": "A31 Autostrada della Valdastico, km 85, 36020 Solagna VI", "lat": 45.83000, "lon": 11.77000},
   {"strada": "SS 248 Schiavonesca-Marosticana, km 35, 36020 Castelnovo VI", "lat": 45.73000, "lon": 11.79000},
-  {"strada": "A31 Autostrada della Valdastico, km 72, 36020 Castelnovo VI", "lat": 45.74000, "lon": 11.80000}
+  {"strada": "A31 Autostrada della Valdastico, km 72, 36020 Castelnovo VI", "lat": 45.74000, "lon": 11.80000},
+  { "Pronto Soccorso ": "H Asiago, 32032 Asiago VI", "lat": 46.8613185, "lon": 11.5231624 },
+  { "Pronto Soccorso ": "H Bassano del Grappa, 36061 Bassano del Grappa VI", "lat": 45.7477202, "lon": 11.7451661 }
 ]

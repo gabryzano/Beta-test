@@ -214,5 +214,7 @@
   {"strada": "SP 12 di Rosolina, km 25, 45040 Rosolina RO", "lat": 45.0850, "lon": 12.2150},
   {"strada": "SS 309 Romea, km 85, 45040 Rosolina RO", "lat": 45.0950, "lon": 12.2050},
   {"strada": "SP 13 di Villadose, km 15, 45045 Villadose RO", "lat": 45.1050, "lon": 11.7850},
-  {"strada": "SS 434 Transpolesana, km 65, 45045 Villadose RO", "lat": 45.1150, "lon": 11.7750}
+  {"strada": "SS 434 Transpolesana, km 65, 45045 Villadose RO", "lat": 45.1150, "lon": 11.7750},
+  { "Pronto Soccorso ": "H Trecenta, 45027 Trecenta RO", "lat": 45.0313, "lon": 11.4720 },
+  { "Pronto Soccorso ": "H Adria, 45011 Adria RO", "lat": 45.0478826, "lon": 12.0541959 }
 ]

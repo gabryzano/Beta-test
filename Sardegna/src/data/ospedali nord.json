@@ -11,7 +11,9 @@
     "STROKE UNIT": true,
     "NCH": true,
     "RIANIMAZIONE": true,
-    "PSICHIATRIA": true
+    "PSICHIATRIA": true,
+    "lat": 39.195316,
+    "lon": 8.919083
   },
   {
     "OSPEDALE": "H ALGHERO",
@@ -25,7 +27,9 @@
     "STROKE UNIT": false,
     "NCH": false,
     "RIANIMAZIONE": true,
-    "PSICHIATRIA": false
+    "PSICHIATRIA": false,
+    "lat": 39.469267,
+    "lon": 9.009108
   },
   {
     "OSPEDALE": "H MARINO ALGHERO",
@@ -39,7 +43,9 @@
     "STROKE UNIT": false,
     "NCH": false,
     "RIANIMAZIONE": false,
-    "PSICHIATRIA": false
+    "PSICHIATRIA": false,
+    "lat": 39.035267,
+    "lon": 9.145093
   },
   {
     "OSPEDALE": "H OZIERI",
@@ -53,7 +59,9 @@
     "STROKE UNIT": false,
     "NCH": false,
     "RIANIMAZIONE": false,
-    "PSICHIATRIA": true
+    "PSICHIATRIA": true,
+    "lat": 39.101686,
+    "lon": 8.853633
   },
   {
     "OSPEDALE": "H OLBIA",
@@ -67,7 +75,9 @@
     "STROKE UNIT": true,
     "NCH": false,
     "RIANIMAZIONE": true,
-    "PSICHIATRIA": true
+    "PSICHIATRIA": true,
+    "lat": 39.268915,
+    "lon": 9.400921
   },
   {
     "OSPEDALE": "H  TEMPIO",
@@ -81,7 +91,9 @@
     "STROKE UNIT": false,
     "NCH": false,
     "RIANIMAZIONE": true,
-    "PSICHIATRIA": false
+    "PSICHIATRIA": false,
+    "lat": 39.074345,
+    "lon": 9.330206
   },
   {
     "OSPEDALE": "H LA\nMADDALENA",
@@ -95,7 +107,9 @@
     "STROKE UNIT": false,
     "NCH": false,
     "RIANIMAZIONE": true,
-    "PSICHIATRIA": true
+    "PSICHIATRIA": true,
+    "lat": 39.334548,
+    "lon": 9.005316
   },
   {
     "OSPEDALE": "H  NUORO",
@@ -109,7 +123,9 @@
     "STROKE UNIT": true,
     "NCH": true,
     "RIANIMAZIONE": true,
-    "PSICHIATRIA": true
+    "PSICHIATRIA": true,
+    "lat": 39.253419,
+    "lon": 8.819348
   },
   {
     "OSPEDALE": "H SORGONO",
@@ -123,7 +139,9 @@
     "STROKE UNIT": false,
     "NCH": false,
     "RIANIMAZIONE": true,
-    "PSICHIATRIA": false
+    "PSICHIATRIA": false,
+    "lat": 39.273002,
+    "lon": 9.122311
   },
   {
     "OSPEDALE": "H LANUSEI",
@@ -137,6 +155,8 @@
     "STROKE UNIT": false,
     "NCH": false,
     "RIANIMAZIONE": true,
-    "PSICHIATRIA": false
+    "PSICHIATRIA": false,
+    "lat": 39.436382,
+    "lon": 9.310596
   }
 ]

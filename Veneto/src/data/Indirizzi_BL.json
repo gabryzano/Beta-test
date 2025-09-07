@@ -293,5 +293,7 @@
   {"strada": "SP 203 Agordina, km 28, 32020 Voltago Agordino BL", "lat": 46.3450, "lon": 11.9350},
   {"strada": "SP 347 del Passo Giau, km 8, 32020 La Valle Agordina BL", "lat": 46.3750, "lon": 11.9050},
   {"strada": "SP 244 di Livinallongo, km 15, 32020 Livinallongo del Col di Lana BL", "lat": 46.5050, "lon": 11.9650},
-  {"strada": "SP 347 del Passo Giau, km 18, 32020 Colle Santa Lucia BL", "lat": 46.4550, "lon": 12.0550}
+  {"strada": "SP 347 del Passo Giau, km 18, 32020 Colle Santa Lucia BL", "lat": 46.4550, "lon": 12.0550},
+  { "Pronto Soccorso ": "H Feltre, 32032 Feltre BL", "lat": 46.0238012, "lon": 11.9082155 },
+  { "Pronto Soccorso ": "H Pieve di Cadore, 35028 Pieve di Cadore BL", "lat": 46.4315984, "lon": 12.3761632 }
 ]

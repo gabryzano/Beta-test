@@ -348,5 +348,8 @@
   {"strada": "A22 Autostrada del Brennero, km 215, 37015 Sant'Ambrogio di Valpolicella VR", "lat": 45.53000, "lon": 10.87000},
   {"strada": "SS 12 dell'Abetone e del Brennero, km 295, 37015 Sant'Ambrogio di Valpolicella VR", "lat": 45.54000, "lon": 10.88000},
   {"strada": "A22 Autostrada del Brennero, km 235, 37020 Marano di Valpolicella VR", "lat": 45.55000, "lon": 10.88000},
-  {"strada": "SS 12 dell'Abetone e del Brennero, km 315, 37020 Marano di Valpolicella VR", "lat": 45.56000, "lon": 10.89000}
+  {"strada": "SS 12 dell'Abetone e del Brennero, km 315, 37020 Marano di Valpolicella VR", "lat": 45.56000, "lon": 10.89000},
+  { "Pronto Soccorso ": "H Legnago, 37045 Legnago VR", "lat": 45.1855067, "lon": 11.3155081 },
+  { "Pronto Soccorso ": "H Villafranca, 37069 Villafranca di Verona VR", "lat": 45.3485371, "lon": 10.8392205 },
+  { "Pronto Soccorso ": "H San Bonifacio, 37047 San Bonifacio VR", "lat": 45.391315, "lon": 11.2788843 }
 ]
