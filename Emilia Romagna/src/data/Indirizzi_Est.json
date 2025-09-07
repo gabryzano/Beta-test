@@ -728,5 +728,9 @@
   {"strada": "Circonvallazione Cento, presso Corso Guercino FE", "lat": 44.73129, "lon": 11.28765},
   {"strada": "SP21 di Argenta, km 25, presso Argenta FE", "lat": 44.61929, "lon": 11.83565},
   {"strada": "SP4 di Bondeno, km 35, presso Bondeno FE", "lat": 44.89229, "lon": 11.40665},
-  {"strada": "Tangenziale Nord Ferrara, presso Via Bologna FE", "lat": 44.83529, "lon": 11.62265}
+  {"strada": "Tangenziale Nord Ferrara, presso Via Bologna FE", "lat": 44.83529, "lon": 11.62265},
+  { "Pronto Soccorso ": "H Sassuolo, 41049 Sassuolo MO", "lat": 44.5313747, "lon": 10.7932274 },
+  { "Pronto Soccorso ": "H Pavullo, 41026 Pavullo Nel Frignano MO", "lat": 44.3348959, "lon": 10.8356397 },
+  { "Pronto Soccorso ": "H Imola, 40026 Imola BO", "lat": 44.3576882, "lon": 11.6888668 },
+  { "Pronto Soccorso ": "H Lagosanto, 44023 Lagosanto FE", "lat": 44.7748492, "lon": 12.1224196 }
 ]

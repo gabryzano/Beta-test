@@ -682,5 +682,9 @@
   {"strada": "SS468 di Correggio, km 15, presso Correggio RE", "lat": 44.77529, "lon": 10.77965},
   {"strada": "SP11 Pedemontana, km 67, presso Viano RE", "lat": 44.54929, "lon": 10.59565},
   {"strada": "Circonvallazione Scandiano, presso Via Bosco RE", "lat": 44.59829, "lon": 10.69265},
-  {"strada": "SP4 della Val d'Enza, km 23, presso Sant'Ilario d'Enza RE", "lat": 44.76829, "lon": 10.42665}
+  {"strada": "SP4 della Val d'Enza, km 23, presso Sant'Ilario d'Enza RE", "lat": 44.76829, "lon": 10.42665},
+  { "Pronto Soccorso ": "H Fiorenzuola, 29017 Fiorenzuola d'Arda PC", "lat": 44.9305974, "lon": 9.9106177 },
+  { "Pronto Soccorso ": "H Guastalla, 42016 Guastalla RE", "lat": 44.9191973, "lon": 10.6673337 },
+  { "Pronto Soccorso ": "H Fidenza, 43036 Vaio PR", "lat": 44.8481649, "lon": 10.0408485 },
+  { "Pronto Soccorso ": "H Castelnovo ne' Monti, 42035 Castelnovo ne' Monti RE", "lat": 44.4339519, "lon": 10.4086059 }
 ]

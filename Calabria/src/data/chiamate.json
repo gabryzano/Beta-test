@@ -1109,17 +1109,17 @@
     "testo_chiamata": "Buongiorno, chiamo dal Pronto Soccorso dell’ospedale di (Pronto Soccorso), abbiamo un paziente con sospetta emorragia subaracnoidea da aneurisma cerebrale. Abbiamo eseguito TC e angio-TC che confermano il quadro, attualmente il paziente è stabile ma sintomatico. Necessitiamo di trasferimento urgente in centro neurochirurgico."
     ,
     "caso_stabile": {
-      "MSB": "Maschio, 54 anni, cefalea improvvisa e violenta, TC cranio positiva per ESA, angio-TC con evidenza di aneurisma comunicante anteriore, GCS 15, PA 145/90 mmHg, FC 88 bpm, SpO₂ 98%. In ossigenoterapia. Trasferimento richiesto in centro neurochirurgico. [NCH]",
+      "MSB": "Maschio, 54 anni, cefalea improvvisa e violenta, TC cranio positiva per ESA, angio-TC con evidenza di aneurisma comunicante anteriore, PA 145/90 mmHg, FC 88 bpm, SpO₂ 98%. In ossigenoterapia. Trasferimento richiesto in centro neurochirurgico. [NCH]",
       "MSA1": "Maschio, 54 anni, emorragia subaracnoidea diagnosticata da TC, GCS 15, cefalea ingravescente, parametri vitali stabili. Accessi EV per infusione controllata, terapia antiipertensiva in corso. Necessita trasferimento per intervento neurochirurgico precoce. [NCH]",
       "MSA2": "Maschio, 54 anni, aneurisma cerebrale rotto con ESA, vigilanza conservata, parametri emodinamici nella norma, trasferimento secondario in urgenza per trattamento endovascolare/chirurgico. Nessun supporto ventilatorio necessario al momento. [NCH]"
     },
     "poco_stabile": {
-      "MSB": "Maschio, 54 anni, emorragia subaracnoidea con stato confusionale e vomito, GCS 13, PA 165/95 mmHg, FC 102 bpm, SpO₂ 96%. TC positiva per ESA con ventricoli inizialmente dilatati. L'equipe medica dell'ospedale ci accompagna per il trasporto. [NCH]",
+      "MSB": "Maschio, 54 anni, emorragia subaracnoidea con stato confusionale e vomito, PA 165/95 mmHg, FC 102 bpm, SpO₂ 96%. TC positiva per ESA con ventricoli inizialmente dilatati. L'equipe medica dell'ospedale ci accompagna per il trasporto. [NCH]",
       "MSA1": "Maschio, 54 anni, ESA con iniziale deterioramento neurologico, GCS 13, PA 165/95 mmHg, FC 102 bpm, segni iniziali di ipertensione endocranica. Posizionamento di accesso EV centrale in corso, analgesia e sedazione leggera, monitoraggio continuo. Trasporto in emergenza. [NCH]",
       "MSA2": "Maschio, 54 anni, ESA con sintomi ingravescenti, GCS 13, segni di irritazione meningea, PA 165/95 mmHg, FC 102 bpm, SpO₂ 96%. Paziente sedato leggermente per contenere agitazione, in monitoraggio continuo. Trasferimento urgente per trattamento neurochirurgico. [NCH]"
     },
     "critico": {
-      "MSB": "Maschio, 54 anni, ESA massiva, giunto in PS incosciente, GCS 6, intubato, TC: emorragia diffusa con idrocefalo acuto. PA 90/50 mmHg, FC 120 bpm, SpO₂ 91%. L'equipe medica dell'ospedale ci accompagna per il trasporto. [NCH]",
+      "MSB": "Maschio, 54 anni, ESA massiva, giunto in PS. Incosciente, intubato, TC: emorragia diffusa con idrocefalo acuto. PA 90/50 mmHg, FC 120 bpm, SpO₂ 91%. L'equipe medica dell'ospedale ci accompagna per il trasporto. [NCH]",
       "MSA1": "Maschio, 54 anni, aneurisma cerebrale rotto, GCS 6, intubato, ventilato, accessi EV bilaterali, in corso infusione di noradrenalina, sedazione profonda. TC: ESA massiva, idrocefalo, indicazione urgente a DVE e intervento. [NCH]",
       "MSA2": "Maschio, 54 anni, paziente intubato per coma da ESA, GCS 6, stabilizzazione emodinamica in atto, noradrenalina in infusione, monitoraggio invasivo attivo, trasporto urgente richiesto per neurochirurgia d’urgenza. [NCH]"
     }

@@ -648,5 +648,8 @@
   {"strada": "SP4 di Misano, km 25, presso Misano Adriatico RN", "lat": 43.98729, "lon": 12.69165},
   {"strada": "Tangenziale Nord Rimini, presso Via Emilia RN", "lat": 44.07329, "lon": 12.55265},
   {"strada": "SS9 Via Emilia, km 118, presso Rimini RN", "lat": 44.07029, "lon": 12.55565},
-  {"strada": "SP14 di Bellaria, km 35, presso Bellaria-Igea Marina RN", "lat": 44.14629, "lon": 12.46565}
+  {"strada": "SP14 di Bellaria, km 35, presso Bellaria-Igea Marina RN", "lat": 44.14629, "lon": 12.46565},
+  { "Pronto Soccorso ": "H Lugo, 41049 Sassuolo MO", "lat": 44.4164331, "lon": 11.9205713 },
+  { "Pronto Soccorso ": "H Forlì, 47121 Forlì FC", "lat": 44.2074066, "lon": 12.0194269 },
+  { "Pronto Soccorso ": "H Riccione, 47838 Riccione RN", "lat": 43.994639, "lon": 12.6502554 }
 ]

@@ -1,507 +1,2307 @@
 [
-  { "indirizzo abitazione": "Via Roma, 52 – 89822 Serra San Bruno VV", "lat": 38.5776, "lon": 16.3246 },
-  { "indirizzo abitazione": "Via Catanzaro, 14 – 89822 Serra San Bruno VV", "lat": 38.5789, "lon": 16.3263 },
-  { "indirizzo abitazione": "Via Vittorio Veneto, 31 – 89841 Mongiana VV", "lat": 38.5314, "lon": 16.3229 },
-  { "indirizzo abitazione": "Via Arangò, 9 – 89841 Mongiana VV", "lat": 38.5310, "lon": 16.3257 },
-  { "indirizzo abitazione": "Via Nazionale, 10 – 89843 Fabrizia VV", "lat": 38.4622, "lon": 16.3088 },
-  { "indirizzo abitazione": "Via Umberto I, 77 – 89843 Fabrizia VV", "lat": 38.4629, "lon": 16.3102 },
-  { "indirizzo abitazione": "Via Roma, 25 – 89842 Nardodipace VV", "lat": 38.4644, "lon": 16.3546 },
-  { "indirizzo abitazione": "Via Riviera Prangi, 102 – 89812 Pizzo VV", "lat": 38.73895, "lon": 16.16452 },
-  { "indirizzo abitazione": "Via Nazionale, 174 – 89812 Pizzo VV", "lat": 38.73621, "lon": 16.16881 },
-  { "indirizzo abitazione": "Via Libertà, 121 – 89861 Tropea VV", "lat": 38.67866, "lon": 15.90025 },
-  { "indirizzo abitazione": "Via Indipendenza, 49 – 89861 Tropea VV", "lat": 38.67849, "lon": 15.89762 },
-  { "indirizzo abitazione": "Via Francesco Cilea, 11 – 89844 Nicotera Marina VV", "lat": 38.53653, "lon": 15.94857 },
-  { "indirizzo abitazione": "Via Madonna della Scala, 19 – 89844 Nicotera VV", "lat": 38.53260, "lon": 15.94433 },
-  { "indirizzo abitazione": "Via Giuseppe Verdi, 5 – 89863 Briatico VV", "lat": 38.72160, "lon": 15.93847 },
-  { "indirizzo abitazione": "Via Nazionale, 152 – 89863 Briatico VV", "lat": 38.72100, "lon": 15.94010 },
-  { "indirizzo abitazione": "Via Nazionale, 85 – 89868 Zambrone VV", "lat": 38.70588, "lon": 15.93430 },
-  { "indirizzo abitazione": "Via Guglielmo Marconi, 9 – 89868 Zambrone VV", "lat": 38.70746, "lon": 15.93555 },
-  { "indirizzo abitazione": "Via delle Regioni, 13 – 89832 Sant'Onofrio VV", "lat": 38.68230, "lon": 16.06716 },
-  { "indirizzo abitazione": "Via del Mare, 8 – 89866 Joppolo VV", "lat": 38.56700, "lon": 15.88261 },
-  { "indirizzo abitazione": "Via del Porto, 2 – 89866 Coccorino Marina (Joppolo) VV", "lat": 38.57284, "lon": 15.87610 },
-  { "indirizzo abitazione": "Via Lungomare, 10 – 89867 Parghelia VV", "lat": 38.69538, "lon": 15.91145 },
-  { "indirizzo abitazione": "Via Giardini, 5 – 89868 Drapia (fraz. Caria) VV", "lat": 38.68742, "lon": 15.92907 },
-  { "indirizzo abitazione": "Via Riviera Prangi, 45 – 89812 Pizzo VV", "lat": 38.73800, "lon": 16.16588 },
-  { "indirizzo abitazione": "Via Nazionale, 182 – 89812 Pizzo VV", "lat": 38.73611, "lon": 16.16844 },
-  { "indirizzo abitazione": "Via Francesco Jerocades, 28 – 89861 Tropea VV", "lat": 38.67693, "lon": 15.89739 },
-  { "indirizzo abitazione": "Via Libertà, 124 – 89861 Tropea VV", "lat": 38.67855, "lon": 15.89987 },
-  { "indirizzo abitazione": "Via Roma, 110 – 89844 Nicotera VV", "lat": 38.53141, "lon": 15.94839 },
-  { "indirizzo abitazione": "Via Francesco Cilea, 7 – 89844 Nicotera Marina VV", "lat": 38.53631, "lon": 15.94872 },
-  { "indirizzo abitazione": "Corso Umberto I, 51 – 89822 Serra San Bruno VV", "lat": 38.57780, "lon": 16.32447 },
-  { "indirizzo abitazione": "Via Catanzaro, 66 – 89822 Serra San Bruno VV", "lat": 38.57860, "lon": 16.32604 },
-  { "indirizzo abitazione": "Via Nazionale, 27 – 89862 Zambrone VV", "lat": 38.70632, "lon": 15.93367 },
-  { "indirizzo abitazione": "Via G. Marconi, 11 – 89862 Zambrone VV", "lat": 38.70754, "lon": 15.93491 },
-  { "indirizzo abitazione": "Via Trento, 6 – 89851 San Gregorio d'Ippona VV", "lat": 38.68396, "lon": 16.11824 },
-  { "indirizzo abitazione": "Via Roma, 31 – 89851 San Gregorio d'Ippona VV", "lat": 38.68258, "lon": 16.11710 },
-  { "indirizzo abitazione": "Via Aldo Moro, 15 – 89843 Stefanaconi VV", "lat": 38.68937, "lon": 16.12251 },
-  { "indirizzo abitazione": "Via Provinciale, 85 – 89863 Briatico VV", "lat": 38.72053, "lon": 15.94080 },
-  { "indirizzo abitazione": "Via Giuseppe Verdi, 12 – 89863 Briatico VV", "lat": 38.72179, "lon": 15.93860 },
-  { "indirizzo abitazione": "Via Roma, 37 – 89821 Filadelfia VV", "lat": 38.7830978, "lon": 16.2945403 },
-  { "indirizzo abitazione": "Via Mazzini, 16 – 89821 Filadelfia VV", "lat": 38.78713, "lon": 16.29765 },
-  { "indirizzo abitazione": "Via Madonna degli Angeli, 6 – 89823 Spilinga VV", "lat": 38.62340, "lon": 15.95762 },
-  { "indirizzo abitazione": "Via delle Regioni, 13 – 89832 Sant'Onofrio VV", "lat": 38.68232, "lon": 16.06714 },
-  { "indirizzo abitazione": "Via Guglielmo Marconi, 1 – 89831 Dasà VV", "lat": 38.57242, "lon": 16.09201 },
-  { "indirizzo abitazione": "Via Santa Maria, 102 – 89900 Vibo Valentia (frazione Santa Maria) VV", "lat": 38.69335, "lon": 16.10011 },
-  { "indirizzo abitazione": "Via Giosuè Carducci, 4 – 89851 San Gregorio d'Ippona VV", "lat": 38.68325, "lon": 16.11781 },
-  { "indirizzo abitazione": "Via Aldo Moro, 18 – 89843 Stefanaconi VV", "lat": 38.68917, "lon": 16.12239 },
-  { "indirizzo abitazione": "Via Roma, 27 – 89812 Zungri VV", "lat": 38.66124, "lon": 15.97845 },
-  { "indirizzo abitazione": "Via Nazionale, 170 – 89900 Vibo Valentia (frazione Longobardi) VV", "lat": 38.71030, "lon": 16.08942 },
-  { "indirizzo abitazione": "Via Popilia, 14 – 89900 Vibo Valentia VV", "lat": 38.67546, "lon": 16.10392 },
-  { "indirizzo abitazione": "Via Gabriele D'Annunzio, 21 – 89900 Vibo Valentia VV", "lat": 38.67955, "lon": 16.10644 },
-  { "indirizzo abitazione": "Via Umberto I, 38 – 89900 Vibo Valentia VV", "lat": 38.67694, "lon": 16.09610 },
-  { "indirizzo abitazione": "Via Giovanni Gronchi, 9 – 89900 Vibo Valentia VV", "lat": 38.68172, "lon": 16.10587 },
-  { "indirizzo abitazione": "Via Guglielmo Marconi, 5 – 89900 Vibo Valentia VV", "lat": 38.67430, "lon": 16.09725 },
-  { "indirizzo abitazione": "Via Roma, 88 – 88055 Taverna CZ", "lat": 39.00690, "lon": 16.61843 },
-  { "indirizzo abitazione": "Via Luigi Einaudi, 10 – 88060 Sersale CZ", "lat": 39.00078, "lon": 16.68395 },
-  { "indirizzo abitazione": "Via Vittorio Veneto, 6 – 88060 Cerva CZ", "lat": 39.00177, "lon": 16.69515 },
-  { "indirizzo abitazione": "Via Telesio, 4 – 88060 Petronà CZ", "lat": 39.01643, "lon": 16.70741 },
-  { "indirizzo abitazione": "Via Giuseppe Garibaldi, 9 – 88050 Magisano CZ", "lat": 39.00411, "lon": 16.60702 },
-  { "indirizzo abitazione": "Via Roma, 50 – 88050 Zagarise CZ", "lat": 39.01112, "lon": 16.64854 },
-  { "indirizzo abitazione": "Via Umberto I, 13 – 88050 Albi CZ", "lat": 39.00944, "lon": 16.63266 },
-  { "indirizzo abitazione": "Via San Nicola, 12 – 88050 Fossato Serralta CZ", "lat": 39.03301, "lon": 16.66120 },
-  { "indirizzo abitazione": "Via Kennedy, 15 – 88055 Sorbo San Basile CZ", "lat": 39.02333, "lon": 16.61582 },
-  { "indirizzo abitazione": "Via Regina Elena, 30 – 88055 Andali CZ", "lat": 39.0409, "lon": 16.6768 },
-  { "indirizzo abitazione": "Via Lungomare, 41 – 88068 Soverato CZ", "lat": 38.68631, "lon": 16.54110 },
-  { "indirizzo abitazione": "Via Trento e Trieste, 3 – 88068 Soverato CZ", "lat": 38.68981, "lon": 16.53897 },
-  { "indirizzo abitazione": "Via della Libertà, 23 – 88068 Soverato Superiore CZ", "lat": 38.69212, "lon": 16.53761 },
-  { "indirizzo abitazione": "Via Magna Grecia, 162 – 88100 Catanzaro Lido CZ", "lat": 38.82893, "lon": 16.58091 },
-  { "indirizzo abitazione": "Via Caprera, 5 – 88100 Catanzaro Lido CZ", "lat": 38.82540, "lon": 16.58342 },
-  { "indirizzo abitazione": "Via del Progresso, 45 – 88060 Montepaone Lido CZ", "lat": 38.72861, "lon": 16.55147 },
-  { "indirizzo abitazione": "Via degli Oleandri, 12 – 88060 Montepaone Lido CZ", "lat": 38.73022, "lon": 16.55088 },
-  { "indirizzo abitazione": "Via San Francesco, 9 – 88050 Squillace Lido CZ", "lat": 38.77562, "lon": 16.56104 },
-  { "indirizzo abitazione": "Via Marina, 88 – 88050 Squillace Lido CZ", "lat": 38.77892, "lon": 16.55835 },
-  { "indirizzo abitazione": "Via Isonzo, 33 – 88050 Sellia Marina CZ", "lat": 38.89952, "lon": 16.76725 },
-  { "indirizzo abitazione": "Via Roma, 240 – 88050 Sellia Marina CZ", "lat": 38.89601, "lon": 16.76971 },
-  { "indirizzo abitazione": "Via Risorgimento, 12 – 88060 Botricello CZ", "lat": 38.9348, "lon": 16.7579 },
-  { "indirizzo abitazione": "Via Nazionale, 102 – 88051 Cropani Marina CZ", "lat": 38.95690, "lon": 16.76628 },
-  { "indirizzo abitazione": "Via Lungomare Europa, 25 – 88063 Davoli Marina CZ", "lat": 38.67210, "lon": 16.54502 },
-  { "indirizzo abitazione": "Via Guglielmo Marconi, 18 – 88063 Davoli Marina CZ", "lat": 38.66922, "lon": 16.54690 },
-  { "indirizzo abitazione": "Via Vittorio Veneto, 11 – 88050 Santa Caterina dello Ionio Marina CZ", "lat": 38.58017, "lon": 16.57014 },
-  { "indirizzo abitazione": "Via Lungomare, 50 – 88050 Guardavalle Marina CZ", "lat": 38.51944, "lon": 16.58272 },
-  { "indirizzo abitazione": "Via Nazionale, 188 – 88065 Badolato Marina CZ", "lat": 38.53640, "lon": 16.58110 },
-  { "indirizzo abitazione": "Via Lungomare, 14 – 88050 Satriano Marina CZ", "lat": 38.71240, "lon": 16.53723 },
-  { "indirizzo abitazione": "Via per Soverato, 21 – 88060 Montauro Marina CZ", "lat": 38.74452, "lon": 16.55392 },
-  { "indirizzo abitazione": "Corso Giovanni Nicotera, 135 – 88046 Lamezia Terme CZ", "lat": 38.96711, "lon": 16.31195 },
-  { "indirizzo abitazione": "Via del Progresso, 322 – 88046 Lamezia Terme CZ", "lat": 38.97048, "lon": 16.30484 },
-  { "indirizzo abitazione": "Via Marconi, 65 – 88046 Lamezia Terme CZ", "lat": 38.96774, "lon": 16.31451 },
-  { "indirizzo abitazione": "Via Aldo Moro, 59 – 88046 Lamezia Terme (Sant’Eufemia) CZ", "lat": 38.90260, "lon": 16.23967 },
-  { "indirizzo abitazione": "Via Nazionale, 12 – 88068 Soverato CZ", "lat": 38.68691, "lon": 16.53777 },
-  { "indirizzo abitazione": "Via San Giovanni Bosco, 29 – 88068 Soverato CZ", "lat": 38.68635, "lon": 16.53884 },
-  { "indirizzo abitazione": "Via Roma, 18 – 88024 Girifalco CZ", "lat": 38.81891, "lon": 16.43441 },
-  { "indirizzo abitazione": "Via Spasari, 4 – 88024 Girifalco CZ", "lat": 38.81642, "lon": 16.43351 },
-  { "indirizzo abitazione": "Via Gramsci, 9 – 88064 Chiaravalle Centrale CZ", "lat": 38.64708, "lon": 16.46862 },
-  { "indirizzo abitazione": "Via Foresta, 27 – 88064 Chiaravalle Centrale CZ", "lat": 38.64760, "lon": 16.47088 },
-  { "indirizzo abitazione": "Via Umberto I, 7 – 88040 Tiriolo CZ", "lat": 38.93819, "lon": 16.49284 },
-  { "indirizzo abitazione": "Via dei Martiri, 3 – 88040 Settingiano CZ", "lat": 38.90277, "lon": 16.52137 },
-  { "indirizzo abitazione": "Via Guglielmo Marconi, 21 – 88040 Settingiano CZ", "lat": 38.90198, "lon": 16.52088 },
-  { "indirizzo abitazione": "Via Luigi Einaudi, 24 – 88050 Borgia CZ", "lat": 38.84457, "lon": 16.56012 },
-  { "indirizzo abitazione": "Via San Francesco, 32 – 88050 Borgia CZ", "lat": 38.84390, "lon": 16.55862 },
-  { "indirizzo abitazione": "Via Milano, 45 – 88050 Sellia Marina CZ", "lat": 38.89890, "lon": 16.76897 },
-  { "indirizzo abitazione": "Via Nazionale, 240 – 88050 Sellia Marina CZ", "lat": 38.89754, "lon": 16.76940 },
-  { "indirizzo abitazione": "Via Provinciale, 14 – 88050 Amaroni CZ", "lat": 38.81492, "lon": 16.50865 },
-  { "indirizzo abitazione": "Via Roma, 33 – 88050 Vallefiorita CZ", "lat": 38.79692, "lon": 16.49470 },
-  { "indirizzo abitazione": "Via Aldo Moro, 19 – 88070 Curinga CZ", "lat": 38.85455, "lon": 16.34821 },
-  { "indirizzo abitazione": "Via Regina Margherita, 38 – 88070 Curinga CZ", "lat": 38.85610, "lon": 16.34789 },
-  { "indirizzo abitazione": "Via Nazionale, 102 – 88051 Cropani Marina CZ", "lat": 38.95701, "lon": 16.76612 },
-  { "indirizzo abitazione": "Via Guglielmo Pepe, 6 – 88050 Squillace CZ", "lat": 38.78140, "lon": 16.54892 },
-  { "indirizzo abitazione": "Via Marina, 71 – 88050 Squillace Lido CZ", "lat": 38.77755, "lon": 16.55892 },
-  { "indirizzo abitazione": "Via Vittorio Veneto, 20 – 88060 Cerva CZ", "lat": 39.00171, "lon": 16.69522 },
-  { "indirizzo abitazione": "Via Roma, 50 – 88060 Sersale CZ", "lat": 39.00085, "lon": 16.68401 },
-  { "indirizzo abitazione": "Via Telesio, 12 – 88060 Petronà CZ", "lat": 39.01660, "lon": 16.70750 },
-  { "indirizzo abitazione": "Via San Nicola, 28 – 88055 San Pietro a Maida CZ", "lat": 38.85510, "lon": 16.37440 },
-  { "indirizzo abitazione": "Via Vescovado, 5 – 88049 Gasperina CZ", "lat": 38.71955, "lon": 16.51918 },
-  { "indirizzo abitazione": "Via Aldo Moro, 47 – 88063 Davoli Marina CZ", "lat": 38.66780, "lon": 16.54620 },
-  { "indirizzo abitazione": "Via Guglielmo Marconi, 26 – 88060 Settingiano CZ", "lat": 38.90230, "lon": 16.52091 },
-  { "indirizzo abitazione": "Via Nazionale, 142 – 88040 Tiriolo CZ", "lat": 38.93812, "lon": 16.49302 },
-  { "indirizzo abitazione": "Via Fiume Tacina, 3 – 88040 Simeri Crichi CZ", "lat": 38.97560, "lon": 16.67740 },
-  { "indirizzo abitazione": "Via Risorgimento, 55 – 88040 Sellia Marina CZ", "lat": 38.89630, "lon": 16.76855 },
-  { "indirizzo abitazione": "Via Giuseppe Mazzini, 37 – 88050 Borgia CZ", "lat": 38.84252, "lon": 16.55936 },
-  { "indirizzo abitazione": "Via Roma, 12 – 88050 Amaroni CZ", "lat": 38.81332, "lon": 16.50991 },
-  { "indirizzo abitazione": "Via Nazionale, 102 – 88051 Cropani Marina CZ", "lat": 38.95660, "lon": 16.76620 },
-  { "indirizzo abitazione": "Via della Libertà, 88 – 88050 Squillace CZ", "lat": 38.78101, "lon": 16.54967 },
-  { "indirizzo abitazione": "Via Magna Grecia, 154 – 88100 Catanzaro Lido CZ", "lat": 38.82952, "lon": 16.58023 },
-  { "indirizzo abitazione": "Via Carlo Pisacane, 20 – 88040 Pianopoli CZ", "lat": 38.90260, "lon": 16.38017 },
-  { "indirizzo abitazione": "Via Alessandro Turco, 43 – 88100 Catanzaro CZ", "lat": 38.91028, "lon": 16.59214 },
-  { "indirizzo abitazione": "Viale Tommaso Campanella, 91 – 88100 Catanzaro CZ", "lat": 38.90997, "lon": 16.60385 },
-  { "indirizzo abitazione": "Via Mario Greco, 25 – 88100 Catanzaro CZ", "lat": 38.91185, "lon": 16.59925 },
-  { "indirizzo abitazione": "Via Lucrezia della Valle, 110 – 88100 Catanzaro CZ", "lat": 38.90182, "lon": 16.61165 },
-  { "indirizzo abitazione": "Via Madonna dei Cieli, 18 – 88100 Catanzaro CZ", "lat": 38.90672, "lon": 16.58791 },
-  { "indirizzo abitazione": "Viale dei Normanni, 147 – 88100 Catanzaro CZ", "lat": 38.90403, "lon": 16.58755 },
-  { "indirizzo abitazione": "Via XX Settembre, 12 – 88100 Catanzaro CZ", "lat": 38.90844, "lon": 16.59365 },
-  { "indirizzo abitazione": "Via Francesco Paglia, 42 – 88100 Catanzaro CZ", "lat": 38.91112, "lon": 16.59496 },
-  { "indirizzo abitazione": "Via Fiume Busento, 9 – 88100 Catanzaro CZ", "lat": 38.87243, "lon": 16.57056 },
-  { "indirizzo abitazione": "Via Antonio Salfi, 8 – 88100 Catanzaro CZ", "lat": 38.91100, "lon": 16.58993 },
-  { "indirizzo abitazione": "Via Roma, 38 – 89057 Santo Stefano in Aspromonte RC", "lat": 38.18830, "lon": 15.77320 },
-  { "indirizzo abitazione": "Via Garibaldi, 4 – 89057 Gambarie RC", "lat": 38.18150, "lon": 15.77180 },
-  { "indirizzo abitazione": "Via Centrale, 25 – 89043 Melito di Porto Salvo (fraz. Musupuniti) RC", "lat": 38.05970, "lon": 15.88940 },
-  { "indirizzo abitazione": "Via Dante, 16 – 89030 San Lorenzo RC", "lat": 38.01120, "lon": 15.84110 },
-  { "indirizzo abitazione": "Via Municipio, 10 – 89030 Cardeto RC", "lat": 38.03680, "lon": 15.74540 },
-  { "indirizzo abitazione": "Via Provinciale, 13 – 89040 Samo RC", "lat": 38.06000, "lon": 16.04900 },
-  { "indirizzo abitazione": "Via Vittorio Emanuele, 11 – 89044 Canolo RC", "lat": 38.32200, "lon": 16.25300 },
-  { "indirizzo abitazione": "Via Umberto I, 9 – 89044 Antonimina RC", "lat": 38.26730, "lon": 16.19370 },
-  { "indirizzo abitazione": "Via XX Settembre, 2 – 89045 Mammola RC", "lat": 38.35360, "lon": 16.25380 },
-  { "indirizzo abitazione": "Via Marconi, 5 – 89030 San Luca RC", "lat": 38.15580, "lon": 16.10340 },
-  { "indirizzo abitazione": "Via Lungomare, 72 – 89048 Siderno RC", "lat": 38.26490, "lon": 16.29630 },
-  { "indirizzo abitazione": "Via Marina, 99 – 89044 Locri RC", "lat": 38.23950, "lon": 16.26350 },
-  { "indirizzo abitazione": "Via Lungomare, 14 – 89047 Roccella Ionica RC", "lat": 38.32750, "lon": 16.39770 },
-  { "indirizzo abitazione": "Via Marina, 88 – 89052 Marina di Gioiosa Ionica RC", "lat": 38.30510, "lon": 16.31690 },
-  { "indirizzo abitazione": "Via Lungomare, 45 – 89050 Bovalino Marina RC", "lat": 38.15770, "lon": 16.14990 },
-  { "indirizzo abitazione": "Via Lungomare, 1 – 89032 Bianco RC", "lat": 38.08860, "lon": 16.14750 },
-  { "indirizzo abitazione": "Via Lungomare dei Mille, 210 – 89062 Brancaleone RC", "lat": 37.967708, "lon": 16.1037449 },
-  { "indirizzo abitazione": "Via Regina Margherita, 3 – 89049 Stilo Marina RC", "lat": 38.48650, "lon": 16.47800 },
-  { "indirizzo abitazione": "Via Lungomare Cristoforo Colombo, 70 – 89034 Bagnara Calabra RC", "lat": 38.28540, "lon": 15.80180 },
-  { "indirizzo abitazione": "Via Nazionale, 220 – 89018 Villa San Giovanni RC", "lat": 38.22250, "lon": 15.63740 },
-  { "indirizzo abitazione": "Via Lido Comunale, 33 – 89123 Reggio Calabria RC", "lat": 38.11460, "lon": 15.65190 },
-  { "indirizzo abitazione": "Via Marina di Pellaro, 27 – 89134 Reggio Calabria RC", "lat": 38.01890, "lon": 15.65350 },
-  { "indirizzo abitazione": "Via Lungomare Cicerone, 9 – 89038 San Ferdinando RC", "lat": 38.47510, "lon": 15.95860 },
-  { "indirizzo abitazione": "Via Lungomare, 54 – 89026 San Ferdinando RC", "lat": 38.47250, "lon": 15.95940 },
-  { "indirizzo abitazione": "Via Lungomare Kennedy, 15 – 89015 Palmi RC", "lat": 38.35020, "lon": 15.84120 },
-  { "indirizzo abitazione": "Via Lungomare Francesco Macrì, 39 – 89013 Gioia Tauro RC", "lat": 38.41910, "lon": 15.90730 },
-  { "indirizzo abitazione": "Via Nazionale, 170 – 89025 Rosarno RC", "lat": 38.49380, "lon": 15.97460 },
-  { "indirizzo abitazione": "Via Lungomare, 15 – 89042 Gioiosa Ionica Marina RC", "lat": 38.32410, "lon": 16.30610 },
-  { "indirizzo abitazione": "Via Marina, 21 – 89036 Africo Marina RC", "lat": 38.03140, "lon": 16.20920 },
-  { "indirizzo abitazione": "Via Lungomare, 31 – 89035 Condofuri Marina RC", "lat": 37.97860, "lon": 15.85200 },
-  { "indirizzo abitazione": "Via Roma, 25 – 89013 Gioia Tauro RC", "lat": 38.42560, "lon": 15.89980 },
-  { "indirizzo abitazione": "Via Veneto, 17 – 89013 Gioia Tauro RC", "lat": 38.42300, "lon": 15.89900 },
-  { "indirizzo abitazione": "Via Nazionale, 116 – 89015 Palmi RC", "lat": 38.35860, "lon": 15.84970 },
-  { "indirizzo abitazione": "Via Concordato, 22 – 89015 Palmi RC", "lat": 38.35580, "lon": 15.84900 },
-  { "indirizzo abitazione": "Via Matteotti, 44 – 89029 Taurianova RC", "lat": 38.36320, "lon": 16.00840 },
-  { "indirizzo abitazione": "Via Circonvallazione Est, 12 – 89029 Taurianova RC", "lat": 38.36680, "lon": 16.00690 },
-  { "indirizzo abitazione": "Via Marconi, 8 – 89025 Rosarno RC", "lat": 38.49420, "lon": 15.97200 },
-  { "indirizzo abitazione": "Via Sant'Anna, 10 – 89025 Rosarno RC", "lat": 38.49470, "lon": 15.97400 },
-  { "indirizzo abitazione": "Via F. Baracca, 3 – 89048 Siderno RC", "lat": 38.27010, "lon": 16.29080 },
-  { "indirizzo abitazione": "Via Cesare Battisti, 12 – 89048 Siderno RC", "lat": 38.26500, "lon": 16.28490 },
-  { "indirizzo abitazione": "Via Roma, 65 – 89047 Roccella Ionica RC", "lat": 38.32860, "lon": 16.40020 },
-  { "indirizzo abitazione": "Via Marina, 3 – 89047 Roccella Ionica RC", "lat": 38.32710, "lon": 16.39540 },
-  { "indirizzo abitazione": "Via XXV Aprile, 18 – 89042 Gioiosa Ionica RC", "lat": 38.32610, "lon": 16.30130 },
-  { "indirizzo abitazione": "Via Nazionale, 33 – 89044 Locri RC", "lat": 38.24100, "lon": 16.25790 },
-  { "indirizzo abitazione": "Via Garibaldi, 92 – 89044 Locri RC", "lat": 38.23880, "lon": 16.25650 },
-  { "indirizzo abitazione": "Via Roma, 45 – 89040 Caulonia Marina RC", "lat": 38.38740, "lon": 16.45900 },
-  { "indirizzo abitazione": "Via Nazionale, 15 – 89050 Bovalino RC", "lat": 38.15760, "lon": 16.14700 },
-  { "indirizzo abitazione": "Via Kennedy, 5 – 89050 Bovalino RC", "lat": 38.15520, "lon": 16.14910 },
-  { "indirizzo abitazione": "Via Giotto, 7 – 89052 Marina di Gioiosa Ionica RC", "lat": 38.30310, "lon": 16.31180 },
-  { "indirizzo abitazione": "Via Europa, 18 – 89052 Marina di Gioiosa Ionica RC", "lat": 38.30120, "lon": 16.31440 },
-  { "indirizzo abitazione": "Via Pio La Torre, 20 – 89062 Brancaleone RC", "lat": 37.96380, "lon": 16.08930 },
-  { "indirizzo abitazione": "Via Stazione, 6 – 89062 Brancaleone RC", "lat": 37.96160, "lon": 16.08700 },
-  { "indirizzo abitazione": "Via Regina Margherita, 66 – 89031 Ardore RC", "lat": 38.14740, "lon": 16.22590 },
-  { "indirizzo abitazione": "Via Nazionale, 32 – 89034 Bagnara Calabra RC", "lat": 38.28730, "lon": 15.80460 },
-  { "indirizzo abitazione": "Via SS18 Tirrena Inferiore, 15 – 89034 Bagnara Calabra RC", "lat": 38.28640, "lon": 15.80230 },
-  { "indirizzo abitazione": "Via Cavour, 14 – 89018 Villa San Giovanni RC", "lat": 38.22260, "lon": 15.63500 },
-  { "indirizzo abitazione": "Via Riviera, 77 – 89018 Villa San Giovanni RC", "lat": 38.22280, "lon": 15.63710 },
-  { "indirizzo abitazione": "Via Scopelliti, 3 – 89011 Bovalino Superiore RC", "lat": 38.15200, "lon": 16.12860 },
-  { "indirizzo abitazione": "Via Umberto I, 17 – 89024 Polistena RC", "lat": 38.41140, "lon": 16.08310 },
-  { "indirizzo abitazione": "Via Rocco Pizzimenti, 10 – 89024 Polistena RC", "lat": 38.41290, "lon": 16.08080 },
-  { "indirizzo abitazione": "Via Arangea, 82 – 89134 Reggio Calabria RC", "lat": 38.03990, "lon": 15.66210 },
-  { "indirizzo abitazione": "Via Modena San Sperato, 22 – 89133 Reggio Calabria RC", "lat": 38.09070, "lon": 15.65020 },
-  { "indirizzo abitazione": "Via Boschicello, 11 – 89133 Reggio Calabria RC", "lat": 38.08080, "lon": 15.66100 },
-  { "indirizzo abitazione": "Via Ravagnese Inferiore, 213 – 89131 Reggio Calabria RC", "lat": 38.07710, "lon": 15.65490 },
-  { "indirizzo abitazione": "Via Vito Inferiore, 65 – 89131 Reggio Calabria RC", "lat": 38.06980, "lon": 15.65400 },
-  { "indirizzo abitazione": "Via Vecchia Archi, 30 – 89121 Reggio Calabria RC", "lat": 38.14290, "lon": 15.64020 },
-  { "indirizzo abitazione": "Via Armacà, 17 – 89134 Reggio Calabria RC", "lat": 38.05240, "lon": 15.66360 },
-  { "indirizzo abitazione": "Via San Gregorio, 104 – 89134 Reggio Calabria RC", "lat": 38.03670, "lon": 15.66270 },
-  { "indirizzo abitazione": "Via Cardeto, 44 – 89133 Reggio Calabria RC", "lat": 38.08630, "lon": 15.67590 },
-  { "indirizzo abitazione": "Via Pellaro Marina, 88 – 89134 Reggio Calabria RC", "lat": 38.02100, "lon": 15.65370 },
-  { "indirizzo abitazione": "Via Nazionale Pentimele, 31 – 89122 Reggio Calabria RC", "lat": 38.139007, "lon": 15.6579572 },
-  { "indirizzo abitazione": "Via Reggio Campi II Tronco, 63 – 89127 Reggio Calabria RC", "lat": 38.11878, "lon": 15.65003 },
-  { "indirizzo abitazione": "Via Gebbione, 16 – 89132 Reggio Calabria RC", "lat": 38.09899, "lon": 15.64612 },
-  { "indirizzo abitazione": "Via Sbarre Inferiori, 231 – 89132 Reggio Calabria RC", "lat": 38.10520, "lon": 15.65440 },
-  { "indirizzo abitazione": "Via Santa Caterina, 124 – 89122 Reggio Calabria RC", "lat": 38.13500, "lon": 15.64560 },
-  { "indirizzo abitazione": "Via Galileo Galilei, 14 – 89123 Reggio Calabria RC", "lat": 38.11290, "lon": 15.65540 },
-  { "indirizzo abitazione": "Via del Torrione, 40 – 89125 Reggio Calabria RC", "lat": 38.11430, "lon": 15.65000 },
-  { "indirizzo abitazione": "Via Cardinale Portanova, 232 – 89124 Reggio Calabria RC", "lat": 38.10990, "lon": 15.66280 },
-  { "indirizzo abitazione": "Via Lia, 108 – 89124 Reggio Calabria RC", "lat": 38.10680, "lon": 15.66420 },
-  { "indirizzo abitazione": "Via Ravagnese Superiore, 196 – 89131 Reggio Calabria RC", "lat": 38.07130, "lon": 15.65970 },
-  { "indirizzo abitazione": "Via Roma, 45 – 89822 Serra San Bruno (centro storico) VV", "lat": 38.5790, "lon": 16.3255 },
-  { "indirizzo abitazione": "Via Certosa, 12 – 89822 Serra San Bruno VV", "lat": 38.5765, "lon": 16.3240 },
-  { "indirizzo abitazione": "Via Nazionale, 88 – 89831 Mileto VV", "lat": 38.6090, "lon": 16.0680 },
-  { "indirizzo abitazione": "Via Chiesa Madre, 15 – 89831 Mileto VV", "lat": 38.6105, "lon": 16.0695 },
-  { "indirizzo abitazione": "Via Roma, 33 – 89824 Arena VV", "lat": 38.5520, "lon": 16.1890 },  { "indirizzo abitazione": "Via Umberto I, 7 – 89824 Dinami VV", "lat": 38.5180, "lon": 16.0420 },
-  { "indirizzo abitazione": "Via Panoramica, 22 – 89057 Santo Stefano in Aspromonte RC", "lat": 38.1895, "lon": 15.7745 },
-  { "indirizzo abitazione": "Via Monte Sacro, 8 – 89057 Gambarie (stazione sciistica) RC", "lat": 38.1820, "lon": 15.7730 },
-  { "indirizzo abitazione": "Via Roma, 55 – 89040 Platì RC", "lat": 38.2340, "lon": 16.0780 },
-  { "indirizzo abitazione": "Via Nazionale, 28 – 89040 Careri RC", "lat": 38.1980, "lon": 16.0340 },
-  { "indirizzo abitazione": "Via Principale, 18 – 89030 Roghudi RC", "lat": 38.0720, "lon": 15.7890 },  { "indirizzo abitazione": "Via Chiesa, 5 – 89040 San Giorgio Morgeto RC", "lat": 38.3780, "lon": 16.1290 },
-  { "indirizzo abitazione": "Via Roma, 67 – 88040 Marcellinara CZ", "lat": 38.9180, "lon": 16.4590 },
-  { "indirizzo abitazione": "Via Nazionale, 45 – 88040 San Floro CZ", "lat": 38.8790, "lon": 16.4920 },
-  { "indirizzo abitazione": "Via Umberto I, 23 – 88040 Cortale CZ", "lat": 38.8640, "lon": 16.4380 },  { "indirizzo abitazione": "Via Roma, 12 – 88050 Taverna (centro) CZ", "lat": 39.0065, "lon": 16.6180 },
-  { "indirizzo abitazione": "Via Marina, 78 – 89866 Ricadi (Capo Vaticano) VV", "lat": 38.6420, "lon": 15.8790 },
-  { "indirizzo abitazione": "Via Lungomare, 33 – 89865 Spilinga Marina VV", "lat": 38.6180, "lon": 15.9520 },
-  { "indirizzo abitazione": "Via del Porto, 19 – 89049 Stilo (borgo) RC", "lat": 38.4820, "lon": 16.4650 },
-  { "indirizzo abitazione": "Via Nazionale, 95 – 89040 Monasterace Marina RC", "lat": 38.4590, "lon": 16.5430 },
-  { "indirizzo abitazione": "Via Lungomare, 67 – 88063 Sant'Andrea Apostolo dello Ionio CZ", "lat": 38.6120, "lon": 16.5890 },  { "indirizzo abitazione": "Via Marina, 41 – 88060 Isca sullo Ionio Marina CZ", "lat": 38.5980, "lon": 16.5420 },
-  { "indirizzo abitazione": "Zona industriale ASI, 45 – 88046 Lamezia Terme CZ", "lat": 38.8890, "lon": 16.2580 },
-  { "indirizzo abitazione": "Via Commerciale, 78 – 89900 Vibo Marina (porto) VV", "lat": 38.7180, "lon": 16.0950 },
-  { "indirizzo abitazione": "Zona industriale, 12 – 89048 Siderno (area PIP) RC", "lat": 38.2590, "lon": 16.2850 },  { "indirizzo abitazione": "Via Industriale, 88 – 88100 Catanzaro Sala (zona industriale) CZ", "lat": 38.8680, "lon": 16.5420 },
-  { "indirizzo abitazione": "Contrada Oliveto, 15 – 89044 Gerace (borgo medievale) RC", "lat": 38.2690, "lon": 16.2180 },
-  { "indirizzo abitazione": "Via del Castello, 8 – 89040 Scilla (centro storico) RC", "lat": 38.2540, "lon": 15.7180 },
-  { "indirizzo abitazione": "Frazione Olivadi, 33 – 88050 Tiriolo CZ", "lat": 38.9290, "lon": 16.4820 },
-  { "RSA": "RSA Reggio Via Eremo al Santuario, 6 - 89124 Reggio Calabria RC", "lat": 38.1144055, "lon": 15.6692432 },
-  { "RSA": "RSA Vibo Via S. Domenico Savio, 10 - 89900 Vibo Valentia VV", "lat": 38.6797594, "lon": 16.0992958 },
-  { "RSA": "RSA Lamezia Via Ospedale,22 - Lamezia Terme, CZ 88046", "lat": 38.9739873, "lon": 16.3234322 },
-  { "RSA": "RSA Catanzaro Viale Pio X, 202 - 88100 Catanzaro CZ", "lat": 38.9268136, "lon": 16.581057 },
-  { "Strada": "A2 SA-RC km 265 - 89815 Curinga CZ", "lat": 38.8547, "lon": 16.3482 },
-  { "Strada": "A2 SA-RC km 362 - 89831 Mileto VV", "lat": 38.6134341, "lon": 16.1533345 },
-  { "Strada": "SS 106 Jonica km 13 – 89048 Locri RC", "lat":38.2922749, "lon": 16.2833152 },
-  { "Strada": "A2 SA-RC km 440 – 9135 Reggio di Calabria RC", "lat": 38.1948, "lon": 15.6875 },
-  { "Scuola": "IIS Reggio Via de Lorenzo, 78 - 89123 Reggio di Calabria RC", "lat": 38.1189353, "lon": 15.6542182 },
-  { "Scuola": "IIS Vibo Via Giustino Fortunato - 89900 Vibo Valentia VV", "lat": 38.686014, "lon": 16.1154519 },
-  { "Scuola": "IIS lamezia Via Leonardo da Vinci - 88046 Lamezia Terme CZ", "lat": 38.9677913, "lon": 16.3183796 },
-  { "Scuola": "IIS Catanzaro Viale Tommaso Campanella, 90 - 88100 Catanzaro CZ", "lat": 38.9144985, "lon": 16.5695909 },
-  { "Impianto lavorativo": "Zona industriale San Pietro Lametino - 88046 Lamezia Terme CZ", "lat": 38.8579055, "lon": 16.2387777 },
-  { "Impianto lavorativo": "Zona industriale Contrada Difesa - 88050 Caraffa di Catanzaro CZ", "lat": 38.8611137, "lon": 16.5567095 },
-  { "Impianto lavorativo": "Zona industriale Contrada le Marinate - 89900 Vibo Marina VV", "lat": 38.7110518, "lon": 16.0929269 },
-  { "Impianto lavorativo": "Hitachi Rail Via Gebbione, 12 - 89129 Reggio di Calabria RC", "lat": 38.0827048, "lon": 15.6355154 },
-  { "Impianto sportivo": "Centro Sportivo Reggio Viale Messina, 54 - 89129 Reggio Calabria RC", "lat": 38.0911129, "lon": 15.6384109 },
-  { "Impianto sportivo": "Centro Sportivo Vibo Via Piazza D'Armi - 89900 Vibo Valentia VV", "lat": 38.6836451, "lon": 16.1095435 },
-  { "Impianto sportivo": "Centro Sportivo Lamezia Via Bruno Napoleone Ruberto, 33 - 88046 Lamezia Terme CZ", "lat": 38.9519937, "lon": 16.2884803 },
-  { "Impianto sportivo": "Centro Sportivo Catanzaro Lido Via Carlo Pisacane - 88100 Catanzaro CZ", "lat": 38.833508, "lon": 16.6404286 },
-  
-  { "indirizzo abitazione": "Via Giuseppe Garibaldi, 45 – 89123 Reggio Calabria RC", "lat": 38.11234, "lon": 15.65234 },
-  { "indirizzo abitazione": "Via Marina Alta, 123 – 89123 Reggio Calabria RC", "lat": 38.11567, "lon": 15.65567 },
-  { "indirizzo abitazione": "Via Fata Morgana, 67 – 89123 Reggio Calabria RC", "lat": 38.11123, "lon": 15.65123 },
-  { "indirizzo abitazione": "Via Aspromonte, 89 – 89123 Reggio Calabria RC", "lat": 38.10456, "lon": 15.64456 },
-  { "indirizzo abitazione": "Via Cattolica dei Greci, 234 – 89123 Reggio Calabria RC", "lat": 38.10789, "lon": 15.64789 },
-  { "indirizzo abitazione": "Via Reggio Campi, 156 – 89127 Reggio Calabria RC", "lat": 38.10234, "lon": 15.64234 },
-  { "indirizzo abitazione": "Via Sbarre Centrali, 78 – 89132 Reggio Calabria RC", "lat": 38.10567, "lon": 15.64567 },
-  { "indirizzo abitazione": "Via Ciccarello, 167 – 89134 Reggio Calabria RC", "lat": 38.10123, "lon": 15.64123 },
-  { "indirizzo abitazione": "Via Trabocchetto, 145 – 89121 Reggio Calabria RC", "lat": 38.09456, "lon": 15.63456 },
-  { "indirizzo abitazione": "Via Condera, 89 – 89122 Reggio Calabria RC", "lat": 38.09789, "lon": 15.63789 },
-  { "indirizzo abitazione": "Via Botteghelle, 234 – 89125 Reggio Calabria RC", "lat": 38.09234, "lon": 15.63234 },
-  { "indirizzo abitazione": "Via Santa Lucia, 156 – 89124 Reggio Calabria RC", "lat": 38.09567, "lon": 15.63567 },
-  { "indirizzo abitazione": "Via Possidonea, 78 – 89126 Reggio Calabria RC", "lat": 38.09123, "lon": 15.63123 },
-  { "indirizzo abitazione": "Via Giunchi, 167 – 89131 Reggio Calabria RC", "lat": 38.08456, "lon": 15.62456 },
-  { "indirizzo abitazione": "Via Modena, 145 – 89133 Reggio Calabria RC", "lat": 38.08789, "lon": 15.62789 },
-  { "indirizzo abitazione": "Via Croce Valanidi, 89 – 89135 Reggio Calabria RC", "lat": 38.08234, "lon": 15.62234 },
-  { "indirizzo abitazione": "Via Vito Superiore, 234 – 89131 Reggio Calabria RC", "lat": 38.08567, "lon": 15.62567 },
-  { "indirizzo abitazione": "Via Oliveto, 156 – 89134 Reggio Calabria RC", "lat": 38.08123, "lon": 15.62123 },
-  { "indirizzo abitazione": "Via Spirito Santo, 78 – 89123 Reggio Calabria RC", "lat": 38.07456, "lon": 15.61456 },
-  
-  { "indirizzo abitazione": "Via Jannoni, 45 – 88100 Catanzaro CZ", "lat": 38.91234, "lon": 16.60234 },
-  { "indirizzo abitazione": "Via Fontana Vecchia, 123 – 88100 Catanzaro CZ", "lat": 38.91567, "lon": 16.60567 },
-  { "indirizzo abitazione": "Via Santa Maria di Castello, 67 – 88100 Catanzaro CZ", "lat": 38.91123, "lon": 16.60123 },
-  { "indirizzo abitazione": "Via Bellavista, 89 – 88100 Catanzaro CZ", "lat": 38.90456, "lon": 16.59456 },
-  { "indirizzo abitazione": "Via Vinicio Cortese, 234 – 88100 Catanzaro CZ", "lat": 38.90789, "lon": 16.59789 },
-  { "indirizzo abitazione": "Via Monte Tiriolo, 156 – 88100 Catanzaro CZ", "lat": 38.90234, "lon": 16.59234 },
-  { "indirizzo abitazione": "Via Perugini, 78 – 88100 Catanzaro CZ", "lat": 38.90567, "lon": 16.59567 },
-  { "indirizzo abitazione": "Via Argento, 167 – 88100 Catanzaro CZ", "lat": 38.90123, "lon": 16.59123 },
-  { "indirizzo abitazione": "Via Teano, 145 – 88100 Catanzaro CZ", "lat": 38.89456, "lon": 16.58456 },
-  { "indirizzo abitazione": "Via Cosenza, 89 – 88100 Catanzaro CZ", "lat": 38.89789, "lon": 16.58789 },
-  { "indirizzo abitazione": "Via Crotone, 234 – 88100 Catanzaro CZ", "lat": 38.89234, "lon": 16.58234 },
-  { "indirizzo abitazione": "Via Reggio Calabria, 156 – 88100 Catanzaro CZ", "lat": 38.89567, "lon": 16.58567 },
-  { "indirizzo abitazione": "Via Vibo Valentia, 78 – 88100 Catanzaro CZ", "lat": 38.89123, "lon": 16.58123 },
-  { "indirizzo abitazione": "Via Pitagora, 167 – 88100 Catanzaro CZ", "lat": 38.88456, "lon": 16.57456 },
-  { "indirizzo abitazione": "Via Archimede, 145 – 88100 Catanzaro CZ", "lat": 38.88789, "lon": 16.57789 },
-  
-  { "indirizzo abitazione": "Via del Progresso, 45 – 88046 Lamezia Terme CZ", "lat": 38.97234, "lon": 16.31234 },
-  { "indirizzo abitazione": "Via Saverio Gatti, 123 – 88046 Lamezia Terme CZ", "lat": 38.97567, "lon": 16.31567 },
-  { "indirizzo abitazione": "Via Delle Ginestre, 67 – 88046 Lamezia Terme CZ", "lat": 38.97123, "lon": 16.31123 },
-  { "indirizzo abitazione": "Via Dei Bizantini, 89 – 88046 Lamezia Terme CZ", "lat": 38.96456, "lon": 16.30456 },
-  { "indirizzo abitazione": "Via Francesco Manfredi, 234 – 88046 Lamezia Terme CZ", "lat": 38.96789, "lon": 16.30789 },
-  { "indirizzo abitazione": "Via Luigi Razza, 156 – 88046 Lamezia Terme CZ", "lat": 38.96234, "lon": 16.30234 },
-  { "indirizzo abitazione": "Via Arturo Perugini, 78 – 88046 Lamezia Terme CZ", "lat": 38.96567, "lon": 16.30567 },
-  { "indirizzo abitazione": "Via Rosario Muleo, 167 – 88046 Lamezia Terme CZ", "lat": 38.96123, "lon": 16.30123 },
-  { "indirizzo abitazione": "Via Franco Costabile, 145 – 88046 Lamezia Terme CZ", "lat": 38.95456, "lon": 16.29456 },
-  { "indirizzo abitazione": "Via Terina, 89 – 88046 Lamezia Terme CZ", "lat": 38.95789, "lon": 16.29789 },
-  { "indirizzo abitazione": "Via Sambiase, 234 – 88046 Lamezia Terme CZ", "lat": 38.95234, "lon": 16.29234 },
-  { "indirizzo abitazione": "Via Nicastro, 156 – 88046 Lamezia Terme CZ", "lat": 38.95567, "lon": 16.29567 },
-  
-  { "indirizzo abitazione": "Via Affaccio, 45 – 89900 Vibo Valentia VV", "lat": 38.68234, "lon": 16.10234 },
-  { "indirizzo abitazione": "Via Corso Vittorio Emanuele III, 123 – 89900 Vibo Valentia VV", "lat": 38.68567, "lon": 16.10567 },
-  { "indirizzo abitazione": "Via Buccarelli, 67 – 89900 Vibo Valentia VV", "lat": 38.68123, "lon": 16.10123 },
-  { "indirizzo abitazione": "Via Giuseppe De Nava, 89 – 89900 Vibo Valentia VV", "lat": 38.67456, "lon": 16.09456 },
-  { "indirizzo abitazione": "Via Moderata Durant, 234 – 89900 Vibo Valentia VV", "lat": 38.67789, "lon": 16.09789 },
-  { "indirizzo abitazione": "Via Michele Morelli, 156 – 89900 Vibo Valentia VV", "lat": 38.67234, "lon": 16.09234 },
-  { "indirizzo abitazione": "Via Emanuele Gagliardi, 78 – 89900 Vibo Valentia VV", "lat": 38.67567, "lon": 16.09567 },
-  { "indirizzo abitazione": "Via Francesco Taccone, 167 – 89900 Vibo Valentia VV", "lat": 38.67123, "lon": 16.09123 },
-  { "indirizzo abitazione": "Via Hipponion, 145 – 89900 Vibo Valentia VV", "lat": 38.66456, "lon": 16.08456 },
-  { "indirizzo abitazione": "Via Santa Ruba, 89 – 89900 Vibo Valentia VV", "lat": 38.66789, "lon": 16.08789 },
-  
-  { "indirizzo abitazione": "Via Nazionale, 22 – 89048 Siderno RC", "lat": 38.27234, "lon": 16.30234 },
-  { "indirizzo abitazione": "Via Corrado Alvaro, 67 – 89048 Siderno RC", "lat": 38.27567, "lon": 16.30567 },
-  { "indirizzo abitazione": "Via Giuseppe Mazzini, 89 – 89048 Siderno RC", "lat": 38.27123, "lon": 16.30123 },
-  { "indirizzo abitazione": "Via Francesco Crispi, 123 – 89048 Siderno RC", "lat": 38.26456, "lon": 16.29456 },
-  { "indirizzo abitazione": "Via Antonio Gramsci, 156 – 89048 Siderno RC", "lat": 38.26789, "lon": 16.29789 },
-  
-  { "indirizzo abitazione": "Via Magna Grecia, 22 – 89044 Locri RC", "lat": 38.24234, "lon": 16.26234 },
-  { "indirizzo abitazione": "Via Alcide De Gasperi, 67 – 89044 Locri RC", "lat": 38.24567, "lon": 16.26567 },
-  { "indirizzo abitazione": "Via Primo Levi, 89 – 89044 Locri RC", "lat": 38.24123, "lon": 16.26123 },
-  { "indirizzo abitazione": "Via Matteotti, 123 – 89044 Locri RC", "lat": 38.23456, "lon": 16.25456 },
-  
-  { "indirizzo abitazione": "Via Santa Domenica, 22 – 89861 Tropea VV", "lat": 38.68234, "lon": 15.90234 },
-  { "indirizzo abitazione": "Via Belvedere, 67 – 89861 Tropea VV", "lat": 38.68567, "lon": 15.90567 },
-  { "indirizzo abitazione": "Via del Cannone, 89 – 89861 Tropea VV", "lat": 38.68123, "lon": 15.90123 },
-  { "indirizzo abitazione": "Via Marina dell'Isola, 123 – 89861 Tropea VV", "lat": 38.67456, "lon": 15.89456 },
-  
-  { "indirizzo abitazione": "Via Murat, 22 – 89812 Pizzo VV", "lat": 38.74234, "lon": 16.16234 },
-  { "indirizzo abitazione": "Via Garibaldi, 67 – 89812 Pizzo VV", "lat": 38.74567, "lon": 16.16567 },
-  { "indirizzo abitazione": "Via Marconi, 89 – 89812 Pizzo VV", "lat": 38.74123, "lon": 16.16123 },
-  { "indirizzo abitazione": "Via Chiesetta, 123 – 89812 Pizzo VV", "lat": 38.73456, "lon": 16.15456 },
-  
-  { "indirizzo abitazione": "Via Santa Maria della Neve, 22 – 88068 Soverato CZ", "lat": 38.69234, "lon": 16.54234 },
-  { "indirizzo abitazione": "Via Anita Garibaldi, 67 – 88068 Soverato CZ", "lat": 38.69567, "lon": 16.54567 },
-  { "indirizzo abitazione": "Via Giovanni Pascoli, 89 – 88068 Soverato CZ", "lat": 38.69123, "lon": 16.54123 },
-  { "indirizzo abitazione": "Via Riviera Ionica, 123 – 88068 Soverato CZ", "lat": 38.68456, "lon": 16.53456 },
-  
-  { "indirizzo abitazione": "Via Roma, 15 – 89015 Palmi RC", "lat": 38.36234, "lon": 15.85234 },
-  { "indirizzo abitazione": "Via Tonnara, 45 – 89015 Palmi RC", "lat": 38.36567, "lon": 15.85567 },
-  { "indirizzo abitazione": "Via San Giuseppe, 67 – 89015 Palmi RC", "lat": 38.36123, "lon": 15.85123 },
-  
-  { "indirizzo abitazione": "Via Porto, 15 – 89013 Gioia Tauro RC", "lat": 38.42234, "lon": 15.90234 },
-  { "indirizzo abitazione": "Via Piano delle Fosse, 45 – 89013 Gioia Tauro RC", "lat": 38.42567, "lon": 15.90567 },
-  { "indirizzo abitazione": "Via Matteotti, 67 – 89013 Gioia Tauro RC", "lat": 38.42123, "lon": 15.90123 },
-  
-  { "indirizzo abitazione": "Via Roma, 15 – 89029 Taurianova RC", "lat": 38.36234, "lon": 16.00234 },
-  { "indirizzo abitazione": "Via Garibaldi, 45 – 89029 Taurianova RC", "lat": 38.36567, "lon": 16.00567 },
-  { "indirizzo abitazione": "Via Kennedy, 67 – 89029 Taurianova RC", "lat": 38.36123, "lon": 16.00123 },
-  
-  { "indirizzo abitazione": "Via Roma, 15 – 89025 Rosarno RC", "lat": 38.49234, "lon": 15.97234 },
-  { "indirizzo abitazione": "Via Nazionale, 45 – 89025 Rosarno RC", "lat": 38.49567, "lon": 15.97567 },
-  { "indirizzo abitazione": "Via Stazione, 67 – 89025 Rosarno RC", "lat": 38.49123, "lon": 15.97123 },
-  
-  { "indirizzo abitazione": "Via Roma, 15 – 89047 Roccella Ionica RC", "lat": 38.33234, "lon": 16.40234 },
-  { "indirizzo abitazione": "Via Marina, 45 – 89047 Roccella Ionica RC", "lat": 38.33567, "lon": 16.40567 },
-  
-  { "indirizzo abitazione": "Via Roma, 15 – 89042 Gioiosa Ionica RC", "lat": 38.33234, "lon": 16.31234 },
-  { "indirizzo abitazione": "Via Marina, 45 – 89042 Gioiosa Ionica RC", "lat": 38.33567, "lon": 16.31567 },
-  
-  { "indirizzo abitazione": "Via Roma, 15 – 89018 Villa San Giovanni RC", "lat": 38.22234, "lon": 15.63234 },
-  { "indirizzo abitazione": "Via Stazione, 45 – 89018 Villa San Giovanni RC", "lat": 38.22567, "lon": 15.63567 },
-  
-  { "indirizzo abitazione": "Via Roma, 15 – 89034 Bagnara Calabra RC", "lat": 38.29234, "lon": 15.80234 },
-  { "indirizzo abitazione": "Via Marina, 45 – 89034 Bagnara Calabra RC", "lat": 38.29567, "lon": 15.80567 },
-  
-  { "indirizzo abitazione": "Via Roma, 12 – 89024 Polistena RC", "lat": 38.41234, "lon": 16.08234 },
-  { "indirizzo abitazione": "Via Garibaldi, 34 – 89024 Polistena RC", "lat": 38.41567, "lon": 16.08567 },
-  
-  { "indirizzo abitazione": "Via Roma, 12 – 89822 Serra San Bruno VV", "lat": 38.58234, "lon": 16.32234 },
-  { "indirizzo abitazione": "Via Certosa, 34 – 89822 Serra San Bruno VV", "lat": 38.58567, "lon": 16.32567 },
-  
-  { "indirizzo abitazione": "Via Roma, 12 – 89831 Mileto VV", "lat": 38.61234, "lon": 16.15234 },
-  { "indirizzo abitazione": "Via Chiesa Madre, 34 – 89831 Mileto VV", "lat": 38.61567, "lon": 16.15567 },
-  
-  { "indirizzo abitazione": "Via Roma, 12 – 88024 Girifalco CZ", "lat": 38.82234, "lon": 16.43234 },
-  { "indirizzo abitazione": "Via Spasari, 34 – 88024 Girifalco CZ", "lat": 38.82567, "lon": 16.43567 },
-  
-  { "indirizzo abitazione": "Via Roma, 12 – 88064 Chiaravalle Centrale CZ", "lat": 38.65234, "lon": 16.47234 },
-  { "indirizzo abitazione": "Via Gramsci, 34 – 88064 Chiaravalle Centrale CZ", "lat": 38.65567, "lon": 16.47567 },
-  
-  { "indirizzo abitazione": "Via Roma, 8 – 88040 Tiriolo CZ", "lat": 38.94234, "lon": 16.49234 },
-  { "indirizzo abitazione": "Via Umberto I, 25 – 88040 Tiriolo CZ", "lat": 38.94567, "lon": 16.49567 },
-  
-  { "indirizzo abitazione": "Via Roma, 8 – 88050 Borgia CZ", "lat": 38.84234, "lon": 16.56234 },
-  { "indirizzo abitazione": "Via Luigi Einaudi, 25 – 88050 Borgia CZ", "lat": 38.84567, "lon": 16.56567 },
-  
-  { "indirizzo abitazione": "Via Roma, 8 – 88070 Curinga CZ", "lat": 38.85234, "lon": 16.34234 },
-  { "indirizzo abitazione": "Via Aldo Moro, 25 – 88070 Curinga CZ", "lat": 38.85567, "lon": 16.34567 },
-  
-  { "indirizzo abitazione": "Via Roma, 8 – 89050 Bovalino RC", "lat": 38.16234, "lon": 16.15234 },
-  { "indirizzo abitazione": "Via Nazionale, 25 – 89050 Bovalino RC", "lat": 38.16567, "lon": 16.15567 },
-  
-  { "indirizzo abitazione": "Via Roma, 8 – 89062 Brancaleone RC", "lat": 37.97234, "lon": 16.10234 },
-  { "indirizzo abitazione": "Via Lungomare, 25 – 89062 Brancaleone RC", "lat": 37.97567, "lon": 16.10567 },
-  
-  { "indirizzo abitazione": "Via Roma, 8 – 89032 Bianco RC", "lat": 38.09234, "lon": 16.15234 },
-  { "indirizzo abitazione": "Via Lungomare, 25 – 89032 Bianco RC", "lat": 38.09567, "lon": 16.15567 },
-  
-  { "indirizzo abitazione": "Via Roma, 8 – 89031 Ardore RC", "lat": 38.15234, "lon": 16.22234 },
-  { "indirizzo abitazione": "Via Regina Margherita, 25 – 89031 Ardore RC", "lat": 38.15567, "lon": 16.22567 },
-  
-  { "indirizzo abitazione": "Via Roma, 8 – 89040 Caulonia RC", "lat": 38.39234, "lon": 16.46234 },
-  { "indirizzo abitazione": "Via Nazionale, 25 – 89040 Caulonia RC", "lat": 38.39567, "lon": 16.46567 },
-  
-  { "indirizzo abitazione": "Via Roma, 8 – 89049 Stilo RC", "lat": 38.48234, "lon": 16.46234 },
-  { "indirizzo abitazione": "Via del Porto, 25 – 89049 Stilo RC", "lat": 38.48567, "lon": 16.46567 },
-  
-  { "indirizzo abitazione": "Via Roma, 8 – 89040 Monasterace RC", "lat": 38.46234, "lon": 16.54234 },
-  { "indirizzo abitazione": "Via Nazionale, 25 – 89040 Monasterace RC", "lat": 38.46567, "lon": 16.54567 },
-  
-  { "indirizzo abitazione": "Via Roma, 8 – 89044 Gerace RC", "lat": 38.27234, "lon": 16.22234 },
-  { "indirizzo abitazione": "Via del Castello, 25 – 89044 Gerace RC", "lat": 38.27567, "lon": 16.22567 },
-  
-  { "indirizzo abitazione": "Via Roma, 8 – 89040 Scilla RC", "lat": 38.25234, "lon": 15.72234 },
-  { "indirizzo abitazione": "Via del Castello, 25 – 89040 Scilla RC", "lat": 38.25567, "lon": 15.72567 },
-  
-  { "indirizzo abitazione": "Via Roma, 6 – 89863 Briatico VV", "lat": 38.72234, "lon": 15.94234 },
-  { "indirizzo abitazione": "Via Giuseppe Verdi, 20 – 89863 Briatico VV", "lat": 38.72567, "lon": 15.94567 },
-  
-  { "indirizzo abitazione": "Via Roma, 6 – 89844 Nicotera VV", "lat": 38.53234, "lon": 15.94234 },
-  { "indirizzo abitazione": "Via Francesco Cilea, 20 – 89844 Nicotera VV", "lat": 38.53567, "lon": 15.94567 },
-  
-  { "indirizzo abitazione": "Via Roma, 6 – 89868 Zambrone VV", "lat": 38.71234, "lon": 15.93234 },
-  { "indirizzo abitazione": "Via Nazionale, 20 – 89868 Zambrone VV", "lat": 38.71567, "lon": 15.93567 },
-  
-  { "indirizzo abitazione": "Via Roma, 6 – 89866 Joppolo VV", "lat": 38.57234, "lon": 15.88234 },
-  { "indirizzo abitazione": "Via del Mare, 20 – 89866 Joppolo VV", "lat": 38.57567, "lon": 15.88567 },
-  
-  { "indirizzo abitazione": "Via Roma, 6 – 89867 Parghelia VV", "lat": 38.70234, "lon": 15.91234 },
-  { "indirizzo abitazione": "Via Lungomare, 20 – 89867 Parghelia VV", "lat": 38.70567, "lon": 15.91567 },
-  
-  { "indirizzo abitazione": "Via Roma, 6 – 88060 Montepaone CZ", "lat": 38.73234, "lon": 16.55234 },
-  { "indirizzo abitazione": "Via del Progresso, 20 – 88060 Montepaone CZ", "lat": 38.73567, "lon": 16.55567 },
-  
-  { "indirizzo abitazione": "Via Roma, 6 – 88050 Squillace CZ", "lat": 38.78234, "lon": 16.55234 },
-  { "indirizzo abitazione": "Via San Francesco, 20 – 88050 Squillace CZ", "lat": 38.78567, "lon": 16.55567 },
-  
-  { "indirizzo abitazione": "Via Roma, 6 – 88063 Davoli CZ", "lat": 38.67234, "lon": 16.54234 },
-  { "indirizzo abitazione": "Via Lungomare Europa, 20 – 88063 Davoli CZ", "lat": 38.67567, "lon": 16.54567 },
-  
-  { "indirizzo abitazione": "Via Roma, 6 – 88065 Badolato CZ", "lat": 38.54234, "lon": 16.58234 },
-  { "indirizzo abitazione": "Via Nazionale, 20 – 88065 Badolato CZ", "lat": 38.54567, "lon": 16.58567 },
-  
-  { "indirizzo abitazione": "Via Roma, 6 – 88050 Guardavalle CZ", "lat": 38.52234, "lon": 16.58234 },
-  { "indirizzo abitazione": "Via Lungomare, 20 – 88050 Guardavalle CZ", "lat": 38.52567, "lon": 16.58567 },
-  
-  { "scuola": "Liceo Classico Reggio Via Vollaro, 45 – 89123 Reggio Calabria RC", "lat": 38.11234, "lon": 15.65234 },
-  { "scuola": "Liceo Scientifico Catanzaro Via Monte Tiriolo, 67 – 88100 Catanzaro CZ", "lat": 38.90234, "lon": 16.59234 },
-  { "scuola": "IIS Lamezia Terme Via del Progresso, 89 – 88046 Lamezia Terme CZ", "lat": 38.97234, "lon": 16.31234 },
-  { "scuola": "IIS Vibo Valentia Via Affaccio, 123 – 89900 Vibo Valentia VV", "lat": 38.68234, "lon": 16.10234 },
-  { "scuola": "IIS Siderno Via Nazionale, 156 – 89048 Siderno RC", "lat": 38.27234, "lon": 16.30234 },
-  { "scuola": "IIS Locri Via Magna Grecia, 78 – 89044 Locri RC", "lat": 38.24234, "lon": 16.26234 },
-  { "scuola": "IIS Tropea Via Santa Domenica, 89 – 89861 Tropea VV", "lat": 38.68234, "lon": 15.90234 },
-  { "scuola": "IIS Pizzo Via Murat, 123 – 89812 Pizzo VV", "lat": 38.74234, "lon": 16.16234 },
-  { "scuola": "IIS Soverato Via Santa Maria, 156 – 88068 Soverato CZ", "lat": 38.69234, "lon": 16.54234 },
-  { "scuola": "IIS Palmi Via Roma, 78 – 89015 Palmi RC", "lat": 38.36234, "lon": 15.85234 },
-  { "scuola": "IIS Gioia Tauro Via Porto, 89 – 89013 Gioia Tauro RC", "lat": 38.42234, "lon": 15.90234 },
-  { "scuola": "IIS Taurianova Via Roma, 123 – 89029 Taurianova RC", "lat": 38.36234, "lon": 16.00234 },
-  
-  { "RSA": "RSA Villa Aurora Reggio Via Marina Alta, 67 – 89123 Reggio Calabria RC", "lat": 38.11567, "lon": 15.65567 },
-  { "RSA": "RSA San Giuseppe Catanzaro Via Jannoni, 89 – 88100 Catanzaro CZ", "lat": 38.91234, "lon": 16.60234 },
-  { "RSA": "RSA Villa Serena Lamezia Via del Progresso, 123 – 88046 Lamezia Terme CZ", "lat": 38.97234, "lon": 16.31234 },
-  { "RSA": "RSA Villa Verde Vibo Via Affaccio, 156 – 89900 Vibo Valentia VV", "lat": 38.68234, "lon": 16.10234 },
-  { "RSA": "RSA Santa Maria Siderno Via Nazionale, 78 – 89048 Siderno RC", "lat": 38.27234, "lon": 16.30234 },
-  { "RSA": "RSA San Francesco Locri Via Magna Grecia, 89 – 89044 Locri RC", "lat": 38.24234, "lon": 16.26234 },
-  { "RSA": "RSA Villa Tropea Via Santa Domenica, 123 – 89861 Tropea VV", "lat": 38.68234, "lon": 15.90234 },
-  { "RSA": "RSA Villa Pizzo Via Murat, 156 – 89812 Pizzo VV", "lat": 38.74234, "lon": 16.16234 },
-  { "RSA": "RSA Soverato Mare Via Santa Maria, 78 – 88068 Soverato CZ", "lat": 38.69234, "lon": 16.54234 },
-  { "RSA": "RSA Villa San Giuseppe Palmi Via Roma, 89 – 89015 Palmi RC", "lat": 38.36234, "lon": 15.85234 },
-  
-  { "impianto lavorativo": "Porto di Reggio Calabria – 89123 Reggio Calabria RC", "lat": 38.11234, "lon": 15.64234 },
-  { "impianto lavorativo": "Aeroporto Lamezia Terme – 88046 Lamezia Terme CZ", "lat": 38.90234, "lon": 16.23234 },
-  { "impianto lavorativo": "Porto di Gioia Tauro – 89013 Gioia Tauro RC", "lat": 38.42234, "lon": 15.89234 },
-  { "impianto lavorativo": "Zona industriale Catanzaro – 88100 Catanzaro CZ", "lat": 38.87234, "lon": 16.54234 },
-  { "impianto lavorativo": "Zona industriale Vibo Marina – 89900 Vibo Valentia VV", "lat": 38.71234, "lon": 16.09234 },
-  { "impianto lavorativo": "Università Magna Graecia Catanzaro – 88100 Catanzaro CZ", "lat": 38.90234, "lon": 16.58234 },
-  { "impianto lavorativo": "Stazione ferroviaria Lamezia Centrale – 88046 Lamezia Terme CZ", "lat": 38.96234, "lon": 16.31234 },
-  { "impianto lavorativo": "Centro commerciale Reggio – 89123 Reggio Calabria RC", "lat": 38.10234, "lon": 15.65234 },
-  
-  { "impianto sportivo": "Stadio Granillo Reggio – 89123 Reggio Calabria RC", "lat": 38.10234, "lon": 15.64234 },
-  { "impianto sportivo": "Stadio Ceravolo Catanzaro – 88100 Catanzaro CZ", "lat": 38.89234, "lon": 16.57234 },
-  { "impianto sportivo": "Centro sportivo Lamezia – 88046 Lamezia Terme CZ", "lat": 38.96234, "lon": 16.30234 },
-  { "impianto sportivo": "Centro sportivo Vibo – 89900 Vibo Valentia VV", "lat": 38.67234, "lon": 16.09234 },
-  { "impianto sportivo": "Centro sportivo Siderno – 89048 Siderno RC", "lat": 38.26234, "lon": 16.29234 },
-  { "impianto sportivo": "Centro sportivo Locri – 89044 Locri RC", "lat": 38.23234, "lon": 16.25234 },
-  { "impianto sportivo": "Centro sportivo Tropea – 89861 Tropea VV", "lat": 38.67234, "lon": 15.89234 },
-  { "impianto sportivo": "Centro sportivo Soverato – 88068 Soverato CZ", "lat": 38.68234, "lon": 16.53234 },
-  { "impianto sportivo": "Centro sportivo Palmi – 89015 Palmi RC", "lat": 38.35234, "lon": 15.84234 },
-  
-  { "strada": "A2 Salerno-Reggio Calabria km 420 – 89123 Reggio Calabria RC", "lat": 38.11234, "lon": 15.64234 },
-  { "strada": "A2 Salerno-Reggio Calabria km 300 – 88046 Lamezia Terme CZ", "lat": 38.96234, "lon": 16.30234 },
-  { "strada": "A2 Salerno-Reggio Calabria km 350 – 89900 Vibo Valentia VV", "lat": 38.67234, "lon": 16.09234 },
-  { "strada": "SS 106 Jonica km 50 – 89048 Siderno RC", "lat": 38.27234, "lon": 16.30234 },
-  { "strada": "SS 106 Jonica km 30 – 89044 Locri RC", "lat": 38.24234, "lon": 16.26234 },
-  { "strada": "SS 18 Tirrena Inferiore km 120 – 89861 Tropea VV", "lat": 38.68234, "lon": 15.90234 },
-  { "strada": "SS 18 Tirrena Inferiore km 140 – 89812 Pizzo VV", "lat": 38.74234, "lon": 16.16234 },
-  { "strada": "SS 280 dei Due Mari km 35 – 88046 Lamezia Terme CZ", "lat": 38.96234, "lon": 16.30234 },
-  { "strada": "SS 182 delle Serre Calabre km 25 – 89822 Serra San Bruno VV", "lat": 38.58234, "lon": 16.32234 },
-  { "strada": "SS 110 di Porto Salvo km 15 – 89062 Brancaleone RC", "lat": 37.97234, "lon": 16.10234 }
+  {
+    "indirizzo abitazione": "Via Roma, 52 – 89822 Serra San Bruno VV",
+    "lat": 39.327032,
+    "lon": 16.336356
+  },
+  {
+    "indirizzo abitazione": "Via Catanzaro, 14 – 89822 Serra San Bruno VV",
+    "lat": 39.136859,
+    "lon": 16.371503
+  },
+  {
+    "indirizzo abitazione": "Via Vittorio Veneto, 31 – 89841 Mongiana VV",
+    "lat": 39.245593,
+    "lon": 15.924288
+  },
+  {
+    "indirizzo abitazione": "Via Arangò, 9 – 89841 Mongiana VV",
+    "lat": 39.220799,
+    "lon": 16.228363
+  },
+  {
+    "indirizzo abitazione": "Via Nazionale, 10 – 89843 Fabrizia VV",
+    "lat": 39.330355,
+    "lon": 16.361975
+  },
+  {
+    "indirizzo abitazione": "Via Umberto I, 77 – 89843 Fabrizia VV",
+    "lat": 39.179386,
+    "lon": 16.129558
+  },
+  {
+    "indirizzo abitazione": "Via Roma, 25 – 89842 Nardodipace VV",
+    "lat": 39.129611,
+    "lon": 16.419088
+  },
+  {
+    "indirizzo abitazione": "Via Riviera Prangi, 102 – 89812 Pizzo VV",
+    "lat": 39.491737,
+    "lon": 16.352875
+  },
+  {
+    "indirizzo abitazione": "Via Nazionale, 174 – 89812 Pizzo VV",
+    "lat": 39.201634,
+    "lon": 15.960931
+  },
+  {
+    "indirizzo abitazione": "Via Libertà, 121 – 89861 Tropea VV",
+    "lat": 39.395788,
+    "lon": 16.256914
+  },
+  {
+    "indirizzo abitazione": "Via Indipendenza, 49 – 89861 Tropea VV",
+    "lat": 39.183683,
+    "lon": 16.279505
+  },
+  {
+    "indirizzo abitazione": "Via Francesco Cilea, 11 – 89844 Nicotera Marina VV",
+    "lat": 39.40955,
+    "lon": 16.354937
+  },
+  {
+    "indirizzo abitazione": "Via Madonna della Scala, 19 – 89844 Nicotera VV",
+    "lat": 39.264413,
+    "lon": 16.439507
+  },
+  {
+    "indirizzo abitazione": "Via Giuseppe Verdi, 5 – 89863 Briatico VV",
+    "lat": 39.157299,
+    "lon": 16.221741
+  },
+  {
+    "indirizzo abitazione": "Via Nazionale, 152 – 89863 Briatico VV",
+    "lat": 39.556219,
+    "lon": 16.232964
+  },
+  {
+    "indirizzo abitazione": "Via Nazionale, 85 – 89868 Zambrone VV",
+    "lat": 39.331551,
+    "lon": 16.27387
+  },
+  {
+    "indirizzo abitazione": "Via Guglielmo Marconi, 9 – 89868 Zambrone VV",
+    "lat": 39.269762,
+    "lon": 16.179862
+  },
+  {
+    "indirizzo abitazione": "Via delle Regioni, 13 – 89832 Sant'Onofrio VV",
+    "lat": 39.383215,
+    "lon": 16.516321
+  },
+  {
+    "indirizzo abitazione": "Via del Mare, 8 – 89866 Joppolo VV",
+    "lat": 39.154483,
+    "lon": 16.237435
+  },
+  {
+    "indirizzo abitazione": "Via del Porto, 2 – 89866 Coccorino Marina (Joppolo) VV",
+    "lat": 39.137768,
+    "lon": 16.400641
+  },
+  {
+    "indirizzo abitazione": "Via Lungomare, 10 – 89867 Parghelia VV",
+    "lat": 39.440946,
+    "lon": 16.107164
+  },
+  {
+    "indirizzo abitazione": "Via Giardini, 5 – 89868 Drapia (fraz. Caria) VV",
+    "lat": 39.499357,
+    "lon": 16.239084
+  },
+  {
+    "indirizzo abitazione": "Via Riviera Prangi, 45 – 89812 Pizzo VV",
+    "lat": 39.353124,
+    "lon": 16.173132
+  },
+  {
+    "indirizzo abitazione": "Via Nazionale, 182 – 89812 Pizzo VV",
+    "lat": 39.389647,
+    "lon": 16.289384
+  },
+  {
+    "indirizzo abitazione": "Via Francesco Jerocades, 28 – 89861 Tropea VV",
+    "lat": 39.514744,
+    "lon": 16.162179
+  },
+  {
+    "indirizzo abitazione": "Via Libertà, 124 – 89861 Tropea VV",
+    "lat": 39.405161,
+    "lon": 16.295942
+  },
+  {
+    "indirizzo abitazione": "Via Roma, 110 – 89844 Nicotera VV",
+    "lat": 39.523996,
+    "lon": 16.268506
+  },
+  {
+    "indirizzo abitazione": "Via Francesco Cilea, 7 – 89844 Nicotera Marina VV",
+    "lat": 39.25902,
+    "lon": 16.177891
+  },
+  {
+    "indirizzo abitazione": "Corso Umberto I, 51 – 89822 Serra San Bruno VV",
+    "lat": 39.324045,
+    "lon": 16.48946
+  },
+  {
+    "indirizzo abitazione": "Via Catanzaro, 66 – 89822 Serra San Bruno VV",
+    "lat": 39.291939,
+    "lon": 16.159958
+  },
+  {
+    "indirizzo abitazione": "Via Nazionale, 27 – 89862 Zambrone VV",
+    "lat": 39.372591,
+    "lon": 16.33222
+  },
+  {
+    "indirizzo abitazione": "Via G. Marconi, 11 – 89862 Zambrone VV",
+    "lat": 39.518571,
+    "lon": 16.416679
+  },
+  {
+    "indirizzo abitazione": "Via Trento, 6 – 89851 San Gregorio d'Ippona VV",
+    "lat": 39.529559,
+    "lon": 16.112643
+  },
+  {
+    "indirizzo abitazione": "Via Roma, 31 – 89851 San Gregorio d'Ippona VV",
+    "lat": 39.16854,
+    "lon": 16.226206
+  },
+  {
+    "indirizzo abitazione": "Via Aldo Moro, 15 – 89843 Stefanaconi VV",
+    "lat": 39.424896,
+    "lon": 16.334619
+  },
+  {
+    "indirizzo abitazione": "Via Provinciale, 85 – 89863 Briatico VV",
+    "lat": 39.509805,
+    "lon": 16.161125
+  },
+  {
+    "indirizzo abitazione": "Via Giuseppe Verdi, 12 – 89863 Briatico VV",
+    "lat": 39.52353,
+    "lon": 16.341213
+  },
+  {
+    "indirizzo abitazione": "Via Roma, 37 – 89821 Filadelfia VV",
+    "lat": 39.496518,
+    "lon": 16.036165
+  },
+  {
+    "indirizzo abitazione": "Via Mazzini, 16 – 89821 Filadelfia VV",
+    "lat": 39.286997,
+    "lon": 16.332261
+  },
+  {
+    "indirizzo abitazione": "Via Madonna degli Angeli, 6 – 89823 Spilinga VV",
+    "lat": 39.480811,
+    "lon": 16.487904
+  },
+  {
+    "indirizzo abitazione": "Via delle Regioni, 13 – 89832 Sant'Onofrio VV",
+    "lat": 39.476536,
+    "lon": 16.069418
+  },
+  {
+    "indirizzo abitazione": "Via Guglielmo Marconi, 1 – 89831 Dasà VV",
+    "lat": 39.314398,
+    "lon": 16.253635
+  },
+  {
+    "indirizzo abitazione": "Via Santa Maria, 102 – 89900 Vibo Valentia (frazione Santa Maria) VV",
+    "lat": 39.458748,
+    "lon": 16.034714
+  },
+  {
+    "indirizzo abitazione": "Via Giosuè Carducci, 4 – 89851 San Gregorio d'Ippona VV",
+    "lat": 39.228991,
+    "lon": 16.142767
+  },
+  {
+    "indirizzo abitazione": "Via Aldo Moro, 18 – 89843 Stefanaconi VV",
+    "lat": 39.500046,
+    "lon": 16.361353
+  },
+  {
+    "indirizzo abitazione": "Via Roma, 27 – 89812 Zungri VV",
+    "lat": 39.195502,
+    "lon": 16.231347
+  },
+  {
+    "indirizzo abitazione": "Via Nazionale, 170 – 89900 Vibo Valentia (frazione Longobardi) VV",
+    "lat": 39.28053,
+    "lon": 16.125607
+  },
+  {
+    "indirizzo abitazione": "Via Popilia, 14 – 89900 Vibo Valentia VV",
+    "lat": 39.24647,
+    "lon": 16.42356
+  },
+  {
+    "indirizzo abitazione": "Via Gabriele D'Annunzio, 21 – 89900 Vibo Valentia VV",
+    "lat": 39.077514,
+    "lon": 16.171457
+  },
+  {
+    "indirizzo abitazione": "Via Umberto I, 38 – 89900 Vibo Valentia VV",
+    "lat": 39.186625,
+    "lon": 16.215771
+  },
+  {
+    "indirizzo abitazione": "Via Giovanni Gronchi, 9 – 89900 Vibo Valentia VV",
+    "lat": 39.472996,
+    "lon": 16.11944
+  },
+  {
+    "indirizzo abitazione": "Via Guglielmo Marconi, 5 – 89900 Vibo Valentia VV",
+    "lat": 39.262317,
+    "lon": 16.334011
+  },
+  {
+    "indirizzo abitazione": "Via Roma, 88 – 88055 Taverna CZ",
+    "lat": 39.125149,
+    "lon": 16.116692
+  },
+  {
+    "indirizzo abitazione": "Via Luigi Einaudi, 10 – 88060 Sersale CZ",
+    "lat": 39.322816,
+    "lon": 16.536025
+  },
+  {
+    "indirizzo abitazione": "Via Vittorio Veneto, 6 – 88060 Cerva CZ",
+    "lat": 39.556259,
+    "lon": 16.29775
+  },
+  {
+    "indirizzo abitazione": "Via Telesio, 4 – 88060 Petronà CZ",
+    "lat": 39.162954,
+    "lon": 16.555611
+  },
+  {
+    "indirizzo abitazione": "Via Giuseppe Garibaldi, 9 – 88050 Magisano CZ",
+    "lat": 39.380941,
+    "lon": 16.459538
+  },
+  {
+    "indirizzo abitazione": "Via Roma, 50 – 88050 Zagarise CZ",
+    "lat": 39.141393,
+    "lon": 16.154226
+  },
+  {
+    "indirizzo abitazione": "Via Umberto I, 13 – 88050 Albi CZ",
+    "lat": 39.449904,
+    "lon": 16.227082
+  },
+  {
+    "indirizzo abitazione": "Via San Nicola, 12 – 88050 Fossato Serralta CZ",
+    "lat": 39.155822,
+    "lon": 16.20472
+  },
+  {
+    "indirizzo abitazione": "Via Kennedy, 15 – 88055 Sorbo San Basile CZ",
+    "lat": 39.411053,
+    "lon": 16.215875
+  },
+  {
+    "indirizzo abitazione": "Via Regina Elena, 30 – 88055 Andali CZ",
+    "lat": 39.07962,
+    "lon": 16.338734
+  },
+  {
+    "indirizzo abitazione": "Via Lungomare, 41 – 88068 Soverato CZ",
+    "lat": 39.198258,
+    "lon": 16.220947
+  },
+  {
+    "indirizzo abitazione": "Via Trento e Trieste, 3 – 88068 Soverato CZ",
+    "lat": 38.68981,
+    "lon": 16.53897
+  },
+  {
+    "indirizzo abitazione": "Via della Libertà, 23 – 88068 Soverato Superiore CZ",
+    "lat": 39.364448,
+    "lon": 15.918293
+  },
+  {
+    "indirizzo abitazione": "Via Magna Grecia, 162 – 88100 Catanzaro Lido CZ",
+    "lat": 39.254576,
+    "lon": 16.499973
+  },
+  {
+    "indirizzo abitazione": "Via Caprera, 5 – 88100 Catanzaro Lido CZ",
+    "lat": 39.378323,
+    "lon": 16.518409
+  },
+  {
+    "indirizzo abitazione": "Via del Progresso, 45 – 88060 Montepaone Lido CZ",
+    "lat": 39.208672,
+    "lon": 16.253782
+  },
+  {
+    "indirizzo abitazione": "Via degli Oleandri, 12 – 88060 Montepaone Lido CZ",
+    "lat": 39.373813,
+    "lon": 16.291217
+  },
+  {
+    "indirizzo abitazione": "Via San Francesco, 9 – 88050 Squillace Lido CZ",
+    "lat": 39.486495,
+    "lon": 16.465786
+  },
+  {
+    "indirizzo abitazione": "Via Marina, 88 – 88050 Squillace Lido CZ",
+    "lat": 39.336973,
+    "lon": 16.286318
+  },
+  {
+    "indirizzo abitazione": "Via Isonzo, 33 – 88050 Sellia Marina CZ",
+    "lat": 39.186821,
+    "lon": 16.282567
+  },
+  {
+    "indirizzo abitazione": "Via Roma, 240 – 88050 Sellia Marina CZ",
+    "lat": 39.429492,
+    "lon": 16.15822
+  },
+  {
+    "indirizzo abitazione": "Via Risorgimento, 12 – 88060 Botricello CZ",
+    "lat": 39.491593,
+    "lon": 16.130021
+  },
+  {
+    "indirizzo abitazione": "Via Nazionale, 102 – 88051 Cropani Marina CZ",
+    "lat": 39.161931,
+    "lon": 16.097524
+  },
+  {
+    "indirizzo abitazione": "Via Lungomare Europa, 25 – 88063 Davoli Marina CZ",
+    "lat": 39.402333,
+    "lon": 16.100463
+  },
+  {
+    "indirizzo abitazione": "Via Guglielmo Marconi, 18 – 88063 Davoli Marina CZ",
+    "lat": 39.440602,
+    "lon": 16.023981
+  },
+  {
+    "indirizzo abitazione": "Via Vittorio Veneto, 11 – 88050 Santa Caterina dello Ionio Marina CZ",
+    "lat": 39.452722,
+    "lon": 16.09077
+  },
+  {
+    "indirizzo abitazione": "Via Lungomare, 50 – 88050 Guardavalle Marina CZ",
+    "lat": 39.258074,
+    "lon": 16.457149
+  },
+  {
+    "indirizzo abitazione": "Via Nazionale, 188 – 88065 Badolato Marina CZ",
+    "lat": 39.207665,
+    "lon": 16.253089
+  },
+  {
+    "indirizzo abitazione": "Via Lungomare, 14 – 88050 Satriano Marina CZ",
+    "lat": 39.436792,
+    "lon": 16.086831
+  },
+  {
+    "indirizzo abitazione": "Via per Soverato, 21 – 88060 Montauro Marina CZ",
+    "lat": 39.195325,
+    "lon": 16.565437
+  },
+  {
+    "indirizzo abitazione": "Corso Giovanni Nicotera, 135 – 88046 Lamezia Terme CZ",
+    "lat": 39.436181,
+    "lon": 16.131767
+  },
+  {
+    "indirizzo abitazione": "Via del Progresso, 322 – 88046 Lamezia Terme CZ",
+    "lat": 39.448776,
+    "lon": 16.290905
+  },
+  {
+    "indirizzo abitazione": "Via Marconi, 65 – 88046 Lamezia Terme CZ",
+    "lat": 39.221075,
+    "lon": 16.338084
+  },
+  {
+    "indirizzo abitazione": "Via Aldo Moro, 59 – 88046 Lamezia Terme (Sant’Eufemia) CZ",
+    "lat": 39.452596,
+    "lon": 16.18243
+  },
+  {
+    "indirizzo abitazione": "Via Nazionale, 12 – 88068 Soverato CZ",
+    "lat": 39.220622,
+    "lon": 16.307333
+  },
+  {
+    "indirizzo abitazione": "Via San Giovanni Bosco, 29 – 88068 Soverato CZ",
+    "lat": 39.089988,
+    "lon": 16.072236
+  },
+  {
+    "indirizzo abitazione": "Via Roma, 18 – 88024 Girifalco CZ",
+    "lat": 39.355167,
+    "lon": 16.323933
+  },
+  {
+    "indirizzo abitazione": "Via Spasari, 4 – 88024 Girifalco CZ",
+    "lat": 39.06761,
+    "lon": 16.101927
+  },
+  {
+    "indirizzo abitazione": "Via Gramsci, 9 – 88064 Chiaravalle Centrale CZ",
+    "lat": 39.171206,
+    "lon": 16.541416
+  },
+  {
+    "indirizzo abitazione": "Via Foresta, 27 – 88064 Chiaravalle Centrale CZ",
+    "lat": 39.268035,
+    "lon": 16.3176
+  },
+  {
+    "indirizzo abitazione": "Via Umberto I, 7 – 88040 Tiriolo CZ",
+    "lat": 39.132465,
+    "lon": 16.035385
+  },
+  {
+    "indirizzo abitazione": "Via dei Martiri, 3 – 88040 Settingiano CZ",
+    "lat": 39.120103,
+    "lon": 16.040283
+  },
+  {
+    "indirizzo abitazione": "Via Guglielmo Marconi, 21 – 88040 Settingiano CZ",
+    "lat": 39.344296,
+    "lon": 16.415236
+  },
+  {
+    "indirizzo abitazione": "Via Luigi Einaudi, 24 – 88050 Borgia CZ",
+    "lat": 39.032369,
+    "lon": 16.280363
+  },
+  {
+    "indirizzo abitazione": "Via San Francesco, 32 – 88050 Borgia CZ",
+    "lat": 39.354746,
+    "lon": 16.406484
+  },
+  {
+    "indirizzo abitazione": "Via Milano, 45 – 88050 Sellia Marina CZ",
+    "lat": 39.321387,
+    "lon": 15.949624
+  },
+  {
+    "indirizzo abitazione": "Via Nazionale, 240 – 88050 Sellia Marina CZ",
+    "lat": 39.199788,
+    "lon": 16.48733
+  },
+  {
+    "indirizzo abitazione": "Via Provinciale, 14 – 88050 Amaroni CZ",
+    "lat": 39.423574,
+    "lon": 16.122276
+  },
+  {
+    "indirizzo abitazione": "Via Roma, 33 – 88050 Vallefiorita CZ",
+    "lat": 39.233996,
+    "lon": 16.331182
+  },
+  {
+    "indirizzo abitazione": "Via Aldo Moro, 19 – 88070 Curinga CZ",
+    "lat": 39.352945,
+    "lon": 16.417158
+  },
+  {
+    "indirizzo abitazione": "Via Regina Margherita, 38 – 88070 Curinga CZ",
+    "lat": 39.173525,
+    "lon": 16.475587
+  },
+  {
+    "indirizzo abitazione": "Via Nazionale, 102 – 88051 Cropani Marina CZ",
+    "lat": 39.266898,
+    "lon": 16.593704
+  },
+  {
+    "indirizzo abitazione": "Via Guglielmo Pepe, 6 – 88050 Squillace CZ",
+    "lat": 39.251378,
+    "lon": 16.308708
+  },
+  {
+    "indirizzo abitazione": "Via Marina, 71 – 88050 Squillace Lido CZ",
+    "lat": 39.102756,
+    "lon": 16.446753
+  },
+  {
+    "indirizzo abitazione": "Via Vittorio Veneto, 20 – 88060 Cerva CZ",
+    "lat": 39.047952,
+    "lon": 16.322854
+  },
+  {
+    "indirizzo abitazione": "Via Roma, 50 – 88060 Sersale CZ",
+    "lat": 41.746231,
+    "lon": 12.483457
+  },
+  {
+    "indirizzo abitazione": "Via Telesio, 12 – 88060 Petronà CZ",
+    "lat": 39.310558,
+    "lon": 16.591659
+  },
+  {
+    "indirizzo abitazione": "Via San Nicola, 28 – 88055 San Pietro a Maida CZ",
+    "lat": 39.468675,
+    "lon": 16.32436
+  },
+  {
+    "indirizzo abitazione": "Via Vescovado, 5 – 88049 Gasperina CZ",
+    "lat": 39.200062,
+    "lon": 16.251086
+  },
+  {
+    "indirizzo abitazione": "Via Aldo Moro, 47 – 88063 Davoli Marina CZ",
+    "lat": 39.320462,
+    "lon": 16.464314
+  },
+  {
+    "indirizzo abitazione": "Via Guglielmo Marconi, 26 – 88060 Settingiano CZ",
+    "lat": 39.278119,
+    "lon": 16.50547
+  },
+  {
+    "indirizzo abitazione": "Via Nazionale, 142 – 88040 Tiriolo CZ",
+    "lat": 39.285074,
+    "lon": 16.033124
+  },
+  {
+    "indirizzo abitazione": "Via Fiume Tacina, 3 – 88040 Simeri Crichi CZ",
+    "lat": 39.405014,
+    "lon": 16.558226
+  },
+  {
+    "indirizzo abitazione": "Via Risorgimento, 55 – 88040 Sellia Marina CZ",
+    "lat": 39.428026,
+    "lon": 16.443334
+  },
+  {
+    "indirizzo abitazione": "Via Giuseppe Mazzini, 37 – 88050 Borgia CZ",
+    "lat": 39.374551,
+    "lon": 15.991334
+  },
+  {
+    "indirizzo abitazione": "Via Roma, 12 – 88050 Amaroni CZ",
+    "lat": 39.388049,
+    "lon": 16.422513
+  },
+  {
+    "indirizzo abitazione": "Via Nazionale, 102 – 88051 Cropani Marina CZ",
+    "lat": 39.164279,
+    "lon": 16.427841
+  },
+  {
+    "indirizzo abitazione": "Via della Libertà, 88 – 88050 Squillace CZ",
+    "lat": 39.072798,
+    "lon": 16.356294
+  },
+  {
+    "indirizzo abitazione": "Via Magna Grecia, 154 – 88100 Catanzaro Lido CZ",
+    "lat": 39.406723,
+    "lon": 16.489642
+  },
+  {
+    "indirizzo abitazione": "Via Carlo Pisacane, 20 – 88040 Pianopoli CZ",
+    "lat": 39.099746,
+    "lon": 16.307291
+  },
+  {
+    "indirizzo abitazione": "Via Alessandro Turco, 43 – 88100 Catanzaro CZ",
+    "lat": 39.414506,
+    "lon": 16.313689
+  },
+  {
+    "indirizzo abitazione": "Viale Tommaso Campanella, 91 – 88100 Catanzaro CZ",
+    "lat": 39.134052,
+    "lon": 16.360818
+  },
+  {
+    "indirizzo abitazione": "Via Mario Greco, 25 – 88100 Catanzaro CZ",
+    "lat": 39.220812,
+    "lon": 16.036163
+  },
+  {
+    "indirizzo abitazione": "Via Lucrezia della Valle, 110 – 88100 Catanzaro CZ",
+    "lat": 39.427151,
+    "lon": 16.151088
+  },
+  {
+    "indirizzo abitazione": "Via Madonna dei Cieli, 18 – 88100 Catanzaro CZ",
+    "lat": 39.375397,
+    "lon": 16.058318
+  },
+  {
+    "indirizzo abitazione": "Viale dei Normanni, 147 – 88100 Catanzaro CZ",
+    "lat": 39.185447,
+    "lon": 16.36005
+  },
+  {
+    "indirizzo abitazione": "Via XX Settembre, 12 – 88100 Catanzaro CZ",
+    "lat": 39.502701,
+    "lon": 16.154974
+  },
+  {
+    "indirizzo abitazione": "Via Francesco Paglia, 42 – 88100 Catanzaro CZ",
+    "lat": 39.264682,
+    "lon": 16.142145
+  },
+  {
+    "indirizzo abitazione": "Via Fiume Busento, 9 – 88100 Catanzaro CZ",
+    "lat": 39.50026,
+    "lon": 16.473402
+  },
+  {
+    "indirizzo abitazione": "Via Antonio Salfi, 8 – 88100 Catanzaro CZ",
+    "lat": 39.229094,
+    "lon": 16.442067
+  },
+  {
+    "indirizzo abitazione": "Via Roma, 38 – 89057 Santo Stefano in Aspromonte RC",
+    "lat": 37.391472,
+    "lon": 14.965029
+  },
+  {
+    "indirizzo abitazione": "Via Garibaldi, 4 – 89057 Gambarie RC",
+    "lat": 38.1815,
+    "lon": 15.7718
+  },
+  {
+    "indirizzo abitazione": "Via Centrale, 25 – 89043 Melito di Porto Salvo (fraz. Musupuniti) RC",
+    "lat": 37.691303,
+    "lon": 15.186839
+  },
+  {
+    "indirizzo abitazione": "Via Dante, 16 – 89030 San Lorenzo RC",
+    "lat": 37.436216,
+    "lon": 14.761617
+  },
+  {
+    "indirizzo abitazione": "Via Municipio, 10 – 89030 Cardeto RC",
+    "lat": 37.406335,
+    "lon": 14.820725
+  },
+  {
+    "indirizzo abitazione": "Via Provinciale, 13 – 89040 Samo RC",
+    "lat": 37.694464,
+    "lon": 14.843949
+  },
+  {
+    "indirizzo abitazione": "Via Vittorio Emanuele, 11 – 89044 Canolo RC",
+    "lat": 39.297449,
+    "lon": 16.515301
+  },
+  {
+    "indirizzo abitazione": "Via Umberto I, 9 – 89044 Antonimina RC",
+    "lat": 39.414022,
+    "lon": 16.536216
+  },
+  {
+    "indirizzo abitazione": "Via XX Settembre, 2 – 89045 Mammola RC",
+    "lat": 39.498843,
+    "lon": 16.057856
+  },
+  {
+    "indirizzo abitazione": "Via Marconi, 5 – 89030 San Luca RC",
+    "lat": 37.699247,
+    "lon": 14.996066
+  },
+  {
+    "indirizzo abitazione": "Via Lungomare, 72 – 89048 Siderno RC",
+    "lat": 39.358269,
+    "lon": 15.940382
+  },
+  {
+    "indirizzo abitazione": "Via Marina, 99 – 89044 Locri RC",
+    "lat": 39.27657,
+    "lon": 16.217858
+  },
+  {
+    "indirizzo abitazione": "Via Lungomare, 14 – 89047 Roccella Ionica RC",
+    "lat": 39.492163,
+    "lon": 16.07948
+  },
+  {
+    "indirizzo abitazione": "Via Marina, 88 – 89052 Marina di Gioiosa Ionica RC",
+    "lat": 39.36465,
+    "lon": 16.471559
+  },
+  {
+    "indirizzo abitazione": "Via Lungomare, 45 – 89050 Bovalino Marina RC",
+    "lat": 37.649063,
+    "lon": 14.892139
+  },
+  {
+    "indirizzo abitazione": "Via Lungomare, 1 – 89032 Bianco RC",
+    "lat": 37.484712,
+    "lon": 15.217019
+  },
+  {
+    "indirizzo abitazione": "Via Lungomare dei Mille, 210 – 89062 Brancaleone RC",
+    "lat": 37.268017,
+    "lon": 15.014378
+  },
+  {
+    "indirizzo abitazione": "Via Regina Margherita, 3 – 89049 Stilo Marina RC",
+    "lat": 39.306248,
+    "lon": 16.335424
+  },
+  {
+    "indirizzo abitazione": "Via Lungomare Cristoforo Colombo, 70 – 89034 Bagnara Calabra RC",
+    "lat": 37.542812,
+    "lon": 14.968136
+  },
+  {
+    "indirizzo abitazione": "Via Nazionale, 220 – 89018 Villa San Giovanni RC",
+    "lat": 37.274212,
+    "lon": 15.105574
+  },
+  {
+    "indirizzo abitazione": "Via Lido Comunale, 33 – 89123 Reggio Calabria RC",
+    "lat": 38.1146,
+    "lon": 15.6519
+  },
+  {
+    "indirizzo abitazione": "Via Marina di Pellaro, 27 – 89134 Reggio Calabria RC",
+    "lat": 38.0189,
+    "lon": 15.6535
+  },
+  {
+    "indirizzo abitazione": "Via Lungomare Cicerone, 9 – 89038 San Ferdinando RC",
+    "lat": 39.279838,
+    "lon": 15.917246
+  },
+  {
+    "indirizzo abitazione": "Via Lungomare, 54 – 89026 San Ferdinando RC",
+    "lat": 39.279359,
+    "lon": 16.320888
+  },
+  {
+    "indirizzo abitazione": "Via Lungomare Kennedy, 15 – 89015 Palmi RC",
+    "lat": 39.233879,
+    "lon": 16.462768
+  },
+  {
+    "indirizzo abitazione": "Via Lungomare Francesco Macrì, 39 – 89013 Gioia Tauro RC",
+    "lat": 39.254567,
+    "lon": 16.030705
+  },
+  {
+    "indirizzo abitazione": "Via Nazionale, 170 – 89025 Rosarno RC",
+    "lat": 39.410841,
+    "lon": 16.377825
+  },
+  {
+    "indirizzo abitazione": "Via Lungomare, 15 – 89042 Gioiosa Ionica Marina RC",
+    "lat": 39.210058,
+    "lon": 16.05872
+  },
+  {
+    "indirizzo abitazione": "Via Marina, 21 – 89036 Africo Marina RC",
+    "lat": 37.470019,
+    "lon": 15.292112
+  },
+  {
+    "indirizzo abitazione": "Via Lungomare, 31 – 89035 Condofuri Marina RC",
+    "lat": 37.355015,
+    "lon": 15.070921
+  },
+  {
+    "indirizzo abitazione": "Via Roma, 25 – 89013 Gioia Tauro RC",
+    "lat": 39.228877,
+    "lon": 16.51152
+  },
+  {
+    "indirizzo abitazione": "Via Veneto, 17 – 89013 Gioia Tauro RC",
+    "lat": 39.529792,
+    "lon": 16.406742
+  },
+  {
+    "indirizzo abitazione": "Via Nazionale, 116 – 89015 Palmi RC",
+    "lat": 39.411035,
+    "lon": 16.284019
+  },
+  {
+    "indirizzo abitazione": "Via Concordato, 22 – 89015 Palmi RC",
+    "lat": 39.312294,
+    "lon": 16.551419
+  },
+  {
+    "indirizzo abitazione": "Via Matteotti, 44 – 89029 Taurianova RC",
+    "lat": 39.197362,
+    "lon": 16.196669
+  },
+  {
+    "indirizzo abitazione": "Via Circonvallazione Est, 12 – 89029 Taurianova RC",
+    "lat": 39.364578,
+    "lon": 15.989871
+  },
+  {
+    "indirizzo abitazione": "Via Marconi, 8 – 89025 Rosarno RC",
+    "lat": 39.457686,
+    "lon": 16.055247
+  },
+  {
+    "indirizzo abitazione": "Via Sant'Anna, 10 – 89025 Rosarno RC",
+    "lat": 39.126636,
+    "lon": 16.318113
+  },
+  {
+    "indirizzo abitazione": "Via F. Baracca, 3 – 89048 Siderno RC",
+    "lat": 39.319326,
+    "lon": 16.567801
+  },
+  {
+    "indirizzo abitazione": "Via Cesare Battisti, 12 – 89048 Siderno RC",
+    "lat": 39.486013,
+    "lon": 16.081313
+  },
+  {
+    "indirizzo abitazione": "Via Roma, 65 – 89047 Roccella Ionica RC",
+    "lat": 39.233196,
+    "lon": 16.192033
+  },
+  {
+    "indirizzo abitazione": "Via Marina, 3 – 89047 Roccella Ionica RC",
+    "lat": 39.29606,
+    "lon": 15.991487
+  },
+  {
+    "indirizzo abitazione": "Via XXV Aprile, 18 – 89042 Gioiosa Ionica RC",
+    "lat": 39.321098,
+    "lon": 15.959589
+  },
+  {
+    "indirizzo abitazione": "Via Nazionale, 33 – 89044 Locri RC",
+    "lat": 39.423529,
+    "lon": 16.395419
+  },
+  {
+    "indirizzo abitazione": "Via Garibaldi, 92 – 89044 Locri RC",
+    "lat": 39.152514,
+    "lon": 16.482164
+  },
+  {
+    "indirizzo abitazione": "Via Roma, 45 – 89040 Caulonia Marina RC",
+    "lat": 39.203623,
+    "lon": 16.146397
+  },
+  {
+    "indirizzo abitazione": "Via Nazionale, 15 – 89050 Bovalino RC",
+    "lat": 37.576988,
+    "lon": 14.812684
+  },
+  {
+    "indirizzo abitazione": "Via Kennedy, 5 – 89050 Bovalino RC",
+    "lat": 37.334807,
+    "lon": 15.32439
+  },
+  {
+    "indirizzo abitazione": "Via Giotto, 7 – 89052 Marina di Gioiosa Ionica RC",
+    "lat": 39.353458,
+    "lon": 16.492637
+  },
+  {
+    "indirizzo abitazione": "Via Europa, 18 – 89052 Marina di Gioiosa Ionica RC",
+    "lat": 39.252564,
+    "lon": 16.248896
+  },
+  {
+    "indirizzo abitazione": "Via Pio La Torre, 20 – 89062 Brancaleone RC",
+    "lat": 37.492407,
+    "lon": 14.952919
+  },
+  {
+    "indirizzo abitazione": "Via Stazione, 6 – 89062 Brancaleone RC",
+    "lat": 37.493881,
+    "lon": 14.954525
+  },
+  {
+    "indirizzo abitazione": "Via Regina Margherita, 66 – 89031 Ardore RC",
+    "lat": 37.341542,
+    "lon": 14.925854
+  },
+  {
+    "indirizzo abitazione": "Via Nazionale, 32 – 89034 Bagnara Calabra RC",
+    "lat": 37.76094,
+    "lon": 15.044147
+  },
+  {
+    "indirizzo abitazione": "Via SS18 Tirrena Inferiore, 15 – 89034 Bagnara Calabra RC",
+    "lat": 37.302145,
+    "lon": 14.959065
+  },
+  {
+    "indirizzo abitazione": "Via Cavour, 14 – 89018 Villa San Giovanni RC",
+    "lat": 37.635062,
+    "lon": 14.842877
+  },
+  {
+    "indirizzo abitazione": "Via Riviera, 77 – 89018 Villa San Giovanni RC",
+    "lat": 37.407087,
+    "lon": 14.992996
+  },
+  {
+    "indirizzo abitazione": "Via Scopelliti, 3 – 89011 Bovalino Superiore RC",
+    "lat": 37.451004,
+    "lon": 14.830933
+  },
+  {
+    "indirizzo abitazione": "Via Umberto I, 17 – 89024 Polistena RC",
+    "lat": 39.52963,
+    "lon": 16.392172
+  },
+  {
+    "indirizzo abitazione": "Via Rocco Pizzimenti, 10 – 89024 Polistena RC",
+    "lat": 39.355267,
+    "lon": 16.453153
+  },
+  {
+    "indirizzo abitazione": "Via Arangea, 82 – 89134 Reggio Calabria RC",
+    "lat": 38.0399,
+    "lon": 15.6621
+  },
+  {
+    "indirizzo abitazione": "Via Modena San Sperato, 22 – 89133 Reggio Calabria RC",
+    "lat": 38.0907,
+    "lon": 15.6502
+  },
+  {
+    "indirizzo abitazione": "Via Boschicello, 11 – 89133 Reggio Calabria RC",
+    "lat": 38.0808,
+    "lon": 15.661
+  },
+  {
+    "indirizzo abitazione": "Via Ravagnese Inferiore, 213 – 89131 Reggio Calabria RC",
+    "lat": 38.0771,
+    "lon": 15.6549
+  },
+  {
+    "indirizzo abitazione": "Via Vito Inferiore, 65 – 89131 Reggio Calabria RC",
+    "lat": 38.0698,
+    "lon": 15.654
+  },
+  {
+    "indirizzo abitazione": "Via Vecchia Archi, 30 – 89121 Reggio Calabria RC",
+    "lat": 38.1429,
+    "lon": 15.6402
+  },
+  {
+    "indirizzo abitazione": "Via Armacà, 17 – 89134 Reggio Calabria RC",
+    "lat": 38.0524,
+    "lon": 15.6636
+  },
+  {
+    "indirizzo abitazione": "Via San Gregorio, 104 – 89134 Reggio Calabria RC",
+    "lat": 38.0367,
+    "lon": 15.6627
+  },
+  {
+    "indirizzo abitazione": "Via Cardeto, 44 – 89133 Reggio Calabria RC",
+    "lat": 38.0863,
+    "lon": 15.6759
+  },
+  {
+    "indirizzo abitazione": "Via Pellaro Marina, 88 – 89134 Reggio Calabria RC",
+    "lat": 38.021,
+    "lon": 15.6537
+  },
+  {
+    "indirizzo abitazione": "Via Nazionale Pentimele, 31 – 89122 Reggio Calabria RC",
+    "lat": 38.139007,
+    "lon": 15.6579572
+  },
+  {
+    "indirizzo abitazione": "Via Reggio Campi II Tronco, 63 – 89127 Reggio Calabria RC",
+    "lat": 38.11878,
+    "lon": 15.65003
+  },
+  {
+    "indirizzo abitazione": "Via Gebbione, 16 – 89132 Reggio Calabria RC",
+    "lat": 38.09899,
+    "lon": 15.64612
+  },
+  {
+    "indirizzo abitazione": "Via Sbarre Inferiori, 231 – 89132 Reggio Calabria RC",
+    "lat": 38.1052,
+    "lon": 15.6544
+  },
+  {
+    "indirizzo abitazione": "Via Santa Caterina, 124 – 89122 Reggio Calabria RC",
+    "lat": 38.135,
+    "lon": 15.6456
+  },
+  {
+    "indirizzo abitazione": "Via Galileo Galilei, 14 – 89123 Reggio Calabria RC",
+    "lat": 38.1129,
+    "lon": 15.6554
+  },
+  {
+    "indirizzo abitazione": "Via del Torrione, 40 – 89125 Reggio Calabria RC",
+    "lat": 38.1143,
+    "lon": 15.65
+  },
+  {
+    "indirizzo abitazione": "Via Cardinale Portanova, 232 – 89124 Reggio Calabria RC",
+    "lat": 38.1099,
+    "lon": 15.6628
+  },
+  {
+    "indirizzo abitazione": "Via Lia, 108 – 89124 Reggio Calabria RC",
+    "lat": 38.1068,
+    "lon": 15.6642
+  },
+  {
+    "indirizzo abitazione": "Via Ravagnese Superiore, 196 – 89131 Reggio Calabria RC",
+    "lat": 38.0713,
+    "lon": 15.6597
+  },
+  {
+    "indirizzo abitazione": "Via Roma, 45 – 89822 Serra San Bruno (centro storico) VV",
+    "lat": 39.032923,
+    "lon": 16.288049
+  },
+  {
+    "indirizzo abitazione": "Via Certosa, 12 – 89822 Serra San Bruno VV",
+    "lat": 39.087772,
+    "lon": 16.410536
+  },
+  {
+    "indirizzo abitazione": "Via Nazionale, 88 – 89831 Mileto VV",
+    "lat": 39.376783,
+    "lon": 16.17939
+  },
+  {
+    "indirizzo abitazione": "Via Chiesa Madre, 15 – 89831 Mileto VV",
+    "lat": 39.228553,
+    "lon": 16.01462
+  },
+  {
+    "indirizzo abitazione": "Via Roma, 33 – 89824 Arena VV",
+    "lat": 39.052002,
+    "lon": 16.141311
+  },
+  {
+    "indirizzo abitazione": "Via Umberto I, 7 – 89824 Dinami VV",
+    "lat": 39.127916,
+    "lon": 16.360887
+  },
+  {
+    "indirizzo abitazione": "Via Panoramica, 22 – 89057 Santo Stefano in Aspromonte RC",
+    "lat": 37.386592,
+    "lon": 14.795469
+  },
+  {
+    "indirizzo abitazione": "Via Monte Sacro, 8 – 89057 Gambarie (stazione sciistica) RC",
+    "lat": 38.182,
+    "lon": 15.773
+  },
+  {
+    "indirizzo abitazione": "Via Roma, 55 – 89040 Platì RC",
+    "lat": 37.570814,
+    "lon": 14.866801
+  },
+  {
+    "indirizzo abitazione": "Via Nazionale, 28 – 89040 Careri RC",
+    "lat": 37.490398,
+    "lon": 14.837841
+  },
+  {
+    "indirizzo abitazione": "Via Principale, 18 – 89030 Roghudi RC",
+    "lat": 37.598954,
+    "lon": 14.907532
+  },
+  {
+    "indirizzo abitazione": "Via Chiesa, 5 – 89040 San Giorgio Morgeto RC",
+    "lat": 39.100155,
+    "lon": 16.17725
+  },
+  {
+    "indirizzo abitazione": "Via Roma, 67 – 88040 Marcellinara CZ",
+    "lat": 39.402025,
+    "lon": 16.553759
+  },
+  {
+    "indirizzo abitazione": "Via Nazionale, 45 – 88040 San Floro CZ",
+    "lat": 39.362616,
+    "lon": 16.290537
+  },
+  {
+    "indirizzo abitazione": "Via Umberto I, 23 – 88040 Cortale CZ",
+    "lat": 39.131381,
+    "lon": 16.005736
+  },
+  {
+    "indirizzo abitazione": "Via Roma, 12 – 88050 Taverna (centro) CZ",
+    "lat": 39.529157,
+    "lon": 16.075347
+  },
+  {
+    "indirizzo abitazione": "Via Marina, 78 – 89866 Ricadi (Capo Vaticano) VV",
+    "lat": 39.262517,
+    "lon": 16.018306
+  },
+  {
+    "indirizzo abitazione": "Via Lungomare, 33 – 89865 Spilinga Marina VV",
+    "lat": 39.537233,
+    "lon": 16.216347
+  },
+  {
+    "indirizzo abitazione": "Via del Porto, 19 – 89049 Stilo (borgo) RC",
+    "lat": 39.407012,
+    "lon": 16.29292
+  },
+  {
+    "indirizzo abitazione": "Via Nazionale, 95 – 89040 Monasterace Marina RC",
+    "lat": 39.338253,
+    "lon": 16.37173
+  },
+  {
+    "indirizzo abitazione": "Via Lungomare, 67 – 88063 Sant'Andrea Apostolo dello Ionio CZ",
+    "lat": 39.283669,
+    "lon": 16.465093
+  },
+  {
+    "indirizzo abitazione": "Via Marina, 41 – 88060 Isca sullo Ionio Marina CZ",
+    "lat": 39.04141,
+    "lon": 16.335332
+  },
+  {
+    "indirizzo abitazione": "Zona industriale ASI, 45 – 88046 Lamezia Terme CZ",
+    "lat": 39.205537,
+    "lon": 15.983675
+  },
+  {
+    "indirizzo abitazione": "Via Commerciale, 78 – 89900 Vibo Marina (porto) VV",
+    "lat": 39.48585,
+    "lon": 16.293378
+  },
+  {
+    "indirizzo abitazione": "Zona industriale, 12 – 89048 Siderno (area PIP) RC",
+    "lat": 39.03428,
+    "lon": 16.28704
+  },
+  {
+    "indirizzo abitazione": "Via Industriale, 88 – 88100 Catanzaro Sala (zona industriale) CZ",
+    "lat": 39.152333,
+    "lon": 16.254029
+  },
+  {
+    "indirizzo abitazione": "Contrada Oliveto, 15 – 89044 Gerace (borgo medievale) RC",
+    "lat": 39.115746,
+    "lon": 16.076878
+  },
+  {
+    "indirizzo abitazione": "Via del Castello, 8 – 89040 Scilla (centro storico) RC",
+    "lat": 37.695052,
+    "lon": 14.891432
+  },
+  {
+    "indirizzo abitazione": "Frazione Olivadi, 33 – 88050 Tiriolo CZ",
+    "lat": 39.180249,
+    "lon": 16.470321
+  },
+  {
+    "RSA": "RSA Reggio Via Eremo al Santuario, 6 - 89124 Reggio Calabria RC",
+    "lat": 37.433379,
+    "lon": 15.108991
+  },
+  {
+    "RSA": "RSA Vibo Via S. Domenico Savio, 10 - 89900 Vibo Valentia VV",
+    "lat": 39.489682,
+    "lon": 16.134723
+  },
+  {
+    "RSA": "RSA Lamezia Via Ospedale,22 - Lamezia Terme, CZ 88046",
+    "lat": 39.37026,
+    "lon": 16.390045
+  },
+  {
+    "RSA": "RSA Catanzaro Viale Pio X, 202 - 88100 Catanzaro CZ",
+    "lat": 39.230527,
+    "lon": 16.540697
+  },
+  {
+    "Strada": "A2 SA-RC km 265 - 89815 Curinga CZ",
+    "lat": 39.287897,
+    "lon": 16.319728
+  },
+  {
+    "Strada": "A2 SA-RC km 362 - 89831 Mileto VV",
+    "lat": 39.107442,
+    "lon": 16.220578
+  },
+  {
+    "Strada": "SS 106 Jonica km 13 – 89048 Locri RC",
+    "lat": 39.219074,
+    "lon": 16.292591
+  },
+  {
+    "Strada": "A2 SA-RC km 440 – 9135 Reggio di Calabria RC",
+    "lat": 37.547959,
+    "lon": 14.815909
+  },
+  {
+    "Scuola": "IIS Reggio Via de Lorenzo, 78 - 89123 Reggio di Calabria RC",
+    "lat": 37.595698,
+    "lon": 14.94312
+  },
+  {
+    "Scuola": "IIS Vibo Via Giustino Fortunato - 89900 Vibo Valentia VV",
+    "lat": 39.14982,
+    "lon": 16.210853
+  },
+  {
+    "Scuola": "IIS lamezia Via Leonardo da Vinci - 88046 Lamezia Terme CZ",
+    "lat": 39.252,
+    "lon": 15.925811
+  },
+  {
+    "Scuola": "IIS Catanzaro Viale Tommaso Campanella, 90 - 88100 Catanzaro CZ",
+    "lat": 39.130435,
+    "lon": 16.002748
+  },
+  {
+    "Impianto lavorativo": "Zona industriale San Pietro Lametino - 88046 Lamezia Terme CZ",
+    "lat": 39.201559,
+    "lon": 16.190806
+  },
+  {
+    "Impianto lavorativo": "Zona industriale Contrada Difesa - 88050 Caraffa di Catanzaro CZ",
+    "lat": 39.189703,
+    "lon": 16.501787
+  },
+  {
+    "Impianto lavorativo": "Zona industriale Contrada le Marinate - 89900 Vibo Marina VV",
+    "lat": 39.122581,
+    "lon": 16.136319
+  },
+  {
+    "Impianto lavorativo": "Hitachi Rail Via Gebbione, 12 - 89129 Reggio di Calabria RC",
+    "lat": 37.696454,
+    "lon": 15.165854
+  },
+  {
+    "Impianto sportivo": "Centro Sportivo Reggio Viale Messina, 54 - 89129 Reggio Calabria RC",
+    "lat": 37.527349,
+    "lon": 14.929208
+  },
+  {
+    "Impianto sportivo": "Centro Sportivo Vibo Via Piazza D'Armi - 89900 Vibo Valentia VV",
+    "lat": 39.29159,
+    "lon": 16.086669
+  },
+  {
+    "Impianto sportivo": "Centro Sportivo Lamezia Via Bruno Napoleone Ruberto, 33 - 88046 Lamezia Terme CZ",
+    "lat": 39.127044,
+    "lon": 16.190047
+  },
+  {
+    "Impianto sportivo": "Centro Sportivo Catanzaro Lido Via Carlo Pisacane - 88100 Catanzaro CZ",
+    "lat": 39.169564,
+    "lon": 16.332851
+  },
+  {
+    "indirizzo abitazione": "Via Giuseppe Garibaldi, 45 – 89123 Reggio Calabria RC",
+    "lat": 38.11234,
+    "lon": 15.65234
+  },
+  {
+    "indirizzo abitazione": "Via Marina Alta, 123 – 89123 Reggio Calabria RC",
+    "lat": 38.11567,
+    "lon": 15.65567
+  },
+  {
+    "indirizzo abitazione": "Via Fata Morgana, 67 – 89123 Reggio Calabria RC",
+    "lat": 38.11123,
+    "lon": 15.65123
+  },
+  {
+    "indirizzo abitazione": "Via Aspromonte, 89 – 89123 Reggio Calabria RC",
+    "lat": 38.10456,
+    "lon": 15.64456
+  },
+  {
+    "indirizzo abitazione": "Via Cattolica dei Greci, 234 – 89123 Reggio Calabria RC",
+    "lat": 38.10789,
+    "lon": 15.64789
+  },
+  {
+    "indirizzo abitazione": "Via Reggio Campi, 156 – 89127 Reggio Calabria RC",
+    "lat": 38.10234,
+    "lon": 15.64234
+  },
+  {
+    "indirizzo abitazione": "Via Sbarre Centrali, 78 – 89132 Reggio Calabria RC",
+    "lat": 38.10567,
+    "lon": 15.64567
+  },
+  {
+    "indirizzo abitazione": "Via Ciccarello, 167 – 89134 Reggio Calabria RC",
+    "lat": 38.10123,
+    "lon": 15.64123
+  },
+  {
+    "indirizzo abitazione": "Via Trabocchetto, 145 – 89121 Reggio Calabria RC",
+    "lat": 38.09456,
+    "lon": 15.63456
+  },
+  {
+    "indirizzo abitazione": "Via Condera, 89 – 89122 Reggio Calabria RC",
+    "lat": 38.09789,
+    "lon": 15.63789
+  },
+  {
+    "indirizzo abitazione": "Via Botteghelle, 234 – 89125 Reggio Calabria RC",
+    "lat": 38.09234,
+    "lon": 15.63234
+  },
+  {
+    "indirizzo abitazione": "Via Santa Lucia, 156 – 89124 Reggio Calabria RC",
+    "lat": 38.09567,
+    "lon": 15.63567
+  },
+  {
+    "indirizzo abitazione": "Via Possidonea, 78 – 89126 Reggio Calabria RC",
+    "lat": 38.09123,
+    "lon": 15.63123
+  },
+  {
+    "indirizzo abitazione": "Via Giunchi, 167 – 89131 Reggio Calabria RC",
+    "lat": 38.08456,
+    "lon": 15.62456
+  },
+  {
+    "indirizzo abitazione": "Via Modena, 145 – 89133 Reggio Calabria RC",
+    "lat": 38.08789,
+    "lon": 15.62789
+  },
+  {
+    "indirizzo abitazione": "Via Croce Valanidi, 89 – 89135 Reggio Calabria RC",
+    "lat": 38.08234,
+    "lon": 15.62234
+  },
+  {
+    "indirizzo abitazione": "Via Vito Superiore, 234 – 89131 Reggio Calabria RC",
+    "lat": 38.08567,
+    "lon": 15.62567
+  },
+  {
+    "indirizzo abitazione": "Via Oliveto, 156 – 89134 Reggio Calabria RC",
+    "lat": 38.08123,
+    "lon": 15.62123
+  },
+  {
+    "indirizzo abitazione": "Via Spirito Santo, 78 – 89123 Reggio Calabria RC",
+    "lat": 38.07456,
+    "lon": 15.61456
+  },
+  {
+    "indirizzo abitazione": "Via Jannoni, 45 – 88100 Catanzaro CZ",
+    "lat": 39.460055,
+    "lon": 16.119789
+  },
+  {
+    "indirizzo abitazione": "Via Fontana Vecchia, 123 – 88100 Catanzaro CZ",
+    "lat": 39.36096,
+    "lon": 16.357415
+  },
+  {
+    "indirizzo abitazione": "Via Santa Maria di Castello, 67 – 88100 Catanzaro CZ",
+    "lat": 39.15097,
+    "lon": 16.462999
+  },
+  {
+    "indirizzo abitazione": "Via Bellavista, 89 – 88100 Catanzaro CZ",
+    "lat": 39.366492,
+    "lon": 16.250344
+  },
+  {
+    "indirizzo abitazione": "Via Vinicio Cortese, 234 – 88100 Catanzaro CZ",
+    "lat": 39.206614,
+    "lon": 16.086898
+  },
+  {
+    "indirizzo abitazione": "Via Monte Tiriolo, 156 – 88100 Catanzaro CZ",
+    "lat": 39.247826,
+    "lon": 16.068746
+  },
+  {
+    "indirizzo abitazione": "Via Perugini, 78 – 88100 Catanzaro CZ",
+    "lat": 39.305942,
+    "lon": 16.090953
+  },
+  {
+    "indirizzo abitazione": "Via Argento, 167 – 88100 Catanzaro CZ",
+    "lat": 39.454786,
+    "lon": 16.017383
+  },
+  {
+    "indirizzo abitazione": "Via Teano, 145 – 88100 Catanzaro CZ",
+    "lat": 39.366805,
+    "lon": 16.111894
+  },
+  {
+    "indirizzo abitazione": "Via Cosenza, 89 – 88100 Catanzaro CZ",
+    "lat": 39.323557,
+    "lon": 16.043278
+  },
+  {
+    "indirizzo abitazione": "Via Crotone, 234 – 88100 Catanzaro CZ",
+    "lat": 39.159621,
+    "lon": 16.505655
+  },
+  {
+    "indirizzo abitazione": "Via Reggio Calabria, 156 – 88100 Catanzaro CZ",
+    "lat": 38.89567,
+    "lon": 16.58567
+  },
+  {
+    "indirizzo abitazione": "Via Vibo Valentia, 78 – 88100 Catanzaro CZ",
+    "lat": 39.2158,
+    "lon": 16.37058
+  },
+  {
+    "indirizzo abitazione": "Via Pitagora, 167 – 88100 Catanzaro CZ",
+    "lat": 39.176144,
+    "lon": 16.3848
+  },
+  {
+    "indirizzo abitazione": "Via Archimede, 145 – 88100 Catanzaro CZ",
+    "lat": 39.395644,
+    "lon": 16.566789
+  },
+  {
+    "indirizzo abitazione": "Via del Progresso, 45 – 88046 Lamezia Terme CZ",
+    "lat": 39.519846,
+    "lon": 16.415855
+  },
+  {
+    "indirizzo abitazione": "Via Saverio Gatti, 123 – 88046 Lamezia Terme CZ",
+    "lat": 39.389793,
+    "lon": 15.940301
+  },
+  {
+    "indirizzo abitazione": "Via Delle Ginestre, 67 – 88046 Lamezia Terme CZ",
+    "lat": 39.160723,
+    "lon": 16.458568
+  },
+  {
+    "indirizzo abitazione": "Via Dei Bizantini, 89 – 88046 Lamezia Terme CZ",
+    "lat": 39.163368,
+    "lon": 16.104075
+  },
+  {
+    "indirizzo abitazione": "Via Francesco Manfredi, 234 – 88046 Lamezia Terme CZ",
+    "lat": 39.140541,
+    "lon": 16.431499
+  },
+  {
+    "indirizzo abitazione": "Via Luigi Razza, 156 – 88046 Lamezia Terme CZ",
+    "lat": 39.35861,
+    "lon": 16.091524
+  },
+  {
+    "indirizzo abitazione": "Via Arturo Perugini, 78 – 88046 Lamezia Terme CZ",
+    "lat": 39.09889,
+    "lon": 16.270392
+  },
+  {
+    "indirizzo abitazione": "Via Rosario Muleo, 167 – 88046 Lamezia Terme CZ",
+    "lat": 39.217254,
+    "lon": 16.352707
+  },
+  {
+    "indirizzo abitazione": "Via Franco Costabile, 145 – 88046 Lamezia Terme CZ",
+    "lat": 39.235111,
+    "lon": 15.934501
+  },
+  {
+    "indirizzo abitazione": "Via Terina, 89 – 88046 Lamezia Terme CZ",
+    "lat": 39.476924,
+    "lon": 16.452362
+  },
+  {
+    "indirizzo abitazione": "Via Sambiase, 234 – 88046 Lamezia Terme CZ",
+    "lat": 39.247515,
+    "lon": 16.335574
+  },
+  {
+    "indirizzo abitazione": "Via Nicastro, 156 – 88046 Lamezia Terme CZ",
+    "lat": 39.166927,
+    "lon": 16.194748
+  },
+  {
+    "indirizzo abitazione": "Via Affaccio, 45 – 89900 Vibo Valentia VV",
+    "lat": 39.048247,
+    "lon": 16.132508
+  },
+  {
+    "indirizzo abitazione": "Via Corso Vittorio Emanuele III, 123 – 89900 Vibo Valentia VV",
+    "lat": 39.396456,
+    "lon": 16.404124
+  },
+  {
+    "indirizzo abitazione": "Via Buccarelli, 67 – 89900 Vibo Valentia VV",
+    "lat": 39.433307,
+    "lon": 16.320951
+  },
+  {
+    "indirizzo abitazione": "Via Giuseppe De Nava, 89 – 89900 Vibo Valentia VV",
+    "lat": 39.370712,
+    "lon": 16.274967
+  },
+  {
+    "indirizzo abitazione": "Via Moderata Durant, 234 – 89900 Vibo Valentia VV",
+    "lat": 39.153934,
+    "lon": 16.355106
+  },
+  {
+    "indirizzo abitazione": "Via Michele Morelli, 156 – 89900 Vibo Valentia VV",
+    "lat": 39.186916,
+    "lon": 16.257561
+  },
+  {
+    "indirizzo abitazione": "Via Emanuele Gagliardi, 78 – 89900 Vibo Valentia VV",
+    "lat": 39.227889,
+    "lon": 16.430583
+  },
+  {
+    "indirizzo abitazione": "Via Francesco Taccone, 167 – 89900 Vibo Valentia VV",
+    "lat": 39.450779,
+    "lon": 15.97604
+  },
+  {
+    "indirizzo abitazione": "Via Hipponion, 145 – 89900 Vibo Valentia VV",
+    "lat": 39.530161,
+    "lon": 16.247342
+  },
+  {
+    "indirizzo abitazione": "Via Santa Ruba, 89 – 89900 Vibo Valentia VV",
+    "lat": 39.160736,
+    "lon": 16.182008
+  },
+  {
+    "indirizzo abitazione": "Via Nazionale, 22 – 89048 Siderno RC",
+    "lat": 39.454115,
+    "lon": 16.43566
+  },
+  {
+    "indirizzo abitazione": "Via Corrado Alvaro, 67 – 89048 Siderno RC",
+    "lat": 39.411085,
+    "lon": 16.316575
+  },
+  {
+    "indirizzo abitazione": "Via Giuseppe Mazzini, 89 – 89048 Siderno RC",
+    "lat": 39.540315,
+    "lon": 16.252594
+  },
+  {
+    "indirizzo abitazione": "Via Francesco Crispi, 123 – 89048 Siderno RC",
+    "lat": 39.247653,
+    "lon": 16.318536
+  },
+  {
+    "indirizzo abitazione": "Via Antonio Gramsci, 156 – 89048 Siderno RC",
+    "lat": 39.467163,
+    "lon": 16.142969
+  },
+  {
+    "indirizzo abitazione": "Via Magna Grecia, 22 – 89044 Locri RC",
+    "lat": 39.113332,
+    "lon": 16.46178
+  },
+  {
+    "indirizzo abitazione": "Via Alcide De Gasperi, 67 – 89044 Locri RC",
+    "lat": 39.234945,
+    "lon": 16.352104
+  },
+  {
+    "indirizzo abitazione": "Via Primo Levi, 89 – 89044 Locri RC",
+    "lat": 39.474121,
+    "lon": 16.285326
+  },
+  {
+    "indirizzo abitazione": "Via Matteotti, 123 – 89044 Locri RC",
+    "lat": 39.359566,
+    "lon": 16.373896
+  },
+  {
+    "indirizzo abitazione": "Via Santa Domenica, 22 – 89861 Tropea VV",
+    "lat": 39.118628,
+    "lon": 16.18802
+  },
+  {
+    "indirizzo abitazione": "Via Belvedere, 67 – 89861 Tropea VV",
+    "lat": 39.470131,
+    "lon": 16.501842
+  },
+  {
+    "indirizzo abitazione": "Via del Cannone, 89 – 89861 Tropea VV",
+    "lat": 39.072876,
+    "lon": 16.085006
+  },
+  {
+    "indirizzo abitazione": "Via Marina dell'Isola, 123 – 89861 Tropea VV",
+    "lat": 39.378573,
+    "lon": 16.012805
+  },
+  {
+    "indirizzo abitazione": "Via Murat, 22 – 89812 Pizzo VV",
+    "lat": 39.156688,
+    "lon": 16.021113
+  },
+  {
+    "indirizzo abitazione": "Via Garibaldi, 67 – 89812 Pizzo VV",
+    "lat": 39.184589,
+    "lon": 16.049223
+  },
+  {
+    "indirizzo abitazione": "Via Marconi, 89 – 89812 Pizzo VV",
+    "lat": 39.210708,
+    "lon": 16.059037
+  },
+  {
+    "indirizzo abitazione": "Via Chiesetta, 123 – 89812 Pizzo VV",
+    "lat": 39.266253,
+    "lon": 16.317039
+  },
+  {
+    "indirizzo abitazione": "Via Santa Maria della Neve, 22 – 88068 Soverato CZ",
+    "lat": 39.088505,
+    "lon": 16.401519
+  },
+  {
+    "indirizzo abitazione": "Via Anita Garibaldi, 67 – 88068 Soverato CZ",
+    "lat": 39.52392,
+    "lon": 16.326021
+  },
+  {
+    "indirizzo abitazione": "Via Giovanni Pascoli, 89 – 88068 Soverato CZ",
+    "lat": 39.400898,
+    "lon": 16.286418
+  },
+  {
+    "indirizzo abitazione": "Via Riviera Ionica, 123 – 88068 Soverato CZ",
+    "lat": 39.08983,
+    "lon": 16.415888
+  },
+  {
+    "indirizzo abitazione": "Via Roma, 15 – 89015 Palmi RC",
+    "lat": 39.437167,
+    "lon": 16.49952
+  },
+  {
+    "indirizzo abitazione": "Via Tonnara, 45 – 89015 Palmi RC",
+    "lat": 39.114018,
+    "lon": 16.169263
+  },
+  {
+    "indirizzo abitazione": "Via San Giuseppe, 67 – 89015 Palmi RC",
+    "lat": 39.120975,
+    "lon": 16.28793
+  },
+  {
+    "indirizzo abitazione": "Via Porto, 15 – 89013 Gioia Tauro RC",
+    "lat": 39.29177,
+    "lon": 16.565562
+  },
+  {
+    "indirizzo abitazione": "Via Piano delle Fosse, 45 – 89013 Gioia Tauro RC",
+    "lat": 39.068245,
+    "lon": 16.089378
+  },
+  {
+    "indirizzo abitazione": "Via Matteotti, 67 – 89013 Gioia Tauro RC",
+    "lat": 39.463406,
+    "lon": 16.410355
+  },
+  {
+    "indirizzo abitazione": "Via Roma, 15 – 89029 Taurianova RC",
+    "lat": 39.275687,
+    "lon": 16.4052
+  },
+  {
+    "indirizzo abitazione": "Via Garibaldi, 45 – 89029 Taurianova RC",
+    "lat": 39.354385,
+    "lon": 16.514944
+  },
+  {
+    "indirizzo abitazione": "Via Kennedy, 67 – 89029 Taurianova RC",
+    "lat": 39.045171,
+    "lon": 16.19028
+  },
+  {
+    "indirizzo abitazione": "Via Roma, 15 – 89025 Rosarno RC",
+    "lat": 39.462106,
+    "lon": 16.134203
+  },
+  {
+    "indirizzo abitazione": "Via Nazionale, 45 – 89025 Rosarno RC",
+    "lat": 39.321885,
+    "lon": 16.244156
+  },
+  {
+    "indirizzo abitazione": "Via Stazione, 67 – 89025 Rosarno RC",
+    "lat": 39.128511,
+    "lon": 16.293876
+  },
+  {
+    "indirizzo abitazione": "Via Roma, 15 – 89047 Roccella Ionica RC",
+    "lat": 39.062092,
+    "lon": 16.224895
+  },
+  {
+    "indirizzo abitazione": "Via Marina, 45 – 89047 Roccella Ionica RC",
+    "lat": 39.363504,
+    "lon": 15.975525
+  },
+  {
+    "indirizzo abitazione": "Via Roma, 15 – 89042 Gioiosa Ionica RC",
+    "lat": 39.458568,
+    "lon": 16.468022
+  },
+  {
+    "indirizzo abitazione": "Via Marina, 45 – 89042 Gioiosa Ionica RC",
+    "lat": 39.447878,
+    "lon": 16.277943
+  },
+  {
+    "indirizzo abitazione": "Via Roma, 15 – 89018 Villa San Giovanni RC",
+    "lat": 37.31282,
+    "lon": 15.03266
+  },
+  {
+    "indirizzo abitazione": "Via Stazione, 45 – 89018 Villa San Giovanni RC",
+    "lat": 37.60542,
+    "lon": 14.812594
+  },
+  {
+    "indirizzo abitazione": "Via Roma, 15 – 89034 Bagnara Calabra RC",
+    "lat": 37.488509,
+    "lon": 15.380512
+  },
+  {
+    "indirizzo abitazione": "Via Marina, 45 – 89034 Bagnara Calabra RC",
+    "lat": 37.631214,
+    "lon": 14.957457
+  },
+  {
+    "indirizzo abitazione": "Via Roma, 12 – 89024 Polistena RC",
+    "lat": 39.358195,
+    "lon": 16.538222
+  },
+  {
+    "indirizzo abitazione": "Via Garibaldi, 34 – 89024 Polistena RC",
+    "lat": 39.11513,
+    "lon": 16.058639
+  },
+  {
+    "indirizzo abitazione": "Via Roma, 12 – 89822 Serra San Bruno VV",
+    "lat": 39.520517,
+    "lon": 16.075155
+  },
+  {
+    "indirizzo abitazione": "Via Certosa, 34 – 89822 Serra San Bruno VV",
+    "lat": 39.520614,
+    "lon": 16.267957
+  },
+  {
+    "indirizzo abitazione": "Via Roma, 12 – 89831 Mileto VV",
+    "lat": 39.382445,
+    "lon": 16.438713
+  },
+  {
+    "indirizzo abitazione": "Via Chiesa Madre, 34 – 89831 Mileto VV",
+    "lat": 39.233737,
+    "lon": 16.564459
+  },
+  {
+    "indirizzo abitazione": "Via Roma, 12 – 88024 Girifalco CZ",
+    "lat": 39.048383,
+    "lon": 16.293087
+  },
+  {
+    "indirizzo abitazione": "Via Spasari, 34 – 88024 Girifalco CZ",
+    "lat": 39.41304,
+    "lon": 16.167863
+  },
+  {
+    "indirizzo abitazione": "Via Roma, 12 – 88064 Chiaravalle Centrale CZ",
+    "lat": 39.048965,
+    "lon": 16.181442
+  },
+  {
+    "indirizzo abitazione": "Via Gramsci, 34 – 88064 Chiaravalle Centrale CZ",
+    "lat": 39.18716,
+    "lon": 16.16999
+  },
+  {
+    "indirizzo abitazione": "Via Roma, 8 – 88040 Tiriolo CZ",
+    "lat": 39.316352,
+    "lon": 16.17351
+  },
+  {
+    "indirizzo abitazione": "Via Umberto I, 25 – 88040 Tiriolo CZ",
+    "lat": 39.522598,
+    "lon": 16.115193
+  },
+  {
+    "indirizzo abitazione": "Via Roma, 8 – 88050 Borgia CZ",
+    "lat": 39.187307,
+    "lon": 16.221363
+  },
+  {
+    "indirizzo abitazione": "Via Luigi Einaudi, 25 – 88050 Borgia CZ",
+    "lat": 39.33095,
+    "lon": 16.07555
+  },
+  {
+    "indirizzo abitazione": "Via Roma, 8 – 88070 Curinga CZ",
+    "lat": 39.114918,
+    "lon": 16.365229
+  },
+  {
+    "indirizzo abitazione": "Via Aldo Moro, 25 – 88070 Curinga CZ",
+    "lat": 39.38979,
+    "lon": 16.156083
+  },
+  {
+    "indirizzo abitazione": "Via Roma, 8 – 89050 Bovalino RC",
+    "lat": 37.379378,
+    "lon": 14.834901
+  },
+  {
+    "indirizzo abitazione": "Via Nazionale, 25 – 89050 Bovalino RC",
+    "lat": 37.463422,
+    "lon": 15.255496
+  },
+  {
+    "indirizzo abitazione": "Via Roma, 8 – 89062 Brancaleone RC",
+    "lat": 37.457066,
+    "lon": 14.892318
+  },
+  {
+    "indirizzo abitazione": "Via Lungomare, 25 – 89062 Brancaleone RC",
+    "lat": 37.623902,
+    "lon": 14.912073
+  },
+  {
+    "indirizzo abitazione": "Via Roma, 8 – 89032 Bianco RC",
+    "lat": 37.63435,
+    "lon": 14.854339
+  },
+  {
+    "indirizzo abitazione": "Via Lungomare, 25 – 89032 Bianco RC",
+    "lat": 37.591964,
+    "lon": 14.801611
+  },
+  {
+    "indirizzo abitazione": "Via Roma, 8 – 89031 Ardore RC",
+    "lat": 37.413668,
+    "lon": 14.990839
+  },
+  {
+    "indirizzo abitazione": "Via Regina Margherita, 25 – 89031 Ardore RC",
+    "lat": 37.46936,
+    "lon": 15.236396
+  },
+  {
+    "indirizzo abitazione": "Via Roma, 8 – 89040 Caulonia RC",
+    "lat": 39.283091,
+    "lon": 16.288341
+  },
+  {
+    "indirizzo abitazione": "Via Nazionale, 25 – 89040 Caulonia RC",
+    "lat": 39.099061,
+    "lon": 16.417067
+  },
+  {
+    "indirizzo abitazione": "Via Roma, 8 – 89049 Stilo RC",
+    "lat": 39.229112,
+    "lon": 16.043227
+  },
+  {
+    "indirizzo abitazione": "Via del Porto, 25 – 89049 Stilo RC",
+    "lat": 39.256363,
+    "lon": 16.069335
+  },
+  {
+    "indirizzo abitazione": "Via Roma, 8 – 89040 Monasterace RC",
+    "lat": 39.158907,
+    "lon": 16.288994
+  },
+  {
+    "indirizzo abitazione": "Via Nazionale, 25 – 89040 Monasterace RC",
+    "lat": 39.099999,
+    "lon": 16.164677
+  },
+  {
+    "indirizzo abitazione": "Via Roma, 8 – 89044 Gerace RC",
+    "lat": 39.522223,
+    "lon": 16.440014
+  },
+  {
+    "indirizzo abitazione": "Via del Castello, 25 – 89044 Gerace RC",
+    "lat": 39.497446,
+    "lon": 16.463668
+  },
+  {
+    "indirizzo abitazione": "Via Roma, 8 – 89040 Scilla RC",
+    "lat": 37.483519,
+    "lon": 15.407778
+  },
+  {
+    "indirizzo abitazione": "Via del Castello, 25 – 89040 Scilla RC",
+    "lat": 37.429571,
+    "lon": 15.347549
+  },
+  {
+    "indirizzo abitazione": "Via Roma, 6 – 89863 Briatico VV",
+    "lat": 39.318303,
+    "lon": 16.243989
+  },
+  {
+    "indirizzo abitazione": "Via Giuseppe Verdi, 20 – 89863 Briatico VV",
+    "lat": 39.353721,
+    "lon": 16.308049
+  },
+  {
+    "indirizzo abitazione": "Via Roma, 6 – 89844 Nicotera VV",
+    "lat": 39.284588,
+    "lon": 16.091713
+  },
+  {
+    "indirizzo abitazione": "Via Francesco Cilea, 20 – 89844 Nicotera VV",
+    "lat": 39.243276,
+    "lon": 16.402075
+  },
+  {
+    "indirizzo abitazione": "Via Roma, 6 – 89868 Zambrone VV",
+    "lat": 39.241655,
+    "lon": 16.390014
+  },
+  {
+    "indirizzo abitazione": "Via Nazionale, 20 – 89868 Zambrone VV",
+    "lat": 39.118163,
+    "lon": 16.173822
+  },
+  {
+    "indirizzo abitazione": "Via Roma, 6 – 89866 Joppolo VV",
+    "lat": 39.534291,
+    "lon": 16.418442
+  },
+  {
+    "indirizzo abitazione": "Via del Mare, 20 – 89866 Joppolo VV",
+    "lat": 39.360894,
+    "lon": 16.563861
+  },
+  {
+    "indirizzo abitazione": "Via Roma, 6 – 89867 Parghelia VV",
+    "lat": 39.336425,
+    "lon": 16.521627
+  },
+  {
+    "indirizzo abitazione": "Via Lungomare, 20 – 89867 Parghelia VV",
+    "lat": 39.209377,
+    "lon": 16.00794
+  },
+  {
+    "indirizzo abitazione": "Via Roma, 6 – 88060 Montepaone CZ",
+    "lat": 39.124668,
+    "lon": 16.198303
+  },
+  {
+    "indirizzo abitazione": "Via del Progresso, 20 – 88060 Montepaone CZ",
+    "lat": 39.530517,
+    "lon": 16.344129
+  },
+  {
+    "indirizzo abitazione": "Via Roma, 6 – 88050 Squillace CZ",
+    "lat": 39.347324,
+    "lon": 16.483756
+  },
+  {
+    "indirizzo abitazione": "Via San Francesco, 20 – 88050 Squillace CZ",
+    "lat": 39.258655,
+    "lon": 16.004837
+  },
+  {
+    "indirizzo abitazione": "Via Roma, 6 – 88063 Davoli CZ",
+    "lat": 39.26032,
+    "lon": 16.194949
+  },
+  {
+    "indirizzo abitazione": "Via Lungomare Europa, 20 – 88063 Davoli CZ",
+    "lat": 39.062566,
+    "lon": 16.335166
+  },
+  {
+    "indirizzo abitazione": "Via Roma, 6 – 88065 Badolato CZ",
+    "lat": 39.424409,
+    "lon": 16.130246
+  },
+  {
+    "indirizzo abitazione": "Via Nazionale, 20 – 88065 Badolato CZ",
+    "lat": 39.515644,
+    "lon": 16.455298
+  },
+  {
+    "indirizzo abitazione": "Via Roma, 6 – 88050 Guardavalle CZ",
+    "lat": 39.551039,
+    "lon": 16.283346
+  },
+  {
+    "indirizzo abitazione": "Via Lungomare, 20 – 88050 Guardavalle CZ",
+    "lat": 39.334,
+    "lon": 16.196689
+  },
+  {
+    "scuola": "Liceo Classico Reggio Via Vollaro, 45 – 89123 Reggio Calabria RC",
+    "lat": 37.653231,
+    "lon": 15.043107
+  },
+  {
+    "scuola": "Liceo Scientifico Catanzaro Via Monte Tiriolo, 67 – 88100 Catanzaro CZ",
+    "lat": 39.345427,
+    "lon": 16.201034
+  },
+  {
+    "scuola": "IIS Lamezia Terme Via del Progresso, 89 – 88046 Lamezia Terme CZ",
+    "lat": 39.515974,
+    "lon": 16.263341
+  },
+  {
+    "scuola": "IIS Vibo Valentia Via Affaccio, 123 – 89900 Vibo Valentia VV",
+    "lat": 39.397188,
+    "lon": 16.466145
+  },
+  {
+    "scuola": "IIS Siderno Via Nazionale, 156 – 89048 Siderno RC",
+    "lat": 39.077281,
+    "lon": 16.309003
+  },
+  {
+    "scuola": "IIS Locri Via Magna Grecia, 78 – 89044 Locri RC",
+    "lat": 39.476632,
+    "lon": 16.069629
+  },
+  {
+    "scuola": "IIS Tropea Via Santa Domenica, 89 – 89861 Tropea VV",
+    "lat": 39.334444,
+    "lon": 16.166954
+  },
+  {
+    "scuola": "IIS Pizzo Via Murat, 123 – 89812 Pizzo VV",
+    "lat": 39.491944,
+    "lon": 16.247066
+  },
+  {
+    "scuola": "IIS Soverato Via Santa Maria, 156 – 88068 Soverato CZ",
+    "lat": 39.09262,
+    "lon": 16.095051
+  },
+  {
+    "scuola": "IIS Palmi Via Roma, 78 – 89015 Palmi RC",
+    "lat": 39.321259,
+    "lon": 16.460896
+  },
+  {
+    "scuola": "IIS Gioia Tauro Via Porto, 89 – 89013 Gioia Tauro RC",
+    "lat": 39.08117,
+    "lon": 16.173656
+  },
+  {
+    "scuola": "IIS Taurianova Via Roma, 123 – 89029 Taurianova RC",
+    "lat": 39.10979,
+    "lon": 16.160092
+  },
+  {
+    "RSA": "RSA Villa Aurora Reggio Via Marina Alta, 67 – 89123 Reggio Calabria RC",
+    "lat": 37.294893,
+    "lon": 15.272237
+  },
+  {
+    "RSA": "RSA San Giuseppe Catanzaro Via Jannoni, 89 – 88100 Catanzaro CZ",
+    "lat": 39.133697,
+    "lon": 16.119727
+  },
+  {
+    "RSA": "RSA Villa Serena Lamezia Via del Progresso, 123 – 88046 Lamezia Terme CZ",
+    "lat": 39.163143,
+    "lon": 16.35557
+  },
+  {
+    "RSA": "RSA Villa Verde Vibo Via Affaccio, 156 – 89900 Vibo Valentia VV",
+    "lat": 39.180344,
+    "lon": 16.556606
+  },
+  {
+    "RSA": "RSA Santa Maria Siderno Via Nazionale, 78 – 89048 Siderno RC",
+    "lat": 39.348887,
+    "lon": 16.558633
+  },
+  {
+    "RSA": "RSA San Francesco Locri Via Magna Grecia, 89 – 89044 Locri RC",
+    "lat": 39.470005,
+    "lon": 16.093216
+  },
+  {
+    "RSA": "RSA Villa Tropea Via Santa Domenica, 123 – 89861 Tropea VV",
+    "lat": 39.314848,
+    "lon": 16.283379
+  },
+  {
+    "RSA": "RSA Villa Pizzo Via Murat, 156 – 89812 Pizzo VV",
+    "lat": 39.293614,
+    "lon": 16.071413
+  },
+  {
+    "RSA": "RSA Soverato Mare Via Santa Maria, 78 – 88068 Soverato CZ",
+    "lat": 39.334891,
+    "lon": 16.164011
+  },
+  {
+    "RSA": "RSA Villa San Giuseppe Palmi Via Roma, 89 – 89015 Palmi RC",
+    "lat": 39.142344,
+    "lon": 16.249841
+  },
+  {
+    "impianto lavorativo": "Porto di Reggio Calabria – 89123 Reggio Calabria RC",
+    "lat": 37.543335,
+    "lon": 15.180486
+  },
+  {
+    "impianto lavorativo": "Aeroporto Lamezia Terme – 88046 Lamezia Terme CZ",
+    "lat": 39.129265,
+    "lon": 16.115723
+  },
+  {
+    "impianto lavorativo": "Porto di Gioia Tauro – 89013 Gioia Tauro RC",
+    "lat": 39.366805,
+    "lon": 16.172993
+  },
+  {
+    "impianto lavorativo": "Zona industriale Catanzaro – 88100 Catanzaro CZ",
+    "lat": 39.373536,
+    "lon": 16.075763
+  },
+  {
+    "impianto lavorativo": "Zona industriale Vibo Marina – 89900 Vibo Valentia VV",
+    "lat": 39.231979,
+    "lon": 16.57594
+  },
+  {
+    "impianto lavorativo": "Università Magna Graecia Catanzaro – 88100 Catanzaro CZ",
+    "lat": 39.073891,
+    "lon": 16.360266
+  },
+  {
+    "impianto lavorativo": "Stazione ferroviaria Lamezia Centrale – 88046 Lamezia Terme CZ",
+    "lat": 39.220949,
+    "lon": 16.215487
+  },
+  {
+    "impianto lavorativo": "Centro commerciale Reggio – 89123 Reggio Calabria RC",
+    "lat": 37.73065,
+    "lon": 14.905531
+  },
+  {
+    "impianto sportivo": "Stadio Granillo Reggio – 89123 Reggio Calabria RC",
+    "lat": 37.468935,
+    "lon": 15.38951
+  },
+  {
+    "impianto sportivo": "Stadio Ceravolo Catanzaro – 88100 Catanzaro CZ",
+    "lat": 39.103679,
+    "lon": 16.068499
+  },
+  {
+    "impianto sportivo": "Centro sportivo Lamezia – 88046 Lamezia Terme CZ",
+    "lat": 39.404642,
+    "lon": 15.983115
+  },
+  {
+    "impianto sportivo": "Centro sportivo Vibo – 89900 Vibo Valentia VV",
+    "lat": 39.344559,
+    "lon": 16.189072
+  },
+  {
+    "impianto sportivo": "Centro sportivo Siderno – 89048 Siderno RC",
+    "lat": 39.231202,
+    "lon": 16.001901
+  },
+  {
+    "impianto sportivo": "Centro sportivo Locri – 89044 Locri RC",
+    "lat": 39.244516,
+    "lon": 16.187754
+  },
+  {
+    "impianto sportivo": "Centro sportivo Tropea – 89861 Tropea VV",
+    "lat": 39.067909,
+    "lon": 16.282726
+  },
+  {
+    "impianto sportivo": "Centro sportivo Soverato – 88068 Soverato CZ",
+    "lat": 39.340147,
+    "lon": 15.978621
+  },
+  {
+    "impianto sportivo": "Centro sportivo Palmi – 89015 Palmi RC",
+    "lat": 39.049823,
+    "lon": 16.215775
+  },
+  {
+    "strada": "A2 Salerno-Reggio Calabria km 420 – 89123 Reggio Calabria RC",
+    "lat": 37.412435,
+    "lon": 14.984486
+  },
+  {
+    "strada": "A2 Salerno-Reggio Calabria km 300 – 88046 Lamezia Terme CZ",
+    "lat": 39.313546,
+    "lon": 16.479611
+  },
+  {
+    "strada": "A2 Salerno-Reggio Calabria km 350 – 89900 Vibo Valentia VV",
+    "lat": 39.135024,
+    "lon": 16.421709
+  },
+  {
+    "strada": "SS 106 Jonica km 50 – 89048 Siderno RC",
+    "lat": 39.517145,
+    "lon": 16.104292
+  },
+  {
+    "strada": "SS 106 Jonica km 30 – 89044 Locri RC",
+    "lat": 39.354744,
+    "lon": 16.346724
+  },
+  {
+    "strada": "SS 18 Tirrena Inferiore km 120 – 89861 Tropea VV",
+    "lat": 39.333341,
+    "lon": 16.231558
+  },
+  {
+    "strada": "SS 18 Tirrena Inferiore km 140 – 89812 Pizzo VV",
+    "lat": 39.224306,
+    "lon": 16.317566
+  },
+  {
+    "strada": "SS 280 dei Due Mari km 35 – 88046 Lamezia Terme CZ",
+    "lat": 39.141963,
+    "lon": 16.298743
+  },
+  {
+    "strada": "SS 182 delle Serre Calabre km 25 – 89822 Serra San Bruno VV",
+    "lat": 39.303746,
+    "lon": 16.384644
+  },
+  {
+    "strada": "SS 110 di Porto Salvo km 15 – 89062 Brancaleone RC",
+    "lat": 37.604063,
+    "lon": 15.380688
+  }
 ]
