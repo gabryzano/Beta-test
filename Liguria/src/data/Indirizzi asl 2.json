@@ -7,7 +7,7 @@
   {"indirizzo abitazione": "Corso Mazzini, 156, 17100 Savona SV", "lat": 44.3034, "lon": 8.4912},
   {"indirizzo abitazione": "Via Montenotte, 78, 17100 Savona SV", "lat": 44.3145, "lon": 8.4678},
   {"indirizzo abitazione": "Via Garibaldi, 234, 17100 Savona SV", "lat": 44.3012, "lon": 8.4934},
-  {"indirizzo abitazione": "Via Astengo, 45, 17100 Savona SV", "lat": 44.3167, "lon": 8.4612},
+  {"indirizzo abitazione": "Via Astengo, 45, 17100 Savona SV", "lat": 44.3074307, "lon": 8.4788083},
   {"indirizzo abitazione": "Corso Ricci, 123, 17100 Savona SV", "lat": 44.2989, "lon": 8.4978},
   {"indirizzo abitazione": "Via Caboto, 67, 17100 Savona SV", "lat": 44.3189, "lon": 8.4587},
   {"indirizzo abitazione": "Via Nizza, 89, 17100 Savona SV", "lat": 44.2967, "lon": 8.5001},
@@ -319,5 +319,5 @@
   {"RSA": "Casa di Cura Villa Mozart, Via Mozart, 17100 Savona SV", "lat": 44.3145, "lon": 8.4712},
   {"RSA": "RSA Beethoven, Via Beethoven, 17100 Savona SV", "lat": 44.3178, "lon": 8.4645},
   { "Pronto Soccorso ": "H Albenga, 17031 Albenga SV", "lat": 44.0543821, "lon": 8.1992844 },
-  { "Pronto Soccorso ": "H Savona, 18100 Savona IM", "lat": 44.3193638, "lon": 8.4911634 }
+  { "Pronto Soccorso ": "H Savona, 18100 Savona SV", "lat": 44.3193638, "lon": 8.4911634 }
 ]
