@@ -14,7 +14,9 @@
     "stroke_unit": true,
     "nch": true,
     "rianimazione": true,
-    "psichiatria": true
+    "psichiatria": true,
+    "lat": 41.269191,
+    "lon": 16.695391
   },
   {
     "ospedale": "H DI VENERE",
@@ -31,7 +33,9 @@
     "stroke_unit": true,
     "nch": false,
     "rianimazione": true,
-    "psichiatria": false
+    "psichiatria": false,
+    "lat": 41.054646,
+    "lon": 16.591489
   },
   {
     "ospedale": "H SAN PAOLO",
@@ -48,7 +52,9 @@
     "stroke_unit": false,
     "nch": false,
     "rianimazione": true,
-    "psichiatria": true
+    "psichiatria": true,
+    "lat": 40.975406,
+    "lon": 16.590466
   },
   {
     "ospedale": "H ALTAMURA",
@@ -65,7 +71,9 @@
     "stroke_unit": true,
     "nch": false,
     "rianimazione": true,
-    "psichiatria": true
+    "psichiatria": true,
+    "lat": 40.898013,
+    "lon": 16.803071
   },
   {
     "ospedale": "H MONOPOLI",
@@ -82,7 +90,9 @@
     "stroke_unit": false,
     "nch": false,
     "rianimazione": false,
-    "psichiatria": false
+    "psichiatria": false,
+    "lat": 41.183105,
+    "lon": 16.668058
   },
   {
     "ospedale": "H GIOVANNI XXIII - BARI",
@@ -99,7 +109,9 @@
     "stroke_unit": false,
     "nch": false,
     "rianimazione": false,
-    "psichiatria": false
+    "psichiatria": false,
+    "lat": 41.073663,
+    "lon": 16.983966
   },
   {
     "ospedale": "H PUTIGNANO",
@@ -116,7 +128,9 @@
     "stroke_unit": false,
     "nch": false,
     "rianimazione": false,
-    "psichiatria": true
+    "psichiatria": true,
+    "lat": 41.244002,
+    "lon": 17.149706
   },
   {
     "ospedale": "H CORATO",
@@ -133,7 +147,9 @@
     "stroke_unit": false,
     "nch": false,
     "rianimazione": false,
-    "psichiatria": false
+    "psichiatria": false,
+    "lat": 41.039883,
+    "lon": 17.065111
   },
   {
     "ospedale": "H MOLFETTA",
@@ -150,7 +166,9 @@
     "stroke_unit": false,
     "nch": false,
     "rianimazione": false,
-    "psichiatria": false
+    "psichiatria": false,
+    "lat": 40.927595,
+    "lon": 16.636016
   },
   {
     "ospedale": "H ACQUAVIVA DELLE FONTI",
@@ -167,7 +185,9 @@
     "stroke_unit": true,
     "nch": false,
     "rianimazione": true,
-    "psichiatria": false
+    "psichiatria": false,
+    "lat": 41.045506,
+    "lon": 16.689246
   },
   {
     "ospedale": "H MATER DEI",
@@ -184,7 +204,9 @@
     "stroke_unit": false,
     "nch": true,
     "rianimazione": true,
-    "psichiatria": false
+    "psichiatria": false,
+    "lat": 41.130183,
+    "lon": 16.811141
   },
   {
     "ospedale": "H BARLETTA",
@@ -201,7 +223,9 @@
     "stroke_unit": true,
     "nch": false,
     "rianimazione": true,
-    "psichiatria": false
+    "psichiatria": false,
+    "lat": 40.893357,
+    "lon": 16.613313
   },
   {
     "ospedale": "H ANDRIA",
@@ -218,7 +242,9 @@
     "stroke_unit": false,
     "nch": false,
     "rianimazione": true,
-    "psichiatria": true
+    "psichiatria": true,
+    "lat": 41.252884,
+    "lon": 16.895106
   },
   {
     "ospedale": "H BISCEGLIE",
@@ -235,7 +261,9 @@
     "stroke_unit": false,
     "nch": false,
     "rianimazione": false,
-    "psichiatria": false
+    "psichiatria": false,
+    "lat": 41.281551,
+    "lon": 17.156977
   },
   {
     "ospedale": "H MEDICOL - CONVERSANO",
@@ -252,7 +280,9 @@
     "stroke_unit": false,
     "nch": false,
     "rianimazione": false,
-    "psichiatria": false
+    "psichiatria": false,
+    "lat": 40.956656,
+    "lon": 16.95563
   },
   {
     "ospedale": "H ANTHEA - BARI",
@@ -269,7 +299,9 @@
     "stroke_unit": false,
     "nch": false,
     "rianimazione": false,
-    "psichiatria": false
+    "psichiatria": false,
+    "lat": 41.112454,
+    "lon": 16.697684
   },
   {
     "ospedale": "H SANTA MARIA - BARI",
@@ -286,6 +318,8 @@
     "stroke_unit": false,
     "nch": false,
     "rianimazione": false,
-    "psichiatria": false
+    "psichiatria": false,
+    "lat": 41.259216,
+    "lon": 16.938405
   }
 ]

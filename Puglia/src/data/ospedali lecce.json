@@ -14,7 +14,9 @@
     "stroke_unit": true,
     "nch": true,
     "rianimazione": true,
-    "psichiatria": true
+    "psichiatria": true,
+    "lat": 41.10296,
+    "lon": 16.704979
   },
   {
     "ospedale": "H GALLIPOLI",
@@ -31,7 +33,9 @@
     "stroke_unit": false,
     "nch": false,
     "rianimazione": true,
-    "psichiatria": false
+    "psichiatria": false,
+    "lat": 40.922694,
+    "lon": 16.773348
   },
   {
     "ospedale": "H SCORRANO",
@@ -48,7 +52,9 @@
     "stroke_unit": false,
     "nch": false,
     "rianimazione": true,
-    "psichiatria": true
+    "psichiatria": true,
+    "lat": 40.925396,
+    "lon": 16.946986
   },
   {
     "ospedale": "H CASARANO",
@@ -65,7 +71,9 @@
     "stroke_unit": false,
     "nch": false,
     "rianimazione": false,
-    "psichiatria": true
+    "psichiatria": true,
+    "lat": 41.293662,
+    "lon": 17.0999
   },
   {
     "ospedale": "H GALATINA",
@@ -82,7 +90,9 @@
     "stroke_unit": false,
     "nch": false,
     "rianimazione": false,
-    "psichiatria": true
+    "psichiatria": true,
+    "lat": 41.317179,
+    "lon": 16.905793
   },
   {
     "ospedale": "H COPERTINO",
@@ -99,7 +109,9 @@
     "stroke_unit": false,
     "nch": false,
     "rianimazione": false,
-    "psichiatria": false
+    "psichiatria": false,
+    "lat": 41.261797,
+    "lon": 16.73622
   },
   {
     "ospedale": "H TRICASE",
@@ -116,7 +128,9 @@
     "stroke_unit": true,
     "nch": false,
     "rianimazione": true,
-    "psichiatria": false
+    "psichiatria": false,
+    "lat": 41.337674,
+    "lon": 16.658606
   },
   {
     "ospedale": "H CITTA DI LECCE",
@@ -133,6 +147,8 @@
     "stroke_unit": false,
     "nch": false,
     "rianimazione": false,
-    "psichiatria": false
+    "psichiatria": false,
+    "lat": 41.160781,
+    "lon": 17.164768
   }
 ]

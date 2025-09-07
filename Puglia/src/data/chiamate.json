@@ -1206,7 +1206,7 @@
     "testo_chiamata": "Pronto, ho trovato una ragazza sdraiata sul marciapiede in (indirizzo abitazione). Non risponde bene quando le parlo, credo sia ubriaca o drogata… non capisco se respira bene. Serve qualcuno subito, per favore!",
 
     "caso_stabile": {
-      "MSB": "Femmina, circa 25 anni, trovata seduta a terra, cosciente ma disorientata, alito etilico, riferisce di aver bevuto molto. PA 115/75 mmHg, FC 92 bpm, SpO₂ 98%, glicemia 287 mg/dl. Nessuna lesione evidente. Rifiuta inizialmente il trasporto, poi persuasa. [PS]",
+      "MSB": "Femmina, circa 25 anni, trovata seduta a terra, cosciente ma disorientata, alito etilico, riferisce di aver bevuto molto. PA 115/75 mmHg, FC 92 bpm, SpO₂ 98%. Nessuna lesione evidente. Rifiuta inizialmente il trasporto, poi persuasa. [PS]",
       "MSA1": "Femmina, 25 anni, abuso etilico, paziente vigile ma rallentata, risponde in modo adeguato, alito fortemente alcolico, GCS 15, PA 115/75 mmHg, FC 92 bpm, SpO₂ 98%, glicemia 287 mg/dl. Nessun trauma apparente. [PS]",
       "MSA2": "Femmina, 25 anni, abuso alcolico, vigile, cooperante, GCS 15, parametri stabili. Nessun segno neurologico acuto, non traumi evidenti, si puo affidare la paziente ad MSB. [PS]"
     },
@@ -1353,13 +1353,13 @@
     "testo_chiamata": "Salve, è da diversi giorni che non mi sento bene. All’inizio era solo stanchezza, ma adesso mi sento sempre più debole e non riesco a stare in piedi a lungo. Non ho dolori forti, ma non è normale. ho chiamato il mio medico ma non mi risponde, posso avere un controllo? L’indirizzo è (indirizzo abitazione).", 
 
     "caso_stabile": {
-      "MSB": "Maschio, 27 anni, lamenta astenia persistente da circa 4 giorni, senza febbre, dolore o altri sintomi associati. Cosciente e orientato, PA 125/80 mmHg, FC 82 bpm, SpO₂ 99%, glicemia 96 mg/dl. Nessun segno obiettivo di rilievo. Valutazione in PS. [PS]", 
+      "MSB": "Maschio, 27 anni, lamenta astenia persistente da circa 4 giorni, senza febbre, dolore o altri sintomi associati. Cosciente e orientato, PA 125/80 mmHg, FC 82 bpm, SpO₂ 99%. Nessun segno obiettivo di rilievo. Valutazione in PS. [PS]", 
       "MSA1": "Maschio, 27 anni, astenia da più giorni, paziente vigile, eupnoico, parametri nella norma. Nessun segno neurologico o infettivo. PA 125/80 mmHg, FC 82 bpm, SpO₂ 99%, glicemia 96 mg/dl. [PS]", 
       "MSA2": "Maschio, 27 anni, lamenta stanchezza importante, no febbre, no dolore, GCS 15. Parametri vitali stabili. Paziente ansioso, teme un peggioramento, non necessaria la presenza di MSA, è possibile affidare ad MSB? [PS]" 
     },
 
     "poco_stabile": {
-      "MSB": "Maschio, 27 anni, febbre da 3 giorni, spossatezza marcata e senso di malessere generalizzato. PA 110/70 mmHg, FC 102 bpm, SpO₂ 97%. GCS 15. Anamnesi muta. [PS]", 
+      "MSB": "Maschio, 27 anni, febbre da 3 giorni, spossatezza marcata e senso di malessere generalizzato. PA 110/70 mmHg, FC 102 bpm, SpO₂ 97%. Anamnesi muta. [PS]", 
       "MSA1": "Maschio, 27 anni, febbrile 38.6°C, malessere generale, astenia e tachicardia, FC 110 bpm, PA 108/68 mmHg, SpO₂ 96%, glicemia 101 mg/dl. [PS]", 
       "MSA2": "Maschio, 27 anni, febbre persistente e malessere importante. GCS 15, PA 108/68 mmHg, FC 110 bpm, SpO₂ 96%. Nessun segno di disidratazione o infezione localizzata. Accesso EV e terapia antipiretica. Non necessaria la presenza di MSA, è possibile affidare ad MSB? [MED]" 
     },
@@ -1374,13 +1374,13 @@
     "testo_chiamata": "Salve, un signore stava camminando per strada e sembra che abbia perso conoscenza, l’hanno accompagnato a terra. È un uomo di circa 70 anni, quando lo chiamiamo emette dei lamenti, sembra che respiri normalmente. Potete mandare qualcuno a controllare? Ci troviamo a (indirizzo abitazione).", 
 
     "caso_stabile": {
-      "MSB": "Maschio, circa 70 anni, episodio pre-lipotimico mentre camminava con vertigini, sudorazione e offuscamento della vista mentre camminava. Al nostro arrivo cosciente (Alert), PA 110/70 mmHg, FC 78 bpm, SpO₂ 98%, glicemia 87 mg/dl. Nessun trauma riferito, eseguito ECG (negativo), Non note patologie. [PS]", 
+      "MSB": "Maschio, circa 70 anni, episodio pre-lipotimico mentre camminava con vertigini, sudorazione e offuscamento della vista mentre camminava. Al nostro arrivo cosciente (Alert), PA 110/70 mmHg, FC 78 bpm, SpO₂ 98%. Nessun trauma riferito Non note patologie. [PS]", 
       "MSA1": "Maschio, 70 anni, riferisce capogiro improvviso con sudorazione e sensazione di svenimento mentre camminava in strada. GCS 15, SpO₂ 98%, FC 78 bpm, PA 110/70 mmHg, glicemia 87 mg/dl. ECG non mostra alterazioni evidenti, non note patologie. [PS]", 
       "MSA2": "Maschio, circa 70 anni, episodio lipotimico mentre camminava risolto spontaneamente, cosciente all’arrivo, parametri stabili, GCS 15. No trauma, ECG non mostra alterazioni evidenti. Si propone affidamento ad MSB. [PS]" 
     },
 
     "poco_stabile": {
-      "MSB": "Maschio, 70 anni, riferisce dolore toracico e debolezza generale dopo breve perdita di coscienza mentre camminava. Paziente Alert, PA 100/65 mmHg, FC 95 bpm, SpO₂ 96%, glicemia 87 mg/dl. Nessun trauma riferito, eseguito ECG (negativo), Non note patologie. [PS]", 
+      "MSB": "Maschio, 70 anni, riferisce dolore toracico e debolezza generale dopo breve perdita di coscienza mentre camminava. Paziente Alert, PA 100/65 mmHg, FC 95 bpm, SpO₂ 96%. Nessun trauma riferito. Non note patologie. [PS]", 
       "MSA1": "Maschio, 70 anni, episodio lipotimico mentre camminava, attualmente lamenta dolore toracico non irradiato, GCS 15, PA 95/60 mmHg, FC 102 bpm, SpO₂ 95%. ECG non mostra alterazioni, non note patologie. [PS]", 
       "MSA2": "Maschio, 70 anni, sincope seguita da dolore toracico aspecifico. GCS 15, PA 95/60 mmHg, FC 102 bpm. ECG non mostra alterazioni, non note patologie. [PS]" 
     },

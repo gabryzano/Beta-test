@@ -14,7 +14,9 @@
     "stroke_unit": true,
     "nch": true,
     "rianimazione": true,
-    "psichiatria": true
+    "psichiatria": true,
+    "lat": 41.257639,
+    "lon": 16.665759
   },
   {
     "ospedale": "H SAN SEVERO",
@@ -31,7 +33,9 @@
     "stroke_unit": false,
     "nch": false,
     "rianimazione": true,
-    "psichiatria": false
+    "psichiatria": false,
+    "lat": 41.061718,
+    "lon": 16.750783
   },
   {
     "ospedale": "H CERIGNOLA",
@@ -48,7 +52,9 @@
     "stroke_unit": false,
     "nch": false,
     "rianimazione": true,
-    "psichiatria": false
+    "psichiatria": false,
+    "lat": 41.14663,
+    "lon": 16.973254
   },
   {
     "ospedale": "H MANFREDONIA",
@@ -65,7 +71,9 @@
     "stroke_unit": false,
     "nch": false,
     "rianimazione": false,
-    "psichiatria": true
+    "psichiatria": true,
+    "lat": 40.895906,
+    "lon": 17.01138
   },
   {
     "ospedale": "H S. GIOVANNI ROTONDO",
@@ -82,6 +90,8 @@
     "stroke_unit": true,
     "nch": false,
     "rianimazione": true,
-    "psichiatria": false
+    "psichiatria": false,
+    "lat": 41.026268,
+    "lon": 17.010266
   }
 ]
