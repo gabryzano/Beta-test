@@ -281,5 +281,6 @@
   {"scuola": "Scuola Primaria Leivi, Via Roma, 16040 Leivi GE", "lat": 44.3234, "lon": 9.3789},
   {"scuola": "Scuola Primaria Borzonasca, Via Roma, 16041 Borzonasca GE", "lat": 44.4123, "lon": 9.2789},
   {"scuola": "Scuola Primaria Santo Stefano d'Aveto, Via Roma, 16040 Santo Stefano d'Aveto GE", "lat": 44.5234, "lon": 9.3456},
-  {"scuola": "Scuola Primaria Rezzoaglio, Via Roma, 16041 Rezzoaglio GE", "lat": 44.4567, "lon": 9.2345}
+  {"scuola": "Scuola Primaria Rezzoaglio, Via Roma, 16041 Rezzoaglio GE", "lat": 44.4567, "lon": 9.2345},
+  { "Pronto Soccorso ": "H Lavagna, 16033 Lavagna GE", "lat": 44.3150931, "lon": 9.3495233 }
 ]

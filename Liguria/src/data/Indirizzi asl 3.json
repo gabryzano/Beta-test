@@ -343,7 +343,7 @@
   {"indirizzo abitazione": "Via Monte Hermada, 234, 16015 Ceranesi GE", "lat": 44.5545, "lon": 8.8023},
   {"indirizzo abitazione": "Via Monte Cosich, 567, 16015 Ceranesi GE", "lat": 44.5013, "lon": 8.8556},
   {"indirizzo abitazione": "Via Monte Tomba, 890, 16015 Ceranesi GE", "lat": 44.5567, "lon": 8.8001},
-  {"indirizzo abitazione": "Via Monte Asolone, 123, 16015 Ceranesi GE", "lat": 44.4991, "lon": 8.8578},
+  {"indirizzo abitazione": "Via Gaiazza, 157, 16014 Gaiazza GE", "lat": 44.5026452, "lon": 8.8747684},
   {"indirizzo abitazione": "Via Monte Pertica, 456, 16015 Ceranesi GE", "lat": 44.5589, "lon": 8.7979},
   {"indirizzo abitazione": "Via Monte Corno, 789, 16015 Ceranesi GE", "lat": 44.4969, "lon": 8.8601},
   {"indirizzo abitazione": "Via del Santuario, 234, 16010 Mele GE", "lat": 44.4634, "lon": 8.7156},
@@ -587,5 +587,8 @@
   {"strada": "Ferrovia Genova-Casella km 24, 16033 Casella GE", "lat": 44.7123, "lon": 8.9234},
   {"strada": "SP226 della Fontanabuona km 12, 16040 Montoggio GE", "lat": 44.5723, "lon": 9.0834},
   {"strada": "SP27 di Fontanigorda km 18, 16040 Fontanigorda GE", "lat": 44.4923, "lon": 9.2234},
-  {"strada": "SP225 della Fontanabuona km 15, 16043 Gattorna GE", "lat": 44.3923, "lon": 9.1734}
+  {"strada": "SP225 della Fontanabuona km 15, 16043 Gattorna GE", "lat": 44.3923, "lon": 9.1734},
+  { "Pronto Soccorso ": "H Evangelico, 16158 Genova GE", "lat": 44.4301304, "lon": 8.7454649 },
+  { "Pronto Soccorso ": "H Villa Scassi, 16149 Genova GE", "lat": 44.41279, "lon": 8.8969744 },
+  { "Pronto Soccorso ": "H Galliera, 16128 Genova GE", "lat": 44.401324, "lon": 8.9405845 }
 ]

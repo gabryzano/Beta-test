@@ -1,526 +1,2497 @@
 [
-  { "indirizzo abitazione": "Via Enrico De Nicola, 10 – 03043 Cassino FR", "lat": 41.48892, "lon": 13.83121 },
-  { "indirizzo abitazione": "Via Guglielmo Marconi, 65 – 03043 Cassino FR", "lat": 41.48653, "lon": 13.83712 },
-  { "indirizzo abitazione": "Via Napoli, 88 – 03039 Sora FR", "lat": 41.71234, "lon": 13.61620 },
-  { "indirizzo abitazione": "Viale San Domenico, 55 – 03039 Sora FR", "lat": 41.71593, "lon": 13.61570 },
-  { "indirizzo abitazione": "Via Madonna della Pace, 18 – 03023 Ceccano FR", "lat": 41.56532, "lon": 13.33540 },
-  { "indirizzo abitazione": "Via Boschetto, 7 – 03023 Ceccano FR", "lat": 41.56303, "lon": 13.33575 },
-  { "indirizzo abitazione": "Via Circonvallazione, 3 – 03011 Alatri FR", "lat": 41.72954, "lon": 13.34212 },
-  { "indirizzo abitazione": "Via G. Matteotti, 24 – 03011 Alatri FR", "lat": 41.72823, "lon": 13.34274 },
-  { "indirizzo abitazione": "Via Vittorio Emanuele, 40 – 03012 Anagni FR", "lat": 41.74976, "lon": 13.15609 },
-  { "indirizzo abitazione": "Via Circonvallazione Nord, 22 – 03012 Anagni FR", "lat": 41.75307, "lon": 13.15889 },
-  { "indirizzo abitazione": "Via Stazione, 28 – 03013 Ferentino FR", "lat": 41.69154, "lon": 13.25190 },
-  { "indirizzo abitazione": "Via Consolare, 12 – 03013 Ferentino FR", "lat": 41.69410, "lon": 13.25127 },
-  { "indirizzo abitazione": "Via dei Villini, 89 – 03014 Fiuggi FR", "lat": 41.79205, "lon": 13.22664 },
-  { "indirizzo abitazione": "Via Armando Diaz, 8 – 03014 Fiuggi FR", "lat": 41.79296, "lon": 13.22893 },
-  { "indirizzo abitazione": "Via Passeggiata San Giuseppe, 2 – 03029 Veroli FR", "lat": 41.69220, "lon": 13.41371 },
-  { "indirizzo abitazione": "Piazza Santa Salome, 5 – 03029 Veroli FR", "lat": 41.68957, "lon": 13.41166 },
-  { "indirizzo abitazione": "Via La Libera, 15 – 03037 Pontecorvo FR", "lat": 41.45476, "lon": 13.66310 },
-  { "indirizzo abitazione": "Via San Giovanni Battista, 10 – 03037 Pontecorvo FR", "lat": 41.45982, "lon": 13.66596 },
-  { "indirizzo abitazione": "Via Roma, 2 – 03040 San Giorgio a Liri FR", "lat": 41.42293, "lon": 13.82392 },
-  { "indirizzo abitazione": "Via Aldo Moro, 31 – 03036 Isola del Liri FR", "lat": 41.68734, "lon": 13.60347 },
-  { "indirizzo abitazione": "Via Aldo Moro, 135 – 03100 Frosinone FR", "lat": 41.63421, "lon": 13.34381 },
-  { "indirizzo abitazione": "Via America Latina, 81 – 03100 Frosinone FR", "lat": 41.63870, "lon": 13.33905 },
-  { "indirizzo abitazione": "Via Francesco Veccia, 2 – 03100 Frosinone FR", "lat": 41.63954, "lon": 13.34510 },
-  { "indirizzo abitazione": "Via Maria, 27 – 03100 Frosinone FR", "lat": 41.63680, "lon": 13.35366 },
-  { "indirizzo abitazione": "Piazza VI Dicembre, 3 – 03100 Frosinone FR", "lat": 41.63902, "lon": 13.34588 },
-  { "indirizzo abitazione": "Via Ezio, 12 – 04100 Latina LT", "lat": 41.46495, "lon": 12.90271 },
-  { "indirizzo abitazione": "Via Isonzo, 194 – 04100 Latina LT", "lat": 41.46641, "lon": 12.92361 },
-  { "indirizzo abitazione": "Viale XXI Aprile, 36 – 04100 Latina LT", "lat": 41.46311, "lon": 12.90389 },
-  { "indirizzo abitazione": "Via Filippo Corridoni, 30 – 04100 Latina LT", "lat": 41.46710, "lon": 12.89834 },
-  { "indirizzo abitazione": "Via Emanuele Filiberto, 2 – 04100 Latina LT", "lat": 41.46883, "lon": 12.90010 },
-  { "indirizzo abitazione": "Via Giustiniano, 45 – 04011 Aprilia LT", "lat": 41.59128, "lon": 12.65440 },
-  { "indirizzo abitazione": "Via Aldo Moro, 97 – 04011 Aprilia LT", "lat": 41.58977, "lon": 12.65108 },
-  { "indirizzo abitazione": "Via Roma, 188 – 04022 Fondi LT", "lat": 41.35603, "lon": 13.42470 },
-  { "indirizzo abitazione": "Via Arnale Rosso, 30 – 04022 Fondi LT", "lat": 41.35965, "lon": 13.41685 },
-  { "indirizzo abitazione": "Viale della Vittoria, 141 – 04019 Terracina LT", "lat": 41.29239, "lon": 13.24880 },
-  { "indirizzo abitazione": "Via Badino, 94 – 04019 Terracina LT", "lat": 41.29133, "lon": 13.25417 },
-  { "indirizzo abitazione": "Via Vitruvio, 88 – 04023 Formia LT", "lat": 41.25612, "lon": 13.60953 },
-  { "indirizzo abitazione": "Via Appia Lato Napoli, 130 – 04023 Formia LT", "lat": 41.2615501, "lon": 13.6268271 },
-  { "indirizzo abitazione": "Via Variante, 24 – 04012 Cisterna di Latina LT", "lat": 41.58920, "lon": 12.83177 },
-  { "indirizzo abitazione": "Via Appia Nord, 105 – 04012 Cisterna di Latina LT", "lat": 41.58901, "lon": 12.83562 },
-  { "indirizzo abitazione": "Via dei Cappuccini, 10 – 04018 Sezze LT", "lat": 41.50061, "lon": 13.06818 },
-  { "indirizzo abitazione": "Via Variante del Tempio, 1 – 04018 Sezze LT", "lat": 41.49917, "lon": 13.06711 },
-  { "indirizzo abitazione": "Via Monte Circeo, 3 – 04017 San Felice Circeo LT", "lat": 41.23523, "lon": 13.09656 },
-  { "indirizzo abitazione": "Via della Vittoria, 6 – 04016 Sabaudia LT", "lat": 41.29854, "lon": 13.02184 },
-  { "indirizzo abitazione": "Via Enrico Toti, 8 – 04010 Cori LT", "lat": 41.64694, "lon": 12.91193 },
-  { "indirizzo abitazione": "Via Diaz, 15 – 04013 Sermoneta LT", "lat": 41.55636, "lon": 12.97609 },
-  { "indirizzo abitazione": "Via del Popolo, 4 – 04020 Itri LT", "lat": 41.28841, "lon": 13.52864 },
-  { "indirizzo abitazione": "Via Appia Km 134,7 – 04028 Minturno LT", "lat": 41.25867, "lon": 13.75466 },
-  { "indirizzo abitazione": "Via Guglielmo Marconi, 9 – 04026 Lenola LT", "lat": 41.37262, "lon": 13.42825 },
-  { "indirizzo abitazione": "Via Roma, 11 – 04010 Norma LT", "lat": 41.58038, "lon": 12.97113 },
-  { "indirizzo abitazione": "Via Don Morosini, 102 – 04100 Latina LT", "lat": 41.46890, "lon": 12.90150 },
-  { "indirizzo abitazione": "Via dell'Industria, 11 – 04100 Latina LT", "lat": 41.47080, "lon": 12.89530 },
-  { "indirizzo abitazione": "Via Lazio, 56 – 04022 Fondi LT", "lat": 41.35610, "lon": 13.42820 },
-  { "indirizzo abitazione": "Via Cavour, 31 – 04019 Terracina LT", "lat": 41.28900, "lon": 13.24880 },
-  { "indirizzo abitazione": "Via Roma, 105 – 04011 Aprilia LT", "lat": 41.59410, "lon": 12.65130 },
-  { "indirizzo abitazione": "Via Garibaldi, 7 – 04016 Sabaudia LT", "lat": 41.29770, "lon": 13.03156 },
-  { "indirizzo abitazione": "Via dei Volsci, 44 – 04012 Cisterna di Latina LT", "lat": 41.58430, "lon": 12.83240 },
-  { "indirizzo abitazione": "Via Flacca, 180 – 04029 Sperlonga LT", "lat": 41.25890, "lon": 13.43810 },
-  { "indirizzo abitazione": "Via Appia, 112 – 04024 Gaeta LT", "lat": 41.21200, "lon": 13.57340 },
-  { "indirizzo abitazione": "Via Appia Nord, 35 – 04023 Formia LT", "lat": 41.25640, "lon": 13.60890 },
-  { "indirizzo abitazione": "Via Casilina Nord, 98 – 03100 Frosinone FR", "lat": 41.65480, "lon": 13.33190 },
-  { "indirizzo abitazione": "Via Marco Tullio Cicerone, 156 – 03100 Frosinone FR", "lat": 41.64810, "lon": 13.33520 },
-  { "indirizzo abitazione": "Via Madonna della Neve, 41 – 03100 Frosinone FR", "lat": 41.64150, "lon": 13.33980 },
-  { "indirizzo abitazione": "Via Roma, 102 – 03043 Cassino FR", "lat": 41.49230, "lon": 13.83100 },
-  { "indirizzo abitazione": "Via Colle Tasso, 12 – 03029 Veroli FR", "lat": 41.69480, "lon": 13.41340 },
-  { "indirizzo abitazione": "Via Stazione, 14 – 03036 Isola del Liri FR", "lat": 41.68620, "lon": 13.56750 },
-  { "indirizzo abitazione": "Via Garibaldi, 48 – 03023 Ceccano FR", "lat": 41.56970, "lon": 13.33370 },
-  { "indirizzo abitazione": "Via Madonna della Pace, 3 – 03044 Cervaro FR", "lat": 41.47210, "lon": 13.86190 },
-  { "indirizzo abitazione": "Via del Lago, 5 – 03010 Posta Fibreno FR", "lat": 41.69800, "lon": 13.66130 },
-  { "indirizzo abitazione": "Via della Vittoria, 20 – 03011 Alatri FR", "lat": 41.73140, "lon": 13.34260 },
-  { "indirizzo abitazione": "Via Corridoio, 4 – 04027 Ponza LT", "lat": 40.89450, "lon": 12.95840 },
-  { "indirizzo abitazione": "Via Dietro la Chiesa, 12 – 04027 Ponza LT", "lat": 40.89490, "lon": 12.96020 },
-  { "indirizzo abitazione": "Piazza Castello, 1 – 04020 Ventotene LT", "lat": 40.79950, "lon": 13.43230 },
-  { "indirizzo abitazione": "Via del Mare, 222 – 04010 San Felice Circeo LT", "lat": 41.24790, "lon": 13.09060 },
-  { "indirizzo abitazione": "Via Regina Elena, 54 – 04010 Sabaudia LT", "lat": 41.29980, "lon": 13.02570 },
-  { "indirizzo abitazione": "Via Monti Lepini, 33 – 04012 Cisterna di Latina LT", "lat": 41.57420, "lon": 12.83460 },
-  { "indirizzo abitazione": "Via Guglielmo Marconi, 48 – 04014 Pontinia LT", "lat": 41.46840, "lon": 12.99150 },
-  { "indirizzo abitazione": "Via Madonna delle Grazie, 14 – 04017 San Felice Circeo LT", "lat": 41.24150, "lon": 13.08690 },
-  { "indirizzo abitazione": "Corso Appio Claudio, 12 – 04011 Aprilia LT", "lat": 41.59820, "lon": 12.64980 },
-  { "indirizzo abitazione": "Via Aldo Moro, 23 – 04026 Minturno LT", "lat": 41.26670, "lon": 13.75020 },
-  { "indirizzo abitazione": "Via del Lido, 190 – 04100 Latina LT", "lat": 41.44220, "lon": 12.87490 },
-  { "indirizzo abitazione": "Via per Fiuggi, 8 – 03011 Alatri FR", "lat": 41.72940, "lon": 13.34680 },
-  { "indirizzo abitazione": "Via della Repubblica, 76 – 03014 Fiuggi FR", "lat": 41.78970, "lon": 13.22090 },
-  { "indirizzo abitazione": "Via Mazzini, 13 – 03020 Ferentino FR", "lat": 41.69490, "lon": 13.25040 },
-  { "indirizzo abitazione": "Via Colle Rosso, 5 – 03010 Boville Ernica FR", "lat": 41.67520, "lon": 13.41110 },
-  { "indirizzo abitazione": "Via Casilina, 99 – 03038 Roccasecca FR", "lat": 41.55010, "lon": 13.68790 },
-  { "indirizzo abitazione": "Via Roma, 57 – 03030 Arpino FR", "lat": 41.64840, "lon": 13.60900 },
-  { "indirizzo abitazione": "Via Vicinale San Paolo, 22 – 03030 Fontana Liri FR", "lat": 41.60980, "lon": 13.60350 },
-  { "indirizzo abitazione": "Via Roma, 45 – 04015 Priverno LT", "lat": 41.46892, "lon": 13.17542 },
-  { "indirizzo abitazione": "Via Nazionale, 78 – 04015 Priverno LT", "lat": 41.46734, "lon": 13.17698 },
-  { "indirizzo abitazione": "Via dei Monti Lepini, 12 – 04015 Priverno LT", "lat": 41.46958, "lon": 13.17421 },
-  { "indirizzo abitazione": "Via Giuseppe Garibaldi, 33 – 04021 Roccagorga LT", "lat": 41.53120, "lon": 13.14657 },
-  { "indirizzo abitazione": "Via del Castello, 8 – 04021 Roccagorga LT", "lat": 41.53076, "lon": 13.14583 },
-  { "indirizzo abitazione": "Via Umberto I, 15 – 04025 Maenza LT", "lat": 41.51234, "lon": 13.04892 },
-  { "indirizzo abitazione": "Via del Centro, 22 – 04025 Maenza LT", "lat": 41.51267, "lon": 13.04957 },
-  { "indirizzo abitazione": "Via San Nicola, 9 – 04030 Bassiano LT", "lat": 41.54789, "lon": 12.96445 },
-  { "indirizzo abitazione": "Via del Borgo, 4 – 04030 Bassiano LT", "lat": 41.54821, "lon": 12.96378 },
-  { "indirizzo abitazione": "Via del Lido, 350 – 04100 Latina LT", "lat": 41.44156, "lon": 12.87623 },
-  { "indirizzo abitazione": "Via Aspromonte, 88 – 04100 Latina LT", "lat": 41.47234, "lon": 12.89745 },
-  { "indirizzo abitazione": "Viale Kennedy, 145 – 04100 Latina LT", "lat": 41.45892, "lon": 12.88456 },
-  { "indirizzo abitazione": "Via del Mare, 67 – 04100 Latina LT", "lat": 41.46789, "lon": 12.90234 },
-  { "indirizzo abitazione": "Via Dei Cappuccini, 34 – 04100 Latina LT", "lat": 41.46456, "lon": 12.89567 },
-  { "indirizzo abitazione": "Via Piave, 102 – 04100 Latina LT", "lat": 41.46734, "lon": 12.91123 },
-  { "indirizzo abitazione": "Via della Costituzione, 55 – 04011 Aprilia LT", "lat": 41.59234, "lon": 12.65678 },
-  { "indirizzo abitazione": "Via Europa, 88 – 04011 Aprilia LT", "lat": 41.58789, "lon": 12.64923 },
-  { "indirizzo abitazione": "Via Carroceto, 23 – 04011 Aprilia LT", "lat": 41.59567, "lon": 12.65234 },
-  { "indirizzo abitazione": "Via dei Mille, 67 – 04011 Aprilia LT", "lat": 41.58934, "lon": 12.65456 },
-  { "indirizzo abitazione": "Via Pontina Vecchia, 134 – 04011 Aprilia LT", "lat": 41.59345, "lon": 12.64789 },
-  { "indirizzo abitazione": "Via Roma, 88 – 04012 Cisterna di Latina LT", "lat": 41.58567, "lon": 12.83345 },
-  { "indirizzo abitazione": "Via Colleferro, 45 – 04012 Cisterna di Latina LT", "lat": 41.58234, "lon": 12.83678 },
-  { "indirizzo abitazione": "Via dei Cappuccini, 12 – 04012 Cisterna di Latina LT", "lat": 41.58789, "lon": 12.83123 },
-  { "indirizzo abitazione": "Via Casilina, 234 – 04012 Cisterna di Latina LT", "lat": 41.58456, "lon": 12.83567 },
-  { "indirizzo abitazione": "Via Unità d'Italia, 78 – 04023 Formia LT", "lat": 41.25567, "lon": 13.61234 },
-  { "indirizzo abitazione": "Via Tullio Cicerone, 45 – 04023 Formia LT", "lat": 41.25789, "lon": 13.60567 },
-  { "indirizzo abitazione": "Via del Porto, 23 – 04023 Formia LT", "lat": 41.25234, "lon": 13.61789 },
-  { "indirizzo abitazione": "Via Vindicio, 88 – 04023 Formia LT", "lat": 41.25678, "lon": 13.60923 },
-  { "indirizzo abitazione": "Via del Tempio di Giove, 15 – 04019 Terracina LT", "lat": 41.29456, "lon": 13.24567 },
-  { "indirizzo abitazione": "Via Porto Salvo, 67 – 04019 Terracina LT", "lat": 41.28789, "lon": 13.25234 },
-  { "indirizzo abitazione": "Via Anxur, 34 – 04019 Terracina LT", "lat": 41.29234, "lon": 13.24789 },
-  { "indirizzo abitazione": "Via Madonna del Cielo, 22 – 04022 Fondi LT", "lat": 41.35789, "lon": 13.42234 },
-  { "indirizzo abitazione": "Via San Magno, 45 – 04022 Fondi LT", "lat": 41.35456, "lon": 13.42567 },
-  { "indirizzo abitazione": "Via del Lago, 78 – 04022 Fondi LT", "lat": 41.35234, "lon": 13.42789 },
-  { "indirizzo abitazione": "Via Roma, 25 – 03010 Acuto FR", "lat": 41.79234, "lon": 13.15678 },
-  { "indirizzo abitazione": "Via del Castello, 8 – 03010 Acuto FR", "lat": 41.79178, "lon": 13.15734 },
-  { "indirizzo abitazione": "Via della Certosa, 12 – 03015 Collepardo FR", "lat": 41.69567, "lon": 13.39234 },
-  { "indirizzo abitazione": "Via Trisulti, 5 – 03015 Collepardo FR", "lat": 41.69623, "lon": 13.39178 },
-  { "indirizzo abitazione": "Via Monte Scalambra, 18 – 03017 Guarcino FR", "lat": 41.78234, "lon": 13.28567 },
-  { "indirizzo abitazione": "Via del Centro, 7 – 03017 Guarcino FR", "lat": 41.78189, "lon": 13.28623 },
-  { "indirizzo abitazione": "Via Roma, 33 – 03019 Supino FR", "lat": 41.59789, "lon": 13.15234 },
-  { "indirizzo abitazione": "Via Nazionale, 15 – 03019 Supino FR", "lat": 41.59834, "lon": 13.15289 },
-  { "indirizzo abitazione": "Via Valle del Sacco, 22 – 03021 Sgurgola FR", "lat": 41.68234, "lon": 13.18567 },
-  { "indirizzo abitazione": "Via del Municipio, 9 – 03021 Sgurgola FR", "lat": 41.68189, "lon": 13.18623 },
-  { "indirizzo abitazione": "Via della Stazione, 45 – 03024 Ceprano FR", "lat": 41.53567, "lon": 13.50234 },
-  { "indirizzo abitazione": "Via Roma, 88 – 03024 Ceprano FR", "lat": 41.53623, "lon": 13.50178 },
-  { "indirizzo abitazione": "Via della Ferrovia, 12 – 03024 Ceprano FR", "lat": 41.53512, "lon": 13.50289 },
-  { "indirizzo abitazione": "Via del Liri, 23 – 03025 Falvaterra FR", "lat": 41.54234, "lon": 13.68567 },
-  { "indirizzo abitazione": "Via Nazionale, 8 – 03025 Falvaterra FR", "lat": 41.54189, "lon": 13.68623 },
-  { "indirizzo abitazione": "Via Roma, 67 – 03026 Monte San Giovanni Campano FR", "lat": 41.63789, "lon": 13.52234 },
-  { "indirizzo abitazione": "Via del Castello, 15 – 03026 Monte San Giovanni Campano FR", "lat": 41.63834, "lon": 13.52178 },
-  { "indirizzo abitazione": "Via San Giovanni, 34 – 03026 Monte San Giovanni Campano FR", "lat": 41.63734, "lon": 13.52289 },
-  { "indirizzo abitazione": "Via del Centro, 11 – 03027 Ripi FR", "lat": 41.62234, "lon": 13.46567 },
-  { "indirizzo abitazione": "Via Roma, 28 – 03027 Ripi FR", "lat": 41.62189, "lon": 13.46623 },
-  { "indirizzo abitazione": "Via Valle di Comino, 9 – 03028 Santopadre FR", "lat": 41.61567, "lon": 13.74234 },
-  { "indirizzo abitazione": "Via del Paese, 5 – 03028 Santopadre FR", "lat": 41.61623, "lon": 13.74178 },
-  { "indirizzo abitazione": "Via Roma, 78 – 03031 Arce FR", "lat": 41.64234, "lon": 13.55567 },
-  { "indirizzo abitazione": "Via della Stazione, 23 – 03031 Arce FR", "lat": 41.64189, "lon": 13.55623 },
-  { "indirizzo abitazione": "Via Valle del Liri, 45 – 03031 Arce FR", "lat": 41.64289, "lon": 13.55512 },
-  { "indirizzo abitazione": "Via del Castello, 12 – 03032 Belmonte Castello FR", "lat": 41.66567, "lon": 13.71234 },
-  { "indirizzo abitazione": "Via del Centro, 6 – 03032 Belmonte Castello FR", "lat": 41.66623, "lon": 13.71178 },
-  { "indirizzo abitazione": "Via degli Appennini, 18 – 03033 Campoli Appennino FR", "lat": 41.76234, "lon": 13.65567 },
-  { "indirizzo abitazione": "Via Monte Meta, 7 – 03033 Campoli Appennino FR", "lat": 41.76189, "lon": 13.65623 },
-  { "indirizzo abitazione": "Via del Paese, 15 – 03034 Casalattico FR", "lat": 41.64567, "lon": 13.79234 },
-  { "indirizzo abitazione": "Via Roma, 4 – 03034 Casalattico FR", "lat": 41.64623, "lon": 13.79178 },
-  { "indirizzo abitazione": "Via Valle di Comino, 22 – 03035 Casalvieri FR", "lat": 41.67234, "lon": 13.76567 },
-  { "indirizzo abitazione": "Via del Centro, 9 – 03035 Casalvieri FR", "lat": 41.67189, "lon": 13.76623 },
-  { "scuola": "IIS Priverno Via Roma - 04015 Priverno LT", "lat": 41.46734, "lon": 13.17698 },
-  { "scuola": "IIS Terracina Via del Porto - 04019 Terracina LT", "lat": 41.29239, "lon": 13.24880 },
-  { "scuola": "IIS Gaeta Via Appia - 04024 Gaeta LT", "lat": 41.21156, "lon": 13.57234 },
-  { "scuola": "IIS Ceprano Via della Stazione - 03024 Ceprano FR", "lat": 41.53567, "lon": 13.50234 },
-  { "scuola": "IIS Arce Via Roma - 03031 Arce FR", "lat": 41.64234, "lon": 13.55567 },
-  { "RSA": "RSA Priverno Via Nazionale - 04015 Priverno LT", "lat": 41.46958, "lon": 13.17421 },
-  { "RSA": "RSA Terracina Via Anxur - 04019 Terracina LT", "lat": 41.29234, "lon": 13.24789 },
-  { "RSA": "RSA Gaeta Via del Porto - 04024 Gaeta LT", "lat": 41.21234, "lon": 13.57456 },
-  { "RSA": "RSA Ceprano Via Roma - 03024 Ceprano FR", "lat": 41.53623, "lon": 13.50178 },
-  { "impianto lavorativo": "Zona industriale Priverno - 04015 Priverno LT", "lat": 41.46456, "lon": 13.17890 },
-  { "impianto lavorativo": "Porto di Gaeta - 04024 Gaeta LT", "lat": 41.21067, "lon": 13.57123 },
-  { "impianto lavorativo": "Zona industriale Ceprano - 03024 Ceprano FR", "lat": 41.53345, "lon": 13.50456 },
-  { "impianto lavorativo": "Stabilimento Arce - 03031 Arce FR", "lat": 41.64123, "lon": 13.55789 },
-  { "impianto sportivo": "Centro sportivo Priverno - 04015 Priverno LT", "lat": 41.46567, "lon": 13.17234 },
-  { "impianto sportivo": "Centro sportivo Terracina Via Anxur - 04019 Terracina LT", "lat": 41.29123, "lon": 13.24456 },
-  { "impianto sportivo": "Centro sportivo Gaeta - 04024 Gaeta LT", "lat": 41.21345, "lon": 13.57678 },
-  { "impianto sportivo": "Centro sportivo Ceprano - 03024 Ceprano FR", "lat": 41.53456, "lon": 13.50789 },
-  { "impianto sportivo": "Centro sportivo Arce - 03031 Arce FR", "lat": 41.64345, "lon": 13.55456 },
-  { "strada": "SS 156 dei Monti Lepini km 25 - 04015 Priverno LT", "lat": 41.46234, "lon": 13.17567 },
-  { "strada": "SS 213 Flacca km 15 - 04024 Gaeta LT", "lat": 41.21456, "lon": 13.57234 },
-  { "strada": "SS 627 della Vandra km 8 - 03024 Ceprano FR", "lat": 41.53234, "lon": 13.50567 },
-  { "strada": "A1 MI-NA km 650 - 03031 Arce FR", "lat": 41.64456, "lon": 13.55234 },
-  { "strada": "SS 82 della Valledel Liri km 12 - 03026 Monte San Giovanni Campano FR", "lat": 41.63567, "lon": 13.52456 },
-  { "strada": "SS 155 di Fiuggi km 18 - 03017 Guarcino FR", "lat": 41.78456, "lon": 13.28234 },
-  { "Pronto Soccorso ": "H Terracina, 04019 - Terracina LT", "lat": 41.2988862, "lon": 13.2325134 },
-  { "Pronto Soccorso ": "H Fondi, 04022 - Fondi LT", "lat": 41.36136, "lon": 13.4154524 },
-  { "Pronto Soccorso ": "H Cassino, 03043 - Cassino FR", "lat": 41.5054382, "lon": 13.8432898 },
-  { "Pronto Soccorso ": "H Sora, 03039 - Sora FR", "lat": 41.7300072, "lon": 13.6369692 },
-  { "Pronto Soccorso ": "H Alatri, 03011 - Alatri FR", "lat": 41.7372112, "lon": 13.3347308 },
-  { "Pronto Soccorso ": "H Aprilia, 04011 - Aprilia LT", "lat": 41.59820, "lon": 12.64980 },
-  { "Pronto Soccorso ": "H Formia, 04023 - Formia LT", "lat": 41.2616312, "lon": 13.618017 },
-  { "scuola":  "IIS Aprilia Via Ottorino Respighi - 04011 Aprilia LT","lat": 41.5910209, "lon": 12.6629517 },
-  { "scuola":  "IIS Latina Via Reno - 04100 Latina LT","lat": 41.4754306, "lon": 12.8870618},
-  { "scuola":  "IIS Frosinone Viale Roma, 69 - 03100 Frosinone FR","lat": 41.6452318, "lon": 13.352161},
-  { "scuola":  "IIS Cassino Via Sant'Angelo - 03043 Cassino FR","lat": 41.4683778, "lon": 13.8337142},
-  { "RSA": "RSA Aprilia Viale Italia, 1 - 04011 Aprilia LT","lat": 41.5760647, "lon": 12.6645442 },
-  { "RSA": "RSA Latina Via Franco Faggiana, 1668 - 04100 Latina LT","lat": 41.439033, "lon": 12.9007126 },
-  { "RSA": "RSA Frosinone Via Casilina - 03013 Ferentino FR","lat": 41.6757665, "lon": 13.2877838 },
-  { "RSA": "RSA Cassino Corso della Repubblica, 232 - 03043 Cassino FR","lat": 41.4900822, "lon": 13.836319 },
-  { "impianto lavorativo": "Piazza Sada Pietro, 13, 04011 Aprilia LT","lat": 41.5934229, "lon": 12.6407444 },
-  { "impianto lavorativo": "Viale John Fitzgerald Kennedy, 68 - 04100 Latina LT","lat": 41.4584812, "lon": 12.8802622 },
-  { "impianto lavorativo": "Via Morolense Km 10 - 03010 Patrica FR","lat": 41.6213088, "lon": 13.2662525},
-  { "impianto lavorativo": "FCA SP276 - 03030 Piedimonte San Germano FR","lat": 41.4752752, "lon": 13.7563009 },
-  { "impianto sportivo": "Centro sportivo Latina Via Sandro Botticelli - 04100 Latina LT " ,"lat": 41.460153, "lon": 12.9130454 },
-  { "impianto sportivo": "Centro sportivo Cisterna Via Lombardia, 1 - 04012 Cisterna di Latina LT" ,"lat": 41.5853827, "lon": 12.8277506 },
-  { "impianto sportivo": "Centro sportivo Frosinone Via Giovan Battista Grappelli - 03100 Frosinone FR" ,"lat": 41.6344054, "lon": 13.3361716 },
-  { "impianto sportivo": "Centro sportivo Cassino Strada Provinciale 81 - 03043 Cassino FR" ,"lat":41.4853327 , "lon": 13.8445681 },
-  { "strada": "SS 148 km 40 - SS148, 04011 Aprilia LT " ,"lat": 41.6115519, "lon": 12.5992055},
-  { "strada": "SS7 - 04014 Pontinia LT " ,"lat": 41.3933737 , "lon": 13.0918873 },
-  { "strada": "A1 MI-NA km 580- 03013 Ferentino FR" ,"lat": 41.6698789 , "lon": 13.2125668},
-  { "strada": "A1 MI-NA km 639 - 03038 Roccasecca FR " ,"lat": 41.5170262, "lon": 13.6372034},
-  { "indirizzo abitazione": "Via dei Tigli, 45 – 04100 Latina LT", "lat": 41.46789, "lon": 12.90567 },
-  { "indirizzo abitazione": "Via Tasso, 22 – 04100 Latina LT", "lat": 41.46234, "lon": 12.89890 },
-  { "indirizzo abitazione": "Via Petrarca, 67 – 04100 Latina LT", "lat": 41.46956, "lon": 12.91234 },
-  { "indirizzo abitazione": "Via Leopardi, 15 – 04100 Latina LT", "lat": 41.46445, "lon": 12.90678 },
-  { "indirizzo abitazione": "Via Manzoni, 89 – 04100 Latina LT", "lat": 41.47123, "lon": 12.90345 },
-  { "indirizzo abitazione": "Via Foscolo, 33 – 04100 Latina LT", "lat": 41.46678, "lon": 12.91567 },
-  { "indirizzo abitazione": "Via Carducci, 76 – 04100 Latina LT", "lat": 41.46890, "lon": 12.90789 },
-  { "indirizzo abitazione": "Via Verdi, 54 – 04100 Latina LT", "lat": 41.46567, "lon": 12.91123 },
-  { "indirizzo abitazione": "Via Rossini, 21 – 04100 Latina LT", "lat": 41.47045, "lon": 12.90456 },
-  { "indirizzo abitazione": "Via Puccini, 98 – 04100 Latina LT", "lat": 41.46734, "lon": 12.91890 },
-  { "indirizzo abitazione": "Via Bellini, 12 – 04100 Latina LT", "lat": 41.46456, "lon": 12.90234 },
-  { "indirizzo abitazione": "Via Donizetti, 65 – 04100 Latina LT", "lat": 41.47234, "lon": 12.90567 },
-  { "indirizzo abitazione": "Via Mascagni, 87 – 04100 Latina LT", "lat": 41.46789, "lon": 12.91345 },
-  { "indirizzo abitazione": "Via Palestrina, 43 – 04100 Latina LT", "lat": 41.46234, "lon": 12.90678 },
-  { "indirizzo abitazione": "Via Monteverdi, 29 – 04100 Latina LT", "lat": 41.47123, "lon": 12.90890 },
-  { "indirizzo abitazione": "Via delle Rose, 156 – 04011 Aprilia LT", "lat": 41.59345, "lon": 12.65234 },
-  { "indirizzo abitazione": "Via dei Girasoli, 78 – 04011 Aprilia LT", "lat": 41.58890, "lon": 12.64567 },
-  { "indirizzo abitazione": "Via delle Margherite, 92 – 04011 Aprilia LT", "lat": 41.59567, "lon": 12.65890 },
-  { "indirizzo abitazione": "Via dei Tulipani, 34 – 04011 Aprilia LT", "lat": 41.59123, "lon": 12.64789 },
-  { "indirizzo abitazione": "Via delle Violette, 67 – 04011 Aprilia LT", "lat": 41.58678, "lon": 12.65345 },
-  { "indirizzo abitazione": "Via dei Narcisi, 89 – 04011 Aprilia LT", "lat": 41.59456, "lon": 12.64234 },
-  { "indirizzo abitazione": "Via delle Gardenie, 123 – 04011 Aprilia LT", "lat": 41.58234, "lon": 12.65678 },
-  { "indirizzo abitazione": "Via dei Gelsomini, 45 – 04011 Aprilia LT", "lat": 41.59789, "lon": 12.64890 },
-  { "indirizzo abitazione": "Via delle Azalee, 76 – 04011 Aprilia LT", "lat": 41.58567, "lon": 12.65123 },
-  { "indirizzo abitazione": "Via dei Ciclamini, 21 – 04011 Aprilia LT", "lat": 41.59234, "lon": 12.64456 },
-  { "indirizzo abitazione": "Via delle Orchidee, 98 – 04011 Aprilia LT", "lat": 41.58890, "lon": 12.65567 },
-  { "indirizzo abitazione": "Via dei Gladioli, 54 – 04011 Aprilia LT", "lat": 41.59345, "lon": 12.64123 },
-  { "indirizzo abitazione": "Via delle Camelie, 132 – 04011 Aprilia LT", "lat": 41.58456, "lon": 12.65789 },
-  { "indirizzo abitazione": "Via dei Garofani, 87 – 04011 Aprilia LT", "lat": 41.59678, "lon": 12.64567 },
-  { "indirizzo abitazione": "Via delle Primule, 43 – 04011 Aprilia LT", "lat": 41.58123, "lon": 12.65234 },
-  { "indirizzo abitazione": "Via del Mare, 234 – 04019 Terracina LT", "lat": 41.29456, "lon": 13.25123 },
-  { "indirizzo abitazione": "Via Romana, 67 – 04019 Terracina LT", "lat": 41.28890, "lon": 13.24567 },
-  { "indirizzo abitazione": "Via del Faro, 89 – 04019 Terracina LT", "lat": 41.29234, "lon": 13.25890 },
-  { "indirizzo abitazione": "Via dei Pini, 145 – 04019 Terracina LT", "lat": 41.28567, "lon": 13.24234 },
-  { "indirizzo abitazione": "Via delle Palme, 78 – 04019 Terracina LT", "lat": 41.29678, "lon": 13.25456 },
-  { "indirizzo abitazione": "Via del Porto, 123 – 04019 Terracina LT", "lat": 41.28234, "lon": 13.24789 },
-  { "indirizzo abitazione": "Via Litoranea, 56 – 04019 Terracina LT", "lat": 41.29345, "lon": 13.25234 },
-  { "indirizzo abitazione": "Via delle Dune, 91 – 04019 Terracina LT", "lat": 41.28789, "lon": 13.24678 },
-  { "indirizzo abitazione": "Via del Lungomare, 167 – 04019 Terracina LT", "lat": 41.29567, "lon": 13.25345 },
-  { "indirizzo abitazione": "Via delle Sirene, 34 – 04019 Terracina LT", "lat": 41.28456, "lon": 13.24890 },
-  { "indirizzo abitazione": "Via Traiano, 78 – 04023 Formia LT", "lat": 41.25789, "lon": 13.61234 },
-  { "indirizzo abitazione": "Via Cicerone, 145 – 04023 Formia LT", "lat": 41.25234, "lon": 13.60567 },
-  { "indirizzo abitazione": "Via Augusto, 92 – 04023 Formia LT", "lat": 41.25678, "lon": 13.61890 },
-  { "indirizzo abitazione": "Via Nerone, 56 – 04023 Formia LT", "lat": 41.25345, "lon": 13.60234 },
-  { "indirizzo abitazione": "Via Adriano, 123 – 04023 Formia LT", "lat": 41.25890, "lon": 13.61567 },
-  { "indirizzo abitazione": "Via Tiberio, 67 – 04023 Formia LT", "lat": 41.25456, "lon": 13.60789 },
-  { "indirizzo abitazione": "Via Caligola, 89 – 04023 Formia LT", "lat": 41.25567, "lon": 13.61345 },
-  { "indirizzo abitazione": "Via Claudio, 34 – 04023 Formia LT", "lat": 41.25234, "lon": 13.60456 },
-  { "indirizzo abitazione": "Via Vespasiano, 156 – 04023 Formia LT", "lat": 41.25789, "lon": 13.61678 },
-  { "indirizzo abitazione": "Via Domiziano, 21 – 04023 Formia LT", "lat": 41.25345, "lon": 13.60890 },
-  { "indirizzo abitazione": "Via Nazionale, 234 – 04022 Fondi LT", "lat": 41.35789, "lon": 13.42567 },
-  { "indirizzo abitazione": "Via del Centro, 67 – 04022 Fondi LT", "lat": 41.35234, "lon": 13.42890 },
-  { "indirizzo abitazione": "Via delle Colline, 89 – 04022 Fondi LT", "lat": 41.35567, "lon": 13.42234 },
-  { "indirizzo abitazione": "Via San Francesco, 145 – 04022 Fondi LT", "lat": 41.35890, "lon": 13.42678 },
-  { "indirizzo abitazione": "Via del Castello, 78 – 04022 Fondi LT", "lat": 41.35345, "lon": 13.42456 },
-  { "indirizzo abitazione": "Via della Chiesa, 123 – 04022 Fondi LT", "lat": 41.35678, "lon": 13.42789 },
-  { "indirizzo abitazione": "Via del Municipio, 56 – 04022 Fondi LT", "lat": 41.35456, "lon": 13.42345 },
-  { "indirizzo abitazione": "Via delle Scuole, 91 – 04022 Fondi LT", "lat": 41.35789, "lon": 13.42123 },
-  { "indirizzo abitazione": "Via Roma, 167 – 04012 Cisterna di Latina LT", "lat": 41.58789, "lon": 12.83456 },
-  { "indirizzo abitazione": "Via Garibaldi, 234 – 04012 Cisterna di Latina LT", "lat": 41.58234, "lon": 12.83789 },
-  { "indirizzo abitazione": "Via Mazzini, 78 – 04012 Cisterna di Latina LT", "lat": 41.58567, "lon": 12.83234 },
-  { "indirizzo abitazione": "Via Cavour, 145 – 04012 Cisterna di Latina LT", "lat": 41.58890, "lon": 12.83567 },
-  { "indirizzo abitazione": "Via Vittorio Veneto, 89 – 04012 Cisterna di Latina LT", "lat": 41.58345, "lon": 12.83890 },
-  { "indirizzo abitazione": "Via della Libertà, 123 – 04012 Cisterna di Latina LT", "lat": 41.58678, "lon": 12.83345 },
-  { "indirizzo abitazione": "Via dell'Indipendenza, 56 – 04012 Cisterna di Latina LT", "lat": 41.58456, "lon": 12.83678 },
-  { "indirizzo abitazione": "Via del Porto, 89 – 04024 Gaeta LT", "lat": 41.21345, "lon": 13.57567 },
-  { "indirizzo abitazione": "Via Nazionale, 123 – 04024 Gaeta LT", "lat": 41.21567, "lon": 13.57234 },
-  { "indirizzo abitazione": "Via della Marina, 67 – 04024 Gaeta LT", "lat": 41.21234, "lon": 13.57890 },
-  { "indirizzo abitazione": "Via del Castello, 145 – 04024 Gaeta LT", "lat": 41.21678, "lon": 13.57345 },
-  { "indirizzo abitazione": "Via delle Torri, 78 – 04024 Gaeta LT", "lat": 41.21456, "lon": 13.57678 },
-  { "indirizzo abitazione": "Via del Lungomare, 234 – 04024 Gaeta LT", "lat": 41.21789, "lon": 13.57123 },
-  { "indirizzo abitazione": "Via Roma, 156 – 04018 Sezze LT", "lat": 41.50234, "lon": 13.06567 },
-  { "indirizzo abitazione": "Via Garibaldi, 89 – 04018 Sezze LT", "lat": 41.50567, "lon": 13.06234 },
-  { "indirizzo abitazione": "Via Mazzini, 123 – 04018 Sezze LT", "lat": 41.50345, "lon": 13.06789 },
-  { "indirizzo abitazione": "Via del Centro, 67 – 04018 Sezze LT", "lat": 41.50678, "lon": 13.06456 },
-  { "indirizzo abitazione": "Via della Chiesa, 91 – 04018 Sezze LT", "lat": 41.50456, "lon": 13.06678 },
-  { "indirizzo abitazione": "Via delle Dune, 123 – 04016 Sabaudia LT", "lat": 41.29567, "lon": 13.02456 },
-  { "indirizzo abitazione": "Via del Lago, 89 – 04016 Sabaudia LT", "lat": 41.29890, "lon": 13.02789 },
-  { "indirizzo abitazione": "Via Nazionale, 156 – 04016 Sabaudia LT", "lat": 41.29234, "lon": 13.02345 },
-  { "indirizzo abitazione": "Via delle Palme, 67 – 04016 Sabaudia LT", "lat": 41.29678, "lon": 13.02567 },
-  { "indirizzo abitazione": "Via del Parco, 91 – 04016 Sabaudia LT", "lat": 41.29345, "lon": 13.02678 },
-  { "indirizzo abitazione": "Via Roma, 78 – 04010 Cori LT", "lat": 41.64567, "lon": 12.91456 },
-  { "indirizzo abitazione": "Via del Centro, 123 – 04010 Cori LT", "lat": 41.64234, "lon": 12.91789 },
-  { "indirizzo abitazione": "Via della Chiesa, 89 – 04010 Cori LT", "lat": 41.64890, "lon": 12.91234 },
-  { "indirizzo abitazione": "Via delle Colline, 156 – 04010 Cori LT", "lat": 41.64345, "lon": 12.91567 },
-  { "indirizzo abitazione": "Via Roma, 134 – 04013 Sermoneta LT", "lat": 41.55890, "lon": 12.97234 },
-  { "indirizzo abitazione": "Via del Castello, 67 – 04013 Sermoneta LT", "lat": 41.55234, "lon": 12.97567 },
-  { "indirizzo abitazione": "Via delle Mura, 89 – 04013 Sermoneta LT", "lat": 41.55567, "lon": 12.97890 },
-  { "indirizzo abitazione": "Via del Centro, 123 – 04013 Sermoneta LT", "lat": 41.55345, "lon": 12.97345 },
-  { "indirizzo abitazione": "Via Nazionale, 89 – 04020 Itri LT", "lat": 41.28567, "lon": 13.52234 },
-  { "indirizzo abitazione": "Via Roma, 123 – 04020 Itri LT", "lat": 41.28234, "lon": 13.52567 },
-  { "indirizzo abitazione": "Via del Centro, 67 – 04020 Itri LT", "lat": 41.28890, "lon": 13.52890 },
-  
-  { "indirizzo abitazione": "Via Roma, 156 – 04028 Minturno LT", "lat": 41.25567, "lon": 13.75234 },
-  { "indirizzo abitazione": "Via Nazionale, 89 – 04028 Minturno LT", "lat": 41.25234, "lon": 13.75567 },
-  { "indirizzo abitazione": "Via del Porto, 123 – 04028 Minturno LT", "lat": 41.25890, "lon": 13.75890 },
-  
-  { "indirizzo abitazione": "Via Roma, 123 – 04026 Lenola LT", "lat": 41.37567, "lon": 13.42234 },
-  { "indirizzo abitazione": "Via del Centro, 89 – 04026 Lenola LT", "lat": 41.37234, "lon": 13.42567 },
-  
-  { "indirizzo abitazione": "Via Nazionale, 67 – 04014 Pontinia LT", "lat": 41.46567, "lon": 12.99456 },
-  { "indirizzo abitazione": "Via Roma, 123 – 04014 Pontinia LT", "lat": 41.46234, "lon": 12.99789 },
-  { "indirizzo abitazione": "Via del Centro, 89 – 04014 Pontinia LT", "lat": 41.46890, "lon": 12.99234 },
-  { "indirizzo abitazione": "Via delle Bonifiche, 156 – 04014 Pontinia LT", "lat": 41.46345, "lon": 12.99567 },
-  { "indirizzo abitazione": "Via del Corso, 234 – 03100 Frosinone FR", "lat": 41.64234, "lon": 13.33567 },
-  { "indirizzo abitazione": "Via Nazionale, 167 – 03100 Frosinone FR", "lat": 41.63567, "lon": 13.34234 },
-  { "indirizzo abitazione": "Via della Stazione, 89 – 03100 Frosinone FR", "lat": 41.64890, "lon": 13.32890 },
-  { "indirizzo abitazione": "Via dei Volsci, 123 – 03100 Frosinone FR", "lat": 41.63234, "lon": 13.35123 },
-  { "indirizzo abitazione": "Via Tiburtina, 78 – 03100 Frosinone FR", "lat": 41.64567, "lon": 13.33789 },
-  { "indirizzo abitazione": "Via del Centro, 145 – 03100 Frosinone FR", "lat": 41.63890, "lon": 13.34456 },
-  { "indirizzo abitazione": "Via delle Vittorie, 56 – 03100 Frosinone FR", "lat": 41.64345, "lon": 13.33234 },
-  { "indirizzo abitazione": "Via Marittima, 91 – 03100 Frosinone FR", "lat": 41.63678, "lon": 13.34890 },
-  { "indirizzo abitazione": "Via del Parco, 167 – 03100 Frosinone FR", "lat": 41.64123, "lon": 13.33567 },
-  { "indirizzo abitazione": "Via dei Pini, 234 – 03100 Frosinone FR", "lat": 41.63456, "lon": 13.34123 },
-  { "indirizzo abitazione": "Via delle Querce, 78 – 03100 Frosinone FR", "lat": 41.64789, "lon": 13.33345 },
-  { "indirizzo abitazione": "Via degli Ulivi, 123 – 03100 Frosinone FR", "lat": 41.63345, "lon": 13.34567 },
-  { "indirizzo abitazione": "Via dei Cipressi, 89 – 03100 Frosinone FR", "lat": 41.64456, "lon": 13.33678 },
-  { "indirizzo abitazione": "Via delle Magnolie, 156 – 03100 Frosinone FR", "lat": 41.63789, "lon": 13.34345 },
-  { "indirizzo abitazione": "Via dei Cedri, 67 – 03100 Frosinone FR", "lat": 41.64234, "lon": 13.33890 },
-  
-  { "indirizzo abitazione": "Via Nazionale, 234 – 03043 Cassino FR", "lat": 41.49123, "lon": 13.83456 },
-  { "indirizzo abitazione": "Via del Centro, 167 – 03043 Cassino FR", "lat": 41.48567, "lon": 13.84234 },
-  { "indirizzo abitazione": "Via della Stazione, 89 – 03043 Cassino FR", "lat": 41.49890, "lon": 13.82890 },
-  { "indirizzo abitazione": "Via dei Martiri, 123 – 03043 Cassino FR", "lat": 41.48234, "lon": 13.84567 },
-  { "indirizzo abitazione": "Via Casilina, 78 – 03043 Cassino FR", "lat": 41.49456, "lon": 13.83234 },
-  { "indirizzo abitazione": "Via delle Vittorie, 145 – 03043 Cassino FR", "lat": 41.48890, "lon": 13.83789 },
-  { "indirizzo abitazione": "Via del Monastero, 56 – 03043 Cassino FR", "lat": 41.49234, "lon": 13.84123 },
-  { "indirizzo abitazione": "Via dei Cappuccini, 91 – 03043 Cassino FR", "lat": 41.48678, "lon": 13.83567 },
-  { "indirizzo abitazione": "Via del Borgo, 167 – 03043 Cassino FR", "lat": 41.49567, "lon": 13.82567 },
-  { "indirizzo abitazione": "Via delle Torri, 234 – 03043 Cassino FR", "lat": 41.48345, "lon": 13.84890 },
-  
-  { "indirizzo abitazione": "Via del Centro, 156 – 03039 Sora FR", "lat": 41.71567, "lon": 13.61234 },
-  { "indirizzo abitazione": "Via Nazionale, 89 – 03039 Sora FR", "lat": 41.71890, "lon": 13.60567 },
-  { "indirizzo abitazione": "Via della Stazione, 123 – 03039 Sora FR", "lat": 41.71234, "lon": 13.61890 },
-  { "indirizzo abitazione": "Via del Liri, 67 – 03039 Sora FR", "lat": 41.71678, "lon": 13.60234 },
-  { "indirizzo abitazione": "Via delle Vittorie, 91 – 03039 Sora FR", "lat": 41.71345, "lon": 13.61567 },
-  { "indirizzo abitazione": "Via Roma, 234 – 03039 Sora FR", "lat": 41.71789, "lon": 13.60890 },
-  { "indirizzo abitazione": "Via Garibaldi, 78 – 03039 Sora FR", "lat": 41.71456, "lon": 13.61345 },
-  { "indirizzo abitazione": "Via Mazzini, 145 – 03039 Sora FR", "lat": 41.71123, "lon": 13.61678 },
-  
-  { "indirizzo abitazione": "Via Roma, 134 – 03011 Alatri FR", "lat": 41.72567, "lon": 13.34567 },
-  { "indirizzo abitazione": "Via del Centro, 89 – 03011 Alatri FR", "lat": 41.73234, "lon": 13.33890 },
-  { "indirizzo abitazione": "Via Nazionale, 123 – 03011 Alatri FR", "lat": 41.72890, "lon": 13.34890 },
-  { "indirizzo abitazione": "Via delle Mura, 67 – 03011 Alatri FR", "lat": 41.73567, "lon": 13.33234 },
-  { "indirizzo abitazione": "Via del Castello, 91 – 03011 Alatri FR", "lat": 41.72345, "lon": 13.35234 },
-  { "indirizzo abitazione": "Via della Chiesa, 156 – 03011 Alatri FR", "lat": 41.73890, "lon": 13.33567 },
-  
-  { "indirizzo abitazione": "Via Roma, 167 – 03013 Ferentino FR", "lat": 41.69567, "lon": 13.25456 },
-  { "indirizzo abitazione": "Via del Centro, 234 – 03013 Ferentino FR", "lat": 41.68890, "lon": 13.26234 },
-  { "indirizzo abitazione": "Via Nazionale, 89 – 03013 Ferentino FR", "lat": 41.69234, "lon": 13.24890 },
-  { "indirizzo abitazione": "Via della Stazione, 123 – 03013 Ferentino FR", "lat": 41.68567, "lon": 13.25789 },
-  { "indirizzo abitazione": "Via delle Mura, 78 – 03013 Ferentino FR", "lat": 41.69890, "lon": 13.24567 },
-  
-  { "indirizzo abitazione": "Via Roma, 123 – 03012 Anagni FR", "lat": 41.75234, "lon": 13.15234 },
-  { "indirizzo abitazione": "Via del Centro, 89 – 03012 Anagni FR", "lat": 41.74567, "lon": 13.16567 },
-  { "indirizzo abitazione": "Via Nazionale, 156 – 03012 Anagni FR", "lat": 41.75890, "lon": 13.14890 },
-  { "indirizzo abitazione": "Via delle Cattedrali, 67 – 03012 Anagni FR", "lat": 41.74234, "lon": 13.16234 },
-  
-  { "indirizzo abitazione": "Via Roma, 89 – 03023 Ceccano FR", "lat": 41.56789, "lon": 13.33234 },
-  { "indirizzo abitazione": "Via del Centro, 123 – 03023 Ceccano FR", "lat": 41.56234, "lon": 13.33890 },
-  { "indirizzo abitazione": "Via Nazionale, 67 – 03023 Ceccano FR", "lat": 41.56567, "lon": 13.33567 },
-  { "indirizzo abitazione": "Via della Stazione, 156 – 03023 Ceccano FR", "lat": 41.56890, "lon": 13.33123 },
-  
-  { "indirizzo abitazione": "Via Roma, 78 – 03029 Veroli FR", "lat": 41.69567, "lon": 13.41567 },
-  { "indirizzo abitazione": "Via del Centro, 123 – 03029 Veroli FR", "lat": 41.68890, "lon": 13.42234 },
-  { "indirizzo abitazione": "Via Nazionale, 89 – 03029 Veroli FR", "lat": 41.69234, "lon": 13.40890 },
-  
-  { "indirizzo abitazione": "Via Roma, 156 – 03014 Fiuggi FR", "lat": 41.79567, "lon": 13.22234 },
-  { "indirizzo abitazione": "Via del Centro, 89 – 03014 Fiuggi FR", "lat": 41.78890, "lon": 13.23567 },
-  { "indirizzo abitazione": "Via delle Terme, 123 – 03014 Fiuggi FR", "lat": 41.79234, "lon": 13.21890 },
-  { "indirizzo abitazione": "Via Nazionale, 67 – 03014 Fiuggi FR", "lat": 41.78567, "lon": 13.23234 },
-  
-  { "indirizzo abitazione": "Via Roma, 123 – 03036 Isola del Liri FR", "lat": 41.68567, "lon": 13.60789 },
-  { "indirizzo abitazione": "Via del Centro, 89 – 03036 Isola del Liri FR", "lat": 41.68234, "lon": 13.59234 },
-  { "indirizzo abitazione": "Via delle Cascate, 156 – 03036 Isola del Liri FR", "lat": 41.68890, "lon": 13.60234 },
-  
-  { "indirizzo abitazione": "Via Roma, 89 – 03037 Pontecorvo FR", "lat": 41.45789, "lon": 13.66567 },
-  { "indirizzo abitazione": "Via del Centro, 123 – 03037 Pontecorvo FR", "lat": 41.45234, "lon": 13.67234 },
-  { "indirizzo abitazione": "Via Nazionale, 67 – 03037 Pontecorvo FR", "lat": 41.45567, "lon": 13.65890 },
-  { "scuola": "Liceo Scientifico Latina Via Manzoni - 04100 Latina LT", "lat": 41.47000, "lon": 12.90500 },
-  { "scuola": "Istituto Tecnico Aprilia Via Europa - 04011 Aprilia LT", "lat": 41.59000, "lon": 12.65000 },
-  { "scuola": "Liceo Classico Terracina Via del Faro - 04019 Terracina LT", "lat": 41.29000, "lon": 13.25000 },
-  { "scuola": "Istituto Professionale Formia Via Traiano - 04023 Formia LT", "lat": 41.25500, "lon": 13.61000 },
-  { "scuola": "Liceo Artistico Frosinone Via del Parco - 03100 Frosinone FR", "lat": 41.64000, "lon": 13.34000 },
-  { "scuola": "Istituto Tecnico Cassino Via Nazionale - 03043 Cassino FR", "lat": 41.49000, "lon": 13.83500 },
-  { "scuola": "Liceo Linguistico Sora Via del Centro - 03039 Sora FR", "lat": 41.71500, "lon": 13.61000 },
-  { "scuola": "Istituto Comprensivo Alatri Via Roma - 03011 Alatri FR", "lat": 41.73000, "lon": 13.34200 },
-  { "scuola": "Scuola Media Ferentino Via della Stazione - 03013 Ferentino FR", "lat": 41.69200, "lon": 13.25200 },
-  { "scuola": "Istituto Alberghiero Fiuggi Via delle Terme - 03014 Fiuggi FR", "lat": 41.79100, "lon": 13.22500 },
-  { "scuola": "Scuola Elementare Cisterna Via Roma - 04012 Cisterna di Latina LT", "lat": 41.58500, "lon": 12.83400 },
-  { "scuola": "Liceo Scientifico Fondi Via Nazionale - 04022 Fondi LT", "lat": 41.35600, "lon": 13.42500 },
-  { "scuola": "Istituto Tecnico Gaeta Via del Porto - 04024 Gaeta LT", "lat": 41.21200, "lon": 13.57300 },
-  { "scuola": "Scuola Media Anagni Via del Centro - 03012 Anagni FR", "lat": 41.75000, "lon": 13.15700 },
-  { "scuola": "Istituto Comprensivo Ceccano Via Roma - 03023 Ceccano FR", "lat": 41.56600, "lon": 13.33500 },
-  { "RSA": "RSA Sabaudia Via del Lago - 04016 Sabaudia LT", "lat": 41.29800, "lon": 13.02200 },
-  { "RSA": "RSA Sezze Via Roma - 04018 Sezze LT", "lat": 41.50100, "lon": 13.06800 },
-  { "RSA": "RSA Pontinia Via Nazionale - 04014 Pontinia LT", "lat": 41.46800, "lon": 12.99200 },
-  { "RSA": "RSA Veroli Via del Centro - 03029 Veroli FR", "lat": 41.69200, "lon": 13.41400 },
-  { "RSA": "RSA Anagni Via Nazionale - 03012 Anagni FR", "lat": 41.75000, "lon": 13.15600 },
-  { "RSA": "RSA Fiuggi Via delle Terme - 03014 Fiuggi FR", "lat": 41.79200, "lon": 13.22700 },
-  { "RSA": "RSA Sora Via del Liri - 03039 Sora FR", "lat": 41.71300, "lon": 13.61600 },
-  { "RSA": "RSA Pontecorvo Via Nazionale - 03037 Pontecorvo FR", "lat": 41.45500, "lon": 13.66400 },
-  { "RSA": "RSA Isola del Liri Via delle Cascate - 03036 Isola del Liri FR", "lat": 41.68700, "lon": 13.60400 },
-  { "RSA": "RSA Cori Via delle Colline - 04010 Cori LT", "lat": 41.64700, "lon": 12.91200 },
-  { "impianto lavorativo": "Zona Industriale Latina Via dell'Industria - 04100 Latina LT", "lat": 41.47200, "lon": 12.89500 },
-  { "impianto lavorativo": "Stabilimento Aprilia Via delle Industrie - 04011 Aprilia LT", "lat": 41.59500, "lon": 12.65500 },
-  { "impianto lavorativo": "Porto Industriale Gaeta - 04024 Gaeta LT", "lat": 41.21000, "lon": 13.57000 },
-  { "impianto lavorativo": "Zona Artigianale Terracina - 04019 Terracina LT", "lat": 41.29500, "lon": 13.25500 },
-  { "impianto lavorativo": "Stabilimento Frosinone Via Tiburtina - 03100 Frosinone FR", "lat": 41.64500, "lon": 13.33500 },
-  { "impianto lavorativo": "Zona Industriale Cassino - 03043 Cassino FR", "lat": 41.49500, "lon": 13.83000 },
-  { "impianto lavorativo": "Stabilimento Sora Via del Liri - 03039 Sora FR", "lat": 41.71000, "lon": 13.61500 },
-  { "impianto lavorativo": "Area Industriale Ferentino - 03013 Ferentino FR", "lat": 41.69000, "lon": 13.25500 },
-  { "impianto lavorativo": "Zona Artigianale Alatri - 03011 Alatri FR", "lat": 41.73200, "lon": 13.34500 },
-  { "impianto lavorativo": "Stabilimento Formia Via del Porto - 04023 Formia LT", "lat": 41.25800, "lon": 13.61200 },
-  { "impianto lavorativo": "Area Commerciale Fondi - 04022 Fondi LT", "lat": 41.35800, "lon": 13.42800 },
-  { "impianto lavorativo": "Zona Industriale Cisterna - 04012 Cisterna di Latina LT", "lat": 41.58800, "lon": 12.83800 },
-  { "impianto sportivo": "Stadio Comunale Latina - 04100 Latina LT", "lat": 41.46800, "lon": 12.90800 },
-  { "impianto sportivo": "Palazzetto dello Sport Aprilia - 04011 Aprilia LT", "lat": 41.59200, "lon": 12.65200 },
-  { "impianto sportivo": "Centro Sportivo Terracina - 04019 Terracina LT", "lat": 41.29200, "lon": 13.25200 },
-  { "impianto sportivo": "Piscina Comunale Formia - 04023 Formia LT", "lat": 41.25700, "lon": 13.61100 },
-  { "impianto sportivo": "Stadio Frosinone - 03100 Frosinone FR", "lat": 41.64200, "lon": 13.34200 },
-  { "impianto sportivo": "Palestra Cassino - 03043 Cassino FR", "lat": 41.49200, "lon": 13.83200 },
-  { "impianto sportivo": "Centro Sportivo Sora - 03039 Sora FR", "lat": 41.71200, "lon": 13.61200 },
-  { "impianto sportivo": "Campo Sportivo Alatri - 03011 Alatri FR", "lat": 41.73100, "lon": 13.34300 },
-  { "impianto sportivo": "Piscina Ferentino - 03013 Ferentino FR", "lat": 41.69100, "lon": 13.25300 },
-  { "impianto sportivo": "Centro Tennistico Fiuggi - 03014 Fiuggi FR", "lat": 41.79000, "lon": 13.22800 },
-  { "impianto sportivo": "Palazzetto Gaeta - 04024 Gaeta LT", "lat": 41.21100, "lon": 13.57400 },
-  { "impianto sportivo": "Campo Calcio Fondi - 04022 Fondi LT", "lat": 41.35700, "lon": 13.42700 },
-  { "impianto sportivo": "Centro Sportivo Sabaudia - 04016 Sabaudia LT", "lat": 41.29900, "lon": 13.02300 },
-  { "impianto sportivo": "Palestra Ceccano - 03023 Ceccano FR", "lat": 41.56700, "lon": 13.33600 },
-  { "impianto sportivo": "Campo Sportivo Veroli - 03029 Veroli FR", "lat": 41.69300, "lon": 13.41500 },
-  { "strada": "SS 213 Flacca km 35 - 04023 Formia LT", "lat": 41.25500, "lon": 13.61500 },
-  { "strada": "SS 156 dei Monti Lepini km 45 - 04018 Sezze LT", "lat": 41.50200, "lon": 13.07000 },
-  { "strada": "SS 148 Pontina km 60 - 04100 Latina LT", "lat": 41.46500, "lon": 12.90000 },
-  { "strada": "SS 155 di Fiuggi km 25 - 03014 Fiuggi FR", "lat": 41.79300, "lon": 13.22600 },
-  { "strada": "A1 MI-NA km 590 - 03100 Frosinone FR", "lat": 41.64000, "lon": 13.33000 },
-  { "strada": "SS 6 Casilina km 120 - 03043 Cassino FR", "lat": 41.49000, "lon": 13.83500 },
-  { "strada": "SS 82 della Valle del Liri km 8 - 03039 Sora FR", "lat": 41.71400, "lon": 13.61800 },
-  { "strada": "SS 214 della Vallelonga km 15 - 03037 Pontecorvo FR", "lat": 41.45600, "lon": 13.66200 },
-  { "strada": "SS 627 della Vandra km 12 - 03011 Alatri FR", "lat": 41.73200, "lon": 13.34400 },
-  { "strada": "SS 606 della Selva di Paliano km 5 - 03012 Anagni FR", "lat": 41.75100, "lon": 13.15800 },
-  { "strada": "Raccordo Autostradale Frosinone - 03100 Frosinone FR", "lat": 41.63800, "lon": 13.34800 },
-  { "strada": "SP 156 Monti Lepini km 20 - 04010 Cori LT", "lat": 41.64800, "lon": 12.91400 },
-  { "strada": "SS 7 Via Appia km 100 - 04022 Fondi LT", "lat": 41.35900, "lon": 13.42900 },
-  { "strada": "SS 213 Flacca km 45 - 04024 Gaeta LT", "lat": 41.21300, "lon": 13.57600 },
-  { "strada": "SP 7 Cisterna-Cori km 8 - 04012 Cisterna di Latina LT", "lat": 41.58600, "lon": 12.83600 },
-  { "Pronto Soccorso": "Ospedale Sabaudia - 04016 Sabaudia LT", "lat": 41.29900, "lon": 13.02100 },
-  { "Pronto Soccorso": "Ospedale Gaeta - 04024 Gaeta LT", "lat": 41.21400, "lon": 13.57500 },
-  { "Pronto Soccorso": "Ospedale Ceccano - 03023 Ceccano FR", "lat": 41.56800, "lon": 13.33700 },
-  { "Pronto Soccorso": "Ospedale Veroli - 03029 Veroli FR", "lat": 41.69400, "lon": 13.41600 },
-  { "Pronto Soccorso": "Ospedale Anagni - 03012 Anagni FR", "lat": 41.75200, "lon": 13.15900 },
-  { "Pronto Soccorso": "Ospedale Fiuggi - 03014 Fiuggi FR", "lat": 41.79400, "lon": 13.22900 },
-  { "Pronto Soccorso": "Ospedale Isola del Liri - 03036 Isola del Liri FR", "lat": 41.68900, "lon": 13.60500 },
-  { "Pronto Soccorso": "Ospedale Pontecorvo - 03037 Pontecorvo FR", "lat": 41.45700, "lon": 13.66500 },
-  
-  { "indirizzo abitazione": "Via delle Magnolie, 234 – 04100 Latina LT", "lat": 41.46123, "lon": 12.90890 },
-  { "indirizzo abitazione": "Via dei Cedri, 156 – 04100 Latina LT", "lat": 41.46890, "lon": 12.91234 },
-  { "indirizzo abitazione": "Via degli Oleandri, 78 – 04100 Latina LT", "lat": 41.46567, "lon": 12.90456 },
-  { "indirizzo abitazione": "Via delle Betulle, 123 – 04100 Latina LT", "lat": 41.47012, "lon": 12.90678 },
-  { "indirizzo abitazione": "Via dei Salici, 89 – 04100 Latina LT", "lat": 41.46345, "lon": 12.91456 },
-  
-  { "indirizzo abitazione": "Via delle Mimose, 67 – 04011 Aprilia LT", "lat": 41.59012, "lon": 12.64678 },
-  { "indirizzo abitazione": "Via dei Papaveri, 134 – 04011 Aprilia LT", "lat": 41.58678, "lon": 12.65012 },
-  { "indirizzo abitazione": "Via delle Peonie, 91 – 04011 Aprilia LT", "lat": 41.59456, "lon": 12.64345 },
-  { "indirizzo abitazione": "Via dei Lillà, 156 – 04011 Aprilia LT", "lat": 41.58234, "lon": 12.65789 },
-  { "indirizzo abitazione": "Via delle Dalie, 78 – 04011 Aprilia LT", "lat": 41.59789, "lon": 12.64123 },
-  
-  { "indirizzo abitazione": "Via delle Ginestre, 123 – 04019 Terracina LT", "lat": 41.29012, "lon": 13.24678 },
-  { "indirizzo abitazione": "Via dei Corbezzoli, 89 – 04019 Terracina LT", "lat": 41.28678, "lon": 13.25012 },
-  { "indirizzo abitazione": "Via delle Tamerici, 156 – 04019 Terracina LT", "lat": 41.29345, "lon": 13.24345 },
-  { "indirizzo abitazione": "Via dei Lecci, 67 – 04019 Terracina LT", "lat": 41.28234, "lon": 13.25789 },
-  
-  { "indirizzo abitazione": "Via delle Acace, 91 – 04023 Formia LT", "lat": 41.25123, "lon": 13.60789 },
-  { "indirizzo abitazione": "Via dei Platani, 156 – 04023 Formia LT", "lat": 41.25678, "lon": 13.61123 },
-  { "indirizzo abitazione": "Via delle Magnolie, 78 – 04023 Formia LT", "lat": 41.25345, "lon": 13.60456 },
-  { "indirizzo abitazione": "Via dei Tigli, 134 – 04023 Formia LT", "lat": 41.25789, "lon": 13.61456 },
-  
-  { "indirizzo abitazione": "Via delle Eriche, 67 – 04022 Fondi LT", "lat": 41.35123, "lon": 13.42234 },
-  { "indirizzo abitazione": "Via dei Ginepri, 123 – 04022 Fondi LT", "lat": 41.35678, "lon": 13.42567 },
-  { "indirizzo abitazione": "Via delle Palme, 89 – 04022 Fondi LT", "lat": 41.35345, "lon": 13.42890 },
-  { "indirizzo abitazione": "Via degli Abeti, 156 – 04022 Fondi LT", "lat": 41.35789, "lon": 13.42123 },
-  
-  { "indirizzo abitazione": "Via delle Roverelle, 78 – 03100 Frosinone FR", "lat": 41.63123, "lon": 13.33234 },
-  { "indirizzo abitazione": "Via dei Faggi, 134 – 03100 Frosinone FR", "lat": 41.64678, "lon": 13.34567 },
-  { "indirizzo abitazione": "Via delle Querce, 91 – 03100 Frosinone FR", "lat": 41.63345, "lon": 13.33890 },
-  { "indirizzo abitazione": "Via dei Castagni, 156 – 03100 Frosinone FR", "lat": 41.64123, "lon": 13.34234 },
-  { "indirizzo abitazione": "Via delle Betulle, 67 – 03100 Frosinone FR", "lat": 41.63789, "lon": 13.33567 },
-  
-  { "indirizzo abitazione": "Via degli Ontani, 123 – 03043 Cassino FR", "lat": 41.48123, "lon": 13.83234 },
-  { "indirizzo abitazione": "Via delle Robinie, 89 – 03043 Cassino FR", "lat": 41.49678, "lon": 13.84567 },
-  { "indirizzo abitazione": "Via dei Noccioli, 156 – 03043 Cassino FR", "lat": 41.48345, "lon": 13.82890 },
-  { "indirizzo abitazione": "Via delle Acacie, 78 – 03043 Cassino FR", "lat": 41.49123, "lon": 13.84234 },
-  
-  { "indirizzo abitazione": "Via dei Sorbi, 91 – 03039 Sora FR", "lat": 41.71123, "lon": 13.61234 },
-  { "indirizzo abitazione": "Via delle Betulle, 156 – 03039 Sora FR", "lat": 41.71678, "lon": 13.60567 },
-  { "indirizzo abitazione": "Via dei Frassini, 78 – 03039 Sora FR", "lat": 41.71345, "lon": 13.61890 },
-  { "indirizzo abitazione": "Via delle Querce, 134 – 03039 Sora FR", "lat": 41.71789, "lon": 13.60234 },
-  
-  { "indirizzo abitazione": "Via dei Gelsi, 67 – 03011 Alatri FR", "lat": 41.72123, "lon": 13.34123 },
-  { "indirizzo abitazione": "Via delle Noci, 123 – 03011 Alatri FR", "lat": 41.73678, "lon": 13.33567 },
-  { "indirizzo abitazione": "Via dei Mandorli, 89 – 03011 Alatri FR", "lat": 41.72345, "lon": 13.34890 },
-  { "indirizzo abitazione": "Via delle Ciliegie, 156 – 03011 Alatri FR", "lat": 41.73123, "lon": 13.33234 },
-  
-  { "indirizzo abitazione": "Via dei Peschi, 78 – 03013 Ferentino FR", "lat": 41.69123, "lon": 13.25123 },
-  { "indirizzo abitazione": "Via delle Mele, 134 – 03013 Ferentino FR", "lat": 41.68678, "lon": 13.25567 },
-  { "indirizzo abitazione": "Via dei Peri, 91 – 03013 Ferentino FR", "lat": 41.69345, "lon": 13.24890 },
-  { "indirizzo abitazione": "Via delle Prugne, 156 – 03013 Ferentino FR", "lat": 41.68234, "lon": 13.26234 },
-  
-  { "indirizzo abitazione": "Via delle Albicocche, 67 – 03014 Fiuggi FR", "lat": 41.79123, "lon": 13.22123 },
-  { "indirizzo abitazione": "Via dei Susini, 123 – 03014 Fiuggi FR", "lat": 41.78678, "lon": 13.23567 },
-  { "indirizzo abitazione": "Via delle Amarene, 89 – 03014 Fiuggi FR", "lat": 41.79345, "lon": 13.21890 },
-  { "indirizzo abitazione": "Via dei Fichi, 156 – 03014 Fiuggi FR", "lat": 41.78234, "lon": 13.23234 },
-  
-  { "RSA": "RSA Villa Verde Latina - 04100 Latina LT", "lat": 41.46500, "lon": 12.90200 },
-  { "RSA": "RSA Casa di Riposo Aprilia - 04011 Aprilia LT", "lat": 41.59100, "lon": 12.65100 },
-  { "RSA": "RSA San Giovanni Terracina - 04019 Terracina LT", "lat": 41.29100, "lon": 13.25100 },
-  { "RSA": "RSA Villa Maria Formia - 04023 Formia LT", "lat": 41.25600, "lon": 13.61100 },
-  { "RSA": "RSA Villa Serena Frosinone - 03100 Frosinone FR", "lat": 41.64100, "lon": 13.34100 }
+  {
+    "indirizzo abitazione": "Via Enrico De Nicola, 10 – 03043 Cassino FR",
+    "lat": 41.703746,
+    "lon": 12.681179
+  },
+  {
+    "indirizzo abitazione": "Via Guglielmo Marconi, 65 – 03043 Cassino FR",
+    "lat": 41.973155,
+    "lon": 12.508883
+  },
+  {
+    "indirizzo abitazione": "Via Napoli, 88 – 03039 Sora FR",
+    "lat": 41.748259,
+    "lon": 12.420208
+  },
+  {
+    "indirizzo abitazione": "Viale San Domenico, 55 – 03039 Sora FR",
+    "lat": 42.018006,
+    "lon": 12.804791
+  },
+  {
+    "indirizzo abitazione": "Via Madonna della Pace, 18 – 03023 Ceccano FR",
+    "lat": 42.030006,
+    "lon": 12.692686
+  },
+  {
+    "indirizzo abitazione": "Via Boschetto, 7 – 03023 Ceccano FR",
+    "lat": 41.920592,
+    "lon": 12.684169
+  },
+  {
+    "indirizzo abitazione": "Via Circonvallazione, 3 – 03011 Alatri FR",
+    "lat": 41.800146,
+    "lon": 12.777053
+  },
+  {
+    "indirizzo abitazione": "Via G. Matteotti, 24 – 03011 Alatri FR",
+    "lat": 42.091808,
+    "lon": 12.62797
+  },
+  {
+    "indirizzo abitazione": "Via Vittorio Emanuele, 40 – 03012 Anagni FR",
+    "lat": 41.893617,
+    "lon": 12.164881
+  },
+  {
+    "indirizzo abitazione": "Via Circonvallazione Nord, 22 – 03012 Anagni FR",
+    "lat": 42.067165,
+    "lon": 12.350158
+  },
+  {
+    "indirizzo abitazione": "Via Stazione, 28 – 03013 Ferentino FR",
+    "lat": 42.066249,
+    "lon": 12.771812
+  },
+  {
+    "indirizzo abitazione": "Via Consolare, 12 – 03013 Ferentino FR",
+    "lat": 41.773552,
+    "lon": 12.404011
+  },
+  {
+    "indirizzo abitazione": "Via dei Villini, 89 – 03014 Fiuggi FR",
+    "lat": 42.105479,
+    "lon": 12.423594
+  },
+  {
+    "indirizzo abitazione": "Via Armando Diaz, 8 – 03014 Fiuggi FR",
+    "lat": 41.861976,
+    "lon": 12.167411
+  },
+  {
+    "indirizzo abitazione": "Via Passeggiata San Giuseppe, 2 – 03029 Veroli FR",
+    "lat": 41.986793,
+    "lon": 12.671674
+  },
+  {
+    "indirizzo abitazione": "Piazza Santa Salome, 5 – 03029 Veroli FR",
+    "lat": 41.941654,
+    "lon": 12.567916
+  },
+  {
+    "indirizzo abitazione": "Via La Libera, 15 – 03037 Pontecorvo FR",
+    "lat": 41.970811,
+    "lon": 12.476701
+  },
+  {
+    "indirizzo abitazione": "Via San Giovanni Battista, 10 – 03037 Pontecorvo FR",
+    "lat": 42.035263,
+    "lon": 12.366827
+  },
+  {
+    "indirizzo abitazione": "Via Roma, 2 – 03040 San Giorgio a Liri FR",
+    "lat": 41.907,
+    "lon": 12.209784
+  },
+  {
+    "indirizzo abitazione": "Via Aldo Moro, 31 – 03036 Isola del Liri FR",
+    "lat": 41.928298,
+    "lon": 12.510696
+  },
+  {
+    "indirizzo abitazione": "Via Aldo Moro, 135 – 03100 Frosinone FR",
+    "lat": 41.895514,
+    "lon": 12.260079
+  },
+  {
+    "indirizzo abitazione": "Via America Latina, 81 – 03100 Frosinone FR",
+    "lat": 41.823809,
+    "lon": 12.787841
+  },
+  {
+    "indirizzo abitazione": "Via Francesco Veccia, 2 – 03100 Frosinone FR",
+    "lat": 42.023902,
+    "lon": 12.79767
+  },
+  {
+    "indirizzo abitazione": "Via Maria, 27 – 03100 Frosinone FR",
+    "lat": 41.841783,
+    "lon": 12.704214
+  },
+  {
+    "indirizzo abitazione": "Piazza VI Dicembre, 3 – 03100 Frosinone FR",
+    "lat": 41.705398,
+    "lon": 12.581189
+  },
+  {
+    "indirizzo abitazione": "Via Ezio, 12 – 04100 Latina LT",
+    "lat": 41.791229,
+    "lon": 12.376622
+  },
+  {
+    "indirizzo abitazione": "Via Isonzo, 194 – 04100 Latina LT",
+    "lat": 42.132636,
+    "lon": 12.607559
+  },
+  {
+    "indirizzo abitazione": "Viale XXI Aprile, 36 – 04100 Latina LT",
+    "lat": 41.984495,
+    "lon": 12.250521
+  },
+  {
+    "indirizzo abitazione": "Via Filippo Corridoni, 30 – 04100 Latina LT",
+    "lat": 41.829314,
+    "lon": 12.513133
+  },
+  {
+    "indirizzo abitazione": "Via Emanuele Filiberto, 2 – 04100 Latina LT",
+    "lat": 41.961853,
+    "lon": 12.559013
+  },
+  {
+    "indirizzo abitazione": "Via Giustiniano, 45 – 04011 Aprilia LT",
+    "lat": 42.065361,
+    "lon": 12.591175
+  },
+  {
+    "indirizzo abitazione": "Via Aldo Moro, 97 – 04011 Aprilia LT",
+    "lat": 42.046575,
+    "lon": 12.704726
+  },
+  {
+    "indirizzo abitazione": "Via Roma, 188 – 04022 Fondi LT",
+    "lat": 41.813255,
+    "lon": 12.604176
+  },
+  {
+    "indirizzo abitazione": "Via Arnale Rosso, 30 – 04022 Fondi LT",
+    "lat": 41.939833,
+    "lon": 12.393685
+  },
+  {
+    "indirizzo abitazione": "Viale della Vittoria, 141 – 04019 Terracina LT",
+    "lat": 41.690038,
+    "lon": 12.317773
+  },
+  {
+    "indirizzo abitazione": "Via Badino, 94 – 04019 Terracina LT",
+    "lat": 41.798208,
+    "lon": 12.545153
+  },
+  {
+    "indirizzo abitazione": "Via Vitruvio, 88 – 04023 Formia LT",
+    "lat": 42.065813,
+    "lon": 12.458257
+  },
+  {
+    "indirizzo abitazione": "Via Appia Lato Napoli, 130 – 04023 Formia LT",
+    "lat": 41.836125,
+    "lon": 12.378047
+  },
+  {
+    "indirizzo abitazione": "Via Variante, 24 – 04012 Cisterna di Latina LT",
+    "lat": 41.759991,
+    "lon": 12.236216
+  },
+  {
+    "indirizzo abitazione": "Via Appia Nord, 105 – 04012 Cisterna di Latina LT",
+    "lat": 41.810904,
+    "lon": 12.180301
+  },
+  {
+    "indirizzo abitazione": "Via dei Cappuccini, 10 – 04018 Sezze LT",
+    "lat": 41.706985,
+    "lon": 12.592246
+  },
+  {
+    "indirizzo abitazione": "Via Variante del Tempio, 1 – 04018 Sezze LT",
+    "lat": 41.844188,
+    "lon": 12.660717
+  },
+  {
+    "indirizzo abitazione": "Via Monte Circeo, 3 – 04017 San Felice Circeo LT",
+    "lat": 41.969466,
+    "lon": 12.147231
+  },
+  {
+    "indirizzo abitazione": "Via della Vittoria, 6 – 04016 Sabaudia LT",
+    "lat": 41.817458,
+    "lon": 12.674072
+  },
+  {
+    "indirizzo abitazione": "Via Enrico Toti, 8 – 04010 Cori LT",
+    "lat": 41.812408,
+    "lon": 12.766974
+  },
+  {
+    "indirizzo abitazione": "Via Diaz, 15 – 04013 Sermoneta LT",
+    "lat": 42.070205,
+    "lon": 12.738904
+  },
+  {
+    "indirizzo abitazione": "Via del Popolo, 4 – 04020 Itri LT",
+    "lat": 41.980915,
+    "lon": 12.357525
+  },
+  {
+    "indirizzo abitazione": "Via Appia Km 134,7 – 04028 Minturno LT",
+    "lat": 41.994523,
+    "lon": 12.449412
+  },
+  {
+    "indirizzo abitazione": "Via Guglielmo Marconi, 9 – 04026 Lenola LT",
+    "lat": 42.113969,
+    "lon": 12.719156
+  },
+  {
+    "indirizzo abitazione": "Via Roma, 11 – 04010 Norma LT",
+    "lat": 41.8517,
+    "lon": 12.233815
+  },
+  {
+    "indirizzo abitazione": "Via Don Morosini, 102 – 04100 Latina LT",
+    "lat": 41.917316,
+    "lon": 12.28428
+  },
+  {
+    "indirizzo abitazione": "Via dell'Industria, 11 – 04100 Latina LT",
+    "lat": 41.984542,
+    "lon": 12.684841
+  },
+  {
+    "indirizzo abitazione": "Via Lazio, 56 – 04022 Fondi LT",
+    "lat": 42.023554,
+    "lon": 12.485094
+  },
+  {
+    "indirizzo abitazione": "Via Cavour, 31 – 04019 Terracina LT",
+    "lat": 41.83725,
+    "lon": 12.392975
+  },
+  {
+    "indirizzo abitazione": "Via Roma, 105 – 04011 Aprilia LT",
+    "lat": 42.029616,
+    "lon": 12.583368
+  },
+  {
+    "indirizzo abitazione": "Via Garibaldi, 7 – 04016 Sabaudia LT",
+    "lat": 41.801285,
+    "lon": 12.64345
+  },
+  {
+    "indirizzo abitazione": "Via dei Volsci, 44 – 04012 Cisterna di Latina LT",
+    "lat": 41.819645,
+    "lon": 12.658778
+  },
+  {
+    "indirizzo abitazione": "Via Flacca, 180 – 04029 Sperlonga LT",
+    "lat": 42.097389,
+    "lon": 12.297718
+  },
+  {
+    "indirizzo abitazione": "Via Appia, 112 – 04024 Gaeta LT",
+    "lat": 41.989735,
+    "lon": 12.322588
+  },
+  {
+    "indirizzo abitazione": "Via Appia Nord, 35 – 04023 Formia LT",
+    "lat": 41.969475,
+    "lon": 12.153643
+  },
+  {
+    "indirizzo abitazione": "Via Casilina Nord, 98 – 03100 Frosinone FR",
+    "lat": 41.788453,
+    "lon": 12.367122
+  },
+  {
+    "indirizzo abitazione": "Via Marco Tullio Cicerone, 156 – 03100 Frosinone FR",
+    "lat": 41.769293,
+    "lon": 12.471462
+  },
+  {
+    "indirizzo abitazione": "Via Madonna della Neve, 41 – 03100 Frosinone FR",
+    "lat": 41.733779,
+    "lon": 12.24064
+  },
+  {
+    "indirizzo abitazione": "Via Roma, 102 – 03043 Cassino FR",
+    "lat": 42.028286,
+    "lon": 12.58841
+  },
+  {
+    "indirizzo abitazione": "Via Colle Tasso, 12 – 03029 Veroli FR",
+    "lat": 41.803222,
+    "lon": 12.446564
+  },
+  {
+    "indirizzo abitazione": "Via Stazione, 14 – 03036 Isola del Liri FR",
+    "lat": 41.89521,
+    "lon": 12.205118
+  },
+  {
+    "indirizzo abitazione": "Via Garibaldi, 48 – 03023 Ceccano FR",
+    "lat": 41.656679,
+    "lon": 12.360147
+  },
+  {
+    "indirizzo abitazione": "Via Madonna della Pace, 3 – 03044 Cervaro FR",
+    "lat": 41.648361,
+    "lon": 12.550657
+  },
+  {
+    "indirizzo abitazione": "Via del Lago, 5 – 03010 Posta Fibreno FR",
+    "lat": 42.131186,
+    "lon": 12.58536
+  },
+  {
+    "indirizzo abitazione": "Via della Vittoria, 20 – 03011 Alatri FR",
+    "lat": 42.045016,
+    "lon": 12.70403
+  },
+  {
+    "indirizzo abitazione": "Via Corridoio, 4 – 04027 Ponza LT",
+    "lat": 40.680021,
+    "lon": 14.043165
+  },
+  {
+    "indirizzo abitazione": "Via Dietro la Chiesa, 12 – 04027 Ponza LT",
+    "lat": 40.959209,
+    "lon": 14.360577
+  },
+  {
+    "indirizzo abitazione": "Piazza Castello, 1 – 04020 Ventotene LT",
+    "lat": 40.711874,
+    "lon": 14.169767
+  },
+  {
+    "indirizzo abitazione": "Via del Mare, 222 – 04010 San Felice Circeo LT",
+    "lat": 42.002381,
+    "lon": 12.375251
+  },
+  {
+    "indirizzo abitazione": "Via Regina Elena, 54 – 04010 Sabaudia LT",
+    "lat": 41.996741,
+    "lon": 12.717752
+  },
+  {
+    "indirizzo abitazione": "Via Monti Lepini, 33 – 04012 Cisterna di Latina LT",
+    "lat": 41.871163,
+    "lon": 12.521235
+  },
+  {
+    "indirizzo abitazione": "Via Guglielmo Marconi, 48 – 04014 Pontinia LT",
+    "lat": 42.092208,
+    "lon": 12.609655
+  },
+  {
+    "indirizzo abitazione": "Via Madonna delle Grazie, 14 – 04017 San Felice Circeo LT",
+    "lat": 41.911567,
+    "lon": 12.135694
+  },
+  {
+    "indirizzo abitazione": "Corso Appio Claudio, 12 – 04011 Aprilia LT",
+    "lat": 41.898849,
+    "lon": 12.84506
+  },
+  {
+    "indirizzo abitazione": "Via Aldo Moro, 23 – 04026 Minturno LT",
+    "lat": 41.857129,
+    "lon": 12.182008
+  },
+  {
+    "indirizzo abitazione": "Via del Lido, 190 – 04100 Latina LT",
+    "lat": 42.05887,
+    "lon": 12.688602
+  },
+  {
+    "indirizzo abitazione": "Via per Fiuggi, 8 – 03011 Alatri FR",
+    "lat": 41.706976,
+    "lon": 12.466579
+  },
+  {
+    "indirizzo abitazione": "Via della Repubblica, 76 – 03014 Fiuggi FR",
+    "lat": 42.112537,
+    "lon": 12.442039
+  },
+  {
+    "indirizzo abitazione": "Via Mazzini, 13 – 03020 Ferentino FR",
+    "lat": 42.150395,
+    "lon": 12.476126
+  },
+  {
+    "indirizzo abitazione": "Via Colle Rosso, 5 – 03010 Boville Ernica FR",
+    "lat": 42.025735,
+    "lon": 12.657891
+  },
+  {
+    "indirizzo abitazione": "Via Casilina, 99 – 03038 Roccasecca FR",
+    "lat": 41.817184,
+    "lon": 12.376333
+  },
+  {
+    "indirizzo abitazione": "Via Roma, 57 – 03030 Arpino FR",
+    "lat": 41.856908,
+    "lon": 12.786043
+  },
+  {
+    "indirizzo abitazione": "Via Vicinale San Paolo, 22 – 03030 Fontana Liri FR",
+    "lat": 42.016276,
+    "lon": 12.507635
+  },
+  {
+    "indirizzo abitazione": "Via Roma, 45 – 04015 Priverno LT",
+    "lat": 42.038466,
+    "lon": 12.525314
+  },
+  {
+    "indirizzo abitazione": "Via Nazionale, 78 – 04015 Priverno LT",
+    "lat": 42.061196,
+    "lon": 12.461854
+  },
+  {
+    "indirizzo abitazione": "Via dei Monti Lepini, 12 – 04015 Priverno LT",
+    "lat": 42.102631,
+    "lon": 12.549966
+  },
+  {
+    "indirizzo abitazione": "Via Giuseppe Garibaldi, 33 – 04021 Roccagorga LT",
+    "lat": 41.846048,
+    "lon": 12.454533
+  },
+  {
+    "indirizzo abitazione": "Via del Castello, 8 – 04021 Roccagorga LT",
+    "lat": 41.807848,
+    "lon": 12.659666
+  },
+  {
+    "indirizzo abitazione": "Via Umberto I, 15 – 04025 Maenza LT",
+    "lat": 41.82054,
+    "lon": 12.28781
+  },
+  {
+    "indirizzo abitazione": "Via del Centro, 22 – 04025 Maenza LT",
+    "lat": 41.86286,
+    "lon": 12.50412
+  },
+  {
+    "indirizzo abitazione": "Via San Nicola, 9 – 04030 Bassiano LT",
+    "lat": 41.886989,
+    "lon": 12.798177
+  },
+  {
+    "indirizzo abitazione": "Via del Borgo, 4 – 04030 Bassiano LT",
+    "lat": 42.068366,
+    "lon": 12.659352
+  },
+  {
+    "indirizzo abitazione": "Via del Lido, 350 – 04100 Latina LT",
+    "lat": 41.850702,
+    "lon": 12.787205
+  },
+  {
+    "indirizzo abitazione": "Via Aspromonte, 88 – 04100 Latina LT",
+    "lat": 42.066625,
+    "lon": 12.61697
+  },
+  {
+    "indirizzo abitazione": "Viale Kennedy, 145 – 04100 Latina LT",
+    "lat": 41.715904,
+    "lon": 12.348761
+  },
+  {
+    "indirizzo abitazione": "Via del Mare, 67 – 04100 Latina LT",
+    "lat": 41.755862,
+    "lon": 12.621915
+  },
+  {
+    "indirizzo abitazione": "Via Dei Cappuccini, 34 – 04100 Latina LT",
+    "lat": 41.77857,
+    "lon": 12.642159
+  },
+  {
+    "indirizzo abitazione": "Via Piave, 102 – 04100 Latina LT",
+    "lat": 42.078628,
+    "lon": 12.62092
+  },
+  {
+    "indirizzo abitazione": "Via della Costituzione, 55 – 04011 Aprilia LT",
+    "lat": 41.95717,
+    "lon": 12.198104
+  },
+  {
+    "indirizzo abitazione": "Via Europa, 88 – 04011 Aprilia LT",
+    "lat": 41.800831,
+    "lon": 12.614275
+  },
+  {
+    "indirizzo abitazione": "Via Carroceto, 23 – 04011 Aprilia LT",
+    "lat": 41.796398,
+    "lon": 12.172532
+  },
+  {
+    "indirizzo abitazione": "Via dei Mille, 67 – 04011 Aprilia LT",
+    "lat": 41.67194,
+    "lon": 12.454624
+  },
+  {
+    "indirizzo abitazione": "Via Pontina Vecchia, 134 – 04011 Aprilia LT",
+    "lat": 42.095179,
+    "lon": 12.660893
+  },
+  {
+    "indirizzo abitazione": "Via Roma, 88 – 04012 Cisterna di Latina LT",
+    "lat": 41.980903,
+    "lon": 12.545762
+  },
+  {
+    "indirizzo abitazione": "Via Colleferro, 45 – 04012 Cisterna di Latina LT",
+    "lat": 42.06038,
+    "lon": 12.527593
+  },
+  {
+    "indirizzo abitazione": "Via dei Cappuccini, 12 – 04012 Cisterna di Latina LT",
+    "lat": 41.98201,
+    "lon": 12.638587
+  },
+  {
+    "indirizzo abitazione": "Via Casilina, 234 – 04012 Cisterna di Latina LT",
+    "lat": 41.912352,
+    "lon": 12.831125
+  },
+  {
+    "indirizzo abitazione": "Via Unità d'Italia, 78 – 04023 Formia LT",
+    "lat": 41.703878,
+    "lon": 12.416285
+  },
+  {
+    "indirizzo abitazione": "Via Tullio Cicerone, 45 – 04023 Formia LT",
+    "lat": 41.700828,
+    "lon": 12.713978
+  },
+  {
+    "indirizzo abitazione": "Via del Porto, 23 – 04023 Formia LT",
+    "lat": 41.824345,
+    "lon": 12.655316
+  },
+  {
+    "indirizzo abitazione": "Via Vindicio, 88 – 04023 Formia LT",
+    "lat": 42.056273,
+    "lon": 12.680485
+  },
+  {
+    "indirizzo abitazione": "Via del Tempio di Giove, 15 – 04019 Terracina LT",
+    "lat": 42.037149,
+    "lon": 12.345952
+  },
+  {
+    "indirizzo abitazione": "Via Porto Salvo, 67 – 04019 Terracina LT",
+    "lat": 41.857558,
+    "lon": 12.654311
+  },
+  {
+    "indirizzo abitazione": "Via Anxur, 34 – 04019 Terracina LT",
+    "lat": 41.858824,
+    "lon": 12.192622
+  },
+  {
+    "indirizzo abitazione": "Via Madonna del Cielo, 22 – 04022 Fondi LT",
+    "lat": 41.638198,
+    "lon": 12.548004
+  },
+  {
+    "indirizzo abitazione": "Via San Magno, 45 – 04022 Fondi LT",
+    "lat": 42.006751,
+    "lon": 12.346486
+  },
+  {
+    "indirizzo abitazione": "Via del Lago, 78 – 04022 Fondi LT",
+    "lat": 42.096459,
+    "lon": 12.278387
+  },
+  {
+    "indirizzo abitazione": "Via Roma, 25 – 03010 Acuto FR",
+    "lat": 42.084608,
+    "lon": 12.443627
+  },
+  {
+    "indirizzo abitazione": "Via del Castello, 8 – 03010 Acuto FR",
+    "lat": 42.085693,
+    "lon": 12.539258
+  },
+  {
+    "indirizzo abitazione": "Via della Certosa, 12 – 03015 Collepardo FR",
+    "lat": 41.934756,
+    "lon": 12.20951
+  },
+  {
+    "indirizzo abitazione": "Via Trisulti, 5 – 03015 Collepardo FR",
+    "lat": 41.986373,
+    "lon": 12.659638
+  },
+  {
+    "indirizzo abitazione": "Via Monte Scalambra, 18 – 03017 Guarcino FR",
+    "lat": 41.885011,
+    "lon": 12.649765
+  },
+  {
+    "indirizzo abitazione": "Via del Centro, 7 – 03017 Guarcino FR",
+    "lat": 41.912133,
+    "lon": 12.612235
+  },
+  {
+    "indirizzo abitazione": "Via Roma, 33 – 03019 Supino FR",
+    "lat": 41.86089,
+    "lon": 12.364739
+  },
+  {
+    "indirizzo abitazione": "Via Nazionale, 15 – 03019 Supino FR",
+    "lat": 41.931667,
+    "lon": 12.186795
+  },
+  {
+    "indirizzo abitazione": "Via Valle del Sacco, 22 – 03021 Sgurgola FR",
+    "lat": 42.145531,
+    "lon": 12.34264
+  },
+  {
+    "indirizzo abitazione": "Via del Municipio, 9 – 03021 Sgurgola FR",
+    "lat": 41.92708,
+    "lon": 12.774559
+  },
+  {
+    "indirizzo abitazione": "Via della Stazione, 45 – 03024 Ceprano FR",
+    "lat": 41.809799,
+    "lon": 12.285656
+  },
+  {
+    "indirizzo abitazione": "Via Roma, 88 – 03024 Ceprano FR",
+    "lat": 41.837277,
+    "lon": 12.784997
+  },
+  {
+    "indirizzo abitazione": "Via della Ferrovia, 12 – 03024 Ceprano FR",
+    "lat": 41.846928,
+    "lon": 12.482194
+  },
+  {
+    "indirizzo abitazione": "Via del Liri, 23 – 03025 Falvaterra FR",
+    "lat": 41.790185,
+    "lon": 12.504033
+  },
+  {
+    "indirizzo abitazione": "Via Nazionale, 8 – 03025 Falvaterra FR",
+    "lat": 42.005705,
+    "lon": 12.280555
+  },
+  {
+    "indirizzo abitazione": "Via Roma, 67 – 03026 Monte San Giovanni Campano FR",
+    "lat": 41.754658,
+    "lon": 12.659915
+  },
+  {
+    "indirizzo abitazione": "Via del Castello, 15 – 03026 Monte San Giovanni Campano FR",
+    "lat": 41.816222,
+    "lon": 12.215384
+  },
+  {
+    "indirizzo abitazione": "Via San Giovanni, 34 – 03026 Monte San Giovanni Campano FR",
+    "lat": 42.155967,
+    "lon": 12.393865
+  },
+  {
+    "indirizzo abitazione": "Via del Centro, 11 – 03027 Ripi FR",
+    "lat": 41.719748,
+    "lon": 12.703653
+  },
+  {
+    "indirizzo abitazione": "Via Roma, 28 – 03027 Ripi FR",
+    "lat": 42.094298,
+    "lon": 12.29651
+  },
+  {
+    "indirizzo abitazione": "Via Valle di Comino, 9 – 03028 Santopadre FR",
+    "lat": 41.730854,
+    "lon": 12.573915
+  },
+  {
+    "indirizzo abitazione": "Via del Paese, 5 – 03028 Santopadre FR",
+    "lat": 41.952816,
+    "lon": 12.167544
+  },
+  {
+    "indirizzo abitazione": "Via Roma, 78 – 03031 Arce FR",
+    "lat": 41.922352,
+    "lon": 12.222511
+  },
+  {
+    "indirizzo abitazione": "Via della Stazione, 23 – 03031 Arce FR",
+    "lat": 41.940375,
+    "lon": 12.71424
+  },
+  {
+    "indirizzo abitazione": "Via Valle del Liri, 45 – 03031 Arce FR",
+    "lat": 41.857868,
+    "lon": 12.680906
+  },
+  {
+    "indirizzo abitazione": "Via del Castello, 12 – 03032 Belmonte Castello FR",
+    "lat": 41.708484,
+    "lon": 12.345951
+  },
+  {
+    "indirizzo abitazione": "Via del Centro, 6 – 03032 Belmonte Castello FR",
+    "lat": 41.976185,
+    "lon": 12.588832
+  },
+  {
+    "indirizzo abitazione": "Via degli Appennini, 18 – 03033 Campoli Appennino FR",
+    "lat": 41.8034,
+    "lon": 12.320273
+  },
+  {
+    "indirizzo abitazione": "Via Monte Meta, 7 – 03033 Campoli Appennino FR",
+    "lat": 41.935945,
+    "lon": 12.68353
+  },
+  {
+    "indirizzo abitazione": "Via del Paese, 15 – 03034 Casalattico FR",
+    "lat": 41.836441,
+    "lon": 12.18193
+  },
+  {
+    "indirizzo abitazione": "Via Roma, 4 – 03034 Casalattico FR",
+    "lat": 41.845672,
+    "lon": 12.286253
+  },
+  {
+    "indirizzo abitazione": "Via Valle di Comino, 22 – 03035 Casalvieri FR",
+    "lat": 41.904994,
+    "lon": 12.557736
+  },
+  {
+    "indirizzo abitazione": "Via del Centro, 9 – 03035 Casalvieri FR",
+    "lat": 41.782724,
+    "lon": 12.57308
+  },
+  {
+    "scuola": "IIS Priverno Via Roma - 04015 Priverno LT",
+    "lat": 42.006482,
+    "lon": 12.535966
+  },
+  {
+    "scuola": "IIS Terracina Via del Porto - 04019 Terracina LT",
+    "lat": 41.792563,
+    "lon": 12.508973
+  },
+  {
+    "scuola": "IIS Gaeta Via Appia - 04024 Gaeta LT",
+    "lat": 41.920455,
+    "lon": 12.732058
+  },
+  {
+    "scuola": "IIS Ceprano Via della Stazione - 03024 Ceprano FR",
+    "lat": 41.668796,
+    "lon": 12.318173
+  },
+  {
+    "scuola": "IIS Arce Via Roma - 03031 Arce FR",
+    "lat": 42.014945,
+    "lon": 12.368946
+  },
+  {
+    "RSA": "RSA Priverno Via Nazionale - 04015 Priverno LT",
+    "lat": 42.071754,
+    "lon": 12.33082
+  },
+  {
+    "RSA": "RSA Terracina Via Anxur - 04019 Terracina LT",
+    "lat": 41.801452,
+    "lon": 12.623909
+  },
+  {
+    "RSA": "RSA Gaeta Via del Porto - 04024 Gaeta LT",
+    "lat": 41.847105,
+    "lon": 12.356335
+  },
+  {
+    "RSA": "RSA Ceprano Via Roma - 03024 Ceprano FR",
+    "lat": 42.050234,
+    "lon": 12.343057
+  },
+  {
+    "impianto lavorativo": "Zona industriale Priverno - 04015 Priverno LT",
+    "lat": 41.765547,
+    "lon": 12.655357
+  },
+  {
+    "impianto lavorativo": "Porto di Gaeta - 04024 Gaeta LT",
+    "lat": 41.923954,
+    "lon": 12.771632
+  },
+  {
+    "impianto lavorativo": "Zona industriale Ceprano - 03024 Ceprano FR",
+    "lat": 42.09563,
+    "lon": 12.558966
+  },
+  {
+    "impianto lavorativo": "Stabilimento Arce - 03031 Arce FR",
+    "lat": 41.736798,
+    "lon": 12.579314
+  },
+  {
+    "impianto sportivo": "Centro sportivo Priverno - 04015 Priverno LT",
+    "lat": 41.80848,
+    "lon": 12.642902
+  },
+  {
+    "impianto sportivo": "Centro sportivo Terracina Via Anxur - 04019 Terracina LT",
+    "lat": 41.831453,
+    "lon": 12.435589
+  },
+  {
+    "impianto sportivo": "Centro sportivo Gaeta - 04024 Gaeta LT",
+    "lat": 42.157867,
+    "lon": 12.534883
+  },
+  {
+    "impianto sportivo": "Centro sportivo Ceprano - 03024 Ceprano FR",
+    "lat": 41.753204,
+    "lon": 12.694907
+  },
+  {
+    "impianto sportivo": "Centro sportivo Arce - 03031 Arce FR",
+    "lat": 41.907954,
+    "lon": 12.440454
+  },
+  {
+    "strada": "SS 156 dei Monti Lepini km 25 - 04015 Priverno LT",
+    "lat": 41.716029,
+    "lon": 12.496993
+  },
+  {
+    "strada": "SS 213 Flacca km 15 - 04024 Gaeta LT",
+    "lat": 41.969264,
+    "lon": 12.19461
+  },
+  {
+    "strada": "SS 627 della Vandra km 8 - 03024 Ceprano FR",
+    "lat": 41.860218,
+    "lon": 12.161037
+  },
+  {
+    "strada": "A1 MI-NA km 650 - 03031 Arce FR",
+    "lat": 41.730405,
+    "lon": 12.317168
+  },
+  {
+    "strada": "SS 82 della Valledel Liri km 12 - 03026 Monte San Giovanni Campano FR",
+    "lat": 41.960023,
+    "lon": 12.522581
+  },
+  {
+    "strada": "SS 155 di Fiuggi km 18 - 03017 Guarcino FR",
+    "lat": 42.000893,
+    "lon": 12.76649
+  },
+  {
+    "Pronto Soccorso ": "H Terracina, 04019 - Terracina LT",
+    "lat": 41.921085,
+    "lon": 12.153172
+  },
+  {
+    "Pronto Soccorso ": "H Fondi, 04022 - Fondi LT",
+    "lat": 41.843156,
+    "lon": 12.617887
+  },
+  {
+    "Pronto Soccorso ": "H Cassino, 03043 - Cassino FR",
+    "lat": 41.975316,
+    "lon": 12.822471
+  },
+  {
+    "Pronto Soccorso ": "H Sora, 03039 - Sora FR",
+    "lat": 41.965773,
+    "lon": 12.178485
+  },
+  {
+    "Pronto Soccorso ": "H Alatri, 03011 - Alatri FR",
+    "lat": 42.15002,
+    "lon": 12.535208
+  },
+  {
+    "Pronto Soccorso ": "H Aprilia, 04011 - Aprilia LT",
+    "lat": 41.702263,
+    "lon": 12.37921
+  },
+  {
+    "Pronto Soccorso ": "H Formia, 04023 - Formia LT",
+    "lat": 42.068969,
+    "lon": 12.644606
+  },
+  {
+    "scuola": "IIS Aprilia Via Ottorino Respighi - 04011 Aprilia LT",
+    "lat": 41.767818,
+    "lon": 12.4518
+  },
+  {
+    "scuola": "IIS Latina Via Reno - 04100 Latina LT",
+    "lat": 41.779745,
+    "lon": 12.408758
+  },
+  {
+    "scuola": "IIS Frosinone Viale Roma, 69 - 03100 Frosinone FR",
+    "lat": 41.834321,
+    "lon": 12.741643
+  },
+  {
+    "scuola": "IIS Cassino Via Sant'Angelo - 03043 Cassino FR",
+    "lat": 41.790461,
+    "lon": 12.494477
+  },
+  {
+    "RSA": "RSA Aprilia Viale Italia, 1 - 04011 Aprilia LT",
+    "lat": 41.966427,
+    "lon": 12.317681
+  },
+  {
+    "RSA": "RSA Latina Via Franco Faggiana, 1668 - 04100 Latina LT",
+    "lat": 42.04956,
+    "lon": 12.736774
+  },
+  {
+    "RSA": "RSA Frosinone Via Casilina - 03013 Ferentino FR",
+    "lat": 41.971079,
+    "lon": 12.685064
+  },
+  {
+    "RSA": "RSA Cassino Corso della Repubblica, 232 - 03043 Cassino FR",
+    "lat": 41.75909,
+    "lon": 12.511165
+  },
+  {
+    "impianto lavorativo": "Piazza Sada Pietro, 13, 04011 Aprilia LT",
+    "lat": 41.842547,
+    "lon": 12.247912
+  },
+  {
+    "impianto lavorativo": "Viale John Fitzgerald Kennedy, 68 - 04100 Latina LT",
+    "lat": 41.718869,
+    "lon": 12.295047
+  },
+  {
+    "impianto lavorativo": "Via Morolense Km 10 - 03010 Patrica FR",
+    "lat": 41.910203,
+    "lon": 12.193125
+  },
+  {
+    "impianto lavorativo": "FCA SP276 - 03030 Piedimonte San Germano FR",
+    "lat": 41.775761,
+    "lon": 12.532902
+  },
+  {
+    "impianto sportivo": "Centro sportivo Latina Via Sandro Botticelli - 04100 Latina LT ",
+    "lat": 41.881175,
+    "lon": 12.338374
+  },
+  {
+    "impianto sportivo": "Centro sportivo Cisterna Via Lombardia, 1 - 04012 Cisterna di Latina LT",
+    "lat": 42.099242,
+    "lon": 12.438622
+  },
+  {
+    "impianto sportivo": "Centro sportivo Frosinone Via Giovan Battista Grappelli - 03100 Frosinone FR",
+    "lat": 42.133826,
+    "lon": 12.413827
+  },
+  {
+    "impianto sportivo": "Centro sportivo Cassino Strada Provinciale 81 - 03043 Cassino FR",
+    "lat": 41.956687,
+    "lon": 12.760492
+  },
+  {
+    "strada": "SS 148 km 40 - SS148, 04011 Aprilia LT ",
+    "lat": 42.060715,
+    "lon": 12.700468
+  },
+  {
+    "strada": "SS7 - 04014 Pontinia LT ",
+    "lat": 41.813033,
+    "lon": 12.796872
+  },
+  {
+    "strada": "A1 MI-NA km 580- 03013 Ferentino FR",
+    "lat": 41.661925,
+    "lon": 12.579682
+  },
+  {
+    "strada": "A1 MI-NA km 639 - 03038 Roccasecca FR ",
+    "lat": 41.665482,
+    "lon": 12.628422
+  },
+  {
+    "indirizzo abitazione": "Via dei Tigli, 45 – 04100 Latina LT",
+    "lat": 41.949881,
+    "lon": 12.787911
+  },
+  {
+    "indirizzo abitazione": "Via Tasso, 22 – 04100 Latina LT",
+    "lat": 41.693991,
+    "lon": 12.543808
+  },
+  {
+    "indirizzo abitazione": "Via Petrarca, 67 – 04100 Latina LT",
+    "lat": 42.095173,
+    "lon": 12.348114
+  },
+  {
+    "indirizzo abitazione": "Via Leopardi, 15 – 04100 Latina LT",
+    "lat": 41.721505,
+    "lon": 12.532754
+  },
+  {
+    "indirizzo abitazione": "Via Manzoni, 89 – 04100 Latina LT",
+    "lat": 42.063075,
+    "lon": 12.628153
+  },
+  {
+    "indirizzo abitazione": "Via Foscolo, 33 – 04100 Latina LT",
+    "lat": 41.834705,
+    "lon": 12.834696
+  },
+  {
+    "indirizzo abitazione": "Via Carducci, 76 – 04100 Latina LT",
+    "lat": 41.77433,
+    "lon": 12.265644
+  },
+  {
+    "indirizzo abitazione": "Via Verdi, 54 – 04100 Latina LT",
+    "lat": 41.923968,
+    "lon": 12.382399
+  },
+  {
+    "indirizzo abitazione": "Via Rossini, 21 – 04100 Latina LT",
+    "lat": 42.058605,
+    "lon": 12.545109
+  },
+  {
+    "indirizzo abitazione": "Via Puccini, 98 – 04100 Latina LT",
+    "lat": 41.726484,
+    "lon": 12.239362
+  },
+  {
+    "indirizzo abitazione": "Via Bellini, 12 – 04100 Latina LT",
+    "lat": 41.716001,
+    "lon": 12.325
+  },
+  {
+    "indirizzo abitazione": "Via Donizetti, 65 – 04100 Latina LT",
+    "lat": 41.889618,
+    "lon": 12.564561
+  },
+  {
+    "indirizzo abitazione": "Via Mascagni, 87 – 04100 Latina LT",
+    "lat": 41.974112,
+    "lon": 12.723933
+  },
+  {
+    "indirizzo abitazione": "Via Palestrina, 43 – 04100 Latina LT",
+    "lat": 41.846262,
+    "lon": 12.148693
+  },
+  {
+    "indirizzo abitazione": "Via Monteverdi, 29 – 04100 Latina LT",
+    "lat": 41.679254,
+    "lon": 12.625133
+  },
+  {
+    "indirizzo abitazione": "Via delle Rose, 156 – 04011 Aprilia LT",
+    "lat": 42.022254,
+    "lon": 12.606978
+  },
+  {
+    "indirizzo abitazione": "Via dei Girasoli, 78 – 04011 Aprilia LT",
+    "lat": 42.05898,
+    "lon": 12.429104
+  },
+  {
+    "indirizzo abitazione": "Via delle Margherite, 92 – 04011 Aprilia LT",
+    "lat": 42.002191,
+    "lon": 12.782139
+  },
+  {
+    "indirizzo abitazione": "Via dei Tulipani, 34 – 04011 Aprilia LT",
+    "lat": 42.06411,
+    "lon": 12.411521
+  },
+  {
+    "indirizzo abitazione": "Via delle Violette, 67 – 04011 Aprilia LT",
+    "lat": 42.015712,
+    "lon": 12.451079
+  },
+  {
+    "indirizzo abitazione": "Via dei Narcisi, 89 – 04011 Aprilia LT",
+    "lat": 41.928498,
+    "lon": 12.743423
+  },
+  {
+    "indirizzo abitazione": "Via delle Gardenie, 123 – 04011 Aprilia LT",
+    "lat": 42.061339,
+    "lon": 12.425996
+  },
+  {
+    "indirizzo abitazione": "Via dei Gelsomini, 45 – 04011 Aprilia LT",
+    "lat": 41.810407,
+    "lon": 12.679699
+  },
+  {
+    "indirizzo abitazione": "Via delle Azalee, 76 – 04011 Aprilia LT",
+    "lat": 41.756469,
+    "lon": 12.500236
+  },
+  {
+    "indirizzo abitazione": "Via dei Ciclamini, 21 – 04011 Aprilia LT",
+    "lat": 41.993291,
+    "lon": 12.630813
+  },
+  {
+    "indirizzo abitazione": "Via delle Orchidee, 98 – 04011 Aprilia LT",
+    "lat": 42.026786,
+    "lon": 12.797152
+  },
+  {
+    "indirizzo abitazione": "Via dei Gladioli, 54 – 04011 Aprilia LT",
+    "lat": 41.760623,
+    "lon": 12.358581
+  },
+  {
+    "indirizzo abitazione": "Via delle Camelie, 132 – 04011 Aprilia LT",
+    "lat": 41.893299,
+    "lon": 12.495254
+  },
+  {
+    "indirizzo abitazione": "Via dei Garofani, 87 – 04011 Aprilia LT",
+    "lat": 41.733516,
+    "lon": 12.58862
+  },
+  {
+    "indirizzo abitazione": "Via delle Primule, 43 – 04011 Aprilia LT",
+    "lat": 41.795041,
+    "lon": 12.578783
+  },
+  {
+    "indirizzo abitazione": "Via del Mare, 234 – 04019 Terracina LT",
+    "lat": 41.85916,
+    "lon": 12.688736
+  },
+  {
+    "indirizzo abitazione": "Via Romana, 67 – 04019 Terracina LT",
+    "lat": 41.942453,
+    "lon": 12.82007
+  },
+  {
+    "indirizzo abitazione": "Via del Faro, 89 – 04019 Terracina LT",
+    "lat": 41.866787,
+    "lon": 12.815195
+  },
+  {
+    "indirizzo abitazione": "Via dei Pini, 145 – 04019 Terracina LT",
+    "lat": 41.964231,
+    "lon": 12.308146
+  },
+  {
+    "indirizzo abitazione": "Via delle Palme, 78 – 04019 Terracina LT",
+    "lat": 41.839585,
+    "lon": 12.267391
+  },
+  {
+    "indirizzo abitazione": "Via del Porto, 123 – 04019 Terracina LT",
+    "lat": 41.801577,
+    "lon": 12.511311
+  },
+  {
+    "indirizzo abitazione": "Via Litoranea, 56 – 04019 Terracina LT",
+    "lat": 41.728347,
+    "lon": 12.772805
+  },
+  {
+    "indirizzo abitazione": "Via delle Dune, 91 – 04019 Terracina LT",
+    "lat": 42.095137,
+    "lon": 12.597177
+  },
+  {
+    "indirizzo abitazione": "Via del Lungomare, 167 – 04019 Terracina LT",
+    "lat": 41.965434,
+    "lon": 12.509165
+  },
+  {
+    "indirizzo abitazione": "Via delle Sirene, 34 – 04019 Terracina LT",
+    "lat": 41.806324,
+    "lon": 12.731392
+  },
+  {
+    "indirizzo abitazione": "Via Traiano, 78 – 04023 Formia LT",
+    "lat": 42.126941,
+    "lon": 12.602288
+  },
+  {
+    "indirizzo abitazione": "Via Cicerone, 145 – 04023 Formia LT",
+    "lat": 41.874804,
+    "lon": 12.553167
+  },
+  {
+    "indirizzo abitazione": "Via Augusto, 92 – 04023 Formia LT",
+    "lat": 42.015439,
+    "lon": 12.730918
+  },
+  {
+    "indirizzo abitazione": "Via Nerone, 56 – 04023 Formia LT",
+    "lat": 41.800049,
+    "lon": 12.601407
+  },
+  {
+    "indirizzo abitazione": "Via Adriano, 123 – 04023 Formia LT",
+    "lat": 41.787039,
+    "lon": 12.73537
+  },
+  {
+    "indirizzo abitazione": "Via Tiberio, 67 – 04023 Formia LT",
+    "lat": 41.961875,
+    "lon": 12.830865
+  },
+  {
+    "indirizzo abitazione": "Via Caligola, 89 – 04023 Formia LT",
+    "lat": 42.089016,
+    "lon": 12.490352
+  },
+  {
+    "indirizzo abitazione": "Via Claudio, 34 – 04023 Formia LT",
+    "lat": 41.6803,
+    "lon": 12.42755
+  },
+  {
+    "indirizzo abitazione": "Via Vespasiano, 156 – 04023 Formia LT",
+    "lat": 41.892196,
+    "lon": 12.56505
+  },
+  {
+    "indirizzo abitazione": "Via Domiziano, 21 – 04023 Formia LT",
+    "lat": 41.855845,
+    "lon": 12.62175
+  },
+  {
+    "indirizzo abitazione": "Via Nazionale, 234 – 04022 Fondi LT",
+    "lat": 41.996265,
+    "lon": 12.428574
+  },
+  {
+    "indirizzo abitazione": "Via del Centro, 67 – 04022 Fondi LT",
+    "lat": 41.79374,
+    "lon": 12.369406
+  },
+  {
+    "indirizzo abitazione": "Via delle Colline, 89 – 04022 Fondi LT",
+    "lat": 41.982169,
+    "lon": 12.241518
+  },
+  {
+    "indirizzo abitazione": "Via San Francesco, 145 – 04022 Fondi LT",
+    "lat": 42.001901,
+    "lon": 12.299543
+  },
+  {
+    "indirizzo abitazione": "Via del Castello, 78 – 04022 Fondi LT",
+    "lat": 41.833519,
+    "lon": 12.679576
+  },
+  {
+    "indirizzo abitazione": "Via della Chiesa, 123 – 04022 Fondi LT",
+    "lat": 42.084369,
+    "lon": 12.631371
+  },
+  {
+    "indirizzo abitazione": "Via del Municipio, 56 – 04022 Fondi LT",
+    "lat": 41.674469,
+    "lon": 12.509266
+  },
+  {
+    "indirizzo abitazione": "Via delle Scuole, 91 – 04022 Fondi LT",
+    "lat": 41.972722,
+    "lon": 12.544647
+  },
+  {
+    "indirizzo abitazione": "Via Roma, 167 – 04012 Cisterna di Latina LT",
+    "lat": 41.882727,
+    "lon": 12.648095
+  },
+  {
+    "indirizzo abitazione": "Via Garibaldi, 234 – 04012 Cisterna di Latina LT",
+    "lat": 41.843549,
+    "lon": 12.359344
+  },
+  {
+    "indirizzo abitazione": "Via Mazzini, 78 – 04012 Cisterna di Latina LT",
+    "lat": 42.073417,
+    "lon": 12.71764
+  },
+  {
+    "indirizzo abitazione": "Via Cavour, 145 – 04012 Cisterna di Latina LT",
+    "lat": 42.031203,
+    "lon": 12.203398
+  },
+  {
+    "indirizzo abitazione": "Via Vittorio Veneto, 89 – 04012 Cisterna di Latina LT",
+    "lat": 41.861066,
+    "lon": 12.395128
+  },
+  {
+    "indirizzo abitazione": "Via della Libertà, 123 – 04012 Cisterna di Latina LT",
+    "lat": 41.864704,
+    "lon": 12.554062
+  },
+  {
+    "indirizzo abitazione": "Via dell'Indipendenza, 56 – 04012 Cisterna di Latina LT",
+    "lat": 41.889278,
+    "lon": 12.606005
+  },
+  {
+    "indirizzo abitazione": "Via del Porto, 89 – 04024 Gaeta LT",
+    "lat": 41.754989,
+    "lon": 12.445673
+  },
+  {
+    "indirizzo abitazione": "Via Nazionale, 123 – 04024 Gaeta LT",
+    "lat": 42.067457,
+    "lon": 12.605785
+  },
+  {
+    "indirizzo abitazione": "Via della Marina, 67 – 04024 Gaeta LT",
+    "lat": 41.699991,
+    "lon": 12.321049
+  },
+  {
+    "indirizzo abitazione": "Via del Castello, 145 – 04024 Gaeta LT",
+    "lat": 41.914202,
+    "lon": 12.203559
+  },
+  {
+    "indirizzo abitazione": "Via delle Torri, 78 – 04024 Gaeta LT",
+    "lat": 41.987998,
+    "lon": 12.721817
+  },
+  {
+    "indirizzo abitazione": "Via del Lungomare, 234 – 04024 Gaeta LT",
+    "lat": 41.87258,
+    "lon": 12.167311
+  },
+  {
+    "indirizzo abitazione": "Via Roma, 156 – 04018 Sezze LT",
+    "lat": 41.754404,
+    "lon": 12.636019
+  },
+  {
+    "indirizzo abitazione": "Via Garibaldi, 89 – 04018 Sezze LT",
+    "lat": 41.878609,
+    "lon": 12.660862
+  },
+  {
+    "indirizzo abitazione": "Via Mazzini, 123 – 04018 Sezze LT",
+    "lat": 41.690283,
+    "lon": 12.284577
+  },
+  {
+    "indirizzo abitazione": "Via del Centro, 67 – 04018 Sezze LT",
+    "lat": 42.142101,
+    "lon": 12.39595
+  },
+  {
+    "indirizzo abitazione": "Via della Chiesa, 91 – 04018 Sezze LT",
+    "lat": 42.086349,
+    "lon": 12.385434
+  },
+  {
+    "indirizzo abitazione": "Via delle Dune, 123 – 04016 Sabaudia LT",
+    "lat": 41.778024,
+    "lon": 12.354796
+  },
+  {
+    "indirizzo abitazione": "Via del Lago, 89 – 04016 Sabaudia LT",
+    "lat": 42.032811,
+    "lon": 12.310181
+  },
+  {
+    "indirizzo abitazione": "Via Nazionale, 156 – 04016 Sabaudia LT",
+    "lat": 42.058694,
+    "lon": 12.44887
+  },
+  {
+    "indirizzo abitazione": "Via delle Palme, 67 – 04016 Sabaudia LT",
+    "lat": 41.880575,
+    "lon": 12.341496
+  },
+  {
+    "indirizzo abitazione": "Via del Parco, 91 – 04016 Sabaudia LT",
+    "lat": 41.722562,
+    "lon": 12.7452
+  },
+  {
+    "indirizzo abitazione": "Via Roma, 78 – 04010 Cori LT",
+    "lat": 41.843383,
+    "lon": 12.311293
+  },
+  {
+    "indirizzo abitazione": "Via del Centro, 123 – 04010 Cori LT",
+    "lat": 42.167188,
+    "lon": 12.498215
+  },
+  {
+    "indirizzo abitazione": "Via della Chiesa, 89 – 04010 Cori LT",
+    "lat": 41.924352,
+    "lon": 12.28031
+  },
+  {
+    "indirizzo abitazione": "Via delle Colline, 156 – 04010 Cori LT",
+    "lat": 41.718856,
+    "lon": 12.511809
+  },
+  {
+    "indirizzo abitazione": "Via Roma, 134 – 04013 Sermoneta LT",
+    "lat": 41.95576,
+    "lon": 12.720173
+  },
+  {
+    "indirizzo abitazione": "Via del Castello, 67 – 04013 Sermoneta LT",
+    "lat": 41.878356,
+    "lon": 12.546199
+  },
+  {
+    "indirizzo abitazione": "Via delle Mura, 89 – 04013 Sermoneta LT",
+    "lat": 41.863705,
+    "lon": 12.403598
+  },
+  {
+    "indirizzo abitazione": "Via del Centro, 123 – 04013 Sermoneta LT",
+    "lat": 41.735641,
+    "lon": 12.562227
+  },
+  {
+    "indirizzo abitazione": "Via Nazionale, 89 – 04020 Itri LT",
+    "lat": 41.811022,
+    "lon": 12.785077
+  },
+  {
+    "indirizzo abitazione": "Via Roma, 123 – 04020 Itri LT",
+    "lat": 42.117563,
+    "lon": 12.635863
+  },
+  {
+    "indirizzo abitazione": "Via del Centro, 67 – 04020 Itri LT",
+    "lat": 41.893161,
+    "lon": 12.745975
+  },
+  {
+    "indirizzo abitazione": "Via Roma, 156 – 04028 Minturno LT",
+    "lat": 41.928185,
+    "lon": 12.574654
+  },
+  {
+    "indirizzo abitazione": "Via Nazionale, 89 – 04028 Minturno LT",
+    "lat": 41.830713,
+    "lon": 12.233382
+  },
+  {
+    "indirizzo abitazione": "Via del Porto, 123 – 04028 Minturno LT",
+    "lat": 41.821808,
+    "lon": 12.456114
+  },
+  {
+    "indirizzo abitazione": "Via Roma, 123 – 04026 Lenola LT",
+    "lat": 41.803637,
+    "lon": 12.811287
+  },
+  {
+    "indirizzo abitazione": "Via del Centro, 89 – 04026 Lenola LT",
+    "lat": 41.949779,
+    "lon": 12.659992
+  },
+  {
+    "indirizzo abitazione": "Via Nazionale, 67 – 04014 Pontinia LT",
+    "lat": 42.046697,
+    "lon": 12.259954
+  },
+  {
+    "indirizzo abitazione": "Via Roma, 123 – 04014 Pontinia LT",
+    "lat": 41.926909,
+    "lon": 12.661524
+  },
+  {
+    "indirizzo abitazione": "Via del Centro, 89 – 04014 Pontinia LT",
+    "lat": 42.091058,
+    "lon": 12.450451
+  },
+  {
+    "indirizzo abitazione": "Via delle Bonifiche, 156 – 04014 Pontinia LT",
+    "lat": 41.702178,
+    "lon": 12.712757
+  },
+  {
+    "indirizzo abitazione": "Via del Corso, 234 – 03100 Frosinone FR",
+    "lat": 42.082432,
+    "lon": 12.731536
+  },
+  {
+    "indirizzo abitazione": "Via Nazionale, 167 – 03100 Frosinone FR",
+    "lat": 41.952826,
+    "lon": 12.684719
+  },
+  {
+    "indirizzo abitazione": "Via della Stazione, 89 – 03100 Frosinone FR",
+    "lat": 42.012968,
+    "lon": 12.68153
+  },
+  {
+    "indirizzo abitazione": "Via dei Volsci, 123 – 03100 Frosinone FR",
+    "lat": 41.666036,
+    "lon": 12.545134
+  },
+  {
+    "indirizzo abitazione": "Via Tiburtina, 78 – 03100 Frosinone FR",
+    "lat": 42.081208,
+    "lon": 12.666009
+  },
+  {
+    "indirizzo abitazione": "Via del Centro, 145 – 03100 Frosinone FR",
+    "lat": 41.701497,
+    "lon": 12.570565
+  },
+  {
+    "indirizzo abitazione": "Via delle Vittorie, 56 – 03100 Frosinone FR",
+    "lat": 41.828778,
+    "lon": 12.363137
+  },
+  {
+    "indirizzo abitazione": "Via Marittima, 91 – 03100 Frosinone FR",
+    "lat": 42.109574,
+    "lon": 12.377871
+  },
+  {
+    "indirizzo abitazione": "Via del Parco, 167 – 03100 Frosinone FR",
+    "lat": 42.000354,
+    "lon": 12.230214
+  },
+  {
+    "indirizzo abitazione": "Via dei Pini, 234 – 03100 Frosinone FR",
+    "lat": 41.965896,
+    "lon": 12.426623
+  },
+  {
+    "indirizzo abitazione": "Via delle Querce, 78 – 03100 Frosinone FR",
+    "lat": 41.785707,
+    "lon": 12.788534
+  },
+  {
+    "indirizzo abitazione": "Via degli Ulivi, 123 – 03100 Frosinone FR",
+    "lat": 41.977898,
+    "lon": 12.781233
+  },
+  {
+    "indirizzo abitazione": "Via dei Cipressi, 89 – 03100 Frosinone FR",
+    "lat": 41.811114,
+    "lon": 12.782943
+  },
+  {
+    "indirizzo abitazione": "Via delle Magnolie, 156 – 03100 Frosinone FR",
+    "lat": 41.923934,
+    "lon": 12.839064
+  },
+  {
+    "indirizzo abitazione": "Via dei Cedri, 67 – 03100 Frosinone FR",
+    "lat": 41.788147,
+    "lon": 12.8084
+  },
+  {
+    "indirizzo abitazione": "Via Nazionale, 234 – 03043 Cassino FR",
+    "lat": 41.718166,
+    "lon": 12.759289
+  },
+  {
+    "indirizzo abitazione": "Via del Centro, 167 – 03043 Cassino FR",
+    "lat": 41.912959,
+    "lon": 12.566666
+  },
+  {
+    "indirizzo abitazione": "Via della Stazione, 89 – 03043 Cassino FR",
+    "lat": 42.095953,
+    "lon": 12.326554
+  },
+  {
+    "indirizzo abitazione": "Via dei Martiri, 123 – 03043 Cassino FR",
+    "lat": 41.853544,
+    "lon": 12.677206
+  },
+  {
+    "indirizzo abitazione": "Via Casilina, 78 – 03043 Cassino FR",
+    "lat": 42.050979,
+    "lon": 12.474023
+  },
+  {
+    "indirizzo abitazione": "Via delle Vittorie, 145 – 03043 Cassino FR",
+    "lat": 41.688191,
+    "lon": 12.499901
+  },
+  {
+    "indirizzo abitazione": "Via del Monastero, 56 – 03043 Cassino FR",
+    "lat": 42.041457,
+    "lon": 12.273808
+  },
+  {
+    "indirizzo abitazione": "Via dei Cappuccini, 91 – 03043 Cassino FR",
+    "lat": 41.768274,
+    "lon": 12.328037
+  },
+  {
+    "indirizzo abitazione": "Via del Borgo, 167 – 03043 Cassino FR",
+    "lat": 41.737453,
+    "lon": 12.546244
+  },
+  {
+    "indirizzo abitazione": "Via delle Torri, 234 – 03043 Cassino FR",
+    "lat": 41.660207,
+    "lon": 12.517866
+  },
+  {
+    "indirizzo abitazione": "Via del Centro, 156 – 03039 Sora FR",
+    "lat": 42.090125,
+    "lon": 12.667848
+  },
+  {
+    "indirizzo abitazione": "Via Nazionale, 89 – 03039 Sora FR",
+    "lat": 41.868998,
+    "lon": 12.190308
+  },
+  {
+    "indirizzo abitazione": "Via della Stazione, 123 – 03039 Sora FR",
+    "lat": 41.935485,
+    "lon": 12.761248
+  },
+  {
+    "indirizzo abitazione": "Via del Liri, 67 – 03039 Sora FR",
+    "lat": 41.856245,
+    "lon": 12.393169
+  },
+  {
+    "indirizzo abitazione": "Via delle Vittorie, 91 – 03039 Sora FR",
+    "lat": 41.841572,
+    "lon": 12.338532
+  },
+  {
+    "indirizzo abitazione": "Via Roma, 234 – 03039 Sora FR",
+    "lat": 41.789132,
+    "lon": 12.512917
+  },
+  {
+    "indirizzo abitazione": "Via Garibaldi, 78 – 03039 Sora FR",
+    "lat": 42.160591,
+    "lon": 12.544964
+  },
+  {
+    "indirizzo abitazione": "Via Mazzini, 145 – 03039 Sora FR",
+    "lat": 41.843899,
+    "lon": 12.631476
+  },
+  {
+    "indirizzo abitazione": "Via Roma, 134 – 03011 Alatri FR",
+    "lat": 41.960554,
+    "lon": 12.574511
+  },
+  {
+    "indirizzo abitazione": "Via del Centro, 89 – 03011 Alatri FR",
+    "lat": 42.028115,
+    "lon": 12.388129
+  },
+  {
+    "indirizzo abitazione": "Via Nazionale, 123 – 03011 Alatri FR",
+    "lat": 41.887921,
+    "lon": 12.70692
+  },
+  {
+    "indirizzo abitazione": "Via delle Mura, 67 – 03011 Alatri FR",
+    "lat": 41.69068,
+    "lon": 12.337262
+  },
+  {
+    "indirizzo abitazione": "Via del Castello, 91 – 03011 Alatri FR",
+    "lat": 41.792793,
+    "lon": 12.181574
+  },
+  {
+    "indirizzo abitazione": "Via della Chiesa, 156 – 03011 Alatri FR",
+    "lat": 41.986196,
+    "lon": 12.189159
+  },
+  {
+    "indirizzo abitazione": "Via Roma, 167 – 03013 Ferentino FR",
+    "lat": 41.672553,
+    "lon": 12.666578
+  },
+  {
+    "indirizzo abitazione": "Via del Centro, 234 – 03013 Ferentino FR",
+    "lat": 41.99816,
+    "lon": 12.236054
+  },
+  {
+    "indirizzo abitazione": "Via Nazionale, 89 – 03013 Ferentino FR",
+    "lat": 41.784905,
+    "lon": 12.777611
+  },
+  {
+    "indirizzo abitazione": "Via della Stazione, 123 – 03013 Ferentino FR",
+    "lat": 41.953671,
+    "lon": 12.832497
+  },
+  {
+    "indirizzo abitazione": "Via delle Mura, 78 – 03013 Ferentino FR",
+    "lat": 41.932756,
+    "lon": 12.819796
+  },
+  {
+    "indirizzo abitazione": "Via Roma, 123 – 03012 Anagni FR",
+    "lat": 41.960846,
+    "lon": 12.32655
+  },
+  {
+    "indirizzo abitazione": "Via del Centro, 89 – 03012 Anagni FR",
+    "lat": 41.844927,
+    "lon": 12.375381
+  },
+  {
+    "indirizzo abitazione": "Via Nazionale, 156 – 03012 Anagni FR",
+    "lat": 41.696977,
+    "lon": 12.631189
+  },
+  {
+    "indirizzo abitazione": "Via delle Cattedrali, 67 – 03012 Anagni FR",
+    "lat": 41.786791,
+    "lon": 12.534878
+  },
+  {
+    "indirizzo abitazione": "Via Roma, 89 – 03023 Ceccano FR",
+    "lat": 41.816965,
+    "lon": 12.205182
+  },
+  {
+    "indirizzo abitazione": "Via del Centro, 123 – 03023 Ceccano FR",
+    "lat": 41.844191,
+    "lon": 12.279119
+  },
+  {
+    "indirizzo abitazione": "Via Nazionale, 67 – 03023 Ceccano FR",
+    "lat": 41.941587,
+    "lon": 12.652482
+  },
+  {
+    "indirizzo abitazione": "Via della Stazione, 156 – 03023 Ceccano FR",
+    "lat": 41.794606,
+    "lon": 12.27829
+  },
+  {
+    "indirizzo abitazione": "Via Roma, 78 – 03029 Veroli FR",
+    "lat": 41.976487,
+    "lon": 12.253098
+  },
+  {
+    "indirizzo abitazione": "Via del Centro, 123 – 03029 Veroli FR",
+    "lat": 41.817278,
+    "lon": 12.657314
+  },
+  {
+    "indirizzo abitazione": "Via Nazionale, 89 – 03029 Veroli FR",
+    "lat": 41.868945,
+    "lon": 12.805467
+  },
+  {
+    "indirizzo abitazione": "Via Roma, 156 – 03014 Fiuggi FR",
+    "lat": 42.024449,
+    "lon": 12.672369
+  },
+  {
+    "indirizzo abitazione": "Via del Centro, 89 – 03014 Fiuggi FR",
+    "lat": 41.872683,
+    "lon": 12.24575
+  },
+  {
+    "indirizzo abitazione": "Via delle Terme, 123 – 03014 Fiuggi FR",
+    "lat": 41.757297,
+    "lon": 12.443058
+  },
+  {
+    "indirizzo abitazione": "Via Nazionale, 67 – 03014 Fiuggi FR",
+    "lat": 41.969794,
+    "lon": 12.805679
+  },
+  {
+    "indirizzo abitazione": "Via Roma, 123 – 03036 Isola del Liri FR",
+    "lat": 42.034904,
+    "lon": 12.790005
+  },
+  {
+    "indirizzo abitazione": "Via del Centro, 89 – 03036 Isola del Liri FR",
+    "lat": 41.907735,
+    "lon": 12.377937
+  },
+  {
+    "indirizzo abitazione": "Via delle Cascate, 156 – 03036 Isola del Liri FR",
+    "lat": 41.670536,
+    "lon": 12.312338
+  },
+  {
+    "indirizzo abitazione": "Via Roma, 89 – 03037 Pontecorvo FR",
+    "lat": 41.888322,
+    "lon": 12.615444
+  },
+  {
+    "indirizzo abitazione": "Via del Centro, 123 – 03037 Pontecorvo FR",
+    "lat": 41.917541,
+    "lon": 12.16106
+  },
+  {
+    "indirizzo abitazione": "Via Nazionale, 67 – 03037 Pontecorvo FR",
+    "lat": 41.73557,
+    "lon": 12.214536
+  },
+  {
+    "scuola": "Liceo Scientifico Latina Via Manzoni - 04100 Latina LT",
+    "lat": 41.821817,
+    "lon": 12.770757
+  },
+  {
+    "scuola": "Istituto Tecnico Aprilia Via Europa - 04011 Aprilia LT",
+    "lat": 42.048011,
+    "lon": 12.476863
+  },
+  {
+    "scuola": "Liceo Classico Terracina Via del Faro - 04019 Terracina LT",
+    "lat": 41.835076,
+    "lon": 12.725389
+  },
+  {
+    "scuola": "Istituto Professionale Formia Via Traiano - 04023 Formia LT",
+    "lat": 42.087641,
+    "lon": 12.495488
+  },
+  {
+    "scuola": "Liceo Artistico Frosinone Via del Parco - 03100 Frosinone FR",
+    "lat": 41.942189,
+    "lon": 12.783985
+  },
+  {
+    "scuola": "Istituto Tecnico Cassino Via Nazionale - 03043 Cassino FR",
+    "lat": 41.926669,
+    "lon": 12.675453
+  },
+  {
+    "scuola": "Liceo Linguistico Sora Via del Centro - 03039 Sora FR",
+    "lat": 42.025658,
+    "lon": 12.419029
+  },
+  {
+    "scuola": "Istituto Comprensivo Alatri Via Roma - 03011 Alatri FR",
+    "lat": 41.694269,
+    "lon": 12.52156
+  },
+  {
+    "scuola": "Scuola Media Ferentino Via della Stazione - 03013 Ferentino FR",
+    "lat": 41.878647,
+    "lon": 12.666563
+  },
+  {
+    "scuola": "Istituto Alberghiero Fiuggi Via delle Terme - 03014 Fiuggi FR",
+    "lat": 41.929294,
+    "lon": 12.751143
+  },
+  {
+    "scuola": "Scuola Elementare Cisterna Via Roma - 04012 Cisterna di Latina LT",
+    "lat": 41.766277,
+    "lon": 12.60385
+  },
+  {
+    "scuola": "Liceo Scientifico Fondi Via Nazionale - 04022 Fondi LT",
+    "lat": 41.781321,
+    "lon": 12.792288
+  },
+  {
+    "scuola": "Istituto Tecnico Gaeta Via del Porto - 04024 Gaeta LT",
+    "lat": 41.751488,
+    "lon": 12.682714
+  },
+  {
+    "scuola": "Scuola Media Anagni Via del Centro - 03012 Anagni FR",
+    "lat": 41.744758,
+    "lon": 12.451513
+  },
+  {
+    "scuola": "Istituto Comprensivo Ceccano Via Roma - 03023 Ceccano FR",
+    "lat": 41.990059,
+    "lon": 12.263194
+  },
+  {
+    "RSA": "RSA Sabaudia Via del Lago - 04016 Sabaudia LT",
+    "lat": 41.860888,
+    "lon": 12.254793
+  },
+  {
+    "RSA": "RSA Sezze Via Roma - 04018 Sezze LT",
+    "lat": 41.682642,
+    "lon": 12.356466
+  },
+  {
+    "RSA": "RSA Pontinia Via Nazionale - 04014 Pontinia LT",
+    "lat": 41.985254,
+    "lon": 12.401209
+  },
+  {
+    "RSA": "RSA Veroli Via del Centro - 03029 Veroli FR",
+    "lat": 41.827925,
+    "lon": 12.275913
+  },
+  {
+    "RSA": "RSA Anagni Via Nazionale - 03012 Anagni FR",
+    "lat": 41.753198,
+    "lon": 12.752189
+  },
+  {
+    "RSA": "RSA Fiuggi Via delle Terme - 03014 Fiuggi FR",
+    "lat": 41.966346,
+    "lon": 12.4363
+  },
+  {
+    "RSA": "RSA Sora Via del Liri - 03039 Sora FR",
+    "lat": 41.880646,
+    "lon": 12.650553
+  },
+  {
+    "RSA": "RSA Pontecorvo Via Nazionale - 03037 Pontecorvo FR",
+    "lat": 41.835088,
+    "lon": 12.837938
+  },
+  {
+    "RSA": "RSA Isola del Liri Via delle Cascate - 03036 Isola del Liri FR",
+    "lat": 41.72183,
+    "lon": 12.43431
+  },
+  {
+    "RSA": "RSA Cori Via delle Colline - 04010 Cori LT",
+    "lat": 41.78495,
+    "lon": 12.280083
+  },
+  {
+    "impianto lavorativo": "Zona Industriale Latina Via dell'Industria - 04100 Latina LT",
+    "lat": 41.744947,
+    "lon": 12.288844
+  },
+  {
+    "impianto lavorativo": "Stabilimento Aprilia Via delle Industrie - 04011 Aprilia LT",
+    "lat": 41.897469,
+    "lon": 12.503426
+  },
+  {
+    "impianto lavorativo": "Porto Industriale Gaeta - 04024 Gaeta LT",
+    "lat": 41.784992,
+    "lon": 12.329011
+  },
+  {
+    "impianto lavorativo": "Zona Artigianale Terracina - 04019 Terracina LT",
+    "lat": 41.860197,
+    "lon": 12.828669
+  },
+  {
+    "impianto lavorativo": "Stabilimento Frosinone Via Tiburtina - 03100 Frosinone FR",
+    "lat": 42.10939,
+    "lon": 12.368612
+  },
+  {
+    "impianto lavorativo": "Zona Industriale Cassino - 03043 Cassino FR",
+    "lat": 41.762615,
+    "lon": 12.743867
+  },
+  {
+    "impianto lavorativo": "Stabilimento Sora Via del Liri - 03039 Sora FR",
+    "lat": 41.672114,
+    "lon": 12.611905
+  },
+  {
+    "impianto lavorativo": "Area Industriale Ferentino - 03013 Ferentino FR",
+    "lat": 42.042862,
+    "lon": 12.23199
+  },
+  {
+    "impianto lavorativo": "Zona Artigianale Alatri - 03011 Alatri FR",
+    "lat": 42.074171,
+    "lon": 12.707334
+  },
+  {
+    "impianto lavorativo": "Stabilimento Formia Via del Porto - 04023 Formia LT",
+    "lat": 42.061177,
+    "lon": 12.789363
+  },
+  {
+    "impianto lavorativo": "Area Commerciale Fondi - 04022 Fondi LT",
+    "lat": 41.814341,
+    "lon": 12.585747
+  },
+  {
+    "impianto lavorativo": "Zona Industriale Cisterna - 04012 Cisterna di Latina LT",
+    "lat": 42.007562,
+    "lon": 12.798192
+  },
+  {
+    "impianto sportivo": "Stadio Comunale Latina - 04100 Latina LT",
+    "lat": 41.920762,
+    "lon": 12.779809
+  },
+  {
+    "impianto sportivo": "Palazzetto dello Sport Aprilia - 04011 Aprilia LT",
+    "lat": 41.765484,
+    "lon": 12.748806
+  },
+  {
+    "impianto sportivo": "Centro Sportivo Terracina - 04019 Terracina LT",
+    "lat": 41.707371,
+    "lon": 12.268693
+  },
+  {
+    "impianto sportivo": "Piscina Comunale Formia - 04023 Formia LT",
+    "lat": 41.996068,
+    "lon": 12.272203
+  },
+  {
+    "impianto sportivo": "Stadio Frosinone - 03100 Frosinone FR",
+    "lat": 42.095716,
+    "lon": 12.513599
+  },
+  {
+    "impianto sportivo": "Palestra Cassino - 03043 Cassino FR",
+    "lat": 42.016358,
+    "lon": 12.810104
+  },
+  {
+    "impianto sportivo": "Centro Sportivo Sora - 03039 Sora FR",
+    "lat": 41.962611,
+    "lon": 12.843814
+  },
+  {
+    "impianto sportivo": "Campo Sportivo Alatri - 03011 Alatri FR",
+    "lat": 41.988121,
+    "lon": 12.441749
+  },
+  {
+    "impianto sportivo": "Piscina Ferentino - 03013 Ferentino FR",
+    "lat": 42.135091,
+    "lon": 12.569598
+  },
+  {
+    "impianto sportivo": "Centro Tennistico Fiuggi - 03014 Fiuggi FR",
+    "lat": 41.737331,
+    "lon": 12.378226
+  },
+  {
+    "impianto sportivo": "Palazzetto Gaeta - 04024 Gaeta LT",
+    "lat": 42.048873,
+    "lon": 12.348081
+  },
+  {
+    "impianto sportivo": "Campo Calcio Fondi - 04022 Fondi LT",
+    "lat": 42.103417,
+    "lon": 12.652468
+  },
+  {
+    "impianto sportivo": "Centro Sportivo Sabaudia - 04016 Sabaudia LT",
+    "lat": 42.046253,
+    "lon": 12.682815
+  },
+  {
+    "impianto sportivo": "Palestra Ceccano - 03023 Ceccano FR",
+    "lat": 41.649746,
+    "lon": 12.594196
+  },
+  {
+    "impianto sportivo": "Campo Sportivo Veroli - 03029 Veroli FR",
+    "lat": 41.672053,
+    "lon": 12.317335
+  },
+  {
+    "strada": "SS 213 Flacca km 35 - 04023 Formia LT",
+    "lat": 42.008027,
+    "lon": 12.785816
+  },
+  {
+    "strada": "SS 156 dei Monti Lepini km 45 - 04018 Sezze LT",
+    "lat": 41.886262,
+    "lon": 12.78824
+  },
+  {
+    "strada": "SS 148 Pontina km 60 - 04100 Latina LT",
+    "lat": 41.786557,
+    "lon": 12.283816
+  },
+  {
+    "strada": "SS 155 di Fiuggi km 25 - 03014 Fiuggi FR",
+    "lat": 41.849806,
+    "lon": 12.359943
+  },
+  {
+    "strada": "A1 MI-NA km 590 - 03100 Frosinone FR",
+    "lat": 42.141054,
+    "lon": 12.327545
+  },
+  {
+    "strada": "SS 6 Casilina km 120 - 03043 Cassino FR",
+    "lat": 41.953173,
+    "lon": 12.500599
+  },
+  {
+    "strada": "SS 82 della Valle del Liri km 8 - 03039 Sora FR",
+    "lat": 41.852056,
+    "lon": 12.171767
+  },
+  {
+    "strada": "SS 214 della Vallelonga km 15 - 03037 Pontecorvo FR",
+    "lat": 41.844583,
+    "lon": 12.25368
+  },
+  {
+    "strada": "SS 627 della Vandra km 12 - 03011 Alatri FR",
+    "lat": 41.754612,
+    "lon": 12.351448
+  },
+  {
+    "strada": "SS 606 della Selva di Paliano km 5 - 03012 Anagni FR",
+    "lat": 41.958181,
+    "lon": 12.312407
+  },
+  {
+    "strada": "Raccordo Autostradale Frosinone - 03100 Frosinone FR",
+    "lat": 42.071694,
+    "lon": 12.677481
+  },
+  {
+    "strada": "SP 156 Monti Lepini km 20 - 04010 Cori LT",
+    "lat": 41.734608,
+    "lon": 12.282886
+  },
+  {
+    "strada": "SS 7 Via Appia km 100 - 04022 Fondi LT",
+    "lat": 41.92209,
+    "lon": 12.45486
+  },
+  {
+    "strada": "SS 213 Flacca km 45 - 04024 Gaeta LT",
+    "lat": 41.9732,
+    "lon": 12.660685
+  },
+  {
+    "strada": "SP 7 Cisterna-Cori km 8 - 04012 Cisterna di Latina LT",
+    "lat": 41.823642,
+    "lon": 12.279695
+  },
+  {
+    "Pronto Soccorso": "Ospedale Sabaudia - 04016 Sabaudia LT",
+    "lat": 41.719853,
+    "lon": 12.291532
+  },
+  {
+    "Pronto Soccorso": "Ospedale Gaeta - 04024 Gaeta LT",
+    "lat": 42.068887,
+    "lon": 12.31753
+  },
+  {
+    "Pronto Soccorso": "Ospedale Ceccano - 03023 Ceccano FR",
+    "lat": 41.914317,
+    "lon": 12.199918
+  },
+  {
+    "Pronto Soccorso": "Ospedale Veroli - 03029 Veroli FR",
+    "lat": 41.946724,
+    "lon": 12.255367
+  },
+  {
+    "Pronto Soccorso": "Ospedale Anagni - 03012 Anagni FR",
+    "lat": 41.748805,
+    "lon": 12.226427
+  },
+  {
+    "Pronto Soccorso": "Ospedale Fiuggi - 03014 Fiuggi FR",
+    "lat": 41.67472,
+    "lon": 12.567522
+  },
+  {
+    "Pronto Soccorso": "Ospedale Isola del Liri - 03036 Isola del Liri FR",
+    "lat": 42.170785,
+    "lon": 12.508793
+  },
+  {
+    "Pronto Soccorso": "Ospedale Pontecorvo - 03037 Pontecorvo FR",
+    "lat": 41.729959,
+    "lon": 12.419618
+  },
+  {
+    "indirizzo abitazione": "Via delle Magnolie, 234 – 04100 Latina LT",
+    "lat": 41.836066,
+    "lon": 12.436429
+  },
+  {
+    "indirizzo abitazione": "Via dei Cedri, 156 – 04100 Latina LT",
+    "lat": 41.9837,
+    "lon": 12.16791
+  },
+  {
+    "indirizzo abitazione": "Via degli Oleandri, 78 – 04100 Latina LT",
+    "lat": 41.752188,
+    "lon": 12.482546
+  },
+  {
+    "indirizzo abitazione": "Via delle Betulle, 123 – 04100 Latina LT",
+    "lat": 41.938933,
+    "lon": 12.566707
+  },
+  {
+    "indirizzo abitazione": "Via dei Salici, 89 – 04100 Latina LT",
+    "lat": 41.812959,
+    "lon": 12.554853
+  },
+  {
+    "indirizzo abitazione": "Via delle Mimose, 67 – 04011 Aprilia LT",
+    "lat": 41.63497,
+    "lon": 12.45812
+  },
+  {
+    "indirizzo abitazione": "Via dei Papaveri, 134 – 04011 Aprilia LT",
+    "lat": 42.110501,
+    "lon": 12.679971
+  },
+  {
+    "indirizzo abitazione": "Via delle Peonie, 91 – 04011 Aprilia LT",
+    "lat": 41.934425,
+    "lon": 12.67353
+  },
+  {
+    "indirizzo abitazione": "Via dei Lillà, 156 – 04011 Aprilia LT",
+    "lat": 41.968146,
+    "lon": 12.348148
+  },
+  {
+    "indirizzo abitazione": "Via delle Dalie, 78 – 04011 Aprilia LT",
+    "lat": 41.730835,
+    "lon": 12.733191
+  },
+  {
+    "indirizzo abitazione": "Via delle Ginestre, 123 – 04019 Terracina LT",
+    "lat": 42.007406,
+    "lon": 12.472868
+  },
+  {
+    "indirizzo abitazione": "Via dei Corbezzoli, 89 – 04019 Terracina LT",
+    "lat": 41.697348,
+    "lon": 12.294197
+  },
+  {
+    "indirizzo abitazione": "Via delle Tamerici, 156 – 04019 Terracina LT",
+    "lat": 41.918127,
+    "lon": 12.31495
+  },
+  {
+    "indirizzo abitazione": "Via dei Lecci, 67 – 04019 Terracina LT",
+    "lat": 42.026893,
+    "lon": 12.495117
+  },
+  {
+    "indirizzo abitazione": "Via delle Acace, 91 – 04023 Formia LT",
+    "lat": 41.820055,
+    "lon": 12.284811
+  },
+  {
+    "indirizzo abitazione": "Via dei Platani, 156 – 04023 Formia LT",
+    "lat": 41.835266,
+    "lon": 12.824309
+  },
+  {
+    "indirizzo abitazione": "Via delle Magnolie, 78 – 04023 Formia LT",
+    "lat": 41.654456,
+    "lon": 12.426338
+  },
+  {
+    "indirizzo abitazione": "Via dei Tigli, 134 – 04023 Formia LT",
+    "lat": 41.725702,
+    "lon": 12.255832
+  },
+  {
+    "indirizzo abitazione": "Via delle Eriche, 67 – 04022 Fondi LT",
+    "lat": 42.013696,
+    "lon": 12.556454
+  },
+  {
+    "indirizzo abitazione": "Via dei Ginepri, 123 – 04022 Fondi LT",
+    "lat": 41.926626,
+    "lon": 12.397004
+  },
+  {
+    "indirizzo abitazione": "Via delle Palme, 89 – 04022 Fondi LT",
+    "lat": 42.022889,
+    "lon": 12.373536
+  },
+  {
+    "indirizzo abitazione": "Via degli Abeti, 156 – 04022 Fondi LT",
+    "lat": 41.989099,
+    "lon": 12.582592
+  },
+  {
+    "indirizzo abitazione": "Via delle Roverelle, 78 – 03100 Frosinone FR",
+    "lat": 41.902575,
+    "lon": 12.134957
+  },
+  {
+    "indirizzo abitazione": "Via dei Faggi, 134 – 03100 Frosinone FR",
+    "lat": 41.878987,
+    "lon": 12.787648
+  },
+  {
+    "indirizzo abitazione": "Via delle Querce, 91 – 03100 Frosinone FR",
+    "lat": 41.967277,
+    "lon": 12.668417
+  },
+  {
+    "indirizzo abitazione": "Via dei Castagni, 156 – 03100 Frosinone FR",
+    "lat": 41.857205,
+    "lon": 12.805917
+  },
+  {
+    "indirizzo abitazione": "Via delle Betulle, 67 – 03100 Frosinone FR",
+    "lat": 41.775922,
+    "lon": 12.211206
+  },
+  {
+    "indirizzo abitazione": "Via degli Ontani, 123 – 03043 Cassino FR",
+    "lat": 41.958813,
+    "lon": 12.588515
+  },
+  {
+    "indirizzo abitazione": "Via delle Robinie, 89 – 03043 Cassino FR",
+    "lat": 41.793854,
+    "lon": 12.791539
+  },
+  {
+    "indirizzo abitazione": "Via dei Noccioli, 156 – 03043 Cassino FR",
+    "lat": 41.752692,
+    "lon": 12.655716
+  },
+  {
+    "indirizzo abitazione": "Via delle Acacie, 78 – 03043 Cassino FR",
+    "lat": 41.965836,
+    "lon": 12.333136
+  },
+  {
+    "indirizzo abitazione": "Via dei Sorbi, 91 – 03039 Sora FR",
+    "lat": 41.889269,
+    "lon": 12.781745
+  },
+  {
+    "indirizzo abitazione": "Via delle Betulle, 156 – 03039 Sora FR",
+    "lat": 42.012558,
+    "lon": 12.772201
+  },
+  {
+    "indirizzo abitazione": "Via dei Frassini, 78 – 03039 Sora FR",
+    "lat": 41.985748,
+    "lon": 12.398594
+  },
+  {
+    "indirizzo abitazione": "Via delle Querce, 134 – 03039 Sora FR",
+    "lat": 41.875438,
+    "lon": 12.635025
+  },
+  {
+    "indirizzo abitazione": "Via dei Gelsi, 67 – 03011 Alatri FR",
+    "lat": 41.852037,
+    "lon": 12.3148
+  },
+  {
+    "indirizzo abitazione": "Via delle Noci, 123 – 03011 Alatri FR",
+    "lat": 41.722557,
+    "lon": 12.632245
+  },
+  {
+    "indirizzo abitazione": "Via dei Mandorli, 89 – 03011 Alatri FR",
+    "lat": 41.759939,
+    "lon": 12.395846
+  },
+  {
+    "indirizzo abitazione": "Via delle Ciliegie, 156 – 03011 Alatri FR",
+    "lat": 42.019454,
+    "lon": 12.551281
+  },
+  {
+    "indirizzo abitazione": "Via dei Peschi, 78 – 03013 Ferentino FR",
+    "lat": 41.918369,
+    "lon": 12.480757
+  },
+  {
+    "indirizzo abitazione": "Via delle Mele, 134 – 03013 Ferentino FR",
+    "lat": 41.785689,
+    "lon": 12.731681
+  },
+  {
+    "indirizzo abitazione": "Via dei Peri, 91 – 03013 Ferentino FR",
+    "lat": 42.008556,
+    "lon": 12.543985
+  },
+  {
+    "indirizzo abitazione": "Via delle Prugne, 156 – 03013 Ferentino FR",
+    "lat": 42.050188,
+    "lon": 12.657992
+  },
+  {
+    "indirizzo abitazione": "Via delle Albicocche, 67 – 03014 Fiuggi FR",
+    "lat": 41.880156,
+    "lon": 12.452131
+  },
+  {
+    "indirizzo abitazione": "Via dei Susini, 123 – 03014 Fiuggi FR",
+    "lat": 41.84555,
+    "lon": 12.357074
+  },
+  {
+    "indirizzo abitazione": "Via delle Amarene, 89 – 03014 Fiuggi FR",
+    "lat": 41.908322,
+    "lon": 12.349792
+  },
+  {
+    "indirizzo abitazione": "Via dei Fichi, 156 – 03014 Fiuggi FR",
+    "lat": 41.707776,
+    "lon": 12.476363
+  },
+  {
+    "RSA": "RSA Villa Verde Latina - 04100 Latina LT",
+    "lat": 41.798938,
+    "lon": 12.387333
+  },
+  {
+    "RSA": "RSA Casa di Riposo Aprilia - 04011 Aprilia LT",
+    "lat": 42.028937,
+    "lon": 12.466813
+  },
+  {
+    "RSA": "RSA San Giovanni Terracina - 04019 Terracina LT",
+    "lat": 41.670701,
+    "lon": 12.378861
+  },
+  {
+    "RSA": "RSA Villa Maria Formia - 04023 Formia LT",
+    "lat": 41.952574,
+    "lon": 12.399081
+  },
+  {
+    "RSA": "RSA Villa Serena Frosinone - 03100 Frosinone FR",
+    "lat": 41.99098,
+    "lon": 12.602901
+  }
 ]

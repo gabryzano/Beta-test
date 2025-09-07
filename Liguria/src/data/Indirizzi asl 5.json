@@ -275,4 +275,7 @@
   {"strada": "Viale Giovanni Amendola, 19100 La Spezia SP", "lat": 44.0976, "lon": 9.8456},
   {"strada": "Via della Marina, 19019 Lerici SP", "lat": 44.0756, "lon": 9.9023},
   {"strada": "Strada Provinciale del Romito, 19032 Arcola SP", "lat": 44.1234, "lon": 9.8945},
-  {"strada": "Via Costiera delle Cinque Terre, 19018 Vernazza SP", "lat": 44.1367, "lon": 9.6734}]
+  {"strada": "Via Costiera delle Cinque Terre, 19018 Vernazza SP", "lat": 44.1367, "lon": 9.6734},
+  { "Pronto Soccorso ": "H La Spezia, 19124 La Spezia SP", "lat": 44.1117516, "lon": 9.8309298 },
+  { "Pronto Soccorso ": "H Sarzana, 19038 Sarzana SP", "lat": 44.1213876, "lon": 9.9497125 }
+]
