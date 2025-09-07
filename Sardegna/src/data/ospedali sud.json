@@ -11,9 +11,7 @@
     "STROKE UNIT": true,
     "NCH": false,
     "RIANIMAZIONE": true,
-    "PSICHIATRIA": true,
-    "lat": 39.217668,
-    "lon": 9.148079
+    "PSICHIATRIA": true
   },
   {
     "OSPEDALE": "H BOSA",
@@ -27,9 +25,7 @@
     "STROKE UNIT": false,
     "NCH": false,
     "RIANIMAZIONE": true,
-    "PSICHIATRIA": true,
-    "lat": 39.262508,
-    "lon": 9.136077
+    "PSICHIATRIA": true
   },
   {
     "OSPEDALE": "H ISILI",
@@ -43,9 +39,7 @@
     "STROKE UNIT": false,
     "NCH": false,
     "RIANIMAZIONE": true,
-    "PSICHIATRIA": true,
-    "lat": 39.325175,
-    "lon": 9.237922
+    "PSICHIATRIA": true
   },
   {
     "OSPEDALE": "H MURAVERA",
@@ -59,9 +53,7 @@
     "STROKE UNIT": false,
     "NCH": false,
     "RIANIMAZIONE": true,
-    "PSICHIATRIA": false,
-    "lat": 39.125064,
-    "lon": 8.970476
+    "PSICHIATRIA": false
   },
   {
     "OSPEDALE": "H S.GAVINO MONREALE",
@@ -75,9 +67,7 @@
     "STROKE UNIT": true,
     "NCH": false,
     "RIANIMAZIONE": true,
-    "PSICHIATRIA": false,
-    "lat": 38.962089,
-    "lon": 9.139811
+    "PSICHIATRIA": false
   },
   {
     "OSPEDALE": "H IGLESIAS",
@@ -91,9 +81,7 @@
     "STROKE UNIT": true,
     "NCH": false,
     "RIANIMAZIONE": true,
-    "PSICHIATRIA": false,
-    "lat": 39.155419,
-    "lon": 9.182855
+    "PSICHIATRIA": false
   },
   {
     "OSPEDALE": "H CARBONIA",
@@ -107,9 +95,7 @@
     "STROKE UNIT": false,
     "NCH": false,
     "RIANIMAZIONE": true,
-    "PSICHIATRIA": true,
-    "lat": 39.404859,
-    "lon": 9.313117
+    "PSICHIATRIA": true
   },
   {
     "OSPEDALE": "H BROTZU",
@@ -123,9 +109,7 @@
     "STROKE UNIT": true,
     "NCH": true,
     "RIANIMAZIONE": true,
-    "PSICHIATRIA": true,
-    "lat": 38.991362,
-    "lon": 9.15661
+    "PSICHIATRIA": true
   },
   {
     "OSPEDALE": "H SS TRINITA'",
@@ -139,9 +123,7 @@
     "STROKE UNIT": false,
     "NCH": false,
     "RIANIMAZIONE": true,
-    "PSICHIATRIA": true,
-    "lat": 38.996351,
-    "lon": 9.180165
+    "PSICHIATRIA": true
   },
   {
     "OSPEDALE": "H POL. MONSERRATO",
@@ -155,8 +137,6 @@
     "STROKE UNIT": true,
     "NCH": false,
     "RIANIMAZIONE": true,
-    "PSICHIATRIA": true,
-    "lat": 39.279996,
-    "lon": 9.157531
+    "PSICHIATRIA": true
   }
 ]
