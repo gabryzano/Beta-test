@@ -1736,14 +1736,16 @@ class EmergencyDispatchGame {
                 // Cambia stato a 2 per tutti i mezzi assegnati eccetto quelli in fase di trasporto
                 if ([1, 6].includes(m.stato)) {
                     setStatoMezzo(m, 2);
+                    // Play confirm sound when vehicle goes to state 2 (heading to emergency)
+                    if (window.soundManager && typeof window.soundManager.play === 'function') {
+                        window.soundManager.play('confirm');
+                    }
                 }
             }
         });
         
         // Chiudi popup e aggiorna UI immediatamente
         popup?.classList.add('hidden');
-        // Play confirm sound
-        window.soundManager.play('confirm');
         const callDiv = document.getElementById(`call-${call.id}`);
         if (callDiv) callDiv.remove();
         // Aggiungi la missione al pannello "Eventi in corso"
