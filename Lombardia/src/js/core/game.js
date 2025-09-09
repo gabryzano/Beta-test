@@ -480,29 +480,37 @@ function aggiornaDisponibilitaMezzi() {
 
 // Aggiunta una funzione per calcolare il ritardo di partenza in base al tipo di mezzo
 function getRitardoPartenza(tipoMezzo) {
-    if (!tipoMezzo) return randomMinuti(1, 4) * 60; // Default fallback
+    if (!tipoMezzo) return Math.random() * 35 + 25; // 25-60 secondi default
     
-    // Normalizza il tipo di mezzo
-    const tipo = tipoMezzo.toUpperCase().trim();
+    // Normalizza il tipo di mezzo e rimuovi convenzioni di turno
+    let tipo = tipoMezzo.toUpperCase().trim();
     
-    // ELI: 5-8 minuti
-    if (tipo.includes('ELI')) {
-        return randomMinuti(5, 8) * 60;
-    }
+    // Rimuovi convenzioni di turno (H24, H8, H12, GET, ecc.) e separatori
+    tipo = tipo.replace(/\s*-\s*(H\d+|GET|ORARIO).*$/, ''); // Rimuove tutto dopo " - H24" o " - GET"
+    tipo = tipo.replace(/\s+.*$/, ''); // Rimuove tutto dopo il primo spazio
     
-    // Mezzi terrestri (MSB, MSA1, MSA1_A, MSA2, MSA2_A): 30 secondi - 3 minuti
-    if (tipo.startsWith('MSB') || tipo.startsWith('MSA1') || tipo.startsWith('MSA2')) {
-        // Converti 30 secondi in frazione di minuto (0.5) e 3 minuti
-        const secondiMin = 30; // 30 secondi
-        const minutiMax = 3;   // 3 minuti
+    // ELI: doppio dei terrestri (40-180 secondi)
+    if (tipo === 'ELI' || tipo.startsWith('ELI')) {
+        const secondiMin = 40;  // doppio di 20
+        const secondiMax = 180; // doppio di 90
         
-        // Genera un numero casuale tra 30 secondi e 3 minuti
-        const secondiTotali = Math.random() * (minutiMax * 60 - secondiMin) + secondiMin;
+        const secondiTotali = Math.random() * (secondiMax - secondiMin) + secondiMin;
         return Math.round(secondiTotali);
     }
     
-    // Default per altri tipi di mezzi
-    return randomMinuti(1, 4) * 60;
+    // Mezzi terrestri: 20-90 secondi
+    if (tipo === 'MSB' || tipo === 'MSA1' || tipo === 'MSA2' || 
+        tipo.startsWith('MSA1_') || tipo.startsWith('MSA2_')) {
+        const secondiMin = 20; // 20 secondi
+        const secondiMax = 90; // 90 secondi (1.5 minuti)
+        
+        // Genera un numero casuale tra 20 e 90 secondi
+        const secondiTotali = Math.random() * (secondiMax - secondiMin) + secondiMin;
+        return Math.round(secondiTotali);
+    }
+    
+    // Default per tipi sconosciuti: 25-60 secondi
+    return Math.random() * 35 + 25; // 25-60 secondi
 }
 
 class EmergencyDispatchGame {
@@ -577,8 +585,52 @@ class EmergencyDispatchGame {
                 : new Date();
 
             (this.mezzi || []).forEach(async m => {
-                if (m.stato === 2 && m.chiamata && !m._inMovimentoMissione) {
-                    console.log('[DEBUG] Mezzo in stato 2:', m.nome_radio, 'chiamata:', m.chiamata);
+                if (m.stato === 2 && m.chiamata && !m._inMovimentoMissione && !m._ritardoProgrammato) {
+                    // Se il mezzo non viene da stato 7, applica ritardo di preparazione
+                    // Considera anche il caso in cui _daStat7 non è definito (primo assegnamento)
+                    if (!m._daStat7) {
+                        m._ritardoProgrammato = true;
+                        const ritardo = this.getRitardoPartenza(m.tipo_mezzo); // già in secondi
+                        console.log(`[INFO] Ritardo partenza ${m.nome_radio}: ${Math.round(ritardo/60)} min (${ritardo}s)`);
+                        
+                        simTimeout(async () => {
+                            m._ritardoProgrammato = false;
+                            if (m.stato === 2 && m.chiamata && !m._inMovimentoMissione) {
+                                // Avvia movimento dopo il ritardo
+                                m._inMovimentoMissione = true;
+                                const call = Array.from(this.calls.values()).find(c => (c.mezziAssegnati||[]).includes(m.nome_radio));
+                                if (call) {
+                                    const dist = distanzaKm(m.lat, m.lon, call.lat, call.lon);
+                                    let vel = await getVelocitaMezzo(m.tipo_mezzo);
+                                    let riduzione = 0;
+                                    if (call.codice === 'Rosso') riduzione = 0.15;
+                                    else if (call.codice === 'Giallo') riduzione = 0.10;
+                                    if (m.tipo_mezzo !== 'ELI') {
+                                        const traffico = 1 + (Math.random() * 0.2 - 0.1);
+                                        vel = vel * traffico;
+                                    }
+                                    vel = vel * (1 + riduzione);
+                                    const tempoArrivo = Math.round((dist / vel) * 60);
+                                    const arrivoMinuti = Math.min(Math.max(tempoArrivo, 2), 30);
+                                    this.moveMezzoGradualmente(m, m.lat, m.lon, call.lat, call.lon, arrivoMinuti, 3, () => {
+                                        this.ui.updateStatoMezzi(m);
+                                        this.updateMezzoMarkers();
+                                        m._inMovimentoMissione = false;
+                                        gestisciStato3.call(this, m, call);
+                                    });
+                                }
+                            }
+                        }, ritardo);
+                        
+                        // Reset flag
+                        m._daStat7 = false;
+                        return; // Esce dal blocco per aspettare il timeout
+                    }
+                    
+                    // Reset flag per partenza immediata
+                    m._daStat7 = false;
+                    
+                    // Partenza immediata (mezzo in movimento o da stato 7)
                     m._inMovimentoMissione = true;
                     const call = Array.from(this.calls.values()).find(c => (c.mezziAssegnati||[]).includes(m.nome_radio));
                     if (!call) return;
@@ -657,6 +709,10 @@ class EmergencyDispatchGame {
                 }
             });
         }, 5);
+    }
+
+    getRitardoPartenza(tipoMezzo) {
+        return getRitardoPartenza(tipoMezzo);
     }
 
     async loadStatiMezzi() {
@@ -2356,6 +2412,13 @@ class EmergencyDispatchGame {
         });
         
         // Gestisci i mezzi selezionati
+        if (aggiunti.length > 0) {
+            // Suono di conferma solo se ci sono mezzi effettivamente assegnati
+            if (window.soundManager) {
+                window.soundManager.play('confirm');
+            }
+        }
+        
         window.game.mezzi.forEach(m => {
             // Processa solo i mezzi nuovi aggiunti a questa chiamata
             if (aggiunti.includes(m.nome_radio)) {
@@ -2385,6 +2448,8 @@ class EmergencyDispatchGame {
                     console.log('[INFO] Riattivazione mezzo da rientro (stato 7):', m.nome_radio);
                     interrompiMovimento(m);
                     m._inRientroInSede = false;
+                    // Imposta flag per partenza immediata (senza ritardi)
+                    m._daStat7 = true;
                     // pulisci vecchi riferimenti
                     m.ospedale = null;
                     m.codice_trasporto = null;
@@ -2502,6 +2567,9 @@ class EmergencyDispatchGame {
                 }, ritardoPartenza);
             });
         }
+        
+        // Chiudi popup
+        popup.classList.add('hidden');
     }
 
     gestisciStato7(mezzo) {
