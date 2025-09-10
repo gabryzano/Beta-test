@@ -30,6 +30,13 @@ class SoundManager {
         volume: 1.0,
         onloaderror: (id, err) => console.error('[SoundManager] report load error', err),
         onplayerror: (id, err) => console.error('[SoundManager] report play error', err)
+      }),
+      radio: new Howl({
+        src: ['src/assets/sounds/radio.mp3'],
+        html5: true,
+        volume: 1.0,
+        onloaderror: (id, err) => console.error('[SoundManager] radio load error', err),
+        onplayerror: (id, err) => console.error('[SoundManager] radio play error', err)
       })
     };
   }

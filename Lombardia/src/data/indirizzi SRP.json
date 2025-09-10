@@ -160,11 +160,6 @@
     "lon": 9.5167
   },
   {
-    "indirizzo abitazione": "Piazza Maggiore, 20065 Inzago MI",
-    "lat": 45.55,
-    "lon": 9.45
-  },
-  {
     "indirizzo abitazione": "Piazza Nazionale, 20056 Trezzo sull'Adda MI",
     "lat": 45.6167,
     "lon": 9.5167
@@ -1141,13 +1136,13 @@
   },
   {
     "indirizzo abitazione": "Via Roma, 20020 Nosate MI",
-    "lat": 45.52,
-    "lon": 8.75
+    "lat": 45.5525742,
+    "lon": 8.7243417
   },
   {
     "indirizzo abitazione": "Piazza della Chiesa, 20020 Nosate MI",
-    "lat": 45.521,
-    "lon": 8.752
+    "lat": 45.5517206,
+    "lon": 8.7245873
   },
   {
     "indirizzo abitazione": "Via Milano, 20012 Bernate Ticino MI",
@@ -1410,14 +1405,14 @@
     "lon": 9.032
   },
   {
-    "indirizzo abitazione": "Via Milano, 20010 Pregnana Milanese MI",
-    "lat": 45.5,
-    "lon": 9.01
+    "indirizzo abitazione": "Via Milano, 8, 20006 Pregnana Milanese MI",
+    "lat": 45.5145233,
+    "lon": 9.0064493
   },
   {
-    "indirizzo abitazione": "Piazza San Giorgio, 20010 Pregnana Milanese MI",
-    "lat": 45.501,
-    "lon": 9.012
+    "indirizzo abitazione": "Piazza Primo Maggio, 2, 20006 Pregnana Milanese MI",
+    "lat": 45.5177112,
+    "lon": 9.0068246
   },
   {
     "indirizzo abitazione": "Via Roma, 20010 Robecchetto con Induno MI",
@@ -1521,8 +1516,8 @@
   },
   {
     "Impianto sportivo ": "Centro Sportivo Legnano - Viale Gorizia, 20025 Legnano MI",
-    "lat": 45.59,
-    "lon": 8.905
+    "lat": 45.595059,
+    "lon": 8.8829325
   },
   {
     "Impianto sportivo ": "Centro Sportivo Pioltello - Via Manzoni, 20175 Pioltello MI",
@@ -1556,13 +1551,13 @@
   },
   {
     "Strada ": "A8 MI-VA km 25 - 20014 Nerviano MI",
-    "lat": 45.553,
-    "lon": 8.96
+    "lat": 45.581145,
+    "lon": 8.9973093
   },
   {
-    "Strada ": "SP12 km 8 - 20175 Pioltello MI",
-    "lat": 45.492,
-    "lon": 9.335
+    "Strada ": "SP103 km 8 - 20175 Pioltello MI",
+    "lat": 45.5025068,
+    "lon": 9.3447768
   },
   {
     "indirizzo abitazione": "Piazza Maggiore, 26900 Lodi LO",
@@ -2061,8 +2056,8 @@
   },
   {
     "indirizzo abitazione": "Piazza Martiri Belfiore, 46100 Mantova MN",
-    "lat": 45.1645,
-    "lon": 10.8015
+    "lat": 45.1561848,
+    "lon": 10.7911843
   },
   {
     "indirizzo abitazione": "Via Brennero, 46029 Suzzara MN",
@@ -2176,28 +2171,28 @@
   },
   {
     "indirizzo abitazione": "Via Mazzini, 46044 Goito MN",
-    "lat": 45.2495,
-    "lon": 10.6995
+    "lat": 45.2262035,
+    "lon": 10.6628723
   },
   {
-    "indirizzo abitazione": "Piazza Garibaldi, 46044 Goito MN",
-    "lat": 45.2505,
-    "lon": 10.7005
+    "indirizzo abitazione": "Piazza Antonio Gramsci, 46044 Goito MN",
+    "lat": 45.2550899,
+    "lon": 10.674457
   },
   {
     "indirizzo abitazione": "Via Roma, 46044 Goito MN",
-    "lat": 45.2485,
-    "lon": 10.6985
+    "lat": 45.2520058,
+    "lon": 10.6712516
   },
   {
     "indirizzo abitazione": "Via Garibaldi, 46020 Pegognaga MN",
-    "lat": 44.9495,
-    "lon": 10.8495
+    "lat": 44.9989287,
+    "lon": 10.8593273
   },
   {
-    "indirizzo abitazione": "Piazza Libertà, 46020 Pegognaga MN",
-    "lat": 44.9505,
-    "lon": 10.8505
+    "indirizzo abitazione": "Viale S. Lorenzo, 41, 46020 Pegognaga MN",
+    "lat": 44.9938319,
+    "lon": 10.8613245
   },
   {
     "indirizzo abitazione": "Via Roma, 46027 San Benedetto Po MN",
@@ -2641,8 +2636,8 @@
   },
   {
     "indirizzo abitazione": "Via Garibaldi, 20070 Cerro al Lambro MI",
-    "lat": 45.3395,
-    "lon": 9.3495
+    "lat": 45.3306688,
+    "lon": 9.3428628
   },
   {
     "indirizzo abitazione": "Piazza Libertà, 20070 Cerro al Lambro MI",
@@ -2745,14 +2740,14 @@
     "lon": 9.4005
   },
   {
-    "indirizzo abitazione": "Via Roma, 20060 Cambiago MI",
-    "lat": 45.5695,
-    "lon": 9.4295
+    "indirizzo abitazione": "Via G. Garibaldi, 25, 20040 Cambiago MI",
+    "lat": 45.5734104,
+    "lon": 9.4248958
   },
   {
-    "indirizzo abitazione": "Piazza della Chiesa, 20060 Cambiago MI",
-    "lat": 45.5705,
-    "lon": 9.4305
+    "indirizzo abitazione": "Via Madonna, 53, 20040 Cambiago MI",
+    "lat": 45.5714277,
+    "lon": 9.4249832
   },
   {
     "indirizzo abitazione": "Via Milano, 20060 Bellinzago Lombardo MI",
@@ -2945,9 +2940,9 @@
     "lon": 10.7485
   },
   {
-    "RSA ": "RSA Viadana, Via Garibaldi, 46019 Viadana MN",
-    "lat": 44.9115,
-    "lon": 10.5155
+    "RSA ": "RSA Viadana, Via Ospedale Vecchio, 18, 46019 Viadana MN",
+    "lat": 44.9299483,
+    "lon": 10.5219862
   },
   {
     "RSA ": "RSA Castiglione, Via Roma, 46043 Castiglione delle Stiviere MN",
@@ -3176,8 +3171,8 @@
   },
   {
     "Strada ": "A7 MI-GE km 35 - 27058 Voghera PV",
-    "lat": 44.9775,
-    "lon": 9.0015
+    "lat": 45.0074363,
+    "lon": 8.9881451
   },
   {
     "Strada ": "SS35 dei Giovi km 25 - 27029 Vigevano PV",

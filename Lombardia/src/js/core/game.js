@@ -19,7 +19,7 @@ function getSimSpeed() {
 window._simIntervals = [];
 window._simTimeouts = [];
 // Disabilita debug e info logs
-console.log = function() {};
+// console.log = function() {};
 
 // Variabili globali per ora simulata e stato running
 window.simTime = window.simTime || 0; // secondi simulati
@@ -255,13 +255,21 @@ function aggiungiComunicazioneMezzo(mezzo, messaggio) {
 
 // Patch: quando il mezzo cambia stato, rimuovi il lampeggio e il messaggio
 const _oldSetStatoMezzo = setStatoMezzo;
-setStatoMezzo = function(mezzo, nuovoStato) {
+setStatoMezzo = function(mezzo, nuovoStato, isManualAssignment = false) {
     const prevStato = mezzo.stato;
-    const res = _oldSetStatoMezzo.apply(this, arguments);
+    // Chiama la funzione originale solo con i primi 2 parametri
+    const res = _oldSetStatoMezzo(mezzo, nuovoStato);
     
-    // Play confirm sound when vehicle goes to state 2 (heading to emergency)
-    if (res && nuovoStato === 2 && prevStato !== 2) {
+    // Play confirm sound ONLY when vehicle goes to state 2 via manual assignment
+    if (res && nuovoStato === 2 && prevStato !== 2 && isManualAssignment) {
+        console.log('[DEBUG] Riproduco suono confirm per assegnazione manuale di:', mezzo.nome_radio);
         window.soundManager?.play('confirm');
+    }
+    
+    // Play radio sound when vehicle goes from state 1 to state 2 (departure)
+    if (res && nuovoStato === 2 && prevStato === 1) {
+        console.log('[DEBUG] Riproduco suono radio per partenza di:', mezzo.nome_radio);
+        window.soundManager?.play('radio');
     }
     
     // Increment virtual patient count when a mezzo drops off (state 6)
@@ -291,20 +299,22 @@ function randomMinuti(min, max) {
 // --- GESTIONE AVANZAMENTO STATI AUTOMATICI MEZZO ---
 function gestisciAvanzamentoAutomaticoStati(mezzo) {
     // Stato 1 -> 2: dopo 2-3 minuti simulati
-    if (mezzo.stato === 1 && mezzo.chiamata && !mezzo._timerStato2) {
-        mezzo._timerStato2 = simTimeout(() => {
-            setStatoMezzo(mezzo, 2);
-            mezzo._timerStato2 = null;
-        }, randomMinuti(2, 3) * 60);    }
-    // Stato 3: dopo 20-30 minuti simulati manda "report pronto"    
+    // DISABILITATO: ora la partenza è gestita dal timer specifico per tipo di mezzo nell'assegnazione missione
+    // if (mezzo.stato === 1 && mezzo.chiamata && !mezzo._timerStato2) {
+    //     mezzo._timerStato2 = simTimeout(() => {
+    //         setStatoMezzo(mezzo, 2);
+    //         mezzo._timerStato2 = null;
+    //     }, randomMinuti(2, 3) * 60);    
+    // }
+    // Stato 3: dopo 10-20 minuti simulati manda "report pronto"    
     if (mezzo.stato === 3 && !mezzo._timerReportPronto && !mezzo._reportProntoInviato) {
-        // Timer di report ridotto a 2-5 minuti simulati
+        // Timer di report impostato a 10-20 minuti simulati
         mezzo._timerReportPronto = simTimeout(() => {
             mezzo.comunicazioni = (mezzo.comunicazioni || []).concat([`Report pronto`]);
             window.soundManager.play('report');
             // console.log('[DEBUG] Mezzo', mezzo.nome_radio, 'ha inviato REPORT PRONTO');
             mezzo._reportProntoInviato = true;
-        }, randomMinuti(2, 5) * 60);
+        }, randomMinuti(10, 20) * 60);
     }
     // Stato 4: timer parte solo DOPO conferma utente (vedi nota sotto)
 }
@@ -355,23 +365,134 @@ function gestisciStato3(mezzo, call) {
         }
     }
 
-    // Automatically send report after 20-30 minutes
+    // Automatically send report after 20-30 minutes con gerarchia semplificata
     if (mezzo.stato === 3 && !mezzo._timerReportPronto && !mezzo._reportProntoInviato) {
         // Reset flags to allow hospital transport menu to show after report
         mezzo._menuOspedaliShown = false;
         mezzo._trasportoConfermato = false;
         mezzo._trasportoAvviato = false;
         mezzo.comunicazioni = [];
-        mezzo._timerReportPronto = simTimeout(() => {
-            mezzo.comunicazioni = (mezzo.comunicazioni || []).concat([reportText]);
-            console.log('[DEBUG] Mezzo', mezzo.nome_radio, 'ha inviato report:', reportText);
-            mezzo._reportProntoInviato = true;
-            if(window.game && window.game.ui && window.game.ui.updateStatoMezzi) {
-                window.game.ui.updateStatoMezzi(mezzo);
+        
+        // Trova la chiamata a cui è assegnato questo mezzo
+        const calls = Array.from(window.game.calls.values());
+        const myCall = calls.find(c => (c.mezziAssegnati||[]).includes(mezzo.nome_radio));
+        
+        if (myCall && myCall.mezziAssegnati.length > 1) {
+            // Più mezzi nella missione: applica gerarchia
+            const allMezziInMissione = window.game.mezzi.filter(m => 
+                (myCall.mezziAssegnati||[]).includes(m.nome_radio)
+            );
+            
+            // Funzione per determinare la priorità nella gerarchia COMPLETA
+            function getPriorita(tipoMezzo) {
+                if (!tipoMezzo) return 0;
+                
+                // Priorità 1: MSB, BLS
+                if (tipoMezzo.startsWith('MSB') || tipoMezzo.startsWith('BLS')) return 1;
+                
+                // Priorità 2: MSA1, MSA1_1, MSI, ILS
+                if (tipoMezzo.startsWith('MSA1') || tipoMezzo === 'MSA1_1' || 
+                    tipoMezzo.startsWith('MSI') || tipoMezzo.startsWith('ILS')) return 2;
+                
+                // Priorità 3: MSA2, MSA2_A, MSA, ALS, VLV, ELI (massima priorità)
+                if (tipoMezzo.startsWith('MSA2') || tipoMezzo === 'MSA2_A' || 
+                    tipoMezzo === 'MSA' || tipoMezzo.startsWith('ALS') || 
+                    tipoMezzo.startsWith('VLV') || tipoMezzo === 'ELI') return 3;
+                
+                // Altri tipi MSAI o simili (priorità intermedia)
+                if (tipoMezzo.startsWith('MSAI')) return 2.5;
+                
+                return 0;
             }
-            aggiornaMissioniPerMezzo(mezzo);
-            mezzo._timerReportPronto = null;
-        }, randomMinuti(20, 30) * 60);
+            
+            // Trova il mezzo con priorità più alta nella missione
+            const mezzoConPrioritaMassima = allMezziInMissione.reduce((max, current) => {
+                const currentPriorita = getPriorita(current.tipo_mezzo);
+                const maxPriorita = getPriorita(max.tipo_mezzo);
+                return currentPriorita > maxPriorita ? current : max;
+            });
+            
+            const miaProrita = getPriorita(mezzo.tipo_mezzo);
+            const prioritaMassima = getPriorita(mezzoConPrioritaMassima.tipo_mezzo);
+            
+            // Controlla se sono il mezzo con priorità più alta
+            const sonoIlPiuAlto = miaProrita === prioritaMassima;
+            
+            if (sonoIlPiuAlto) {
+                // Sono il mezzo con priorità più alta: aspetto che tutti arrivino in stato 3
+                const tuttiInStato3 = allMezziInMissione.every(m => m.stato === 3);
+                
+                if (tuttiInStato3) {
+                    // Tutti arrivati: invio report sincronizzato per tutti
+                    console.log(`[DEBUG] ${mezzo.nome_radio} (priorità ${miaProrita}): tutti i mezzi arrivati, invio report sincronizzato`);
+                    
+                    // Invia report per tutti i mezzi in stato 3
+                    allMezziInMissione.forEach((m, index) => {
+                        if (m.stato === 3 && !m._reportProntoInviato && !m._timerReportPronto) {
+                            m._timerReportPronto = simTimeout(() => {
+                                // Determina il testo del report per questo mezzo specifico
+                                let mezzoReportText = 'Report pronto';
+                                if (myCall && myCall.selectedChiamata) {
+                                    const mezzoType = m.tipo_mezzo || '';
+                                    let reportKey = null;
+                                    
+                                    // Mappa completa dei tipi di mezzo ai report
+                                    if (mezzoType.startsWith('MSB') || mezzoType.startsWith('BLS')) {
+                                        reportKey = 'MSB';
+                                    } else if (mezzoType.startsWith('MSA1') || mezzoType === 'MSA1_1' || 
+                                              mezzoType.startsWith('MSI') || mezzoType.startsWith('ILS')) {
+                                        reportKey = 'MSA1';
+                                    } else if (mezzoType.startsWith('MSA2') || mezzoType === 'MSA2_A' || 
+                                              mezzoType === 'MSA' || mezzoType.startsWith('ALS') || 
+                                              mezzoType.startsWith('VLV') || mezzoType === 'ELI') {
+                                        reportKey = 'MSA2';
+                                    } else if (mezzoType.startsWith('MSAI')) {
+                                        reportKey = 'MSA1'; // MSAI usa report MSA1
+                                    }
+                                    
+                                    if (reportKey) {
+                                        if (myCall.selectedCase && myCall.selectedChiamata[myCall.selectedCase] && myCall.selectedChiamata[myCall.selectedCase][reportKey]) {
+                                            mezzoReportText = myCall.selectedChiamata[myCall.selectedCase][reportKey];
+                                        } else if (myCall.selectedChiamata['caso_stabile'] && myCall.selectedChiamata['caso_stabile'][reportKey]) {
+                                            mezzoReportText = myCall.selectedChiamata['caso_stabile'][reportKey];
+                                        }
+                                    }
+                                }
+                                
+                                m.comunicazioni = (m.comunicazioni || []).concat([mezzoReportText]);
+                                console.log('[DEBUG] Mezzo', m.nome_radio, 'ha inviato report sincronizzato:', mezzoReportText);
+                                m._reportProntoInviato = true;
+                                if(window.game && window.game.ui && window.game.ui.updateStatoMezzi) {
+                                    window.game.ui.updateStatoMezzi(m);
+                                }
+                                aggiornaMissioniPerMezzo(m);
+                                m._timerReportPronto = null;
+                            }, randomMinuti(20, 30) * 60 + (index * 100)); // Piccolo delay tra i mezzi per evitare sovrapposizioni
+                        }
+                    });
+                } else {
+                    // Non tutti arrivati: aspetto
+                    const mezziMancanti = allMezziInMissione.filter(m => m.stato !== 3);
+                    console.log(`[DEBUG] ${mezzo.nome_radio} (priorità ${miaProrita}): aspetto altri mezzi:`, mezziMancanti.map(m => m.nome_radio));
+                }
+            } else {
+                // Non sono il mezzo con priorità più alta: aspetto che il mezzo prioritario attivi la sincronizzazione
+                console.log(`[DEBUG] ${mezzo.nome_radio} (priorità ${miaProrita}): aspetto mezzo con priorità maggiore (${prioritaMassima}): ${mezzoConPrioritaMassima.nome_radio}`);
+            }
+        } else {
+            // Mezzo solo o fallback: invia normalmente
+            console.log(`[DEBUG] ${mezzo.nome_radio}: mezzo solo, invio report normale`);
+            mezzo._timerReportPronto = simTimeout(() => {
+                mezzo.comunicazioni = (mezzo.comunicazioni || []).concat([reportText]);
+                console.log('[DEBUG] Mezzo', mezzo.nome_radio, 'ha inviato report:', reportText);
+                mezzo._reportProntoInviato = true;
+                if(window.game && window.game.ui && window.game.ui.updateStatoMezzi) {
+                    window.game.ui.updateStatoMezzi(mezzo);
+                }
+                aggiornaMissioniPerMezzo(mezzo);
+                mezzo._timerReportPronto = null;
+            }, randomMinuti(20, 30) * 60);
+        }
     }
 }
 
@@ -480,37 +601,29 @@ function aggiornaDisponibilitaMezzi() {
 
 // Aggiunta una funzione per calcolare il ritardo di partenza in base al tipo di mezzo
 function getRitardoPartenza(tipoMezzo) {
-    if (!tipoMezzo) return Math.random() * 35 + 25; // 25-60 secondi default
+    if (!tipoMezzo) return randomMinuti(1, 4) * 60; // Default fallback
     
-    // Normalizza il tipo di mezzo e rimuovi convenzioni di turno
-    let tipo = tipoMezzo.toUpperCase().trim();
+    // Normalizza il tipo di mezzo
+    const tipo = tipoMezzo.toUpperCase().trim();
     
-    // Rimuovi convenzioni di turno (H24, H8, H12, GET, ecc.) e separatori
-    tipo = tipo.replace(/\s*-\s*(H\d+|GET|ORARIO).*$/, ''); // Rimuove tutto dopo " - H24" o " - GET"
-    tipo = tipo.replace(/\s+.*$/, ''); // Rimuove tutto dopo il primo spazio
+    // ELI: 5-8 minuti
+    if (tipo.includes('ELI')) {
+        return randomMinuti(5, 8) * 60;
+    }
     
-    // ELI: doppio dei terrestri (40-180 secondi)
-    if (tipo === 'ELI' || tipo.startsWith('ELI')) {
-        const secondiMin = 40;  // doppio di 20
-        const secondiMax = 180; // doppio di 90
+    // Mezzi terrestri (MSB, MSA1, MSA1_A, MSA2, MSA2_A): 30 secondi - 3 minuti
+    if (tipo.startsWith('MSB') || tipo.startsWith('MSA1') || tipo.startsWith('MSA2')) {
+        // Converti 30 secondi in frazione di minuto (0.5) e 3 minuti
+        const secondiMin = 30; // 30 secondi
+        const minutiMax = 3;   // 3 minuti
         
-        const secondiTotali = Math.random() * (secondiMax - secondiMin) + secondiMin;
+        // Genera un numero casuale tra 30 secondi e 3 minuti
+        const secondiTotali = Math.random() * (minutiMax * 60 - secondiMin) + secondiMin;
         return Math.round(secondiTotali);
     }
     
-    // Mezzi terrestri: 20-90 secondi
-    if (tipo === 'MSB' || tipo === 'MSA1' || tipo === 'MSA2' || 
-        tipo.startsWith('MSA1_') || tipo.startsWith('MSA2_')) {
-        const secondiMin = 20; // 20 secondi
-        const secondiMax = 90; // 90 secondi (1.5 minuti)
-        
-        // Genera un numero casuale tra 20 e 90 secondi
-        const secondiTotali = Math.random() * (secondiMax - secondiMin) + secondiMin;
-        return Math.round(secondiTotali);
-    }
-    
-    // Default per tipi sconosciuti: 25-60 secondi
-    return Math.random() * 35 + 25; // 25-60 secondi
+    // Default per altri tipi di mezzi
+    return randomMinuti(1, 4) * 60;
 }
 
 class EmergencyDispatchGame {
@@ -585,52 +698,8 @@ class EmergencyDispatchGame {
                 : new Date();
 
             (this.mezzi || []).forEach(async m => {
-                if (m.stato === 2 && m.chiamata && !m._inMovimentoMissione && !m._ritardoProgrammato) {
-                    // Se il mezzo non viene da stato 7, applica ritardo di preparazione
-                    // Considera anche il caso in cui _daStat7 non è definito (primo assegnamento)
-                    if (!m._daStat7) {
-                        m._ritardoProgrammato = true;
-                        const ritardo = this.getRitardoPartenza(m.tipo_mezzo); // già in secondi
-                        console.log(`[INFO] Ritardo partenza ${m.nome_radio}: ${Math.round(ritardo/60)} min (${ritardo}s)`);
-                        
-                        simTimeout(async () => {
-                            m._ritardoProgrammato = false;
-                            if (m.stato === 2 && m.chiamata && !m._inMovimentoMissione) {
-                                // Avvia movimento dopo il ritardo
-                                m._inMovimentoMissione = true;
-                                const call = Array.from(this.calls.values()).find(c => (c.mezziAssegnati||[]).includes(m.nome_radio));
-                                if (call) {
-                                    const dist = distanzaKm(m.lat, m.lon, call.lat, call.lon);
-                                    let vel = await getVelocitaMezzo(m.tipo_mezzo);
-                                    let riduzione = 0;
-                                    if (call.codice === 'Rosso') riduzione = 0.15;
-                                    else if (call.codice === 'Giallo') riduzione = 0.10;
-                                    if (m.tipo_mezzo !== 'ELI') {
-                                        const traffico = 1 + (Math.random() * 0.2 - 0.1);
-                                        vel = vel * traffico;
-                                    }
-                                    vel = vel * (1 + riduzione);
-                                    const tempoArrivo = Math.round((dist / vel) * 60);
-                                    const arrivoMinuti = Math.min(Math.max(tempoArrivo, 2), 30);
-                                    this.moveMezzoGradualmente(m, m.lat, m.lon, call.lat, call.lon, arrivoMinuti, 3, () => {
-                                        this.ui.updateStatoMezzi(m);
-                                        this.updateMezzoMarkers();
-                                        m._inMovimentoMissione = false;
-                                        gestisciStato3.call(this, m, call);
-                                    });
-                                }
-                            }
-                        }, ritardo);
-                        
-                        // Reset flag
-                        m._daStat7 = false;
-                        return; // Esce dal blocco per aspettare il timeout
-                    }
-                    
-                    // Reset flag per partenza immediata
-                    m._daStat7 = false;
-                    
-                    // Partenza immediata (mezzo in movimento o da stato 7)
+                if (m.stato === 2 && m.chiamata && !m._inMovimentoMissione) {
+                    console.log('[DEBUG] Mezzo in stato 2:', m.nome_radio, 'chiamata:', m.chiamata);
                     m._inMovimentoMissione = true;
                     const call = Array.from(this.calls.values()).find(c => (c.mezziAssegnati||[]).includes(m.nome_radio));
                     if (!call) return;
@@ -709,10 +778,6 @@ class EmergencyDispatchGame {
                 }
             });
         }, 5);
-    }
-
-    getRitardoPartenza(tipoMezzo) {
-        return getRitardoPartenza(tipoMezzo);
     }
 
     async loadStatiMezzi() {
@@ -2271,15 +2336,19 @@ class EmergencyDispatchGame {
             <tbody>`;
         mezziFiltrati.forEach(m => {
             // Set background color based on state: 1=green, 2=yellow, 7=grey
+            // Se è in stato 1 ma ha già una chiamata assegnata, usa un colore diverso (arancione)
             let evidenzia = '';
-            if (m.stato === 1) evidenzia = 'background:#e8f5e9;';
-            else if (m.stato === 2) evidenzia = 'background:#fff9c4;';
-            else if (m.stato === 7) evidenzia = 'background:#eeeeee;';
+            if (m.stato === 1 && m.chiamata) evidenzia = 'background:#ffcc80;'; // Arancione: stato 1 ma impegnato
+            else if (m.stato === 1) evidenzia = 'background:#e8f5e9;'; // Verde: stato 1 libero
+            else if (m.stato === 2) evidenzia = 'background:#fff9c4;'; // Giallo: in viaggio
+            else if (m.stato === 7) evidenzia = 'background:#eeeeee;'; // Grigio: rientro
             // Add icon based on state
             let icon = '';
-            if (m.stato === 1) icon = '✅ ';
-            else if (m.stato === 2) icon = '🚑 ';
-            else if (m.stato === 7) icon = '↩️ ';
+            if (m.stato === 1 && m.chiamata) icon = '⏳ '; // Clessidra: aspetta di partire
+            else if (m.stato === 1) icon = '✅ '; // Check: libero
+            else if (m.stato === 2) icon = '🚑 '; // Ambulanza: in viaggio
+            else if (m.stato === 7) icon = '↩️ '; // Freccia: rientro
+            // Solo i mezzi già assegnati a questa chiamata specifica vengono spuntati
             const checked = (call.mezziAssegnati||[]).includes(m.nome_radio) ? 'checked' : '';
             // Disable checkbox if vehicle is not in allowed states
             const disabledAttr = ![1,2,7].includes(m.stato) ? 'disabled' : '';
@@ -2412,13 +2481,6 @@ class EmergencyDispatchGame {
         });
         
         // Gestisci i mezzi selezionati
-        if (aggiunti.length > 0) {
-            // Suono di conferma solo se ci sono mezzi effettivamente assegnati
-            if (window.soundManager) {
-                window.soundManager.play('confirm');
-            }
-        }
-        
         window.game.mezzi.forEach(m => {
             // Processa solo i mezzi nuovi aggiunti a questa chiamata
             if (aggiunti.includes(m.nome_radio)) {
@@ -2444,17 +2506,15 @@ class EmergencyDispatchGame {
                     console.log('[INFO] Attivazione mezzo in stato 6:', m.nome_radio);
                     interrompiMovimento(m);
                 } else if (m.stato === 7) {
-                    // Stato 7: mezzo in rientro, interrompere e assegnare nuova missione senza cancellare
+                    // Stato 7: mezzo in rientro, interrompere e assegnare nuova missione
                     console.log('[INFO] Riattivazione mezzo da rientro (stato 7):', m.nome_radio);
                     interrompiMovimento(m);
                     m._inRientroInSede = false;
-                    // Imposta flag per partenza immediata (senza ritardi)
-                    m._daStat7 = true;
                     // pulisci vecchi riferimenti
                     m.ospedale = null;
                     m.codice_trasporto = null;
-                    // bypass setStatoMezzo che pulisce chiamata: imposta direttamente a intervento
-                    m.stato = 2;
+                    // CORRETTO: usa setStatoMezzo invece di bypass, poi il timer gestirà il passaggio a 2
+                    setStatoMezzo(m, 1);
                     aggiornaMissioniPerMezzo(m);
                     // assegna chiamata e reset flags
                     m.chiamata = call;
@@ -2469,7 +2529,7 @@ class EmergencyDispatchGame {
                     window.game.ui.updateStatoMezzi(m);
                     window.game.updateMezzoMarkers();
                     window.game.ui.updateMissioneInCorso(call);
-                    return;
+                    // NON fare return qui - continua per avviare il timer di partenza
                 } else if (m.stato === 3) {
                     // Stato 3: mezzo già in missione, interrompere e reindirizzare
                     console.log('[INFO] Reindirizzamento mezzo in stato 3:', m.nome_radio);
@@ -2479,7 +2539,7 @@ class EmergencyDispatchGame {
                     m.codice_trasporto = null;
                     // Forza transizione scena->disponibile->intervento
                     setStatoMezzo(m, 1);
-                    setStatoMezzo(m, 2);
+                    setStatoMezzo(m, 2, true); // MANUALE: con suono confirm
                     // Assegna la nuova chiamata e reset flags
                     m.chiamata = call;
                     m._reportProntoInviato = false;
@@ -2490,15 +2550,23 @@ class EmergencyDispatchGame {
                 // Assigna la nuova chiamata al mezzo
                 m.chiamata = call;
                 
+                // AGGIUNTO: Riproduci immediatamente il suono confirm per assegnazione manuale
+                if (aggiunti.length > 0 && aggiunti.includes(m.nome_radio)) {
+                    console.log('[DEBUG] Riproduco suono confirm per assegnazione manuale di:', m.nome_radio);
+                    window.soundManager?.play('confirm');
+                }
+                
                 // Reset report and menu flags for new mission assignment
                 m._reportProntoInviato = false;
                 m._timerReportPronto = null;
                 m._menuOspedaliShown = false;
                 
-                // Cambia stato a 2 per tutti i mezzi assegnati eccetto quelli in fase di trasporto
-                if ([1, 6].includes(m.stato)) {
-                    setStatoMezzo(m, 2);
+                // MODIFICA: Non mettere subito a stato 2, lasciare a stato 1 
+                // Il passaggio a stato 2 sarà gestito dal timer di partenza specifico
+                if ([6].includes(m.stato)) {
+                    setStatoMezzo(m, 1); // Prima a stato 1, poi il timer gestirà il passaggio a 2
                 }
+                // Se è già a stato 1, non fare nulla qui
             }
         });
         
@@ -2516,7 +2584,7 @@ class EmergencyDispatchGame {
         if (window.game && window.game.mezzi) {
             const mezziDaProcessare = window.game.mezzi.filter(m => 
                 aggiunti.includes(m.nome_radio) && 
-                m.stato === 2 && 
+                m.stato === 1 && // CORRETTO: ora filtriamo su stato 1 invece di 2
                 !m._inMovimentoMissione && 
                 m.chiamata === call
             );
@@ -2525,51 +2593,87 @@ class EmergencyDispatchGame {
             mezziDaProcessare.forEach((m, indice) => {
                 // Calcola il ritardo di partenza specifico per questo tipo di mezzo
                 const ritardoPartenza = getRitardoPartenza(m.tipo_mezzo);
+                // DEBUG: logga info dettagliate sulla partenza
+                console.log(`[DEBUG] Mezzo: ${m.nome_radio}, tipo_mezzo: '${m.tipo_mezzo}', ritardoPartenza: ${ritardoPartenza} secondi (${(ritardoPartenza/60).toFixed(2)} minuti)`);
                 
-                console.log(`[INFO] Programmata partenza per ${m.nome_radio} (${m.tipo_mezzo}) tra ${Math.round(ritardoPartenza/60)} minuti`);
+                // Memorizza quando il mezzo deve partire (in secondi simulati)
+                const tempoPartenzaSimulato = (window.simTime || 0) + ritardoPartenza;
+                const oraAttuale = formatSimTime(window.simTime || 0);
+                const oraPartenza = formatSimTime(tempoPartenzaSimulato);
                 
-                // Programma la partenza del mezzo con il ritardo calcolato
-                simTimeout(() => {
-                    // Ricontrolla che il mezzo sia ancora assegnato a questa chiamata
-                    if (!m.chiamata || m.chiamata.id !== call.id || m._inMovimentoMissione) return;
-                    
-                    console.log('[INFO] Avvio movimento mezzo verso la nuova chiamata:', m.nome_radio);
-                    
-                    // Calcola la distanza e il tempo necessario
-                    const dist = distanzaKm(m.lat, m.lon, call.lat, call.lon);
-                    
-                    // Usa una versione preimpostata di velocità per ridurre i calcoli
-                    let velBase;
-                    if (m.tipo_mezzo === 'ELI') velBase = 180;
-                    else if (m.tipo_mezzo.startsWith('MSA')) velBase = 60;
-                    else velBase = 50; // MSB e altri
+                // Memorizza i dati per il controllo della partenza
+                m._tempoPartenzaSimulato = tempoPartenzaSimulato;
+                m._chiamataPartenza = call.id;
+                m._inAttesaPartenza = true;
+                
+                console.log(`[DEBUG] Programmata partenza per ${m.nome_radio} alle ore simulate ${oraPartenza} (ora attuale: ${oraAttuale}, ritardo: ${(ritardoPartenza/60).toFixed(1)} min)`);
+                
+                // Funzione per controllare se è ora di partire
+                function controllaPartenza() {
+                    // Se il tempo simulato attuale è >= tempo di partenza programmato
+                    if ((window.simTime || 0) >= m._tempoPartenzaSimulato && m._inAttesaPartenza) {
+                        // Ricontrolla che il mezzo sia ancora assegnato a questa chiamata
+                        if (!m.chiamata || m.chiamata.id !== call.id || m._inMovimentoMissione) {
+                            console.log(`[DEBUG] Partenza annullata per ${m.nome_radio} - condizioni cambiate`);
+                            m._inAttesaPartenza = false;
+                            return;
+                        }
+                        
+                        const oraEffettivaPartenza = formatSimTime(window.simTime || 0);
+                        console.log(`[INFO] Avvio movimento mezzo verso la nuova chiamata: ${m.nome_radio} alle ore simulate ${oraEffettivaPartenza}`);
+                        
+                        // Rimuovi il flag di attesa
+                        m._inAttesaPartenza = false;
+                        
+                        // AGGIUNTO: Prima di avviare il movimento, passa il mezzo a stato 2
+                        // NON riprodurre suono qui - è già stato riprodotto all'assegnazione
+                        setStatoMezzo(m, 2, false);
+                        
+                        // Calcola la distanza e il tempo necessario
+                        const dist = distanzaKm(m.lat, m.lon, call.lat, call.lon);
+                        
+                        // Usa una versione preimpostata di velocità per ridurre i calcoli
+                        let velBase;
+                        if (m.tipo_mezzo === 'ELI') velBase = 180;
+                        else if (m.tipo_mezzo.startsWith('MSA')) velBase = 60;
+                        else velBase = 50; // MSB e altri
 
-                    let riduzione = 0;
-                    if (call.codice === 'Rosso') riduzione = 0.15;
-                    else if (call.codice === 'Giallo') riduzione = 0.10;
+                        let riduzione = 0;
+                        if (call.codice === 'Rosso') riduzione = 0.15;
+                        else if (call.codice === 'Giallo') riduzione = 0.10;
                     
-                    if (m.tipo_mezzo !== 'ELI') {
-                        const traffico = 1 + (Math.random() * 0.2 - 0.1);
-                        velBase = velBase * traffico;
+                        else if (call.codice === 'Giallo') riduzione = 0.10;
+                        
+                        if (m.tipo_mezzo !== 'ELI') {
+                            const traffico = 1 + (Math.random() * 0.2 - 0.1);
+                            velBase = velBase * traffico;
+                        }
+                        const vel = velBase * (1 + riduzione);
+                        
+                        const tempoArrivo = Math.round((dist / vel) * 60);
+                        m._inMovimentoMissione = true;
+                        
+                        // Avvia il movimento verso la chiamata
+                        window.game.moveMezzoGradualmente(m, m.lat, m.lon, call.lat, call.lon, Math.max(tempoArrivo, 2), 3, () => {
+                            window.game.ui.updateStatoMezzi(m);
+                            window.game.updateMezzoMarkers();
+                            m._inMovimentoMissione = false;
+                            gestisciStato3.call(window.game, m, call);
+                        });
                     }
-                    const vel = velBase * (1 + riduzione);
+                }
+                
+                // Usa un timer breve che controlla ogni 5 secondi simulati se è ora di partire
+                const timerPartenza = simInterval(() => {
+                    controllaPartenza();
                     
-                    const tempoArrivo = Math.round((dist / vel) * 60);
-                    m._inMovimentoMissione = true;
-                    
-                    // Avvia il movimento verso la chiamata
-                    window.game.moveMezzoGradualmente(m, m.lat, m.lon, call.lat, call.lon, Math.max(tempoArrivo, 2), 3, () => {
-                        window.game.ui.updateStatoMezzi(m);
-                        window.game.updateMezzoMarkers();
-                        m._inMovimentoMissione = false;
-                        gestisciStato3.call(window.game, m, call);
-                    });
-                }, ritardoPartenza);
+                    // Se il mezzo è partito o non è più in attesa, ferma il timer
+                    if (!m._inAttesaPartenza) {
+                        clearInterval(timerPartenza);
+                    }
+                }, 5); // Controlla ogni 5 secondi simulati
             });
         }
-        
-        // Chiudi popup
-        popup.classList.add('hidden');
     }
 
     gestisciStato7(mezzo) {
