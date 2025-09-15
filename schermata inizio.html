@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Seleziona Regione - Operatore 118</title>
-    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="icon" href="./favicon.ico" type="image/x-icon">
     <style>
         body {
             background: 
@@ -172,7 +172,8 @@
 </head>
 <body>
     <div class="centrale-container">
-        <img src="Calabria/src/assets/logo118.png" alt="Logo Centrale Operativa 118" class="logo-centrale">
+       <img src="./Calabria/src/assets/logo118.png" alt="Logo Centrale Operativa 118" class="logo-centrale"
+           onerror="if(this.src.indexOf('./')===0){this.src=this.src.replace('./','');}else{this.src='./Calabria/src/assets/logo118.png';}">
         <h1>Selezionare la Regione</h1>
         <div class="regioni-container">
             <!-- Regioni disponibili -->
