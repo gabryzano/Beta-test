@@ -1,0 +1,72 @@
+[
+  {
+    "OSPEDALE": "H ROVIGO",
+    "COORDINATE": "45.0713873,11.8160984",
+    "N° pazienti Max": 45,
+    "CLASSE": "DEA",
+    "PUNTO NASCITA": true,
+    "PEDIATRIA": true,
+    "TRAUMA": "CTZ",
+    "EMODINAMICA": true,
+    "STROKE UNIT": true,
+    "NCH": false,
+    "RIANIMAZIONE": true,
+    "PSICHIATRIA": true
+  },
+  {
+    "OSPEDALE": "H ADRIA",
+    "COORDINATE": "45.047893,12.0541242",
+    "N° pazienti Max": 30,
+    "CLASSE": "DEA",
+    "PUNTO NASCITA": true,
+    "PEDIATRIA": true,
+    "TRAUMA": "PST",
+    "EMODINAMICA": false,
+    "STROKE UNIT": false,
+    "NCH": false,
+    "RIANIMAZIONE": true,
+    "PSICHIATRIA": false
+  },
+  {
+    "OSPEDALE": "H TRECENTA",
+    "COORDINATE": "45.0293683,11.466979",
+    "N° pazienti Max": 30,
+    "CLASSE": "PS",
+    "PUNTO NASCITA": true,
+    "PEDIATRIA": true,
+    "TRAUMA": "OTT",
+    "EMODINAMICA": false,
+    "STROKE UNIT": false,
+    "NCH": false,
+    "RIANIMAZIONE": true,
+    "PSICHIATRIA": false
+  },
+  {
+    "OSPEDALE": "H PORTO VIRO",
+    "COORDINATE": "45.0265134,12.2235316",
+    "N° pazienti Max": 25,
+    "CLASSE": "PS",
+    "PUNTO NASCITA": false,
+    "PEDIATRIA": false,
+    "TRAUMA": "OTT",
+    "EMODINAMICA": false,
+    "STROKE UNIT": false,
+    "NCH": false,
+    "RIANIMAZIONE": false,
+    "PSICHIATRIA": false
+  },
+  {
+    "OSPEDALE": "H OCCHIOBELLO",
+    "COORDINATE": "44.8917384,11.6119023",
+    "N° pazienti Max": 15,
+    "CLASSE": "PS",
+    "PUNTO NASCITA": false,
+    "PEDIATRIA": false,
+    "TRAUMA": "OTT",
+    "EMODINAMICA": false,
+    "STROKE UNIT": false,
+    "NCH": false,
+    "RIANIMAZIONE": false,
+    "PSICHIATRIA": false
+  }
+]

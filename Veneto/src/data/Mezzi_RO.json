@@ -1,0 +1,279 @@
+{
+  "Sheet1": [
+    {
+      "Nome Postazione": "Croce Blu - Gaiba",
+      "Coordinate Postazione": "44.9458212,11.4800995",
+      "Mezzo": "MSB",
+      "Nome radio": "BLU 05",
+      "Convenzione": "H12",
+      "Orario di lavoro": "20:00-08:00",
+      "Giorni": "LUN-DOM",
+      "Unnamed: 7": "",
+      "note": ""
+    },
+    {
+      "Nome Postazione": "Croce Verde - Adria",
+      "Coordinate Postazione": "45.0587579,12.0482025",
+      "Mezzo": "MSB",
+      "Nome radio": "VICTOR 20",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM",
+      "Unnamed: 7": "",
+      "note": ""
+    },
+    {
+      "Nome Postazione": "Croce Verde - Rovigo",
+      "Coordinate Postazione": "45.0747594,11.8017779",
+      "Mezzo": "MSB",
+      "Nome radio": "VICTOR 22",
+      "Convenzione": "H12",
+      "Orario di lavoro": "08:00-20:00",
+      "Giorni": "LUN-DOM",
+      "Unnamed: 7": "",
+      "note": ""
+    },
+    {
+      "Nome Postazione": "Croce Verde - Rovigo",
+      "Coordinate Postazione": "45.0747594,11.8017779",
+      "Mezzo": "MSB",
+      "Nome radio": "VICTOR 23",
+      "Convenzione": "H12",
+      "Orario di lavoro": "20:00-08:00",
+      "Giorni": "LUN-DOM",
+      "Unnamed: 7": "",
+      "note": ""
+    },
+    {
+      "Nome Postazione": "Croce Verde - Rovigo",
+      "Coordinate Postazione": "45.0747594,11.8017779",
+      "Mezzo": "MSB",
+      "Nome radio": "VICTOR 24",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM",
+      "Unnamed: 7": "",
+      "note": ""
+    },
+    {
+      "Nome Postazione": "SUEM 118 - Adria",
+      "Coordinate Postazione": "45.0476029,12.0538519",
+      "Mezzo": "VLV",
+      "Nome radio": "CHARLIE 02",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM",
+      "Unnamed: 7": "",
+      "note": ""
+    },
+    {
+      "Nome Postazione": "SUEM 118 - Adria",
+      "Coordinate Postazione": "45.0476029,12.0538519",
+      "Mezzo": "MSI",
+      "Nome radio": "CHARLIE 07",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM",
+      "Unnamed: 7": "",
+      "note": ""
+    },
+    {
+      "Nome Postazione": "SUEM 118 - Adria",
+      "Coordinate Postazione": "45.0476029,12.0538519",
+      "Mezzo": "MSI",
+      "Nome radio": "CHARLIE 08",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM",
+      "Unnamed: 7": "",
+      "note": ""
+    },
+    {
+      "Nome Postazione": "SUEM 118 - Castelmassa",
+      "Coordinate Postazione": "45.0174756,11.310294",
+      "Mezzo": "MSI",
+      "Nome radio": "CHARLIE 05",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM",
+      "Unnamed: 7": "",
+      "note": ""
+    },
+    {
+      "Nome Postazione": "SUEM 118 - Porto Tolle",
+      "Coordinate Postazione": "44.9501152,12.3242793",
+      "Mezzo": "MSA",
+      "Nome radio": "CHARLIE 11",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM",
+      "Unnamed: 7": "",
+      "note": ""
+    },
+    {
+      "Nome Postazione": "SUEM 118 - Porto Viro",
+      "Coordinate Postazione": "45.0267504,12.223735",
+      "Mezzo": "VLV",
+      "Nome radio": "BRAVO 01",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM",
+      "Unnamed: 7": "",
+      "note": ""
+    },
+    {
+      "Nome Postazione": "SUEM 118 - Porto Viro",
+      "Coordinate Postazione": "45.0267504,12.223735",
+      "Mezzo": "MSI",
+      "Nome radio": "BRAVO 03",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM",
+      "Unnamed: 7": "",
+      "note": ""
+    },
+    {
+      "Nome Postazione": "SUEM 118 - Porto Viro",
+      "Coordinate Postazione": "45.0267504,12.223735",
+      "Mezzo": "MSI",
+      "Nome radio": "BRAVO 04",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM",
+      "Unnamed: 7": "",
+      "note": ""
+    },
+    {
+      "Nome Postazione": "SUEM 118 - Rovigo",
+      "Coordinate Postazione": "45.0733784,11.8173038",
+      "Mezzo": "VLV",
+      "Nome radio": "CHARLIE 01",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM",
+      "Unnamed: 7": "",
+      "note": ""
+    },
+    {
+      "Nome Postazione": "SUEM 118 - Rovigo",
+      "Coordinate Postazione": "45.0733784,11.8173038",
+      "Mezzo": "MSI",
+      "Nome radio": "CHARLIE 03",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM",
+      "Unnamed: 7": "",
+      "note": ""
+    },
+    {
+      "Nome Postazione": "SUEM 118 - Rovigo",
+      "Coordinate Postazione": "45.0733784,11.8173038",
+      "Mezzo": "MSI",
+      "Nome radio": "CHARLIE 04",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM",
+      "Unnamed: 7": "",
+      "note": ""
+    },
+    {
+      "Nome Postazione": "SUEM 118 - Rovigo",
+      "Coordinate Postazione": "45.0733784,11.8173038",
+      "Mezzo": "MSI",
+      "Nome radio": "CHARLIE 05",
+      "Convenzione": "H12",
+      "Orario di lavoro": "08:00-20:00",
+      "Giorni": "LUN-DOM",
+      "Unnamed: 7": "",
+      "note": ""
+    },
+    {
+      "Nome Postazione": "SUEM 118 - Santa Maria Maddalena",
+      "Coordinate Postazione": "44.89169,11.61207",
+      "Mezzo": "MSI",
+      "Nome radio": "CHARLIE 10",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM",
+      "Unnamed: 7": "",
+      "note": ""
+    },
+    {
+      "Nome Postazione": "SUEM 118 - Trecenta",
+      "Coordinate Postazione": "45.029306,11.466648",
+      "Mezzo": "MSI",
+      "Nome radio": "CHARLIE 14",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM",
+      "Unnamed: 7": "",
+      "note": ""
+    },
+    {
+      "Nome Postazione": "SUEM 118 - Trecenta",
+      "Coordinate Postazione": "45.029306,11.466648",
+      "Mezzo": "VLV",
+      "Nome radio": "CHARLIE 33",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM",
+      "Unnamed: 7": "",
+      "note": ""
+    },
+    {
+      "Nome Postazione": "SUEM 118 Estiva - Albarella",
+      "Coordinate Postazione": "45.0764433,12.3400572",
+      "Mezzo": "MSB",
+      "Nome radio": "CHARLIE 17",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM",
+      "Unnamed: 7": "",
+      "note": ""
+    },
+    {
+      "Nome Postazione": "SUEM 118 Estiva - Boccasette",
+      "Coordinate Postazione": "44.9982703,12.4252109",
+      "Mezzo": "MSI",
+      "Nome radio": "CHARLIE 15",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM",
+      "Unnamed: 7": "",
+      "note": ""
+    },
+    {
+      "Nome Postazione": "SUEM 118 Estiva - Bonelli",
+      "Coordinate Postazione": "44.8979281,12.4500078",
+      "Mezzo": "MSI",
+      "Nome radio": "CHARLIE 16",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM",
+      "Unnamed: 7": "",
+      "note": ""
+    },
+    {
+      "Nome Postazione": "SUEM 118 Estiva - Rosolina Mare",
+      "Coordinate Postazione": "45.13392,12.31621",
+      "Mezzo": "MSA",
+      "Nome radio": "VICTOR 30",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM",
+      "Unnamed: 7": "",
+      "note": ""
+    },
+    {
+      "Nome Postazione": "Pubblica Assistenza Occhiobello",
+      "Coordinate Postazione": "44.9028471,11.6042253",
+      "Mezzo": "MSB",
+      "Nome radio": "BRAVO 12",
+      "Convenzione": "H12",
+      "Orario di lavoro": "08:00-20:00",
+      "Giorni": "LUN-DOM",
+      "Unnamed: 7": "",
+      "note": ""
+    }
+  ]
+}

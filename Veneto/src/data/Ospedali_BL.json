@@ -1,0 +1,72 @@
+[
+  {
+    "OSPEDALE": "H BELLUNO",
+    "COORDINATE": "46.1394358,12.2018562",
+    "N° pazienti Max": 45,
+    "CLASSE": "DEA",
+    "PUNTO NASCITA": true,
+    "PEDIATRIA": true,
+    "TRAUMA": "CTZ",
+    "EMODINAMICA": true,
+    "STROKE UNIT": true,
+    "NCH": false,
+    "RIANIMAZIONE": true,
+    "PSICHIATRIA": true
+  },
+  {
+    "OSPEDALE": "H FELTE",
+    "COORDINATE": "46.0225062,11.9072106",
+    "N° pazienti Max": 35,
+    "CLASSE": "DEA",
+    "PUNTO NASCITA": true,
+    "PEDIATRIA": true,
+    "TRAUMA": "CTZ",
+    "EMODINAMICA": false,
+    "STROKE UNIT": true,
+    "NCH": false,
+    "RIANIMAZIONE": true,
+    "PSICHIATRIA": true
+  },
+  {
+    "OSPEDALE": "H PIEVE DI CADORE",
+    "COORDINATE": "46.4313304,12.3766115",
+    "N° pazienti Max": 25,
+    "CLASSE": "PS",
+    "PUNTO NASCITA": false,
+    "PEDIATRIA": false,
+    "TRAUMA": "PST",
+    "EMODINAMICA": false,
+    "STROKE UNIT": false,
+    "NCH": false,
+    "RIANIMAZIONE": true,
+    "PSICHIATRIA": true
+  },
+  {
+    "OSPEDALE": "H AGORDO",
+    "COORDINATE": "46.2838891,12.0389998",
+    "N° pazienti Max": 20,
+    "CLASSE": "PS",
+    "PUNTO NASCITA": false,
+    "PEDIATRIA": false,
+    "TRAUMA": "OTT",
+    "EMODINAMICA": false,
+    "STROKE UNIT": false,
+    "NCH": false,
+    "RIANIMAZIONE": false,
+    "PSICHIATRIA": false
+  },
+  {
+    "OSPEDALE": "H CORTINA",
+    "COORDINATE": "46.554531,12.1314826",
+    "N° pazienti Max": 15,
+    "CLASSE": "PS",
+    "PUNTO NASCITA": false,
+    "PEDIATRIA": false,
+    "TRAUMA": "OTT",
+    "EMODINAMICA": false,
+    "STROKE UNIT": false,
+    "NCH": false,
+    "RIANIMAZIONE": false,
+    "PSICHIATRIA": false
+  }
+]
