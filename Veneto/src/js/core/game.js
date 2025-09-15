@@ -1639,13 +1639,20 @@ class EmergencyDispatchGame {
             // Show markers only for movement states 2, 4 and 7
             if (![2, 4, 7].includes(m.stato)) return;
             
-            // Determine icon based on vehicle type
+            // Determine icon based on vehicle type (Veneto mapping)
+            // Rules requested:
+            // msb, msi, msa -> MSB.png
+            // vlv -> MSA.png
+            // eli -> ELI.png
             let iconUrl = 'src/assets/MSB.png'; // Default icon
-            if (m.tipo_mezzo && m.tipo_mezzo.toUpperCase().includes('ELI')) {
+            const tipo = (m.tipo_mezzo || '').toUpperCase();
+            if (tipo.includes('ELI')) {
                 iconUrl = 'src/assets/ELI.png';
-            } else if (m.tipo_mezzo && (m.tipo_mezzo.startsWith('MSA1') || m.tipo_mezzo.startsWith('MSA2'))
-           && m.tipo_mezzo !== 'MSA1_A' && m.tipo_mezzo !== 'MSA2_A') {
+            } else if (tipo.startsWith('VLV')) {
                 iconUrl = 'src/assets/MSA.png';
+            } else if (tipo.startsWith('MSI') || tipo.startsWith('MSA') || tipo.startsWith('MSB') || tipo === 'MSI' || tipo === 'MSA' || tipo === 'MSB') {
+                // Map all MSA/MSI/MSB variants to MSB.png as requested
+                iconUrl = 'src/assets/MSB.png';
             }
             
             // Create the icon
