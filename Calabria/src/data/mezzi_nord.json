@@ -1,0 +1,704 @@
+[
+    {
+        "Nome Postazione": "POSTAZIONE Acri",
+        "Coordinate Postazione": "39.4916605,16.3885333",
+        "Mezzo": "MSA2_A",
+        "Nome radio": "PET Acri",
+        "Convenzione": "H24",
+        "Orario di lavoro": "00:00-00:00",
+        "Giorni": "LUN-DOM"
+    },
+    {
+        "Nome Postazione": "POSTAZIONE Acri",
+        "Coordinate Postazione": "39.4916605,16.3885333",
+        "Mezzo": "MSB",
+        "Nome radio": "VICTOR Acri",
+        "Convenzione": "H24",
+        "Orario di lavoro": "00:00-00:00",
+        "Giorni": "LUN-DOM"
+    },
+    {
+        "Nome Postazione": "POSTAZIONE Aiello Clabro",
+        "Coordinate Postazione": "39.116493,16.1662569",
+        "Mezzo": "MSB",
+        "Nome radio": "VICTOR Aiello",
+        "Convenzione": "H24",
+        "Orario di lavoro": "00:00-00:00",
+        "Giorni": "LUN-DOM"
+    },
+    {
+        "Nome Postazione": "POSTAZIONE Amantea",
+        "Coordinate Postazione": "39.1292897,16.070994",
+        "Mezzo": "MSA2_A",
+        "Nome radio": "PET Amantea",
+        "Convenzione": "H24",
+        "Orario di lavoro": "00:00-00:00",
+        "Giorni": "LUN-DOM"
+    },
+    {
+        "Nome Postazione": "POSTAZIONE Belvedere",
+        "Coordinate Postazione": "39.6277998,15.8456101",
+        "Mezzo": "MSB",
+        "Nome radio": "VICTOR Belvedere",
+        "Convenzione": "H24",
+        "Orario di lavoro": "00:00-00:00",
+        "Giorni": "LUN-DOM"
+    },
+    {
+        "Nome Postazione": "POSTAZIONE Bruzia",
+        "Coordinate Postazione": "39.3198483,16.2454618",
+        "Mezzo": "MSB",
+        "Nome radio": "VICTOR Bruzia",
+        "Convenzione": "H24",
+        "Orario di lavoro": "00:00-00:00",
+        "Giorni": "LUN-DOM"
+    },
+    {
+        "Nome Postazione": "POSTAZIONE Caloveto",
+        "Coordinate Postazione": "39.5055739,16.759461",
+        "Mezzo": "MSB",
+        "Nome radio": "VICTOR Caloveto",
+        "Convenzione": "H24",
+        "Orario di lavoro": "00:00-00:00",
+        "Giorni": "LUN-DOM"
+    },
+    {
+        "Nome Postazione": "POSTAZIONE Camigliatello Silano",
+        "Coordinate Postazione": "39.342769,16.4562643",
+        "Mezzo": "MSB",
+        "Nome radio": "VICTOR Camigliatello",
+        "Convenzione": "H24",
+        "Orario di lavoro": "00:00-00:00",
+        "Giorni": "LUN-DOM"
+    },
+    {
+        "Nome Postazione": "POSTAZIONE Cariati",
+        "Coordinate Postazione": "39.4900245,16.9585638",
+        "Mezzo": "MSA2_A",
+        "Nome radio": "PET Cariati ",
+        "Convenzione": "H24",
+        "Orario di lavoro": "00:00-00:00",
+        "Giorni": "LUN-DOM"
+    },
+    {
+        "Nome Postazione": "POSTAZIONE Cassano",
+        "Coordinate Postazione": "39.7803775,16.3273545",
+        "Mezzo": "MSA2_A",
+        "Nome radio": "PET Cassano",
+        "Convenzione": "H24",
+        "Orario di lavoro": "00:00-00:00",
+        "Giorni": "LUN-DOM"
+    },
+    {
+        "Nome Postazione": "POSTAZIONE Castrolibero",
+        "Coordinate Postazione": "39.3086469,16.1954726",
+        "Mezzo": "MSB",
+        "Nome radio": "VICTOR Castrolibero",
+        "Convenzione": "H24",
+        "Orario di lavoro": "00:00-00:00",
+        "Giorni": "LUN-DOM"
+    },
+    {
+        "Nome Postazione": "POSTAZIONE Castrovillari",
+        "Coordinate Postazione": "39.8173547,16.2110575",
+        "Mezzo": "MSA1_A",
+        "Nome radio": "PET Castrovillari",
+        "Convenzione": "H24",
+        "Orario di lavoro": "00:00-00:00",
+        "Giorni": "LUN-DOM"
+    },
+    {
+        "Nome Postazione": "POSTAZIONE Castrovillari",
+        "Coordinate Postazione": "39.8173547,16.2110575",
+        "Mezzo": "MSA2",
+        "Nome radio": "AM Castrovillari",
+        "Convenzione": "H24",
+        "Orario di lavoro": "00:00-00:00",
+        "Giorni": "LUN-DOM"
+    },
+    {
+        "Nome Postazione": "POSTAZIONE Castrovillari",
+        "Coordinate Postazione": "39.8173547,16.2110575",
+        "Mezzo": "MSB",
+        "Nome radio": "VICTOR Castrovillari",
+        "Convenzione": "H24",
+        "Orario di lavoro": "00:00-00:00",
+        "Giorni": "LUN-DOM"
+    },
+    {
+        "Nome Postazione": "POSTAZIONE Cetraro",
+        "Coordinate Postazione": "39.5311076,15.9180343",
+        "Mezzo": "MSA2",
+        "Nome radio": "AM Cetraro",
+        "Convenzione": "H24",
+        "Orario di lavoro": "00:00-00:00",
+        "Giorni": "LUN-DOM"
+    },
+    {
+        "Nome Postazione": "POSTAZIONE Cetraro",
+        "Coordinate Postazione": "39.5311076,15.9180343",
+        "Mezzo": "MSB",
+        "Nome radio": "VICTOR Cetraro",
+        "Convenzione": "H24",
+        "Orario di lavoro": "00:00-00:00",
+        "Giorni": "LUN-DOM"
+    },
+    {
+        "Nome Postazione": "POSTAZIONE Ciro' marina",
+        "Coordinate Postazione": "39.365599,17.1251668",
+        "Mezzo": "MSA2_A",
+        "Nome radio": "PET Ciro",
+        "Convenzione": "H24",
+        "Orario di lavoro": "00:00-00:00",
+        "Giorni": "LUN-DOM"
+    },
+    {
+        "Nome Postazione": "POSTAZIONE Ciro' marina",
+        "Coordinate Postazione": "39.365599,17.1251668",
+        "Mezzo": "MSB",
+        "Nome radio": "VICTOR Ciro",
+        "Convenzione": "H24",
+        "Orario di lavoro": "00:00-00:00",
+        "Giorni": "LUN-DOM"
+    },
+    {
+        "Nome Postazione": "POSTAZIONE Colosimi",
+        "Coordinate Postazione": "39.1193447,16.3959955",
+        "Mezzo": "MSB",
+        "Nome radio": "VICTOR Colosimi",
+        "Convenzione": "H24",
+        "Orario di lavoro": "00:00-00:00",
+        "Giorni": "LUN-DOM"
+    },
+    {
+        "Nome Postazione": "POSTAZIONE Corigliano",
+        "Coordinate Postazione": "39.591187,16.5206536",
+        "Mezzo": "MSA2_A",
+        "Nome radio": "PET Corigliano",
+        "Convenzione": "H24",
+        "Orario di lavoro": "00:00-00:00",
+        "Giorni": "LUN-DOM"
+    },
+    {
+        "Nome Postazione": "POSTAZIONE Corigliano",
+        "Coordinate Postazione": "39.591187,16.5206536",
+        "Mezzo": "MSB",
+        "Nome radio": "VICTOR Corigliano",
+        "Convenzione": "H24",
+        "Orario di lavoro": "00:00-00:00",
+        "Giorni": "LUN-DOM"
+    },
+    {
+        "Nome Postazione": "POSTAZIONE Cosenza",
+        "Coordinate Postazione": "39.3053853,16.2345845",
+        "Mezzo": "MSA2_A",
+        "Nome radio": "PET Cosenza 1 ",
+        "Convenzione": "H24",
+        "Orario di lavoro": "00:00-00:00",
+        "Giorni": "LUN-DOM"
+    },
+    {
+        "Nome Postazione": "POSTAZIONE Cosenza",
+        "Coordinate Postazione": "39.3053853,16.2345845",
+        "Mezzo": "MSA2",
+        "Nome radio": "AM Cosenza",
+        "Convenzione": "H24",
+        "Orario di lavoro": "00:00-00:00",
+        "Giorni": "LUN-DOM"
+    },
+    {
+        "Nome Postazione": "POSTAZIONE Cosenza",
+        "Coordinate Postazione": "39.3053853,16.2345845",
+        "Mezzo": "MSA1_A",
+        "Nome radio": "PET Cosenza 2",
+        "Convenzione": "H24",
+        "Orario di lavoro": "00:00-00:00",
+        "Giorni": "LUN-DOM"
+    },
+    {
+        "Nome Postazione": "POSTAZIONE Cosenza ",
+        "Coordinate Postazione": "39.3053853,16.2345845",
+        "Mezzo": "MSB",
+        "Nome radio": "VICTOR Cosenza",
+        "Convenzione": "H24",
+        "Orario di lavoro": "00:00-00:00",
+        "Giorni": "LUN-DOM"
+    },
+    {
+        "Nome Postazione": "POSTAZIONE Crotone",
+        "Coordinate Postazione": "39.0581765,17.1147874",
+        "Mezzo": "MSA2_A",
+        "Nome radio": "PET Crotone ",
+        "Convenzione": "H24",
+        "Orario di lavoro": "00:00-00:00",
+        "Giorni": "LUN-DOM"
+    },
+    {
+        "Nome Postazione": "POSTAZIONE Crotone",
+        "Coordinate Postazione": "39.0581765,17.1147874",
+        "Mezzo": "MSA2",
+        "Nome radio": "AM Crotone",
+        "Convenzione": "H24",
+        "Orario di lavoro": "00:00-00:00",
+        "Giorni": "LUN-DOM"
+    },
+    {
+        "Nome Postazione": "POSTAZIONE Crotone Sud",
+        "Coordinate Postazione": "39.0665926,17.1143397",
+        "Mezzo": "MSB",
+        "Nome radio": "VICTOR Crotone",
+        "Convenzione": "H24",
+        "Orario di lavoro": "00:00-00:00",
+        "Giorni": "LUN-DOM"
+    },
+    {
+        "Nome Postazione": "POSTAZIONE Crotone Sud",
+        "Coordinate Postazione": "39.0665926,17.1143397",
+        "Mezzo": "MSB",
+        "Nome radio": "VICTOR Pitagora",
+        "Convenzione": "H24",
+        "Orario di lavoro": "00:00-00:00",
+        "Giorni": "LUN-DOM"
+    },
+    {
+        "Nome Postazione": "POSTAZIONE Fiumefreddo",
+        "Coordinate Postazione": "39.2340396,16.0690323",
+        "Mezzo": "MSB",
+        "Nome radio": "VICTOR Fiumefreddo",
+        "Convenzione": "H24",
+        "Orario di lavoro": "00:00-00:00",
+        "Giorni": "LUN-DOM"
+    },
+    {
+        "Nome Postazione": "POSTAZIONE Fuscaldo",
+        "Coordinate Postazione": "39.4143238,16.0293808",
+        "Mezzo": "MSA1_A",
+        "Nome radio": "PET Fuscaldo",
+        "Convenzione": "H24",
+        "Orario di lavoro": "00:00-00:00",
+        "Giorni": "LUN-DOM"
+    },
+    {
+        "Nome Postazione": "POSTAZIONE Isola Capo Rizzuto",
+        "Coordinate Postazione": "38.9614701,17.0986228",
+        "Mezzo": "MSA1_A",
+        "Nome radio": "PET Isola",
+        "Convenzione": "H24",
+        "Orario di lavoro": "00:00-00:00",
+        "Giorni": "LUN-DOM"
+    },
+    {
+        "Nome Postazione": "POSTAZIONE Longobucco",
+        "Coordinate Postazione": "39.4479822,16.6083796",
+        "Mezzo": "MSB",
+        "Nome radio": "VICTOR Longobucco",
+        "Convenzione": "H24",
+        "Orario di lavoro": "00:00-00:00",
+        "Giorni": "LUN-DOM"
+    },
+    {
+        "Nome Postazione": "POSTAZIONE Lungro",
+        "Coordinate Postazione": "39.7370001,16.1231849",
+        "Mezzo": "MSA2_A",
+        "Nome radio": "PET Lungro",
+        "Convenzione": "H24",
+        "Orario di lavoro": "00:00-00:00",
+        "Giorni": "LUN-DOM"
+    },
+    {
+        "Nome Postazione": "POSTAZIONE Marina di Sibari",
+        "Coordinate Postazione": "39.7451027,16.4851592",
+        "Mezzo": "MSB",
+        "Nome radio": "VICTOR Sibari",
+        "Convenzione": "H24",
+        "Orario di lavoro": "00:00-00:00",
+        "Giorni": "LUN-DOM"
+    },
+    {
+        "Nome Postazione": "POSTAZIONE Mesoraca",
+        "Coordinate Postazione": "39.0930744,16.7909937",
+        "Mezzo": "MSA2_A",
+        "Nome radio": "PET Mesoraca",
+        "Convenzione": "H24",
+        "Orario di lavoro": "00:00-00:00",
+        "Giorni": "LUN-DOM"
+    },
+    {
+        "Nome Postazione": "POSTAZIONE Mesoraca",
+        "Coordinate Postazione": "39.0930744,16.7909937",
+        "Mezzo": "MSB",
+        "Nome radio": "VICTOR Mesoraca",
+        "Convenzione": "H24",
+        "Orario di lavoro": "00:00-00:00",
+        "Giorni": "LUN-DOM"
+    },
+    {
+        "Nome Postazione": "POSTAZIONE Mirto",
+        "Coordinate Postazione": "39.6037443,16.7799197",
+        "Mezzo": "MSA1_A",
+        "Nome radio": "PET Mirto",
+        "Convenzione": "H24",
+        "Orario di lavoro": "00:00-00:00",
+        "Giorni": "LUN-DOM"
+    },
+    {
+        "Nome Postazione": "POSTAZIONE Montalto Uffugo",
+        "Coordinate Postazione": "39.4014058,16.1534163",
+        "Mezzo": "MSB",
+        "Nome radio": "VICTOR Montalto",
+        "Convenzione": "H24",
+        "Orario di lavoro": "00:00-00:00",
+        "Giorni": "LUN-DOM"
+    },
+    {
+        "Nome Postazione": "POSTAZIONE Mormanno",
+        "Coordinate Postazione": "39.8880574,15.9870817",
+        "Mezzo": "MSA2_A",
+        "Nome radio": "PET Mormanno",
+        "Convenzione": "H24",
+        "Orario di lavoro": "00:00-00:00",
+        "Giorni": "LUN-DOM"
+    },
+    {
+        "Nome Postazione": "POSTAZIONE Oriolo",
+        "Coordinate Postazione": "40.0519899,16.4490081",
+        "Mezzo": "MSA2_A",
+        "Nome radio": "PET Oriolo",
+        "Convenzione": "H24",
+        "Orario di lavoro": "00:00-00:00",
+        "Giorni": "LUN-DOM"
+    },
+    {
+        "Nome Postazione": "POSTAZIONE Pallagorio",
+        "Coordinate Postazione": "39.3083969,16.9064234",
+        "Mezzo": "MSA1_A",
+        "Nome radio": "PET Pallagorio",
+        "Convenzione": "H24",
+        "Orario di lavoro": "00:00-00:00",
+        "Giorni": "LUN-DOM"
+    },
+    {
+        "Nome Postazione": "POSTAZIONE Paola",
+        "Coordinate Postazione": "39.3537922,16.0404327",
+        "Mezzo": "MSA2_A",
+        "Nome radio": "PET Paola",
+        "Convenzione": "H24",
+        "Orario di lavoro": "00:00-00:00",
+        "Giorni": "LUN-DOM"
+    },
+    {
+        "Nome Postazione": "POSTAZIONE Piano Longo",
+        "Coordinate Postazione": "39.451898,16.3266231",
+        "Mezzo": "MSB",
+        "Nome radio": "VICTOR Piano",
+        "Convenzione": "H24",
+        "Orario di lavoro": "00:00-00:00",
+        "Giorni": "LUN-DOM"
+    },
+    {
+        "Nome Postazione": "POSTAZIONE Praia a Mare",
+        "Coordinate Postazione": "39.9173913,15.7796239",
+        "Mezzo": "MSA2_A",
+        "Nome radio": "PET Praia",
+        "Convenzione": "H24",
+        "Orario di lavoro": "00:00-00:00",
+        "Giorni": "LUN-DOM"
+    },
+    {
+        "Nome Postazione": "POSTAZIONE Praia a Mare",
+        "Coordinate Postazione": "39.9173913,15.7796239",
+        "Mezzo": "MSB",
+        "Nome radio": "VICTOR Praia",
+        "Convenzione": "H24",
+        "Orario di lavoro": "00:00-00:00",
+        "Giorni": "LUN-DOM"
+    },
+    {
+        "Nome Postazione": "POSTAZIONE Rende",
+        "Coordinate Postazione": "39.3640167,16.2260046",
+        "Mezzo": "MSA2",
+        "Nome radio": "AM Rende",
+        "Convenzione": "H24",
+        "Orario di lavoro": "00:00-00:00",
+        "Giorni": "LUN-DOM"
+    },
+    {
+        "Nome Postazione": "POSTAZIONE Rende",
+        "Coordinate Postazione": "39.3640167,16.2260046",
+        "Mezzo": "MSB",
+        "Nome radio": "VICTOR Rende",
+        "Convenzione": "H24",
+        "Orario di lavoro": "00:00-00:00",
+        "Giorni": "LUN-DOM"
+    },
+    {
+        "Nome Postazione": "POSTAZIONE Rocca di neto",
+        "Coordinate Postazione": "39.1763478,16.9990272",
+        "Mezzo": "MSA1_A",
+        "Nome radio": "PET Rocca",
+        "Convenzione": "H24",
+        "Orario di lavoro": "00:00-00:00",
+        "Giorni": "LUN-DOM"
+    },
+    {
+        "Nome Postazione": "POSTAZIONE Rogliano",
+        "Coordinate Postazione": "39.1739745,16.3154396",
+        "Mezzo": "MSA2_A",
+        "Nome radio": "PET Rogliano",
+        "Convenzione": "H24",
+        "Orario di lavoro": "00:00-00:00",
+        "Giorni": "LUN-DOM"
+    },
+    {
+        "Nome Postazione": "POSTAZIONE Rossano",
+        "Coordinate Postazione": "39.5967995,16.6370363",
+        "Mezzo": "MSA2",
+        "Nome radio": "AM Rossano",
+        "Convenzione": "H24",
+        "Orario di lavoro": "00:00-00:00",
+        "Giorni": "LUN-DOM"
+    },
+    {
+        "Nome Postazione": "POSTAZIONE Rossano",
+        "Coordinate Postazione": "39.5967995,16.6370363",
+        "Mezzo": "MSB",
+        "Nome radio": "VICTOR Rossano",
+        "Convenzione": "H24",
+        "Orario di lavoro": "00:00-00:00",
+        "Giorni": "LUN-DOM"
+    },
+    {
+        "Nome Postazione": "POSTAZIONE San Demetrio Corone",
+        "Coordinate Postazione": "39.567632,16.3630365",
+        "Mezzo": "MSA1_A",
+        "Nome radio": "PET San demetrio",
+        "Convenzione": "H24",
+        "Orario di lavoro": "00:00-00:00",
+        "Giorni": "LUN-DOM"
+    },
+    {
+        "Nome Postazione": "POSTAZIONE S. Giovanni in fiore",
+        "Coordinate Postazione": "39.2507366,16.696891",
+        "Mezzo": "MSA2_A",
+        "Nome radio": "PET S.Giovanni 1",
+        "Convenzione": "H24",
+        "Orario di lavoro": "00:00-00:00",
+        "Giorni": "LUN-DOM"
+    },
+    {
+        "Nome Postazione": "POSTAZIONE S. Giovanni in fiore",
+        "Coordinate Postazione": "39.2507366,16.696891",
+        "Mezzo": "MSA1_A",
+        "Nome radio": "PET S.Giovanni 2",
+        "Convenzione": "H24",
+        "Orario di lavoro": "00:00-00:00",
+        "Giorni": "LUN-DOM"
+    },
+    {
+        "Nome Postazione": "POSTAZIONE San Marco Argentano",
+        "Coordinate Postazione": "39.5561511,16.1228452",
+        "Mezzo": "MSA2",
+        "Nome radio": "AM S. Marco",
+        "Convenzione": "H24",
+        "Orario di lavoro": "00:00-00:00",
+        "Giorni": "LUN-DOM"
+    },
+    {
+        "Nome Postazione": "POSTAZIONE San Marco Argentano",
+        "Coordinate Postazione": "39.5561511,16.1228452",
+        "Mezzo": "MSB",
+        "Nome radio": "VICTOR S. Marco",
+        "Convenzione": "H24",
+        "Orario di lavoro": "00:00-00:00",
+        "Giorni": "LUN-DOM"
+    },
+    {
+        "Nome Postazione": "POSTAZIONE San Sosti",
+        "Coordinate Postazione": "39.6585826,16.0290645",
+        "Mezzo": "MSB",
+        "Nome radio": "VICTOR San Sosti",
+        "Convenzione": "H24",
+        "Orario di lavoro": "00:00-00:00",
+        "Giorni": "LUN-DOM"
+    },
+    {
+        "Nome Postazione": "POSTAZIONE Savelli ",
+        "Coordinate Postazione": "39.3125104,16.7823406",
+        "Mezzo": "MSB",
+        "Nome radio": "VICTOR Savelli ",
+        "Convenzione": "H24",
+        "Orario di lavoro": "00:00-00:00",
+        "Giorni": "LUN-DOM"
+    },
+    {
+        "Nome Postazione": "POSTAZIONE Scalea",
+        "Coordinate Postazione": "39.8071823,15.790622",
+        "Mezzo": "MSA1_A",
+        "Nome radio": "PET Scalea",
+        "Convenzione": "H24",
+        "Orario di lavoro": "00:00-00:00",
+        "Giorni": "LUN-DOM"
+    },
+    {
+        "Nome Postazione": "POSTAZIONE Spezzano albanese",
+        "Coordinate Postazione": "39.6671702,16.3096299",
+        "Mezzo": "MSA1_A",
+        "Nome radio": "PET Spezzano",
+        "Convenzione": "H24",
+        "Orario di lavoro": "00:00-00:00",
+        "Giorni": "LUN-DOM"
+    },
+    {
+        "Nome Postazione": "POSTAZIONE Spezzano Sila",
+        "Coordinate Postazione": "39.3001396,16.341206",
+        "Mezzo": "MSB",
+        "Nome radio": "VICTOR Spezzano",
+        "Convenzione": "H24",
+        "Orario di lavoro": "00:00-00:00",
+        "Giorni": "LUN-DOM"
+    },
+    {
+        "Nome Postazione": "POSTAZIONE Torano castello",
+        "Coordinate Postazione": "39.5043835,16.1447572",
+        "Mezzo": "MSA1_A",
+        "Nome radio": "PET Torano",
+        "Convenzione": "H24",
+        "Orario di lavoro": "00:00-00:00",
+        "Giorni": "LUN-DOM"
+    },
+    {
+        "Nome Postazione": "POSTAZIONE Trebisacce",
+        "Coordinate Postazione": "39.8734349,16.5359391",
+        "Mezzo": "MSA1_A",
+        "Nome radio": "PET Trebisacce",
+        "Convenzione": "H24",
+        "Orario di lavoro": "00:00-00:00",
+        "Giorni": "LUN-DOM"
+    },
+    {
+        "Nome Postazione": "POSTAZIONE Trebisacce",
+        "Coordinate Postazione": "39.8734349,16.5359391",
+        "Mezzo": "MSA2",
+        "Nome radio": "AM Trebisacce",
+        "Convenzione": "H24",
+        "Orario di lavoro": "00:00-00:00",
+        "Giorni": "LUN-DOM"
+    },
+    {
+        "Nome Postazione": "POSTAZIONE Acri",
+        "Coordinate Postazione": "39.4916605,16.3885333",
+        "Mezzo": "MSA2_A",
+        "Nome radio": "PRES. Acri",
+        "Convenzione": "H12",
+        "Orario di lavoro": "08:00-20:00",
+        "Giorni": "LUN-DOM"
+    },
+    {
+        "Nome Postazione": "POSTAZIONE Cariati",
+        "Coordinate Postazione": "39.4900245,16.9585638",
+        "Mezzo": "MSA2_A",
+        "Nome radio": "PRES. Cariati",
+        "Convenzione": "H24",
+        "Orario di lavoro": "00:00-00:00",
+        "Giorni": "LUN-DOM"
+    },
+    {
+        "Nome Postazione": "POSTAZIONE Castrovillari",
+        "Coordinate Postazione": "39.8173547,16.2110575",
+        "Mezzo": "MSA2_A",
+        "Nome radio": "PRES. Castrovillari",
+        "Convenzione": "H24",
+        "Orario di lavoro": "00:00-00:00",
+        "Giorni": "LUN-DOM"
+    },
+    {
+        "Nome Postazione": "POSTAZIONE Cetraro",
+        "Coordinate Postazione": "39.5311076,15.9180343",
+        "Mezzo": "MSA2_A",
+        "Nome radio": "PRES. Cetraro",
+        "Convenzione": "H24",
+        "Orario di lavoro": "00:00-00:00",
+        "Giorni": "LUN-DOM"
+    },
+    {
+        "Nome Postazione": "POSTAZIONE Corigliano",
+        "Coordinate Postazione": "39.591187,16.5206536",
+        "Mezzo": "MSA2_A",
+        "Nome radio": "PRES. Corigliano",
+        "Convenzione": "H12",
+        "Orario di lavoro": "08:00-20:00",
+        "Giorni": "LUN-DOM"
+    },
+    {
+        "Nome Postazione": "PRESIDIO Cosenza",
+        "Coordinate Postazione": "39.2947218,16.2481635",
+        "Mezzo": "MSA2_A",
+        "Nome radio": "PRES. Cosenza 1",
+        "Convenzione": "H12",
+        "Orario di lavoro": "08:00-20:00",
+        "Giorni": "LUN-DOM"
+    },
+    {
+        "Nome Postazione": "PRESIDIO Cosenza",
+        "Coordinate Postazione": "39.2947218,16.2481635",
+        "Mezzo": "MSA2_A",
+        "Nome radio": "PRES. Cosenza 2",
+        "Convenzione": "H24",
+        "Orario di lavoro": "00:00-00:00",
+        "Giorni": "LUN-DOM"
+    },
+    {
+        "Nome Postazione": "POSTAZIONE Crotone",
+        "Coordinate Postazione": "39.0787441,17.118225",
+        "Mezzo": "MSA2_A",
+        "Nome radio": "PRES. Crotone 1",
+        "Convenzione": "H12",
+        "Orario di lavoro": "08:00-20:00",
+        "Giorni": "LUN-DOM"
+    },
+    {
+        "Nome Postazione": "POSTAZIONE Crotone ",
+        "Coordinate Postazione": "39.0787441,17.118225",
+        "Mezzo": "MSA2_A",
+        "Nome radio": "PRES. Crotone 2",
+        "Convenzione": "H24",
+        "Orario di lavoro": "00:00-00:00",
+        "Giorni": "LUN-DOM"
+    },
+    {
+        "Nome Postazione": "POSTAZIONE Paola",
+        "Coordinate Postazione": "39.3537922,16.0404327",
+        "Mezzo": "MSA2_A",
+        "Nome radio": "PRES. Paola",
+        "Convenzione": "H24",
+        "Orario di lavoro": "00:00-00:00",
+        "Giorni": "LUN-DOM"
+    },
+    {
+        "Nome Postazione": "POSTAZIONE Praia a Mare",
+        "Coordinate Postazione": "39.9173913,15.7796239",
+        "Mezzo": "MSA2_A",
+        "Nome radio": "PRES. Praia a Mare",
+        "Convenzione": "H24",
+        "Orario di lavoro": "00:00-00:00",
+        "Giorni": "LUN-DOM"
+    },
+    {
+        "Nome Postazione": "POSTAZIONE Rossano",
+        "Coordinate Postazione": "39.5967995,16.6370363",
+        "Mezzo": "MSA2_A",
+        "Nome radio": "PRES. Rossano",
+        "Convenzione": "H24",
+        "Orario di lavoro": "00:00-00:00",
+        "Giorni": "LUN-DOM"
+    },
+    {
+        "Nome Postazione": "POSTAZIONE San Giovanni in Fiore",
+        "Coordinate Postazione": "39.2507366,16.696891",
+        "Mezzo": "MSA2_A",
+        "Nome radio": "PRES. S. Giovanni",
+        "Convenzione": "H24",
+        "Orario di lavoro": "00:00-00:00",
+        "Giorni": "LUN-DOM"
+    }
+]

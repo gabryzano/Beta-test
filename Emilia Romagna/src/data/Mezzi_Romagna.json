@@ -1,0 +1,751 @@
+{
+  "Sheet1": [
+    {
+      "Nome Postazione": " Croce Azzurra Riccione ",
+      "Coordinate Postazione": " 43.989637,12.637998 ",
+      "Mezzo": "MSI",
+      "Nome radio": "Riccione 105",
+      "Convenzione": "H12",
+      "Orario di lavoro": "08:00-20:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": " Croce Azzurra Riccione ",
+      "Coordinate Postazione": " 43.989637,12.637998 ",
+      "Mezzo": "MSI",
+      "Nome radio": "Riccione 108",
+      "Convenzione": "H12",
+      "Orario di lavoro": "08:00-20:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": " Croce Rossa Italiana - Cesena ",
+      "Coordinate Postazione": " 44.141573,12.236984 ",
+      "Mezzo": "MSI",
+      "Nome radio": "Cesena 84",
+      "Convenzione": "H12",
+      "Orario di lavoro": "08:00-20:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": " Croce Rossa Italiana - Cesena ",
+      "Coordinate Postazione": " 44.141573,12.236984 ",
+      "Mezzo": "MSI",
+      "Nome radio": "Cesena 86 ",
+      "Convenzione": "H12",
+      "Orario di lavoro": "08:00-20:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": " Croce Rossa Italiana - Forlì ",
+      "Coordinate Postazione": " 44.217108730362,12.052020213459 ",
+      "Mezzo": "MSI",
+      "Nome radio": "Forlì 68",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": " Croce Verde Novafeltria ",
+      "Coordinate Postazione": " 43.890731,12.288551 ",
+      "Mezzo": "ALS",
+      "Nome radio": "Mike 07",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": " Croce Verde Novafeltria ",
+      "Coordinate Postazione": " 43.890731,12.288551 ",
+      "Mezzo": "MSI",
+      "Nome radio": "Novafeltria 106",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": " Croce Verde Novafeltria ",
+      "Coordinate Postazione": " 43.890731,12.288551 ",
+      "Mezzo": "MSI",
+      "Nome radio": "Novafeltria 109 ",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": " Misericordia Premilcuore ",
+      "Coordinate Postazione": " 43.978797,11.777954 ",
+      "Mezzo": "MSI",
+      "Nome radio": "Premilcuore 92",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": " Misericordia Premilcuore ",
+      "Coordinate Postazione": " 43.978797,11.777954 ",
+      "Mezzo": "MSI",
+      "Nome radio": "Premilcuore 93",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": " Misericordia Rocca San Casciano ",
+      "Coordinate Postazione": " 44.059521,11.84202 ",
+      "Mezzo": "MSI",
+      "Nome radio": "Rocca 90",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": " Misericordia Rocca San Casciano ",
+      "Coordinate Postazione": " 44.059521,11.84202 ",
+      "Mezzo": "MSI",
+      "Nome radio": "Rocca 91",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": " Misericordia San Benedetto in Alpe ",
+      "Coordinate Postazione": " 43.98197,11.688257 ",
+      "Mezzo": "MSB",
+      "Nome radio": "San Benedetto 94",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": " Misericordia San Benedetto in Alpe ",
+      "Coordinate Postazione": " 43.98197,11.688257 ",
+      "Mezzo": "MSB",
+      "Nome radio": "San Benedetto 95",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": " Postazione 118 Bellaria Igea Marina ",
+      "Coordinate Postazione": " 44.147478,12.458266 ",
+      "Mezzo": "MSI",
+      "Nome radio": "Bellaria 88",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": " Postazione 118 Bellaria Igea Marina ",
+      "Coordinate Postazione": " 44.147478,12.458266 ",
+      "Mezzo": "MSI",
+      "Nome radio": "Bellaria 90",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": " Postazione 118 Casola Valsenio ",
+      "Coordinate Postazione": " 44.225668,11.626944 ",
+      "Mezzo": "MSI",
+      "Nome radio": "Valsenio 56",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": " Postazione 118 Casola Valsenio ",
+      "Coordinate Postazione": " 44.225668,11.626944 ",
+      "Mezzo": "MSI",
+      "Nome radio": "Valsenio 57",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": " Postazione 118 Cattolica - Ospedale ",
+      "Coordinate Postazione": " 43.952229,12.735536 ",
+      "Mezzo": "MSI",
+      "Nome radio": "Cattolica 97",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": " Postazione 118 Cattolica - Ospedale ",
+      "Coordinate Postazione": " 43.952229,12.735536 ",
+      "Mezzo": "MSI",
+      "Nome radio": "Cattolica 98",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": " Postazione 118 Cervia - Ospedale ",
+      "Coordinate Postazione": " 44.25967,12.346553 ",
+      "Mezzo": "MSI",
+      "Nome radio": "Cervia 27",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": " Postazione 118 Cesena - Ospedale ",
+      "Coordinate Postazione": " 44.132215,12.261526 ",
+      "Mezzo": "ALS",
+      "Nome radio": "Mike 05",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": " Postazione 118 Cesena - Ospedale ",
+      "Coordinate Postazione": " 44.132215,12.261526 ",
+      "Mezzo": "MSI",
+      "Nome radio": "Cesena 70",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": " Postazione 118 Cesena - Ospedale ",
+      "Coordinate Postazione": " 44.132215,12.261526 ",
+      "Mezzo": "MSI",
+      "Nome radio": "Cesena 71",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": " Postazione 118 Cesena - Ospedale ",
+      "Coordinate Postazione": " 44.132215,12.261526 ",
+      "Mezzo": "MSI",
+      "Nome radio": "Cesena 72",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": " Postazione 118 Cesenatico ",
+      "Coordinate Postazione": "44.189999,12.409739",
+      "Mezzo": "ALS",
+      "Nome radio": "Mike 06",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": " Postazione 118 Cesenatico ",
+      "Coordinate Postazione": "44.189999,12.409739",
+      "Mezzo": "MSI",
+      "Nome radio": "Cesenatico 74",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": " Postazione 118 Cesenatico ",
+      "Coordinate Postazione": "44.189999,12.409739",
+      "Mezzo": "MSI",
+      "Nome radio": "Cesenatico 75",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": " Postazione 118 Cesenatico ",
+      "Coordinate Postazione": "44.189999,12.409739",
+      "Mezzo": "MSI",
+      "Nome radio": "Cesenatico 84",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": " Postazione 118 Cotignola ",
+      "Coordinate Postazione": " 44.384281263169,11.939954055066 ",
+      "Mezzo": "ALS",
+      "Nome radio": "Mike 02",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": " Postazione 118 Faenza ",
+      "Coordinate Postazione": " 44.29419,11.86301 ",
+      "Mezzo": "MSI",
+      "Nome radio": "Faenza 50",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": " Postazione 118 Faenza ",
+      "Coordinate Postazione": " 44.29419,11.86301 ",
+      "Mezzo": "MSI",
+      "Nome radio": "Faenza 51",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": " Postazione 118 Faenza ",
+      "Coordinate Postazione": " 44.29419,11.86301 ",
+      "Mezzo": "MSI",
+      "Nome radio": "Faenza 53",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": " Postazione 118 Forlì - Ospedale ",
+      "Coordinate Postazione": " 44.206174,12.020275 ",
+      "Mezzo": "ALS",
+      "Nome radio": "Mike 04",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": " Postazione 118 Forlì - Ospedale ",
+      "Coordinate Postazione": " 44.206174,12.020275 ",
+      "Mezzo": "MSI",
+      "Nome radio": "Forlì 15",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": " Postazione 118 Forlì - Ospedale ",
+      "Coordinate Postazione": " 44.206174,12.020275 ",
+      "Mezzo": "MSI",
+      "Nome radio": "Forlì 16",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": " Postazione 118 Forlì -VVF ",
+      "Coordinate Postazione": " 44.213784,12.061366 ",
+      "Mezzo": "MSI",
+      "Nome radio": "Forlì 52",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": " Postazione 118 Forlimpopoli - Bertinoro ",
+      "Coordinate Postazione": " 44.189142,12.128137 ",
+      "Mezzo": "MSI",
+      "Nome radio": "Forlimpopoli 68 ",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": " Postazione 118 Forlimpopoli - Bertinoro ",
+      "Coordinate Postazione": " 44.189142,12.128137 ",
+      "Mezzo": "MSI",
+      "Nome radio": "Forlimpopoli 69",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": " Postazione 118 Lugo di Ravenna ",
+      "Coordinate Postazione": " 44.416259,11.920851 ",
+      "Mezzo": "MSI",
+      "Nome radio": "Lugo 20",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": " Postazione 118 Lugo di Ravenna ",
+      "Coordinate Postazione": " 44.416259,11.920851 ",
+      "Mezzo": "MSI",
+      "Nome radio": "Lugo 21",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": " Postazione 118 Marina di Ravenna ",
+      "Coordinate Postazione": " 44.48165,12.276147 ",
+      "Mezzo": "MSI",
+      "Nome radio": "Ravenna 101",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": " Postazione 118 Meldola ",
+      "Coordinate Postazione": " 44.11384,12.058486 ",
+      "Mezzo": "ALS",
+      "Nome radio": "Mike 42",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": " Postazione 118 Meldola ",
+      "Coordinate Postazione": " 44.11384,12.058486 ",
+      "Mezzo": "MSI",
+      "Nome radio": "Meldola 40",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": " Postazione 118 Meldola ",
+      "Coordinate Postazione": " 44.11384,12.058486 ",
+      "Mezzo": "MSI",
+      "Nome radio": "Meldola 57",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": " Postazione 118 Mercato Saraceno ",
+      "Coordinate Postazione": " 43.956482,12.19521 ",
+      "Mezzo": "MSI",
+      "Nome radio": "Mercato 77",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": " Postazione 118 Mercato Saraceno ",
+      "Coordinate Postazione": " 43.956482,12.19521 ",
+      "Mezzo": "MSI",
+      "Nome radio": "Mercato 78",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": " Postazione 118 Modigliana ",
+      "Coordinate Postazione": " 44.15617,11.795275 ",
+      "Mezzo": "MSI",
+      "Nome radio": "Modigliana 62",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": " Postazione 118 Morciano di Romagna ",
+      "Coordinate Postazione": " 43.906085,12.640313 ",
+      "Mezzo": "MSI",
+      "Nome radio": "Morciano 96",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": " Postazione 118 Morciano di Romagna ",
+      "Coordinate Postazione": " 43.906085,12.640313 ",
+      "Mezzo": "MSI",
+      "Nome radio": "Morciano 99",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": " Postazione 118 Ponte Messa ",
+      "Coordinate Postazione": " 43.818567,12.245846 ",
+      "Mezzo": "MSI",
+      "Nome radio": "Ponte Messa 110",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": " Postazione 118 Predappio ",
+      "Coordinate Postazione": " 44.1034557,11.9806079 ",
+      "Mezzo": "MSI",
+      "Nome radio": "Predappio 71 ",
+      "Convenzione": "H12",
+      "Orario di lavoro": "07:00-19:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": " Postazione 118 Ravenna - Ospedale ",
+      "Coordinate Postazione": " 44.408856,12.187837 ",
+      "Mezzo": "ALS",
+      "Nome radio": "Mike 01",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": " Postazione 118 Ravenna - Ospedale ",
+      "Coordinate Postazione": " 44.408856,12.187837 ",
+      "Mezzo": "MSI",
+      "Nome radio": "Ravenna 10",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": " Postazione 118 Ravenna - Ospedale ",
+      "Coordinate Postazione": " 44.408856,12.187837 ",
+      "Mezzo": "MSI",
+      "Nome radio": "Ravenna 11",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": " Postazione 118 Ravenna - Ospedale ",
+      "Coordinate Postazione": " 44.408856,12.187837 ",
+      "Mezzo": "MSI",
+      "Nome radio": "Ravenna 12",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": " Postazione 118 Ravenna - Ospedale ",
+      "Coordinate Postazione": " 44.408856,12.187837 ",
+      "Mezzo": "MSI",
+      "Nome radio": "Ravenna 17",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": " Postazione 118 Ravenna - Via Trieste ",
+      "Coordinate Postazione": " 44.422002,12.225241 ",
+      "Mezzo": "MSI",
+      "Nome radio": "Ravenna 16",
+      "Convenzione": "H12",
+      "Orario di lavoro": "08:00-20:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": " Postazione 118 Riccione - Ospedale ",
+      "Coordinate Postazione": " 43.994775,12.649728 ",
+      "Mezzo": "ALS",
+      "Nome radio": "Mike 09",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": " Postazione 118 Riccione - Ospedale ",
+      "Coordinate Postazione": " 43.994775,12.649728 ",
+      "Mezzo": "MSI",
+      "Nome radio": "Riccione 85",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": " Postazione 118 Riccione - Ospedale ",
+      "Coordinate Postazione": " 43.994775,12.649728 ",
+      "Mezzo": "MSI",
+      "Nome radio": "Riccione 94",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": " Postazione 118 Riccione - Ospedale ",
+      "Coordinate Postazione": " 43.994775,12.649728 ",
+      "Mezzo": "MSI",
+      "Nome radio": "Riccione 95",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": " Postazione 118 Rimini - Centro ",
+      "Coordinate Postazione": " 44.05565,12.560342 ",
+      "Mezzo": "MSI",
+      "Nome radio": "Rimini 94 ",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": " Postazione 118 Rimini - Ospedale ",
+      "Coordinate Postazione": " 44.046598,12.58955 ",
+      "Mezzo": "ALS",
+      "Nome radio": "Mike 08",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": " Postazione 118 Rimini - Ospedale ",
+      "Coordinate Postazione": " 44.046598,12.58955 ",
+      "Mezzo": "MSI",
+      "Nome radio": "Rimini 84",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": " Postazione 118 Rimini - Ospedale ",
+      "Coordinate Postazione": " 44.046598,12.58955 ",
+      "Mezzo": "MSI",
+      "Nome radio": "Rimini 89",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": " Postazione 118 Rimini - Ospedale ",
+      "Coordinate Postazione": " 44.046598,12.58955 ",
+      "Mezzo": "MSI",
+      "Nome radio": "Rimini 92",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": " Postazione 118 Rimini - Ospedale ",
+      "Coordinate Postazione": " 44.046598,12.58955 ",
+      "Mezzo": "MSI",
+      "Nome radio": "Rimini 93",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": " Postazione 118 Rimini - Rivabella ",
+      "Coordinate Postazione": " 44.074004,12.55917 ",
+      "Mezzo": "MSI",
+      "Nome radio": "Rimini 92",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": " Postazione 118 Riolo Terme ",
+      "Coordinate Postazione": " 44.277267,11.727631 ",
+      "Mezzo": "MSI",
+      "Nome radio": "Riolo Terme 56",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": " Postazione 118 Riolo Terme ",
+      "Coordinate Postazione": " 44.277267,11.727631 ",
+      "Mezzo": "MSI",
+      "Nome radio": "Riolo Terme 57",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": " Postazione 118 Russi ",
+      "Coordinate Postazione": " 44.372429,12.031958 ",
+      "Mezzo": "MSI",
+      "Nome radio": "Russi 79",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": " Postazione 118 San Piero in Bagno ",
+      "Coordinate Postazione": " 43.858056,11.978544 ",
+      "Mezzo": "MSA",
+      "Nome radio": "San Piero 80",
+      "Convenzione": "H12",
+      "Orario di lavoro": "08:00-20:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": " Postazione 118 San Piero in Bagno ",
+      "Coordinate Postazione": " 43.858056,11.978544 ",
+      "Mezzo": "MSA",
+      "Nome radio": "San Piero 81",
+      "Convenzione": "H12",
+      "Orario di lavoro": "08:00-20:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": " Postazione 118 San Piero in Bagno ",
+      "Coordinate Postazione": " 43.858056,11.978544 ",
+      "Mezzo": "MSB",
+      "Nome radio": "San Piero 83",
+      "Convenzione": "H12",
+      "Orario di lavoro": "20:00-08:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": " Postazione 118 Santa Sofia ",
+      "Coordinate Postazione": " 43.942657,11.901369 ",
+      "Mezzo": "MSI",
+      "Nome radio": "Santa Sofia 23",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": " Postazione 118 Santa Sofia ",
+      "Coordinate Postazione": " 43.942657,11.901369 ",
+      "Mezzo": "MSI",
+      "Nome radio": "Santa Sofia 24",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": " Postazione 118 Santrcangelo di Romagna ",
+      "Coordinate Postazione": " 44.062556,12.450296 ",
+      "Mezzo": "ALS",
+      "Nome radio": "Mike 10",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": " Postazione 118 Santrcangelo di Romagna ",
+      "Coordinate Postazione": " 44.062556,12.450296 ",
+      "Mezzo": "MSI",
+      "Nome radio": "Santarcangelo 88",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": " Postazione 118 Santrcangelo di Romagna ",
+      "Coordinate Postazione": " 44.062556,12.450296 ",
+      "Mezzo": "MSI",
+      "Nome radio": "Santarcangelo 91",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": " Postazione 118 Sarsina ",
+      "Coordinate Postazione": " 43.91788,12.141311 ",
+      "Mezzo": "MSI",
+      "Nome radio": "Sarsina 27",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": " Postazione 118 Savignano sul Rubicone ",
+      "Coordinate Postazione": "44.093937,12.407538",
+      "Mezzo": "MSI",
+      "Nome radio": "Savignano 73",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": " Postazione 118 Savignano sul Rubicone ",
+      "Coordinate Postazione": "44.093937,12.407538",
+      "Mezzo": "MSI",
+      "Nome radio": "Savignano 76",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    }
+  ]
+}

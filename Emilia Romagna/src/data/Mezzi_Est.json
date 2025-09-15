@@ -1,0 +1,1543 @@
+{
+  "EMILIA-EST": [
+    {
+      "Nome Postazione": "  Postazione 118 Argenta ",
+      "Coordinate Postazione": " 44.612509,11.834712 ",
+      "Mezzo": "ALS",
+      "Nome radio": "Argenta 01 ",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": "  Postazione 118 Baggiovara ",
+      "Coordinate Postazione": " 44.603439,10.873435 ",
+      "Mezzo": "ALS",
+      "Nome radio": "Modena 72",
+      "Convenzione": "H12",
+      "Orario di lavoro": "08:00-20:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": "  Postazione 118 Baggiovara ",
+      "Coordinate Postazione": " 44.603439,10.873435 ",
+      "Mezzo": "MSB",
+      "Nome radio": "Modena 320",
+      "Convenzione": "H12",
+      "Orario di lavoro": "20:00-08:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": "  Postazione 118 Baggiovara ",
+      "Coordinate Postazione": " 44.603439,10.873435 ",
+      "Mezzo": "MSI",
+      "Nome radio": "Modena 72",
+      "Convenzione": "H12",
+      "Orario di lavoro": "20:00-08:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": "  Postazione 118 Bazzano ",
+      "Coordinate Postazione": " 44.500728,11.088507 ",
+      "Mezzo": "ALS",
+      "Nome radio": "Bazzano 104",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": "  Postazione 118 Bazzano ",
+      "Coordinate Postazione": " 44.500728,11.088507 ",
+      "Mezzo": "MSI",
+      "Nome radio": "Bazzano 27 ",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": "  Postazione 118 Bentivoglio ",
+      "Coordinate Postazione": " 44.634026,11.414916 ",
+      "Mezzo": "MSI",
+      "Nome radio": "Bentivoglio 05",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": "  Postazione 118 Bentivoglio ",
+      "Coordinate Postazione": " 44.634026,11.414916 ",
+      "Mezzo": "MSI",
+      "Nome radio": "Bentivoglio 09 ",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": "  Postazione 118 Budrio ",
+      "Coordinate Postazione": " 44.535984,11.535287 ",
+      "Mezzo": "ALS",
+      "Nome radio": "Budrio 108",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": "  Postazione 118 Budrio ",
+      "Coordinate Postazione": " 44.535984,11.535287 ",
+      "Mezzo": "MSI",
+      "Nome radio": "Budrio 08",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": "  Postazione 118 Carpi ",
+      "Coordinate Postazione": " 44.786672,10.879188 ",
+      "Mezzo": "MSI",
+      "Nome radio": "Carpi 4",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": "  Postazione 118 Carpi ",
+      "Coordinate Postazione": " 44.786672,10.879188 ",
+      "Mezzo": "MSI",
+      "Nome radio": "Carpi 6",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": "  Postazione 118 Castel San Pietro Terme ",
+      "Coordinate Postazione": " 44.398872,11.59303 ",
+      "Mezzo": "MSI",
+      "Nome radio": "Imola 20",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": "  Postazione 118 Imola ",
+      "Coordinate Postazione": " 44.359749,11.688929 ",
+      "Mezzo": "ALS",
+      "Nome radio": "Imola 132",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": "  Postazione 118 Imola ",
+      "Coordinate Postazione": " 44.359749,11.688929 ",
+      "Mezzo": "MSI",
+      "Nome radio": "Imola 32",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": "  Postazione 118 Imola ",
+      "Coordinate Postazione": " 44.359749,11.688929 ",
+      "Mezzo": "MSI",
+      "Nome radio": "Imola 42",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": "  Postazione 118 Lagosanto ",
+      "Coordinate Postazione": " 44.774917,12.123153 ",
+      "Mezzo": "ALS",
+      "Nome radio": "Lagosanto 01 ",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": "  Postazione 118 Lagosanto ",
+      "Coordinate Postazione": " 44.774917,12.123153 ",
+      "Mezzo": "MSI",
+      "Nome radio": "Lagosanto 02",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": "  Postazione 118 Lagosanto ",
+      "Coordinate Postazione": " 44.774917,12.123153 ",
+      "Mezzo": "MSI",
+      "Nome radio": "Lagosanto 03",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": "  Postazione 118 Loiano ",
+      "Coordinate Postazione": "44.266503,11.325333",
+      "Mezzo": "ALS",
+      "Nome radio": "Loiano 134",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": "  Postazione 118 Loiano ",
+      "Coordinate Postazione": "44.266503,11.325333",
+      "Mezzo": "MSB",
+      "Nome radio": "Loiano 34",
+      "Convenzione": "H24",
+      "Orario di lavoro": "19:00-19:00",
+      "Giorni": "VEN-DOM"
+    },
+    {
+      "Nome Postazione": "  Postazione 118 Loiano ",
+      "Coordinate Postazione": "44.266503,11.325333",
+      "Mezzo": "MSI",
+      "Nome radio": "Loiano 33",
+      "Convenzione": "H24",
+      "Orario di lavoro": "19:00-19:00",
+      "Giorni": "LUN-VEN"
+    },
+    {
+      "Nome Postazione": "  Postazione 118 Mirandola ",
+      "Coordinate Postazione": " 44.883373,11.0651 ",
+      "Mezzo": "ALS",
+      "Nome radio": "Mirandola 102",
+      "Convenzione": "H12",
+      "Orario di lavoro": "08:00-20:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": "  Postazione 118 Mirandola ",
+      "Coordinate Postazione": " 44.883373,11.0651 ",
+      "Mezzo": "ILS",
+      "Nome radio": "Mirandola 21",
+      "Convenzione": "H12",
+      "Orario di lavoro": "20:00-08:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": "  Postazione 118 Mirandola ",
+      "Coordinate Postazione": " 44.883373,11.0651 ",
+      "Mezzo": "MSI",
+      "Nome radio": "Mirandola 52",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": "  Postazione 118 Pavullo ",
+      "Coordinate Postazione": " 44.33437,10.834945 ",
+      "Mezzo": "MSI",
+      "Nome radio": "Pavullo 82",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": "  Postazione 118 Pavullo ",
+      "Coordinate Postazione": " 44.33437,10.834945 ",
+      "Mezzo": "MSI",
+      "Nome radio": "Pavullo 92",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": "  Postazione 118 Porretta Terme ",
+      "Coordinate Postazione": " 44.163257,10.970538 ",
+      "Mezzo": "MSI",
+      "Nome radio": "Porretta 03",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": "  Postazione 118 Porretta Terme ",
+      "Coordinate Postazione": " 44.163257,10.970538 ",
+      "Mezzo": "MSI",
+      "Nome radio": "Porretta 49",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": "  Postazione 118 San Giovanni in Persiceto ",
+      "Coordinate Postazione": " 44.632234,11.195788 ",
+      "Mezzo": "ALS",
+      "Nome radio": " Persiceto 153",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": "  Postazione 118 San Giovanni in Persiceto ",
+      "Coordinate Postazione": " 44.632234,11.195788 ",
+      "Mezzo": "MSI",
+      "Nome radio": "Persiceto 53",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": "  Postazione 118 Vergato ",
+      "Coordinate Postazione": "44.281835,11.108673",
+      "Mezzo": "MSI",
+      "Nome radio": "Vergato 04",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": "  Postazione 118 Vignola ",
+      "Coordinate Postazione": " 44.48316,11.011457 ",
+      "Mezzo": "ALS",
+      "Nome radio": "Vignola 103 ",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": "  Postazione 118 Vignola ",
+      "Coordinate Postazione": " 44.48316,11.011457 ",
+      "Mezzo": "MSI",
+      "Nome radio": "Vignola 9",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": " AVAP Fiumalbo ",
+      "Coordinate Postazione": " 44.178309,10.649636 ",
+      "Mezzo": "MSB",
+      "Nome radio": "Fiumalbo 88",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": " AVAP Fiumalbo ",
+      "Coordinate Postazione": " 44.178309,10.649636 ",
+      "Mezzo": "ILS",
+      "Nome radio": "Alto Frignano 1",
+      "Convenzione": "H24",
+      "Orario di lavoro": "8:00-8:00",
+      "Giorni": "LUN-MER"
+    },
+    {
+      "Nome Postazione": " AVAP Formigine ",
+      "Coordinate Postazione": " 44.578186,10.849796 ",
+      "Mezzo": "MSB",
+      "Nome radio": "Formigine 37",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": " AVAP Maranello ",
+      "Coordinate Postazione": " 44.529577,10.866806 ",
+      "Mezzo": "ALS",
+      "Nome radio": "Maranello 104",
+      "Convenzione": "H12",
+      "Orario di lavoro": "08:00-20:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": " AVAP Maranello ",
+      "Coordinate Postazione": " 44.529577,10.866806 ",
+      "Mezzo": "MSB",
+      "Nome radio": "Maranello 27",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": " Casa di Cura Villa Nobili ",
+      "Coordinate Postazione": "44.140596,11.155508",
+      "Mezzo": "MSI",
+      "Nome radio": "Castiglione 01 ",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": " Croce Azzurra Bologna ",
+      "Coordinate Postazione": " 44.533779,11.352444 ",
+      "Mezzo": "MSB",
+      "Nome radio": "Bologna 36",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": " Croce Italia Bologna ",
+      "Coordinate Postazione": " 44.521341,11.371423 ",
+      "Mezzo": "MSB",
+      "Nome radio": "Bologna 41",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": " Croce Rossa Italiana - Campogalliano ",
+      "Coordinate Postazione": " 44.690469,10.842869 ",
+      "Mezzo": "MSB",
+      "Nome radio": "Campogalliano 85",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": " Croce Rossa Italiana - Camugnano ",
+      "Coordinate Postazione": " 44.172225,11.083461 ",
+      "Mezzo": "MSB",
+      "Nome radio": "Camugnano 10 ",
+      "Convenzione": "H7",
+      "Orario di lavoro": "17:00-00:00",
+      "Giorni": "LUN-VEN"
+    },
+    {
+      "Nome Postazione": " Croce Rossa Italiana - Camugnano ",
+      "Coordinate Postazione": " 44.172225,11.083461 ",
+      "Mezzo": "MSB",
+      "Nome radio": "Camugnano 10 ",
+      "Convenzione": "H11",
+      "Orario di lavoro": "13:00-00:00",
+      "Giorni": "SAB-DOM"
+    },
+    {
+      "Nome Postazione": " Croce Rossa Italiana - Carpi ",
+      "Coordinate Postazione": " 44.794424,10.867768 ",
+      "Mezzo": "MSB",
+      "Nome radio": "Carpi 55",
+      "Convenzione": "H12",
+      "Orario di lavoro": "20:00-07:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": " Croce Rossa Italiana - Casalecchio di Reno ",
+      "Coordinate Postazione": " 44.47604,11.271286 ",
+      "Mezzo": "MSB",
+      "Nome radio": "Casalecchio 67",
+      "Convenzione": "H12",
+      "Orario di lavoro": "08:00-20:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": " Croce Rossa Italiana - Castel di Casio ",
+      "Coordinate Postazione": " 44.163531,11.033839 ",
+      "Mezzo": "MSB",
+      "Nome radio": "Casio 15",
+      "Convenzione": "H7",
+      "Orario di lavoro": "17:00-00:00",
+      "Giorni": "LUN-VEN"
+    },
+    {
+      "Nome Postazione": " Croce Rossa Italiana - Castel di Casio ",
+      "Coordinate Postazione": " 44.163531,11.033839 ",
+      "Mezzo": "MSB",
+      "Nome radio": "Casio 15",
+      "Convenzione": "H11",
+      "Orario di lavoro": "13:00-00:00",
+      "Giorni": "SAB-DOM"
+    },
+    {
+      "Nome Postazione": " Croce Rossa Italiana - Castiglione Dei Pepoli ",
+      "Coordinate Postazione": " 44.147818,11.171946 ",
+      "Mezzo": "MSB",
+      "Nome radio": "Castiglione 09",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": " Croce Rossa Italiana - Gaggio Montano ",
+      "Coordinate Postazione": " 44.195493,10.937646 ",
+      "Mezzo": "MSB",
+      "Nome radio": "Gaggio 01",
+      "Convenzione": "H12",
+      "Orario di lavoro": "20:00-07:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": " Croce Rossa Italiana - Gaggio Montano ",
+      "Coordinate Postazione": " 44.195493,10.937646 ",
+      "Mezzo": "MSI",
+      "Nome radio": "Gaggio 01",
+      "Convenzione": "H12",
+      "Orario di lavoro": "07:00-20:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": " Croce Rossa Italiana - Imola ",
+      "Coordinate Postazione": " 44.356043,11.718393 ",
+      "Mezzo": "MSB",
+      "Nome radio": "Imola 40",
+      "Convenzione": "H4",
+      "Orario di lavoro": "20:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": " Croce Rossa Italiana - Lizzano in Belvedere ",
+      "Coordinate Postazione": " 44.162854,10.892853 ",
+      "Mezzo": "MSB",
+      "Nome radio": "Lizzano 33",
+      "Convenzione": "H12",
+      "Orario di lavoro": "20:00-07:00",
+      "Giorni": "SAB-DOM"
+    },
+    {
+      "Nome Postazione": " Croce Rossa Italiana - Lizzano in Belvedere ",
+      "Coordinate Postazione": " 44.162854,10.892853 ",
+      "Mezzo": "MSI",
+      "Nome radio": "Lizzano 33",
+      "Convenzione": "H12",
+      "Orario di lavoro": "07:00-20:00",
+      "Giorni": "SAB-DOM"
+    },
+    {
+      "Nome Postazione": " Croce Rossa Italiana - Medicina ",
+      "Coordinate Postazione": " 44.474352,11.635335 ",
+      "Mezzo": "MSB",
+      "Nome radio": "Imola 37",
+      "Convenzione": "H12",
+      "Orario di lavoro": "20:00-07:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": " Croce Rossa Italiana - Medicina ",
+      "Coordinate Postazione": " 44.474352,11.635335 ",
+      "Mezzo": "MSI",
+      "Nome radio": "Imola 37",
+      "Convenzione": "H12",
+      "Orario di lavoro": "07:00-20:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": " Croce Rossa Italiana - Modena ",
+      "Coordinate Postazione": " 44.654679,10.93379 ",
+      "Mezzo": "MSB",
+      "Nome radio": "Modena 18",
+      "Convenzione": "H12",
+      "Orario di lavoro": "20:00-07:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": " Croce Rossa Italiana - Prignano ",
+      "Coordinate Postazione": " 44.437321,10.693096 ",
+      "Mezzo": "MSB",
+      "Nome radio": "Prignano 141",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": " Misericordia Pievepelago ",
+      "Coordinate Postazione": " 44.205863,10.62219 ",
+      "Mezzo": "MSB",
+      "Nome radio": "Pieve 21",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": " Misericordia Pievepelago ",
+      "Coordinate Postazione": " 44.205863,10.62219 ",
+      "Mezzo": "ILS",
+      "Nome radio": "Alto Frignano 1",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": " Postazione 118 Bentivoglio ",
+      "Coordinate Postazione": " 44.634026,11.414916 ",
+      "Mezzo": "ALS",
+      "Nome radio": "Bentivoglio 105",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": " Postazione 118 Bologna - Aeroporto G. Marconi ",
+      "Coordinate Postazione": " 44.529498,11.295334 ",
+      "Mezzo": "MSI",
+      "Nome radio": "Bologna 66",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": " Postazione 118 Bologna 01 ",
+      "Coordinate Postazione": "44.505526,11.316173",
+      "Mezzo": "ALS",
+      "Nome radio": "Bologna 101 ",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": " Postazione 118 Bologna 01 ",
+      "Coordinate Postazione": "44.505526,11.316173",
+      "Mezzo": "MSB",
+      "Nome radio": "Bologna 32",
+      "Convenzione": "H12",
+      "Orario di lavoro": "20:00-07:00",
+      "Giorni": "SAB-DOM"
+    },
+    {
+      "Nome Postazione": " Postazione 118 Bologna 01 ",
+      "Coordinate Postazione": "44.505526,11.316173",
+      "Mezzo": "MSB",
+      "Nome radio": "Bologna 50",
+      "Convenzione": "H12",
+      "Orario di lavoro": "07:00-20:00",
+      "Giorni": "LUN-VEN"
+    },
+    {
+      "Nome Postazione": " Postazione 118 Bologna 01 ",
+      "Coordinate Postazione": "44.505526,11.316173",
+      "Mezzo": "MSB",
+      "Nome radio": "Bologna 51",
+      "Convenzione": "H12",
+      "Orario di lavoro": "20:00-07:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": " Postazione 118 Bologna 01 ",
+      "Coordinate Postazione": "44.505526,11.316173",
+      "Mezzo": "MSB",
+      "Nome radio": "Bologna 52",
+      "Convenzione": "H12",
+      "Orario di lavoro": "07:00-20:00",
+      "Giorni": "SAB-DOM"
+    },
+    {
+      "Nome Postazione": " Postazione 118 Bologna 01 ",
+      "Coordinate Postazione": "44.505526,11.316173",
+      "Mezzo": "MSB",
+      "Nome radio": "Bologna 61",
+      "Convenzione": "H12",
+      "Orario di lavoro": "07:00-20:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": " Postazione 118 Bologna 01 ",
+      "Coordinate Postazione": "44.505526,11.316173",
+      "Mezzo": "MSB",
+      "Nome radio": "Bologna 62",
+      "Convenzione": "H12",
+      "Orario di lavoro": "20:00-07:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": " Postazione 118 Bologna 01 ",
+      "Coordinate Postazione": "44.505526,11.316173",
+      "Mezzo": "MSB",
+      "Nome radio": "Bologna 63",
+      "Convenzione": "H6",
+      "Orario di lavoro": "09:00-15:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": " Postazione 118 Bologna 01 ",
+      "Coordinate Postazione": "44.505526,11.316173",
+      "Mezzo": "MSI",
+      "Nome radio": "Bologna 01",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": " Postazione 118 Bologna 01 ",
+      "Coordinate Postazione": "44.505526,11.316173",
+      "Mezzo": "MSI",
+      "Nome radio": "Bologna 02",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": " Postazione 118 Bologna 01 ",
+      "Coordinate Postazione": "44.505526,11.316173",
+      "Mezzo": "MSI",
+      "Nome radio": "Bologna 03",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": " Postazione 118 Bologna 01 ",
+      "Coordinate Postazione": "44.505526,11.316173",
+      "Mezzo": "MSI",
+      "Nome radio": "Bologna 04",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": " Postazione 118 Bologna 01 ",
+      "Coordinate Postazione": "44.505526,11.316173",
+      "Mezzo": "MSI",
+      "Nome radio": "Bologna 05",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": " Postazione 118 Bologna 01 ",
+      "Coordinate Postazione": "44.505526,11.316173",
+      "Mezzo": "MSI",
+      "Nome radio": "Bologna 06",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": " Postazione 118 Bologna 01 ",
+      "Coordinate Postazione": "44.505526,11.316173",
+      "Mezzo": "MSI",
+      "Nome radio": "Bologna 07",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": " Postazione 118 Bologna 02",
+      "Coordinate Postazione": "44.49254,11.365482",
+      "Mezzo": "ALS",
+      "Nome radio": "Bologna 102 ",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": " Postazione 118 Bologna 02",
+      "Coordinate Postazione": "44.49254,11.365482",
+      "Mezzo": "MSB",
+      "Nome radio": "Bologna 53",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": " Postazione 118 Bologna 02",
+      "Coordinate Postazione": "44.49254,11.365482",
+      "Mezzo": "MSB",
+      "Nome radio": "Bologna 58",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": " Postazione 118 Bologna 02",
+      "Coordinate Postazione": "44.49254,11.365482",
+      "Mezzo": "MSB",
+      "Nome radio": "Bologna 65",
+      "Convenzione": "H12",
+      "Orario di lavoro": "08:00-20:00",
+      "Giorni": "DOM"
+    },
+    {
+      "Nome Postazione": " Postazione 118 Bologna 02",
+      "Coordinate Postazione": "44.49254,11.365482",
+      "Mezzo": "MSI",
+      "Nome radio": "Bologna 57",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": " Postazione 118 Bologna 02",
+      "Coordinate Postazione": "44.49254,11.365482",
+      "Mezzo": "MSI",
+      "Nome radio": " Bologna 64",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": " Postazione 118 Bologna 03 ",
+      "Coordinate Postazione": " 44.470992,11.404126 ",
+      "Mezzo": "MSB",
+      "Nome radio": "Bologna 33",
+      "Convenzione": "H12",
+      "Orario di lavoro": "07:00-20:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": " Postazione 118 Bologna 03 ",
+      "Coordinate Postazione": " 44.470992,11.404126 ",
+      "Mezzo": "MSB",
+      "Nome radio": "San Lazzaro 54",
+      "Convenzione": "H4",
+      "Orario di lavoro": "20:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": " Postazione 118 Bologna 03 ",
+      "Coordinate Postazione": " 44.470992,11.404126 ",
+      "Mezzo": "MSI",
+      "Nome radio": "Bologna 54",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": " Postazione 118 Bondeno ",
+      "Coordinate Postazione": " 44.89258,11.4212913 ",
+      "Mezzo": "MSI",
+      "Nome radio": "Bondeno 01",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": " Postazione 118 Castelfranco Emilia ",
+      "Coordinate Postazione": " 44.598257,11.048752 ",
+      "Mezzo": "MSI",
+      "Nome radio": "Castelfranco 3 ",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": " Postazione 118 Casumaro",
+      "Coordinate Postazione": " 44.8382406,11.3597247 ",
+      "Mezzo": "ALS",
+      "Nome radio": "Casumaro 01",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": " Postazione 118 Cento",
+      "Coordinate Postazione": "44.723537,11.29036",
+      "Mezzo": "MSI",
+      "Nome radio": "Cento 01",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": " Postazione 118 Cento",
+      "Coordinate Postazione": "44.723537,11.29036",
+      "Mezzo": "MSI",
+      "Nome radio": "Cento 02",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": " Postazione 118 Comacchio ",
+      "Coordinate Postazione": " 44.6917064,12.185484 ",
+      "Mezzo": "MSI",
+      "Nome radio": "Comacchio 01",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": " Postazione 118 Copparo ",
+      "Coordinate Postazione": " 44.895803,11.8308683 ",
+      "Mezzo": "ALS",
+      "Nome radio": "Copparo 01",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": " Postazione 118 Copparo ",
+      "Coordinate Postazione": " 44.895803,11.8308683 ",
+      "Mezzo": "MSI",
+      "Nome radio": "Copparo 02",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": " Postazione 118 Fanano ",
+      "Coordinate Postazione": " 44.207399,10.795934 ",
+      "Mezzo": "MSI",
+      "Nome radio": "Fanano 81",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": " Postazione 118 Ferrara - P.le Donegani ",
+      "Coordinate Postazione": " 44.858714,11.596021 ",
+      "Mezzo": "MSB",
+      "Nome radio": "Ferrara 02",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": " Postazione 118 Ferrara - S. Anna ",
+      "Coordinate Postazione": " 44.833171,11.630672 ",
+      "Mezzo": "ALS",
+      "Nome radio": "Ferrara 01",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": " Postazione 118 Ferrara - S. Anna ",
+      "Coordinate Postazione": " 44.833171,11.630672 ",
+      "Mezzo": "MSB",
+      "Nome radio": "Ferrara 11",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": " Postazione 118 Ferrara - S. Anna ",
+      "Coordinate Postazione": " 44.833171,11.630672 ",
+      "Mezzo": "MSI",
+      "Nome radio": "Ferrara 05",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": " Postazione 118 Ferrara - S. Anna ",
+      "Coordinate Postazione": " 44.833171,11.630672 ",
+      "Mezzo": "MSI",
+      "Nome radio": "Ferrara 07",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": " Postazione 118 Ferrara - S. Anna ",
+      "Coordinate Postazione": " 44.833171,11.630672 ",
+      "Mezzo": "MSI",
+      "Nome radio": "Ferrara 09",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": " Postazione 118 Ferrara - VVF ",
+      "Coordinate Postazione": " 44.826313,11.592587 ",
+      "Mezzo": "MSI",
+      "Nome radio": "Ferrara 04",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": " Postazione 118 Finale Emilia ",
+      "Coordinate Postazione": " 44.833529,11.297526 ",
+      "Mezzo": "MSI",
+      "Nome radio": "Finale 53",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": " Postazione 118 Fossoli di Carpi ",
+      "Coordinate Postazione": " 44.810861,10.883677 ",
+      "Mezzo": "MSI",
+      "Nome radio": "Carpi 5",
+      "Convenzione": "H12",
+      "Orario di lavoro": "07:00-20:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": " Postazione 118 Lama di Setta ",
+      "Coordinate Postazione": " 44.343641,11.269407 ",
+      "Mezzo": "ALS",
+      "Nome radio": "Setta 157",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": " Postazione 118 Marano di Vergato ",
+      "Coordinate Postazione": " 44.226299,11.034349 ",
+      "Mezzo": "ALS",
+      "Nome radio": "Marano 149",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": " Postazione 118 Modena - Policlinico ",
+      "Coordinate Postazione": " 44.637501,10.946252 ",
+      "Mezzo": "ALS",
+      "Nome radio": "Modena 101",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": " Postazione 118 Modena - Policlinico ",
+      "Coordinate Postazione": " 44.637501,10.946252 ",
+      "Mezzo": "MSI",
+      "Nome radio": "Modena 1 ",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": " Postazione 118 Modena - Policlinico ",
+      "Coordinate Postazione": " 44.637501,10.946252 ",
+      "Mezzo": "MSI",
+      "Nome radio": "Modena 6",
+      "Convenzione": "H12",
+      "Orario di lavoro": "07:00-20:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": " Postazione 118 Modena - Policlinico ",
+      "Coordinate Postazione": " 44.637501,10.946252 ",
+      "Mezzo": "MSI",
+      "Nome radio": "Modena 8",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": " Postazione 118 Modena - Policlinico ",
+      "Coordinate Postazione": " 44.637501,10.946252 ",
+      "Mezzo": "MSI",
+      "Nome radio": "Modena 15",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": " Postazione 118 Modena - Policlinico ",
+      "Coordinate Postazione": " 44.637501,10.946252 ",
+      "Mezzo": "MSI",
+      "Nome radio": "Modena 17",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": " Postazione 118 Modena - Policlinico ",
+      "Coordinate Postazione": " 44.637501,10.946252 ",
+      "Mezzo": "MSI",
+      "Nome radio": "Modena 18",
+      "Convenzione": "H12",
+      "Orario di lavoro": "07:00-20:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": " Postazione 118 Modena - Policlinico ",
+      "Coordinate Postazione": " 44.637501,10.946252 ",
+      "Mezzo": "MSI",
+      "Nome radio": "Modena 21",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": " Postazione 118 Modena - VVF ",
+      "Coordinate Postazione": " 44.644851,10.900313 ",
+      "Mezzo": "MSI",
+      "Nome radio": "Modena 2",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": " Postazione 118 Pavullo ",
+      "Coordinate Postazione": " 44.33437,10.834945 ",
+      "Mezzo": "ALS",
+      "Nome radio": "Pavullo 80",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": " Postazione 118 Pian del Voglio ",
+      "Coordinate Postazione": " 44.169403,11.215996 ",
+      "Mezzo": "ALS",
+      "Nome radio": "Sambro 122",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": " Postazione 118 Portomaggiore ",
+      "Coordinate Postazione": " 44.700402,11.810123 ",
+      "Mezzo": "MSI",
+      "Nome radio": "Portomaggiore 01",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": " Postazione 118 Sassuolo - VVF ",
+      "Coordinate Postazione": " 44.557402,10.799167 ",
+      "Mezzo": "MSI",
+      "Nome radio": "Sassuolo 71",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": " Postazione 118 Zola Predosa ",
+      "Coordinate Postazione": " 44.492028,11.219954 ",
+      "Mezzo": "MSB",
+      "Nome radio": "Zola 60",
+      "Convenzione": "H12",
+      "Orario di lavoro": "07:00-19:00 ",
+      "Giorni": "LUN-VEN"
+    },
+    {
+      "Nome Postazione": " Postazione 118 Zola Predosa ",
+      "Coordinate Postazione": " 44.492028,11.219954 ",
+      "Mezzo": "MSB",
+      "Nome radio": "Zola 61",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": " Pubblica Assistenza Borgo Tossignano ",
+      "Coordinate Postazione": " 44.27549,11.5913 ",
+      "Mezzo": "MSB",
+      "Nome radio": "Imola 61",
+      "Convenzione": "H12",
+      "Orario di lavoro": "20:00-07:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": " Pubblica Assistenza Borgo Tossignano ",
+      "Coordinate Postazione": " 44.27549,11.5913 ",
+      "Mezzo": "MSI",
+      "Nome radio": "Imola 61",
+      "Convenzione": "H12",
+      "Orario di lavoro": "07:00-20:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": " Pubblica Assistenza Castenaso ",
+      "Coordinate Postazione": " 44.511364,11.464183 ",
+      "Mezzo": "MSB",
+      "Nome radio": "Castenaso 20",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": " Pubblica Assistenza Città di Imola ",
+      "Coordinate Postazione": " 44.35323,11.716469 ",
+      "Mezzo": "MSB",
+      "Nome radio": " Imola 62",
+      "Convenzione": "H4",
+      "Orario di lavoro": "20:00-00:00",
+      "Giorni": "MAR, VEN"
+    },
+    {
+      "Nome Postazione": " Pubblica Assistenza Città di Vado ",
+      "Coordinate Postazione": " 44.316954,11.2554 ",
+      "Mezzo": "MSB",
+      "Nome radio": "Vado 44",
+      "Convenzione": "H12",
+      "Orario di lavoro": "20:00-07:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": " Pubblica Assistenza Città di Vado ",
+      "Coordinate Postazione": " 44.316954,11.2554 ",
+      "Mezzo": "MSI",
+      "Nome radio": "Vado 44",
+      "Convenzione": "H12",
+      "Orario di lavoro": "07:00-20:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": " Pubblica Assistenza Comuni di Pianura - Castel M. ",
+      "Coordinate Postazione": " 44.5778682,11.3525776 ",
+      "Mezzo": "MSB",
+      "Nome radio": "Castelmaggiore 19",
+      "Convenzione": "H12",
+      "Orario di lavoro": "20:00-07:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": " Pubblica Assistenza Comuni di Pianura - Galliera ",
+      "Coordinate Postazione": " 44.740855,11.435379 ",
+      "Mezzo": "MSB",
+      "Nome radio": "Galliera 28",
+      "Convenzione": "H12",
+      "Orario di lavoro": "20:00-07:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": " Pubblica Assistenza Comuni di Pianura - Malalbergo ",
+      "Coordinate Postazione": " 44.67659,11.4898213 ",
+      "Mezzo": "MSB",
+      "Nome radio": "Malalbergo 35",
+      "Convenzione": "H12",
+      "Orario di lavoro": "20:00-07:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": " Pubblica Assistenza Crevalcore ",
+      "Coordinate Postazione": " 44.71579,11.149899 ",
+      "Mezzo": "MSB",
+      "Nome radio": "Crevalcore 24",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": " Pubblica Assistenza Croce Blu Bastiglia ",
+      "Coordinate Postazione": " 44.726332,11.000616 ",
+      "Mezzo": "MSB",
+      "Nome radio": "Bastiglia 57",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": " Pubblica Assistenza Croce Blu Modena ",
+      "Coordinate Postazione": " 44.637635,10.905785 ",
+      "Mezzo": "MSB",
+      "Nome radio": "Modena 44",
+      "Convenzione": "H12",
+      "Orario di lavoro": "08:00-20:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": " Pubblica Assistenza Croce Blu Molinella ",
+      "Coordinate Postazione": " 44.621117,11.665139 ",
+      "Mezzo": "MSB",
+      "Nome radio": "Molinella 39",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": " Pubblica Assistenza Croce Blu Nonantola ",
+      "Coordinate Postazione": " 44.677185,11.041055 ",
+      "Mezzo": "MSB",
+      "Nome radio": "Nonantola 12",
+      "Convenzione": "H12",
+      "Orario di lavoro": "20:00-08:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": " Pubblica Assistenza Croce Blu Nonantola ",
+      "Coordinate Postazione": " 44.677185,11.041055 ",
+      "Mezzo": "MSB",
+      "Nome radio": "Nonantola 43",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": " Pubblica Assistenza Croce Blu Nonantola ",
+      "Coordinate Postazione": " 44.677185,11.041055 ",
+      "Mezzo": "MSI",
+      "Nome radio": "Nonantola 12",
+      "Convenzione": "H12",
+      "Orario di lavoro": "08:00-20:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": " Pubblica Assistenza Croce Blu San Prospero ",
+      "Coordinate Postazione": " 44.787699,11.026517 ",
+      "Mezzo": "MSB",
+      "Nome radio": "San Prospero 65",
+      "Convenzione": "H12",
+      "Orario di lavoro": "07:00-20:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": " Pubblica Assistenza Croce Blu Soliera ",
+      "Coordinate Postazione": " 44.739024,10.929824 ",
+      "Mezzo": "MSB",
+      "Nome radio": "Soliera 34",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": " Pubblica Assistenza Croce Verde Pavullo ",
+      "Coordinate Postazione": " 44.335301,10.831397 ",
+      "Mezzo": "MSB",
+      "Nome radio": "Pavullo 38",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": " Pubblica Assistenza Ferrarese - Bosco Mesola ",
+      "Coordinate Postazione": " 44.875414,12.229137 ",
+      "Mezzo": "MSB",
+      "Nome radio": "Bosco 01",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": " Pubblica Assistenza Ferrarese - Migliarino ",
+      "Coordinate Postazione": " 44.768725,11.934052 ",
+      "Mezzo": "MSB",
+      "Nome radio": "Migliarino 01",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": " Pubblica Assistenza Fiorano Modenese ",
+      "Coordinate Postazione": " 44.540215,10.827019 ",
+      "Mezzo": "MSB",
+      "Nome radio": "Fiorano 87",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": " Pubblica Assistenza Granaglione ",
+      "Coordinate Postazione": " 44.141262,10.990977 ",
+      "Mezzo": "MSB",
+      "Nome radio": "Granaglione 15",
+      "Convenzione": "H6",
+      "Orario di lavoro": "07:00-13:00",
+      "Giorni": "MAR, GIO-VEN"
+    },
+    {
+      "Nome Postazione": " Pubblica Assistenza Lama Mocogno ",
+      "Coordinate Postazione": " 44.308734,10.73179 ",
+      "Mezzo": "MSB",
+      "Nome radio": "Lama 18 ",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": " Pubblica Assistenza Granaglione ",
+      "Coordinate Postazione": " 44.141262,10.990977 ",
+      "Mezzo": "MSB",
+      "Nome radio": "Granaglione 15",
+      "Convenzione": "H12",
+      "Orario di lavoro": "13:00-17:00",
+      "Giorni": "MAR-MER"
+    },
+    {
+      "Nome Postazione": " Pubblica Assistenza Montecreto ",
+      "Coordinate Postazione": " 44.249003,10.717769 ",
+      "Mezzo": "MSB",
+      "Nome radio": "Montecreto 28",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": " Pubblica Assistenza Montefiorino ",
+      "Coordinate Postazione": " 44.354769,10.622301 ",
+      "Mezzo": "MSB",
+      "Nome radio": "Montefiorino 47",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": " Pubblica Assistenza Monterenzio ",
+      "Coordinate Postazione": " 44.329879,11.407984 ",
+      "Mezzo": "MSB",
+      "Nome radio": "Montefiorino 47",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": " Pubblica Assistenza Montese ",
+      "Coordinate Postazione": " 44.267436,10.940514 ",
+      "Mezzo": "MSI",
+      "Nome radio": "Montese 59 ",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": " Pubblica Assistenza Ozzano e San Lazzaro ",
+      "Coordinate Postazione": " 44.44371,11.474002 ",
+      "Mezzo": "MSB",
+      "Nome radio": "Ozzano 46",
+      "Convenzione": "H4",
+      "Orario di lavoro": "18:00-00:00",
+      "Giorni": "LUN-VEN"
+    },
+    {
+      "Nome Postazione": " Pubblica Assistenza Ozzano e San Lazzaro ",
+      "Coordinate Postazione": " 44.44371,11.474002 ",
+      "Mezzo": "MSB",
+      "Nome radio": "Ozzano 46",
+      "Convenzione": "H16",
+      "Orario di lavoro": "07:00-00:00",
+      "Giorni": "SAB-DOM"
+    },
+    {
+      "Nome Postazione": " Pubblica Assistenza Palagano ",
+      "Coordinate Postazione": " 44.321708,10.646455 ",
+      "Mezzo": "MSB",
+      "Nome radio": "Palagano 57",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": " Pubblica Assistenza Pianoro ",
+      "Coordinate Postazione": " 44.3936794,11.3444526 ",
+      "Mezzo": "MSB",
+      "Nome radio": "Pianoro 47",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": " Pubblica Assistenza Polinago ",
+      "Coordinate Postazione": " 44.34439,10.72191 ",
+      "Mezzo": "MSI",
+      "Nome radio": "Polinago 41",
+      "Convenzione": "H12",
+      "Orario di lavoro": "08:00-20:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": " Pubblica Assistenza Riolunato ",
+      "Coordinate Postazione": " 44.230167,10.652833 ",
+      "Mezzo": "MSB",
+      "Nome radio": "Riolunato 48",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": " Pubblica Assistenza Riolunato ",
+      "Coordinate Postazione": " 44.230167,10.652833 ",
+      "Mezzo": "ILS",
+      "Nome radio": "Alto Frignano 1",
+      "Convenzione": "H24",
+      "Orario di lavoro": "8:00-8:00",
+      "Giorni": "GIO-DOM"
+    },
+    {
+      "Nome Postazione": " Pubblica Assistenza Roccamalatina ",
+      "Coordinate Postazione": " 44.389922,10.963221 ",
+      "Mezzo": "MSB",
+      "Nome radio": "Rocca 29",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": " Pubblica Assistenza San Felice Sul Panaro ",
+      "Coordinate Postazione": " 44.838638,11.138395 ",
+      "Mezzo": "MSB",
+      "Nome radio": "San Felice 51",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": " Pubblica Assistenza Sasso Marconi ",
+      "Coordinate Postazione": " 44.400093,11.255444 ",
+      "Mezzo": "MSB",
+      "Nome radio": "Marconi 57",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": " Pubblica Assistenza Serramazzoni ",
+      "Coordinate Postazione": " 44.421086,10.790334 ",
+      "Mezzo": "MSB",
+      "Nome radio": "Serra 58",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": " Pubblica Assistenza Serravalle ",
+      "Coordinate Postazione": " 44.440708,11.064791 ",
+      "Mezzo": "MSB",
+      "Nome radio": "Serravalle 04",
+      "Convenzione": "H4",
+      "Orario di lavoro": "20:00-00:00",
+      "Giorni": "LUN-GIO"
+    },
+    {
+      "Nome Postazione": " Pubblica Assistenza Serravalle ",
+      "Coordinate Postazione": " 44.440708,11.064791 ",
+      "Mezzo": "MSB",
+      "Nome radio": "Serravalle 04",
+      "Convenzione": "H12",
+      "Orario di lavoro": "08:00-20:00",
+      "Giorni": "VEN-DOM"
+    },
+    {
+      "Nome Postazione": " Pubblica Assistenza Sestola ",
+      "Coordinate Postazione": " 44.228839,10.771917 ",
+      "Mezzo": "MSB",
+      "Nome radio": "Sestola 68",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": " Pubblica Assistenza Val di Sambro ",
+      "Coordinate Postazione": " 44.189471,11.220231 ",
+      "Mezzo": "MSI",
+      "Nome radio": "Sambro 51",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": " Pubblica Assistenza Valdolo ",
+      "Coordinate Postazione": " 44.255838,10.5313 ",
+      "Mezzo": "MSB",
+      "Nome radio": "Valdolo 67",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": " Pubblica Assistenza Vignola ",
+      "Coordinate Postazione": " 44.488032,11.002689 ",
+      "Mezzo": "MSB",
+      "Nome radio": "Vignola 49",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": " Pubblica Assistenza Zocca ",
+      "Coordinate Postazione": " 44.343866,10.998953 ",
+      "Mezzo": "MSI",
+      "Nome radio": "Zocca 39",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": " S. Agostino Soccorso ",
+      "Coordinate Postazione": " 44.79329,11.39457 ",
+      "Mezzo": "MSB",
+      "Nome radio": "S. Agostino 01",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": " Voghiera Soccorso ",
+      "Coordinate Postazione": " 44.758014,11.751091 ",
+      "Mezzo": "MSB",
+      "Nome radio": "Voghiera 02",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    }
+  ]
+}

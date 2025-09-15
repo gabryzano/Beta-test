@@ -1,0 +1,497 @@
+[
+  {
+    "Nome Postazione": "Elisoccorso Viterbo",
+    "Coordinate Postazione": "42.4414785,12.0591903",
+    "Mezzo": "ELI",
+    "Nome radio": "ARES 33",
+    "Convenzione": "H24",
+    "Orario di lavoro": "00:00-00:00",
+    "Giorni": "LUN-DOM"
+  },
+  {
+    "Nome Postazione": "Postazione 118 - Amatrice Collemaggiore",
+    "Coordinate Postazione": "42.6136238,13.2831371",
+    "Mezzo": "AM",
+    "Nome radio": "1139 ",
+    "Convenzione": "H24",
+    "Orario di lavoro": "00:00-00:00",
+    "Giorni": "LUN-DOM"
+  },
+  {
+    "Nome Postazione": "Postazione 118 - Bolsena",
+    "Coordinate Postazione": "42.6426604,11.989421",
+    "Mezzo": "ASI",
+    "Nome radio": "1090",
+    "Convenzione": "H24",
+    "Orario di lavoro": "00:00-00:00",
+    "Giorni": "LUN-DOM"
+  },
+  {
+    "Nome Postazione": "Postazione 118 - Borgo S. Pietro",
+    "Coordinate Postazione": "42.273098,13.064479",
+    "Mezzo": "ASI",
+    "Nome radio": "1089 ",
+    "Convenzione": "H24",
+    "Orario di lavoro": "00:00-00:00",
+    "Giorni": "LUN-DOM"
+  },
+  {
+    "Nome Postazione": "Postazione 118 - Canino",
+    "Coordinate Postazione": "42.4639667,11.7489268",
+    "Mezzo": "ASI",
+    "Nome radio": "1088 ",
+    "Convenzione": "H24",
+    "Orario di lavoro": "00:00-00:00",
+    "Giorni": "LUN-DOM"
+  },
+  {
+    "Nome Postazione": "Postazione 118 - Civita Castellana",
+    "Coordinate Postazione": "42.3004555,12.4046835",
+    "Mezzo": "ASI",
+    "Nome radio": "1087 ",
+    "Convenzione": "H24",
+    "Orario di lavoro": "00:00-00:00",
+    "Giorni": "LUN-DOM"
+  },
+  {
+    "Nome Postazione": "Postazione 118 - Civitavecchia Porto",
+    "Coordinate Postazione": "42.100845790149,11.786263251067",
+    "Mezzo": "ASI",
+    "Nome radio": "1092 ",
+    "Convenzione": "H24",
+    "Orario di lavoro": "00:00-00:00",
+    "Giorni": "LUN-DOM"
+  },
+  {
+    "Nome Postazione": "Postazione 118 - Civitavecchia Porto",
+    "Coordinate Postazione": "42.100845790149,11.786263251067",
+    "Mezzo": "AM",
+    "Nome radio": "1314 ",
+    "Convenzione": "H24",
+    "Orario di lavoro": "00:00-00:00",
+    "Giorni": "LUN-DOM"
+  },
+  {
+    "Nome Postazione": "Postazione 118 - Civitella D Agliano",
+    "Coordinate Postazione": "42.6059465,12.1870379",
+    "Mezzo": "ASI",
+    "Nome radio": "1076 ",
+    "Convenzione": "H24",
+    "Orario di lavoro": "00:00-00:00",
+    "Giorni": "LUN-DOM"
+  },
+  {
+    "Nome Postazione": "Postazione 118 - Guidonia",
+    "Coordinate Postazione": "41.9827164,12.7121653",
+    "Mezzo": "AM",
+    "Nome radio": "1021 ",
+    "Convenzione": "H24",
+    "Orario di lavoro": "00:00-00:00",
+    "Giorni": "LUN-DOM"
+  },
+  {
+    "Nome Postazione": "Postazione 118 - Guidonia",
+    "Coordinate Postazione": "41.9827164,12.7121653",
+    "Mezzo": "ASI",
+    "Nome radio": "1384 ",
+    "Convenzione": "H24",
+    "Orario di lavoro": "00:00-00:00",
+    "Giorni": "LUN-DOM"
+  },
+  {
+    "Nome Postazione": "Postazione 118 - Leonessa",
+    "Coordinate Postazione": "42.563487,12.962354",
+    "Mezzo": "ASI",
+    "Nome radio": "1335 ",
+    "Convenzione": "H24",
+    "Orario di lavoro": "00:00-00:00",
+    "Giorni": "LUN-DOM"
+  },
+  {
+    "Nome Postazione": "Postazione 118 - Montalto di Castro",
+    "Coordinate Postazione": "42.352878,11.604508",
+    "Mezzo": "ASI",
+    "Nome radio": "1377 ",
+    "Convenzione": "H24",
+    "Orario di lavoro": "00:00-00:00",
+    "Giorni": "LUN-DOM"
+  },
+  {
+    "Nome Postazione": "Postazione 118 - Paganico",
+    "Coordinate Postazione": "42.1892312,12.9974356",
+    "Mezzo": "ASI",
+    "Nome radio": 1291,
+    "Convenzione": "H24",
+    "Orario di lavoro": "00:00-00:00",
+    "Giorni": "LUN-DOM"
+  },
+  {
+    "Nome Postazione": "Postazione 118 - Passo Corese",
+    "Coordinate Postazione": "42.157242,12.647617",
+    "Mezzo": "ASI",
+    "Nome radio": "1334 ",
+    "Convenzione": "H24",
+    "Orario di lavoro": "00:00-00:00",
+    "Giorni": "LUN-DOM"
+  },
+  {
+    "Nome Postazione": "Postazione 118 - Posta",
+    "Coordinate Postazione": "42.523602,13.096251",
+    "Mezzo": "ASI",
+    "Nome radio": "1129",
+    "Convenzione": "H24",
+    "Orario di lavoro": "00:00-00:00",
+    "Giorni": "LUN-DOM"
+  },
+  {
+    "Nome Postazione": "Postazione 118 - Santa Marinella",
+    "Coordinate Postazione": "42.034814,11.856906",
+    "Mezzo": "ASI",
+    "Nome radio": "1219",
+    "Convenzione": "H24",
+    "Orario di lavoro": "00:00-00:00",
+    "Giorni": "LUN-DOM"
+  },
+  {
+    "Nome Postazione": "Postazione 118 - Stimigliano",
+    "Coordinate Postazione": "42.2915286,12.5652593",
+    "Mezzo": "AM",
+    "Nome radio": "1155 ",
+    "Convenzione": "H24",
+    "Orario di lavoro": "00:00-00:00",
+    "Giorni": "LUN-DOM"
+  },
+  {
+    "Nome Postazione": "Postazione 118 - Stimigliano",
+    "Coordinate Postazione": "42.2915286,12.5652593",
+    "Mezzo": "ASI",
+    "Nome radio": "1158 ",
+    "Convenzione": "H24",
+    "Orario di lavoro": "00:00-00:00",
+    "Giorni": "LUN-DOM"
+  },
+  {
+    "Nome Postazione": "Postazione 118 - Subiaco Pelliccia",
+    "Coordinate Postazione": "41.9259876,13.0914216",
+    "Mezzo": "AM",
+    "Nome radio": "1316 ",
+    "Convenzione": "H24",
+    "Orario di lavoro": "00:00-00:00",
+    "Giorni": "LUN-DOM"
+  },
+  {
+    "Nome Postazione": "Postazione 118 - Torri Sabina",
+    "Coordinate Postazione": "42.353118,12.638421",
+    "Mezzo": "ASI",
+    "Nome radio": "1170 ",
+    "Convenzione": "H24",
+    "Orario di lavoro": "00:00-00:00",
+    "Giorni": "LUN-DOM"
+  },
+  {
+    "Nome Postazione": "Postazione 118 - Tuscania",
+    "Coordinate Postazione": "42.416945,11.875616",
+    "Mezzo": "ASI",
+    "Nome radio": "1091 ",
+    "Convenzione": "H12",
+    "Orario di lavoro": "8:00-20:00",
+    "Giorni": "LUN-DOM"
+  },
+  {
+    "Nome Postazione": "Postazione 118 - Vetralla Cassia",
+    "Coordinate Postazione": "42.3161866,12.0915887",
+    "Mezzo": "ASI",
+    "Nome radio": "1075 ",
+    "Convenzione": "H24",
+    "Orario di lavoro": "00:00-00:00",
+    "Giorni": "LUN-DOM"
+  },
+  {
+    "Nome Postazione": "Postazione 118 - Vicovaro",
+    "Coordinate Postazione": "42.0153274,12.8914595",
+    "Mezzo": "ASI",
+    "Nome radio": "1084 ",
+    "Convenzione": "H12",
+    "Orario di lavoro": "9:00-21:00",
+    "Giorni": "LUN-DOM"
+  },
+  {
+    "Nome Postazione": "Postazione 118 - Villanova",
+    "Coordinate Postazione": "41.9634819,12.7555526",
+    "Mezzo": "ASI",
+    "Nome radio": "1329 ",
+    "Convenzione": "H24",
+    "Orario di lavoro": "00:00-00:00",
+    "Giorni": "LUN-DOM"
+  },
+  {
+    "Nome Postazione": "Postazione 118 - Viterbo Mainella",
+    "Coordinate Postazione": "42.4430822,12.0881865",
+    "Mezzo": "ASI",
+    "Nome radio": "1080 ",
+    "Convenzione": "H24",
+    "Orario di lavoro": "00:00-00:00",
+    "Giorni": "LUN-DOM"
+  },
+  {
+    "Nome Postazione": "Postazione ARES - Acquapendente",
+    "Coordinate Postazione": "42.746277,11.865487",
+    "Mezzo": "ASI",
+    "Nome radio": "0645 ",
+    "Convenzione": "H24",
+    "Orario di lavoro": "00:00-00:00",
+    "Giorni": "LUN-DOM"
+  },
+  {
+    "Nome Postazione": "Postazione ARES - Acquapendente",
+    "Coordinate Postazione": "42.746277,11.865487",
+    "Mezzo": "AM",
+    "Nome radio": "1138",
+    "Convenzione": "H24",
+    "Orario di lavoro": "00:00-00:00",
+    "Giorni": "LUN-DOM"
+  },
+  {
+    "Nome Postazione": "Postazione ARES - Amatrice",
+    "Coordinate Postazione": "42.6226411,13.3058229",
+    "Mezzo": "ASI",
+    "Nome radio": "0614",
+    "Convenzione": "H24",
+    "Orario di lavoro": "00:00-00:00",
+    "Giorni": "LUN-DOM"
+  },
+  {
+    "Nome Postazione": "Postazione ARES - Arsoli",
+    "Coordinate Postazione": "42.0455914,13.0135587",
+    "Mezzo": "ASI",
+    "Nome radio": "0711 ",
+    "Convenzione": "H24",
+    "Orario di lavoro": "00:00-00:00",
+    "Giorni": "LUN-DOM"
+  },
+  {
+    "Nome Postazione": "Postazione ARES - Civitavecchia",
+    "Coordinate Postazione": "42.1015313,11.7910465",
+    "Mezzo": "ASI",
+    "Nome radio": "0674 ",
+    "Convenzione": "H24",
+    "Orario di lavoro": "00:00-00:00",
+    "Giorni": "LUN-DOM"
+  },
+  {
+    "Nome Postazione": "Postazione ARES - Fiano Romano",
+    "Coordinate Postazione": "42.1358928,12.5833275",
+    "Mezzo": "ASI",
+    "Nome radio": "0608 ",
+    "Convenzione": "H24",
+    "Orario di lavoro": "00:00-00:00",
+    "Giorni": "LUN-DOM"
+  },
+  {
+    "Nome Postazione": "Postazione ARES - Magliano Sabina",
+    "Coordinate Postazione": "42.371594,12.491183",
+    "Mezzo": "ASI",
+    "Nome radio": "0688 ",
+    "Convenzione": "H24",
+    "Orario di lavoro": "00:00-00:00",
+    "Giorni": "LUN-DOM"
+  },
+  {
+    "Nome Postazione": "Postazione ARES - Montalto di Castro",
+    "Coordinate Postazione": "42.3396255,11.5920408",
+    "Mezzo": "AM",
+    "Nome radio": "MDC ",
+    "Convenzione": "H24",
+    "Orario di lavoro": "00:00-00:00",
+    "Giorni": "LUN-DOM"
+  },
+  {
+    "Nome Postazione": "Postazione ARES - Montefiascone",
+    "Coordinate Postazione": "42.53653,12.03154",
+    "Mezzo": "ASI",
+    "Nome radio": "0637 ",
+    "Convenzione": "H24",
+    "Orario di lavoro": "00:00-00:00",
+    "Giorni": "LUN-DOM"
+  },
+  {
+    "Nome Postazione": "Postazione ARES - Monterosi",
+    "Coordinate Postazione": "42.195937,12.31096",
+    "Mezzo": "ASI",
+    "Nome radio": "0701 ",
+    "Convenzione": "H24",
+    "Orario di lavoro": "00:00-00:00",
+    "Giorni": "LUN-DOM"
+  },
+  {
+    "Nome Postazione": "Postazione ARES - Orte",
+    "Coordinate Postazione": "42.4651861,12.3929279",
+    "Mezzo": "ASI",
+    "Nome radio": "0672 ",
+    "Convenzione": "H24",
+    "Orario di lavoro": "00:00-00:00",
+    "Giorni": "LUN-DOM"
+  },
+  {
+    "Nome Postazione": "Postazione ARES - Orte",
+    "Coordinate Postazione": "42.4651861,12.3929279",
+    "Mezzo": "AM",
+    "Nome radio": "ORT ",
+    "Convenzione": "H24",
+    "Orario di lavoro": "00:00-00:00",
+    "Giorni": "LUN-DOM"
+  },
+  {
+    "Nome Postazione": "Postazione ARES - Osteria Nuova",
+    "Coordinate Postazione": "42.210684,12.8228486",
+    "Mezzo": "ASI",
+    "Nome radio": "0640 ",
+    "Convenzione": "H24",
+    "Orario di lavoro": "00:00-00:00",
+    "Giorni": "LUN-DOM"
+  },
+  {
+    "Nome Postazione": "Postazione ARES - Palombara Sabina",
+    "Coordinate Postazione": "42.069125,12.762646",
+    "Mezzo": "ASI",
+    "Nome radio": "0606",
+    "Convenzione": "H24",
+    "Orario di lavoro": "00:00-00:00",
+    "Giorni": "LUN-DOM"
+  },
+  {
+    "Nome Postazione": "Postazione ARES - Rieti",
+    "Coordinate Postazione": "42.408752,12.9044256",
+    "Mezzo": "ASI",
+    "Nome radio": "0618 ",
+    "Convenzione": "H12",
+    "Orario di lavoro": "8:00-20:00",
+    "Giorni": "LUN-DOM"
+  },
+  {
+    "Nome Postazione": "Postazione ARES - Rieti",
+    "Coordinate Postazione": "42.408752,12.9044256",
+    "Mezzo": "ASI",
+    "Nome radio": "0691 ",
+    "Convenzione": "H24",
+    "Orario di lavoro": "00:00-00:00",
+    "Giorni": "LUN-DOM"
+  },
+  {
+    "Nome Postazione": "Postazione ARES - Rieti",
+    "Coordinate Postazione": "42.408752,12.9044256",
+    "Mezzo": "ASI",
+    "Nome radio": "0708 ",
+    "Convenzione": "H24",
+    "Orario di lavoro": "00:00-00:00",
+    "Giorni": "LUN-DOM"
+  },
+  {
+    "Nome Postazione": "Postazione ARES - Rieti",
+    "Coordinate Postazione": "42.408752,12.9044256",
+    "Mezzo": "ASI",
+    "Nome radio": "0730 ",
+    "Convenzione": "H12",
+    "Orario di lavoro": "8:00-20:00",
+    "Giorni": "LUN-DOM"
+  },
+  {
+    "Nome Postazione": "Postazione ARES - Rieti",
+    "Coordinate Postazione": "42.408752,12.9044256",
+    "Mezzo": "AM",
+    "Nome radio": "RIE",
+    "Convenzione": "H24",
+    "Orario di lavoro": "00:00-00:00",
+    "Giorni": "LUN-DOM"
+  },
+  {
+    "Nome Postazione": "Postazione ARES - Ronciglione",
+    "Coordinate Postazione": "42.292546,12.211615",
+    "Mezzo": "ASI",
+    "Nome radio": "0629 ",
+    "Convenzione": "H24",
+    "Orario di lavoro": "00:00-00:00",
+    "Giorni": "LUN-DOM"
+  },
+  {
+    "Nome Postazione": "Postazione ARES - Subiaco",
+    "Coordinate Postazione": "41.9243901,13.0866493",
+    "Mezzo": "ASI",
+    "Nome radio": "0710 ",
+    "Convenzione": "H24",
+    "Orario di lavoro": "00:00-00:00",
+    "Giorni": "LUN-DOM"
+  },
+  {
+    "Nome Postazione": "Postazione ARES - Tarquinia",
+    "Coordinate Postazione": "42.2535663,11.7551701",
+    "Mezzo": "ASI",
+    "Nome radio": "0692 ",
+    "Convenzione": "H24",
+    "Orario di lavoro": "00:00-00:00",
+    "Giorni": "LUN-DOM"
+  },
+  {
+    "Nome Postazione": "Postazione ARES - Tivoli",
+    "Coordinate Postazione": "41.9557816,12.768016",
+    "Mezzo": "ASI",
+    "Nome radio": "0677 ",
+    "Convenzione": "H12",
+    "Orario di lavoro": "8:00-20:00",
+    "Giorni": "LUN-DOM"
+  },
+  {
+    "Nome Postazione": "Postazione ARES - Tivoli",
+    "Coordinate Postazione": "41.9557816,12.768016",
+    "Mezzo": "ASI",
+    "Nome radio": "0690 ",
+    "Convenzione": "H24",
+    "Orario di lavoro": "00:00-00:00",
+    "Giorni": "LUN-DOM"
+  },
+  {
+    "Nome Postazione": "Postazione ARES - Tivoli",
+    "Coordinate Postazione": "41.9557816,12.768016",
+    "Mezzo": "ASI",
+    "Nome radio": "0704 ",
+    "Convenzione": "H24",
+    "Orario di lavoro": "00:00-00:00",
+    "Giorni": "LUN-DOM"
+  },
+  {
+    "Nome Postazione": "Postazione ARES - Vetralla",
+    "Coordinate Postazione": "42.3204961,12.0591067",
+    "Mezzo": "AM",
+    "Nome radio": "VTR ",
+    "Convenzione": "H24",
+    "Orario di lavoro": "00:00-00:00",
+    "Giorni": "LUN-DOM"
+  },
+  {
+    "Nome Postazione": "Postazione ARES - Viterbo",
+    "Coordinate Postazione": "42.4114927,12.1034728",
+    "Mezzo": "ASI",
+    "Nome radio": "0664 ",
+    "Convenzione": "H12",
+    "Orario di lavoro": "8:00-20:00",
+    "Giorni": "LUN-DOM"
+  },
+  {
+    "Nome Postazione": "Postazione ARES - Viterbo",
+    "Coordinate Postazione": "42.4114927,12.1034728",
+    "Mezzo": "ASI",
+    "Nome radio": "0747 ",
+    "Convenzione": "H24",
+    "Orario di lavoro": "00:00-00:00",
+    "Giorni": "LUN-DOM"
+  },
+  {
+    "Nome Postazione": "Postazione ARES - Viterbo",
+    "Coordinate Postazione": "42.4114927,12.1034728",
+    "Mezzo": "AM",
+    "Nome radio": "VTB",
+    "Convenzione": "H24",
+    "Orario di lavoro": "00:00-00:00",
+    "Giorni": "LUN-DOM"
+  }
+]

@@ -1,0 +1,184 @@
+{
+  "Sheet1": [
+    {
+      "Nome Postazione": "Elibase Parma",
+      "Coordinate Postazione": "44.8001436,10.308524",
+      "Mezzo": "ELI",
+      "Nome radio": "ELI PARMA ",
+      "Convenzione": "H12",
+      "Orario di lavoro": "7:30-20:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": "Elibase Pavullo",
+      "Coordinate Postazione": "44.318469,10.829048",
+      "Mezzo": "ELI",
+      "Nome radio": "ELI PAVULLO",
+      "Convenzione": "H12",
+      "Orario di lavoro": "7:30-20:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": "Elibase Bologna",
+      "Coordinate Postazione": "44.5065772,11.3124126",
+      "Mezzo": "ELI",
+      "Nome radio": "ELI BOLOGNA",
+      "Convenzione": "H24",
+      "Orario di lavoro": "00:00-00:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+      "Nome Postazione": "Elibase Ravenna",
+      "Coordinate Postazione": "44.4094178,12.1868343",
+      "Mezzo": "ELI",
+      "Nome radio": "ELI RAVENNA",
+      "Convenzione": "H12",
+      "Orario di lavoro": "7:30-20:00",
+      "Giorni": "LUN-DOM"
+    },
+    {
+        "Nome Postazione": "Elisoccorso Brescia",
+        "Coordinate Postazione": "45.427483, 10.325880",
+        "Mezzo": "ELI",
+        "Nome radio": "ELI BRESCIA ",
+        "Convenzione": "H24",
+        "Orario di lavoro": "00:00-00:00",
+        "Giorni": "LUN-DOM"
+    },
+    {
+        "Nome Postazione": "Elisoccorso Sondrio",
+        "Coordinate Postazione": "46.153788, 9.791441",
+        "Mezzo": "ELI",
+        "Nome radio": "ELI SONDRIO",
+        "Convenzione": "H24",
+        "Orario di lavoro": "00:00-00:00",
+        "Giorni": "LUN-DOM"
+    },
+    {
+        "Nome Postazione": "Elisoccorso Milano",
+        "Coordinate Postazione": "45.539326, 9.204910",
+        "Mezzo": "ELI",
+        "Nome radio": "ELI MILANO",
+        "Convenzione": "H12",
+        "Orario di lavoro": "07:30-19:30",
+        "Giorni": "LUN-DOM"
+    },
+    {
+        "Nome Postazione": "Elisoccorso Bergamo",
+        "Coordinate Postazione": "45.687555, 9.634091",
+        "Mezzo": "ELI",
+        "Nome radio": "ELI BERGAMO",
+        "Convenzione": "H12",
+        "Orario di lavoro": "07:30-19:30",
+        "Giorni": "LUN-DOM"
+    },
+    {
+        "Nome Postazione": "Elisoccorso Como",
+        "Coordinate Postazione": "45.771967, 9.043439",
+        "Mezzo": "ELI",
+        "Nome radio": "ELI COMO",
+        "Convenzione": "H24",
+        "Orario di lavoro": "00:00-00:00",
+        "Giorni": "LUN-DOM"
+    },
+    {
+        "Nome Postazione": "Elisoccorso Verona",
+        "Coordinate Postazione": "45.4616641,10.9522853",
+        "Mezzo": "ELI",
+        "Nome radio": "LEONE 03",
+        "Convenzione": "H12",
+        "Orario di lavoro": "07:30-19:30",
+        "Giorni": "LUN-DOM"
+    }, 
+      {
+        "Nome Postazione": "Elisoccorso Padova",
+        "Coordinate Postazione": "45.3943159,11.8435718",
+        "Mezzo": "ELI",
+        "Nome radio": "LEONE 02",
+        "Convenzione": "H12",
+        "Orario di lavoro": "07:30-19:30",
+        "Giorni": "LUN-DOM"
+    },
+      {
+        "Nome Postazione": "Elisoccorso Treviso",
+        "Coordinate Postazione": "45.6553462,12.2636435",
+        "Mezzo": "ELI",
+        "Nome radio": "LEONE 01",
+        "Convenzione": "H24",
+        "Orario di lavoro": "00:00-00:00",
+        "Giorni": "LUN-DOM"
+    },
+          {
+        "Nome Postazione": "Elisoccorso Firenze",
+        "Coordinate Postazione": "43.7307564,11.3042596",
+        "Mezzo": "ELI",
+        "Nome radio": "PEGASO 01",
+        "Convenzione": "H12",
+        "Orario di lavoro": "07:30-19:30",
+        "Giorni": "LUN-DOM"
+    },
+      {
+        "Nome Postazione": "Elisoccorso Massa",
+        "Coordinate Postazione": "43.9846929,10.1427226",
+        "Mezzo": "ELI",
+        "Nome radio": "PEGASO 03",
+        "Convenzione": "H24",
+        "Orario di lavoro": "00:00-00:00",
+        "Giorni": "LUN-DOM"
+    }, 
+      {
+        "Nome Postazione": "Elisoccorso Grosseto",
+        "Coordinate Postazione": "42.7756469,11.1289702",
+        "Mezzo": "ELI",
+        "Nome radio": "PEGASO 02",
+        "Convenzione": "H24",
+        "Orario di lavoro": "00:00-00:00",
+        "Giorni": "LUN-DOM"
+    }, 
+      {
+        "Nome Postazione": "Elisoccorso Umbria",
+        "Coordinate Postazione": "42.9384416,12.7134605",
+        "Mezzo": "ELI",
+        "Nome radio": "NIBBIO",
+        "Convenzione": "H24",
+        "Orario di lavoro": "00:00-00:00",
+        "Giorni": "LUN-DOM"
+    },  
+      {
+        "Nome Postazione": "Elisoccorso Ancona",
+        "Coordinate Postazione": "43.6013162,13.4514965",
+        "Mezzo": "ELI",
+        "Nome radio": "ICARO 01",
+        "Convenzione": "H24",
+        "Orario di lavoro": "00:00-00:00",
+        "Giorni": "LUN-DOM"
+    },
+          {
+        "Nome Postazione": "Elisoccorso Fabriano",
+        "Coordinate Postazione": "43.3393703,12.828235",
+        "Mezzo": "ELI",
+        "Nome radio": "ICARO 02",
+        "Convenzione": "H12",
+        "Orario di lavoro": "07:30-19:30",
+        "Giorni": "LUN-DOM"
+    },
+      {
+        "Nome Postazione": "Elisoccorso Genova",
+        "Coordinate Postazione": "44.4141897,8.8445027",
+        "Mezzo": "ELI",
+        "Nome radio": "DRAGO 125",
+        "Convenzione": "H12",
+        "Orario di lavoro": "08:00-20:00",
+        "Giorni": "LUN-DOM"
+    },
+      {
+        "Nome Postazione": "Elisoccorso Genova",
+        "Coordinate Postazione": "44.4141897,8.8445027",
+        "Mezzo": "ELI",
+        "Nome radio": "GRIFO 01",
+        "Convenzione": "H24",
+        "Orario di lavoro": "20:00-08:00",
+        "Giorni": "LUN-DOM"
+    }
+  ]
+}
