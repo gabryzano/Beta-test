@@ -1,0 +1,58 @@
+[
+ {
+  "OSPEDALE": "H SAVONA",
+  "COORDINATE": "44.3193323,8.491102",
+  "N° pazienti Max": 45,
+  "CLASSE": "DEA",
+  "PUNTO NASCITA": true,
+  "PEDIATRIA": true,
+  "TRAUMA": "PST",
+  "EMODINAMICA": true,
+  "STROKE UNIT": true,
+  "NCH": true,
+  "RIANIMAZIONE": true,
+  "PSICHIATRIA": true
+ },
+ {
+  "OSPEDALE": "H PIETRA LIGURE",
+  "COORDINATE": "44.1434475,8.2713212",
+  "N° pazienti Max": 50,
+  "CLASSE": "EAS",
+  "PUNTO NASCITA": true,
+  "PEDIATRIA": true,
+  "TRAUMA": "CTZ",
+  "EMODINAMICA": true,
+  "STROKE UNIT": true,
+  "NCH": true,
+  "RIANIMAZIONE": true,
+  "PSICHIATRIA": false
+ },
+ {
+  "OSPEDALE": "PPI CAIRO MONTENOTTE",
+  "COORDINATE": "44.4016277,8.2705839",
+  "N° pazienti Max": 15,
+  "CLASSE": "PS",
+  "PUNTO NASCITA": false,
+  "PEDIATRIA": false,
+  "TRAUMA": false,
+  "EMODINAMICA": false,
+  "STROKE UNIT": false,
+  "NCH": false,
+  "RIANIMAZIONE": false,
+  "PSICHIATRIA": false
+ },
+ {
+  "OSPEDALE": "PPI ALBENGA",
+  "COORDINATE": "44.0543912,8.1993734",
+  "N° pazienti Max": 15,
+  "CLASSE": "PS",
+  "PUNTO NASCITA": false,
+  "PEDIATRIA": false,
+  "TRAUMA": false,
+  "EMODINAMICA": false,
+  "STROKE UNIT": false,
+  "NCH": false,
+  "RIANIMAZIONE": false,
+  "PSICHIATRIA": false
+ }
+]

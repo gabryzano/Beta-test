@@ -1,0 +1,3247 @@
+[
+  {
+    "indirizzo abitazione": "Piazza della Vittoria, 27100 Pavia PV",
+    "lat": 45.184,
+    "lon": 9.1582
+  },
+  {
+    "indirizzo abitazione": "Corso Strada Nuova, 27100 Pavia PV",
+    "lat": 45.1855,
+    "lon": 9.1598
+  },
+  {
+    "indirizzo abitazione": "Piazza Ducale, 27029 Vigevano PV",
+    "lat": 45.313,
+    "lon": 8.8555
+  },
+  {
+    "indirizzo abitazione": "Via del Popolo, 27029 Vigevano PV",
+    "lat": 45.3162,
+    "lon": 8.8587
+  },
+  {
+    "indirizzo abitazione": "Piazza Duomo, 27058 Voghera PV",
+    "lat": 44.9918,
+    "lon": 9.0083
+  },
+  {
+    "indirizzo abitazione": "Via Emilia, 27058 Voghera PV",
+    "lat": 44.9935,
+    "lon": 9.0106
+  },
+  {
+    "indirizzo abitazione": "Piazza Martiri della Libertà, 27036 Mortara PV",
+    "lat": 45.2467,
+    "lon": 8.7412
+  },
+  {
+    "indirizzo abitazione": "Via Roma, 27036 Mortara PV",
+    "lat": 45.2489,
+    "lon": 8.7435
+  },
+  {
+    "indirizzo abitazione": "Piazza Vittorio Veneto, 27049 Stradella PV",
+    "lat": 45.0705,
+    "lon": 9.3068
+  },
+  {
+    "indirizzo abitazione": "Via Cavour, 27049 Stradella PV",
+    "lat": 45.0727,
+    "lon": 9.3091
+  },
+  {
+    "indirizzo abitazione": "Piazza della Vittoria, 26900 Lodi LO",
+    "lat": 45.3141,
+    "lon": 9.5036
+  },
+  {
+    "indirizzo abitazione": "Via Dante Alighieri, 26100 Cremona CR",
+    "lat": 45.1333,
+    "lon": 10.0227
+  },
+  {
+    "indirizzo abitazione": "Piazza Sordello, 46100 Mantova MN",
+    "lat": 45.1603,
+    "lon": 10.7972
+  },
+  {
+    "indirizzo abitazione": "Piazza Liberazione, 20013 Magenta MI",
+    "lat": 45.4667,
+    "lon": 8.8833
+  },
+  {
+    "indirizzo abitazione": "Via Volta, 11, 20063 Cernusco sul Naviglio MI",
+    "lat": 45.525,
+    "lon": 9.3333
+  },
+  {
+    "indirizzo abitazione": "Via Italia, 62, 20064 Gorgonzola MI",
+    "lat": 45.5333,
+    "lon": 9.4
+  },
+  {
+    "indirizzo abitazione": "Piazza Marconi, 20081 Abbiategrasso MI",
+    "lat": 45.4,
+    "lon": 8.9167
+  },
+  {
+    "indirizzo abitazione": "Piazza Risorgimento, 1, 20077 Melegnano MI",
+    "lat": 45.3667,
+    "lon": 9.3333
+  },
+  {
+    "indirizzo abitazione": "Piazza Vittorio Emanuele II, 1, 20066 Melzo MI",
+    "lat": 45.5,
+    "lon": 9.4167
+  },
+  {
+    "indirizzo abitazione": "Via Dante Alighieri, 4, 20062 Cassano d'Adda MI",
+    "lat": 45.5262703,
+    "lon": 9.5205693
+  },
+  {
+    "indirizzo abitazione": "Piazza Maggiore, 20065 Inzago MI",
+    "lat": 45.5400456,
+    "lon": 9.4807924
+  },
+  {
+    "indirizzo abitazione": "Piazza Nazionale, 20056 Trezzo sull'Adda MI",
+    "lat": 45.6077753,
+    "lon": 9.5178327
+  },
+  {
+    "indirizzo abitazione": "Piazza della Vittoria, 26900 Lodi LO",
+    "lat": 45.3141,
+    "lon": 9.5036
+  },
+  {
+    "indirizzo abitazione": "Via Dante Alighieri, 26100 Cremona CR",
+    "lat": 45.1333,
+    "lon": 10.0227
+  },
+  {
+    "indirizzo abitazione": "Piazza Sordello, 46100 Mantova MN",
+    "lat": 45.1603,
+    "lon": 10.7972
+  },
+  {
+    "indirizzo abitazione": "Piazza Liberazione, 20013 Magenta MI",
+    "lat": 45.4667,
+    "lon": 8.8833
+  },
+  {
+    "indirizzo abitazione": "Via Volta, 11, 20063 Cernusco sul Naviglio MI",
+    "lat": 45.525,
+    "lon": 9.3333
+  },
+  {
+    "indirizzo abitazione": "Via Italia, 62, 20064 Gorgonzola MI",
+    "lat": 45.5333,
+    "lon": 9.4
+  },
+  {
+    "indirizzo abitazione": "Piazza Marconi, 20081 Abbiategrasso MI",
+    "lat": 45.4,
+    "lon": 8.9167
+  },
+  {
+    "indirizzo abitazione": "Piazza Risorgimento, 1, 20077 Melegnano MI",
+    "lat": 45.3667,
+    "lon": 9.3333
+  },
+  {
+    "indirizzo abitazione": "Piazza Vittorio Emanuele II, 1, 20066 Melzo MI",
+    "lat": 45.5,
+    "lon": 9.4167
+  },
+  {
+    "indirizzo abitazione": "Via Dante Alighieri, 4, 20062 Cassano d'Adda MI",
+    "lat": 45.5333,
+    "lon": 9.5167
+  },
+  {
+    "indirizzo abitazione": "Piazza Maggiore, 20065 Inzago MI",
+    "lat": 45.55,
+    "lon": 9.45
+  },
+  {
+    "indirizzo abitazione": "Piazza Nazionale, 20056 Trezzo sull'Adda MI",
+    "lat": 45.6167,
+    "lon": 9.5167
+  },
+  {
+    "indirizzo abitazione": "Piazza della Vittoria, 27100 Pavia PV",
+    "lat": 45.184725,
+    "lon": 9.158207
+  },
+  {
+    "indirizzo abitazione": "Piazza Ducale, 27029 Vigevano PV",
+    "lat": 45.3167,
+    "lon": 8.85
+  },
+  {
+    "indirizzo abitazione": "Piazza Duomo, 27058 Voghera PV",
+    "lat": 44.99166,
+    "lon": 9.012044
+  },
+  {
+    "indirizzo abitazione": "Piazza Martiri della Libertà, 27036 Mortara PV",
+    "lat": 45.25,
+    "lon": 8.7333
+  },
+  {
+    "indirizzo abitazione": "Piazza Trieste, 27049 Stradella PV",
+    "lat": 45.07,
+    "lon": 9.3
+  },
+  {
+    "indirizzo abitazione": "Piazza Garibaldi, 27043 Broni PV",
+    "lat": 45.0667,
+    "lon": 9.2667
+  },
+  {
+    "indirizzo abitazione": "Piazza Repubblica, 27026 Garlasco PV",
+    "lat": 45.197496,
+    "lon": 8.922502
+  },
+  {
+    "indirizzo abitazione": "Piazza della Certosa, 27012 Certosa di Pavia PV",
+    "lat": 45.256952,
+    "lon": 9.14788
+  },
+  {
+    "indirizzo abitazione": "Piazza Cavour, 27045 Casteggio PV",
+    "lat": 45.004291,
+    "lon": 9.133638
+  },
+  {
+    "indirizzo abitazione": "Piazza Beccaria, 27025 Gambolò PV",
+    "lat": 45.2621,
+    "lon": 8.8582
+  },
+  {
+    "indirizzo abitazione": "Via XX Settembre, 27100 Pavia PV",
+    "lat": 45.1853,
+    "lon": 9.1589
+  },
+  {
+    "indirizzo abitazione": "Corso Torino, 27029 Vigevano PV",
+    "lat": 45.3162,
+    "lon": 8.8495
+  },
+  {
+    "indirizzo abitazione": "Via Emilia, 27058 Voghera PV",
+    "lat": 44.9913,
+    "lon": 9.0127
+  },
+  {
+    "indirizzo abitazione": "Via Roma, 27036 Mortara PV",
+    "lat": 45.2497,
+    "lon": 8.733
+  },
+  {
+    "indirizzo abitazione": "Via Garibaldi, 27049 Stradella PV",
+    "lat": 45.0698,
+    "lon": 9.2995
+  },
+  {
+    "indirizzo abitazione": "Via Vittorio Emanuele II, 27043 Broni PV",
+    "lat": 45.0665,
+    "lon": 9.2663
+  },
+  {
+    "indirizzo abitazione": "Via Cavour, 27026 Garlasco PV",
+    "lat": 45.197,
+    "lon": 8.923
+  },
+  {
+    "indirizzo abitazione": "Via Dante Alighieri, 27012 Certosa di Pavia PV",
+    "lat": 45.2567,
+    "lon": 9.1482
+  },
+  {
+    "indirizzo abitazione": "Via Mazzini, 27045 Casteggio PV",
+    "lat": 45.004,
+    "lon": 9.134
+  },
+  {
+    "indirizzo abitazione": "Via Roma, 27025 Gambolò PV",
+    "lat": 45.2624,
+    "lon": 8.8586
+  },
+  {
+    "indirizzo abitazione": "Piazza della Vittoria, 27100 Pavia PV",
+    "lat": 45.184725,
+    "lon": 9.158207
+  },
+  {
+    "indirizzo abitazione": "Piazza Ducale, 27029 Vigevano PV",
+    "lat": 45.3167,
+    "lon": 8.85
+  },
+  {
+    "indirizzo abitazione": "Piazza Duomo, 27058 Voghera PV",
+    "lat": 44.99166,
+    "lon": 9.012044
+  },
+  {
+    "indirizzo abitazione": "Piazza Martiri della Libertà, 27036 Mortara PV",
+    "lat": 45.25,
+    "lon": 8.7333
+  },
+  {
+    "indirizzo abitazione": "Piazza Trieste, 27049 Stradella PV",
+    "lat": 45.07,
+    "lon": 9.3
+  },
+  {
+    "indirizzo abitazione": "Piazza Garibaldi, 27043 Broni PV",
+    "lat": 45.0667,
+    "lon": 9.2667
+  },
+  {
+    "indirizzo abitazione": "Piazza Repubblica, 27026 Garlasco PV",
+    "lat": 45.197496,
+    "lon": 8.922502
+  },
+  {
+    "indirizzo abitazione": "Piazza della Certosa, 27012 Certosa di Pavia PV",
+    "lat": 45.256952,
+    "lon": 9.14788
+  },
+  {
+    "indirizzo abitazione": "Piazza Cavour, 27045 Casteggio PV",
+    "lat": 45.004291,
+    "lon": 9.133638
+  },
+  {
+    "indirizzo abitazione": "Piazza Beccaria, 27025 Gambolò PV",
+    "lat": 45.2621,
+    "lon": 8.8582
+  },
+  {
+    "indirizzo abitazione": "Via XX Settembre, 27100 Pavia PV",
+    "lat": 45.1853,
+    "lon": 9.1589
+  },
+  {
+    "indirizzo abitazione": "Corso Torino, 27029 Vigevano PV",
+    "lat": 45.3162,
+    "lon": 8.8495
+  },
+  {
+    "indirizzo abitazione": "Via Emilia, 27058 Voghera PV",
+    "lat": 44.9913,
+    "lon": 9.0127
+  },
+  {
+    "indirizzo abitazione": "Via Roma, 27036 Mortara PV",
+    "lat": 45.2497,
+    "lon": 8.733
+  },
+  {
+    "indirizzo abitazione": "Via Garibaldi, 27049 Stradella PV",
+    "lat": 45.0698,
+    "lon": 9.2995
+  },
+  {
+    "indirizzo abitazione": "Via Vittorio Emanuele II, 27043 Broni PV",
+    "lat": 45.0665,
+    "lon": 9.2663
+  },
+  {
+    "indirizzo abitazione": "Via Cavour, 27026 Garlasco PV",
+    "lat": 45.197,
+    "lon": 8.923
+  },
+  {
+    "indirizzo abitazione": "Via Dante Alighieri, 27012 Certosa di Pavia PV",
+    "lat": 45.2567,
+    "lon": 9.1482
+  },
+  {
+    "indirizzo abitazione": "Via Mazzini, 27045 Casteggio PV",
+    "lat": 45.004,
+    "lon": 9.134
+  },
+  {
+    "indirizzo abitazione": "Via Roma, 27025 Gambolò PV",
+    "lat": 45.2624,
+    "lon": 8.8586
+  },
+  {
+    "indirizzo abitazione": "Corso Vittorio Emanuele II, 26900 Lodi LO",
+    "lat": 45.3145,
+    "lon": 9.5033
+  },
+  {
+    "indirizzo abitazione": "Via Vittorio Emanuele II, 26845 Codogno LO",
+    "lat": 45.16,
+    "lon": 9.704
+  },
+  {
+    "indirizzo abitazione": "Via Cavour, 26841 Casalpusterlengo LO",
+    "lat": 45.183,
+    "lon": 9.655
+  },
+  {
+    "indirizzo abitazione": "Via Madre Cabrini, 26866 Sant'Angelo Lodigiano LO",
+    "lat": 45.237,
+    "lon": 9.416
+  },
+  {
+    "indirizzo abitazione": "Via Roma, 26855 Lodi Vecchio LO",
+    "lat": 45.292,
+    "lon": 9.423
+  },
+  {
+    "indirizzo abitazione": "Via Dante Alighieri, 26839 Zelo Buon Persico LO",
+    "lat": 45.393,
+    "lon": 9.426
+  },
+  {
+    "indirizzo abitazione": "Via Giuseppe Verdi, 26838 Tavazzano con Villavesco LO",
+    "lat": 45.305,
+    "lon": 9.453
+  },
+  {
+    "indirizzo abitazione": "Via Roma, 26821 Codogno LO",
+    "lat": 45.158,
+    "lon": 9.703
+  },
+  {
+    "indirizzo abitazione": "Via Giuseppe Mazzini, 26843 Casalpusterlengo LO",
+    "lat": 45.184,
+    "lon": 9.656
+  },
+  {
+    "indirizzo abitazione": "Via Giuseppe Garibaldi, 26866 Sant'Angelo Lodigiano LO",
+    "lat": 45.238,
+    "lon": 9.417
+  },
+  {
+    "indirizzo abitazione": "Corso Vittorio Emanuele II, 26100 Cremona CR",
+    "lat": 45.133,
+    "lon": 10.022
+  },
+  {
+    "indirizzo abitazione": "Via Mazzini, 26013 Crema CR",
+    "lat": 45.361,
+    "lon": 9.683
+  },
+  {
+    "indirizzo abitazione": "Via Cavour, 26041 Casalmaggiore CR",
+    "lat": 44.99,
+    "lon": 10.42
+  },
+  {
+    "indirizzo abitazione": "Via Roma, 26012 Castelleone CR",
+    "lat": 45.3,
+    "lon": 9.767
+  },
+  {
+    "indirizzo abitazione": "Via Matteotti, 26015 Soresina CR",
+    "lat": 45.2850759,
+    "lon": 9.8567697
+  },
+  {
+    "indirizzo abitazione": "Via Umberto I, 26025 Pandino CR",
+    "lat": 45.4,
+    "lon": 9.55
+  },
+  {
+    "indirizzo abitazione": "Via Dante Alighieri, 26027 Rivolta d'Adda CR",
+    "lat": 45.48,
+    "lon": 9.5
+  },
+  {
+    "indirizzo abitazione": "Via Roma, 26019 Spino d'Adda CR",
+    "lat": 45.4,
+    "lon": 9.5
+  },
+  {
+    "indirizzo abitazione": "Via Garibaldi, 26026 Pizzighettone CR",
+    "lat": 45.2,
+    "lon": 9.783
+  },
+  {
+    "indirizzo abitazione": "Via Matteotti, 26029 Soncino CR",
+    "lat": 45.4,
+    "lon": 9.9
+  },
+  {
+    "indirizzo abitazione": "Corso Vittorio Emanuele II, 46100 Mantova MN",
+    "lat": 45.0927,
+    "lon": 10.4718
+  },
+  {
+    "indirizzo abitazione": "Via Roma, 46100 Mantova MN",
+    "lat": 45.158,
+    "lon": 10.7824
+  },
+  {
+    "indirizzo abitazione": "Via Giuseppe Verdi, 46100 Mantova MN",
+    "lat": 45.158,
+    "lon": 10.7824
+  },
+  {
+    "indirizzo abitazione": "Via Roma, 46029 Suzzara MN",
+    "lat": 44.9927,
+    "lon": 10.7494
+  },
+  {
+    "indirizzo abitazione": "Via Cavour, 46019 Viadana MN",
+    "lat": 44.917,
+    "lon": 10.517
+  },
+  {
+    "indirizzo abitazione": "Via Mazzini, 46043 Castiglione delle Stiviere MN",
+    "lat": 45.3902,
+    "lon": 10.4862
+  },
+  {
+    "indirizzo abitazione": "Via Garibaldi, 46041 Asola MN",
+    "lat": 45.217,
+    "lon": 10.417
+  },
+  {
+    "indirizzo abitazione": "Via Dante Alighieri, 46047 Porto Mantovano MN",
+    "lat": 45.183,
+    "lon": 10.767
+  },
+  {
+    "indirizzo abitazione": "Via Vittorio Emanuele II, 46010 Curtatone MN",
+    "lat": 45.123,
+    "lon": 10.75
+  },
+  {
+    "indirizzo abitazione": "Via Roma, 46044 Goito MN",
+    "lat": 45.25,
+    "lon": 10.7
+  },
+  {
+    "indirizzo abitazione": "Via Cavour, 46020 Pegognaga MN",
+    "lat": 44.95,
+    "lon": 10.85
+  },
+  {
+    "indirizzo abitazione": "Via Mazzini, 46027 San Benedetto Po MN",
+    "lat": 45.05,
+    "lon": 10.9
+  },
+  {
+    "indirizzo abitazione": "Via Garibaldi, 46035 Ostiglia MN",
+    "lat": 45.0667,
+    "lon": 11.15
+  },
+  {
+    "indirizzo abitazione": "Via Emilia, 20077 Melegnano MI",
+    "lat": 45.357,
+    "lon": 9.323
+  },
+  {
+    "indirizzo abitazione": "Via Roma, 20098 San Giuliano Milanese MI",
+    "lat": 45.39,
+    "lon": 9.29
+  },
+  {
+    "indirizzo abitazione": "Via Mazzini, 20067 Paullo MI",
+    "lat": 45.415,
+    "lon": 9.4
+  },
+  {
+    "indirizzo abitazione": "Via Roma, 20070 Vizzolo Predabissi MI",
+    "lat": 45.3556804,
+    "lon": 9.3495769
+  },
+  {
+    "indirizzo abitazione": "Via Dante Alighieri, 20070 Cerro al Lambro MI",
+    "lat": 45.34,
+    "lon": 9.35
+  },
+  {
+    "indirizzo abitazione": "Via Vittorio Veneto, 20070 Carpiano MI",
+    "lat": 45.33,
+    "lon": 9.28
+  },
+  {
+    "indirizzo abitazione": "Via Roma, 20070 Dresano MI",
+    "lat": 45.35,
+    "lon": 9.38
+  },
+  {
+    "indirizzo abitazione": "Via Cavour, 20070 Colturano MI",
+    "lat": 45.34,
+    "lon": 9.36
+  },
+  {
+    "indirizzo abitazione": "Via Roma, 20070 Tribiano MI",
+    "lat": 45.42,
+    "lon": 9.4
+  },
+  {
+    "indirizzo abitazione": "Via Dante Alighieri, 20070 Settala MI",
+    "lat": 45.46,
+    "lon": 9.38
+  },
+  {
+    "indirizzo abitazione": "Via Roma, 20070 Mediglia MI",
+    "lat": 45.42,
+    "lon": 9.35
+  },
+  {
+    "indirizzo abitazione": "Via Roma, 20060 Gessate MI",
+    "lat": 45.57,
+    "lon": 9.45
+  },
+  {
+    "indirizzo abitazione": "Via Cavour, 20060 Bussero MI",
+    "lat": 45.53,
+    "lon": 9.39
+  },
+  {
+    "indirizzo abitazione": "Via Mazzini, 20060 Cassina de' Pecchi MI",
+    "lat": 45.52,
+    "lon": 9.37
+  },
+  {
+    "indirizzo abitazione": "Via Garibaldi, 20060 Pessano con Bornago MI",
+    "lat": 45.54,
+    "lon": 9.4
+  },
+  {
+    "indirizzo abitazione": "Via Dante Alighieri, 20060 Cambiago MI",
+    "lat": 45.57,
+    "lon": 9.43
+  },
+  {
+    "indirizzo abitazione": "Via Vittorio Veneto, 20060 Bellinzago Lombardo MI",
+    "lat": 45.55,
+    "lon": 9.42
+  },
+  {
+    "indirizzo abitazione": "Via Roma, 20060 Pozzo d'Adda MI",
+    "lat": 45.57,
+    "lon": 9.47
+  },
+  {
+    "indirizzo abitazione": "Via Cavour, 20060 Masate MI",
+    "lat": 45.5704264,
+    "lon": 9.4638357
+  },
+  {
+    "indirizzo abitazione": "Via Mazzini, 20060 Grezzago MI",
+    "lat": 45.58,
+    "lon": 9.48
+  },
+  {
+    "indirizzo abitazione": "Via Garibaldi, 20060 Basiano MI",
+    "lat": 45.59,
+    "lon": 9.49
+  },
+  {
+    "indirizzo abitazione": "Via Dante Alighieri, 20060 Truccazzano MI",
+    "lat": 45.5,
+    "lon": 9.43
+  },
+  {
+    "indirizzo abitazione": "Via Vittorio Veneto, 20060 Liscate MI",
+    "lat": 45.48,
+    "lon": 9.42
+  },
+  {
+    "indirizzo abitazione": "Via Roma, 20060 Settala MI",
+    "lat": 45.47,
+    "lon": 9.41
+  },
+  {
+    "indirizzo abitazione": "Via Cavour, 20060 Vignate MI",
+    "lat": 45.49,
+    "lon": 9.4
+  },
+  {
+    "indirizzo abitazione": "Via Mazzini, 20060 Rodano MI",
+    "lat": 45.46,
+    "lon": 9.39
+  },
+  {
+    "indirizzo abitazione": "Via Garibaldi, 20060 Pozzuolo Martesana MI",
+    "lat": 45.45,
+    "lon": 9.38
+  },
+  {
+    "indirizzo abitazione": "Via Dante Alighieri, 20060 Inzago MI",
+    "lat": 45.5434484,
+    "lon": 9.477057
+  },
+  {
+    "indirizzo abitazione": "Via Vittorio Veneto, 20060 Melzo MI",
+    "lat": 45.319381,
+    "lon": 9.421478
+  },
+  {
+    "indirizzo abitazione": "Via Roma, 20060 Gorgonzola MI",
+    "lat": 45.42,
+    "lon": 9.35
+  },
+  {
+    "indirizzo abitazione": "Corso Italia, 20081 Abbiategrasso MI",
+    "lat": 45.398,
+    "lon": 8.916
+  },
+  {
+    "indirizzo abitazione": "Via Cavour, 20010 Arluno MI",
+    "lat": 45.494,
+    "lon": 8.962
+  },
+  {
+    "indirizzo abitazione": "Via Garibaldi, 20010 Bareggio MI",
+    "lat": 45.484,
+    "lon": 8.999
+  },
+  {
+    "indirizzo abitazione": "Via Vittorio Emanuele II, 20090 Trezzano sul Naviglio MI",
+    "lat": 45.429,
+    "lon": 9.059
+  },
+  {
+    "indirizzo abitazione": "Via Cavour, 20080 Gaggiano MI",
+    "lat": 45.396,
+    "lon": 9.036
+  },
+  {
+    "indirizzo abitazione": "Via Roma, 20080 Rosate MI",
+    "lat": 45.354,
+    "lon": 9.019
+  },
+  {
+    "indirizzo abitazione": "Via Garibaldi, 20080 Zibido San Giacomo MI",
+    "lat": 45.374,
+    "lon": 9.078
+  },
+  {
+    "indirizzo abitazione": "Via Dante Alighieri, 20080 Vernate MI",
+    "lat": 45.326,
+    "lon": 9.017
+  },
+  {
+    "indirizzo abitazione": "Via Vittorio Veneto, 20080 Cusago MI",
+    "lat": 45.456,
+    "lon": 9.021
+  },
+  {
+    "indirizzo abitazione": "Via Roma, 20013 Magenta MI",
+    "lat": 45.4668,
+    "lon": 8.883
+  },
+  {
+    "indirizzo abitazione": "Via Cavour, 20010 Marcallo con Casone MI",
+    "lat": 45.483,
+    "lon": 8.9
+  },
+  {
+    "indirizzo abitazione": "Via Garibaldi, 20010 Boffalora sopra Ticino MI",
+    "lat": 45.47,
+    "lon": 8.88
+  },
+  {
+    "indirizzo abitazione": "Via Mazzini, 20010 Mesero MI",
+    "lat": 45.47,
+    "lon": 8.87
+  },
+  {
+    "indirizzo abitazione": "Via Dante Alighieri, 20010 Robecco sul Naviglio MI",
+    "lat": 45.47,
+    "lon": 8.9
+  },
+  {
+    "indirizzo abitazione": "Via Vittorio Veneto, 20010 Corbetta MI",
+    "lat": 45.47,
+    "lon": 8.92
+  },
+  {
+    "indirizzo abitazione": "Via Roma, 20010 Ossona MI",
+    "lat": 45.47,
+    "lon": 8.93
+  },
+  {
+    "indirizzo abitazione": "Via Cavour, 20010 Santo Stefano Ticino MI",
+    "lat": 45.47,
+    "lon": 8.94
+  },
+  {
+    "indirizzo abitazione": "Via Garibaldi, 20010 Arluno MI",
+    "lat": 45.47,
+    "lon": 8.95
+  },
+  {
+    "indirizzo abitazione": "Via Mazzini, 20010 Sedriano MI",
+    "lat": 45.47,
+    "lon": 8.96
+  },
+  {
+    "indirizzo abitazione": "Via Dante Alighieri, 20010 Vittuone MI",
+    "lat": 45.47,
+    "lon": 8.97
+  },
+  {
+    "indirizzo abitazione": "Via Vittorio Veneto, 20010 Casorezzo MI",
+    "lat": 45.47,
+    "lon": 8.98
+  },
+  {
+    "indirizzo abitazione": "Via Roma, 20025 Legnano MI",
+    "lat": 45.5979,
+    "lon": 8.9151
+  },
+  {
+    "indirizzo abitazione": "Via Cavour, 20010 Parabiago MI",
+    "lat": 45.55,
+    "lon": 8.95
+  },
+  {
+    "indirizzo abitazione": "Via Garibaldi, 20010 Canegrate MI",
+    "lat": 45.55,
+    "lon": 8.96
+  },
+  {
+    "indirizzo abitazione": "Via Mazzini, 20010 San Giorgio su Legnano MI",
+    "lat": 45.55,
+    "lon": 8.97
+  },
+  {
+    "indirizzo abitazione": "Via Dante Alighieri, 20010 San Vittore Olona MI",
+    "lat": 45.55,
+    "lon": 8.98
+  },
+  {
+    "indirizzo abitazione": "Via Vittorio Veneto, 20010 Cerro Maggiore MI",
+    "lat": 45.55,
+    "lon": 8.99
+  },
+  {
+    "indirizzo abitazione": "Via Roma, 20010 Villa Cortese MI",
+    "lat": 45.55,
+    "lon": 9
+  },
+  {
+    "indirizzo abitazione": "Via Cavour, 20010 Dairago MI",
+    "lat": 45.55,
+    "lon": 9.01
+  },
+  {
+    "RSA ": "RSA Inzago, Via Ferrario-Balconi, 25 - 20065 Inzago MI",
+    "lat": 45.5388893,
+    "lon": 9.4805518
+  },
+  {
+    "Impianto lavorativo ": "Salumificio Fratelli Beretta , Via Fratelli Bandiera, 12 - 20056 Trezzo sull'Adda MI",
+    "lat": 45.6009874,
+    "lon": 9.5128915
+  },
+  {
+    "Scuola ": "ISS Cassano d'adda, Via Papa Giovanni XXIII,223 - 20062 Cassano d'Adda MI",
+    "lat": 45.5373597,
+    "lon": 9.5180681
+  },
+  {
+    "Strada ": "A4 MI-VE km 156 -  20056 Trezzo sull'Adda MI",
+    "lat": 45.5922719,
+    "lon": 9.4845756
+  },
+  {
+    "RSA ": "RSA San martino, Via degli Ontani, 2 - 27028 San Martino Siccomario PV",
+    "lat": 45.1536441,
+    "lon": 9.1309629
+  },
+  {
+    "Impianto lavorativo ": "Eni Sannazzaro , Via Enrico Mattei, 46 - 27039 Sannazzaro de' Burgondi PV",
+    "lat": 45.0991289,
+    "lon": 8.8921042
+  },
+  {
+    "Scuola ": "ISS Pavia , Via S. Carlo, 2 - 27100 Pavia PV",
+    "lat": 45.1808517,
+    "lon": 9.1655261
+  },
+  {
+    "Strada ": "A7 MI-GE km 22 -  Bereguardo 27021 PV",
+    "lat": 45.2409554,
+    "lon": 9.0380853
+  },
+  {
+    "Impianto sportivo ": "Centro Sportivo Cernusco S/N - Via Michelangelo Buonarroti, 20063 Cernusco sul Naviglio MI",
+    "lat": 45.5216844,
+    "lon": 9.3132713
+  },
+  {
+    "Impianto sportivo ": "Campo Sportivo Pavia - Via Stafforini, 27100 Pavia PV",
+    "lat": 45.1858185,
+    "lon": 9.1735073
+  },
+  {
+    "Impianto sportivo ": "Centro Sportivo Lodi - Via Giuseppe Piermarini, 26900 Lodi LO",
+    "lat": 45.2985025,
+    "lon": 9.5065317
+  },
+  {
+    "Impianto sportivo ": "Centro Sportivo Cremona - Largo degli Sportivi, 26100 Cremona CR",
+    "lat": 45.1367645,
+    "lon": 10.0447504
+  },
+  {
+    "Impianto sportivo ": "Centro Sportivo Mantova - Viale Te, 7/9, 46100 Mantova MN",
+    "lat": 45.1462746,
+    "lon": 10.794071
+  },
+  {
+    "Impianto lavorativo ": "Acciaieria Arvedi , Via Acquaviva, 18, 26028 Cremona CR",
+    "lat": 45.1501914,
+    "lon": 9.944536
+  },
+  {
+    "Impianto lavorativo ": "STEF Italia  , Via Ettore Majorana, 1, 26838 Pezzolo di Tavazzano LO",
+    "lat": 45.333304,
+    "lon": 9.3878686
+  },
+  {
+    "Impianto lavorativo ": "Versalis , Via Giuseppe Taliercio, 14, 46100 Polo Industriale MN",
+    "lat": 45.1455508,
+    "lon": 10.8328451
+  },
+  {
+    "Scuola ": "ISS Mantova , Via Santa Marta, 3, 46100 Mantova MN",
+    "lat": 45.1497708,
+    "lon": 10.799618
+  },
+  {
+    "Scuola ": "ISS Cremona , Via Palestro, 29, 26100 Cremona CR",
+    "lat": 45.1398971,
+    "lon": 10.0197004
+  },
+  {
+    "Scuola ": "ISS San Giuliano , Via Trieste, 48, 20098 San Giuliano Milanese MI",
+    "lat": 45.3949068,
+    "lon": 9.2879475
+  },
+  {
+    "RSA ": "RSA Mantova, Viale Fiume, 51, 46100 Mantova MN",
+    "lat": 45.1527722,
+    "lon": 10.7741752
+  },
+  {
+    "RSA ": "RSA Cremona, Via Angelo Massarotti, 49, 26100 Cremona CR",
+    "lat": 45.1356117,
+    "lon": 10.0117534
+  },
+  {
+    "Strada ": "A21 TO-BS km 200 - 26043 Cremona CR",
+    "lat": 45.1833998,
+    "lon": 10.0913068
+  },
+  {
+    "Pronto Soccorso ": "H Cernusco, Cernusco sul Naviglio - 20063 MI",
+    "lat": 45.5228467,
+    "lon": 9.3280453
+  },
+  {
+    "Pronto Soccorso ": "H Cuggiono, Cuggiono - 20012 MI",
+    "lat": 45.5095876,
+    "lon": 8.8227731
+  },
+  {
+    "Pronto Soccorso ": "H Stradella, Stradella - 27049 PV",
+    "lat": 45.0770481,
+    "lon": 9.2851478
+  },
+  {
+    "Pronto Soccorso ": "H Angera, Angera - 21021 VA",
+    "lat": 45.7754155,
+    "lon": 8.5790973
+  },
+  {
+    "Pronto Soccorso ": "H Codogno, Codogno - 26845 LO",
+    "lat": 45.1592081,
+    "lon": 9.7121786
+  },
+  {
+    "Pronto Soccorso ": "H Casalmaggiore, Casalmaggiore - 26041 CR",
+    "lat": 44.9751512,
+    "lon": 10.4677363
+  },
+  {
+    "Pronto Soccorso ": "H Asola, Asola - 46041 Asola MN",
+    "lat": 45.2235206,
+    "lon": 10.4109385
+  },
+  {
+    "indirizzo abitazione": "Corso Sempione, 20025 Legnano MI",
+    "lat": 45.595,
+    "lon": 8.912
+  },
+  {
+    "indirizzo abitazione": "Via Dante Alighieri, 20025 Legnano MI",
+    "lat": 45.598,
+    "lon": 8.914
+  },
+  {
+    "indirizzo abitazione": "Piazza San Magno, 20025 Legnano MI",
+    "lat": 45.597,
+    "lon": 8.913
+  },
+  {
+    "indirizzo abitazione": "Via Girardi, 20025 Legnano MI",
+    "lat": 45.596,
+    "lon": 8.91
+  },
+  {
+    "indirizzo abitazione": "Via Volturno, 20025 Legnano MI",
+    "lat": 45.599,
+    "lon": 8.918
+  },
+  {
+    "indirizzo abitazione": "Piazza Italia, 20175 Pioltello MI",
+    "lat": 45.495,
+    "lon": 9.34
+  },
+  {
+    "indirizzo abitazione": "Via Roma, 20175 Pioltello MI",
+    "lat": 45.496,
+    "lon": 9.342
+  },
+  {
+    "indirizzo abitazione": "Via Manzoni, 20175 Pioltello MI",
+    "lat": 45.494,
+    "lon": 9.338
+  },
+  {
+    "indirizzo abitazione": "Via Kennedy, 20175 Pioltello MI",
+    "lat": 45.497,
+    "lon": 9.345
+  },
+  {
+    "indirizzo abitazione": "Piazza Mazzini, 20081 Castano Primo MI",
+    "lat": 45.549,
+    "lon": 8.783
+  },
+  {
+    "indirizzo abitazione": "Via Roma, 20081 Castano Primo MI",
+    "lat": 45.55,
+    "lon": 8.785
+  },
+  {
+    "indirizzo abitazione": "Via Cantone, 20081 Castano Primo MI",
+    "lat": 45.548,
+    "lon": 8.781
+  },
+  {
+    "indirizzo abitazione": "Piazza San Gervaso, 20014 Nerviano MI",
+    "lat": 45.555,
+    "lon": 8.965
+  },
+  {
+    "indirizzo abitazione": "Via Roma, 20014 Nerviano MI",
+    "lat": 45.556,
+    "lon": 8.967
+  },
+  {
+    "indirizzo abitazione": "Via Manzoni, 20014 Nerviano MI",
+    "lat": 45.554,
+    "lon": 8.963
+  },
+  {
+    "indirizzo abitazione": "Piazza Europa, 20023 Busto Garolfo MI",
+    "lat": 45.54,
+    "lon": 8.925
+  },
+  {
+    "indirizzo abitazione": "Via Garibaldi, 20023 Busto Garolfo MI",
+    "lat": 45.541,
+    "lon": 8.927
+  },
+  {
+    "indirizzo abitazione": "Via Milano, 20023 Busto Garolfo MI",
+    "lat": 45.539,
+    "lon": 8.923
+  },
+  {
+    "indirizzo abitazione": "Piazza Libertà, 20090 Cornaredo MI",
+    "lat": 45.495,
+    "lon": 9.025
+  },
+  {
+    "indirizzo abitazione": "Via Roma, 20090 Cornaredo MI",
+    "lat": 45.496,
+    "lon": 9.027
+  },
+  {
+    "indirizzo abitazione": "Via Mazzini, 20090 Cornaredo MI",
+    "lat": 45.494,
+    "lon": 9.023
+  },
+  {
+    "indirizzo abitazione": "Via San Martino, 20090 Cornaredo MI",
+    "lat": 45.497,
+    "lon": 9.029
+  },
+  {
+    "indirizzo abitazione": "Corso Milano, 20010 Parabiago MI",
+    "lat": 45.551,
+    "lon": 8.948
+  },
+  {
+    "indirizzo abitazione": "Piazza della Vittoria, 20010 Parabiago MI",
+    "lat": 45.552,
+    "lon": 8.951
+  },
+  {
+    "indirizzo abitazione": "Via Garibaldi, 20010 Parabiago MI",
+    "lat": 45.549,
+    "lon": 8.945
+  },
+  {
+    "indirizzo abitazione": "Via Manzoni, 20010 Parabiago MI",
+    "lat": 45.553,
+    "lon": 8.953
+  },
+  {
+    "indirizzo abitazione": "Piazza Castello, 20012 Cuggiono MI",
+    "lat": 45.507,
+    "lon": 8.82
+  },
+  {
+    "indirizzo abitazione": "Via Roma, 20012 Cuggiono MI",
+    "lat": 45.508,
+    "lon": 8.822
+  },
+  {
+    "indirizzo abitazione": "Via Mazzini, 20012 Cuggiono MI",
+    "lat": 45.506,
+    "lon": 8.818
+  },
+  {
+    "indirizzo abitazione": "Piazza Mazzini, 20013 Inveruno MI",
+    "lat": 45.5,
+    "lon": 8.845
+  },
+  {
+    "indirizzo abitazione": "Via Roma, 20013 Inveruno MI",
+    "lat": 45.501,
+    "lon": 8.847
+  },
+  {
+    "indirizzo abitazione": "Piazza Martiri, 20020 Turbigo MI",
+    "lat": 45.512,
+    "lon": 8.735
+  },
+  {
+    "indirizzo abitazione": "Via Roma, 20020 Turbigo MI",
+    "lat": 45.513,
+    "lon": 8.737
+  },
+  {
+    "indirizzo abitazione": "Via Roma, 20020 Nosate MI",
+    "lat": 45.52,
+    "lon": 8.75
+  },
+  {
+    "indirizzo abitazione": "Piazza della Chiesa, 20020 Nosate MI",
+    "lat": 45.521,
+    "lon": 8.752
+  },
+  {
+    "indirizzo abitazione": "Via Milano, 20012 Bernate Ticino MI",
+    "lat": 45.465,
+    "lon": 8.785
+  },
+  {
+    "indirizzo abitazione": "Piazza San Bernardino, 20012 Bernate Ticino MI",
+    "lat": 45.466,
+    "lon": 8.787
+  },
+  {
+    "indirizzo abitazione": "Via Roma, 20010 Buscate MI",
+    "lat": 45.53,
+    "lon": 8.81
+  },
+  {
+    "indirizzo abitazione": "Piazza Libertà, 20010 Buscate MI",
+    "lat": 45.531,
+    "lon": 8.812
+  },
+  {
+    "indirizzo abitazione": "Via Roma, 20020 Magnago MI",
+    "lat": 45.565,
+    "lon": 8.8
+  },
+  {
+    "indirizzo abitazione": "Piazza Libertà, 20020 Magnago MI",
+    "lat": 45.566,
+    "lon": 8.802
+  },
+  {
+    "indirizzo abitazione": "Via Roma, 20020 Vanzaghello MI",
+    "lat": 45.575,
+    "lon": 8.815
+  },
+  {
+    "indirizzo abitazione": "Piazza Martiri, 20020 Vanzaghello MI",
+    "lat": 45.576,
+    "lon": 8.817
+  },
+  {
+    "indirizzo abitazione": "Via Milano, 20020 Carugate MI",
+    "lat": 45.55,
+    "lon": 9.35
+  },
+  {
+    "indirizzo abitazione": "Piazza Matteotti, 20020 Carugate MI",
+    "lat": 45.551,
+    "lon": 9.352
+  },
+  {
+    "indirizzo abitazione": "Via Garibaldi, 20020 Carugate MI",
+    "lat": 45.549,
+    "lon": 9.348
+  },
+  {
+    "indirizzo abitazione": "Via Roma, 20090 Pieve Emanuele MI",
+    "lat": 45.35,
+    "lon": 9.2
+  },
+  {
+    "indirizzo abitazione": "Piazza Libertà, 20090 Pieve Emanuele MI",
+    "lat": 45.351,
+    "lon": 9.202
+  },
+  {
+    "indirizzo abitazione": "Via Mazzini, 20090 Pieve Emanuele MI",
+    "lat": 45.349,
+    "lon": 9.198
+  },
+  {
+    "indirizzo abitazione": "Via Roma, 20082 Binasco MI",
+    "lat": 45.33,
+    "lon": 9.095
+  },
+  {
+    "indirizzo abitazione": "Piazza Martiri, 20082 Binasco MI",
+    "lat": 45.331,
+    "lon": 9.097
+  },
+  {
+    "indirizzo abitazione": "Via Roma, 20084 Lacchiarella MI",
+    "lat": 45.32,
+    "lon": 9.05
+  },
+  {
+    "indirizzo abitazione": "Piazza della Chiesa, 20084 Lacchiarella MI",
+    "lat": 45.321,
+    "lon": 9.052
+  },
+  {
+    "indirizzo abitazione": "Via Milano, 20085 Locate di Triulzi MI",
+    "lat": 45.365,
+    "lon": 9.215
+  },
+  {
+    "indirizzo abitazione": "Piazza Matteotti, 20085 Locate di Triulzi MI",
+    "lat": 45.366,
+    "lon": 9.217
+  },
+  {
+    "indirizzo abitazione": "Via Roma, 20086 Noviglio MI",
+    "lat": 45.355,
+    "lon": 9.045
+  },
+  {
+    "indirizzo abitazione": "Piazza San Giorgio, 20086 Noviglio MI",
+    "lat": 45.356,
+    "lon": 9.047
+  },
+  {
+    "indirizzo abitazione": "Via Roma, 20081 Morimondo MI",
+    "lat": 45.32,
+    "lon": 8.95
+  },
+  {
+    "indirizzo abitazione": "Piazza Abbazia, 20081 Morimondo MI",
+    "lat": 45.321,
+    "lon": 8.952
+  },
+  {
+    "indirizzo abitazione": "Via Milano, 20082 Besate MI",
+    "lat": 45.295,
+    "lon": 8.92
+  },
+  {
+    "indirizzo abitazione": "Piazza Libertà, 20082 Besate MI",
+    "lat": 45.296,
+    "lon": 8.922
+  },
+  {
+    "indirizzo abitazione": "Via Roma, 20080 Albairate MI",
+    "lat": 45.41,
+    "lon": 8.97
+  },
+  {
+    "indirizzo abitazione": "Piazza della Chiesa, 20080 Albairate MI",
+    "lat": 45.411,
+    "lon": 8.972
+  },
+  {
+    "indirizzo abitazione": "Via Milano, 20020 Arconate MI",
+    "lat": 45.54,
+    "lon": 8.87
+  },
+  {
+    "indirizzo abitazione": "Piazza San Eusebio, 20020 Arconate MI",
+    "lat": 45.541,
+    "lon": 8.872
+  },
+  {
+    "indirizzo abitazione": "Via Roma, 20090 Basiglio MI",
+    "lat": 45.38,
+    "lon": 9.23
+  },
+  {
+    "indirizzo abitazione": "Piazza Libertà, 20090 Basiglio MI",
+    "lat": 45.381,
+    "lon": 9.232
+  },
+  {
+    "indirizzo abitazione": "Via Milano, 20080 Bubbiano MI",
+    "lat": 45.3,
+    "lon": 8.98
+  },
+  {
+    "indirizzo abitazione": "Piazza San Pietro, 20080 Bubbiano MI",
+    "lat": 45.301,
+    "lon": 8.982
+  },
+  {
+    "indirizzo abitazione": "Via Roma, 20080 Calvignasco MI",
+    "lat": 45.315,
+    "lon": 8.91
+  },
+  {
+    "indirizzo abitazione": "Piazza della Chiesa, 20080 Calvignasco MI",
+    "lat": 45.316,
+    "lon": 8.912
+  },
+  {
+    "indirizzo abitazione": "Via Milano, 20080 Casarile MI",
+    "lat": 45.34,
+    "lon": 9.02
+  },
+  {
+    "indirizzo abitazione": "Piazza Martiri, 20080 Casarile MI",
+    "lat": 45.341,
+    "lon": 9.022
+  },
+  {
+    "indirizzo abitazione": "Via Roma, 20020 Cassinetta di Lugagnano MI",
+    "lat": 45.445,
+    "lon": 8.915
+  },
+  {
+    "indirizzo abitazione": "Piazza Libertà, 20020 Cassinetta di Lugagnano MI",
+    "lat": 45.446,
+    "lon": 8.917
+  },
+  {
+    "indirizzo abitazione": "Via Milano, 20080 Cisliano MI",
+    "lat": 45.42,
+    "lon": 8.98
+  },
+  {
+    "indirizzo abitazione": "Piazza San Sisto, 20080 Cisliano MI",
+    "lat": 45.421,
+    "lon": 8.982
+  },
+  {
+    "indirizzo abitazione": "Via Roma, 20080 Gudo Visconti MI",
+    "lat": 45.365,
+    "lon": 8.995
+  },
+  {
+    "indirizzo abitazione": "Piazza della Chiesa, 20080 Gudo Visconti MI",
+    "lat": 45.366,
+    "lon": 8.997
+  },
+  {
+    "indirizzo abitazione": "Via Milano, 20080 Motta Visconti MI",
+    "lat": 45.28,
+    "lon": 8.99
+  },
+  {
+    "indirizzo abitazione": "Piazza Libertà, 20080 Motta Visconti MI",
+    "lat": 45.281,
+    "lon": 8.992
+  },
+  {
+    "indirizzo abitazione": "Via Roma, 20080 Ozzero MI",
+    "lat": 45.33,
+    "lon": 8.95
+  },
+  {
+    "indirizzo abitazione": "Piazza San Giorgio, 20080 Ozzero MI",
+    "lat": 45.331,
+    "lon": 8.952
+  },
+  {
+    "indirizzo abitazione": "Via Milano, 20090 Pantigliate MI",
+    "lat": 45.42,
+    "lon": 9.38
+  },
+  {
+    "indirizzo abitazione": "Piazza Martiri, 20090 Pantigliate MI",
+    "lat": 45.421,
+    "lon": 9.382
+  },
+  {
+    "indirizzo abitazione": "Via Roma, 20020 Pogliano Milanese MI",
+    "lat": 45.515,
+    "lon": 9.03
+  },
+  {
+    "indirizzo abitazione": "Piazza Libertà, 20020 Pogliano Milanese MI",
+    "lat": 45.516,
+    "lon": 9.032
+  },
+  {
+    "indirizzo abitazione": "Via Milano, 20010 Pregnana Milanese MI",
+    "lat": 45.5,
+    "lon": 9.01
+  },
+  {
+    "indirizzo abitazione": "Piazza San Giorgio, 20010 Pregnana Milanese MI",
+    "lat": 45.501,
+    "lon": 9.012
+  },
+  {
+    "indirizzo abitazione": "Via Roma, 20010 Robecchetto con Induno MI",
+    "lat": 45.53,
+    "lon": 8.85
+  },
+  {
+    "indirizzo abitazione": "Piazza della Chiesa, 20010 Robecchetto con Induno MI",
+    "lat": 45.531,
+    "lon": 8.852
+  },
+  {
+    "indirizzo abitazione": "Via Milano, 20080 San Colombano al Lambro MI",
+    "lat": 45.19,
+    "lon": 9.49
+  },
+  {
+    "indirizzo abitazione": "Piazza Libertà, 20080 San Colombano al Lambro MI",
+    "lat": 45.191,
+    "lon": 9.492
+  },
+  {
+    "indirizzo abitazione": "Via Roma, 20070 San Zenone al Lambro MI",
+    "lat": 45.325,
+    "lon": 9.39
+  },
+  {
+    "indirizzo abitazione": "Piazza San Zenone, 20070 San Zenone al Lambro MI",
+    "lat": 45.326,
+    "lon": 9.392
+  },
+  {
+    "indirizzo abitazione": "Via Milano, 20080 Trezzano Rosa MI",
+    "lat": 45.605,
+    "lon": 9.53
+  },
+  {
+    "indirizzo abitazione": "Piazza Libertà, 20080 Trezzano Rosa MI",
+    "lat": 45.606,
+    "lon": 9.532
+  },
+  {
+    "indirizzo abitazione": "Via Roma, 20020 Vanzago MI",
+    "lat": 45.52,
+    "lon": 8.94
+  },
+  {
+    "indirizzo abitazione": "Piazza della Chiesa, 20020 Vanzago MI",
+    "lat": 45.521,
+    "lon": 8.942
+  },
+  {
+    "indirizzo abitazione": "Via Milano, 20020 Vaprio d'Adda MI",
+    "lat": 45.595,
+    "lon": 9.525
+  },
+  {
+    "indirizzo abitazione": "Piazza San Colombano, 20020 Vaprio d'Adda MI",
+    "lat": 45.596,
+    "lon": 9.527
+  },
+  {
+    "indirizzo abitazione": "Via Roma, 20080 Vermezzo con Zelo MI",
+    "lat": 45.395,
+    "lon": 8.95
+  },
+  {
+    "indirizzo abitazione": "Piazza della Chiesa, 20080 Vermezzo con Zelo MI",
+    "lat": 45.396,
+    "lon": 8.952
+  },
+  {
+    "Scuola ": "ISS Legnano, Via Volturno, 20025 Legnano MI",
+    "lat": 45.598,
+    "lon": 8.917
+  },
+  {
+    "Scuola ": "ISS Pioltello, Via Kennedy, 20175 Pioltello MI",
+    "lat": 45.4965,
+    "lon": 9.344
+  },
+  {
+    "Scuola ": "ISS Cornaredo, Via Roma, 20090 Cornaredo MI",
+    "lat": 45.4955,
+    "lon": 9.026
+  },
+  {
+    "Scuola ": "ISS Parabiago, Via Manzoni, 20010 Parabiago MI",
+    "lat": 45.5525,
+    "lon": 8.952
+  },
+  {
+    "RSA ": "RSA Legnano, Corso Sempione, 20025 Legnano MI",
+    "lat": 45.594,
+    "lon": 8.911
+  },
+  {
+    "RSA ": "RSA Cornaredo, Via Mazzini, 20090 Cornaredo MI",
+    "lat": 45.4945,
+    "lon": 9.024
+  },
+  {
+    "Impianto sportivo ": "Centro Sportivo Legnano - Viale Gorizia, 20025 Legnano MI",
+    "lat": 45.59,
+    "lon": 8.905
+  },
+  {
+    "Impianto sportivo ": "Centro Sportivo Pioltello - Via Manzoni, 20175 Pioltello MI",
+    "lat": 45.4935,
+    "lon": 9.337
+  },
+  {
+    "Impianto sportivo ": "Centro Sportivo Parabiago - Corso Milano, 20010 Parabiago MI",
+    "lat": 45.5505,
+    "lon": 8.947
+  },
+  {
+    "Impianto lavorativo ": "Polo Industriale Nerviano, Via Roma, 20014 Nerviano MI",
+    "lat": 45.5555,
+    "lon": 8.966
+  },
+  {
+    "Impianto lavorativo ": "Zona Industriale Castano Primo, Via Cantone, 20081 Castano Primo MI",
+    "lat": 45.5475,
+    "lon": 8.78
+  },
+  {
+    "Impianto lavorativo ": "Stabilimento Busto Garolfo, Via Milano, 20023 Busto Garolfo MI",
+    "lat": 45.5385,
+    "lon": 8.922
+  },
+  {
+    "Strada ": "SS33 del Sempione km 15 - 20025 Legnano MI",
+    "lat": 45.592,
+    "lon": 8.908
+  },
+  {
+    "Strada ": "A8 MI-VA km 25 - 20014 Nerviano MI",
+    "lat": 45.581145,
+    "lon": 8.9973093
+  },
+  {
+    "Strada ": "SP12 km 8 - 20175 Pioltello MI",
+    "lat": 45.492,
+    "lon": 9.335
+  },
+  {
+    "indirizzo abitazione": "Piazza Maggiore, 26900 Lodi LO",
+    "lat": 45.313,
+    "lon": 9.502
+  },
+  {
+    "indirizzo abitazione": "Via Marsala, 26900 Lodi LO",
+    "lat": 45.3145,
+    "lon": 9.5055
+  },
+  {
+    "indirizzo abitazione": "Corso Adda, 26900 Lodi LO",
+    "lat": 45.3155,
+    "lon": 9.504
+  },
+  {
+    "indirizzo abitazione": "Via Fanfulla, 26900 Lodi LO",
+    "lat": 45.312,
+    "lon": 9.503
+  },
+  {
+    "indirizzo abitazione": "Piazza Broletto, 26900 Lodi LO",
+    "lat": 45.3135,
+    "lon": 9.5045
+  },
+  {
+    "indirizzo abitazione": "Via Cavour, 26845 Codogno LO",
+    "lat": 45.1585,
+    "lon": 9.7045
+  },
+  {
+    "indirizzo abitazione": "Piazza Cairoli, 26845 Codogno LO",
+    "lat": 45.1595,
+    "lon": 9.7055
+  },
+  {
+    "indirizzo abitazione": "Via Mazzini, 26845 Codogno LO",
+    "lat": 45.1575,
+    "lon": 9.7035
+  },
+  {
+    "indirizzo abitazione": "Corso Garibaldi, 26845 Codogno LO",
+    "lat": 45.1605,
+    "lon": 9.7065
+  },
+  {
+    "indirizzo abitazione": "Via Roma, 26866 Sant'Angelo Lodigiano LO",
+    "lat": 45.2365,
+    "lon": 9.4155
+  },
+  {
+    "indirizzo abitazione": "Piazza Libertà, 26866 Sant'Angelo Lodigiano LO",
+    "lat": 45.2375,
+    "lon": 9.4165
+  },
+  {
+    "indirizzo abitazione": "Via Dante, 26866 Sant'Angelo Lodigiano LO",
+    "lat": 45.2355,
+    "lon": 9.4145
+  },
+  {
+    "indirizzo abitazione": "Piazza Risorgimento, 26841 Casalpusterlengo LO",
+    "lat": 45.1825,
+    "lon": 9.6545
+  },
+  {
+    "indirizzo abitazione": "Via Marsala, 26841 Casalpusterlengo LO",
+    "lat": 45.1835,
+    "lon": 9.6555
+  },
+  {
+    "indirizzo abitazione": "Corso Europa, 26841 Casalpusterlengo LO",
+    "lat": 45.1815,
+    "lon": 9.6535
+  },
+  {
+    "indirizzo abitazione": "Via Roma, 26839 Zelo Buon Persico LO",
+    "lat": 45.3925,
+    "lon": 9.4255
+  },
+  {
+    "indirizzo abitazione": "Piazza Marconi, 26839 Zelo Buon Persico LO",
+    "lat": 45.3935,
+    "lon": 9.4265
+  },
+  {
+    "indirizzo abitazione": "Via Milano, 26838 Tavazzano con Villavesco LO",
+    "lat": 45.3045,
+    "lon": 9.4525
+  },
+  {
+    "indirizzo abitazione": "Piazza Italia, 26838 Tavazzano con Villavesco LO",
+    "lat": 45.3055,
+    "lon": 9.4535
+  },
+  {
+    "indirizzo abitazione": "Via Roma, 26857 San Martino in Strada LO",
+    "lat": 45.3255,
+    "lon": 9.4755
+  },
+  {
+    "indirizzo abitazione": "Via Cavour, 26854 Corte Palasio LO",
+    "lat": 45.3425,
+    "lon": 9.4455
+  },
+  {
+    "indirizzo abitazione": "Piazza della Chiesa, 26853 Comazzo LO",
+    "lat": 45.4055,
+    "lon": 9.4155
+  },
+  {
+    "indirizzo abitazione": "Via Roma, 26852 Borghetto Lodigiano LO",
+    "lat": 45.2155,
+    "lon": 9.5155
+  },
+  {
+    "indirizzo abitazione": "Via Garibaldi, 26851 Borgo San Giovanni LO",
+    "lat": 45.1955,
+    "lon": 9.5555
+  },
+  {
+    "indirizzo abitazione": "Piazza Libertà, 26850 Bertonico LO",
+    "lat": 45.1755,
+    "lon": 9.5755
+  },
+  {
+    "indirizzo abitazione": "Via Roma, 26849 Brembio LO",
+    "lat": 45.2755,
+    "lon": 9.4255
+  },
+  {
+    "indirizzo abitazione": "Via Milano, 26848 Boffalora d'Adda LO",
+    "lat": 45.4155,
+    "lon": 9.4855
+  },
+  {
+    "indirizzo abitazione": "Piazza Martiri, 26847 Guardamiglio LO",
+    "lat": 45.1255,
+    "lon": 9.6255
+  },
+  {
+    "indirizzo abitazione": "Via Roma, 26846 Fombio LO",
+    "lat": 45.1455,
+    "lon": 9.6455
+  },
+  {
+    "indirizzo abitazione": "Via Cavour, 26844 Codogno LO",
+    "lat": 45.1565,
+    "lon": 9.7025
+  },
+  {
+    "indirizzo abitazione": "Piazza San Lorenzo, 26843 Castiglione d'Adda LO",
+    "lat": 45.2555,
+    "lon": 9.7055
+  },
+  {
+    "indirizzo abitazione": "Via Roma, 26842 Castiraga Vidardo LO",
+    "lat": 45.2855,
+    "lon": 9.4655
+  },
+  {
+    "indirizzo abitazione": "Via Milano, 26840 Cavenago d'Adda LO",
+    "lat": 45.4355,
+    "lon": 9.4955
+  },
+  {
+    "indirizzo abitazione": "Piazza della Chiesa, 26836 Cervignano d'Adda LO",
+    "lat": 45.4255,
+    "lon": 9.4755
+  },
+  {
+    "indirizzo abitazione": "Via Roma, 26835 Mulazzano LO",
+    "lat": 45.3855,
+    "lon": 9.4555
+  },
+  {
+    "indirizzo abitazione": "Via Garibaldi, 26834 Livraga LO",
+    "lat": 45.1855,
+    "lon": 9.4855
+  },
+  {
+    "indirizzo abitazione": "Piazza Libertà, 26833 Maleo LO",
+    "lat": 45.1655,
+    "lon": 9.7355
+  },
+  {
+    "indirizzo abitazione": "Via Roma, 26832 Galgagnano LO",
+    "lat": 45.4055,
+    "lon": 9.4455
+  },
+  {
+    "indirizzo abitazione": "Via Milano, 26831 Caselle Landi LO",
+    "lat": 45.1355,
+    "lon": 9.6655
+  },
+  {
+    "indirizzo abitazione": "Piazza del Comune, 26100 Cremona CR",
+    "lat": 45.1325,
+    "lon": 10.0215
+  },
+  {
+    "indirizzo abitazione": "Via Solferino, 26100 Cremona CR",
+    "lat": 45.1335,
+    "lon": 10.0235
+  },
+  {
+    "indirizzo abitazione": "Corso Campi, 26100 Cremona CR",
+    "lat": 45.1315,
+    "lon": 10.0205
+  },
+  {
+    "indirizzo abitazione": "Via Brescia, 26100 Cremona CR",
+    "lat": 45.1345,
+    "lon": 10.0245
+  },
+  {
+    "indirizzo abitazione": "Piazza Stradivari, 26100 Cremona CR",
+    "lat": 45.1355,
+    "lon": 10.0255
+  },
+  {
+    "indirizzo abitazione": "Via Castelleone, 26100 Cremona CR",
+    "lat": 45.1365,
+    "lon": 10.0265
+  },
+  {
+    "indirizzo abitazione": "Corso Garibaldi, 26100 Cremona CR",
+    "lat": 45.1375,
+    "lon": 10.0275
+  },
+  {
+    "indirizzo abitazione": "Via Mantova, 26100 Cremona CR",
+    "lat": 45.1285,
+    "lon": 10.0185
+  },
+  {
+    "indirizzo abitazione": "Piazza Roma, 26013 Crema CR",
+    "lat": 45.3605,
+    "lon": 9.6825
+  },
+  {
+    "indirizzo abitazione": "Via Vittorio Veneto, 26013 Crema CR",
+    "lat": 45.3615,
+    "lon": 9.6835
+  },
+  {
+    "indirizzo abitazione": "Corso Matteotti, 26013 Crema CR",
+    "lat": 45.3595,
+    "lon": 9.6815
+  },
+  {
+    "indirizzo abitazione": "Via Cavour, 26013 Crema CR",
+    "lat": 45.3625,
+    "lon": 9.6845
+  },
+  {
+    "indirizzo abitazione": "Piazza Duomo, 26013 Crema CR",
+    "lat": 45.3635,
+    "lon": 9.6855
+  },
+  {
+    "indirizzo abitazione": "Via Civerchi, 26013 Crema CR",
+    "lat": 45.3585,
+    "lon": 9.6805
+  },
+  {
+    "indirizzo abitazione": "Corso Europa, 26013 Crema CR",
+    "lat": 45.3645,
+    "lon": 9.6865
+  },
+  {
+    "indirizzo abitazione": "Via Dante, 26013 Crema CR",
+    "lat": 45.3575,
+    "lon": 9.6795
+  },
+  {
+    "indirizzo abitazione": "Piazza Garibaldi, 26041 Casalmaggiore CR",
+    "lat": 44.9895,
+    "lon": 10.4195
+  },
+  {
+    "indirizzo abitazione": "Via Roma, 26041 Casalmaggiore CR",
+    "lat": 44.9905,
+    "lon": 10.4205
+  },
+  {
+    "indirizzo abitazione": "Corso Vittorio Emanuele, 26041 Casalmaggiore CR",
+    "lat": 44.9885,
+    "lon": 10.4185
+  },
+  {
+    "indirizzo abitazione": "Via Cairoli, 26041 Casalmaggiore CR",
+    "lat": 44.9915,
+    "lon": 10.4215
+  },
+  {
+    "indirizzo abitazione": "Piazza Martiri, 26041 Casalmaggiore CR",
+    "lat": 44.9925,
+    "lon": 10.4225
+  },
+  {
+    "indirizzo abitazione": "Via Mazzini, 26012 Castelleone CR",
+    "lat": 45.2995,
+    "lon": 9.7665
+  },
+  {
+    "indirizzo abitazione": "Piazza Libertà, 26012 Castelleone CR",
+    "lat": 45.3005,
+    "lon": 9.7675
+  },
+  {
+    "indirizzo abitazione": "Via Garibaldi, 26012 Castelleone CR",
+    "lat": 45.2985,
+    "lon": 9.7655
+  },
+  {
+    "indirizzo abitazione": "Corso Italia, 26015 Soresina CR",
+    "lat": 45.2845,
+    "lon": 9.8562
+  },
+  {
+    "indirizzo abitazione": "Via Roma, 26015 Soresina CR",
+    "lat": 45.2855,
+    "lon": 9.8572
+  },
+  {
+    "indirizzo abitazione": "Piazza Garibaldi, 26015 Soresina CR",
+    "lat": 45.2835,
+    "lon": 9.8552
+  },
+  {
+    "indirizzo abitazione": "Via Cavour, 26015 Soresina CR",
+    "lat": 45.2865,
+    "lon": 9.8582
+  },
+  {
+    "indirizzo abitazione": "Piazza del Popolo, 26026 Pizzighettone CR",
+    "lat": 45.1995,
+    "lon": 9.7825
+  },
+  {
+    "indirizzo abitazione": "Via Roma, 26026 Pizzighettone CR",
+    "lat": 45.2005,
+    "lon": 9.7835
+  },
+  {
+    "indirizzo abitazione": "Corso Vittorio Emanuele, 26026 Pizzighettone CR",
+    "lat": 45.1985,
+    "lon": 9.7815
+  },
+  {
+    "indirizzo abitazione": "Via Mazzini, 26029 Soncino CR",
+    "lat": 45.3995,
+    "lon": 9.8995
+  },
+  {
+    "indirizzo abitazione": "Piazza Garibaldi, 26029 Soncino CR",
+    "lat": 45.4005,
+    "lon": 9.9005
+  },
+  {
+    "indirizzo abitazione": "Via Roma, 26029 Soncino CR",
+    "lat": 45.3985,
+    "lon": 9.8985
+  },
+  {
+    "indirizzo abitazione": "Via Cavour, 26025 Pandino CR",
+    "lat": 45.3995,
+    "lon": 9.5495
+  },
+  {
+    "indirizzo abitazione": "Piazza Libertà, 26025 Pandino CR",
+    "lat": 45.4005,
+    "lon": 9.5505
+  },
+  {
+    "indirizzo abitazione": "Via Mazzini, 26027 Rivolta d'Adda CR",
+    "lat": 45.4795,
+    "lon": 9.4995
+  },
+  {
+    "indirizzo abitazione": "Piazza Roma, 26027 Rivolta d'Adda CR",
+    "lat": 45.4805,
+    "lon": 9.5005
+  },
+  {
+    "indirizzo abitazione": "Via Garibaldi, 26019 Spino d'Adda CR",
+    "lat": 45.3995,
+    "lon": 9.4995
+  },
+  {
+    "indirizzo abitazione": "Piazza Marconi, 26019 Spino d'Adda CR",
+    "lat": 45.4005,
+    "lon": 9.5005
+  },
+  {
+    "indirizzo abitazione": "Via Roma, 26014 Offanengo CR",
+    "lat": 45.4195,
+    "lon": 9.6595
+  },
+  {
+    "indirizzo abitazione": "Piazza della Chiesa, 26014 Offanengo CR",
+    "lat": 45.4205,
+    "lon": 9.6605
+  },
+  {
+    "indirizzo abitazione": "Via Milano, 26011 Agnadello CR",
+    "lat": 45.4395,
+    "lon": 9.6195
+  },
+  {
+    "indirizzo abitazione": "Via Roma, 26010 Vaiano Cremasco CR",
+    "lat": 45.4495,
+    "lon": 9.6395
+  },
+  {
+    "indirizzo abitazione": "Piazza Libertà, 26016 Trescore Cremasco CR",
+    "lat": 45.4595,
+    "lon": 9.6795
+  },
+  {
+    "indirizzo abitazione": "Via Garibaldi, 26017 Quintano CR",
+    "lat": 45.4695,
+    "lon": 9.6995
+  },
+  {
+    "indirizzo abitazione": "Via Roma, 26018 Romanengo CR",
+    "lat": 45.3895,
+    "lon": 9.8395
+  },
+  {
+    "indirizzo abitazione": "Piazza Martiri, 26020 Ricengo CR",
+    "lat": 45.3595,
+    "lon": 9.8195
+  },
+  {
+    "indirizzo abitazione": "Via Milano, 26021 Cumignano sul Naviglio CR",
+    "lat": 45.3295,
+    "lon": 9.7395
+  },
+  {
+    "indirizzo abitazione": "Via Roma, 26022 Castelverde CR",
+    "lat": 45.2195,
+    "lon": 10.0395
+  },
+  {
+    "indirizzo abitazione": "Piazza della Chiesa, 26023 Grontardo CR",
+    "lat": 45.1895,
+    "lon": 10.1695
+  },
+  {
+    "indirizzo abitazione": "Via Garibaldi, 26024 Isola Dovarese CR",
+    "lat": 45.1595,
+    "lon": 10.3195
+  },
+  {
+    "indirizzo abitazione": "Piazza Marconi, 46100 Mantova MN",
+    "lat": 45.1595,
+    "lon": 10.7965
+  },
+  {
+    "indirizzo abitazione": "Via Chiassi, 46100 Mantova MN",
+    "lat": 45.1585,
+    "lon": 10.7955
+  },
+  {
+    "indirizzo abitazione": "Corso Garibaldi, 46100 Mantova MN",
+    "lat": 45.1605,
+    "lon": 10.7975
+  },
+  {
+    "indirizzo abitazione": "Via Pomponazzo, 46100 Mantova MN",
+    "lat": 45.1615,
+    "lon": 10.7985
+  },
+  {
+    "indirizzo abitazione": "Piazza Broletto, 46100 Mantova MN",
+    "lat": 45.1625,
+    "lon": 10.7995
+  },
+  {
+    "indirizzo abitazione": "Via Frattini, 46100 Mantova MN",
+    "lat": 45.1575,
+    "lon": 10.7945
+  },
+  {
+    "indirizzo abitazione": "Corso Vittorio Emanuele, 46100 Mantova MN",
+    "lat": 45.1635,
+    "lon": 10.8005
+  },
+  {
+    "indirizzo abitazione": "Via Solferino, 46100 Mantova MN",
+    "lat": 45.1565,
+    "lon": 10.7935
+  },
+  {
+    "indirizzo abitazione": "Piazza Martiri Belfiore, 46100 Mantova MN",
+    "lat": 45.1645,
+    "lon": 10.8015
+  },
+  {
+    "indirizzo abitazione": "Via Brennero, 46029 Suzzara MN",
+    "lat": 44.992,
+    "lon": 10.7485
+  },
+  {
+    "indirizzo abitazione": "Piazza Garibaldi, 46029 Suzzara MN",
+    "lat": 44.993,
+    "lon": 10.7495
+  },
+  {
+    "indirizzo abitazione": "Via Mazzini, 46029 Suzzara MN",
+    "lat": 44.991,
+    "lon": 10.7475
+  },
+  {
+    "indirizzo abitazione": "Corso Italia, 46029 Suzzara MN",
+    "lat": 44.994,
+    "lon": 10.7505
+  },
+  {
+    "indirizzo abitazione": "Via Martiri della Libertà, 46019 Viadana MN",
+    "lat": 44.9165,
+    "lon": 10.5165
+  },
+  {
+    "indirizzo abitazione": "Piazza Matteotti, 46019 Viadana MN",
+    "lat": 44.9175,
+    "lon": 10.5175
+  },
+  {
+    "indirizzo abitazione": "Via Roma, 46019 Viadana MN",
+    "lat": 44.9155,
+    "lon": 10.5155
+  },
+  {
+    "indirizzo abitazione": "Corso Garibaldi, 46019 Viadana MN",
+    "lat": 44.9185,
+    "lon": 10.5185
+  },
+  {
+    "indirizzo abitazione": "Via Solferino, 46043 Castiglione delle Stiviere MN",
+    "lat": 45.3897,
+    "lon": 10.4857
+  },
+  {
+    "indirizzo abitazione": "Piazza San Luigi, 46043 Castiglione delle Stiviere MN",
+    "lat": 45.3907,
+    "lon": 10.4867
+  },
+  {
+    "indirizzo abitazione": "Via Roma, 46043 Castiglione delle Stiviere MN",
+    "lat": 45.3887,
+    "lon": 10.4847
+  },
+  {
+    "indirizzo abitazione": "Corso Matteotti, 46043 Castiglione delle Stiviere MN",
+    "lat": 45.3917,
+    "lon": 10.4877
+  },
+  {
+    "indirizzo abitazione": "Via Verdi, 46043 Castiglione delle Stiviere MN",
+    "lat": 45.3927,
+    "lon": 10.4887
+  },
+  {
+    "indirizzo abitazione": "Piazza Libertà, 46041 Asola MN",
+    "lat": 45.2165,
+    "lon": 10.4165
+  },
+  {
+    "indirizzo abitazione": "Via Roma, 46041 Asola MN",
+    "lat": 45.2175,
+    "lon": 10.4175
+  },
+  {
+    "indirizzo abitazione": "Corso Matteotti, 46041 Asola MN",
+    "lat": 45.2155,
+    "lon": 10.4155
+  },
+  {
+    "indirizzo abitazione": "Via Mazzini, 46041 Asola MN",
+    "lat": 45.2185,
+    "lon": 10.4185
+  },
+  {
+    "indirizzo abitazione": "Via Cavour, 46047 Porto Mantovano MN",
+    "lat": 45.1825,
+    "lon": 10.7665
+  },
+  {
+    "indirizzo abitazione": "Piazza Matteotti, 46047 Porto Mantovano MN",
+    "lat": 45.1835,
+    "lon": 10.7675
+  },
+  {
+    "indirizzo abitazione": "Via Roma, 46047 Porto Mantovano MN",
+    "lat": 45.1815,
+    "lon": 10.7655
+  },
+  {
+    "indirizzo abitazione": "Via Garibaldi, 46010 Curtatone MN",
+    "lat": 45.1225,
+    "lon": 10.7495
+  },
+  {
+    "indirizzo abitazione": "Piazza Libertà, 46010 Curtatone MN",
+    "lat": 45.1235,
+    "lon": 10.7505
+  },
+  {
+    "indirizzo abitazione": "Via Mazzini, 46044 Goito MN",
+    "lat": 45.2262035,
+    "lon": 10.6628723
+  },
+  {
+    "indirizzo abitazione": "Piazza Antonio Gramsci, 46044 Goito MN",
+    "lat": 45.2550899,
+    "lon": 10.674457
+  },
+  {
+    "indirizzo abitazione": "Via Roma, 46044 Goito MN",
+    "lat": 45.2520058,
+    "lon": 10.6712516
+  },
+  {
+    "indirizzo abitazione": "Via Garibaldi, 46020 Pegognaga MN",
+    "lat": 44.9495,
+    "lon": 10.8495
+  },
+  {
+    "indirizzo abitazione": "Piazza Libertà, 46020 Pegognaga MN",
+    "lat": 44.9505,
+    "lon": 10.8505
+  },
+  {
+    "indirizzo abitazione": "Via Roma, 46027 San Benedetto Po MN",
+    "lat": 45.0495,
+    "lon": 10.8995
+  },
+  {
+    "indirizzo abitazione": "Piazza Matteotti, 46027 San Benedetto Po MN",
+    "lat": 45.0505,
+    "lon": 10.9005
+  },
+  {
+    "indirizzo abitazione": "Via Cavour, 46035 Ostiglia MN",
+    "lat": 45.0662,
+    "lon": 11.1495
+  },
+  {
+    "indirizzo abitazione": "Piazza Garibaldi, 46035 Ostiglia MN",
+    "lat": 45.0672,
+    "lon": 11.1505
+  },
+  {
+    "indirizzo abitazione": "Via Roma, 46012 Bozzolo MN",
+    "lat": 45.1195,
+    "lon": 10.4795
+  },
+  {
+    "indirizzo abitazione": "Piazza Libertà, 46012 Bozzolo MN",
+    "lat": 45.1205,
+    "lon": 10.4805
+  },
+  {
+    "indirizzo abitazione": "Via Garibaldi, 46013 Canneto sull'Oglio MN",
+    "lat": 45.1495,
+    "lon": 10.3795
+  },
+  {
+    "indirizzo abitazione": "Via Roma, 46014 Castellucchio MN",
+    "lat": 45.0895,
+    "lon": 10.7295
+  },
+  {
+    "indirizzo abitazione": "Piazza Martiri, 46015 Commessaggio MN",
+    "lat": 45.0795,
+    "lon": 10.5095
+  },
+  {
+    "indirizzo abitazione": "Via Milano, 46016 Gonzaga MN",
+    "lat": 44.9395,
+    "lon": 10.8095
+  },
+  {
+    "indirizzo abitazione": "Piazza della Chiesa, 46016 Gonzaga MN",
+    "lat": 44.9405,
+    "lon": 10.8105
+  },
+  {
+    "indirizzo abitazione": "Via Roma, 46017 Marcaria MN",
+    "lat": 45.1095,
+    "lon": 10.5595
+  },
+  {
+    "indirizzo abitazione": "Via Garibaldi, 46018 Sabbioneta MN",
+    "lat": 44.9995,
+    "lon": 10.4895
+  },
+  {
+    "indirizzo abitazione": "Piazza Ducale, 46018 Sabbioneta MN",
+    "lat": 45.320144,
+    "lon": 9.084422
+  },
+  {
+    "indirizzo abitazione": "Via Roma, 46019 San Giorgio di Mantova MN",
+    "lat": 45.1395,
+    "lon": 10.8395
+  },
+  {
+    "indirizzo abitazione": "Via Cavour, 46021 Sermide e Felonica MN",
+    "lat": 45.0195,
+    "lon": 11.2995
+  },
+  {
+    "indirizzo abitazione": "Piazza Libertà, 46022 Sustinente MN",
+    "lat": 45.0595,
+    "lon": 11.1295
+  },
+  {
+    "indirizzo abitazione": "Via Roma, 46023 Villa Poma MN",
+    "lat": 44.9795,
+    "lon": 11.1595
+  },
+  {
+    "indirizzo abitazione": "Via Garibaldi, 46024 Moglia MN",
+    "lat": 44.9695,
+    "lon": 10.7695
+  },
+  {
+    "indirizzo abitazione": "Piazza Matteotti, 46025 Poggio Rusco MN",
+    "lat": 44.9895,
+    "lon": 11.1195
+  },
+  {
+    "indirizzo abitazione": "Via Roma, 46026 Quistello MN",
+    "lat": 44.9995,
+    "lon": 10.7995
+  },
+  {
+    "indirizzo abitazione": "Via Milano, 46028 Roncoferraro MN",
+    "lat": 45.1795,
+    "lon": 10.8895
+  },
+  {
+    "indirizzo abitazione": "Piazza della Chiesa, 46030 San Martino dall'Argine MN",
+    "lat": 45.0695,
+    "lon": 10.4395
+  },
+  {
+    "indirizzo abitazione": "Via Emilia, 27100 Pavia PV",
+    "lat": 45.1835,
+    "lon": 9.1575
+  },
+  {
+    "indirizzo abitazione": "Corso Mazzini, 27100 Pavia PV",
+    "lat": 45.1845,
+    "lon": 9.1585
+  },
+  {
+    "indirizzo abitazione": "Via Defendente Sacchi, 27100 Pavia PV",
+    "lat": 45.1825,
+    "lon": 9.1565
+  },
+  {
+    "indirizzo abitazione": "Piazza Petrarca, 27100 Pavia PV",
+    "lat": 45.1855,
+    "lon": 9.1595
+  },
+  {
+    "indirizzo abitazione": "Via Alessandro Volta, 27100 Pavia PV",
+    "lat": 45.1815,
+    "lon": 9.1555
+  },
+  {
+    "indirizzo abitazione": "Corso Cavour, 27029 Vigevano PV",
+    "lat": 45.3155,
+    "lon": 8.8545
+  },
+  {
+    "indirizzo abitazione": "Via Palestro, 27029 Vigevano PV",
+    "lat": 45.3165,
+    "lon": 8.8555
+  },
+  {
+    "indirizzo abitazione": "Piazza Sant'Ambrogio, 27029 Vigevano PV",
+    "lat": 45.3145,
+    "lon": 8.8535
+  },
+  {
+    "indirizzo abitazione": "Via Cairoli, 27029 Vigevano PV",
+    "lat": 45.3175,
+    "lon": 8.8565
+  },
+  {
+    "indirizzo abitazione": "Corso della Repubblica, 27058 Voghera PV",
+    "lat": 44.991,
+    "lon": 9.0075
+  },
+  {
+    "indirizzo abitazione": "Via Gramsci, 27058 Voghera PV",
+    "lat": 44.992,
+    "lon": 9.0085
+  },
+  {
+    "indirizzo abitazione": "Piazza Meardi, 27058 Voghera PV",
+    "lat": 44.99,
+    "lon": 9.0065
+  },
+  {
+    "indirizzo abitazione": "Via Matteotti, 27058 Voghera PV",
+    "lat": 44.993,
+    "lon": 9.0095
+  },
+  {
+    "indirizzo abitazione": "Corso Cairoli, 27036 Mortara PV",
+    "lat": 45.2462,
+    "lon": 8.7407
+  },
+  {
+    "indirizzo abitazione": "Via Silvabella, 27036 Mortara PV",
+    "lat": 45.2472,
+    "lon": 8.7417
+  },
+  {
+    "indirizzo abitazione": "Piazza San Lorenzo, 27036 Mortara PV",
+    "lat": 45.2452,
+    "lon": 8.7397
+  },
+  {
+    "indirizzo abitazione": "Via Lomellina, 27049 Stradella PV",
+    "lat": 45.07,
+    "lon": 9.3063
+  },
+  {
+    "indirizzo abitazione": "Corso Umberto I, 27049 Stradella PV",
+    "lat": 45.071,
+    "lon": 9.3073
+  },
+  {
+    "indirizzo abitazione": "Via Matteotti, 27043 Broni PV",
+    "lat": 45.0662,
+    "lon": 9.2662
+  },
+  {
+    "indirizzo abitazione": "Piazza Cesare Battisti, 27043 Broni PV",
+    "lat": 45.0672,
+    "lon": 9.2672
+  },
+  {
+    "indirizzo abitazione": "Via Emilia Pavese, 27043 Broni PV",
+    "lat": 45.0652,
+    "lon": 9.2652
+  },
+  {
+    "indirizzo abitazione": "Corso Milano, 27026 Garlasco PV",
+    "lat": 45.1965,
+    "lon": 8.922
+  },
+  {
+    "indirizzo abitazione": "Via Ticino, 27026 Garlasco PV",
+    "lat": 45.1975,
+    "lon": 8.923
+  },
+  {
+    "indirizzo abitazione": "Via Lomellina, 27025 Gambolò PV",
+    "lat": 45.2615,
+    "lon": 8.8577
+  },
+  {
+    "indirizzo abitazione": "Piazza della Vittoria, 27025 Gambolò PV",
+    "lat": 45.2625,
+    "lon": 8.8587
+  },
+  {
+    "indirizzo abitazione": "Via San Rocco, 27045 Casteggio PV",
+    "lat": 45.0037,
+    "lon": 9.1331
+  },
+  {
+    "indirizzo abitazione": "Piazza Municipio, 27045 Casteggio PV",
+    "lat": 45.0047,
+    "lon": 9.1341
+  },
+  {
+    "indirizzo abitazione": "Via Lomellina, 27020 Dorno PV",
+    "lat": 45.152,
+    "lon": 8.912
+  },
+  {
+    "indirizzo abitazione": "Piazza Libertà, 27020 Dorno PV",
+    "lat": 45.153,
+    "lon": 8.913
+  },
+  {
+    "indirizzo abitazione": "Via Roma, 27030 Villanova d'Ardenghi PV",
+    "lat": 45.282,
+    "lon": 8.782
+  },
+  {
+    "indirizzo abitazione": "Via Milano, 27031 Zinasco PV",
+    "lat": 45.082,
+    "lon": 8.952
+  },
+  {
+    "indirizzo abitazione": "Piazza della Chiesa, 27032 Cozzo PV",
+    "lat": 45.192,
+    "lon": 8.622
+  },
+  {
+    "indirizzo abitazione": "Via Roma, 27033 Cilavegna PV",
+    "lat": 45.292,
+    "lon": 8.772
+  },
+  {
+    "indirizzo abitazione": "Via Garibaldi, 27034 Sannazzaro de' Burgondi PV",
+    "lat": 45.082,
+    "lon": 8.892
+  },
+  {
+    "indirizzo abitazione": "Piazza Martiri, 27035 Mede PV",
+    "lat": 45.092,
+    "lon": 8.742
+  },
+  {
+    "indirizzo abitazione": "Via Roma, 27037 Robbio PV",
+    "lat": 45.242,
+    "lon": 8.612
+  },
+  {
+    "indirizzo abitazione": "Piazza Libertà, 27038 Vigevano PV",
+    "lat": 45.312,
+    "lon": 8.852
+  },
+  {
+    "indirizzo abitazione": "Via Milano, 27040 Borgo Priolo PV",
+    "lat": 44.922,
+    "lon": 9.272
+  },
+  {
+    "indirizzo abitazione": "Via Roma, 27041 Castana PV",
+    "lat": 44.932,
+    "lon": 9.282
+  },
+  {
+    "indirizzo abitazione": "Piazza della Chiesa, 27042 Godiasco Salice Terme PV",
+    "lat": 44.942,
+    "lon": 9.292
+  },
+  {
+    "indirizzo abitazione": "Via Garibaldi, 27044 Canneto Pavese PV",
+    "lat": 45.012,
+    "lon": 9.312
+  },
+  {
+    "indirizzo abitazione": "Via Roma, 27046 Santa Giuletta PV",
+    "lat": 45.022,
+    "lon": 9.222
+  },
+  {
+    "indirizzo abitazione": "Piazza Martiri, 27047 Santa Maria della Versa PV",
+    "lat": 45.032,
+    "lon": 9.232
+  },
+  {
+    "indirizzo abitazione": "Via Milano, 27048 Montescano PV",
+    "lat": 45.042,
+    "lon": 9.242
+  },
+  {
+    "indirizzo abitazione": "Via Roma, 27050 Pietra de' Giorgi PV",
+    "lat": 45.052,
+    "lon": 9.252
+  },
+  {
+    "indirizzo abitazione": "Piazza della Chiesa, 27051 Cava Manara PV",
+    "lat": 45.142,
+    "lon": 9.102
+  },
+  {
+    "indirizzo abitazione": "Via Garibaldi, 27052 Miradolo Terme PV",
+    "lat": 45.132,
+    "lon": 9.112
+  },
+  {
+    "indirizzo abitazione": "Via Roma, 27053 Chignolo Po PV",
+    "lat": 45.162,
+    "lon": 9.492
+  },
+  {
+    "indirizzo abitazione": "Piazza Libertà, 27054 Montù Beccaria PV",
+    "lat": 45.082,
+    "lon": 9.282
+  },
+  {
+    "indirizzo abitazione": "Via Milano, 27055 Rivanazzano Terme PV",
+    "lat": 44.912,
+    "lon": 9.012
+  },
+  {
+    "indirizzo abitazione": "Via Roma, 27056 Ponte Nizza PV",
+    "lat": 44.892,
+    "lon": 9.072
+  },
+  {
+    "indirizzo abitazione": "Piazza della Chiesa, 27057 Varzi PV",
+    "lat": 44.822,
+    "lon": 9.192
+  },
+  {
+    "indirizzo abitazione": "Via Europa, 20077 Melegnano MI",
+    "lat": 45.3665,
+    "lon": 9.3325
+  },
+  {
+    "indirizzo abitazione": "Corso San Martino, 20077 Melegnano MI",
+    "lat": 45.3675,
+    "lon": 9.3335
+  },
+  {
+    "indirizzo abitazione": "Via Zuavi, 20077 Melegnano MI",
+    "lat": 45.3655,
+    "lon": 9.3315
+  },
+  {
+    "indirizzo abitazione": "Piazza Garibaldi, 20077 Melegnano MI",
+    "lat": 45.3685,
+    "lon": 9.3345
+  },
+  {
+    "indirizzo abitazione": "Via Concordia, 20098 San Giuliano Milanese MI",
+    "lat": 45.3895,
+    "lon": 9.2895
+  },
+  {
+    "indirizzo abitazione": "Corso Europa, 20098 San Giuliano Milanese MI",
+    "lat": 45.3905,
+    "lon": 9.2905
+  },
+  {
+    "indirizzo abitazione": "Via Risorgimento, 20098 San Giuliano Milanese MI",
+    "lat": 45.3885,
+    "lon": 9.2885
+  },
+  {
+    "indirizzo abitazione": "Piazza della Vittoria, 20098 San Giuliano Milanese MI",
+    "lat": 45.3915,
+    "lon": 9.2915
+  },
+  {
+    "indirizzo abitazione": "Via Moro, 20067 Paullo MI",
+    "lat": 45.4145,
+    "lon": 9.3995
+  },
+  {
+    "indirizzo abitazione": "Piazza Europa, 20067 Paullo MI",
+    "lat": 45.4155,
+    "lon": 9.4005
+  },
+  {
+    "indirizzo abitazione": "Via Kennedy, 20067 Paullo MI",
+    "lat": 45.4135,
+    "lon": 9.3985
+  },
+  {
+    "indirizzo abitazione": "Via Milano, 20070 Vizzolo Predabissi MI",
+    "lat": 45.3551,
+    "lon": 9.3491
+  },
+  {
+    "indirizzo abitazione": "Piazza della Chiesa, 20070 Vizzolo Predabissi MI",
+    "lat": 45.3561,
+    "lon": 9.3501
+  },
+  {
+    "indirizzo abitazione": "Via Garibaldi, 20070 Cerro al Lambro MI",
+    "lat": 45.3395,
+    "lon": 9.3495
+  },
+  {
+    "indirizzo abitazione": "Piazza Libertà, 20070 Cerro al Lambro MI",
+    "lat": 45.3405,
+    "lon": 9.3505
+  },
+  {
+    "indirizzo abitazione": "Via Milano, 20070 Carpiano MI",
+    "lat": 45.3295,
+    "lon": 9.2795
+  },
+  {
+    "indirizzo abitazione": "Piazza Martiri, 20070 Carpiano MI",
+    "lat": 45.3305,
+    "lon": 9.2805
+  },
+  {
+    "indirizzo abitazione": "Via Garibaldi, 20070 Dresano MI",
+    "lat": 45.3495,
+    "lon": 9.3795
+  },
+  {
+    "indirizzo abitazione": "Piazza della Chiesa, 20070 Dresano MI",
+    "lat": 45.3505,
+    "lon": 9.3805
+  },
+  {
+    "indirizzo abitazione": "Via Milano, 20070 Colturano MI",
+    "lat": 45.3395,
+    "lon": 9.3595
+  },
+  {
+    "indirizzo abitazione": "Via Garibaldi, 20070 Tribiano MI",
+    "lat": 45.4195,
+    "lon": 9.3995
+  },
+  {
+    "indirizzo abitazione": "Piazza Libertà, 20070 Tribiano MI",
+    "lat": 45.4205,
+    "lon": 9.4005
+  },
+  {
+    "indirizzo abitazione": "Via Milano, 20070 Settala MI",
+    "lat": 45.4595,
+    "lon": 9.3795
+  },
+  {
+    "indirizzo abitazione": "Piazza della Chiesa, 20070 Settala MI",
+    "lat": 45.4605,
+    "lon": 9.3805
+  },
+  {
+    "indirizzo abitazione": "Via Garibaldi, 20070 Mediglia MI",
+    "lat": 45.4195,
+    "lon": 9.3495
+  },
+  {
+    "indirizzo abitazione": "Piazza Martiri, 20070 Mediglia MI",
+    "lat": 45.4205,
+    "lon": 9.3505
+  },
+  {
+    "indirizzo abitazione": "Via Milano, 20060 Gessate MI",
+    "lat": 45.5695,
+    "lon": 9.4495
+  },
+  {
+    "indirizzo abitazione": "Piazza della Chiesa, 20060 Gessate MI",
+    "lat": 45.5705,
+    "lon": 9.4505
+  },
+  {
+    "indirizzo abitazione": "Via Roma, 20060 Bussero MI",
+    "lat": 45.5295,
+    "lon": 9.3895
+  },
+  {
+    "indirizzo abitazione": "Piazza Libertà, 20060 Bussero MI",
+    "lat": 45.5305,
+    "lon": 9.3905
+  },
+  {
+    "indirizzo abitazione": "Via Roma, 20060 Cassina de' Pecchi MI",
+    "lat": 45.5195,
+    "lon": 9.3695
+  },
+  {
+    "indirizzo abitazione": "Piazza della Chiesa, 20060 Cassina de' Pecchi MI",
+    "lat": 45.5205,
+    "lon": 9.3705
+  },
+  {
+    "indirizzo abitazione": "Via Milano, 20060 Pessano con Bornago MI",
+    "lat": 45.5395,
+    "lon": 9.3995
+  },
+  {
+    "indirizzo abitazione": "Piazza Martiri, 20060 Pessano con Bornago MI",
+    "lat": 45.5405,
+    "lon": 9.4005
+  },
+  {
+    "indirizzo abitazione": "Via Roma, 20060 Cambiago MI",
+    "lat": 45.5695,
+    "lon": 9.4295
+  },
+  {
+    "indirizzo abitazione": "Piazza della Chiesa, 20060 Cambiago MI",
+    "lat": 45.5705,
+    "lon": 9.4305
+  },
+  {
+    "indirizzo abitazione": "Via Milano, 20060 Bellinzago Lombardo MI",
+    "lat": 45.5495,
+    "lon": 9.4195
+  },
+  {
+    "indirizzo abitazione": "Piazza Libertà, 20060 Bellinzago Lombardo MI",
+    "lat": 45.5505,
+    "lon": 9.4205
+  },
+  {
+    "indirizzo abitazione": "Via Garibaldi, 20060 Pozzo d'Adda MI",
+    "lat": 45.5695,
+    "lon": 9.4695
+  },
+  {
+    "indirizzo abitazione": "Piazza della Chiesa, 20060 Pozzo d'Adda MI",
+    "lat": 45.5705,
+    "lon": 9.4705
+  },
+  {
+    "indirizzo abitazione": "Via Milano, 20060 Masate MI",
+    "lat": 45.5699,
+    "lon": 9.4633
+  },
+  {
+    "indirizzo abitazione": "Piazza Libertà, 20060 Masate MI",
+    "lat": 45.5709,
+    "lon": 9.4643
+  },
+  {
+    "indirizzo abitazione": "Via Roma, 20060 Grezzago MI",
+    "lat": 45.5795,
+    "lon": 9.4795
+  },
+  {
+    "indirizzo abitazione": "Piazza della Chiesa, 20060 Grezzago MI",
+    "lat": 45.5805,
+    "lon": 9.4805
+  },
+  {
+    "indirizzo abitazione": "Via Milano, 20060 Basiano MI",
+    "lat": 45.5895,
+    "lon": 9.4895
+  },
+  {
+    "indirizzo abitazione": "Piazza Martiri, 20060 Basiano MI",
+    "lat": 45.5905,
+    "lon": 9.4905
+  },
+  {
+    "indirizzo abitazione": "Via Roma, 20060 Truccazzano MI",
+    "lat": 45.4995,
+    "lon": 9.4295
+  },
+  {
+    "indirizzo abitazione": "Piazza della Chiesa, 20060 Truccazzano MI",
+    "lat": 45.5005,
+    "lon": 9.4305
+  },
+  {
+    "indirizzo abitazione": "Via Milano, 20060 Liscate MI",
+    "lat": 45.4795,
+    "lon": 9.4195
+  },
+  {
+    "indirizzo abitazione": "Piazza Libertà, 20060 Liscate MI",
+    "lat": 45.4805,
+    "lon": 9.4205
+  },
+  {
+    "indirizzo abitazione": "Via Roma, 20060 Vignate MI",
+    "lat": 45.4895,
+    "lon": 9.3995
+  },
+  {
+    "indirizzo abitazione": "Piazza della Chiesa, 20060 Vignate MI",
+    "lat": 45.4905,
+    "lon": 9.4005
+  },
+  {
+    "indirizzo abitazione": "Via Milano, 20060 Rodano MI",
+    "lat": 45.4595,
+    "lon": 9.3895
+  },
+  {
+    "indirizzo abitazione": "Piazza Martiri, 20060 Rodano MI",
+    "lat": 45.4605,
+    "lon": 9.3905
+  },
+  {
+    "indirizzo abitazione": "Via Roma, 20060 Pozzuolo Martesana MI",
+    "lat": 45.4495,
+    "lon": 9.3795
+  },
+  {
+    "indirizzo abitazione": "Piazza della Chiesa, 20060 Pozzuolo Martesana MI",
+    "lat": 45.4505,
+    "lon": 9.3805
+  },
+  {
+    "Impianto lavorativo ": "Polo Industriale Lodi, Via dell'Industria, 26900 Lodi LO",
+    "lat": 45.3025,
+    "lon": 9.5145
+  },
+  {
+    "Impianto lavorativo ": "Stabilimento Codogno, Via Lombardia, 26845 Codogno LO",
+    "lat": 45.1535,
+    "lon": 9.7115
+  },
+  {
+    "Impianto lavorativo ": "Zona Industriale Crema, Via Bergamo, 26013 Crema CR",
+    "lat": 45.3555,
+    "lon": 9.6915
+  },
+  {
+    "Impianto lavorativo ": "Polo Logistico Casalmaggiore, Via Emilia, 26041 Casalmaggiore CR",
+    "lat": 44.9835,
+    "lon": 10.4295
+  },
+  {
+    "Impianto lavorativo ": "Stabilimento Soresina, Via Milano, 26015 Soresina CR",
+    "lat": 45.2785,
+    "lon": 9.8645
+  },
+  {
+    "Impianto lavorativo ": "Zona Industriale Suzzara, Via dell'Industria, 46029 Suzzara MN",
+    "lat": 44.9855,
+    "lon": 10.7575
+  },
+  {
+    "Impianto lavorativo ": "Polo Logistico Viadana, Via Po, 46019 Viadana MN",
+    "lat": 44.9105,
+    "lon": 10.5245
+  },
+  {
+    "Impianto lavorativo ": "Stabilimento Castiglione, Via Brescia, 46043 Castiglione delle Stiviere MN",
+    "lat": 45.3835,
+    "lon": 10.4935
+  },
+  {
+    "Impianto lavorativo ": "Zona Industriale Vigevano, Via Torino, 27029 Vigevano PV",
+    "lat": 45.3055,
+    "lon": 8.8435
+  },
+  {
+    "Impianto lavorativo ": "Stabilimento Voghera, Via Milano, 27058 Voghera PV",
+    "lat": 44.9855,
+    "lon": 9.0155
+  },
+  {
+    "Impianto lavorativo ": "Polo Tecnologico Mortara, Via Roma, 27036 Mortara PV",
+    "lat": 45.2395,
+    "lon": 8.7315
+  },
+  {
+    "RSA ": "RSA Lodi Centro, Via Cavour, 26900 Lodi LO",
+    "lat": 45.3085,
+    "lon": 9.5085
+  },
+  {
+    "RSA ": "RSA Codogno, Via Roma, 26845 Codogno LO",
+    "lat": 45.1545,
+    "lon": 9.7125
+  },
+  {
+    "RSA ": "RSA Sant'Angelo, Via Milano, 26866 Sant'Angelo Lodigiano LO",
+    "lat": 45.2315,
+    "lon": 9.4215
+  },
+  {
+    "RSA ": "RSA Crema, Via Garibaldi, 26013 Crema CR",
+    "lat": 45.3545,
+    "lon": 9.6785
+  },
+  {
+    "RSA ": "RSA Casalmaggiore, Via Cavour, 26041 Casalmaggiore CR",
+    "lat": 44.9845,
+    "lon": 10.4185
+  },
+  {
+    "RSA ": "RSA Soresina, Via Roma, 26015 Soresina CR",
+    "lat": 45.2795,
+    "lon": 9.8555
+  },
+  {
+    "RSA ": "RSA Suzzara, Via Milano, 46029 Suzzara MN",
+    "lat": 44.9865,
+    "lon": 10.7485
+  },
+  {
+    "RSA ": "RSA Viadana, Via Ospedale Vecchio, 18, 46019 Viadana MN",
+    "lat": 44.9299483,
+    "lon": 10.5219862
+  },
+  {
+    "RSA ": "RSA Castiglione, Via Roma, 46043 Castiglione delle Stiviere MN",
+    "lat": 45.3845,
+    "lon": 10.4845
+  },
+  {
+    "RSA ": "RSA Vigevano, Via Milano, 27029 Vigevano PV",
+    "lat": 45.3085,
+    "lon": 8.8485
+  },
+  {
+    "RSA ": "RSA Voghera, Via Garibaldi, 27058 Voghera PV",
+    "lat": 44.9865,
+    "lon": 9.0065
+  },
+  {
+    "RSA ": "RSA Mortara, Via Roma, 27036 Mortara PV",
+    "lat": 45.2415,
+    "lon": 8.7385
+  },
+  {
+    "RSA ": "RSA Stradella, Via Milano, 27049 Stradella PV",
+    "lat": 45.0645,
+    "lon": 9.3045
+  },
+  {
+    "RSA ": "RSA Broni, Via Garibaldi, 27043 Broni PV",
+    "lat": 45.0615,
+    "lon": 9.2645
+  },
+  {
+    "RSA ": "RSA Melegnano, Via Roma, 20077 Melegnano MI",
+    "lat": 45.3615,
+    "lon": 9.3285
+  },
+  {
+    "RSA ": "RSA San Giuliano, Via Milano, 20098 San Giuliano Milanese MI",
+    "lat": 45.3855,
+    "lon": 9.2855
+  },
+  {
+    "RSA ": "RSA Paullo, Via Garibaldi, 20067 Paullo MI",
+    "lat": 45.4085,
+    "lon": 9.3955
+  },
+  {
+    "Scuola ": "ISS Lodi, Via Cavour, 26900 Lodi LO",
+    "lat": 45.3075,
+    "lon": 9.5075
+  },
+  {
+    "Scuola ": "ISS Codogno, Via Roma, 26845 Codogno LO",
+    "lat": 45.1555,
+    "lon": 9.7135
+  },
+  {
+    "Scuola ": "ISS Sant'Angelo, Via Milano, 26866 Sant'Angelo Lodigiano LO",
+    "lat": 45.2325,
+    "lon": 9.4225
+  },
+  {
+    "Scuola ": "ISS Crema, Via Garibaldi, 26013 Crema CR",
+    "lat": 45.3555,
+    "lon": 9.6795
+  },
+  {
+    "Scuola ": "ISS Casalmaggiore, Via Cavour, 26041 Casalmaggiore CR",
+    "lat": 44.9855,
+    "lon": 10.4195
+  },
+  {
+    "Scuola ": "ISS Soresina, Via Roma, 26015 Soresina CR",
+    "lat": 45.2805,
+    "lon": 9.8565
+  },
+  {
+    "Scuola ": "ISS Suzzara, Via Milano, 46029 Suzzara MN",
+    "lat": 44.9875,
+    "lon": 10.7495
+  },
+  {
+    "Scuola ": "ISS Viadana, Via Garibaldi, 46019 Viadana MN",
+    "lat": 44.9125,
+    "lon": 10.5165
+  },
+  {
+    "Scuola ": "ISS Castiglione, Via Roma, 46043 Castiglione delle Stiviere MN",
+    "lat": 45.3855,
+    "lon": 10.4855
+  },
+  {
+    "Scuola ": "ISS Vigevano, Via Milano, 27029 Vigevano PV",
+    "lat": 45.3095,
+    "lon": 8.8495
+  },
+  {
+    "Scuola ": "ISS Voghera, Via Garibaldi, 27058 Voghera PV",
+    "lat": 44.9875,
+    "lon": 9.0075
+  },
+  {
+    "Scuola ": "ISS Mortara, Via Roma, 27036 Mortara PV",
+    "lat": 45.2425,
+    "lon": 8.7395
+  },
+  {
+    "Scuola ": "ISS Stradella, Via Milano, 27049 Stradella PV",
+    "lat": 45.0655,
+    "lon": 9.3055
+  },
+  {
+    "Scuola ": "ISS Broni, Via Garibaldi, 27043 Broni PV",
+    "lat": 45.0625,
+    "lon": 9.2655
+  },
+  {
+    "Scuola ": "ISS Melegnano, Via Roma, 20077 Melegnano MI",
+    "lat": 45.3625,
+    "lon": 9.3295
+  },
+  {
+    "Scuola ": "ISS Paullo, Via Garibaldi, 20067 Paullo MI",
+    "lat": 45.4095,
+    "lon": 9.3965
+  },
+  {
+    "Impianto sportivo ": "Centro Sportivo Codogno - Via dello Sport, 26845 Codogno LO",
+    "lat": 45.1515,
+    "lon": 9.7095
+  },
+  {
+    "Impianto sportivo ": "Centro Sportivo Sant'Angelo - Via Milano, 26866 Sant'Angelo Lodigiano LO",
+    "lat": 45.2285,
+    "lon": 9.4185
+  },
+  {
+    "Impianto sportivo ": "Centro Sportivo Crema - Via Garibaldi, 26013 Crema CR",
+    "lat": 45.3515,
+    "lon": 9.6755
+  },
+  {
+    "Impianto sportivo ": "Centro Sportivo Casalmaggiore - Via Po, 26041 Casalmaggiore CR",
+    "lat": 44.9815,
+    "lon": 10.4155
+  },
+  {
+    "Impianto sportivo ": "Centro Sportivo Soresina - Via Roma, 26015 Soresina CR",
+    "lat": 45.2765,
+    "lon": 9.8525
+  },
+  {
+    "Impianto sportivo ": "Centro Sportivo Suzzara - Via Milano, 46029 Suzzara MN",
+    "lat": 44.9835,
+    "lon": 10.7455
+  },
+  {
+    "Impianto sportivo ": "Centro Sportivo Viadana - Via Po, 46019 Viadana MN",
+    "lat": 44.9085,
+    "lon": 10.5125
+  },
+  {
+    "Impianto sportivo ": "Centro Sportivo Castiglione - Via Brescia, 46043 Castiglione delle Stiviere MN",
+    "lat": 45.3815,
+    "lon": 10.4815
+  },
+  {
+    "Impianto sportivo ": "Centro Sportivo Vigevano - Via Torino, 27029 Vigevano PV",
+    "lat": 45.3015,
+    "lon": 8.8415
+  },
+  {
+    "Impianto sportivo ": "Centro Sportivo Voghera - Via Milano, 27058 Voghera PV",
+    "lat": 44.9835,
+    "lon": 9.0035
+  },
+  {
+    "Impianto sportivo ": "Centro Sportivo Mortara - Via Roma, 27036 Mortara PV",
+    "lat": 45.2375,
+    "lon": 8.7355
+  },
+  {
+    "Impianto sportivo ": "Centro Sportivo Stradella - Via Milano, 27049 Stradella PV",
+    "lat": 45.0615,
+    "lon": 9.3015
+  },
+  {
+    "Impianto sportivo ": "Centro Sportivo Broni - Via Garibaldi, 27043 Broni PV",
+    "lat": 45.0585,
+    "lon": 9.2615
+  },
+  {
+    "Impianto sportivo ": "Centro Sportivo Melegnano - Via Roma, 20077 Melegnano MI",
+    "lat": 45.3585,
+    "lon": 9.3255
+  },
+  {
+    "Impianto sportivo ": "Centro Sportivo San Giuliano - Via Milano, 20098 San Giuliano Milanese MI",
+    "lat": 45.3815,
+    "lon": 9.2815
+  },
+  {
+    "Impianto sportivo ": "Centro Sportivo Paullo - Via Garibaldi, 20067 Paullo MI",
+    "lat": 45.4055,
+    "lon": 9.3925
+  },
+  {
+    "Strada ": "A1 MI-BO km 45 - 20077 Melegnano MI",
+    "lat": 45.3545,
+    "lon": 9.3215
+  },
+  {
+    "Strada ": "SS9 Via Emilia km 35 - 26900 Lodi LO",
+    "lat": 45.3045,
+    "lon": 9.5045
+  },
+  {
+    "Strada ": "A21 TO-BS km 180 - 26013 Crema CR",
+    "lat": 45.3475,
+    "lon": 9.6715
+  },
+  {
+    "Strada ": "SS10 Padana Inferiore km 220 - 46100 Mantova MN",
+    "lat": 45.1475,
+    "lon": 10.7875
+  },
+  {
+    "Strada ": "A7 MI-GE km 35 - 27058 Voghera PV",
+    "lat": 45.0074363,
+    "lon": 8.9881451
+  },
+  {
+    "Strada ": "SS35 dei Giovi km 25 - 27029 Vigevano PV",
+    "lat": 45.2975,
+    "lon": 8.8375
+  },
+  {
+    "Strada ": "A4 MI-VE km 145 - 20098 San Giuliano Milanese MI",
+    "lat": 45.3775,
+    "lon": 9.2775
+  },
+  {
+    "Strada ": "SS415 Paullese km 15 - 20067 Paullo MI",
+    "lat": 45.4015,
+    "lon": 9.3885
+  },
+  {
+    "Strada ": "SS234 Codognese km 8 - 26845 Codogno LO",
+    "lat": 45.1475,
+    "lon": 9.7075
+  },
+  {
+    "Strada ": "A22 BR-MO km 5 - 46041 Asola MN",
+    "lat": 45.2095,
+    "lon": 10.4095
+  },
+  {
+    "Pronto Soccorso ": "H Lodi, Lodi - 26900 LO",
+    "lat": 45.3055,
+    "lon": 9.5055
+  },
+  {
+    "Pronto Soccorso ": "H Crema, Crema - 26013 CR",
+    "lat": 45.3525,
+    "lon": 9.6765
+  },
+  {
+    "Pronto Soccorso ": "H Suzzara, Suzzara - 46029 MN",
+    "lat": 44.9845,
+    "lon": 10.7465
+  },
+  {
+    "Pronto Soccorso ": "H Vigevano, Vigevano - 27029 PV",
+    "lat": 45.3065,
+    "lon": 8.8465
+  },
+  {
+    "Pronto Soccorso ": "H Voghera, Voghera - 27058 PV",
+    "lat": 44.9845,
+    "lon": 9.0045
+  },
+  {
+    "Pronto Soccorso ": "H Mortara, Mortara - 27036 PV",
+    "lat": 45.2385,
+    "lon": 8.7365
+  },
+  {
+    "Pronto Soccorso ": "H Broni, Broni - 27043 PV",
+    "lat": 45.0595,
+    "lon": 9.2625
+  },
+  {
+    "Pronto Soccorso ": "H Melegnano, Melegnano - 20077 MI",
+    "lat": 45.3595,
+    "lon": 9.3265
+  }
+]

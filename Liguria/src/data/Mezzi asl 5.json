@@ -1,0 +1,371 @@
+[
+ {
+  "Nome Postazione": "Croce Azzurra Bonassola",
+  "Coordinate Postazione": "44.182456,9.584548",
+  "Mezzo": "MSB",
+  "Nome radio": "5-373",
+  "Convenzione": "H24",
+  "Orario di lavoro": "00:00-00:00",
+  "Giorni": "LUN-DOM"
+ },
+ {
+  "Nome Postazione": "Croce Azzurra Brugnato",
+  "Coordinate Postazione": "44.238709,9.733706",
+  "Mezzo": "MSB",
+  "Nome radio": "5-064 ",
+  "Convenzione": "H24",
+  "Orario di lavoro": "00:00-00:00",
+  "Giorni": "LUN-DOM"
+ },
+ {
+  "Nome Postazione": "Croce Azzurra Brugnato",
+  "Coordinate Postazione": "44.238709,9.733706",
+  "Mezzo": "MSA2",
+  "Nome radio": "DELTA 3",
+  "Convenzione": "H24",
+  "Orario di lavoro": "00:00-00:00",
+  "Giorni": "LUN-DOM"
+ },
+ {
+  "Nome Postazione": "Croce Bianca - Beverino",
+  "Coordinate Postazione": "44.188958,9.787119",
+  "Mezzo": "MSB",
+  "Nome radio": "5-036",
+  "Convenzione": "H24",
+  "Orario di lavoro": "00:00-00:00",
+  "Giorni": "LUN-DOM"
+ },
+ {
+  "Nome Postazione": "Croce Bianca - Le Grazie",
+  "Coordinate Postazione": "44.067714,9.833137",
+  "Mezzo": "MSB",
+  "Nome radio": "5-612 ",
+  "Convenzione": "H24",
+  "Orario di lavoro": "00:00-00:00",
+  "Giorni": "LUN-DOM"
+ },
+ {
+  "Nome Postazione": "Croce Bianca - Monterosso",
+  "Coordinate Postazione": "44.147319,9.653241",
+  "Mezzo": "MSB",
+  "Nome radio": "5-863 ",
+  "Convenzione": "H24",
+  "Orario di lavoro": "00:00-00:00",
+  "Giorni": "LUN-DOM"
+ },
+ {
+  "Nome Postazione": "Croce Bianca - Portovenere",
+  "Coordinate Postazione": "44.051961,9.83541",
+  "Mezzo": "MSB",
+  "Nome radio": "5-604",
+  "Convenzione": "H24",
+  "Orario di lavoro": "00:00-00:00",
+  "Giorni": "LUN-DOM"
+ },
+ {
+  "Nome Postazione": "Croce Bianca - Riomaggiore",
+  "Coordinate Postazione": "44.100111,9.739922",
+  "Mezzo": "MSB",
+  "Nome radio": "5-863",
+  "Convenzione": "H24",
+  "Orario di lavoro": "00:00-00:00",
+  "Giorni": "LUN-DOM"
+ },
+ {
+  "Nome Postazione": "Croce Bianca - Santo Stefano di Magra",
+  "Coordinate Postazione": "44.162595,9.914109",
+  "Mezzo": "MSB",
+  "Nome radio": "5-803 ",
+  "Convenzione": "H24",
+  "Orario di lavoro": "00:00-00:00",
+  "Giorni": "LUN-DOM"
+ },
+ {
+  "Nome Postazione": "Croce D Oro Deivese",
+  "Coordinate Postazione": "44.218876,9.520127",
+  "Mezzo": "MSB",
+  "Nome radio": "5-293 ",
+  "Convenzione": "H24",
+  "Orario di lavoro": "00:00-00:00",
+  "Giorni": "LUN-DOM"
+ },
+ {
+  "Nome Postazione": "Croce Gialla La Spezia",
+  "Coordinate Postazione": "44.124008,9.853809",
+  "Mezzo": "MSB",
+  "Nome radio": "5-265",
+  "Convenzione": "H24",
+  "Orario di lavoro": "00:00-00:00",
+  "Giorni": "LUN-DOM"
+ },
+ {
+  "Nome Postazione": "Croce Rossa Italiana - Ameglia",
+  "Coordinate Postazione": "44.050202,9.990344",
+  "Mezzo": "MSB",
+  "Nome radio": "5-022 ",
+  "Convenzione": "H24",
+  "Orario di lavoro": "00:00-00:00",
+  "Giorni": "LUN-DOM"
+ },
+ {
+  "Nome Postazione": "Croce Rossa Italiana - Cornovoglio",
+  "Coordinate Postazione": "44.243166,9.836515",
+  "Mezzo": "MSB",
+  "Nome radio": "5-137",
+  "Convenzione": "H24",
+  "Orario di lavoro": "00:00-00:00",
+  "Giorni": "LUN-DOM"
+ },
+ {
+  "Nome Postazione": "Croce Rossa Italiana - Fezzano",
+  "Coordinate Postazione": "44.079652,9.826316",
+  "Mezzo": "MSB",
+  "Nome radio": "5-136 ",
+  "Convenzione": "H12",
+  "Orario di lavoro": "7:00-19:00",
+  "Giorni": "LUN-DOM"
+ },
+ {
+  "Nome Postazione": "Croce Rossa Italiana - Follo",
+  "Coordinate Postazione": "44.164756,9.861205",
+  "Mezzo": "MSB",
+  "Nome radio": "5-085 ",
+  "Convenzione": "H12",
+  "Orario di lavoro": "20:00-8:00",
+  "Giorni": "VEN-DOM"
+ },
+ {
+  "Nome Postazione": "Croce Rossa Italiana - Fezzano",
+  "Coordinate Postazione": "44.079652,9.826316",
+  "Mezzo": "MSB",
+  "Nome radio": "5-136 ",
+  "Convenzione": "H24",
+  "Orario di lavoro": "19:00-7:00",
+  "Giorni": "VEN-DOM"
+ },
+ {
+  "Nome Postazione": "Croce Rossa Italiana - La Spezia",
+  "Coordinate Postazione": "44.117877,9.802771",
+  "Mezzo": "MSB",
+  "Nome radio": "5-134 ",
+  "Convenzione": "H24",
+  "Orario di lavoro": "00:00-00:00",
+  "Giorni": "LUN-DOM"
+ },
+ {
+  "Nome Postazione": "Croce Rossa Italiana - La Spezia",
+  "Coordinate Postazione": "44.117877,9.802771",
+  "Mezzo": "MSB",
+  "Nome radio": "5-139",
+  "Convenzione": "H12",
+  "Orario di lavoro": "8:00-20:00",
+  "Giorni": "LUN-DOM"
+ },
+ {
+  "Nome Postazione": "Croce Rossa Italiana - Levanto",
+  "Coordinate Postazione": "44.170657,9.608376",
+  "Mezzo": "MSB",
+  "Nome radio": "5-442",
+  "Convenzione": "H24",
+  "Orario di lavoro": "00:00-00:00",
+  "Giorni": "LUN-DOM"
+ },
+ {
+  "Nome Postazione": "Croce Rossa Italiana - Muggiano",
+  "Coordinate Postazione": "44.089114,9.87935",
+  "Mezzo": "MSB",
+  "Nome radio": "5-222",
+  "Convenzione": "H24",
+  "Orario di lavoro": "00:00-00:00",
+  "Giorni": "LUN-DOM"
+ },
+ {
+  "Nome Postazione": "Croce Rossa Italiana - Ricco",
+  "Coordinate Postazione": "44.155501,9.763074",
+  "Mezzo": "MSB",
+  "Nome radio": "5-243",
+  "Convenzione": "H24",
+  "Orario di lavoro": "00:00-00:00",
+  "Giorni": "LUN-DOM"
+ },
+ {
+  "Nome Postazione": "Croce Rossa Italiana - Sesta Godano",
+  "Coordinate Postazione": "44.292175,9.674022",
+  "Mezzo": "MSB",
+  "Nome radio": "5-332",
+  "Convenzione": "H24",
+  "Orario di lavoro": "00:00-00:00",
+  "Giorni": "LUN-DOM"
+ },
+ {
+  "Nome Postazione": "Croce Verde - Arcola",
+  "Coordinate Postazione": "44.115952,9.907616",
+  "Mezzo": "MSB",
+  "Nome radio": "5-701",
+  "Convenzione": "H24",
+  "Orario di lavoro": "00:00-00:00",
+  "Giorni": "LUN-DOM"
+ },
+ {
+  "Nome Postazione": "Croce Verde - Borghetto",
+  "Coordinate Postazione": "44.223782,9.721532",
+  "Mezzo": "MSB",
+  "Nome radio": "5-003 ",
+  "Convenzione": "H24",
+  "Orario di lavoro": "00:00-00:00",
+  "Giorni": "LUN-DOM"
+ },
+ {
+  "Nome Postazione": "Croce Verde - Levanto",
+  "Coordinate Postazione": "44.167796,9.611259",
+  "Mezzo": "MSB",
+  "Nome radio": "5-670",
+  "Convenzione": "H12",
+  "Orario di lavoro": "8:00-20:00",
+  "Giorni": "LUN-DOM"
+ },
+ {
+  "Nome Postazione": "Croce Verde - Levanto",
+  "Coordinate Postazione": "44.167796,9.611259",
+  "Mezzo": "MSB",
+  "Nome radio": "5-670",
+  "Convenzione": "H24",
+  "Orario di lavoro": "20:00-8:00",
+  "Giorni": "VEN-SAB"
+ },
+ {
+  "Nome Postazione": "Croce Verde - Pignone",
+  "Coordinate Postazione": "44.178778,9.724092",
+  "Mezzo": "MSB",
+  "Nome radio": "5-681",
+  "Convenzione": "H24",
+  "Orario di lavoro": "00:00-00:00",
+  "Giorni": "LUN-DOM"
+ },
+ {
+  "Nome Postazione": "Croce Verde - Vernazza",
+  "Coordinate Postazione": "44.135125,9.685036",
+  "Mezzo": "MSB",
+  "Nome radio": "5-691",
+  "Convenzione": "H24",
+  "Orario di lavoro": "00:00-00:00",
+  "Giorni": "LUN-DOM"
+ },
+ {
+  "Nome Postazione": "Misericordia Sarzana",
+  "Coordinate Postazione": "44.11465,9.96121",
+  "Mezzo": "MSB",
+  "Nome radio": "5-771",
+  "Convenzione": "H24",
+  "Orario di lavoro": "00:00-00:00",
+  "Giorni": "LUN-DOM"
+ },
+ {
+  "Nome Postazione": "Postazione Autoinfermieristica - Levanto",
+  "Coordinate Postazione": "44.1762637,9.619435",
+  "Mezzo": "MSA1",
+  "Nome radio": "INDIA 2",
+  "Convenzione": "H12",
+  "Orario di lavoro": "8:00-20:00",
+  "Giorni": "LUN-DOM"
+ },
+ {
+  "Nome Postazione": "Postazione Automedica - La Spezia",
+  "Coordinate Postazione": "44.111755,9.830017",
+  "Mezzo": "MSA2",
+  "Nome radio": "DELTA 1",
+  "Convenzione": "H24",
+  "Orario di lavoro": "00:00-00:00",
+  "Giorni": "LUN-DOM"
+ },
+ {
+  "Nome Postazione": "Postazione Automedica - Sarzana",
+  "Coordinate Postazione": "44.121236,9.949916",
+  "Mezzo": "MSA2",
+  "Nome radio": "DELTA 2",
+  "Convenzione": "H24",
+  "Orario di lavoro": "00:00-00:00",
+  "Giorni": "LUN-DOM"
+ },
+ {
+  "Nome Postazione": "Pubblica Assistenza Ceparana",
+  "Coordinate Postazione": "44.167379,9.883383",
+  "Mezzo": "MSB",
+  "Nome radio": "5-205 ",
+  "Convenzione": "H10",
+  "Orario di lavoro": "21:00-7:00",
+  "Giorni": "GIO-DOM"
+ },
+ {
+  "Nome Postazione": "Pubblica Assistenza Framura",
+  "Coordinate Postazione": "44.210058,9.55597",
+  "Mezzo": "MSB",
+  "Nome radio": "5-420",
+  "Convenzione": "H24",
+  "Orario di lavoro": "00:00-00:00",
+  "Giorni": "LUN-DOM"
+ },
+ {
+  "Nome Postazione": "Pubblica Assistenza Humanitas Romito Magra",
+  "Coordinate Postazione": "44.100314,9.933687",
+  "Mezzo": "MSB",
+  "Nome radio": "5-735",
+  "Convenzione": "H24",
+  "Orario di lavoro": "00:00-00:00",
+  "Giorni": "LUN-DOM"
+ },
+ {
+  "Nome Postazione": "Pubblica Assistenza La Spezia",
+  "Coordinate Postazione": "44.114094,9.839947",
+  "Mezzo": "MSB",
+  "Nome radio": "5-392",
+  "Convenzione": "H24",
+  "Orario di lavoro": "00:00-00:00",
+  "Giorni": "LUN-DOM"
+ },
+ {
+  "Nome Postazione": "Pubblica Assistenza Lerici",
+  "Coordinate Postazione": "44.075889,9.913965",
+  "Mezzo": "MSB",
+  "Nome radio": "5-351",
+  "Convenzione": "H24",
+  "Orario di lavoro": "00:00-00:00",
+  "Giorni": "LUN-DOM"
+ },
+ {
+  "Nome Postazione": "Pubblica Assistenza Luni",
+  "Coordinate Postazione": "44.067494,10.028887",
+  "Mezzo": "MSB",
+  "Nome radio": "5-092",
+  "Convenzione": "H24",
+  "Orario di lavoro": "00:00-00:00",
+  "Giorni": "LUN-DOM"
+ },
+ {
+  "Nome Postazione": "Pubblica Assistenza Pitelli",
+  "Coordinate Postazione": "44.095516,9.883422",
+  "Mezzo": "MSB",
+  "Nome radio": "5-572 ",
+  "Convenzione": "H24",
+  "Orario di lavoro": "00:00-00:00",
+  "Giorni": "LUN-DOM"
+ },
+ {
+  "Nome Postazione": "Pubblica Assistenza Vezzano",
+  "Coordinate Postazione": "44.135971,9.898713",
+  "Mezzo": "MSB",
+  "Nome radio": "5-822",
+  "Convenzione": "H12",
+  "Orario di lavoro": "8:00-20:00",
+  "Giorni": "LUN-DOM"
+ },
+ {
+  "Nome Postazione": "Pubblica Assistenza Vezzano",
+  "Coordinate Postazione": "44.135971,9.898713",
+  "Mezzo": "MSB",
+  "Nome radio": "5-822",
+  "Convenzione": "H24",
+  "Orario di lavoro": "20:00-8:00",
+  "Giorni": "SAB-DOM"
+ }
+]
