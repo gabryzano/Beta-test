@@ -1,0 +1,325 @@
+[
+  {
+    "ospedale": "POLICLINICO BARI",
+    "coordinate": {
+      "lat": 41.1131465,
+      "lon": 16.8576234
+    },
+    "numero_pazienti_max": 80,
+    "classe": "EAS",
+    "punto_nascita": true,
+    "pediatria": true,
+    "trauma": "CTS",
+    "emodinamica": true,
+    "stroke_unit": true,
+    "nch": true,
+    "rianimazione": true,
+    "psichiatria": true,
+    "lat": 41.269191,
+    "lon": 16.695391
+  },
+  {
+    "ospedale": "H DI VENERE",
+    "coordinate": {
+      "lat": 41.07623,
+      "lon": 16.8629206
+    },
+    "numero_pazienti_max": 50,
+    "classe": "DEA",
+    "punto_nascita": true,
+    "pediatria": true,
+    "trauma": "CTZ",
+    "emodinamica": false,
+    "stroke_unit": true,
+    "nch": false,
+    "rianimazione": true,
+    "psichiatria": false,
+    "lat": 41.054646,
+    "lon": 16.591489
+  },
+  {
+    "ospedale": "H SAN PAOLO",
+    "coordinate": {
+      "lat": 41.1194771,
+      "lon": 16.7818056
+    },
+    "numero_pazienti_max": 50,
+    "classe": "DEA",
+    "punto_nascita": true,
+    "pediatria": true,
+    "trauma": "CTZ",
+    "emodinamica": true,
+    "stroke_unit": false,
+    "nch": false,
+    "rianimazione": true,
+    "psichiatria": true,
+    "lat": 40.975406,
+    "lon": 16.590466
+  },
+  {
+    "ospedale": "H ALTAMURA",
+    "coordinate": {
+      "lat": 40.8197542,
+      "lon": 16.4702676
+    },
+    "numero_pazienti_max": 30,
+    "classe": "DEA",
+    "punto_nascita": true,
+    "pediatria": true,
+    "trauma": "CTZ",
+    "emodinamica": false,
+    "stroke_unit": true,
+    "nch": false,
+    "rianimazione": true,
+    "psichiatria": true,
+    "lat": 40.898013,
+    "lon": 16.803071
+  },
+  {
+    "ospedale": "H MONOPOLI",
+    "coordinate": {
+      "lat": 40.9486798,
+      "lon": 17.2961824
+    },
+    "numero_pazienti_max": 25,
+    "classe": "PS",
+    "punto_nascita": true,
+    "pediatria": true,
+    "trauma": "PST",
+    "emodinamica": false,
+    "stroke_unit": false,
+    "nch": false,
+    "rianimazione": false,
+    "psichiatria": false,
+    "lat": 41.183105,
+    "lon": 16.668058
+  },
+  {
+    "ospedale": "H GIOVANNI XXIII - BARI",
+    "coordinate": {
+      "lat": 41.0991396,
+      "lon": 16.8880712
+    },
+    "numero_pazienti_max": 25,
+    "classe": "PEDIATRIA",
+    "punto_nascita": false,
+    "pediatria": true,
+    "trauma": false,
+    "emodinamica": false,
+    "stroke_unit": false,
+    "nch": false,
+    "rianimazione": false,
+    "psichiatria": false,
+    "lat": 41.073663,
+    "lon": 16.983966
+  },
+  {
+    "ospedale": "H PUTIGNANO",
+    "coordinate": {
+      "lat": 40.852277,
+      "lon": 17.1174032
+    },
+    "numero_pazienti_max": 25,
+    "classe": "PS",
+    "punto_nascita": false,
+    "pediatria": false,
+    "trauma": "PST",
+    "emodinamica": false,
+    "stroke_unit": false,
+    "nch": false,
+    "rianimazione": false,
+    "psichiatria": true,
+    "lat": 41.244002,
+    "lon": 17.149706
+  },
+  {
+    "ospedale": "H CORATO",
+    "coordinate": {
+      "lat": 41.1463163,
+      "lon": 16.4235699
+    },
+    "numero_pazienti_max": 25,
+    "classe": "PS",
+    "punto_nascita": false,
+    "pediatria": false,
+    "trauma": "PST",
+    "emodinamica": false,
+    "stroke_unit": false,
+    "nch": false,
+    "rianimazione": false,
+    "psichiatria": false,
+    "lat": 41.039883,
+    "lon": 17.065111
+  },
+  {
+    "ospedale": "H MOLFETTA",
+    "coordinate": {
+      "lat": 41.1918452,
+      "lon": 16.5914371
+    },
+    "numero_pazienti_max": 30,
+    "classe": "PS",
+    "punto_nascita": false,
+    "pediatria": false,
+    "trauma": "PST",
+    "emodinamica": false,
+    "stroke_unit": false,
+    "nch": false,
+    "rianimazione": false,
+    "psichiatria": false,
+    "lat": 40.927595,
+    "lon": 16.636016
+  },
+  {
+    "ospedale": "H ACQUAVIVA DELLE FONTI",
+    "coordinate": {
+      "lat": 40.863784,
+      "lon": 16.8028672
+    },
+    "numero_pazienti_max": 30,
+    "classe": "DEA",
+    "punto_nascita": true,
+    "pediatria": true,
+    "trauma": "CTZ",
+    "emodinamica": true,
+    "stroke_unit": true,
+    "nch": false,
+    "rianimazione": true,
+    "psichiatria": false,
+    "lat": 41.045506,
+    "lon": 16.689246
+  },
+  {
+    "ospedale": "H MATER DEI",
+    "coordinate": {
+      "lat": 41.0974439,
+      "lon": 16.8857613
+    },
+    "numero_pazienti_max": 40,
+    "classe": "DEA",
+    "punto_nascita": false,
+    "pediatria": false,
+    "trauma": "CTZ",
+    "emodinamica": true,
+    "stroke_unit": false,
+    "nch": true,
+    "rianimazione": true,
+    "psichiatria": false,
+    "lat": 41.130183,
+    "lon": 16.811141
+  },
+  {
+    "ospedale": "H BARLETTA",
+    "coordinate": {
+      "lat": 41.3143324,
+      "lon": 16.2536158
+    },
+    "numero_pazienti_max": 40,
+    "classe": "DEA",
+    "punto_nascita": true,
+    "pediatria": true,
+    "trauma": "CTZ",
+    "emodinamica": false,
+    "stroke_unit": true,
+    "nch": false,
+    "rianimazione": true,
+    "psichiatria": false,
+    "lat": 40.893357,
+    "lon": 16.613313
+  },
+  {
+    "ospedale": "H ANDRIA",
+    "coordinate": {
+      "lat": 41.2292731,
+      "lon": 16.3035387
+    },
+    "numero_pazienti_max": 35,
+    "classe": "DEA",
+    "punto_nascita": true,
+    "pediatria": true,
+    "trauma": "CTZ",
+    "emodinamica": true,
+    "stroke_unit": false,
+    "nch": false,
+    "rianimazione": true,
+    "psichiatria": true,
+    "lat": 41.252884,
+    "lon": 16.895106
+  },
+  {
+    "ospedale": "H BISCEGLIE",
+    "coordinate": {
+      "lat": 41.2423272,
+      "lon": 16.4884538
+    },
+    "numero_pazienti_max": 25,
+    "classe": "PS",
+    "punto_nascita": true,
+    "pediatria": true,
+    "trauma": "PST",
+    "emodinamica": false,
+    "stroke_unit": false,
+    "nch": false,
+    "rianimazione": false,
+    "psichiatria": false,
+    "lat": 41.281551,
+    "lon": 17.156977
+  },
+  {
+    "ospedale": "H MEDICOL - CONVERSANO",
+    "coordinate": {
+      "lat": 40.9607143,
+      "lon": 17.1107361
+    },
+    "numero_pazienti_max": 5,
+    "classe": false,
+    "punto_nascita": false,
+    "pediatria": false,
+    "trauma": false,
+    "emodinamica": true,
+    "stroke_unit": false,
+    "nch": false,
+    "rianimazione": false,
+    "psichiatria": false,
+    "lat": 40.956656,
+    "lon": 16.95563
+  },
+  {
+    "ospedale": "H ANTHEA - BARI",
+    "coordinate": {
+      "lat": 41.1040942,
+      "lon": 16.8567793
+    },
+    "numero_pazienti_max": 5,
+    "classe": false,
+    "punto_nascita": false,
+    "pediatria": false,
+    "trauma": false,
+    "emodinamica": true,
+    "stroke_unit": false,
+    "nch": false,
+    "rianimazione": false,
+    "psichiatria": false,
+    "lat": 41.112454,
+    "lon": 16.697684
+  },
+  {
+    "ospedale": "H SANTA MARIA - BARI",
+    "coordinate": {
+      "lat": 41.1089742,
+      "lon": 16.8611908
+    },
+    "numero_pazienti_max": 5,
+    "classe": false,
+    "punto_nascita": false,
+    "pediatria": false,
+    "trauma": false,
+    "emodinamica": true,
+    "stroke_unit": false,
+    "nch": false,
+    "rianimazione": false,
+    "psichiatria": false,
+    "lat": 41.259216,
+    "lon": 16.938405
+  }
+]

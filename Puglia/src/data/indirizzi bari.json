@@ -1,0 +1,1472 @@
+[
+  {
+    "indirizzo abitazione": "Via Madonna della Croce, Altamura BA",
+    "lat": 40.8265,
+    "lon": 16.5532
+  },
+  {
+    "indirizzo abitazione": "Via Bari, 70012 Turi BA",
+    "lat": 40.9221,
+    "lon": 17.0062
+  },
+  {
+    "indirizzo abitazione": "Via Roma, 70035 Palo del Colle BA",
+    "lat": 41.0625,
+    "lon": 16.7015
+  },
+  {
+    "indirizzo abitazione": "Via Bari, 70036 Bitritto BA",
+    "lat": 41.0432,
+    "lon": 16.8302
+  },
+  {
+    "indirizzo abitazione": "Via Roma, 70041 Binetto BA",
+    "lat": 41.0032,
+    "lon": 16.7032
+  },
+  {
+    "indirizzo abitazione": "Via Bari, 70038 Terlizzi BA",
+    "lat": 41.1305,
+    "lon": 16.5455
+  },
+  {
+    "indirizzo abitazione": "Via Roma, 70039 Triggiano BA",
+    "lat": 41.0692,
+    "lon": 16.9348
+  },
+  {
+    "indirizzo abitazione": "Via Bari, 70040 Sammichele di Bari BA",
+    "lat": 40.8915,
+    "lon": 16.8785
+  },
+  {
+    "indirizzo abitazione": "Via Roma, 70046 Valenzano BA",
+    "lat": 41.0455,
+    "lon": 16.8835
+  },
+  {
+    "indirizzo abitazione": "Via Bari, 70049 Giovinazzo BA",
+    "lat": 41.1855,
+    "lon": 16.6705
+  },
+  {
+    "indirizzo abitazione": "Via Roma, 70050 Toritto BA",
+    "lat": 40.9745,
+    "lon": 16.7015
+  },
+  {
+    "indirizzo abitazione": "Via Bari, 70051 Barletta BT",
+    "lat": 41.3145,
+    "lon": 16.2845
+  },
+  {
+    "indirizzo abitazione": "Via Roma, 70052 Bisceglie BT",
+    "lat": 41.2415,
+    "lon": 16.5005
+  },
+  {
+    "indirizzo abitazione": "Via Bari, 70054 Minervino Murge BT",
+    "lat": 41.0825,
+    "lon": 16.0815
+  },
+  {
+    "indirizzo abitazione": "Via Roma, 70055 Spinazzola BT",
+    "lat": 41.0485,
+    "lon": 16.0865
+  },
+  {
+    "indirizzo abitazione": "Via Bari, 70056 Molfetta BA",
+    "lat": 41.2015,
+    "lon": 16.6005
+  },
+  {
+    "indirizzo abitazione": "Via Roma, 70058 Terlizzi BA",
+    "lat": 41.1305,
+    "lon": 16.5455
+  },
+  {
+    "indirizzo abitazione": "Via Bari, 70059 Trani BT",
+    "lat": 41.2781,
+    "lon": 16.4215
+  },
+  {
+    "indirizzo abitazione": "Via Roma, 70060 Altamura BA",
+    "lat": 40.8269,
+    "lon": 16.5536
+  },
+  {
+    "RSA": "RSA Santa Chiara, Via Bari, 70012 Turi BA",
+    "lat": 40.9223,
+    "lon": 17.0064
+  },
+  {
+    "Scuola": "I.C. De Amicis, Via Roma, 70035 Palo del Colle BA",
+    "lat": 41.0627,
+    "lon": 16.7017
+  },
+  {
+    "impianto sportivo": "Stadio Comunale, Via Bari, 70036 Bitritto BA",
+    "lat": 41.0434,
+    "lon": 16.8304
+  },
+  {
+    "impianto lavorativo": "Zona Industriale, Via Roma, 70041 Binetto BA",
+    "lat": 41.0034,
+    "lon": 16.7034
+  },
+  {
+    "Strada": "SP231, Km 10 - 70038 Terlizzi BA",
+    "lat": 41.1307,
+    "lon": 16.5457
+  },
+  {
+    "indirizzo abitazione": "Via Santeramo, Altamura BA",
+    "lat": 40.8271,
+    "lon": 16.5539
+  },
+  {
+    "indirizzo abitazione": "Via Bari, Altamura BA",
+    "lat": 40.828,
+    "lon": 16.553
+  },
+  {
+    "indirizzo abitazione": "Via Vittorio Veneto, 70010 Adelfia BA",
+    "lat": 41.0037,
+    "lon": 16.8723
+  },
+  {
+    "indirizzo abitazione": "Via Bari, 70011 Alberobello BA",
+    "lat": 40.7843,
+    "lon": 17.2373
+  },
+  {
+    "indirizzo abitazione": "Via Roma, 70013 Castellana Grotte BA",
+    "lat": 40.8784,
+    "lon": 17.1714
+  },
+  {
+    "indirizzo abitazione": "Via Garibaldi, 70014 Conversano BA",
+    "lat": 40.9694,
+    "lon": 17.1133
+  },
+  {
+    "indirizzo abitazione": "Via Cavour, 70015 Noci BA",
+    "lat": 40.7933,
+    "lon": 17.1263
+  },
+  {
+    "indirizzo abitazione": "Via Bari, 70016 Noicattaro BA",
+    "lat": 41.0273,
+    "lon": 16.9833
+  },
+  {
+    "indirizzo abitazione": "Via San Marco, 70017 Putignano BA",
+    "lat": 40.8514,
+    "lon": 17.1213
+  },
+  {
+    "indirizzo abitazione": "Via Roma, 70018 Rutigliano BA",
+    "lat": 42.043523,
+    "lon": 12.538057
+  },
+  {
+    "indirizzo abitazione": "Via San Lorenzo, 70019 Triggiano BA",
+    "lat": 41.0689,
+    "lon": 16.9345
+  },
+  {
+    "indirizzo abitazione": "Via Bari, 70061 Carovigno BR",
+    "lat": 40.7111,
+    "lon": 17.6701
+  },
+  {
+    "indirizzo abitazione": "Via Roma, 70062 Bisceglie BT",
+    "lat": 41.2417,
+    "lon": 16.5007
+  },
+  {
+    "indirizzo abitazione": "Via Bari, 70063 Locorotondo BA",
+    "lat": 40.7555,
+    "lon": 17.3215
+  },
+  {
+    "indirizzo abitazione": "Via Roma, 70064 Polignano a Mare BA",
+    "lat": 40.9955,
+    "lon": 17.2185
+  },
+  {
+    "indirizzo abitazione": "Via Bari, 70065 Gioia del Colle BA",
+    "lat": 40.7949,
+    "lon": 16.9255
+  },
+  {
+    "indirizzo abitazione": "Via Roma, 70066 Mola di Bari BA",
+    "lat": 41.0595,
+    "lon": 17.0855
+  },
+  {
+    "indirizzo abitazione": "Via Bari, 70067 Rutigliano BA",
+    "lat": 41.093182,
+    "lon": 17.129753
+  },
+  {
+    "indirizzo abitazione": "Via Roma, 70068 Valenzano BA",
+    "lat": 41.0457,
+    "lon": 16.8837
+  },
+  {
+    "indirizzo abitazione": "Via Bari, 70069 Bitritto BA",
+    "lat": 41.0436,
+    "lon": 16.8306
+  },
+  {
+    "indirizzo abitazione": "Via Roma, 70070 Binetto BA",
+    "lat": 41.0036,
+    "lon": 16.7036
+  },
+  {
+    "indirizzo abitazione": "Via Bari, 70071 Palo del Colle BA",
+    "lat": 41.0629,
+    "lon": 16.7019
+  },
+  {
+    "indirizzo abitazione": "Via Roma, 70072 Sammichele di Bari BA",
+    "lat": 40.8917,
+    "lon": 16.8787
+  },
+  {
+    "indirizzo abitazione": "Via Bari, 70073 Toritto BA",
+    "lat": 40.9747,
+    "lon": 16.7017
+  },
+  {
+    "indirizzo abitazione": "Via Roma, 70074 Noicattaro BA",
+    "lat": 41.0275,
+    "lon": 16.9835
+  },
+  {
+    "indirizzo abitazione": "Via Bari, 70075 Cellamare BA",
+    "lat": 41.0181,
+    "lon": 16.9277
+  },
+  {
+    "indirizzo abitazione": "Via Roma, 70076 Capurso BA",
+    "lat": 41.0459,
+    "lon": 16.9255
+  },
+  {
+    "indirizzo abitazione": "Via Bari, 70077 Sannicandro di Bari BA",
+    "lat": 41.0105,
+    "lon": 16.8005
+  },
+  {
+    "indirizzo abitazione": "Via Roma, 70078 Modugno BA",
+    "lat": 41.0495,
+    "lon": 16.7925
+  },
+  {
+    "indirizzo abitazione": "Via Bari, 70079 Grumo Appula BA",
+    "lat": 41.0165,
+    "lon": 16.7035
+  },
+  {
+    "RSA": "RSA San Michele, Via Bari, 70061 Carovigno BR",
+    "lat": 40.7113,
+    "lon": 17.6703
+  },
+  {
+    "Scuola": "I.C. Giovanni XXIII, Via Roma, 70062 Bisceglie BT",
+    "lat": 41.2419,
+    "lon": 16.5009
+  },
+  {
+    "impianto sportivo": "Stadio Comunale, Via Bari, 70063 Locorotondo BA",
+    "lat": 40.7557,
+    "lon": 17.3217
+  },
+  {
+    "impianto lavorativo": "Zona Industriale, Via Roma, 70064 Polignano a Mare BA",
+    "lat": 40.9957,
+    "lon": 17.2187
+  },
+  {
+    "Strada": "SP106, Km 5 - 70065 Gioia del Colle BA",
+    "lat": 40.7951,
+    "lon": 16.9257
+  },
+  {
+    "indirizzo abitazione": "Via San Giuseppe, 70020 Cassano delle Murge BA",
+    "lat": 40.9003,
+    "lon": 16.7653
+  },
+  {
+    "indirizzo abitazione": "Via San Michele, 70021 Acquaviva delle Fonti BA",
+    "lat": 40.9003,
+    "lon": 16.8433
+  },
+  {
+    "indirizzo abitazione": "Via San Paolo, 70025 Grumo Appula BA",
+    "lat": 41.0163,
+    "lon": 16.7033
+  },
+  {
+    "indirizzo abitazione": "Via San Pietro, 70026 Modugno BA",
+    "lat": 41.0493,
+    "lon": 16.7923
+  },
+  {
+    "indirizzo abitazione": "Via San Vito, 70027 Palo del Colle BA",
+    "lat": 41.0623,
+    "lon": 16.7013
+  },
+  {
+    "indirizzo abitazione": "Via San Giovanni, 70028 Sannicandro di Bari BA",
+    "lat": 41.0103,
+    "lon": 16.8003
+  },
+  {
+    "indirizzo abitazione": "Via San Nicola, 70030 Cellamare BA",
+    "lat": 41.0179,
+    "lon": 16.9274
+  },
+  {
+    "indirizzo abitazione": "Via San Rocco, 70031 Capurso BA",
+    "lat": 41.0453,
+    "lon": 16.9253
+  },
+  {
+    "indirizzo abitazione": "Via Roma, 70032 Bitonto BA",
+    "lat": 41.1109,
+    "lon": 16.6903
+  },
+  {
+    "indirizzo abitazione": "Via Dante, 70033 Corato BA",
+    "lat": 41.1425,
+    "lon": 16.4069
+  },
+  {
+    "indirizzo abitazione": "Via Vittorio Veneto, 70034 Conversano BA",
+    "lat": 40.9696,
+    "lon": 17.1136
+  },
+  {
+    "indirizzo abitazione": "Via Bari, 70037 Ruvo di Puglia BA",
+    "lat": 41.1174,
+    "lon": 16.4853
+  },
+  {
+    "indirizzo abitazione": "Via Roma, 70038 Terlizzi BA",
+    "lat": 41.1303,
+    "lon": 16.5453
+  },
+  {
+    "indirizzo abitazione": "Via Bari, 70039 Triggiano BA",
+    "lat": 41.069,
+    "lon": 16.9346
+  },
+  {
+    "indirizzo abitazione": "Via Roma, 70040 Sammichele di Bari BA",
+    "lat": 40.8914,
+    "lon": 16.8783
+  },
+  {
+    "indirizzo abitazione": "Via Garibaldi, 70042 Mola di Bari BA",
+    "lat": 41.0594,
+    "lon": 17.0853
+  },
+  {
+    "indirizzo abitazione": "Via Roma, 70043 Monopoli BA",
+    "lat": 40.9514,
+    "lon": 17.2973
+  },
+  {
+    "indirizzo abitazione": "Via Garibaldi, 70044 Polignano a Mare BA",
+    "lat": 40.9953,
+    "lon": 17.2184
+  },
+  {
+    "indirizzo abitazione": "Via Roma, 70045 Locorotondo BA",
+    "lat": 40.7553,
+    "lon": 17.3213
+  },
+  {
+    "indirizzo abitazione": "Via Vittorio Emanuele II, 70046 Valenzano BA",
+    "lat": 41.0453,
+    "lon": 16.8833
+  },
+  {
+    "indirizzo abitazione": "Via Roma, 70047 Noicattaro BA",
+    "lat": 41.0273,
+    "lon": 16.9833
+  },
+  {
+    "indirizzo abitazione": "Via Garibaldi, 70048 Palese BA",
+    "lat": 41.1483,
+    "lon": 16.7603
+  },
+  {
+    "indirizzo abitazione": "Via Roma, 70049 Giovinazzo BA",
+    "lat": 41.1853,
+    "lon": 16.6703
+  },
+  {
+    "indirizzo abitazione": "Via Garibaldi, 70050 Toritto BA",
+    "lat": 40.9743,
+    "lon": 16.7013
+  },
+  {
+    "indirizzo abitazione": "Via Roma, 70053 Canosa di Puglia BT",
+    "lat": 41.2263,
+    "lon": 16.0653
+  },
+  {
+    "indirizzo abitazione": "Via Regina Margherita, 70054 Minervino Murge BT",
+    "lat": 41.0823,
+    "lon": 16.0813
+  },
+  {
+    "indirizzo abitazione": "Via Vittorio Emanuele II, 70055 Spinazzola BT",
+    "lat": 41.0483,
+    "lon": 16.0863
+  },
+  {
+    "indirizzo abitazione": "Via Roma, 70057 Ruvo di Puglia BA",
+    "lat": 41.1174,
+    "lon": 16.4853
+  },
+  {
+    "indirizzo abitazione": "Via Roma, 70058 Terlizzi BA",
+    "lat": 41.1303,
+    "lon": 16.5453
+  },
+  {
+    "indirizzo abitazione": "Via Roma, 70059 Trani BT",
+    "lat": 41.2779,
+    "lon": 16.4213
+  },
+  {
+    "indirizzo abitazione": "Via Roma, 70060 Altamura BA",
+    "lat": 40.8267,
+    "lon": 16.5534
+  },
+  {
+    "RSA": "RSA San Giuseppe, Via Roma, 70053 Canosa di Puglia BT",
+    "lat": 41.2265,
+    "lon": 16.0655
+  },
+  {
+    "Scuola": "I.C. De Amicis, Via Roma, 70034 Conversano BA",
+    "lat": 40.9698,
+    "lon": 17.1138
+  },
+  {
+    "impianto sportivo": "Stadio Comunale, Via Roma, 70013 Castellana Grotte BA",
+    "lat": 40.8786,
+    "lon": 17.1716
+  },
+  {
+    "impianto lavorativo": "Zona Industriale, Via Bari, 70032 Bitonto BA",
+    "lat": 41.1111,
+    "lon": 16.6905
+  },
+  {
+    "Strada": "SS100 Bari-Taranto, Km 20 - 70010 Sammichele di Bari BA",
+    "lat": 40.8916,
+    "lon": 16.8785
+  },
+  {
+    "indirizzo abitazione": "Via Gravina, Altamura BA",
+    "lat": 40.826,
+    "lon": 16.55
+  },
+  {
+    "indirizzo abitazione": "Via Manzoni, Altamura BA",
+    "lat": 40.825,
+    "lon": 16.555
+  },
+  {
+    "RSA": "RSA Minerva, Via Madonna della Croce, Altamura BA",
+    "lat": 40.8267,
+    "lon": 16.5535
+  },
+  {
+    "Scuola": "I.C. Don Milani, Via Don Milani, Altamura BA",
+    "lat": 40.8271,
+    "lon": 16.5539
+  },
+  {
+    "impianto sportivo": "Stadio Tonino D'Angelo, Via Mura Megalitiche, Altamura BA",
+    "lat": 40.8282,
+    "lon": 16.5537
+  },
+  {
+    "impianto lavorativo": "Zona Industriale, Via Gravina, Altamura BA",
+    "lat": 40.8262,
+    "lon": 16.5502
+  },
+  {
+    "Strada": "SS96 Altamura-Gravina, Altamura BA",
+    "lat": 40.8255,
+    "lon": 16.548
+  },
+  {
+    "indirizzo abitazione": "Via Roma, Andria BT",
+    "lat": 41.2312,
+    "lon": 16.2987
+  },
+  {
+    "indirizzo abitazione": "Via Fiume, Andria BT",
+    "lat": 41.232,
+    "lon": 16.299
+  },
+  {
+    "indirizzo abitazione": "Via Bisceglie, Andria BT",
+    "lat": 41.233,
+    "lon": 16.3
+  },
+  {
+    "indirizzo abitazione": "Via Trani, Andria BT",
+    "lat": 41.234,
+    "lon": 16.301
+  },
+  {
+    "indirizzo abitazione": "Via Barletta, Andria BT",
+    "lat": 41.235,
+    "lon": 16.302
+  },
+  {
+    "RSA": "RSA San Giuseppe, Via Barletta, Andria BT",
+    "lat": 41.2352,
+    "lon": 16.3022
+  },
+  {
+    "Scuola": "I.C. Imbriani-Salvemini, Via Imbriani, Andria BT",
+    "lat": 41.2335,
+    "lon": 16.3005
+  },
+  {
+    "impianto sportivo": "Stadio Degli Ulivi, Via G. Bovio, Andria BT",
+    "lat": 41.2312,
+    "lon": 16.2987
+  },
+  {
+    "impianto lavorativo": "Zona Industriale, Via Barletta, Andria BT",
+    "lat": 41.2351,
+    "lon": 16.3021
+  },
+  {
+    "Strada": "SS170 Andria-Barletta, Andria BT",
+    "lat": 41.236,
+    "lon": 16.303
+  },
+  {
+    "indirizzo abitazione": "Via Roma, Barletta BT",
+    "lat": 41.3142,
+    "lon": 16.2841
+  },
+  {
+    "indirizzo abitazione": "Via Manfredi, Barletta BT",
+    "lat": 41.315,
+    "lon": 16.285
+  },
+  {
+    "indirizzo abitazione": "Via Foggia, Barletta BT",
+    "lat": 41.316,
+    "lon": 16.286
+  },
+  {
+    "indirizzo abitazione": "Via Regina Margherita, Barletta BT",
+    "lat": 41.317,
+    "lon": 16.287
+  },
+  {
+    "indirizzo abitazione": "Via Imbriani, Barletta BT",
+    "lat": 41.318,
+    "lon": 16.288
+  },
+  {
+    "RSA": "RSA Villa Serena, Via Foggia, Barletta BT",
+    "lat": 41.3162,
+    "lon": 16.2862
+  },
+  {
+    "Scuola": "I.C. De Amicis, Via De Amicis, Barletta BT",
+    "lat": 41.3145,
+    "lon": 16.285
+  },
+  {
+    "impianto sportivo": "Stadio Cosimo Puttilli, Via Vittorio Veneto, Barletta BT",
+    "lat": 41.3142,
+    "lon": 16.2841
+  },
+  {
+    "impianto lavorativo": "Zona Industriale, Via Foggia, Barletta BT",
+    "lat": 41.3161,
+    "lon": 16.2861
+  },
+  {
+    "Strada": "SS16 Barletta-Trani, Barletta BT",
+    "lat": 41.3155,
+    "lon": 16.2855
+  },
+  {
+    "indirizzo abitazione": "Via Roma, Bisceglie BT",
+    "lat": 41.2411,
+    "lon": 16.5001
+  },
+  {
+    "indirizzo abitazione": "Via Imbriani, Bisceglie BT",
+    "lat": 41.242,
+    "lon": 16.501
+  },
+  {
+    "indirizzo abitazione": "Via Bovio, Bisceglie BT",
+    "lat": 41.243,
+    "lon": 16.502
+  },
+  {
+    "indirizzo abitazione": "Via Dante, Bisceglie BT",
+    "lat": 41.244,
+    "lon": 16.503
+  },
+  {
+    "indirizzo abitazione": "Via Vittorio Veneto, Bisceglie BT",
+    "lat": 41.245,
+    "lon": 16.504
+  },
+  {
+    "RSA": "RSA San Francesco, Via Imbriani, Bisceglie BT",
+    "lat": 41.2422,
+    "lon": 16.5012
+  },
+  {
+    "Scuola": "I.C. Battisti-Ferraris, Via Ferraris, Bisceglie BT",
+    "lat": 41.2435,
+    "lon": 16.5025
+  },
+  {
+    "impianto sportivo": "Stadio Ventura, Via Giovanni Bovio, Bisceglie BT",
+    "lat": 41.243,
+    "lon": 16.502
+  },
+  {
+    "impianto lavorativo": "Zona Industriale, Via Andria, Bisceglie BT",
+    "lat": 41.246,
+    "lon": 16.505
+  },
+  {
+    "Strada": "SS16 Bisceglie-Trani, Bisceglie BT",
+    "lat": 41.2445,
+    "lon": 16.5035
+  },
+  {
+    "indirizzo abitazione": "Via Giuseppe Fanelli, 206 – 70125 Bari BA",
+    "lat": 41.10421,
+    "lon": 16.8689
+  },
+  {
+    "RSA": "RSA Villa del Sole, Via Generale Nicola Bellomo, 135 - 70124 Bari BA",
+    "lat": 41.1168,
+    "lon": 16.8725
+  },
+  {
+    "Strada": "Tangenziale di Bari SS16, Uscita 13A - 70128 Bari BA",
+    "lat": 41.0898508,
+    "lon": 16.8629804
+  },
+  {
+    "Scuola": "Liceo Scientifico Salvemini, Via Prezzolini, 9 - 70126 Bari BA",
+    "lat": 41.1089,
+    "lon": 16.8887
+  },
+  {
+    "impianto sportivo": "Stadio San Nicola, Strada Torre di Brengola – 70124 Bari BA",
+    "lat": 41.0806,
+    "lon": 16.8729
+  },
+  {
+    "impianto lavorativo": "Ex OM Carrelli, Via Bruno Buozzi, 5 – 70132 Bari BA",
+    "lat": 41.1338,
+    "lon": 16.8499
+  },
+  {
+    "indirizzo abitazione": "Via Giulio Petroni, 99 – 70124 Bari BA",
+    "lat": 41.1162,
+    "lon": 16.872
+  },
+  {
+    "RSA": "RSA Villa Bianca, Via Camillo Rosalba, 47 - 70124 Bari BA",
+    "lat": 41.1179,
+    "lon": 16.8728
+  },
+  {
+    "Strada": "SS96 Bari-Modugno, Km 119 - 70123 Bari BA",
+    "lat": 41.1105,
+    "lon": 16.83
+  },
+  {
+    "Scuola": "Istituto Comprensivo Japigia 1, Via Peucetia, 35 - 70126 Bari BA",
+    "lat": 41.1048,
+    "lon": 16.9001
+  },
+  {
+    "impianto sportivo": "Piscina Comunale, Via di Maratona – 70125 Bari BA",
+    "lat": 41.0857,
+    "lon": 16.8724
+  },
+  {
+    "impianto lavorativo": "Zona Industriale Bari, Via F.lli Philips – 70132 Bari BA",
+    "lat": 41.1365,
+    "lon": 16.849
+  },
+  {
+    "indirizzo abitazione": "Via Giuseppe Fanelli, 206 – 70125 Bari BA",
+    "lat": 41.10421,
+    "lon": 16.8689
+  },
+  {
+    "RSA": "RSA Villa del Sole, Via Generale Nicola Bellomo, 135 - 70124 Bari BA",
+    "lat": 41.1168,
+    "lon": 16.8725
+  },
+  {
+    "Strada": "Tangenziale di Bari SS16, Uscita 13A - 70128 Bari BA",
+    "lat": 41.142,
+    "lon": 16.857
+  },
+  {
+    "Scuola": "Liceo Scientifico Salvemini, Via Prezzolini, 9 - 70126 Bari BA",
+    "lat": 41.1089,
+    "lon": 16.8887
+  },
+  {
+    "impianto sportivo": "Stadio San Nicola, Strada Torre di Brengola – 70124 Bari BA",
+    "lat": 41.0806,
+    "lon": 16.8729
+  },
+  {
+    "impianto lavorativo": "Ex OM Carrelli, Via Bruno Buozzi, 5 – 70132 Bari BA",
+    "lat": 41.1338,
+    "lon": 16.8499
+  },
+  {
+    "indirizzo abitazione": "Via Giulio Petroni, 99 – 70124 Bari BA",
+    "lat": 41.1162,
+    "lon": 16.872
+  },
+  {
+    "RSA": "RSA Villa Bianca, Via Camillo Rosalba, 47 - 70124 Bari BA",
+    "lat": 41.1179,
+    "lon": 16.8728
+  },
+  {
+    "Strada": "SS96 Bari-Modugno, Km 119 - 70123 Bari BA",
+    "lat": 41.1105,
+    "lon": 16.83
+  },
+  {
+    "Scuola": "Istituto Comprensivo Japigia 1, Via Peucetia, 35 - 70126 Bari BA",
+    "lat": 41.1048,
+    "lon": 16.9001
+  },
+  {
+    "impianto sportivo": "Piscina Comunale, Via di Maratona – 70125 Bari BA",
+    "lat": 41.0857,
+    "lon": 16.8724
+  },
+  {
+    "impianto lavorativo": "Zona Industriale Bari, Via F.lli Philips – 70132 Bari BA",
+    "lat": 41.1365,
+    "lon": 16.849
+  },
+  {
+    "indirizzo abitazione": "Via Sparano, 70121 Bari BA",
+    "lat": 41.1202,
+    "lon": 16.872
+  },
+  {
+    "indirizzo abitazione": "Via Madonna della Croce, 70022 Altamura BA",
+    "lat": 40.8265,
+    "lon": 16.5532
+  },
+  {
+    "indirizzo abitazione": "Via Tenente Ragno, 70056 Molfetta BA",
+    "lat": 41.2011,
+    "lon": 16.6002
+  },
+  {
+    "indirizzo abitazione": "Via Giovanni XXIII, 70032 Bitonto BA",
+    "lat": 41.1107,
+    "lon": 16.6901
+  },
+  {
+    "indirizzo abitazione": "Via Roma, 70043 Monopoli BA",
+    "lat": 40.9512,
+    "lon": 17.2971
+  },
+  {
+    "indirizzo abitazione": "Via Dante, 70033 Corato BA",
+    "lat": 41.1423,
+    "lon": 16.4067
+  },
+  {
+    "indirizzo abitazione": "Via Andria, 76125 Trani BT",
+    "lat": 41.2779,
+    "lon": 16.4211
+  },
+  {
+    "indirizzo abitazione": "Via Fiume, 76123 Andria BT",
+    "lat": 41.2312,
+    "lon": 16.2987
+  },
+  {
+    "indirizzo abitazione": "Via Manfredi, 76121 Barletta BT",
+    "lat": 41.3142,
+    "lon": 16.2841
+  },
+  {
+    "indirizzo abitazione": "Via San Francesco, 70051 Barletta BT",
+    "lat": 41.319,
+    "lon": 16.282
+  },
+  {
+    "indirizzo abitazione": "Via Cavour, 70044 Polignano a Mare BA",
+    "lat": 40.9951,
+    "lon": 17.2182
+  },
+  {
+    "indirizzo abitazione": "Via Vittorio Veneto, 70023 Gioia del Colle BA",
+    "lat": 40.7947207,
+    "lon": 16.9253422
+  },
+  {
+    "indirizzo abitazione": "Via Bari, 70017 Putignano BA",
+    "lat": 40.8512,
+    "lon": 17.1211
+  },
+  {
+    "indirizzo abitazione": "Via Santeramo, 70029 Santeramo in Colle BA",
+    "lat": 40.7878407,
+    "lon": 16.761124
+  },
+  {
+    "indirizzo abitazione": "Via Mazzini, 70024 Gravina in Puglia BA",
+    "lat": 40.8221,
+    "lon": 16.4201
+  },
+  {
+    "indirizzo abitazione": "Via Garibaldi, 70010 Adelfia BA",
+    "lat": 36.9520492,
+    "lon": 14.5385726
+  },
+  {
+    "indirizzo abitazione": "Via XX Settembre, 70011 Alberobello BA",
+    "lat": 40.7841,
+    "lon": 17.2371
+  },
+  {
+    "indirizzo abitazione": "Via Roma, 70015 Noci BA",
+    "lat": 40.7931,
+    "lon": 17.1261
+  },
+  {
+    "indirizzo abitazione": "Via Bari, 70016 Noicattaro BA",
+    "lat": 41.0271,
+    "lon": 16.9831
+  },
+  {
+    "indirizzo abitazione": "Via San Marco, 70018 Rutigliano BA",
+    "lat": 40.90556,
+    "lon": 17.02896
+  },
+  {
+    "indirizzo abitazione": "Via San Lorenzo, 70019 Triggiano BA",
+    "lat": 41.0688327,
+    "lon": 16.934373
+  },
+  {
+    "indirizzo abitazione": "Via San Giuseppe, 70020 Cassano delle Murge BA",
+    "lat": 40.9001,
+    "lon": 16.7651
+  },
+  {
+    "indirizzo abitazione": "Via San Michele, 70021 Acquaviva delle Fonti BA",
+    "lat": 40.9001,
+    "lon": 16.8431
+  },
+  {
+    "indirizzo abitazione": "Via San Paolo, 70025 Grumo Appula BA",
+    "lat": 41.0161,
+    "lon": 16.7031
+  },
+  {
+    "indirizzo abitazione": "Via San Pietro, 70026 Modugno BA",
+    "lat": 41.0491,
+    "lon": 16.7921
+  },
+  {
+    "indirizzo abitazione": "Via San Vito, 70027 Palo del Colle BA",
+    "lat": 41.0621,
+    "lon": 16.7011
+  },
+  {
+    "indirizzo abitazione": "Via San Giovanni, 70028 Sannicandro di Bari BA",
+    "lat": 41.0101,
+    "lon": 16.8001
+  },
+  {
+    "indirizzo abitazione": "Via San Nicola, 70030 Cellamare BA",
+    "lat": 41.017786,
+    "lon": 16.9273287
+  },
+  {
+    "indirizzo abitazione": "Via San Rocco, 70031 Capurso BA",
+    "lat": 41.0451,
+    "lon": 16.9251
+  },
+  {
+    "Scuola": "I.C. Don Milani, Via Don Milani, 70022 Altamura BA",
+    "lat": 40.8271,
+    "lon": 16.5539
+  },
+  {
+    "indirizzo abitazione": "Corso Vittorio Emanuele II, 70122 Bari BA",
+    "lat": 41.125595,
+    "lon": 16.862751
+  },
+  {
+    "indirizzo abitazione": "Piazza Vittorio Emanuele II, 70010 Adelfia BA",
+    "lat": 41.0035,
+    "lon": 16.8722
+  },
+  {
+    "indirizzo abitazione": "Via Roma, 70021 Acquaviva delle Fonti BA",
+    "lat": 40.8996,
+    "lon": 16.8432
+  },
+  {
+    "indirizzo abitazione": "Piazza Aldo Moro, 70011 Alberobello BA",
+    "lat": 40.7841,
+    "lon": 17.2371
+  },
+  {
+    "indirizzo abitazione": "Via Vittorio Veneto, 70013 Castellana Grotte BA",
+    "lat": 40.8782,
+    "lon": 17.1712
+  },
+  {
+    "indirizzo abitazione": "Piazza Garibaldi, 70010 Capurso BA",
+    "lat": 41.0451,
+    "lon": 16.9251
+  },
+  {
+    "indirizzo abitazione": "Via Roma, 70020 Cassano delle Murge BA",
+    "lat": 40.9001,
+    "lon": 16.7651
+  },
+  {
+    "indirizzo abitazione": "Piazza Vittorio Emanuele II, 70023 Gioia del Colle BA",
+    "lat": 40.7992,
+    "lon": 16.9236
+  },
+  {
+    "indirizzo abitazione": "Via Mazzini, 70024 Gravina in Puglia BA",
+    "lat": 40.8186,
+    "lon": 16.4201
+  },
+  {
+    "indirizzo abitazione": "Piazza Aldo Moro, 70025 Grumo Appula BA",
+    "lat": 41.0161,
+    "lon": 16.7031
+  },
+  {
+    "indirizzo abitazione": "Via Roma, 70026 Modugno BA",
+    "lat": 41.0491,
+    "lon": 16.7921
+  },
+  {
+    "indirizzo abitazione": "Piazza Diaz, 70027 Palo del Colle BA",
+    "lat": 41.0621,
+    "lon": 16.7011
+  },
+  {
+    "indirizzo abitazione": "Via Roma, 70028 Sannicandro di Bari BA",
+    "lat": 41.0101,
+    "lon": 16.8001
+  },
+  {
+    "indirizzo abitazione": "Piazza Umberto I, 70029 Santeramo in Colle BA",
+    "lat": 40.7927,
+    "lon": 16.7607
+  },
+  {
+    "indirizzo abitazione": "Via Roma, 70030 Cellamare BA",
+    "lat": 41.0178,
+    "lon": 16.9273
+  },
+  {
+    "indirizzo abitazione": "Piazza Vittorio Emanuele II, 70031 Capurso BA",
+    "lat": 41.0451,
+    "lon": 16.9251
+  },
+  {
+    "indirizzo abitazione": "Via Roma, 70032 Bitonto BA",
+    "lat": 41.1107,
+    "lon": 16.6901
+  },
+  {
+    "indirizzo abitazione": "Piazza Garibaldi, 70033 Corato BA",
+    "lat": 41.1423,
+    "lon": 16.4067
+  },
+  {
+    "indirizzo abitazione": "Via Roma, 70034 Conversano BA",
+    "lat": 40.9692,
+    "lon": 17.1131
+  },
+  {
+    "indirizzo abitazione": "Piazza Garibaldi, 70037 Ruvo di Puglia BA",
+    "lat": 41.1172,
+    "lon": 16.4851
+  },
+  {
+    "indirizzo abitazione": "Via Roma, 70038 Terlizzi BA",
+    "lat": 41.1301,
+    "lon": 16.5451
+  },
+  {
+    "indirizzo abitazione": "Piazza Aldo Moro, 70039 Triggiano BA",
+    "lat": 41.0688,
+    "lon": 16.9344
+  },
+  {
+    "indirizzo abitazione": "Via Roma, 70040 Sammichele di Bari BA",
+    "lat": 40.8912,
+    "lon": 16.8781
+  },
+  {
+    "indirizzo abitazione": "Piazza Garibaldi, 70042 Mola di Bari BA",
+    "lat": 41.0592,
+    "lon": 17.0851
+  },
+  {
+    "indirizzo abitazione": "Via Roma, 70043 Monopoli BA",
+    "lat": 40.9512,
+    "lon": 17.2971
+  },
+  {
+    "indirizzo abitazione": "Piazza Garibaldi, 70044 Polignano a Mare BA",
+    "lat": 40.9951,
+    "lon": 17.2182
+  },
+  {
+    "indirizzo abitazione": "Via Roma, 70045 Locorotondo BA",
+    "lat": 40.7551,
+    "lon": 17.3211
+  },
+  {
+    "indirizzo abitazione": "Piazza Vittorio Emanuele II, 70046 Valenzano BA",
+    "lat": 41.0451,
+    "lon": 16.8831
+  },
+  {
+    "indirizzo abitazione": "Via Roma, 70047 Noicattaro BA",
+    "lat": 41.0271,
+    "lon": 16.9831
+  },
+  {
+    "indirizzo abitazione": "Piazza Garibaldi, 70048 Palese BA",
+    "lat": 41.1481,
+    "lon": 16.7601
+  },
+  {
+    "indirizzo abitazione": "Via Roma, 70049 Giovinazzo BA",
+    "lat": 41.1851,
+    "lon": 16.6701
+  },
+  {
+    "indirizzo abitazione": "Piazza Garibaldi, 70050 Toritto BA",
+    "lat": 40.9741,
+    "lon": 16.7011
+  },
+  {
+    "indirizzo abitazione": "Via Roma, 70051 Barletta BT",
+    "lat": 41.3142,
+    "lon": 16.2841
+  },
+  {
+    "indirizzo abitazione": "Via Regina Margherita, 70052 Bisceglie BT",
+    "lat": 41.2411,
+    "lon": 16.5001
+  },
+  {
+    "indirizzo abitazione": "Via Roma, 70053 Canosa di Puglia BT",
+    "lat": 41.2261,
+    "lon": 16.0651
+  },
+  {
+    "indirizzo abitazione": "Via Regina Margherita, 70054 Minervino Murge BT",
+    "lat": 41.0821,
+    "lon": 16.0811
+  },
+  {
+    "indirizzo abitazione": "Via Vittorio Emanuele II, 70055 Spinazzola BT",
+    "lat": 41.0481,
+    "lon": 16.0861
+  },
+  {
+    "indirizzo abitazione": "Via Roma, 70056 Molfetta BA",
+    "lat": 41.2011,
+    "lon": 16.6002
+  },
+  {
+    "indirizzo abitazione": "Via Roma, 70057 Ruvo di Puglia BA",
+    "lat": 41.1172,
+    "lon": 16.4851
+  },
+  {
+    "indirizzo abitazione": "Via Roma, 70058 Terlizzi BA",
+    "lat": 41.1301,
+    "lon": 16.5451
+  },
+  {
+    "indirizzo abitazione": "Via Roma, 70059 Trani BT",
+    "lat": 41.2779,
+    "lon": 16.4211
+  },
+  {
+    "indirizzo abitazione": "Via Roma, 70060 Altamura BA",
+    "lat": 40.8265,
+    "lon": 16.5532
+  },
+  {
+    "indirizzo abitazione": "Via Caldarola, Japigia, 70126 Bari BA",
+    "lat": 41.1048,
+    "lon": 16.9001
+  },
+  {
+    "indirizzo abitazione": "Via Napoli, Libertà, 70123 Bari BA",
+    "lat": 41.133,
+    "lon": 16.857
+  },
+  {
+    "indirizzo abitazione": "Via Fanelli, Poggiofranco, 70124 Bari BA",
+    "lat": 41.10421,
+    "lon": 16.8689
+  },
+  {
+    "indirizzo abitazione": "Via Gentile, Torre a Mare, 70128 Bari BA",
+    "lat": 41.0857,
+    "lon": 16.8724
+  },
+  {
+    "indirizzo abitazione": "Via Amendola, San Pasquale, 70126 Bari BA",
+    "lat": 41.1089,
+    "lon": 16.8887
+  },
+  {
+    "indirizzo abitazione": "Via Capruzzi, Picone, 70124 Bari BA",
+    "lat": 41.11,
+    "lon": 16.865
+  },
+  {
+    "indirizzo abitazione": "Via Tridente, Poggiofranco, 70124 Bari BA",
+    "lat": 41.1105,
+    "lon": 16.83
+  },
+  {
+    "indirizzo abitazione": "Via Bruno Buozzi, Zona Industriale, 70132 Bari BA",
+    "lat": 41.1338,
+    "lon": 16.8499
+  },
+  {
+    "indirizzo abitazione": "Via Camillo Rosalba, Poggiofranco, 70124 Bari BA",
+    "lat": 41.1179,
+    "lon": 16.8728
+  },
+  {
+    "indirizzo abitazione": "Via Generale Bellomo, Carrassi, 70124 Bari BA",
+    "lat": 41.1168,
+    "lon": 16.8725
+  },
+  {
+    "indirizzo abitazione": "Via Giulio Petroni, Carrassi, 70124 Bari BA",
+    "lat": 41.1162,
+    "lon": 16.872
+  },
+  {
+    "indirizzo abitazione": "Via F.lli Philips, Zona Industriale, 70132 Bari BA",
+    "lat": 41.1365,
+    "lon": 16.849
+  },
+  {
+    "indirizzo abitazione": "Via di Maratona, San Paolo, 70125 Bari BA",
+    "lat": 41.0857,
+    "lon": 16.8724
+  },
+  {
+    "indirizzo abitazione": "Strada Torre di Brengola, San Nicola, 70124 Bari BA",
+    "lat": 41.0806,
+    "lon": 16.8729
+  },
+  {
+    "indirizzo abitazione": "Via Prezzolini, Japigia, 70126 Bari BA",
+    "lat": 41.1089,
+    "lon": 16.8887
+  },
+  {
+    "indirizzo abitazione": "Tangenziale di Bari SS16, Uscita 13A, 70128 Bari BA",
+    "lat": 41.142,
+    "lon": 16.857
+  },
+  {
+    "RSA": "RSA Villa del Sole, Via Generale Nicola Bellomo, 135 - 70124 Bari BA",
+    "lat": 41.1168,
+    "lon": 16.8725
+  },
+  {
+    "RSA": "RSA Villa Bianca, Via Camillo Rosalba, 47 - 70124 Bari BA",
+    "lat": 41.1179,
+    "lon": 16.8728
+  },
+  {
+    "Scuola": "I.C. Japigia 1, Via Peucetia, 35 - 70126 Bari BA",
+    "lat": 41.1048,
+    "lon": 16.9001
+  },
+  {
+    "Scuola": "Liceo Scientifico Salvemini, Via Prezzolini, 9 - 70126 Bari BA",
+    "lat": 41.1089,
+    "lon": 16.8887
+  },
+  {
+    "impianto sportivo": "Stadio San Nicola, Strada Torre di Brengola – 70124 Bari BA",
+    "lat": 41.0806,
+    "lon": 16.8729
+  },
+  {
+    "impianto sportivo": "Piscina Comunale, Via di Maratona – 70125 Bari BA",
+    "lat": 41.0857,
+    "lon": 16.8724
+  },
+  {
+    "impianto lavorativo": "Zona Industriale Bari, Via F.lli Philips – 70132 Bari BA",
+    "lat": 41.1365,
+    "lon": 16.849
+  },
+  {
+    "impianto lavorativo": "Ex OM Carrelli, Via Bruno Buozzi, 5 – 70132 Bari BA",
+    "lat": 41.1338,
+    "lon": 16.8499
+  },
+  {
+    "Strada": "Tangenziale di Bari SS16, Uscita 13A - 70128 Bari BA",
+    "lat": 41.142,
+    "lon": 16.857
+  },
+  {
+    "Strada": "SS96 Bari-Modugno, Km 119 - 70123 Bari BA",
+    "lat": 41.1105,
+    "lon": 16.83
+  },
+  {
+    "indirizzo abitazione": "Via Madonna della Croce, Altamura BA",
+    "lat": 40.8265,
+    "lon": 16.5532
+  },
+  {
+    "indirizzo abitazione": "Via Bari, 70010 Adelfia BA",
+    "lat": 41.0037,
+    "lon": 16.8723
+  },
+  {
+    "indirizzo abitazione": "Via Vittorio Veneto, 70011 Alberobello BA",
+    "lat": 40.7843,
+    "lon": 17.2373
+  },
+  {
+    "indirizzo abitazione": "Via Garibaldi, 70013 Castellana Grotte BA",
+    "lat": 40.8784,
+    "lon": 17.1714
+  },
+  {
+    "indirizzo abitazione": "Via Cavour, 70014 Conversano BA",
+    "lat": 40.9694,
+    "lon": 17.1133
+  },
+  {
+    "indirizzo abitazione": "Via Bari, 70015 Noci BA",
+    "lat": 40.7933,
+    "lon": 17.1263
+  },
+  {
+    "indirizzo abitazione": "Via San Marco, 70017 Putignano BA",
+    "lat": 40.8514,
+    "lon": 17.1213
+  },
+  {
+    "indirizzo abitazione": "Via Roma, 70018 Rutigliano BA",
+    "lat": 42.078081,
+    "lon": 12.408336
+  },
+  {
+    "indirizzo abitazione": "Via San Lorenzo, 70019 Triggiano BA",
+    "lat": 41.0689,
+    "lon": 16.9345
+  },
+  {
+    "indirizzo abitazione": "Via San Giuseppe, 70020 Cassano delle Murge BA",
+    "lat": 40.9003,
+    "lon": 16.7653
+  },
+  {
+    "indirizzo abitazione": "Via San Michele, 70021 Acquaviva delle Fonti BA",
+    "lat": 40.9003,
+    "lon": 16.8433
+  },
+  {
+    "indirizzo abitazione": "Via San Paolo, 70025 Grumo Appula BA",
+    "lat": 41.0163,
+    "lon": 16.7033
+  },
+  {
+    "indirizzo abitazione": "Via San Pietro, 70026 Modugno BA",
+    "lat": 41.0493,
+    "lon": 16.7923
+  },
+  {
+    "indirizzo abitazione": "Via San Vito, 70027 Palo del Colle BA",
+    "lat": 41.0623,
+    "lon": 16.7013
+  },
+  {
+    "indirizzo abitazione": "Via San Giovanni, 70028 Sannicandro di Bari BA",
+    "lat": 41.0103,
+    "lon": 16.8003
+  },
+  {
+    "indirizzo abitazione": "Via San Nicola, 70030 Cellamare BA",
+    "lat": 41.0179,
+    "lon": 16.9274
+  },
+  {
+    "indirizzo abitazione": "Via San Rocco, 70031 Capurso BA",
+    "lat": 41.0453,
+    "lon": 16.9253
+  },
+  {
+    "indirizzo abitazione": "Via Roma, 70032 Bitonto BA",
+    "lat": 41.1109,
+    "lon": 16.6903
+  },
+  {
+    "indirizzo abitazione": "Via Dante, 70033 Corato BA",
+    "lat": 41.1425,
+    "lon": 16.4069
+  },
+  {
+    "indirizzo abitazione": "Via Vittorio Veneto, 70034 Conversano BA",
+    "lat": 40.9696,
+    "lon": 17.1136
+  },
+  {
+    "indirizzo abitazione": "Via Bari, 70037 Ruvo di Puglia BA",
+    "lat": 41.1174,
+    "lon": 16.4853
+  },
+  {
+    "indirizzo abitazione": "Via Roma, 70038 Terlizzi BA",
+    "lat": 41.1303,
+    "lon": 16.5453
+  },
+  {
+    "indirizzo abitazione": "Via Bari, 70039 Triggiano BA",
+    "lat": 41.069,
+    "lon": 16.9346
+  },
+  {
+    "indirizzo abitazione": "Via Roma, 70040 Sammichele di Bari BA",
+    "lat": 40.8914,
+    "lon": 16.8783
+  },
+  {
+    "indirizzo abitazione": "Via Garibaldi, 70042 Mola di Bari BA",
+    "lat": 41.0594,
+    "lon": 17.0853
+  },
+  {
+    "indirizzo abitazione": "Via Roma, 70043 Monopoli BA",
+    "lat": 40.9514,
+    "lon": 17.2973
+  },
+  {
+    "indirizzo abitazione": "Via Garibaldi, 70044 Polignano a Mare BA",
+    "lat": 40.9953,
+    "lon": 17.2184
+  },
+  {
+    "indirizzo abitazione": "Via Roma, 70045 Locorotondo BA",
+    "lat": 40.7553,
+    "lon": 17.3213
+  },
+  {
+    "indirizzo abitazione": "Via Vittorio Emanuele II, 70046 Valenzano BA",
+    "lat": 41.0453,
+    "lon": 16.8833
+  },
+  {
+    "indirizzo abitazione": "Via Roma, 70047 Noicattaro BA",
+    "lat": 41.0273,
+    "lon": 16.9833
+  },
+  {
+    "indirizzo abitazione": "Via Garibaldi, 70048 Palese BA",
+    "lat": 41.1483,
+    "lon": 16.7603
+  },
+  {
+    "indirizzo abitazione": "Via Roma, 70049 Giovinazzo BA",
+    "lat": 41.1853,
+    "lon": 16.6703
+  },
+  {
+    "indirizzo abitazione": "Via Garibaldi, 70050 Toritto BA",
+    "lat": 40.9743,
+    "lon": 16.7013
+  },
+  {
+    "indirizzo abitazione": "Via Roma, 70053 Canosa di Puglia BT",
+    "lat": 41.2263,
+    "lon": 16.0653
+  },
+  {
+    "indirizzo abitazione": "Via Regina Margherita, 70054 Minervino Murge BT",
+    "lat": 41.0823,
+    "lon": 16.0813
+  },
+  {
+    "indirizzo abitazione": "Via Vittorio Emanuele II, 70055 Spinazzola BT",
+    "lat": 41.0483,
+    "lon": 16.0863
+  },
+  {
+    "indirizzo abitazione": "Via Roma, 70057 Ruvo di Puglia BA",
+    "lat": 41.1174,
+    "lon": 16.4853
+  },
+  {
+    "indirizzo abitazione": "Via Roma, 70058 Terlizzi BA",
+    "lat": 41.1303,
+    "lon": 16.5453
+  },
+  {
+    "indirizzo abitazione": "Via Roma, 70059 Trani BT",
+    "lat": 41.2779,
+    "lon": 16.4213
+  },
+  {
+    "indirizzo abitazione": "Via Roma, 70060 Altamura BA",
+    "lat": 40.8267,
+    "lon": 16.5534
+  }
+]

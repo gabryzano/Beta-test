@@ -1,0 +1,1253 @@
+[
+  {
+    "Nome Postazione": "Alghero Soccorso - AHO",
+    "Coordinate Postazione": "40.56534,8.33311",
+    "Mezzo": "MSB",
+    "Nome radio": "SS 431",
+    "Convenzione": "H24",
+    "Orario di lavoro": "00:00-00:00",
+    "Giorni": "LUN-DOM"
+  },
+  {
+    "Nome Postazione": "Alghero Soccorso - Ittiri",
+    "Coordinate Postazione": "40.5921,8.56853",
+    "Mezzo": "MSB",
+    "Nome radio": "SS 419",
+    "Convenzione": "H24",
+    "Orario di lavoro": "00:00-00:00",
+    "Giorni": "LUN-DOM"
+  },
+  {
+    "Nome Postazione": "Associazione Soccorso Olianese",
+    "Coordinate Postazione": "40.28104,9.39852",
+    "Mezzo": "MSB",
+    "Nome radio": "NU 306",
+    "Convenzione": "H24",
+    "Orario di lavoro": "00:00-00:00",
+    "Giorni": "LUN-DOM"
+  },
+  {
+    "Nome Postazione": "Associazione Volontari Croce Verde Orune",
+    "Coordinate Postazione": "40.405429,9.368128",
+    "Mezzo": "MSB",
+    "Nome radio": "NU 317",
+    "Convenzione": "H24",
+    "Orario di lavoro": "00:00-00:00 ",
+    "Giorni": "LUN-DOM"
+  },
+  {
+    "Nome Postazione": "Associazione Volontari Lanusei",
+    "Coordinate Postazione": "39.880569,9.540868",
+    "Mezzo": "MSB",
+    "Nome radio": "LA 601",
+    "Convenzione": "H24",
+    "Orario di lavoro": "00:00-00:00",
+    "Giorni": "LUN-DOM"
+  },
+  {
+    "Nome Postazione": "Associazione Volontari Lanusei",
+    "Coordinate Postazione": "39.880569,9.540868",
+    "Mezzo": "MSA",
+    "Nome radio": "AMK 012",
+    "Convenzione": "H24",
+    "Orario di lavoro": "00:00-00:00",
+    "Giorni": "LUN-DOM"
+  },
+  {
+    "Nome Postazione": "Associazione Volontari Meana Sardo",
+    "Coordinate Postazione": "",
+    "Mezzo": "MSB",
+    "Nome radio": "NU 349",
+    "Convenzione": "H4",
+    "Orario di lavoro": "19:00-00:00 ",
+    "Giorni": "LUN-DOM"
+  },
+  {
+    "Nome Postazione": "Associazione Volontari Meana Sardo",
+    "Coordinate Postazione": "",
+    "Mezzo": "MSB",
+    "Nome radio": "NU 349",
+    "Convenzione": "REP H20",
+    "Orario di lavoro": "00:00-19:00 ",
+    "Giorni": "LUN-DOM"
+  },
+  {
+    "Nome Postazione": "Associazione Volontari Soccorso Aritzo - Belvì",
+    "Coordinate Postazione": "39.9595546,9.1834659",
+    "Mezzo": "MSB",
+    "Nome radio": "NU 351",
+    "Convenzione": "H24",
+    "Orario di lavoro": "00:00-00:00",
+    "Giorni": "LUN-DOM"
+  },
+  {
+    "Nome Postazione": "AVIS Benetutti",
+    "Coordinate Postazione": "40.457126,9.170361",
+    "Mezzo": "MSB",
+    "Nome radio": "SS 445",
+    "Convenzione": "H24",
+    "Orario di lavoro": "00:00-00:00",
+    "Giorni": "LUN-DOM"
+  },
+  {
+    "Nome Postazione": "AVIS Campanedda",
+    "Coordinate Postazione": "40.760576,8.346823",
+    "Mezzo": "MSB",
+    "Nome radio": "SS 424",
+    "Convenzione": "H24",
+    "Orario di lavoro": "8:00-8:00",
+    "Giorni": "LUN-DOM"
+  },
+  {
+    "Nome Postazione": "AVIS Perfugas",
+    "Coordinate Postazione": "40.829755,8.890066",
+    "Mezzo": "MSB",
+    "Nome radio": "SS 414",
+    "Convenzione": "H17",
+    "Orario di lavoro": "7:00-00:00",
+    "Giorni": "LUN-VEN"
+  },
+  {
+    "Nome Postazione": "AVIS Porto Torres",
+    "Coordinate Postazione": "40.837516,8.400273",
+    "Mezzo": "MSB",
+    "Nome radio": "SS 423",
+    "Convenzione": "H8",
+    "Orario di lavoro": "14:00-22:00",
+    "Giorni": "LUN-DOM"
+  },
+  {
+    "Nome Postazione": "AVIS Sedini",
+    "Coordinate Postazione": "40.851518,8.815563",
+    "Mezzo": "MSB",
+    "Nome radio": "SS 426",
+    "Convenzione": "H24",
+    "Orario di lavoro": "00:00-00:00",
+    "Giorni": "LUN-DOM"
+  },
+  {
+    "Nome Postazione": "AVIS Torralba - Postazione Mores",
+    "Coordinate Postazione": "40.54971,8.83438",
+    "Mezzo": "MSB",
+    "Nome radio": "SS 446",
+    "Convenzione": "H24",
+    "Orario di lavoro": "00:00-00:00",
+    "Giorni": "LUN-DOM"
+  },
+  {
+    "Nome Postazione": "AVIS Uri",
+    "Coordinate Postazione": "40.6359072,8.4890129",
+    "Mezzo": "MSB",
+    "Nome radio": "SS 418",
+    "Convenzione": "H24",
+    "Orario di lavoro": "00:00-00:00",
+    "Giorni": "LUN-DOM"
+  },
+  {
+    "Nome Postazione": "AVIS Valledoria",
+    "Coordinate Postazione": "40.932945,8.81687",
+    "Mezzo": "MSB",
+    "Nome radio": "SS 428",
+    "Convenzione": "H24",
+    "Orario di lavoro": "00:00-00:00",
+    "Giorni": "LUN-DOM"
+  },
+  {
+    "Nome Postazione": "Barbagia Emergenza",
+    "Coordinate Postazione": "40.21397,9.28152",
+    "Mezzo": "MSB",
+    "Nome radio": "NU 314",
+    "Convenzione": "H24",
+    "Orario di lavoro": "00:00-00:00",
+    "Giorni": "LUN-DOM"
+  },
+  {
+    "Nome Postazione": "Base HEMS - Elisoccorso Alghero",
+    "Coordinate Postazione": "40.63301,8.28288",
+    "Mezzo": "ELI",
+    "Nome radio": "EL 02",
+    "Convenzione": "H12",
+    "Orario di lavoro": "7:30-20:30",
+    "Giorni": "LUN-DOM"
+  },
+  {
+    "Nome Postazione": "Base HEMS - Elisoccorso Olbia",
+    "Coordinate Postazione": "40.9003895,9.5124031",
+    "Mezzo": "ELI",
+    "Nome radio": "EL 01",
+    "Convenzione": "H24",
+    "Orario di lavoro": "00:00-00:00",
+    "Giorni": "LUN-DOM"
+  },
+  {
+    "Nome Postazione": "Bitti Soccorso",
+    "Coordinate Postazione": "40.48021,9.381518",
+    "Mezzo": "MSB",
+    "Nome radio": "NU 307",
+    "Convenzione": "H24",
+    "Orario di lavoro": "00:00-00:00",
+    "Giorni": "LUN-DOM"
+  },
+  {
+    "Nome Postazione": "Budoni Soccorso",
+    "Coordinate Postazione": "40.703866,9.702634",
+    "Mezzo": "MSB",
+    "Nome radio": "OL 518",
+    "Convenzione": "H24",
+    "Orario di lavoro": "00:00-00:00",
+    "Giorni": "LUN-DOM"
+  },
+  {
+    "Nome Postazione": "Budoni Soccorso - Siniscola",
+    "Coordinate Postazione": "40.578042,9.699942",
+    "Mezzo": "MSB",
+    "Nome radio": "NU 324",
+    "Convenzione": "H24",
+    "Orario di lavoro": "00:00-00:00",
+    "Giorni": "LUN-DOM"
+  },
+  {
+    "Nome Postazione": "Chiaramonti Martis Soccorso",
+    "Coordinate Postazione": "40.7481,8.82252",
+    "Mezzo": "MSB",
+    "Nome radio": "SS 425",
+    "Convenzione": "H17",
+    "Orario di lavoro": "7:00-00:00",
+    "Giorni": "LUN-DOM"
+  },
+  {
+    "Nome Postazione": "Coop. Prestige Seui",
+    "Coordinate Postazione": "39.841143,9.318978",
+    "Mezzo": "MSB",
+    "Nome radio": "LA 614",
+    "Convenzione": "H24",
+    "Orario di lavoro": "00:00-00:00",
+    "Giorni": "LUN-DOM"
+  },
+  {
+    "Nome Postazione": "Croce Azzurra Badesi",
+    "Coordinate Postazione": "40.961788,8.883233",
+    "Mezzo": "MSB",
+    "Nome radio": "OL 525",
+    "Convenzione": "H24",
+    "Orario di lavoro": "00:00-00:00",
+    "Giorni": "LUN-DOM"
+  },
+  {
+    "Nome Postazione": "Croce Azzurra Cala Gonone",
+    "Coordinate Postazione": "40.281088,9.631082",
+    "Mezzo": "MSB",
+    "Nome radio": "NU 311",
+    "Convenzione": "H24",
+    "Orario di lavoro": "00:00-00:00",
+    "Giorni": "LUN-DOM"
+  },
+  {
+    "Nome Postazione": "Croce Azzurra Ossi",
+    "Coordinate Postazione": "40.675192,8.588066",
+    "Mezzo": "MSB",
+    "Nome radio": "SS 412",
+    "Convenzione": "H24",
+    "Orario di lavoro": "00:00-00:00",
+    "Giorni": "LUN-DOM"
+  },
+  {
+    "Nome Postazione": "Croce Azzurra Sassari - Osilo",
+    "Coordinate Postazione": "40.742277,8.665566",
+    "Mezzo": "MSB",
+    "Nome radio": "SS 411",
+    "Convenzione": "H24",
+    "Orario di lavoro": "00:00-00:00",
+    "Giorni": "LUN-DOM"
+  },
+  {
+    "Nome Postazione": "Croce Bianca Baunei",
+    "Coordinate Postazione": "40.031577,9.663304",
+    "Mezzo": "MSB",
+    "Nome radio": "LA 611",
+    "Convenzione": "H24",
+    "Orario di lavoro": "00:00-00:00",
+    "Giorni": "LUN-DOM"
+  },
+  {
+    "Nome Postazione": "Croce Bianca Laerru",
+    "Coordinate Postazione": "40.81647,8.83357",
+    "Mezzo": "MSB",
+    "Nome radio": "SS 413",
+    "Convenzione": "H6",
+    "Orario di lavoro": "18:00-00:00",
+    "Giorni": "LUN-DOM"
+  },
+  {
+    "Nome Postazione": "Croce Bianca Laerru",
+    "Coordinate Postazione": "40.81647,8.83357",
+    "Mezzo": "MSB",
+    "Nome radio": "SS 413",
+    "Convenzione": "H24",
+    "Orario di lavoro": "00:00-18:00",
+    "Giorni": "SAB-DOM"
+  },
+  {
+    "Nome Postazione": "Croce Bianca Olbia",
+    "Coordinate Postazione": "40.928163,9.49038",
+    "Mezzo": "MSB",
+    "Nome radio": "OL 502",
+    "Convenzione": "H16",
+    "Orario di lavoro": "16:00-8:00",
+    "Giorni": "LUN-DOM"
+  },
+  {
+    "Nome Postazione": "Croce Bianca San Teodoro",
+    "Coordinate Postazione": "40.7744982,9.6602032",
+    "Mezzo": "MSI",
+    "Nome radio": "IND 009",
+    "Convenzione": "H24",
+    "Orario di lavoro": "00:00-00:00",
+    "Giorni": "LUN-DOM"
+  },
+  {
+    "Nome Postazione": "Croce Bianca San Teodoro",
+    "Coordinate Postazione": "40.7744982,9.6602032",
+    "Mezzo": "MSB",
+    "Nome radio": "OL 511",
+    "Convenzione": "H24",
+    "Orario di lavoro": "00:00-00:00",
+    "Giorni": "LUN-DOM"
+  },
+  {
+    "Nome Postazione": "Croce Blu Sassari",
+    "Coordinate Postazione": "40.71336,8.567049",
+    "Mezzo": "MSB",
+    "Nome radio": "SS 402",
+    "Convenzione": "H24",
+    "Orario di lavoro": "8:00-8:00",
+    "Giorni": "LUN-MER-VEN"
+  },
+  {
+    "Nome Postazione": "Croce Blu Sassari",
+    "Coordinate Postazione": "40.71336,8.567049",
+    "Mezzo": "MSB",
+    "Nome radio": "SS 402",
+    "Convenzione": "H24",
+    "Orario di lavoro": "20:00-8:00",
+    "Giorni": "MAR-GIO-VEN"
+  },
+  {
+    "Nome Postazione": "Croce Gialla Ploaghe",
+    "Coordinate Postazione": "40.664685,8.74187",
+    "Mezzo": "MSB",
+    "Nome radio": "SS 416",
+    "Convenzione": "H24",
+    "Orario di lavoro": "00:00-00:00",
+    "Giorni": "LUN-DOM"
+  },
+  {
+    "Nome Postazione": "Croce Ottagona Ozieri",
+    "Coordinate Postazione": "40.58042,9.00789",
+    "Mezzo": "MSB",
+    "Nome radio": "SS 440",
+    "Convenzione": "H24",
+    "Orario di lavoro": "00:00-00:00",
+    "Giorni": "LUN-DOM"
+  },
+  {
+    "Nome Postazione": "Croce Rossa Italiana - Olbia",
+    "Coordinate Postazione": "40.905819,9.517015",
+    "Mezzo": "MSB",
+    "Nome radio": "OL 500",
+    "Convenzione": "H13",
+    "Orario di lavoro": "7:00-20:00",
+    "Giorni": "LUN-DOM"
+  },
+  {
+    "Nome Postazione": "Croce Rossa Italiana - Sassari",
+    "Coordinate Postazione": "40.727539,8.555362",
+    "Mezzo": "MSB",
+    "Nome radio": "SS 405",
+    "Convenzione": "H12",
+    "Orario di lavoro": "20:00-8:00",
+    "Giorni": "VEN"
+  },
+  {
+    "Nome Postazione": "Croce Rossa Italiana - Sassari",
+    "Coordinate Postazione": "40.727539,8.555362",
+    "Mezzo": "MSB",
+    "Nome radio": "SS 405",
+    "Convenzione": "H24",
+    "Orario di lavoro": "20:00-8:00",
+    "Giorni": "DOM"
+  },
+  {
+    "Nome Postazione": "Croce Rossa Italiana - Sassari",
+    "Coordinate Postazione": "40.727539,8.555362",
+    "Mezzo": "MSB",
+    "Nome radio": "SS 405",
+    "Convenzione": "H24",
+    "Orario di lavoro": "8:00-20:00",
+    "Giorni": "SAB-DOM"
+  },
+  {
+    "Nome Postazione": "Croce Verde Dorgali",
+    "Coordinate Postazione": "40.292022,9.588633",
+    "Mezzo": "MSB",
+    "Nome radio": "NU 315",
+    "Convenzione": "H24",
+    "Orario di lavoro": "00:00-00:00",
+    "Giorni": "LUN-DOM"
+  },
+  {
+    "Nome Postazione": "Croce Verde La Caletta",
+    "Coordinate Postazione": "40.61101,9.745972",
+    "Mezzo": "MSB",
+    "Nome radio": "NU 325",
+    "Convenzione": "H16",
+    "Orario di lavoro": "8:00-00:00",
+    "Giorni": "LUN-DOM"
+  },
+  {
+    "Nome Postazione": "Croce Verde La Maddalena",
+    "Coordinate Postazione": "41.21736,9.42894",
+    "Mezzo": "MSB",
+    "Nome radio": "OL 508",
+    "Convenzione": "H24",
+    "Orario di lavoro": "00:00-00:00",
+    "Giorni": "LUN-DOM"
+  },
+  {
+    "Nome Postazione": "Croce Verde La Maddalena - Palau",
+    "Coordinate Postazione": "41.1800932,9.37897",
+    "Mezzo": "MSB",
+    "Nome radio": "OL 510",
+    "Convenzione": "H24",
+    "Orario di lavoro": "00:00-00:00",
+    "Giorni": "LUN-DOM"
+  },
+  {
+    "Nome Postazione": "Croce Verde La Mimosa - Jerzù",
+    "Coordinate Postazione": "39.792919,9.517953",
+    "Mezzo": "MSB",
+    "Nome radio": "LA 607",
+    "Convenzione": "H8",
+    "Orario di lavoro": "14:00-00:00",
+    "Giorni": "LUN-DOM"
+  },
+  {
+    "Nome Postazione": "Croce Verde Macomer",
+    "Coordinate Postazione": "40.26378,8.77735",
+    "Mezzo": "MSB",
+    "Nome radio": "NU 337",
+    "Convenzione": "H24",
+    "Orario di lavoro": "00:00-00:00",
+    "Giorni": "LUN-DOM"
+  },
+  {
+    "Nome Postazione": "Croce Verde Orani",
+    "Coordinate Postazione": "40.249497,9.184319",
+    "Mezzo": "MSB",
+    "Nome radio": "NU 308",
+    "Convenzione": "H8",
+    "Orario di lavoro": "16:00-00:00",
+    "Giorni": "LUN-DOM"
+  },
+  {
+    "Nome Postazione": "Croce Verde Ortueri",
+    "Coordinate Postazione": "",
+    "Mezzo": "MSB",
+    "Nome radio": "NU 348",
+    "Convenzione": "H8",
+    "Orario di lavoro": "22:00-06:00",
+    "Giorni": "LUN-DOM"
+  },
+  {
+    "Nome Postazione": "Croce Verde Ortueri",
+    "Coordinate Postazione": "",
+    "Mezzo": "MSB",
+    "Nome radio": "NU 348",
+    "Convenzione": "REP H16",
+    "Orario di lavoro": "06:00-22:00",
+    "Giorni": "LUN-DOM"
+  },
+  {
+    "Nome Postazione": "Croce Verde Orgosolo",
+    "Coordinate Postazione": "40.204632,9.355144",
+    "Mezzo": "MSB",
+    "Nome radio": "NU 313",
+    "Convenzione": "H5",
+    "Orario di lavoro": "18:00-23:00",
+    "Giorni": "LUN-DOM"
+  },
+  {
+    "Nome Postazione": "Croce Verde Orgosolo",
+    "Coordinate Postazione": "40.204632,9.355144",
+    "Mezzo": "MSB",
+    "Nome radio": "NU 313",
+    "Convenzione": "REP H19",
+    "Orario di lavoro": "23:00-18:00",
+    "Giorni": "LUN-DOM"
+  },
+  {
+    "Nome Postazione": "Croce Verde Orune",
+    "Coordinate Postazione": "40.405429,9.368128",
+    "Mezzo": "MSB",
+    "Nome radio": "NU 317",
+    "Convenzione": "H24",
+    "Orario di lavoro": "00:00-00:00",
+    "Giorni": "LUN-DOM"
+  },
+  {
+    "Nome Postazione": "Croce Verde Perdasdefogu",
+    "Coordinate Postazione": "39.68061,9.441222",
+    "Mezzo": "MSB",
+    "Nome radio": "LA 606",
+    "Convenzione": "H12",
+    "Orario di lavoro": "08:00-20:00",
+    "Giorni": "LUN-DOM"
+  },
+  {
+    "Nome Postazione": "Croce Verde Tertenia",
+    "Coordinate Postazione": "39.695787,9.578269",
+    "Mezzo": "MSB",
+    "Nome radio": "LA 608",
+    "Convenzione": "H24",
+    "Orario di lavoro": "00:00-00:00",
+    "Giorni": "LUN-DOM"
+  },
+  {
+    "Nome Postazione": "Croce Verde Tortolì",
+    "Coordinate Postazione": "39.925117,9.662988",
+    "Mezzo": "MSI",
+    "Nome radio": "IND 003",
+    "Convenzione": "H12",
+    "Orario di lavoro": "20:00-8:00",
+    "Giorni": "LUN-DOM"
+  },
+  {
+    "Nome Postazione": "Croce Verde Tortolì",
+    "Coordinate Postazione": "39.925117,9.662988",
+    "Mezzo": "MSA",
+    "Nome radio": "AMK 013",
+    "Convenzione": "H12",
+    "Orario di lavoro": "08:00-20:00",
+    "Giorni": "LUN-DOM"
+  },
+  {
+    "Nome Postazione": "Croce Verde Viddalba",
+    "Coordinate Postazione": "40.9130414,8.8921216",
+    "Mezzo": "MSB",
+    "Nome radio": "SS 429",
+    "Convenzione": "H6",
+    "Orario di lavoro": "18:00-00:00",
+    "Giorni": "LUN-DOM"
+  },
+  {
+    "Nome Postazione": "Croce Verde Viddalba",
+    "Coordinate Postazione": "40.9130414,8.8921216",
+    "Mezzo": "MSB",
+    "Nome radio": "SS 429",
+    "Convenzione": "H13",
+    "Orario di lavoro": "18:00-7:00",
+    "Giorni": "VEN-DOM"
+  },
+  {
+    "Nome Postazione": "Croce Verde Viddalba",
+    "Coordinate Postazione": "40.9130414,8.8921216",
+    "Mezzo": "MSB",
+    "Nome radio": "SS 429",
+    "Convenzione": "H12",
+    "Orario di lavoro": "6:00-18:00",
+    "Giorni": "SAB-DOM"
+  },
+  {
+    "Nome Postazione": "Dueffe Soccorso - Nulvi",
+    "Coordinate Postazione": "40.77884,8.74506",
+    "Mezzo": "MSB",
+    "Nome radio": "SS 415",
+    "Convenzione": "H24",
+    "Orario di lavoro": "00:00-00:00",
+    "Giorni": "LUN-DOM"
+  },
+  {
+    "Nome Postazione": "Dueffe Soccorso - Sassari",
+    "Coordinate Postazione": "40.73254,8.56479",
+    "Mezzo": "MSI",
+    "Nome radio": "IND 000",
+    "Convenzione": "H24",
+    "Orario di lavoro": "00:00-00:00",
+    "Giorni": "LUN-DOM"
+  },
+  {
+    "Nome Postazione": "Ellemme Soccorso - Bolotana",
+    "Coordinate Postazione": "40.325244,8.96261",
+    "Mezzo": "MSB",
+    "Nome radio": "NU 338",
+    "Convenzione": "H24",
+    "Orario di lavoro": "00:00-00:00",
+    "Giorni": "LUN-DOM"
+  },
+  {
+    "Nome Postazione": "Ellemme Soccorso - Macomer",
+    "Coordinate Postazione": "40.27587,8.77065",
+    "Mezzo": "MSI",
+    "Nome radio": "IND 008",
+    "Convenzione": "H24",
+    "Orario di lavoro": "00:00-00:00",
+    "Giorni": "LUN-DOM"
+  },
+  {
+    "Nome Postazione": "Gallura Soccorso - Calangianus",
+    "Coordinate Postazione": "40.92254,9.19373",
+    "Mezzo": "MSB",
+    "Nome radio": "OL 529",
+    "Convenzione": "H12",
+    "Orario di lavoro": "8:00-20:00",
+    "Giorni": "LUN-DOM"
+  },
+  {
+    "Nome Postazione": "Gallura Soccorso - S. Antonio di Gallura",
+    "Coordinate Postazione": "40.9934747,9.3050045",
+    "Mezzo": "MSB",
+    "Nome radio": "OL 522",
+    "Convenzione": "H24",
+    "Orario di lavoro": "00:00-00:00",
+    "Giorni": "LUN-DOM"
+  },
+  {
+    "Nome Postazione": "GIES Irgoli",
+    "Coordinate Postazione": "40.414177,9.629844",
+    "Mezzo": "MSB",
+    "Nome radio": "NU 322",
+    "Convenzione": "H24",
+    "Orario di lavoro": "00:00-00:00",
+    "Giorni": "LUN-DOM"
+  },
+  {
+    "Nome Postazione": "GIES Nuoro",
+    "Coordinate Postazione": "40.313957,9.324972",
+    "Mezzo": "MSB",
+    "Nome radio": "NU 305",
+    "Convenzione": "H24",
+    "Orario di lavoro": "00:00-00:00",
+    "Giorni": "LUN-DOM"
+  },
+  {
+    "Nome Postazione": "GIES Ottana",
+    "Coordinate Postazione": "40.23418,9.04704",
+    "Mezzo": "MSB",
+    "Nome radio": "NU 312",
+    "Convenzione": "H24",
+    "Orario di lavoro": "00:00-00:00",
+    "Giorni": "LUN-DOM"
+  },
+  {
+    "Nome Postazione": "Ha Cadahora - Jerzù",
+    "Coordinate Postazione": "39.789517,9.520892",
+    "Mezzo": "MSB",
+    "Nome radio": "LA 613",
+    "Convenzione": "H24",
+    "Orario di lavoro": "00:00-00:00",
+    "Giorni": "LUN-DOM"
+  },
+  {
+    "Nome Postazione": "HELP - Bono",
+    "Coordinate Postazione": "40.4120967,9.0286543",
+    "Mezzo": "MSB",
+    "Nome radio": "SS 448",
+    "Convenzione": "H24",
+    "Orario di lavoro": "00:00-00:00",
+    "Giorni": "LUN-DOM"
+  },
+  {
+    "Nome Postazione": "Intervol Sardegna - Berchidda",
+    "Coordinate Postazione": "40.78547,9.16944",
+    "Mezzo": "MSB",
+    "Nome radio": "OL 514",
+    "Convenzione": "H24",
+    "Orario di lavoro": "00:00-00:00",
+    "Giorni": "LUN-DOM"
+  },
+  {
+    "Nome Postazione": "Intervol Sardegna - Buddusò",
+    "Coordinate Postazione": "40.57444,9.25118",
+    "Mezzo": "MSB",
+    "Nome radio": "OL 515",
+    "Convenzione": "H24",
+    "Orario di lavoro": "00:00-00:00",
+    "Giorni": "LUN-DOM"
+  },
+  {
+    "Nome Postazione": "Intervol Sardegna - Olbia",
+    "Coordinate Postazione": "40.931278,9.538298",
+    "Mezzo": "MSB",
+    "Nome radio": "OL 503",
+    "Convenzione": "H24",
+    "Orario di lavoro": "00:00-00:00",
+    "Giorni": "LUN-DOM"
+  },
+  {
+    "Nome Postazione": "Le Grazie Onlus Arbatax - Tortolì",
+    "Coordinate Postazione": "39.9349,9.70684",
+    "Mezzo": "MSB",
+    "Nome radio": "LA 603",
+    "Convenzione": "H24",
+    "Orario di lavoro": "00:00-00:00",
+    "Giorni": "LUN-DOM"
+  },
+  {
+    "Nome Postazione": "MASS Soccorso - Padru",
+    "Coordinate Postazione": "40.77529,9.55347",
+    "Mezzo": "MSB",
+    "Nome radio": "OL 513",
+    "Convenzione": "H24",
+    "Orario di lavoro": "00:00-00:00",
+    "Giorni": "LUN-DOM"
+  },
+  {
+    "Nome Postazione": "Mike Soccorso - Meana Sardo",
+    "Coordinate Postazione": "39.94878,9.0672499",
+    "Mezzo": "MSB",
+    "Nome radio": "NU 350",
+    "Convenzione": "H24",
+    "Orario di lavoro": "00:00-00:00",
+    "Giorni": "LUN-DOM"
+  },
+  {
+    "Nome Postazione": "Mike Soccorso - Tonara",
+    "Coordinate Postazione": "40.0220511,9.1696128",
+    "Mezzo": "MSB",
+    "Nome radio": "NU 345",
+    "Convenzione": "H24",
+    "Orario di lavoro": "00:00-00:00",
+    "Giorni": "LUN-DOM"
+  },
+  {
+    "Nome Postazione": "Misericordia S. Teresa di Gallura",
+    "Coordinate Postazione": "41.24252,9.192134",
+    "Mezzo": "MSB",
+    "Nome radio": "OL 528",
+    "Convenzione": "H7",
+    "Orario di lavoro": "00:00-7:00",
+    "Giorni": "LUN-DOM"
+  },
+  {
+    "Nome Postazione": "Misericordia S. Teresa di Gallura",
+    "Coordinate Postazione": "41.24252,9.192134",
+    "Mezzo": "MSI",
+    "Nome radio": "IND 001",
+    "Convenzione": "H24",
+    "Orario di lavoro": "00:00-00:00",
+    "Giorni": "LUN-DOM"
+  },
+  {
+    "Nome Postazione": "Misericordia Sassari",
+    "Coordinate Postazione": "40.716687,8.571379",
+    "Mezzo": "MSB",
+    "Nome radio": "SS 403",
+    "Convenzione": "H24",
+    "Orario di lavoro": "8:00-8:00",
+    "Giorni": "MAR-GIO-SAB-DOM"
+  },
+  {
+    "Nome Postazione": "Misericordia Sassari",
+    "Coordinate Postazione": "40.716687,8.571379",
+    "Mezzo": "MSB",
+    "Nome radio": "SS 403",
+    "Convenzione": "H24",
+    "Orario di lavoro": "20:00-8:00",
+    "Giorni": "LUN-MER"
+  },
+  {
+    "Nome Postazione": "Misericordia Villanova Monteleone",
+    "Coordinate Postazione": "40.501769,8.476199",
+    "Mezzo": "MSB",
+    "Nome radio": "SS 439",
+    "Convenzione": "H24",
+    "Orario di lavoro": "00:00-00:00",
+    "Giorni": "LUN-DOM"
+  },
+  {
+    "Nome Postazione": "MM Soccorso Orosei",
+    "Coordinate Postazione": "40.376872,9.692016",
+    "Mezzo": "MSB",
+    "Nome radio": "NU 323",
+    "Convenzione": "H24",
+    "Orario di lavoro": "00:00-00:00",
+    "Giorni": "LUN-DOM"
+  },
+  {
+    "Nome Postazione": "Nurkara Soccorso - Bonorva",
+    "Coordinate Postazione": "40.419162,8.765232",
+    "Mezzo": "MSB",
+    "Nome radio": "SS 444",
+    "Convenzione": "H24",
+    "Orario di lavoro": "00:00-00:00",
+    "Giorni": "LUN-DOM"
+  },
+  {
+    "Nome Postazione": "Nurkara Soccorso - Pozzomaggiore",
+    "Coordinate Postazione": "40.399616,8.659518",
+    "Mezzo": "MSB",
+    "Nome radio": "SS 443",
+    "Convenzione": "H24",
+    "Orario di lavoro": "00:00-00:00",
+    "Giorni": "LUN-DOM"
+  },
+  {
+    "Nome Postazione": "Ogliastra Emergenza",
+    "Coordinate Postazione": "39.842924,9.642565",
+    "Mezzo": "MSB",
+    "Nome radio": "LA 605",
+    "Convenzione": "H24",
+    "Orario di lavoro": "00:00-00:00",
+    "Giorni": "LUN-DOM"
+  },
+  {
+    "Nome Postazione": "Olmedo Emergenza",
+    "Coordinate Postazione": "40.653452,8.375731",
+    "Mezzo": "MSB",
+    "Nome radio": "SS 435",
+    "Convenzione": "H24",
+    "Orario di lavoro": "00:00-00:00",
+    "Giorni": "LUN-DOM"
+  },
+  {
+    "Nome Postazione": "PASS Soccorso",
+    "Coordinate Postazione": "40.761231,8.501288",
+    "Mezzo": "MSB",
+    "Nome radio": "SS 410",
+    "Convenzione": "H24",
+    "Orario di lavoro": "00:00-00:00",
+    "Giorni": "LUN-DOM"
+  },
+  {
+    "Nome Postazione": "Polisoccorso Alghero",
+    "Coordinate Postazione": "40.581141,8.31568",
+    "Mezzo": "MSB",
+    "Nome radio": "SS 432",
+    "Convenzione": "H24",
+    "Orario di lavoro": "00:00-00:00",
+    "Giorni": "LUN-DOM"
+  },
+  {
+    "Nome Postazione": "Postazione AREUS - Alghero",
+    "Coordinate Postazione": "40.5805555,8.3117185",
+    "Mezzo": "MSA",
+    "Nome radio": "AMK 003",
+    "Convenzione": "H24",
+    "Orario di lavoro": "00:00-00:00",
+    "Giorni": "LUN-DOM"
+  },
+  {
+    "Nome Postazione": "Postazione AREUS - Nuoro",
+    "Coordinate Postazione": "40.324615,9.31558",
+    "Mezzo": "MSA",
+    "Nome radio": "AMK 007",
+    "Convenzione": "H24",
+    "Orario di lavoro": "00:00-00:00",
+    "Giorni": "LUN-DOM"
+  },
+  {
+    "Nome Postazione": "Postazione AREUS - Olbia",
+    "Coordinate Postazione": "40.931392,9.50044",
+    "Mezzo": "MSA",
+    "Nome radio": "AMK 005",
+    "Convenzione": "H24",
+    "Orario di lavoro": "00:00-00:00",
+    "Giorni": "LUN-DOM"
+  },
+  {
+    "Nome Postazione": "Postazione AREUS - Ozieri",
+    "Coordinate Postazione": "40.580678,9.002926",
+    "Mezzo": "MSA",
+    "Nome radio": "AMK 004",
+    "Convenzione": "H24",
+    "Orario di lavoro": "00:00-00:00",
+    "Giorni": "LUN-DOM"
+  },
+  {
+    "Nome Postazione": "Postazione AREUS - Porto Torres",
+    "Coordinate Postazione": "40.82229,8.408118",
+    "Mezzo": "MSA",
+    "Nome radio": "AMK 002",
+    "Convenzione": "H24",
+    "Orario di lavoro": "00:00-00:00",
+    "Giorni": "LUN-DOM"
+  },
+  {
+    "Nome Postazione": "Postazione AREUS - Sassari",
+    "Coordinate Postazione": "40.71819,8.55459",
+    "Mezzo": "MSA",
+    "Nome radio": "AMK 001",
+    "Convenzione": "H24",
+    "Orario di lavoro": "00:00-00:00",
+    "Giorni": "LUN-DOM"
+  },
+  {
+    "Nome Postazione": "Postazione AREUS - Siniscola",
+    "Coordinate Postazione": "40.5706459,9.6978039",
+    "Mezzo": "MSA",
+    "Nome radio": "AMK 008",
+    "Convenzione": "H24",
+    "Orario di lavoro": "00:00-00:00",
+    "Giorni": "LUN-DOM"
+  },
+  {
+    "Nome Postazione": "Postazione AREUS - Sorgono",
+    "Coordinate Postazione": "40.021307,9.09936",
+    "Mezzo": "MSA",
+    "Nome radio": "AMK 011",
+    "Convenzione": "H24",
+    "Orario di lavoro": "00:00-00:00",
+    "Giorni": "LUN-DOM"
+  },
+  {
+    "Nome Postazione": "Postazione AREUS - Sorgono",
+    "Coordinate Postazione": "40.021307,9.09936",
+    "Mezzo": "MSB",
+    "Nome radio": "NU 352",
+    "Convenzione": "H12",
+    "Orario di lavoro": "20:00-8:00",
+    "Giorni": "LUN-DOM"
+  },
+  {
+    "Nome Postazione": "Postazione AREUS - Sorgono",
+    "Coordinate Postazione": "40.021307,9.09936",
+    "Mezzo": "MSB",
+    "Nome radio": "NU 352",
+    "Convenzione": "REP H12",
+    "Orario di lavoro": "08:00-20:00",
+    "Giorni": "LUN-DOM"
+  },
+  {
+    "Nome Postazione": "Postazione AREUS - Tempio Pausania",
+    "Coordinate Postazione": "40.89665,9.102668",
+    "Mezzo": "MSI",
+    "Nome radio": "IND 006",
+    "Convenzione": "H12",
+    "Orario di lavoro": "20:00-8:00",
+    "Giorni": "LUN-DOM"
+  },
+  {
+    "Nome Postazione": "Postazione AREUS - Tempio Pausania",
+    "Coordinate Postazione": "40.89665,9.102668",
+    "Mezzo": "MSI",
+    "Nome radio": "IND 006",
+    "Convenzione": "REP H12",
+    "Orario di lavoro": "08:00-20:00",
+    "Giorni": "LUN-DOM"
+  },
+  {
+    "Nome Postazione": "Postazione AREUS - Tempio Pausania",
+    "Coordinate Postazione": "40.89665,9.102668",
+    "Mezzo": "MSA",
+    "Nome radio": "AMK 006",
+    "Convenzione": "H24",
+    "Orario di lavoro": "00:00-00:00",
+    "Giorni": "LUN-DOM"
+  },
+  {
+    "Nome Postazione": "Postazione AREUS - Tempio Pausania",
+    "Coordinate Postazione": "40.89665,9.102668",
+    "Mezzo": "MSB",
+    "Nome radio": "OL 526",
+    "Convenzione": "H12",
+    "Orario di lavoro": "8:00-20:00",
+    "Giorni": "LUN-DOM"
+  },
+  {
+    "Nome Postazione": "Sardegna Emergenza - Sennori",
+    "Coordinate Postazione": "40.795067,8.600805",
+    "Mezzo": "MSB",
+    "Nome radio": "SS 417",
+    "Convenzione": "H24",
+    "Orario di lavoro": "00:00-00:00",
+    "Giorni": "LUN-DOM"
+  },
+  {
+    "Nome Postazione": "Sassari Soccorso",
+    "Coordinate Postazione": "40.746235,8.552926",
+    "Mezzo": "MSB",
+    "Nome radio": "SS 408",
+    "Convenzione": "H24",
+    "Orario di lavoro": "20:00-8:00",
+    "Giorni": "SAB"
+  },
+  {
+    "Nome Postazione": "Sassari Soccorso",
+    "Coordinate Postazione": "40.746235,8.552926",
+    "Mezzo": "MSB",
+    "Nome radio": "SS 408",
+    "Convenzione": "H24",
+    "Orario di lavoro": "8:00-20:00",
+    "Giorni": "LUN-VEN"
+  },
+  {
+    "Nome Postazione": "Soccorso Sardo - Castelsardo",
+    "Coordinate Postazione": "40.912403,8.700377",
+    "Mezzo": "MSB",
+    "Nome radio": "SS 427",
+    "Convenzione": "H24",
+    "Orario di lavoro": "00:00-00:00",
+    "Giorni": "LUN-DOM"
+  },
+  {
+    "Nome Postazione": "Soccorso Sardo - Olbia",
+    "Coordinate Postazione": "40.92517,9.49807",
+    "Mezzo": "MSB",
+    "Nome radio": "OL 501",
+    "Convenzione": "H24",
+    "Orario di lavoro": "00:00-00:00",
+    "Giorni": "LUN-DOM"
+  },
+  {
+    "Nome Postazione": "Soccorso Sardo - Porto Torres",
+    "Coordinate Postazione": "40.827903,8.416773",
+    "Mezzo": "MSB",
+    "Nome radio": "SS 422",
+    "Convenzione": "H16",
+    "Orario di lavoro": "22:00-14:00",
+    "Giorni": "LUN-DOM"
+  },
+  {
+    "Nome Postazione": "Soccorso Sardo - Sassari",
+    "Coordinate Postazione": "40.742082,8.557829",
+    "Mezzo": "MSB",
+    "Nome radio": "SS 406",
+    "Convenzione": "H24",
+    "Orario di lavoro": "00:00-00:00",
+    "Giorni": "LUN-DOM"
+  },
+  {
+    "Nome Postazione": "Soccorso Sardo - Stintino",
+    "Coordinate Postazione": "40.937085,8.224464",
+    "Mezzo": "MSB",
+    "Nome radio": "SS 421",
+    "Convenzione": "H24",
+    "Orario di lavoro": "00:00-00:00",
+    "Giorni": "LUN-DOM"
+  },
+  {
+    "Nome Postazione": "Soccorso Sardo - Thiesi",
+    "Coordinate Postazione": "40.524849,8.719566",
+    "Mezzo": "MSB",
+    "Nome radio": "SS 442",
+    "Convenzione": "H24",
+    "Orario di lavoro": "00:00-00:00",
+    "Giorni": "LUN-DOM"
+  },
+  {
+    "Nome Postazione": "Sorso Emergenza",
+    "Coordinate Postazione": "40.80442,8.57782",
+    "Mezzo": "MSB",
+    "Nome radio": "SS 420",
+    "Convenzione": "H24",
+    "Orario di lavoro": "00:00-00:00",
+    "Giorni": "LUN-DOM"
+  },
+  {
+    "Nome Postazione": "Volontari Protezione Civile Alta Gallura Tempio Pausania",
+    "Coordinate Postazione": "40.89532,9.09325",
+    "Mezzo": "MSB",
+    "Nome radio": "OL 520",
+    "Convenzione": "H24",
+    "Orario di lavoro": "00:00-00:00",
+    "Giorni": "LUN-DOM"
+  },
+  {
+    "Nome Postazione": "Volontari Protezione Civile Agosto '89 Arzachena",
+    "Coordinate Postazione": "41.07958,9.38642",
+    "Mezzo": "MSB",
+    "Nome radio": "OL 506",
+    "Convenzione": "H24",
+    "Orario di lavoro": "00:00-00:00",
+    "Giorni": "LUN-DOM"
+  },
+  {
+    "Nome Postazione": "Volontari Protezione Civile Agosto '89 Arzachena",
+    "Coordinate Postazione": "41.07958,9.38642",
+    "Mezzo": "MSI",
+    "Nome radio": "IND 010",
+    "Convenzione": "H24",
+    "Orario di lavoro": "00:00-00:00",
+    "Giorni": "LUN-DOM"
+  },
+  {
+    "Nome Postazione": "Volontari del Soccorso Urzulei",
+    "Coordinate Postazione": "40.0950178,9.51078",
+    "Mezzo": "MSB",
+    "Nome radio": "LA 610",
+    "Convenzione": "H24",
+    "Orario di lavoro": "00:00-00:00",
+    "Giorni": "LUN-DOM"
+  },
+  {
+    "Nome Postazione": "Volontari Don Bosco - Gavoi",
+    "Coordinate Postazione": "40.162218,9.196557",
+    "Mezzo": "MSB",
+    "Nome radio": "NU 320",
+    "Convenzione": "H24",
+    "Orario di lavoro": "00:00-00:00",
+    "Giorni": "LUN-DOM"
+  },
+  {
+    "Nome Postazione": "Volontari Don Bosco - Nuoro",
+    "Coordinate Postazione": "40.3249244,9.3183342",
+    "Mezzo": "MSB",
+    "Nome radio": "NU 302",
+    "Convenzione": "H24",
+    "Orario di lavoro": "00:00-00:00",
+    "Giorni": "LUN-DOM"
+  },
+  {
+    "Nome Postazione": "Volontari La Fenice - Lodè",
+    "Coordinate Postazione": "40.59178,9.54367",
+    "Mezzo": "MSB",
+    "Nome radio": "NU 327",
+    "Convenzione": "H24",
+    "Orario di lavoro": "00:00-00:00",
+    "Giorni": "LUN-DOM"
+  },
+  {
+    "Nome Postazione": "Volontari Protezione Civile Lungoni Santa Teresa di Gallura",
+    "Coordinate Postazione": "41.233725,9.188429",
+    "Mezzo": "MSB",
+    "Nome radio": "OL 527",
+    "Convenzione": "REP H7",
+    "Orario di lavoro": "00:00-07:00",
+    "Giorni": "LUN-DOM"
+  },
+  {
+    "Nome Postazione": "Volontari Protezione Civile Lungoni Santa Teresa di Gallura",
+    "Coordinate Postazione": "41.233725,9.188429",
+    "Mezzo": "MSB",
+    "Nome radio": "OL 527",
+    "Convenzione": "H17",
+    "Orario di lavoro": "7:00-00:00",
+    "Giorni": "LUN-DOM"
+  },
+  {
+    "Nome Postazione": "Volontari Protezione Civile Luogosanto",
+    "Coordinate Postazione": "41.044007,9.207465",
+    "Mezzo": "MSB",
+    "Nome radio": "OL 523",
+    "Convenzione": "H24",
+    "Orario di lavoro": "00:00-00:00",
+    "Giorni": "LUN-DOM"
+  },
+  {
+    "Nome Postazione": "Volontari Protezione Civile Monte Ruju Golfo Aranci",
+    "Coordinate Postazione": "41.004308,9.608124",
+    "Mezzo": "MSB",
+    "Nome radio": "OL 505",
+    "Convenzione": "H24",
+    "Orario di lavoro": "00:00-00:00",
+    "Giorni": "LUN-DOM"
+  },
+  {
+    "Nome Postazione": "Volontari Pro Vita - Fonni",
+    "Coordinate Postazione": "40.119112,9.248606",
+    "Mezzo": "MSB",
+    "Nome radio": "NU 319",
+    "Convenzione": "H12",
+    "Orario di lavoro": "8:00-20:00",
+    "Giorni": "LUN-DOM"
+  },
+  {
+    "Nome Postazione": "Volontari Pro Vita - Fonni",
+    "Coordinate Postazione": "40.119112,9.248606",
+    "Mezzo": "MSB",
+    "Nome radio": "NU 319",
+    "Convenzione": "REP H12",
+    "Orario di lavoro": "20:00-08:00",
+    "Giorni": "LUN-DOM"
+  },
+  {
+    "Nome Postazione": "POSTAZIONE ESTIVA - ALGHERO FERTILIA",
+    "Coordinate Postazione": "",
+    "Mezzo": "MSB",
+    "Nome radio": "ESS 002",
+    "Convenzione": "H12",
+    "Orario di lavoro": "08:00-20:00",
+    "Giorni": "LUN-DOM"
+  },
+  {
+    "Nome Postazione": "POSTAZIONE ESTIVA - COSTA PARADISO",
+    "Coordinate Postazione": "41.050965,8.948311",
+    "Mezzo": "MSB",
+    "Nome radio": "EOL 013",
+    "Convenzione": "H24",
+    "Orario di lavoro": "00:00-00:00",
+    "Giorni": "LUN-DOM"
+  },
+  {
+    "Nome Postazione": "POSTAZIONE ESTIVA - GALTELLì",
+    "Coordinate Postazione": "40.3842252,9.6112643",
+    "Mezzo": "MSI",
+    "Nome radio": "IND 007",
+    "Convenzione": "H12",
+    "Orario di lavoro": "8:00-20:00",
+    "Giorni": "LUN-DOM"
+  },
+  {
+    "Nome Postazione": "POSTAZIONE ESTIVA - GALTELLì",
+    "Coordinate Postazione": "40.3842252,9.6112643",
+    "Mezzo": "MSB",
+    "Nome radio": "NU 321",
+    "Convenzione": "H12",
+    "Orario di lavoro": "8:00-20:00",
+    "Giorni": "LUN-DOM"
+  },
+  {
+    "Nome Postazione": "POSTAZIONE ESTIVA - PORTO CERCO ABBIADORI",
+    "Coordinate Postazione": "41.098816,9.523514",
+    "Mezzo": "MSB",
+    "Nome radio": "EOL010",
+    "Convenzione": "H12",
+    "Orario di lavoro": "08:00-20:00",
+    "Giorni": "LUN-DOM"
+  },
+  {
+    "Nome Postazione": "POSTAZIONE ESTIVA - PLATAMONA",
+    "Coordinate Postazione": "40.81823,8.46391",
+    "Mezzo": "MSB",
+    "Nome radio": "ESS001",
+    "Convenzione": "H12",
+    "Orario di lavoro": "08:00-20:00",
+    "Giorni": "LUN-DOM"
+  },
+  {
+    "Nome Postazione": "POSTAZIONE ESTIVA - PORTO ROTONDO",
+    "Coordinate Postazione": "41.025846,9.546543",
+    "Mezzo": "MSB",
+    "Nome radio": "EOL009",
+    "Convenzione": "H24",
+    "Orario di lavoro": "00:00-00:00",
+    "Giorni": "LUN-DOM"
+  },
+  {
+    "Nome Postazione": "POSTAZIONE ESTIVA - PORTO SAN PAOLO",
+    "Coordinate Postazione": "40.875046,9.627779",
+    "Mezzo": "MSB",
+    "Nome radio": "EOL014",
+    "Convenzione": "H24",
+    "Orario di lavoro": "00:00-00:00",
+    "Giorni": "LUN-DOM"
+  },
+  {
+    "Nome Postazione": "POSTAZIONE ESTIVA - SOS ALINOS",
+    "Coordinate Postazione": "40.440102,9.76579",
+    "Mezzo": "MSB",
+    "Nome radio": "ENU017",
+    "Convenzione": "H24",
+    "Orario di lavoro": "00:00-00:00",
+    "Giorni": "LUN-DOM"
+  },
+  {
+    "Nome Postazione": "POSTAZIONE ESTIVA - VIGNOLA",
+    "Coordinate Postazione": "41.127133,9.07142",
+    "Mezzo": "MSB",
+    "Nome radio": "EOL016",
+    "Convenzione": "H24",
+    "Orario di lavoro": "00:00-00:00",
+    "Giorni": "LUN-DOM"
+  }
+]

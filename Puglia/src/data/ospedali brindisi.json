@@ -1,0 +1,50 @@
+[
+  {
+    "OSPEDALE": "H BRINDISI",
+    "COORDINATE": "40.6247198,17.9153064",
+    "N° pazienti Max": 60,
+    "CLASSE": "EAS",
+    "PUNTO NASCITA": true,
+    "PEDIATRIA": true,
+    "TRAUMA": "CTZ",
+    "EMODINAMICA": true,
+    "STROKE UNIT": true,
+    "NCH": true,
+    "RIANIMAZIONE": true,
+    "PSICHIATRIA": true,
+    "lat": 40.946432,
+    "lon": 16.730331
+  },
+  {
+    "OSPEDALE": "H FRANCAVILLA FONTANA",
+    "COORDINATE": "40.5395683,17.5772004",
+    "N° pazienti Max": 30,
+    "CLASSE": "DEA",
+    "PUNTO NASCITA": true,
+    "PEDIATRIA": true,
+    "TRAUMA": "CTZ",
+    "EMODINAMICA": false,
+    "STROKE UNIT": false,
+    "NCH": false,
+    "RIANIMAZIONE": true,
+    "PSICHIATRIA": false,
+    "lat": 41.329372,
+    "lon": 16.709462
+  },
+  {
+    "OSPEDALE": "H OSTUNI",
+    "COORDINATE": "40.7259327,17.5736196",
+    "N° pazienti Max": 20,
+    "CLASSE": "PS",
+    "PUNTO NASCITA": false,
+    "PEDIATRIA": false,
+    "TRAUMA": "PST",
+    "EMODINAMICA": false,
+    "STROKE UNIT": false,
+    "NCH": false,
+    "RIANIMAZIONE": false,
+    "PSICHIATRIA": false,
+    "lat": 40.972996,
+    "lon": 17.077718
+  }
+]

@@ -1,0 +1,59 @@
+{
+    "Sheet1": [
+        {
+            "Tipo": "MSB",
+            "Nome Esteso": "Mezzo di Soccorso Base",
+            "Trasporta Pazienti": "1 + 1(non critico)",
+            "Equipaggio": "2 o 3 Soccorritori (BLS)",
+            "Competenze": "BLS, ecg, glicemia",
+            "Caratteristiche Tecniche": "Ambulanza base",
+            "Velocità media": "60 km/h",
+            "calcolo distanza": "strada",
+            "Parametri": "No GCS"
+        },
+        {
+            "Tipo": "MSI",
+            "Nome Esteso": "Mezzo di Soccorso Intermedio",
+            "Trasporta Pazienti": 1,
+            "Equipaggio": "Infermiere + Autista",
+            "Competenze": "ACLS, GCS, PAC, PNX, analgesia, ipoglicemia + Trasporto",
+            "Caratteristiche Tecniche": "Ambulanza attrezzata con infermiere a bordo",
+            "Velocità media": "60 km/h",
+            "calcolo distanza": "strada",
+            "Parametri": "tutti"
+        },
+        {
+            "Tipo": "VLV",
+            "Nome Esteso": "Veicolo Leggero Veloce",
+            "Trasporta Pazienti": "No",
+            "Equipaggio": "Medico + Infermieire + Autista",
+            "Competenze": "ACLS, GCS, PAC, PNX, analgesia, ipoglicemia, Intubazione, Sedazione, ASO",
+            "Caratteristiche Tecniche": "Auto medicalizzata veloce",
+            "Velocità media": "80 km/h",
+            "calcolo distanza": "strada",
+            "Parametri": "tutti"
+        },
+        {
+            "Tipo": "MSA",
+            "Nome Esteso": "Mezzo di Soccorso Avanzato",
+            "Trasporta Pazienti": 1,
+            "Equipaggio": "Medico + Infermieire + Autista",
+            "Competenze": "ACLS, GCS, PAC, PNX, analgesia, ipoglicemia, Intubazione, Sedazione, ASO + Trasporto",
+            "Caratteristiche Tecniche": "Ambulanza con medico, adatta a casi critici",
+            "Velocità media": "60 km/h",
+            "calcolo distanza": "strada",
+            "Parametri": "tutti"
+        },
+        {
+            "Tipo": "ELI",
+            "Nome Esteso": "Elisoccorso",
+            "Trasporta Pazienti": "1 + 1(non critico)",
+            "Equipaggio": "Medico + Infermiere + Pilota",
+            "Competenze": "Stesse di MSA2 + Trasporto",
+            "Caratteristiche Tecniche": "Velocità alta, via aerea, attivazione in 8 min",
+            "Velocità media": "150 km/h",
+            "calcolo distanza": "aria",
+            "Parametri": "tutti"
+        }
+    ]
+}
