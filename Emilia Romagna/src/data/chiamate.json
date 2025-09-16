@@ -121,7 +121,7 @@
         },
         "caso_critico": {
             "MSB": "Maschio, 40 anni, incosciente. Cianosi evidente. FC 40 bpm, PA 60/40 mmHg, SpO₂ 78%. Arresto respiratorio imminente. Sospetta anafilassi in allergico noto, richiesta MSA.[Rianimazione]",
-            "MSA1": "GCS 6, edema della grottide, SpO₂ 70%. gestione delle vie aeree difficoltosa. FC 38 bpm, PA 55/30 mmHg. Adrenalina 0,5 IM e 0,5 in aerosol, Idrocortisone 1 gr EV + trimeton 1 fiala IM, ventilazione assistita. Richiesto MSA2. [Rianimazione]",
+            "MSA1": "GCS 6, edema della grottide, SpO₂ 70%. gestione delle vie aeree difficoltosa. FC 38 bpm, PA 55/30 mmHg. Adrenalina 0,5 IM e 0,5 in aerosol, Idrocortisone 1 gr EV + trimeton 1 fiala IM, ventilazione assistita. Richiesto MSA. [Rianimazione]",
             "MSA2": "Maschio, 40 anni, GCS 3, intubato. Parametri gravemente instabili. Shock anafilattico refrattario alla terapia. Trasferimento urgente in rianimazione. [Rianimazione]"
         }
     },
@@ -139,7 +139,7 @@
         },
         "caso_critico": {
             "MSB": "Maschio, 62 anni, incosciente, non respira. Arresto cardiaco, RCP in corso prima analisi con shock indicato. Riferito dolore toracico nelle ore precedenti, pz cardiopatico noto. Richiesto MSA.[Rianimazione]",
-            "MSA1": "Maschio, 62 anni, arresto cardiaco, RCP in corso dai parenti, eseguite 3 analisi, riscontro di FV. Adrenalina 1 mg EV + Amiodarone 300 mg. Posizionato massaggiatore esterno e LMA, EtCO₂ 28, Sospetto ACC da IMA, richiesta MSA2. [Rianimazione]",
+            "MSA1": "Maschio, 62 anni, arresto cardiaco, RCP in corso dai parenti, eseguite 3 analisi, riscontro di FV. Adrenalina 1 mg EV + Amiodarone 300 mg. Posizionato massaggiatore esterno e LMA, EtCO₂ 28, Sospetto ACC da IMA, richiesta MSA. [Rianimazione]",
             "MSA2": "Maschio, 62 anni, in arresto cardiaco, RCP in corso dai parenti, eseguite 3 analisi, riscontro di FV. Adrenalina 1 mg EV + Amiodarone 300 mg, intubato in posto, EtCO₂ 28, posizionato massaggiatore meccanico, pz candidabile ad un percorso ECMO. [Rianimazione]"
         }
     },
@@ -157,7 +157,7 @@
         },
         "caso_critico": {
             "MSB": "Maschio, 45 anni, incosciente. Trauma cranico e toracico evidente. FC 40 bpm, PA 60/30 mmHg, SpO₂ 80%. Richiesta MSA.[CTS]",
-            "MSA1": "Paziente incosciente con segni di Trauma cranico grave. Pupille anisocoriche, FC 38 bpm, PA 55/25 mmHg. Accesso EV, ventilazione con O₂ 100%, Richiesto MSA2. [CTS]",
+            "MSA1": "Paziente incosciente con segni di Trauma cranico grave. Pupille anisocoriche, FC 38 bpm, PA 55/25 mmHg. Accesso EV, ventilazione con O₂ 100%, Richiesto MSA. [CTS]",
             "MSA2": "Maschio, 45 anni, GCS 3. Intubato in posto, trauma cranico severo con instabilità emodinamica. Trasferimento urgente in neurochirurgia. [CTS]"
         }
     },
@@ -175,7 +175,7 @@
         },
         "caso_critico": {
             "MSB": "Maschio, 18 anni, incosciente. FC 120 bpm, PA 80/50 mmHg, SpO₂ 86%. Crisi prolungata, sospetto stato epilettico. Richiesta MSA.[Rianimazione]",
-            "MSA1": "Maschio, 18 anni, in stato epilettico, non risponde a Midazolam. Necessita ventilazione assistita. Midazolam 10 mg EV, richiesta MSA2.[Rianimazione]",
+            "MSA1": "Maschio, 18 anni, in stato epilettico, non risponde a Midazolam. Necessita ventilazione assistita. Midazolam 10 mg EV, richiesta MSA.[Rianimazione]",
             "MSA2": "Maschio, 18 anni, in stato epilettico refrattario. GCS 3, intubato. Sedazione profonda, controllo vie aeree. Trasferimento urgente in Rianimazione. [Rianimazione]"
         }
     },
@@ -193,7 +193,7 @@
         },
         "caso_critico": {
             "MSB": "Maschio, 37 anni, incosciente. Emorragia massiva addominale. FC 40 bpm, PA 60/30 mmHg, SpO₂ 75%. Richiesta MSA. [CTS]",
-            "MSA1": "GCS 6, addome teso, ferita penetrante, segni di shock ipovolemico. PA 50/30 mmHg, FC 130, soporoso. Bolo di fisiologica 250ml + tranex 1 gr. Richiesta MSA2. [CTS]",
+            "MSA1": "GCS 6, addome teso, ferita penetrante, segni di shock ipovolemico. PA 50/30 mmHg, FC 130, soporoso. Bolo di fisiologica 250ml + tranex 1 gr. Richiesta MSA. [CTS]",
             "MSA2": "Maschio, 37 anni, GCS 3. Emorragia addominale massiva, instabilità emodinamica, PA 80/40, FC 140, soporoso. Intubato. Bolo di fisiologica 250ml + tranex 1 gr. [CTS]"
         }
     },
@@ -219,7 +219,7 @@
         "testo_chiamata": "Pronto? Ci troviamo a (indirizzo abitazione). Mio padre, 66 anni, ha appena vomitato in modo abbondante. Dice che gli gira la testa e si sente molto debole. È seduto sul divano e non riesce a parlare bene.",
         "caso_stabile": {
             "MSB": "Maschio, 66 anni, vigile. Episodio di emesi ed addominalgia. FC 85 bpm, PA 135/80 mmHg, SpO₂ 97%. Anamnesi: gastrite cronica.[PS]",
-            "MSA1": "Maschio, 66 anni, cosciente. Singolo episodio di emesi alimentare e dolore in area mesogastrica. FC 88 bpm, PA 130/85 mmHg, SpO₂ 96%, GCS 15. Somministrato ondansetron 4 mg EV. Pz noto per MRGE.[PS]",
+            "MSA1": "Maschio, 66 anni, cosciente. Singolo episodio di emesi alimentare e dolore in area mesogastrica. FC 88 bpm, PA 130/85 mmHg, SpO₂ 96%, GCS 15. Pz noto per MRGE.[PS]",
             "MSA2": "Maschio, 66 anni, collaborante. Singolo episodio di emesi alimentare e dolore in area mesogastrica. Parametri stabili. Anamnesi: MRGE. Somministrato pantoprazolo EV e plasil IM. [PS]"
         },
         "caso_poco_stabile": {
@@ -229,7 +229,7 @@
         },
         "caso_critico": {
             "MSB": "Maschio, 66 anni, incosciente. Vomito ematico, segni di shock. FC 40 bpm, PA 60/30 mmHg, SpO₂ 75%. Richiesto MSA.[Rianimazione]",
-            "MSA1": "Paziente in shock ipovolemico da emorragia gastrica. FC 35 bpm, PA 50/25 mmHgSpO₂ 75%, Bolo 500 di fisio Tranex 1 mg, Pz critico, richiesta MSA2 . [Rianimazione]",
+            "MSA1": "Paziente in shock ipovolemico da emorragia gastrica. FC 35 bpm, PA 50/25 mmHgSpO₂ 75%, Bolo 500 di fisio Tranex 1 mg, Pz critico, richiesta MSA. [Rianimazione]",
             "MSA2": "Maschio, 66 anni, GCS 3, incosciente, in shock ipovolemico, Ematemesi continua. Intubato, Bolo 500 di fisio Tranex 1 mg e pantoprazolo 40 mg, Necessita di trasport presso rianimazione. [Rianimazione]"
         }
     },
@@ -247,7 +247,7 @@
         },
         "caso_critico": {
             "MSB": "Femmina, 19 anni, incosciente, fortemente dispnoica. FC 40 bpm, PA 60/40 mmHg, SpO₂ 76%, ossigenoterapia a 15 lt/min. Grave crisi respiratoria, cianotica. Richiesta MSA.[Rianimazione]",
-            "MSA1": "Femmina, 19 anni, insufficienza respiratoria grave. GCS 8, FC 35 bpm, PA 55/30 mmHg, SpO₂ 72%. Ventilazione assistita, posizionata Cpap 50% FiO₂ 7 Peep, Necessaria MSA2. [Rianimazione]",
+            "MSA1": "Femmina, 19 anni, insufficienza respiratoria grave. GCS 8, FC 35 bpm, PA 55/30 mmHg, SpO₂ 72%. Ventilazione assistita, posizionata Cpap 50% FiO₂ 7 Peep, Necessaria MSA. [Rianimazione]",
             "MSA2": "Femmina, 19 anni, GCS 8, insufficienza respiratoria grave da crisi asmatica. Sedata ed Intubata in posto, ventilata. Trasferimento urgente in terapia intensiva. [Rianimazione]"
         }
     },
@@ -312,7 +312,7 @@
         },
         "caso_critico": {
             "MSB": "Maschio, 52 anni, incosciente. Addome rigido, sospetto shock settico. FC 40 bpm, PA 60/30 mmHg, SpO₂ 78%. Pallore e sudorazione fredda. Richiesta MSA.[Rianimazione]",
-            "MSA1": "Paziente incosciente, addome disteso e dolente, FC 38 bpm, PA 55/25 mmHg, SpO₂ 75%. Presunto addome acuto con perforazione. Accesso EV, fluidi, richiesta MSA2. [Rianimazione]",
+            "MSA1": "Paziente incosciente, addome disteso e dolente, FC 38 bpm, PA 55/25 mmHg, SpO₂ 75%. Presunto addome acuto con perforazione. Accesso EV, fluidi, richiesta MSA. [Rianimazione]",
             "MSA2": "Maschio, 52 anni, GCS 3, segni di sepsi grave. FC 35 bpm, PA 50/20 mmHg, SpO₂ 72%. Intubato, ventilato. Diagnosi sospetta: peritonite diffusa. Trasferimento urgente in rianimazione. [Rianimazione]"
         }
     },
@@ -330,7 +330,7 @@
         },
         "caso_critico": {
             "MSB": "Femmina, 30 anni, incinta, risponde allo stimolo doloroso, FC 135 bpm, PA 60/30 mmHg, SpO₂ 74%. Emorragia vaginale in atto. Richiesta MSA. [PUNTO NASCITA]",
-            "MSA1": "Paziente gravida con emorragia massiva, sospetto distacco di placenta. FC 135 bpm, PA 55/25 mmHg, SpO₂ 70%. Ringer 500ml + Tranex 1 gr EV. Richiesta MSA2. [PUNTO NASCITA]",
+            "MSA1": "Paziente gravida con emorragia massiva, sospetto distacco di placenta. FC 135 bpm, PA 55/25 mmHg, SpO₂ 70%. Ringer 500ml + Tranex 1 gr EV. Richiesta MSA. [PUNTO NASCITA]",
             "MSA2": "Femmina, 30 anni, incosciente, gravidanza a 35 settimane. Shock ipovolemico da emorragia acuta. Intubata, Ringer 500ml + Tranex 1 gr EV. Allertare la sala parto e rianimazione. [PUNTO NASCITA]"
         }
     },
@@ -366,7 +366,7 @@
         },
         "caso_critico": {
             "MSB": "Femmina, 85 anni, incosciente. FC 38 bpm, PA 65/30 mmHg, SpO₂ 76%. Sospetto ictus. Richiesta MSA. [NCH]",
-            "MSA1": "GCS 4, pupille anisocoriche, crisi convulsiva in atto. Sedata con Midazolam 10 mg. SpO₂ 70%, PA 55/25 mmHg. Richiesta MSA2. [NCH]",
+            "MSA1": "GCS 4, pupille anisocoriche, crisi convulsiva in atto. Sedata con Midazolam 10 mg. SpO₂ 70%, PA 55/25 mmHg. Richiesta MSA. [NCH]",
             "MSA2": "Femmina, 85 anni, GCS 3. Intubata, in shock neurogeno. Sospetta emorragia cerebrale. Trasferimento urgente. [NCH]"
         }
     },
@@ -384,7 +384,7 @@
         },
         "caso_critico": {
             "MSB": "Maschio, 60 anni, in ACC, RCP in già corso da parte dei parenti al nostro arrivo. Prima analisi: Shock consigliato. Richiesta MSA. [Rianimazione]",
-            "MSA1": "Maschio, 60 anni, in ACC, ritmo di presentazione FV. RCP in corso da parte dei parenti, 2 scariche effettuate. Adrenalina 1 mg EV + Amiodarone 300 mg EV. LMA posizionata. Richiesta MSA2. [Rianimazione]",
+            "MSA1": "Maschio, 60 anni, in ACC, ritmo di presentazione FV. RCP in corso da parte dei parenti, 2 scariche effettuate. Adrenalina 1 mg EV + Amiodarone 300 mg EV. LMA posizionata. Richiesta MSA. [Rianimazione]",
             "MSA2": "Maschio, 60 anni, in ACC, ritmo di presentazione FV. RCP in corso da parte dei parenti, 2 scariche effettuate. Adrenalina 1 mg EV + Amiodarone 300 mg EV, intubato, EtCO₂ 20 mmHg, massaggiatore meccanico posizionato. Candidabile a percorso ECMO. [Rianimazione]"
         }
     },
@@ -419,9 +419,9 @@
             "MSA2": "Femmina, 50 anni, GCS 15, trauma emitorace sx, sospetta frattura di bacino sx, FC 95 bpm, PA 105/70 mmHg, SpO₂ 92% somministrato Ossigeno 4 lt/min. Analgesia EV, posizionato cintura pelvica. [PST]"
         },
         "caso_critico": {
-            "MSB": "Femmina circa 50 anni, incosciente, incastrata, FC 150 bpm, PA non rilevabile. Richiesta MSA. [CTZ]",
-            "MSA1": "Femmina, circa 50 anni, GCS 3, politrauma grave, PNX decompresso, trauma addome e bacino, FC 150, PA 70/40, SpO₂ 82%, Bolo 250 di ringer + tranex 1mg Ev, posizionata cintura pelvica, necessario trasporto presso CTZ, richiesta MSA2. [CTZ]",
-            "MSA2": "Femmina, circa 50 anni, GCS 3, politrauma grave, PNX decompresso, trauma addome e bacino, FC 150, PA 70/40, SpO₂ 82%, Bolo 250 di ringer + tranex 1mg Ev, posizionata cintura pelvica, necessario trasporto presso CTZ. [CTZ]"
+            "MSB": "Femmina circa 50 anni, incosciente, incastrata, FC 150 bpm, PA non rilevabile. Richiesta MSA. [CTS]",
+            "MSA1": "Femmina, circa 50 anni, GCS 3, politrauma grave, PNX decompresso, trauma addome e bacino, FC 150, PA 70/40, SpO₂ 82%, Bolo 250 di ringer + tranex 1mg Ev, posizionata cintura pelvica, necessario trasporto presso CTS, richiesta MSA. [CTS]",
+            "MSA2": "Femmina, circa 50 anni, GCS 3, politrauma grave, PNX decompresso, trauma addome e bacino, FC 150, PA 70/40, SpO₂ 82%, Bolo 250 di ringer + tranex 1mg Ev, posizionata cintura pelvica, necessario trasporto presso CTS. [CTS]"
                     }
      },
   "chiamata_26": {
@@ -505,7 +505,7 @@
     },
     "caso_critico": {
       "MSB": "Maschio, 12 anni, incosciente dopo caduta successiva al trauma oculare. FC 48 bpm, PA 70/40 mmHg, SpO₂ 82%. Sospetto trauma cranico associato. Richiesta MSA. [NCH]",
-      "MSA1": "Maschio, 12 anni, GCS 5 dopo caduta successiva al trauma oculare. FC 48 bpm, PA 70/40 mmHg, SpO₂ 82%, anisocoria presente, ventilato, necessaria MSA2. [NCH]",
+      "MSA1": "Maschio, 12 anni, GCS 5 dopo caduta successiva al trauma oculare. FC 48 bpm, PA 70/40 mmHg, SpO₂ 82%, anisocoria presente, ventilato, necessaria MSA. [NCH]",
       "MSA2": "Maschio, 12 anni, GCS 5 dopo caduta successiva al trauma oculare. FC 48 bpm, PA 70/40 mmHg, SpO₂ 82%, anisocoria presente, intubato Necessario trasport presso NCH. [NCH]"
     }
   },
@@ -541,7 +541,7 @@
     },
     "caso_critico": {
       "MSB": "Maschio, 45 anni, responsivo allo stimolo doloroso, sanguinamento massivo arto inferiore dx. PA 60/40, FC 140 bpm, SpO₂ 92%. Stato di shock avanzato. Necessaria MSA. [CTZ]",
-      "MSA1": "Maschio, 45 anni, GCS 3, PA 60/40, FC 140 bpm, SpO₂ 92%, shock emorragico massivo da semi amputazione arto inferiore dx, posizionato turniquet, in orso infusione bolo 250 ml di ringer,+ tranex 1 gr, se possibile inviare MSA2. [CTZ]",
+      "MSA1": "Maschio, 45 anni, GCS 3, PA 60/40, FC 140 bpm, SpO₂ 92%, shock emorragico massivo da semi amputazione arto inferiore dx, posizionato turniquet, in orso infusione bolo 250 ml di ringer,+ tranex 1 gr, se possibile inviare MSA. [CTZ]",
       "MSA2": "Maschio, 45 anni, GCS 3, PA 60/40, FC 140 bpm, SpO₂ 92%, shock emorragico massivo da semi amputazione arto inferiore dx, posizionato turniquet, in orso infusione bolo 250 ml di ringer,+ tranex 1 gr. [CTZ]"
     }
   },

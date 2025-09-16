@@ -779,6 +779,9 @@ class GameUI {
     
     // Close mission entry when no vehicles remain assigned
     closeMissioneInCorso(call) {
+        // Clear note-evento field for this mission
+        call.noteEvento = '';
+        
         // Remove mission element from UI
         const elem = document.getElementById(`evento-${call.missioneId}`);
         if (elem) elem.remove();

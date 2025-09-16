@@ -1,24 +1,28 @@
 // Helper: map mission code to color
 function getColoreCodice(codice) {
     switch (codice) {
-        case 'ACC- BLU': return '#2196f3';
-        case 'R  - ROSSO':
         case 'ROSSO':
         case 'Rosso':
+        case 'R':
         case 'R - ROSSO': return '#e53935';
-        case 'GU - GIALLO URGENTE': return '#ff6f00';
-        case 'G  - GIALLO':
         case 'GIALLO':
         case 'Giallo':
+        case 'G':
         case 'G - GIALLO': return '#ffb300';
-        case 'V  - VERDE':
         case 'VERDE':
         case 'Verde':
+        case 'V':
         case 'V - VERDE': return '#4caf50';
-        case 'B  - BIANCO':
         case 'BIANCO':
         case 'Bianco':
+        case 'B':
         case 'B - BIANCO': return '#ffffff';
+        case 'A':
+        case 'BLU':
+        case 'A - BLU/ACC': return '#2196f3';
+        case 'GU':
+        case 'GIALLO URGENTE':
+        case 'GU - GIALLO URGENTE': return '#ff6f00';
         default: return '#888';
     }
 }
@@ -187,10 +191,10 @@ class GameUI {
         let ospedaleHtml = '';
         if (call.mezziAssegnati && call.mezziAssegnati.length > 0 && window.game && window.game.mezzi) {
             const mezzi = window.game.mezzi.filter(m => (call.mezziAssegnati||[]).includes(m.nome_radio));
-            // Filtra solo mezzi che possono trasportare: MSI, MSA, ELI o MSB
+            // Filtra solo MSA1_A, MSA2_A, ELI o MSB
             const eligibleMezzi = mezzi.filter(m => {
                 const tipo = m.tipo_mezzo || '';
-                return tipo === 'MSI' || tipo === 'MSA' || tipo === 'ELI' || tipo === 'MSB';
+                return tipo === 'MSA1_A' || tipo === 'MSA2_A' || tipo.includes('ELI') || tipo === 'MSB';
             });
             const mezzoConOspedale = eligibleMezzi.find(m => m.ospedale && m.codice_trasporto && m._trasportoConfermato);
             if (mezzoConOspedale) {
@@ -361,10 +365,10 @@ class GameUI {
         let ospedaleHtml = '';
         if (call.mezziAssegnati && call.mezziAssegnati.length > 0 && this.game && this.game.mezzi) {
             const mezzi = this.game.mezzi.filter(m => (call.mezziAssegnati||[]).includes(m.nome_radio));
-            // Filtra solo mezzi che possono trasportare: MSI, MSA, ELI o MSB
+            // Filtra solo MSA1_A, MSA2_A, ELI o MSB
             const eligibleMezzi = mezzi.filter(m => {
                 const tipo = m.tipo_mezzo || '';
-                return tipo === 'MSI' || tipo === 'MSA' || tipo === 'ELI' || tipo === 'MSB';
+                return tipo === 'MSA1_A' || tipo === 'MSA2_A' || tipo.includes('ELI') || tipo === 'MSB';
             });
             const mezzoConOspedale = eligibleMezzi.find(m => m.ospedale && m.codice_trasporto && m._trasportoConfermato);
             if (mezzoConOspedale) {
@@ -476,7 +480,7 @@ class GameUI {
             let almenoUnMezzoReportPronto = false;
             mezzi.forEach(m => {
                 let testoScheda = '';
-                const avanzati = mezzi.filter(x => (x.tipo_mezzo && (x.tipo_mezzo === 'ILS' || x.tipo_mezzo === 'ALS' || x.tipo_mezzo === 'MSA' || x.tipo_mezzo === 'ELI')) && (x.comunicazioni||[]).some(c => c.toLowerCase().includes('report pronto')));
+                const avanzati = mezzi.filter(x => (x.tipo_mezzo && (x.tipo_mezzo.startsWith('MSA1') || x.tipo_mezzo.startsWith('MSA2') || x.tipo_mezzo === 'ILS' || x.tipo_mezzo === 'ALS' || (x.tipo_mezzo.toUpperCase().includes('ELI')))) && (x.comunicazioni||[]).some(c => c.toLowerCase().includes('report pronto')));
                 // Se c'è almeno un MSB in stato 3 e almeno un avanzato, non mostrare il report del MSB
                 const isMSBStato3 = m.tipo_mezzo && m.tipo_mezzo.startsWith('MSB') && m.stato === 3;
                 const altriAvanzatiPresenti = avanzati.length > 0;
@@ -489,13 +493,16 @@ class GameUI {
                 const hasReportPronto = (m.comunicazioni||[]).some(c => c.toLowerCase().includes('report pronto'));
                 
                 if (hasReportPronto && mostraReport) {
-                    // Determina il tipo di mezzo per la ricerca del report (come Lombardia)
+                    // Determina il tipo di mezzo per la ricerca del report (mappatura per Emilia Romagna)
                     let tipo = '';
                     if (m.tipo_mezzo && m.tipo_mezzo.startsWith('MSB')) tipo = 'MSB';
-                    else if (m.tipo_mezzo && (m.tipo_mezzo.startsWith('MSI') || m.tipo_mezzo.startsWith('ILS'))) tipo = 'MSA1';
-                    else if (m.tipo_mezzo && (m.tipo_mezzo.startsWith('ALS') || m.tipo_mezzo === 'MSA' || 
-                            m.tipo_mezzo.startsWith('VLV') || m.tipo_mezzo === 'ELI')) tipo = 'MSA2';
-                    else if (m.tipo_mezzo && m.tipo_mezzo.startsWith('MSAI')) tipo = 'MSA1';
+                    else if (m.tipo_mezzo && m.tipo_mezzo === 'MSI' || m.tipo_mezzo === 'ILS') tipo = 'MSA1'; // MSI e ILS usano report MSA1
+                    else if (m.tipo_mezzo && m.tipo_mezzo === 'MSA' || m.tipo_mezzo === 'ALS') tipo = 'MSA2'; // MSA e ALS usano report MSA2
+                    else if (m.tipo_mezzo && m.tipo_mezzo === 'VLV') tipo = 'MSA2'; // VLV usa report MSA2
+                    else if (m.tipo_mezzo && m.tipo_mezzo.toUpperCase().includes('ELI')) tipo = 'MSA2'; // ELI usa sempre MSA2
+                    // Fallback per altre regioni
+                    else if (m.tipo_mezzo && m.tipo_mezzo.startsWith('MSA1')) tipo = 'MSA1';
+                    else if (m.tipo_mezzo && m.tipo_mezzo.startsWith('MSA2')) tipo = 'MSA2';
                     
                     console.log('[DEBUG UI] Mezzo:', m.nome_radio, 'tipo_mezzo:', m.tipo_mezzo, 'mapped tipo:', tipo);
                     
@@ -601,8 +608,8 @@ class GameUI {
                         return 0;
                     });
 
-                    // Per auto (ILS, ALS) mostriamo solo rientro o accompagna
-                    if (m.tipo_mezzo === 'ILS' || m.tipo_mezzo === 'ALS') {
+                    // Per veicoli MSA1, MSA2, ILS, ALS e VLV mostriamo solo rientro o accompagna
+                    if (m.tipo_mezzo === 'MSA1' || m.tipo_mezzo === 'MSA2' || m.tipo_mezzo === 'VLV' || m.tipo_mezzo === 'ILS' || m.tipo_mezzo === 'ALS') {
                         const selectOsp = `<select class='select-ospedale' data-nome='${m.nome_radio}'>`+
                             `<option value="__rientro__">Rientro in sede</option>`+
                             `<option value="__accompagna__">Accompagna in ospedale</option>`+
@@ -668,7 +675,7 @@ class GameUI {
                             `</select>`;
                         // Genera il menu codice trasporto
                         const selectCod = `<select class='select-codice-trasporto' data-nome='${m.nome_radio}'>`+
-                            ['R  - ROSSO','G  - GIALLO','V  - VERDE'].map(c=>`<option value="${c}">${c}</option>`).join('')+
+                            ['Rosso','Giallo','Verde'].map(c=>`<option value="${c}">${c}</option>`).join('')+
                             `</select>`;
                         html += `<br>Ospedale: ${selectOsp} Codice: ${selectCod} <button class='btn-conferma-trasporto' data-nome='${m.nome_radio}'>Conferma</button>`;
                     }
@@ -699,11 +706,11 @@ class GameUI {
                         const codiceSel = dettagli.querySelector(`.select-codice-trasporto[data-nome='${nome}']`)?.value;
                         const mezzo = mezzi.find(m => m.nome_radio === nome);
                         if (!mezzo) return;
-                        // Escort for ILS/ALS: accompany confirmed transport to hospital in Verde
-                        if ((mezzo.tipo_mezzo === 'ILS' || mezzo.tipo_mezzo === 'ALS') && ospedaleSel === '__accompagna__') {
+                        // Escort for MSA1/MSA2/ILS/ALS/VLV: accompany confirmed transport to hospital in Verde
+                        if ((mezzo.tipo_mezzo === 'MSA1' || mezzo.tipo_mezzo === 'MSA2' || mezzo.tipo_mezzo === 'VLV' || mezzo.tipo_mezzo === 'ILS' || mezzo.tipo_mezzo === 'ALS') && ospedaleSel === '__accompagna__') {
                             const lead = mezzi.find(x =>
                                 (call.mezziAssegnati || []).includes(x.nome_radio) &&
-                                (x.tipo_mezzo === 'MSB' || x.tipo_mezzo === 'MSI' || x.tipo_mezzo === 'MSA' || x.tipo_mezzo === 'ELI')
+                                (x.tipo_mezzo.startsWith('MSB') || x.tipo_mezzo.endsWith('_A') || x.tipo_mezzo === 'ELI')
                             );
                             if (lead && lead._trasportoConfermato && lead.ospedale) {                                mezzo.ospedale = lead.ospedale;
                                 mezzo.codice_trasporto = 'Verde';
@@ -765,11 +772,11 @@ class GameUI {
                         aggiornaMissioniPerMezzo(mezzo);
                         if (window.avanzaMezzoAStato4DopoConferma) window.avanzaMezzoAStato4DopoConferma(mezzo);
 
-                        // --- AGGIORNAMENTO AUTOMATICO MSA IN ATTESA ---
-                        // Se questo mezzo è un MSB/ELI che ha appena confermato, aggiorna eventuali MSA in attesa
+                        // --- AGGIORNAMENTO AUTOMATICO MSA/ILS/ALS IN ATTESA ---
+                        // Se questo mezzo è un MSB/ELI che ha appena confermato, aggiorna eventuali MSA/ILS/ALS in attesa
                         if ((mezzo.tipo_mezzo.startsWith('MSB') || mezzo.tipo_mezzo.endsWith('_A') || mezzo.tipo_mezzo === 'ELI') && mezzo._trasportoConfermato && mezzo.ospedale) {
                             (mezzi || []).forEach(m => {
-                                if ((m.tipo_mezzo === 'MSA1' || m.tipo_mezzo === 'MSA2') && m._attesaDestinazioneDa === mezzo.nome_radio) {                                    m.ospedale = mezzo.ospedale;
+                                if ((m.tipo_mezzo === 'MSA1' || m.tipo_mezzo === 'MSA2' || m.tipo_mezzo === 'ILS' || m.tipo_mezzo === 'ALS') && m._attesaDestinazioneDa === mezzo.nome_radio) {                                    m.ospedale = mezzo.ospedale;
                                     m.codice_trasporto = 'Verde';
                                     m._trasportoConfermato = true;
                                     m._reportProntoInviato = true; // Assicuriamoci che il report sia segnato come inviato
@@ -788,6 +795,9 @@ class GameUI {
     
     // Close mission entry when no vehicles remain assigned
     closeMissioneInCorso(call) {
+        // Clear note-evento field for this mission
+        call.noteEvento = '';
+        
         // Remove mission element from UI
         const elem = document.getElementById(`evento-${call.missioneId}`);
         if (elem) elem.remove();
@@ -858,7 +868,7 @@ class GameUI {
 
         // Filter vehicles: always include Creli (no m.central) and those of selected central; others only if state !=1 and !=8
         const allMezzi = window.game.mezzi || [];
-        const currentCentral = (window.selectedCentral || '').trim().toUpperCase();
+        const currentCentral = (window.selectedCentral || '').trim();
         const mezzi = allMezzi.filter(m => {
             // Creli vehicles have no m.central
             if (!m.central) return true;
@@ -917,12 +927,12 @@ class GameUI {
                 // Aggiungi prefisso e sfondo bianco ai mezzi di altre centrali
                 let displayName = m.nome_radio;
                 let extraStyle = '';
-                // Prefix other central vehicles and apply white background
-                const vehicleCentral = (m.central || '').trim().toUpperCase();
+                // Prefix other central vehicles and apply white background per Emilia Romagna
+                const vehicleCentral = (m.central || '').trim();
                 const sel = currentCentral;
-                const prefixMap = { SRA: ['SRL','SRM','SRP'], SRL: ['SRA','SRM','SRP'], SRM: ['SRA','SRL','SRP'], SRP: ['SRA','SRL','SRM'] };
-                if (vehicleCentral && vehicleCentral !== sel && prefixMap[sel]?.includes(vehicleCentral)) {
-                    displayName = `(${vehicleCentral}) ${m.nome_radio}`;
+                if (vehicleCentral && vehicleCentral !== sel && window.game && window.game.centrali && window.game.centrali[vehicleCentral]) {
+                    const codice = window.game.centrali[vehicleCentral].codice || vehicleCentral;
+                    displayName = `${codice}_${m.nome_radio}`;
                     extraStyle = 'background-color:white;';
                 }
                 const rowStyle = `display:flex;align-items:center;border-bottom:1px solid #ddd;padding:4px 0;${hasUnreadReport ? 'animation: blink-report 1s infinite;' : ''}${extraStyle}`;
@@ -951,36 +961,30 @@ class GameUI {
                 }
         });
         
-        // Populate hospital list - separazione come in Veneto
-        const center = window.selectedCentral || 'BA'; // Codice breve centrale corrente
+        // Populate hospital list
+        // Dynamic grouping per centrale operativa dell'Emilia Romagna
+        const center = window.selectedCentral || 'Belluno Emergenza';
+        const currentCentralCode = window.game && window.game.centrali && window.game.centrali[center] 
+            ? window.game.centrali[center].codice 
+            : center;
         
         // Calcola la percentuale di occupazione per ogni ospedale prima dell'ordinamento
         const ospedaliConOccupazione = window.game.hospitals.map(h => {
             const count = window.game.hospitalPatientCount[h.nome] || 0;
-            const capacity = Number(h.raw["N° pazienti Max"] || h.raw["numero_pazienti_max"] || 0);
+            const capacity = Number(h.raw["N° pazienti Max"] || 0);
             const pct = capacity ? (count / capacity) * 100 : 0;
-            
-            // Determina la centrale di appartenenza dell'ospedale dal prefisso
-            let ospedalecentral = center; // Default: centrale corrente
-            const nameA = h.nome || '';
-            if (nameA.startsWith('(FG)')) ospedalecentral = 'FG';
-            else if (nameA.startsWith('(BA)')) ospedalecentral = 'BA';
-            else if (nameA.startsWith('(BR)')) ospedalecentral = 'BR';
-            else if (nameA.startsWith('(LE)')) ospedalecentral = 'LE';
-            else if (nameA.startsWith('(TA)')) ospedalecentral = 'TA';
-            
             return {
                 ...h,
-                pct: pct,
-                central: ospedalecentral
+                pct: pct
             };
         });
         
-        // Raggruppa ospedali per centrale operativa di Puglia
+        // Raggruppa ospedali per centrale operativa dell'Emilia Romagna
         const ospedaliCentraleCorrente = [];
         const ospedaliAltreCentrali = [];
         
         ospedaliConOccupazione.forEach(h => {
+            // Gli ospedali hanno il campo central che indica la provincia di appartenenza
             if (h.central === center) {
                 ospedaliCentraleCorrente.push(h);
             } else {
@@ -999,7 +1003,7 @@ class GameUI {
         let separatorAdded = false;
         ospedaliOrdinati.forEach((h, index) => {
             // Use persistent counter for patient occupancy
-            const capacity = Number(h.raw["N° pazienti Max"] || h.raw["numero_pazienti_max"] || 0);
+            const capacity = Number(h.raw["N° pazienti Max"] || 0);
             const count = (window.game.hospitalPatientCount && window.game.hospitalPatientCount[h.nome]) || 0;
             const pct = capacity ? Math.round((count / capacity) * 100) : 0;
             
@@ -1007,15 +1011,24 @@ class GameUI {
             if (!separatorAdded && h.central !== center) {
                 hospDiv.insertAdjacentHTML('beforeend', `
                     <div style="padding:4px 4px;border-bottom:2px solid #005baa;background:#e3e3e3;font-weight:bold;font-size:12px;">
-                        Altre Province
+                        Altre Centrali
                     </div>
                 `);
                 separatorAdded = true;
             }
             
+            // Aggiungi prefisso provincia per ospedali di altre centrali
+            let displayName = h.nome;
+            let extraStyle = '';
+            if (h.central !== center && window.game && window.game.centrali && window.game.centrali[h.central]) {
+                const codice = window.game.centrali[h.central].codice || h.central;
+                displayName = `${codice}_${h.nome}`;
+                extraStyle = 'background-color:#f5f5f5;';
+            }
+            
             hospDiv.insertAdjacentHTML('beforeend', `
-                <div style="padding:2px 4px;border-bottom:1px solid #eee;">
-                    ${h.nome} (${pct}%)
+                <div style="padding:2px 4px;border-bottom:1px solid #eee;${extraStyle}">
+                    ${displayName} (${pct}%)
                 </div>
             `);
         });
@@ -1038,416 +1051,31 @@ class GameUI {
             }
             // Click on Report pronto to show mission report
             const cellComm = row.querySelector('.comunicazione-cell');
-                if (cellComm) {
+            if (cellComm) {
                 cellComm.addEventListener('click', e => {
                     e.stopPropagation();
                     // Recupera il mezzo corrispondente e marca il report come letto
                     const mezzo = window.game.mezzi.find(x => x.nome_radio === mezzoId);
-                    console.debug('[DEBUG UI] click comunicazione for mezzoId=', mezzoId, 'mezzo=', mezzo);
                     if (mezzo && mezzo._reportLetto !== true) {
                         mezzo._reportLetto = true;
                         this.updateStatoMezzi();
                     }
                     // Se presente report, espandi la missione e scrolla
-                    if (cellComm.textContent && cellComm.textContent.includes('Report pronto')) {
-                        // Robust lookup: trim values and compare case-insensitive
-                        let calls = Array.from(window.game.calls.values()).filter(call => {
-                            return (call.mezziAssegnati||[]).some(n => (n||'').toString().trim().toLowerCase() === (mezzoId||'').toString().trim().toLowerCase());
-                        });
-
-                        // Fallback: use mezzo.chiamata if available
-                        if ((!calls || calls.length === 0) && mezzo && mezzo.chiamata) {
-                            console.debug('[DEBUG UI] fallback to mezzo.chiamata for', mezzoId, mezzo.chiamata);
-                            calls = [mezzo.chiamata];
-                        }
-
-                        // Additional fallback: try matching by substring or id
-                        if ((!calls || calls.length === 0) && window.game && window.game.calls) {
-                            const allCalls = Array.from(window.game.calls.values());
-                            // try fuzzy match by includes (case-insensitive)
-                            const fuzzy = allCalls.filter(call => (call.mezziAssegnati||[]).some(n => (n||'').toString().toLowerCase().includes((mezzoId||'').toString().toLowerCase())));
-                            if (fuzzy && fuzzy.length) {
-                                console.debug('[DEBUG UI] fuzzy matched calls for', mezzoId, fuzzy.map(c=>c.missioneId||c.id));
-                                calls = fuzzy;
-                            }
-                        }
-
-                        if (!calls || calls.length === 0) {
-                            console.warn('[DEBUG UI] No calls found for mezzo', mezzoId, 'and mezzo.chiamata', mezzo && mezzo.chiamata);
-                        }
-
+                    if (cellComm.textContent.includes('Report pronto')) {
+                        const calls = Array.from(window.game.calls.values())
+                            .filter(call => (call.mezziAssegnati||[]).includes(mezzoId));
                         calls.forEach(call => {
-                            try {
-                                // Ensure call has missioneId; fallback to id if missing
-                                if (!call.missioneId) {
-                                    call.missioneId = call.id || ('tmp-' + Math.random().toString(36).slice(2,8));
-                                    console.warn('[DEBUG UI] call had no missioneId; assigned fallback', call.missioneId, call);
-                                }
-
-                                // Ensure the mission is present in Eventi in corso; create it if missing
-                                if (!document.getElementById(`evento-${call.missioneId}`) && window.game && window.game.ui && typeof window.game.ui.moveCallToEventiInCorso === 'function') {
-                                    try {
-                                        window.game.ui.moveCallToEventiInCorso(call);
-                                    } catch (err) { console.error('[DEBUG UI] moveCallToEventiInCorso error', err); }
-                                }
-
-                                // Update mission UI and expand details
-                                try { window.game.ui.updateMissioneInCorso(call); } catch (err) { console.error('[DEBUG UI] updateMissioneInCorso error', err); }
-                                const elem = document.getElementById(`evento-${call.missioneId}`);
-                                if (elem) {
-                                    const det = elem.querySelector('.missione-details');
-                                    if (det) det.style.display = 'block';
-                                    elem.scrollIntoView({ behavior: 'smooth', block: 'center' });
-                                } else {
-                                    console.log('[DEBUG UI] evento element not found for missioneId', call.missioneId, 'call=', call);
-                                }
-                            } catch (err) {
-                                console.error('[DEBUG UI] error handling call click', err, call);
+                            window.game.ui.updateMissioneInCorso(call);
+                            const elem = document.getElementById(`evento-${call.missioneId}`);
+                            if (elem) {
+                                const det = elem.querySelector('.missione-details');
+                                if (det) det.style.display = 'block';
+                                elem.scrollIntoView({ behavior: 'smooth', block: 'center' });
                             }
                         });
                     }
                 });
             }
         });
-    }
-
-    // Funzione per aggiornare la lista mezzi con separazione ospedali per centrale
-    updateStatoMezzi(mezzoFocus = null) {
-        // Definisce keyframes per lampeggio report pronto (una sola volta)
-        if (!document.getElementById('blink-report-style')) {
-            const style = document.createElement('style');
-            style.id = 'blink-report-style';
-            style.innerHTML = `
-                @keyframes blink-report {
-                    0% { background-color: #ffebee; }
-                    50% { background-color: transparent; }
-                    100% { background-color: #ffebee; }
-                }
-            `;
-            document.head.appendChild(style);
-        }
-        
-        // Select content container instead of entire box
-        const container = document.querySelector('#statoMezzi .box-content');
-        if (!container || !window.game || !window.game.mezzi) return;
-
-        // Prepare split-pane layout
-        container.innerHTML = '';
-        container.style.display = 'flex';
-        container.style.flexDirection = 'row';
-        container.style.maxHeight = 'none';
-
-        // Create left panel for mezzi and right panel for ospedali
-        container.insertAdjacentHTML('beforeend', `
-            <div id="stateMezziList" style="flex:2;display:flex;flex-direction:column;overflow-y:auto;height:100%;"></div>
-            <div id="hospitalList" style="flex:1;display:flex;flex-direction:column;overflow-y:auto;border-left:1px solid #005baa;padding:0;">
-                <div class="mezzo-row ospedali-sticky-header" style="display:flex;align-items:center;font-weight:bold;background:#e3e3e3;border-bottom:1px solid #bbb;padding:4px 0 4px 0;position:sticky;top:0;z-index:2;">
-                    <div style="flex:1;overflow:hidden;text-overflow:ellipsis;">Elenco Ospedali</div>
-                </div>
-            </div>
-        `);
-        const stateDiv = container.querySelector('#stateMezziList');
-        const hospDiv = container.querySelector('#hospitalList');
-
-        // Build Stato Mezzi header in stateDiv
-        stateDiv.insertAdjacentHTML('beforeend', `
-            <div class="mezzo-header-row" style="display:flex;align-items:center;font-weight:bold;background:#e3e3e3;border-bottom:1px solid #bbb;padding:2px 4px;">
-                <div style="flex:3;overflow:hidden;text-overflow:ellipsis;">Mezzo</div>
-                <div style="flex:2;overflow:hidden;text-overflow:ellipsis;">Tipo/Conv.</div>
-                <div style="flex:1;text-align:left;">Stato</div>
-                <div style="flex:2;overflow:hidden;text-overflow:ellipsis;">Comunicazioni</div>
-            </div>
-        `);
-
-        // Funzione robusta per etichetta stato
-        function getStatoLabel(stato) {
-             if (window.game && window.game.statiMezzi && window.game.statiMezzi[stato] && window.game.statiMezzi[stato].Descrizione) {
-                 return window.game.statiMezzi[stato].Descrizione;
-             }
-             return '';
-        }
-
-        // Filter vehicles: always include HEMS and those of selected central; others only if state !=1 and !=8
-        const allMezzi = window.game.mezzi || [];
-        const currentCentral = (window.selectedCentral || '').trim();
-        const mezzi = allMezzi.filter(m => {
-            // HEMS vehicles have no m.central or central = 'HEMS'
-            if (!m.central || m.central === 'HEMS') return true;
-            // Vehicles of selected central
-            if (m.central === currentCentral) return true;
-            // Other central vehicles only if not available (state !=1) and not unknown(8)
-            return m.stato !== 1 && m.stato !== 8;
-        });
-        
-        const mezziStato8 = mezzi.filter(m => m.stato === 8);
-        let altriMezzi = mezzi.filter(m => m.stato !== 8);
-        altriMezzi.forEach(m => {
-            let lastMsg = 0;
-            if (Array.isArray(m.comunicazioni) && m.comunicazioni.length > 0) {
-                const reportMsg = m.comunicazioni.find(c => c.toLowerCase().includes('report pronto'));
-                if (reportMsg) lastMsg = m._lastMsgTime || 0;
-            }
-            m._sortKey = Math.max(m._lastEvent || 0, lastMsg);
-        });
-        altriMezzi.sort((a, b) => (b._sortKey || 0) - (a._sortKey || 0));
-        mezziStato8.sort((a, b) => (a.nome_radio || '').localeCompare(b.nome_radio || ''));
-
-        // Unisci e porta in testa i mezzi con report pronto
-        const merged = [...altriMezzi, ...mezziStato8];
-        merged.sort((a, b) => {
-            const aHas = (a.comunicazioni||[]).some(c => c.toLowerCase().includes('report pronto'));
-            const bHas = (b.comunicazioni||[]).some(c => c.toLowerCase().includes('report pronto'));
-            return (bHas === true) - (aHas === true);
-        });
-        
-        merged.forEach(m => {
-                // Calcola missioneId se presente
-                const call = Array.from(window.game.calls.values()).find(c => (c.mezziAssegnati||[]).includes(m.nome_radio));
-                const missioneId = call ? call.missioneId : '';
-                
-                // Stato sempre numerico
-                const statoLabel = m.stato;
-                
-                // Comunicazioni: per stato 7 usa messaggio specifico basato su stato precedente
-                let comunicazione = '';
-                if (m.stato === 7 && m.statoPrecedente) {
-                    if (m.statoPrecedente === 3) {
-                        comunicazione = 'Non trasporta';
-                    } else if (m.statoPrecedente === 2) {
-                        comunicazione = 'Missione interrotta';
-                    } else {
-                        comunicazione = 'Diretto in sede';
-                    }
-                } else {
-                    // Per altri stati, usa l'ultima comunicazione
-                    comunicazione = Array.isArray(m.comunicazioni) && m.comunicazioni.length
-                        ? m.comunicazioni[m.comunicazioni.length - 1]
-                        : '';
-                }
-                
-                // Build row: Nome, Tipo/Convenzione, Stato, Comunicazioni
-                const hasReport = comunicazione.toLowerCase().includes('report pronto');
-                // differenzia report non letto (lampeggio) da report letto
-                const hasUnreadReport = hasReport && !m._reportLetto;
-                
-                // Aggiungi prefisso e sfondo bianco ai mezzi di altre centrali
-                let displayName = m.nome_radio;
-                let extraStyle = '';
-                
-                // Prefix other central vehicles and apply white background
-                const vehicleCentral = (m.central || '').trim();
-                const sel = currentCentral;
-                const prefixMap = { Ovest: ['Est','Romagna'], Est: ['Ovest','Romagna'], Romagna: ['Ovest','Est'] };
-                if (vehicleCentral && vehicleCentral !== sel && prefixMap[sel]?.includes(vehicleCentral)) {
-                    displayName = `(${vehicleCentral}) ${m.nome_radio}`;
-                    extraStyle = 'background-color:white;';
-                }
-                
-                const rowStyle = `display:flex;align-items:center;border-bottom:1px solid #ddd;padding:4px 0;${hasUnreadReport ? 'animation: blink-report 1s infinite;' : ''}${extraStyle}`;
-                stateDiv.insertAdjacentHTML('beforeend', `
-                    <div class="mezzo-row" data-mezzo-id="${m.nome_radio}" style="${rowStyle}">
-                        <div class="mezzo-cell" style="flex:3;overflow:hidden;text-overflow:ellipsis;">${displayName}</div>
-                        <div class="tipo-cell" style="flex:2;overflow:hidden;text-overflow:ellipsis;">${m.tipo_mezzo || ''}${m.convenzione ? ' - ' + m.convenzione : ''}</div>
-                        <div class="stato-cell" style="flex:1;text-align:left;">${statoLabel}</div>
-                        <div class="comunicazione-cell" style="flex:2;overflow:hidden;text-overflow:ellipsis;color:${hasUnreadReport ? '#d32f2f' : '#555'};">${comunicazione}</div>
-                    </div>
-                `);
-                
-                // Aggiungo click handler per marcare report come letto
-                if (comunicazione.toLowerCase().includes('report pronto')) {
-                   // Selezione robusta evitando caratteri invalidi nel selettore
-                   const rows = stateDiv.querySelectorAll('.mezzo-row');
-                   const rowEl = Array.from(rows).find(el => el.getAttribute('data-mezzo-id') === m.nome_radio);
-                   if (rowEl) {
-                       rowEl.addEventListener('click', () => {
-                           m._reportLetto = true;
-                           m._msgLampeggia = false;
-                           if (window.game && window.game.ui && typeof window.game.ui.updateStatoMezzi === 'function') {
-                               window.game.ui.updateStatoMezzi(m);
-                           }
-                       });
-                   }
-                }
-        });
-        
-        // Populate hospital list - stile pulito senza colori e prefissi
-        const center = window.selectedCentral || 'Ovest'; // Centrale corrente
-        
-        // Calcola la percentuale di occupazione per ogni ospedale prima dell'ordinamento
-        const ospedaliConOccupazione = (window.game.hospitals || []).map(h => {
-            const count = window.game.hospitalPatientCount[h.nome] || 0;
-            const capacity = Number(h.raw["N° pazienti Max"] || 0);
-            const pct = capacity ? (count / capacity) * 100 : 0;
-            
-            // Determina la centrale di appartenenza dell'ospedale dal prefisso nel nome
-            let centraleOspedale = center; // default: centrale corrente
-            if (h.nome.startsWith('(Est)')) centraleOspedale = 'Est';
-            else if (h.nome.startsWith('(Ovest)')) centraleOspedale = 'Ovest';  
-            else if (h.nome.startsWith('(Romagna)')) centraleOspedale = 'Romagna';
-            
-            return { ...h, pct, centraleOspedale };
-        });
-        
-        // Raggruppa ospedali per centrale operativa Emilia-Romagna
-        const ospedaliCentraleCorrente = [];
-        const ospedaliAltreCentrali = [];
-        
-        ospedaliConOccupazione.forEach(h => {
-            if (h.centraleOspedale === center) {
-                ospedaliCentraleCorrente.push(h);
-            } else {
-                ospedaliAltreCentrali.push(h);
-            }
-        });
-        
-        // Ordina entrambi i gruppi per percentuale di occupazione decrescente
-        ospedaliCentraleCorrente.sort((a, b) => b.pct - a.pct);
-        ospedaliAltreCentrali.sort((a, b) => b.pct - a.pct);
-        
-        // Unisci: prima centrale corrente, poi altre centrali
-        const ospedaliOrdinati = [...ospedaliCentraleCorrente, ...ospedaliAltreCentrali];
-        
-        // Visualizza gli ospedali ordinati senza colori e senza prefissi centrali
-        let separatorAdded = false;
-        ospedaliOrdinati.forEach((h, index) => {
-            const capacity = Number(h.raw["N° pazienti Max"] || 0);
-            const count = window.game.hospitalPatientCount[h.nome] || 0;
-            const pct = capacity ? Math.round((count / capacity) * 100) : 0;
-            
-            // Aggiungi separatore prima degli ospedali di altre centrali
-            if (!separatorAdded && h.centraleOspedale !== center) {
-                hospDiv.insertAdjacentHTML('beforeend', `
-                    <div style="padding:4px 4px;border-bottom:2px solid #005baa;background:#e3e3e3;font-weight:bold;font-size:12px;">
-                        Altre Centrali
-                    </div>
-                `);
-                separatorAdded = true;
-            }
-            
-            // Rimuovi sempre il prefisso centrale dal nome (sia per centrale corrente che altre)
-            const displayName = h.nome.replace(/^\([^)]+\)\s*/, '');
-            
-            // Testo con percentuale se disponibile
-            const displayText = capacity > 0 ? `${displayName} (${pct}%)` : displayName;
-            
-            hospDiv.insertAdjacentHTML('beforeend', `
-                <div style="padding:2px 4px;border-bottom:1px solid #eee;">
-                    ${displayText}
-                </div>
-            `);
-        });
-    }
-
-    // Aggiunge il menu di selezione ospedale per mezzi in stato 3
-    aggiungiMenuOspedali(container, mezzo) {
-        if (mezzo._menuOspedaliShown) return;
-
-        const currentCentral = window.selectedCentral;
-        
-        // Separa ospedali della centrale corrente da quelli delle altre centrali
-        const ospedaliCentraleCorrente = [];
-        const ospedaliAltreCentrali = [];
-        
-        this.game.hospitals.forEach(osp => {
-            // Un ospedale appartiene alla centrale corrente se NON ha prefisso
-            if (osp.nome.startsWith('(')) {
-                ospedaliAltreCentrali.push(osp);
-            } else {
-                ospedaliCentraleCorrente.push(osp);
-            }
-        });
-
-        const menuDiv = document.createElement('div');
-        menuDiv.style.cssText = `
-            margin: 8px 0 8px 20px; 
-            padding: 8px; 
-            background: #f8f9fa; 
-            border: 1px solid #dee2e6; 
-            border-radius: 4px;
-        `;
-
-        let hospitalsHtml = '<div style="margin-bottom: 6px; font-weight: bold; color: #495057;">Seleziona ospedale per trasporto:</div>';
-        
-        // Ospedali della centrale corrente
-        if (ospedaliCentraleCorrente.length > 0) {
-            hospitalsHtml += '<div style="margin-bottom: 4px; font-weight: 600; color: #007bff;">🏥 Centrale corrente:</div>';
-            ospedaliCentraleCorrente.forEach(h => {
-                // Calcola percentuale occupazione
-                const occupancyPct = this.game.hospitalPatientCount ? 
-                    Math.round((this.game.hospitalPatientCount[h.nome] || 0) / Math.max(1, Number(h.raw["N° pazienti Max"] || 1)) * 100) : 
-                    Math.floor(Math.random() * 81);
-
-                let occupancyColor = '#28a745'; // Verde
-                if (occupancyPct > 80) occupancyColor = '#dc3545'; // Rosso
-                else if (occupancyPct > 60) occupancyColor = '#ffc107'; // Giallo
-
-                hospitalsHtml += `
-                    <div style="margin: 2px 0; padding: 4px; background: white; border-radius: 3px; cursor: pointer; font-size: 0.9em;"
-                         onclick="window.game.ui.selezionaOspedale('${mezzo.nome_radio}', '${h.nome}', ${h.lat}, ${h.lon})"
-                         onmouseover="this.style.background='#e9ecef'" 
-                         onmouseout="this.style.background='white'">
-                        📍 ${h.nome} 
-                        <span style="color: ${occupancyColor}; font-weight: bold;">(${occupancyPct}%)</span>
-                    </div>
-                `;
-            });
-        }
-
-        // Separatore se ci sono ospedali di altre centrali
-        if (ospedaliAltreCentrali.length > 0) {
-            hospitalsHtml += '<hr style="margin: 8px 0; border: none; border-top: 1px solid #ccc;">';
-            hospitalsHtml += '<div style="margin-bottom: 4px; font-weight: 600; color: #6c757d;">🏥 Altre centrali:</div>';
-            
-            ospedaliAltreCentrali.forEach(h => {
-                const occupancyPct = this.game.hospitalPatientCount ? 
-                    Math.round((this.game.hospitalPatientCount[h.nome] || 0) / Math.max(1, Number(h.raw["N° pazienti Max"] || 1)) * 100) : 
-                    Math.floor(Math.random() * 81);
-
-                let occupancyColor = '#28a745';
-                if (occupancyPct > 80) occupancyColor = '#dc3545';
-                else if (occupancyPct > 60) occupancyColor = '#ffc107';
-
-                hospitalsHtml += `
-                    <div style="margin: 2px 0; padding: 4px; background: white; border-radius: 3px; cursor: pointer; font-size: 0.9em;"
-                         onclick="window.game.ui.selezionaOspedale('${mezzo.nome_radio}', '${h.nome}', ${h.lat}, ${h.lon})"
-                         onmouseover="this.style.background='#e9ecef'" 
-                         onmouseout="this.style.background='white'">
-                        📍 ${h.nome} 
-                        <span style="color: ${occupancyColor}; font-weight: bold;">(${occupancyPct}%)</span>
-                    </div>
-                `;
-            });
-        }
-
-        menuDiv.innerHTML = hospitalsHtml;
-        container.appendChild(menuDiv);
-        mezzo._menuOspedaliShown = true;
-    }
-
-    // Gestisce la selezione di un ospedale per il trasporto
-    selezionaOspedale(mezzoId, ospedaleNome, lat, lon) {
-        const mezzo = this.game.mezzi.find(m => m.nome_radio === mezzoId);
-        if (!mezzo || mezzo.stato !== 3) return;
-
-        // Imposta l'ospedale selezionato
-        mezzo.ospedale = { nome: ospedaleNome, lat: lat, lon: lon };
-        mezzo._trasportoConfermato = true;
-
-        console.log(`[DEBUG] Mezzo ${mezzoId} trasporterà a ${ospedaleNome}`);
-
-        // Avanza allo stato 4 (trasporto)
-        if (typeof setStatoMezzo === 'function') {
-            setStatoMezzo(mezzo, 4);
-        } else {
-            mezzo.stato = 4;
-        }
-
-        // Aggiorna l'interfaccia
-        this.updateStatoMezzi();
-        
-        // Aggiorna i marker se disponibile
-        if (this.game.updateMezzoMarkers) {
-            this.game.updateMezzoMarkers();
-        }
     }
 }

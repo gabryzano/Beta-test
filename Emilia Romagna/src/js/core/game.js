@@ -162,7 +162,6 @@ function interrompiMovimento(mezzo) {
     }
     
     if (mezzo._timerReportPronto) {
-        console.log(`[DEBUG] Cancellazione timer report per ${mezzo.nome_radio} (interrompiMovimento)`);
         clearTimeout(mezzo._timerReportPronto);
         mezzo._timerReportPronto = null;
     }
@@ -195,25 +194,6 @@ function setStatoMezzo(mezzo, nuovoStato) {
         } else if (nuovoStato === 1) {
             // Passaggio allo stato 1 (disponibile) - cancella tutti i messaggi
             mezzo.comunicazioni = [];
-        } else if (nuovoStato === 3) {
-            // Passaggio allo stato 3 (sul posto) - aggiungi Report pronto dopo un breve delay
-            if (Array.isArray(mezzo.comunicazioni)) {
-                const reportPronto = mezzo.comunicazioni.find(msg => msg.includes('Report pronto'));
-                mezzo.comunicazioni = [];
-                if (reportPronto) {
-                    mezzo.comunicazioni.push(reportPronto);
-                }
-            }
-            
-            // NOTE: scheduling of "Report pronto" is centralized in gestisciStato3().
-            // Keep existing komunikation preservation behavior but do NOT create timers here
-            if (Array.isArray(mezzo.comunicazioni)) {
-                const reportPronto = mezzo.comunicazioni.find(msg => msg.includes('Report pronto'));
-                mezzo.comunicazioni = [];
-                if (reportPronto) {
-                    mezzo.comunicazioni.push(reportPronto);
-                }
-            }
         } else {
             // Per altri stati, gestione normale delle comunicazioni
             if (Array.isArray(mezzo.comunicazioni)) {
@@ -226,22 +206,10 @@ function setStatoMezzo(mezzo, nuovoStato) {
         }
         
         // At state 4, clear the report pronto and reset related flags
-            if (nuovoStato === 4) {
+        if (nuovoStato === 4) {
             mezzo._reportProntoInviato = false;
             mezzo._menuOspedaliShown = false;
             mezzo.comunicazioni = []; // Clear all messages including Report pronto
-            if (mezzo._timerReportPronto) {
-                console.log(`[DEBUG] Cancellazione timer report per ${mezzo.nome_radio} (setStatoMezzo->stato 4)`);
-                clearTimeout(mezzo._timerReportPronto);
-                mezzo._timerReportPronto = null;
-            }
-        }
-        
-        // Pulisci timer se il mezzo esce dallo stato 3
-        if (statoAttuale === 3 && nuovoStato !== 3 && mezzo._timerReportPronto) {
-            console.log(`[DEBUG] Cancellazione timer report per ${mezzo.nome_radio} (uscita stato 3)`);
-            clearTimeout(mezzo._timerReportPronto);
-            mezzo._timerReportPronto = null;
         }
 
         mezzo._lastEvent = Date.now();
@@ -338,9 +306,15 @@ function gestisciAvanzamentoAutomaticoStati(mezzo) {
     //         mezzo._timerStato2 = null;
     //     }, randomMinuti(2, 3) * 60);    
     // }
-    // Stato 3: scheduling handled in gestisciStato3() to avoid duplicate timers
-    if (mezzo.stato === 3) {
-        // no-op here; gestisciStato3() will manage _timerReportPronto consistently
+    // Stato 3: dopo 10-20 minuti simulati manda "report pronto"    
+    if (mezzo.stato === 3 && !mezzo._timerReportPronto && !mezzo._reportProntoInviato) {
+        // Timer di report impostato a 10-20 minuti simulati
+        mezzo._timerReportPronto = simTimeout(() => {
+            mezzo.comunicazioni = (mezzo.comunicazioni || []).concat([`Report pronto`]);
+            window.soundManager.play('report');
+            // console.log('[DEBUG] Mezzo', mezzo.nome_radio, 'ha inviato REPORT PRONTO');
+            mezzo._reportProntoInviato = true;
+        }, randomMinuti(10, 20) * 60);
     }
     // Stato 4: timer parte solo DOPO conferma utente (vedi nota sotto)
 }
@@ -361,32 +335,46 @@ function gestisciStato3(mezzo, call) {
     let reportText = 'Report pronto';
     if (call && call.selectedChiamata) {
         const mezzoType = mezzo.tipo_mezzo || '';
-        // Map vehicle type to report type using startsWith for robustness
+        console.log('[DEBUG] Report generation - Mezzo:', mezzo.nome_radio, 'tipo:', mezzoType, 'selectedCase:', call.selectedCase);
+        // Map vehicle type to report type for Emilia Romagna
         let reportKey = null;
-        if (mezzoType.startsWith('MSB') || mezzoType.startsWith('BLS')) {
+        if (mezzoType.startsWith('MSB')) {
             reportKey = 'MSB';
-        } else if (mezzoType.startsWith('MSA1') || mezzoType === 'MSA1_1' || mezzoType.startsWith('MSI') || mezzoType.startsWith('ILS')) {
-            reportKey = 'MSA1';
-        } else if (mezzoType.startsWith('MSA2') || mezzoType === 'MSA2_A' || mezzoType === 'MSA' || mezzoType.startsWith('ALS') || mezzoType.startsWith('VLV') || mezzoType === 'ELI') {
-            reportKey = 'MSA2';
-        } else if (mezzoType.startsWith('MSAI')) {
-            reportKey = 'MSA1';
+        } else if (mezzoType === 'MSI' || mezzoType === 'ILS') {
+            reportKey = 'MSA1'; // MSI e ILS usano report MSA1
+        } else if (mezzoType === 'MSA' || mezzoType === 'ALS') {
+            reportKey = 'MSA2'; // MSA e ALS usano report MSA2
+        } else if (mezzoType === 'VLV') {
+            reportKey = 'MSA2'; // VLV usa report MSA2
+        } else if (mezzoType === 'ELI') {
+            reportKey = 'MSA2'; // ELI usa report MSA2
         }
+        console.log('[DEBUG] Mapped reportKey:', reportKey);
 
         // Prima cerca nel caso selezionato
         if (call.selectedCase && call.selectedChiamata[call.selectedCase]) {
             const reportOptions = call.selectedChiamata[call.selectedCase];
+            console.log('[DEBUG] Using selectedCase:', call.selectedCase, 'options:', Object.keys(reportOptions || {}));
             if (reportKey && reportOptions && reportOptions[reportKey]) {
                 reportText = reportOptions[reportKey];
+                console.log('[DEBUG] Found report in selectedCase:', reportText.substring(0, 50) + '...');
             }
             // Se non lo trova, cerca nel caso_stabile come fallback
             else if (reportKey && call.selectedChiamata['caso_stabile'] && call.selectedChiamata['caso_stabile'][reportKey]) {
                 reportText = call.selectedChiamata['caso_stabile'][reportKey];
+                console.log('[DEBUG] Used fallback caso_stabile:', reportText.substring(0, 50) + '...');
+            } else {
+                console.log('[DEBUG] No report found for reportKey:', reportKey);
+                reportText = `Nessun report dettagliato disponibile`;
             }
         }
         // Se selectedCase non è impostato, prova direttamente con caso_stabile
         else if (reportKey && call.selectedChiamata['caso_stabile'] && call.selectedChiamata['caso_stabile'][reportKey]) {
             reportText = call.selectedChiamata['caso_stabile'][reportKey];
+            console.log('[DEBUG] No selectedCase, used caso_stabile:', reportText.substring(0, 50) + '...');
+        } else {
+            console.log('[DEBUG] No selectedCase and no caso_stabile found for reportKey:', reportKey);
+            reportText = `Nessun report dettagliato disponibile`;
         }
     }
 
@@ -408,22 +396,24 @@ function gestisciStato3(mezzo, call) {
                 (myCall.mezziAssegnati||[]).includes(m.nome_radio)
             );
             
-            // Funzione per determinare la priorità nella gerarchia COMPLETA (con tipi originali)
+            // Funzione per determinare la priorità nella gerarchia COMPLETA
             function getPriorita(tipoMezzo) {
                 if (!tipoMezzo) return 0;
                 
                 // Priorità 1: MSB, BLS
-                if (tipoMezzo === 'MSB' || tipoMezzo === 'BLS') return 1;
+                if (tipoMezzo.startsWith('MSB') || tipoMezzo.startsWith('BLS')) return 1;
                 
-                // Priorità 2: ILS, MSI (equivalenti a MSA1)
-                if (tipoMezzo === 'ILS' || tipoMezzo === 'MSI') return 2;
+                // Priorità 2: MSA1, MSA1_1, MSI, ILS
+                if (tipoMezzo.startsWith('MSA1') || tipoMezzo === 'MSA1_1' || 
+                    tipoMezzo.startsWith('MSI') || tipoMezzo.startsWith('ILS')) return 2;
                 
-                // Priorità 3: ALS, MSA, VLV, ELI (massima priorità, equivalenti a MSA2)
-                if (tipoMezzo === 'ALS' || tipoMezzo === 'MSA' || 
-                    tipoMezzo === 'VLV' || tipoMezzo === 'ELI') return 3;
+                // Priorità 3: MSA2, MSA2_A, MSA, ALS, VLV, ELI (massima priorità)
+                if (tipoMezzo.startsWith('MSA2') || tipoMezzo === 'MSA2_A' || 
+                    tipoMezzo === 'MSA' || tipoMezzo.startsWith('ALS') || 
+                    tipoMezzo.startsWith('VLV') || tipoMezzo === 'ELI') return 3;
                 
                 // Altri tipi MSAI o simili (priorità intermedia)
-                if (tipoMezzo === 'MSAI') return 2.5;
+                if (tipoMezzo.startsWith('MSAI')) return 2.5;
                 
                 return 0;
             }
@@ -452,7 +442,6 @@ function gestisciStato3(mezzo, call) {
                     // Invia report per tutti i mezzi in stato 3
                     allMezziInMissione.forEach((m, index) => {
                         if (m.stato === 3 && !m._reportProntoInviato && !m._timerReportPronto) {
-                            console.log(`[DEBUG] Creazione timer report per ${m.nome_radio} (sincronizzato)`);
                             m._timerReportPronto = simTimeout(() => {
                                 // Determina il testo del report per questo mezzo specifico
                                 let mezzoReportText = 'Report pronto';
@@ -460,15 +449,18 @@ function gestisciStato3(mezzo, call) {
                                     const mezzoType = m.tipo_mezzo || '';
                                     let reportKey = null;
                                     
-                                    // Mappa completa dei tipi di mezzo ai report (come Lombardia)
+                                    // Mappa completa dei tipi di mezzo ai report per Emilia Romagna
                                     if (mezzoType.startsWith('MSB') || mezzoType.startsWith('BLS')) {
                                         reportKey = 'MSB';
-                                    } else if (mezzoType.startsWith('MSI') || mezzoType.startsWith('ILS')) {
-                                        reportKey = 'MSA1'; // ILS e MSI usano report MSA1
-                                    } else if (mezzoType.startsWith('ALS') || mezzoType === 'MSA' || 
-                                              mezzoType.startsWith('VLV') || mezzoType === 'ELI') {
-                                        reportKey = 'MSA2'; // ALS, MSA, VLV, ELI usano report MSA2
-                                    } else if (mezzoType.startsWith('ILS')) {
+                                    } else if (mezzoType === 'MSI' || mezzoType === 'ILS') {
+                                        reportKey = 'MSA1'; // MSI e ILS usano report MSA1
+                                    } else if (mezzoType === 'MSA' || mezzoType === 'ALS') {
+                                        reportKey = 'MSA2'; // MSA e ALS usano report MSA2
+                                    } else if (mezzoType === 'VLV') {
+                                        reportKey = 'MSA2'; // VLV usa report MSA2
+                                    } else if (mezzoType === 'ELI') {
+                                        reportKey = 'MSA2'; // ELI usa report MSA2
+                                    } else if (mezzoType.startsWith('MSAI')) {
                                         reportKey = 'MSA1'; // MSAI usa report MSA1
                                     }
                                     
@@ -481,16 +473,15 @@ function gestisciStato3(mezzo, call) {
                                     }
                                 }
                                 
-                                m.comunicazioni = (m.comunicazioni || []).concat(['Report pronto']);
-                                try { window.soundManager && window.soundManager.play && window.soundManager.play('report'); } catch(e) { console.error('Sound play error', e); }
-                                console.log('[DEBUG] Mezzo', m.nome_radio, 'ha inviato report sincronizzato: [Report pronto]');
+                                m.comunicazioni = (m.comunicazioni || []).concat([mezzoReportText]);
+                                console.log('[DEBUG] Mezzo', m.nome_radio, 'ha inviato report sincronizzato:', mezzoReportText);
                                 m._reportProntoInviato = true;
                                 if(window.game && window.game.ui && window.game.ui.updateStatoMezzi) {
                                     window.game.ui.updateStatoMezzi(m);
                                 }
                                 aggiornaMissioniPerMezzo(m);
                                 m._timerReportPronto = null;
-                            }, randomMinuti(10, 20) * 60 + (index * 100)); // Piccolo delay tra i mezzi per evitare sovrapposizioni
+                            }, randomMinuti(20, 30) * 60 + (index * 100)); // Piccolo delay tra i mezzi per evitare sovrapposizioni
                         }
                     });
                 } else {
@@ -504,18 +495,17 @@ function gestisciStato3(mezzo, call) {
             }
         } else {
             // Mezzo solo o fallback: invia normalmente
-            console.log(`[DEBUG] ${mezzo.nome_radio}: mezzo solo, scheduling report`);
+            console.log(`[DEBUG] ${mezzo.nome_radio}: mezzo solo, invio report normale`);
             mezzo._timerReportPronto = simTimeout(() => {
-                mezzo.comunicazioni = (mezzo.comunicazioni || []).concat(['Report pronto']);
-                try { window.soundManager && window.soundManager.play && window.soundManager.play('report'); } catch(e) { console.error('Sound play error', e); }
-                console.log('[DEBUG] Mezzo', mezzo.nome_radio, 'ha inviato report: [Report pronto]');
+                mezzo.comunicazioni = (mezzo.comunicazioni || []).concat([reportText]);
+                console.log('[DEBUG] Mezzo', mezzo.nome_radio, 'ha inviato report:', reportText);
                 mezzo._reportProntoInviato = true;
                 if(window.game && window.game.ui && window.game.ui.updateStatoMezzi) {
                     window.game.ui.updateStatoMezzi(mezzo);
                 }
                 aggiornaMissioniPerMezzo(mezzo);
                 mezzo._timerReportPronto = null;
-            }, randomMinuti(10, 20) * 60);
+            }, randomMinuti(20, 30) * 60);
         }
     }
 }
@@ -650,20 +640,10 @@ function getRitardoPartenza(tipoMezzo) {
     return randomMinuti(1, 4) * 60;
 }
 
-// Helper function to get full central name
-function getCentralDisplayName(centralCode) {
-    switch (centralCode) {
-        case 'Ovest': return '118 Emilia Ovest';
-        case 'Est': return '118 Emilia Est';
-        case 'Romagna': return '118 Romagna';
-        default: return centralCode;
-    }
-}
-
 class EmergencyDispatchGame {
     constructor() {
         // Inizializza le proprietà base
-        this.mezzi = [];
+        this.mezzi = []; // Array di mezzi
         this.calls = new Map();
         this.hospitals = [];
         this.indirizziReali = window.indirizziReali || [];
@@ -677,8 +657,8 @@ class EmergencyDispatchGame {
             rsa: []
         };
 
-        // Counters for mission numbers per SOREU central
-        this.missionCounter = { SRA: 0, SRL: 0, SRM: 0, SRP: 0 };
+        // Counters for mission numbers per central
+        this.missionCounter = { NORD: 0, SUD: 0 };
         
         // Verifica che GameUI sia definito prima di creare l'istanza
         if (typeof GameUI === 'undefined') {
@@ -740,10 +720,8 @@ class EmergencyDispatchGame {
                     const dist = distanzaKm(m.lat, m.lon, call.lat, call.lon);
                     let vel = await getVelocitaMezzo(m.tipo_mezzo);
                     let riduzione = 0;
-                    if (call.codice === 'R  - ROSSO' || call.codice === 'Rosso') riduzione = 0.15;
-                    else if (call.codice === 'GU - GIALLO URGENTE') riduzione = 0.12;
-                    else if (call.codice === 'G  - GIALLO' || call.codice === 'Giallo') riduzione = 0.10;
-                    else if (call.codice === 'ACC- BLU') riduzione = 0.20;
+                    if (call.codice && call.codice.includes('R')) riduzione = 0.15;
+                    else if (call.codice && (call.codice.includes('G') || call.codice.includes('GU'))) riduzione = 0.10;
                     if (m.tipo_mezzo !== 'ELI') {
                         const traffico = 1 + (Math.random() * 0.2 - 0.1);
                         vel = vel * traffico;
@@ -763,8 +741,8 @@ class EmergencyDispatchGame {
                     const dist = distanzaKm(m.lat, m.lon, m.ospedale.lat, m.ospedale.lon);
                     let vel = await getVelocitaMezzo(m.tipo_mezzo);
                     let riduzione = 0;
-                    if (m.codice_trasporto === 'R  - ROSSO' || m.codice_trasporto === 'Rosso') riduzione = 0.15;
-                    else if (m.codice_trasporto === 'G  - GIALLO' || m.codice_trasporto === 'Giallo') riduzione = 0.10;
+                    if (m.codice_trasporto && m.codice_trasporto.includes('R')) riduzione = 0.15;
+                    else if (m.codice_trasporto && (m.codice_trasporto.includes('G') || m.codice_trasporto.includes('GU'))) riduzione = 0.10;
                     if (m.tipo_mezzo !== 'ELI') {
                         const traffico = 1 + (Math.random() * 0.2 - 0.1);
                         vel = vel * traffico;
@@ -842,10 +820,23 @@ class EmergencyDispatchGame {
             console.error("Error loading chiamate:", e);
             this.chiamateTemplate = null;
         }
-    }    async initialize() {
+    }
+    
+    async loadCentrali() {
+        try {
+            const response = await fetch('src/data/centrali.json');
+            this.centrali = await response.json();
+        } catch (e) {
+            console.error("Error loading centrali:", e);
+            this.centrali = {};
+        }
+    }
+    
+    async initialize() {
          try {
              await this.loadChiamate();
              await this.loadStatiMezzi();
+             await this.loadCentrali();
              await this.loadMezzi();
              
 
@@ -960,75 +951,134 @@ class EmergencyDispatchGame {
         if (this.map) {
             this.map.remove();
         }
-        // Determine initial map center and zoom based on selected central for Emilia-Romagna
-        let initCenter = [44.4949, 11.3426]; // default Bologna (centrale geografica)
+        // Determine initial map center and zoom based on selected central
+        let initCenter = [45.4064, 11.8768]; // default Padova
         const initZoom = 10;
         
-        switch (window.selectedCentral) {
-            case 'Ovest': // Parma (centrale Ovest)
-                initCenter = [44.8015, 10.3279]; break;
-            case 'Est': // Bologna (centrale Est)
-                initCenter = [44.4949, 11.3426]; break;
-            case 'Romagna': // Forlì (centrale Romagna)
-                initCenter = [44.2226, 12.0401]; break;
+        const centralName = window.selectedCentral;
+        if (centralName && this.centrali[centralName]) {
+            const coords = this.centrali[centralName].coordinate.split(',');
+            initCenter = [parseFloat(coords[0]), parseFloat(coords[1])];
         }
         
         this.map = L.map('game-map').setView(initCenter, initZoom);
         L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png').addTo(this.map);
+        
+        // Aggiungi marker per tutte le centrali dell'Emilia Romagna
+        // this.addCentraliMarkers(); // Markers centrali rimossi
+        
         this.updatePostazioneMarkers();
         this.updateMezzoMarkers();
     }
-    async loadMezzi() {
-        // Carica mezzi da tutte le 3 centrali dell'Emilia-Romagna
-            const centralFiles = {
-                'Ovest': 'src/data/Mezzi_Ovest.json',
-                'Est': 'src/data/Mezzi_Est.json', 
-                'Romagna': 'src/data/Mezzi_Romagna.json'
-            };
+    
+    addCentraliMarkers() {
+        // Rimuovi marker precedenti se esistono
+        if (this.centraliMarkers) {
+            this.centraliMarkers.forEach(marker => this.map.removeLayer(marker));
+        }
+        this.centraliMarkers = [];
         
-        const allRaw = [];
-        await Promise.all(Object.entries(centralFiles).map(async ([code, path]) => {
-            try {
-                const res = await fetch(path);
-                if (!res.ok) return console.error(`File ${path} mancante (HTTP ${res.status})`);
-                let data = await res.json();
-                if (!Array.isArray(data)) data = Object.values(data).find(v => Array.isArray(v)) || [];
-                data.forEach(item => { allRaw.push({ ...item, central: code }); });
-            } catch (e) { console.error(`Errore fetch ${path}`, e); }
-        }));
-        // Mappa raw in oggetti veicolo con mapping specifico per Emilia-Romagna
-        this.mezzi = allRaw.map(m => {
-            let lat = m.lat ?? null, lon = m.lon ?? null;
-            if ((!lat || !lon) && m['Coordinate Postazione']) {
-                const coords = m['Coordinate Postazione'].split(',').map(s => Number(s.trim())); 
-                lat = coords[0]; 
-                lon = coords[1];
-            }
+        // Aggiungi marker per ogni centrale
+        Object.entries(this.centrali).forEach(([nome, centrale]) => {
+            const coords = centrale.coordinate.split(',');
+            const lat = parseFloat(coords[0]);
+            const lon = parseFloat(coords[1]);
             
-            // Mantieni i tipi mezzo originali dai file JSON
-            const tipoMezzoOriginale = m.tipo_mezzo || m.Mezzo || '';
+            // Crea icona distintiva per la centrale
+            const icon = L.divIcon({
+                className: 'centrale-marker',
+                html: `<div style="background: ${centrale.codice === this.centrali[window.selectedCentral]?.codice ? '#e53935' : '#1976d2'}; 
+                              color: white; 
+                              border-radius: 50%; 
+                              width: 24px; 
+                              height: 24px; 
+                              display: flex; 
+                              align-items: center; 
+                              justify-content: center; 
+                              font-weight: bold; 
+                              font-size: 12px; 
+                              border: 2px solid white; 
+                              box-shadow: 0 2px 4px rgba(0,0,0,0.3);">${centrale.codice}</div>`,
+                iconSize: [24, 24],
+                iconAnchor: [12, 12]
+            });
             
-            return {
-                nome_radio: (m.nome_radio || m['Nome radio'] || '').trim(),
-                postazione: (m.postazione || m['Nome Postazione'] || '').trim(),
-                tipo_mezzo: tipoMezzoOriginale,
-                convenzione: m.convenzione || m['Convenzione'] || '',
-                Giorni: m.Giorni || m.giorni || 'LUN-DOM',
-                'Orario di lavoro': m['Orario di lavoro'] || '',
-                lat, lon,
-                stato: 1,
-                _marker: null,
-                _callMarker: null,
-                _ospedaleMarker: null,
-                central: m.central
-            };
+            const marker = L.marker([lat, lon], { icon })
+                .addTo(this.map)
+                .bindPopup(`<b>118 ${centrale.provincia} Emergenza</b><br>
+                           ${centrale.indirizzo}<br>
+                           Tel: ${centrale.telefono}<br>
+                           <small>${centrale.codice === this.centrali[window.selectedCentral]?.codice ? '(Attiva)' : ''}</small>`);
+            
+            this.centraliMarkers.push(marker);
         });
+    }
+    async loadMezzi() {
+        // Carica mezzi da TUTTE le centrali dell'Emilia Romagna (come in Lombardia)
+        if (!this.centrali) {
+            console.error('Centrali non caricate');
+            return;
+        }
+        
+        this.mezzi = [];
+        
+        // Carica mezzi da tutte le centrali
+        for (const [centralName, centralConfig] of Object.entries(this.centrali)) {
+            const mezziFile = centralConfig.mezziFile;
+            
+            try {
+                const res = await fetch(mezziFile);
+                if (!res.ok) {
+                    console.error(`File ${mezziFile} mancante (HTTP ${res.status})`);
+                    continue;
+                }
+                
+                let data = await res.json();
+                if (!Array.isArray(data)) {
+                    data = Object.values(data).find(v => Array.isArray(v)) || [];
+                }
+                
+                // Mappa raw in oggetti veicolo
+                const mezziCentrale = data.map(m => {
+                    let lat = m.lat ?? null, lon = m.lon ?? null;
+                    if ((!lat || !lon) && m['Coordinate Postazione']) {
+                        const coords = m['Coordinate Postazione'].split(',').map(s => Number(s.trim())); 
+                        lat = coords[0]; 
+                        lon = coords[1];
+                    }
+                    return {
+                        nome_radio: (m.nome_radio || m['Nome radio'] || '').trim(),
+                        postazione: (m.postazione || m['Nome Postazione'] || '').trim(),
+                        tipo_mezzo: m.tipo_mezzo || m.Mezzo || '',
+                        convenzione: m.convenzione || m['Convenzione'] || '',
+                        Giorni: m.Giorni || m.giorni || 'LUN-DOM',
+                        'Orario di lavoro': m['Orario di lavoro'] || '',
+                        lat, lon,
+                        stato: 1,
+                        _marker: null,
+                        _callMarker: null,
+                        _ospedaleMarker: null,
+                        central: centralName
+                    };
+                });
+                
+                this.mezzi.push(...mezziCentrale);
+                console.log(`[DEBUG] Caricati ${mezziCentrale.length} mezzi per centrale ${centralName}`);
+                
+            } catch (e) {
+                console.error(`Errore caricamento mezzi per ${centralName}:`, e);
+            }
+        }
+        
+        console.log(`[DEBUG] Totale mezzi caricati: ${this.mezzi.length}`);
+        console.log(`[DEBUG] Primi 3 mezzi:`, this.mezzi.slice(0, 3));
+        
         // Una postazione può ospitare più mezzi (anche con stesso nome_radio)
         this.postazioniMap = {};
         this.mezzi.forEach(m => {
             if (!m.postazione || m.postazione.trim() === "" || !m.lat || !m.lon) return;
             const key = m.postazione.trim() + '_' + m.lat + '_' + m.lon;
-            const flagKey = 'is' + m.central;
+            const flagKey = 'is' + m.central; // es: isBelluno, isPadova, etc.
             if (!this.postazioniMap[key]) {
                 this.postazioniMap[key] = {
                     nome: m.postazione.trim(),
@@ -1038,12 +1088,12 @@ class EmergencyDispatchGame {
                     isHems: false
                 };
             }
-            // mark postazione belonging to this central
+            // Marca la postazione come appartenente a questa centrale
             this.postazioniMap[key][flagKey] = true;
             this.postazioniMap[key].mezzi.push(m);
         });
 
-        // Load HEMS (elicotteri) condivisi se presente
+        // Load HEMS (elicotteri) condivisi - comune per tutte le CO del Veneto
         try {
             const resHems = await fetch('src/data/HEMS_ER.json');
             let hems = await resHems.json();
@@ -1064,8 +1114,7 @@ class EmergencyDispatchGame {
                     convenzione: item['Convenzione'] || '',
                     Giorni: item['Giorni'] || item['giorni'] || "LUN-DOM",
                     'Orario di lavoro': item['Orario di lavoro'] || '',
-                    lat, lon, stato: 1, _marker: null, _callMarker: null, _ospedaleMarker: null,
-                    central: 'HEMS' // Mark as HEMS vehicle
+                    lat, lon, stato: 1, _marker: null, _callMarker: null, _ospedaleMarker: null
                 };
                 this.mezzi.push(mezzo);
                 const key = nomePost + '_' + lat + '_' + lon;
@@ -1074,155 +1123,123 @@ class EmergencyDispatchGame {
                 }
                 this.postazioniMap[key].mezzi.push(mezzo);
             });
-        } catch(e) { 
-            console.log('HEMS_ER.json non trovato o non caricabile:', e.message); 
-        }
+        } catch(e) { console.error('Error loading HEMS_ER.json:', e); }
         
-        // Debug: mostra i primi 5 mezzi caricati
-        console.log(`[INFO] Caricati ${this.mezzi.length} mezzi totali.`);
-        console.log('[DEBUG] Primi 5 mezzi:', this.mezzi.slice(0, 5).map(m => ({
-            nome_radio: m.nome_radio,
-            tipo_mezzo: m.tipo_mezzo,
-            postazione: m.postazione,
-            central: m.central
-        })));
+        console.log(`[DEBUG] Totale mezzi dopo HEMS: ${this.mezzi.length}`);
+        console.log(`[DEBUG] Mezzi per tipo:`, this.mezzi.reduce((acc, m) => {
+            acc[m.tipo_mezzo] = (acc[m.tipo_mezzo] || 0) + 1;
+            return acc;
+        }, {}));
+        
+        // Aggiungi prefissi provincia ai mezzi delle altre centrali per evitare conflitti di nomi
+        const centraleAttiva = (window.selectedCentral || '').trim().toUpperCase();
+        console.log('[DEBUG] Aggiunta prefissi - Centrale attiva:', centraleAttiva);
+        
+        const prefissiProvince = {
+            'BELLUNO EMERGENZA': 'BL',
+            'PADOVA EMERGENZA': 'PD', 
+            'ROVIGO EMERGENZA': 'RO',
+            'TREVISO EMERGENZA': 'TV',
+            'VENEZIA EMERGENZA': 'VE',
+            'VICENZA EMERGENZA': 'VI',
+            'VERONA EMERGENZA': 'VR'
+        };
+        
+        let contatorePrefissi = 0;
+        this.mezzi.forEach(m => {
+            const centraleMezzo = (m.central || '').trim().toUpperCase();
+            // Se il mezzo appartiene a una centrale diversa da quella attiva, aggiungi prefisso
+            if (centraleMezzo && centraleMezzo !== centraleAttiva && prefissiProvince[centraleMezzo]) {
+                const prefisso = prefissiProvince[centraleMezzo];
+                // Controllo più robusto: verifica se inizia ESATTAMENTE con il prefisso della sua provincia
+                const prefissoAtteso = `${prefisso}_`;
+                if (!m.nome_radio.startsWith(prefissoAtteso)) {
+                    const nomeOriginale = m.nome_radio;
+                    m.nome_radio = `${prefisso}_${m.nome_radio}`;
+                    contatorePrefissi++;
+                    if (contatorePrefissi <= 5) {
+                        console.log(`[DEBUG] Prefisso aggiunto: "${nomeOriginale}" -> "${m.nome_radio}" (centrale: ${centraleMezzo})`);
+                    }
+                }
+            }
+        });
+        console.log(`[DEBUG] Totale prefissi aggiunti: ${contatorePrefissi}`);
+        
+        // Aggiorna il pannello stato mezzi dopo il caricamento
+        if (this.ui && typeof this.ui.updateStatoMezzi === 'function') {
+            this.ui.updateStatoMezzi();
+        }
     }
 
     async loadHospitals() {
         try {
-            // Clear existing hospital markers
-            if (this.hospitals) {
-                this.hospitals.forEach(h => {
-                    if (h._marker) this.map.removeLayer(h._marker);
-                });
+            // Carica gli ospedali da TUTTE le centrali del Veneto (come per i mezzi)
+            if (!this.centrali) {
+                console.error('Centrali non caricate');
+                return;
             }
             
-            // Gestione per centrali specifiche Emilia-Romagna con ordinamento per centrale corrente
-            const currentCentral = window.selectedCentral || 'Ovest';
-            let allHospitals = [];
+            this.hospitals = [];
             
-            // Ovest: carica prima Ovest, poi Est, poi Romagna
-            if (currentCentral === 'Ovest') {
-                // 1) Ovest (senza prefisso)
-                const resOvest = await fetch('src/data/Ospedali_Ovest.json');
-                const ovestList = await resOvest.json();
-                (Array.isArray(ovestList) ? ovestList : Object.values(ovestList).find(v => Array.isArray(v)) || [])
-                .forEach(h => {
-                    const coords = (h.COORDINATE || '').split(',').map(s => Number(s.trim()));
-                    const lat = coords[0], lon = coords[1];
-                    if (lat != null && lon != null) allHospitals.push({ nome: h.OSPEDALE?.trim() || '', lat, lon, indirizzo: h.INDIRIZZO || '', raw: h });
-                });
+            // Carica ospedali da tutte le centrali
+            for (const [centralName, centralConfig] of Object.entries(this.centrali)) {
+                const ospedaliFile = centralConfig.ospedaliFile;
                 
-                // 2) Est (prefisso)
-                const resEst = await fetch('src/data/Ospedali_Est.json');
-                const estList = await resEst.json();
-                (Array.isArray(estList) ? estList : Object.values(estList).find(v => Array.isArray(v)) || [])
-                .forEach(h => {
-                    const coords = (h.COORDINATE || '').split(',').map(s => Number(s.trim()));
-                    const lat = coords[0], lon = coords[1];
-                    if (lat != null && lon != null) allHospitals.push({ nome: `(Est) ${h.OSPEDALE?.trim() || ''}`, lat, lon, indirizzo: h.INDIRIZZO || '', raw: h });
-                });
-                
-                // 3) Romagna (prefisso)
-                const resRomagna = await fetch('src/data/Ospedali_Romagna.json');
-                const romagnaList = await resRomagna.json();
-                (Array.isArray(romagnaList) ? romagnaList : Object.values(romagnaList).find(v => Array.isArray(v)) || [])
-                .forEach(h => {
-                    const coords = (h.COORDINATE || '').split(',').map(s => Number(s.trim()));
-                    const lat = coords[0], lon = coords[1];
-                    if (lat != null && lon != null) allHospitals.push({ nome: `(Romagna) ${h.OSPEDALE?.trim() || ''}`, lat, lon, indirizzo: h.INDIRIZZO || '', raw: h });
-                });
+                try {
+                    const res = await fetch(ospedaliFile);
+                    if (!res.ok) {
+                        console.error(`File ${ospedaliFile} mancante (HTTP ${res.status})`);
+                        continue;
+                    }
+                    
+                    const hospitalsList = await res.json();
+                    
+                    let hospitalsArray = [];
+                    if (Array.isArray(hospitalsList)) {
+                        hospitalsArray = hospitalsList;
+                    } else {
+                        // Se è un oggetto, prendi il primo array trovato
+                        const arr = Object.values(hospitalsList).find(v => Array.isArray(v));
+                        hospitalsArray = arr || [];
+                    }
+                    
+                    hospitalsArray.forEach(h => {
+                        const coords = (h.COORDINATE || '').split(',').map(s => Number(s.trim()));
+                        const lat = coords[0], lon = coords[1];
+                        if (lat != null && lon != null) {
+                            const hospital = {
+                                nome: h.OSPEDALE?.trim() || '',
+                                lat,
+                                lon,
+                                indirizzo: h.INDIRIZZO || '',
+                                central: centralName,
+                                raw: h
+                            };
+                            this.hospitals.push(hospital);
+                        }
+                    });
+                    
+                    console.log(`[DEBUG] Caricati ${hospitalsArray.length} ospedali per centrale ${centralName}`);
+                    
+                } catch (e) {
+                    console.error(`Errore caricamento ospedali per ${centralName}:`, e);
+                }
             }
             
-            // Est: carica prima Est, poi Ovest, poi Romagna
-            else if (currentCentral === 'Est') {
-                // 1) Est (senza prefisso)
-                const resEst = await fetch('src/data/Ospedali_Est.json');
-                const estList = await resEst.json();
-                (Array.isArray(estList) ? estList : Object.values(estList).find(v => Array.isArray(v)) || [])
-                .forEach(h => {
-                    const coords = (h.COORDINATE || '').split(',').map(s => Number(s.trim()));
-                    const lat = coords[0], lon = coords[1];
-                    if (lat != null && lon != null) allHospitals.push({ nome: h.OSPEDALE?.trim() || '', lat, lon, indirizzo: h.INDIRIZZO || '', raw: h });
-                });
-                
-                // 2) Ovest (prefisso)
-                const resOvest = await fetch('src/data/Ospedali_Ovest.json');
-                const ovestList = await resOvest.json();
-                (Array.isArray(ovestList) ? ovestList : Object.values(ovestList).find(v => Array.isArray(v)) || [])
-                .forEach(h => {
-                    const coords = (h.COORDINATE || '').split(',').map(s => Number(s.trim()));
-                    const lat = coords[0], lon = coords[1];
-                    if (lat != null && lon != null) allHospitals.push({ nome: `(Ovest) ${h.OSPEDALE?.trim() || ''}`, lat, lon, indirizzo: h.INDIRIZZO || '', raw: h });
-                });
-                
-                // 3) Romagna (prefisso)
-                const resRomagna = await fetch('src/data/Ospedali_Romagna.json');
-                const romagnaList = await resRomagna.json();
-                (Array.isArray(romagnaList) ? romagnaList : Object.values(romagnaList).find(v => Array.isArray(v)) || [])
-                .forEach(h => {
-                    const coords = (h.COORDINATE || '').split(',').map(s => Number(s.trim()));
-                    const lat = coords[0], lon = coords[1];
-                    if (lat != null && lon != null) allHospitals.push({ nome: `(Romagna) ${h.OSPEDALE?.trim() || ''}`, lat, lon, indirizzo: h.INDIRIZZO || '', raw: h });
-                });
-            }
+            console.log(`[DEBUG] Totale ospedali caricati: ${this.hospitals.length}`);
             
-            // Romagna: carica prima Romagna, poi Est, poi Ovest
-            else if (currentCentral === 'Romagna') {
-                // 1) Romagna (senza prefisso)
-                const resRomagna = await fetch('src/data/Ospedali_Romagna.json');
-                const romagnaList = await resRomagna.json();
-                (Array.isArray(romagnaList) ? romagnaList : Object.values(romagnaList).find(v => Array.isArray(v)) || [])
-                .forEach(h => {
-                    const coords = (h.COORDINATE || '').split(',').map(s => Number(s.trim()));
-                    const lat = coords[0], lon = coords[1];
-                    if (lat != null && lon != null) allHospitals.push({ nome: h.OSPEDALE?.trim() || '', lat, lon, indirizzo: h.INDIRIZZO || '', raw: h });
-                });
-                
-                // 2) Est (prefisso)
-                const resEst = await fetch('src/data/Ospedali_Est.json');
-                const estList = await resEst.json();
-                (Array.isArray(estList) ? estList : Object.values(estList).find(v => Array.isArray(v)) || [])
-                .forEach(h => {
-                    const coords = (h.COORDINATE || '').split(',').map(s => Number(s.trim()));
-                    const lat = coords[0], lon = coords[1];
-                    if (lat != null && lon != null) allHospitals.push({ nome: `(Est) ${h.OSPEDALE?.trim() || ''}`, lat, lon, indirizzo: h.INDIRIZZO || '', raw: h });
-                });
-                
-                // 3) Ovest (prefisso)
-                const resOvest = await fetch('src/data/Ospedali_Ovest.json');
-                const ovestList = await resOvest.json();
-                (Array.isArray(ovestList) ? ovestList : Object.values(ovestList).find(v => Array.isArray(v)) || [])
-                .forEach(h => {
-                    const coords = (h.COORDINATE || '').split(',').map(s => Number(s.trim()));
-                    const lat = coords[0], lon = coords[1];
-                    if (lat != null && lon != null) allHospitals.push({ nome: `(Ovest) ${h.OSPEDALE?.trim() || ''}`, lat, lon, indirizzo: h.INDIRIZZO || '', raw: h });
-                });
-            }
-            
-            // Applica markers su mappa
-            this.hospitals = allHospitals;
-            allHospitals.forEach(hosp => {
-                const marker = L.marker([hosp.lat, hosp.lon], { icon: this.getHospitalIcon() })
+            // Aggiungi marker per tutti gli ospedali
+            this.hospitals.forEach(hospital => {
+                const marker = L.marker([hospital.lat, hospital.lon], { icon: this.getHospitalIcon() })
                     .addTo(this.map)
-                    .bindPopup(`<b>${hosp.nome}</b><br>${hosp.indirizzo || ''}`);
-                hosp._marker = marker;
+                    .bindPopup(`<b>${hospital.nome}</b><br>${hospital.indirizzo || ''}`);
+                hospital._marker = marker;
             });
             
-            // Update any active missions with new hospital data
-            if (this.calls && this.ui && typeof this.ui.updateMissioneInCorso === 'function') {
-                Array.from(this.calls.values()).forEach(call => {
-                    this.ui.updateMissioneInCorso(call);
-                });
-            }
-            
-            console.log(`[INFO] Caricati ${allHospitals.length} ospedali per centrale ${currentCentral}`);
-            
         } catch (e) {
-            console.error("Errore nel caricamento degli ospedali:", e);
+            console.error('Error loading hospitals:', e);
         }
     }
-
     updateActiveMissionMezzi() {
         if (!this.mezzi) return;
         this.mezzi.forEach(m => {
@@ -1242,12 +1259,10 @@ class EmergencyDispatchGame {
         });
     }
 
-    getPostazioneIcon(hasLiberi, isCreli = false) {
-        // SRL and SRP postazioni also have white background
-        // White background for Creli or any external SOREU central markers
-        const whiteBg = isCreli;
-        // any isSRL, isSRM, isSRP flags passed as isCreli parameter
-        const bg = whiteBg ? "#ffffff" : (hasLiberi ? "#43a047" : "#d32f2f");
+    getPostazioneIcon(hasLiberi, isSpecial = false) {
+        // Postazioni HEMS e di altre centrali hanno sfondo bianco
+        // Postazioni della centrale corrente: verde se ha mezzi liberi, rosso se non ne ha
+        const bg = isSpecial ? "#ffffff" : (hasLiberi ? "#43a047" : "#d32f2f");
         return L.divIcon({
             className: 'postazione-marker',
             html: `<div style="font-size:18px;background:${bg};border-radius:6px;width:24px;height:24px;display:flex;align-items:center;justify-content:center;">🏠</div>`,
@@ -1263,8 +1278,8 @@ class EmergencyDispatchGame {
         this._postazioneMarkers.forEach(m => this.map.removeLayer(m));
         this._postazioneMarkers = [];
         
-        // Get current central for filtering - Emilia-Romagna centrals
-        const currentCentral = window.selectedCentral; // Ovest, Est, Romagna
+        // Get current central for filtering
+        const currentCentral = (window.selectedCentral || '').trim();
         
         Object.values(this.postazioniMap).forEach(postazione => {
             const mezziLiberi = (this.mezzi || []).filter(m => {
@@ -1288,8 +1303,12 @@ class EmergencyDispatchGame {
             let mezziHtml = '';
             if (mezziPostazione.length > 0) {
                 mezziHtml = mezziPostazione.map(m => {
-                    // Aggiungi prefisso centrale se il mezzo appartiene a centrale diversa
-                    const mezzoPrefix = (m.central !== currentCentral) ? `${m.central}_` : '';
+                    // Aggiungi prefisso provincia se il mezzo appartiene a centrale diversa
+                    const sel = window.selectedCentral;
+                    const codiceCentrale = (this.centrali[m.central]?.codice || m.central) || '';
+                    const mezzoPrefix = (m.central !== sel && codiceCentrale)
+                        ? (m.nome_radio.startsWith(codiceCentrale + '_') ? '' : `${codiceCentrale}_`)
+                        : '';
                     return `<div data-mezzo-id="${m.nome_radio}">
                         <b>${mezzoPrefix}${m.nome_radio}</b>
                         <span style="color:#555;">(${m.tipo_mezzo || '-'}</span>
@@ -1301,7 +1320,9 @@ class EmergencyDispatchGame {
             }
             
             // Determina se la postazione appartiene a una centrale diversa da quella corrente
-            const currentCentralFlag = 'is' + currentCentral; // es: isOvest, isEst, isRomagna
+            // usando le flag come in Lombardia
+            const sel = window.selectedCentral;
+            const currentCentralFlag = 'is' + sel; // es: isBelluno, isPadova
             const belongsToCurrentCentral = postazione[currentCentralFlag] === true;
             const isSpecial = postazione.isHems || !belongsToCurrentCentral;
             
@@ -1329,8 +1350,12 @@ class EmergencyDispatchGame {
                 let mezziHtmlNow = '';
                 if (mezziPostazioneNow.length > 0) {
                     mezziHtmlNow = mezziPostazioneNow.map(m => {
-                        // Aggiungi prefisso centrale se il mezzo appartiene a centrale diversa
-                        const mezzoPrefix = (m.central !== currentCentral) ? `${m.central}_` : '';
+                        // Aggiungi prefisso provincia se il mezzo appartiene a centrale diversa
+                        const selNow = window.selectedCentral;
+                        const codiceCentrale = (this.centrali[m.central]?.codice || m.central) || '';
+                        const mezzoPrefix = (m.central !== selNow && codiceCentrale)
+                            ? (m.nome_radio.startsWith(codiceCentrale + '_') ? '' : `${codiceCentrale}_`)
+                            : '';
                         return `<div data-mezzo-id="${m.nome_radio}">
                             <b>${mezzoPrefix}${m.nome_radio}</b>
                             <span style="color:#555;">(${m.tipo_mezzo || '-'}</span>
@@ -1345,16 +1370,255 @@ class EmergencyDispatchGame {
                     `<div style="font-weight:bold;font-size:15px;">${postazione.nome}</div>${mezziHtmlNow}`
                 );
                 
-                // Set correct marker color based on current state
-                const currentCentralFlagUpdate = 'is' + currentCentral;
-                const belongsToCurrentCentralUpdate = postazione[currentCentralFlagUpdate] === true;
-                const isSpecialUpdate = postazione.isHems || !belongsToCurrentCentralUpdate;
-                
-                marker.setIcon(this.getPostazioneIcon(hasLiberiNow, isSpecialUpdate));
+                // Ricalcola lo stato per l'aggiornamento usando la stessa logica
+                const selNow = window.selectedCentral;
+                const currentCentralFlagNow = 'is' + selNow;
+                const belongsToCurrentCentralNow = postazione[currentCentralFlagNow] === true;
+                const isSpecialNow = postazione.isHems || !belongsToCurrentCentralNow;
+                marker.setIcon(this.getPostazioneIcon(hasLiberiNow, isSpecialNow));
             });
             
             this._postazioneMarkers.push(marker);
         });
+    }
+
+    updateDettLuogo(luogo) {
+        const dettLuogoSelect = document.getElementById('dett-luogo');
+        if (!dettLuogoSelect) return;
+        
+        // Salva il valore corrente prima di cancellare
+        const currentValue = dettLuogoSelect.value;
+        
+        dettLuogoSelect.innerHTML = '';
+        let opzioni = [];
+        
+        switch(luogo) {
+            case 'CASA':
+                opzioni = ['ABITAZIONE PRIVATA', 'CONDOMINIO'];
+                break;
+            case 'STR. SANITARIA':
+                opzioni = ['OSPEDALE', 'RSA/RSD','GUARDIA MEDICA', 'CENTRO ACCOGLIENZA','ALTRA STR. SANITARIA'];
+                break;
+            case 'STRADA':
+                opzioni = ['INCROCIO','PIAZZA','URBANA','PROVINCIALE/STATALE','AUTOSTRADA','PONTE/VIADOTTO','GALLERIA','MARCIAPIEDE','CICLABILE'];
+                break;
+            case 'UFFICI ED ES. PUBBL.':
+                opzioni = ['ALBERGO','BAR/RISTORANTI','NEGOZIO','UFFICI','POSTA','PARCO/GIARDINI PUBBLICI','PARCO DIVERTIMENTI','CENTRO COMMERCIALE','SUPERMERCATO','CAMPEGGIO','CINEMA/TEATRO','DISCOTECA'];
+                break;
+            case 'IMPIANTO SPORTIVO':
+                opzioni = ['STADIO','CENTRO SPORTIVO','PISCINA','PALESTRA','MANEGGIO','IMPIANTO SCIISTICO'];
+                break;
+            case 'IMPIANTO LAVORATIVO':
+                opzioni = ['FABBRICA','CANTIERE','CAPANNONE','FABBRICA SOSTANZE PERICOLOSE'];
+                break;
+            case 'SCUOLE':
+                opzioni = ['ASILO','SCUOLE ELEMENTARI','SCUOLE MEDIE','SCUOLE SUPERIORI','UNIVERSITA'];
+                break;
+            case 'STAZIONE':
+                opzioni = ['STAZIONE FERROVIARIA','STAZIONE METROPOLITANA', 'STAZIONE AUTOBUS'];
+                break;
+            case 'FERROVIA':
+                opzioni = ['LINEA FERROVIARIA','GALLERIA FERROVIARIA','PASSAGGIO LIVELLO','PONTE/ VIADOTTO FERROVIARIO'];
+                break;
+            case 'METROPOLITANA':
+                opzioni = ['LINEA METROPOLITANA','GALLERIA METROPOLITANA'];
+                break;
+            case 'AEREOPORTI':
+                opzioni = ['AEREOSUPERFICIE','AEREOPORTO','PUNTO DI PRIMO INTERVENTO AEROPORTUALE'];
+                break;
+            case 'QUESTURA/CASERME':
+                opzioni = ['RIFERIMENTO FF.OO.','RIFERIMENTO VV.FF', 'COMANDO POLIZIA LOCALE','QUESTURA','POLIZIA DI STATO','CASERMA CARABINIERI', 'CASERMA VVF','CASA CIRCONDARIALE'];
+                break;
+            case 'LUOGHI DI CULTO':
+                opzioni = ['CHIESA','ALTRO LUOGO DI CULTO','CIMITERO'];
+                break;
+            case 'IMPERVIO':
+                opzioni = ['RIFUGIO MONTANO','CORSO ACQUA','LAGO','BOSCO/FORESTA','SENTIERO','MONTAGNA','FORRA/GROTTA'];
+                break;
+            case 'ALTRO LUOGO':
+                opzioni = ['ALTRO'];
+                break;
+        }
+        
+        // Recupera il call object per gestire il salvataggio
+        const popup = document.getElementById('popupMissione');
+        const callId = popup?.getAttribute('data-call-id');
+        const call = callId ? this.calls.get(callId) : null;
+        
+        opzioni.forEach(opt => {
+            const option = document.createElement('option');
+            option.value = opt;
+            option.textContent = opt;
+            // Ripristina il valore salvato se corrisponde
+            option.selected = call && call.dettLuogo === opt;
+            dettLuogoSelect.appendChild(option);
+        });
+        
+        // Aggiungi listener per salvare automaticamente
+        dettLuogoSelect.onchange = () => {
+            if (call) {
+                call.dettLuogo = dettLuogoSelect.value; // Salva automaticamente
+            }
+        };
+    }
+
+    updateDettMotivo(motivo) {
+        const dettMotivoSelect = document.getElementById('dett-motivo');
+        if (!dettMotivoSelect) return;
+        
+        dettMotivoSelect.innerHTML = '';
+        let opzioni = [];
+        
+        switch(motivo) {
+            case 'MEDICO ACUTO':
+                opzioni = ['CARDIOCIRCOLATORIA','RESPIRATORIA','DIGERENTE','NEUROLOGICA','METABOLICA','NEOPLASTICA','URO-GENITALE','PSICHIATRICA','GRAVIDANZA/PARTO','OSTEO MUSCOLARE','ORECCHIO/NASO/GOLA', 'OCULISTICA', 'CUTE/TESS.CONNETTIVO','INFETTIVA', 'NON NOTO'];
+                break;
+            case 'INCIDENTE/INFORTUNIO':
+                opzioni = ['FERITA LACERO CONTUSA','FOLGORATO','USTIONI','AMPUTAZIONE','SCONTRO DI GIOCO','SCHIACCIAMENTO'];
+                break;
+            case 'SOCCORSO PERSONA':
+                opzioni = ['IMPICCAMENTO','TENTATO SUICIDIO','INC. DOMESTICO','APERTURA APPARTAMENTO','INCENDIO','ANNEGAMENTO','RICERCA DISPERSO','ASSISTENZA FFO', 'ASSISTENZA VVF'];
+                break;
+            case 'CADUTA':
+                opzioni = ['CADUTA SUOLO','CADUTA DA SCALA','CADUTA DA BICI','CADUTA DA MOTO','CADUTA DA CAVALLO','PRECIPITATO'];
+                break;
+            case 'EVENTO VIOLENTO':
+                opzioni = ['RISSA','AGGRESSIONE','FERITA','FERITA ARMA BIANCA','FERITA ARMA DA FUOCO', 'ASSISTENZA FFO'];
+                break;
+            case 'INC. STRADALE':
+                opzioni = ['INVESTIMENTO PEDONE','INVESTIMENTO CICLISTA','SCONTRO BICICLETTE','RIBALTAMENTO','SBALZATO/PROIETTATO','FUORI STRADA','CONTRO OSTACOLO','MOTO/MOTO','MOTO/AUTO','AUTO/AUTO','MOTO/MEZZO PESANTE','AUTO/MEZZO PESANTE','MEZZO PESANTE/MEZZO PESANTE', 'PIU VEICOLI','INCASTRATO', 'INCARCERATO', 'ARROTAMENTO PERSONA','MICROMOB. ELETTRICA', 'DINAMICA NON NOTA'];
+                break;
+            case 'INC. FERROVIA':
+                opzioni = ['ARROTAMENTO PERSONA', 'ALTRO INC. FERROVIARIO'];
+                break;
+            case 'INC. ACQUA':
+                opzioni = ['IMBARCAZIONE', 'ANNEGAMENTO PERSONA', 'SOCCORSO A PERSONA'];
+                break;
+            case 'INC. ARIA':
+                opzioni = ['AEROMOBILE'];
+                break;
+            case 'INC. MONTANO':
+            case 'INC. SPELEO/FORRA':
+                opzioni = ['INCRODATO', 'SOCCORSO A PERSONA', 'RICERCA DISPERSO', 'ALTRO'];
+                break;
+            case 'INTOSSICAZIONE':
+                opzioni = ['ALIMENTARE','FARMACI','SOSTANZE PERICOLOSE', 'ETILICA', 'ALTRA SOSTANZA PERICOLOSA'];
+                break;
+            case 'ANIMALI':
+                opzioni = ['PUNTURA ANIMALE','MORSO ANIMALE', 'MORSO DI VIPERA'];
+                break;
+            case 'PREVENZIONE':
+            case 'EVENTO DI MASSA':
+            case 'MAXI EMERGENZA':
+                opzioni = ['ESPLOSIONE','SCOPPIO','CROLLO','ESONDAZIONE','FRANA/VALANGA','NUBIFRAGIO','TERREMOTO','TROMBA D ARIA','FUGA GAS/ SOST. PERICOLOSE','INC. NUCLEARE','NUBE TOSSICA'];
+                break;
+            case 'SOCCORSO SECONDARIO':
+                opzioni = ['SOCCORSO SECONDARIO', 'TRASPORTO INTRAOSPEDALIERO', 'TRASPORTO EQUIPE ELI', 'TRASPORTO ORGANI', 'TRASPORTO EQUIPE TRAPIANTI'];
+                break;
+            case 'ALTRO/NON NOTO':
+                opzioni = ['PZ GRANDE OBESO','ALTRO', 'NON INDENTIFICATO'];
+                break;
+        }
+        
+        // Recupera il call object per gestire il salvataggio
+        const popup = document.getElementById('popupMissione');
+        const callId = popup?.getAttribute('data-call-id');
+        const call = callId ? this.calls.get(callId) : null;
+        
+        opzioni.forEach(opt => {
+            const option = document.createElement('option');
+            option.value = opt;
+            option.textContent = opt;
+            // Ripristina il valore salvato se corrisponde
+            option.selected = call && call.dettMotivo === opt;
+            dettMotivoSelect.appendChild(option);
+        });
+        
+        // Aggiungi listener per salvare automaticamente
+        dettMotivoSelect.onchange = () => {
+            if (call) {
+                call.dettMotivo = dettMotivoSelect.value; // Salva automaticamente
+            }
+        };
+    }
+
+    updateNoteEvento2(noteEvento) {
+        const noteEvento2Select = document.getElementById('note-evento2');
+        if (!noteEvento2Select) return;
+        
+        noteEvento2Select.innerHTML = '';
+        let opzioni = [];
+        
+        switch(noteEvento) {
+            case 'CARDIOCIRCOLATORIO':
+                opzioni = ['ACC','RCP IN CORSO','CARDIOPALMO','CARDIOPATICO','IPERTESO','IPOTESO','CARDIOPATICO IPERTESO','PREGRESSO IMA'];
+                break;
+            case 'RESPIRATORIA':
+                opzioni = ['NORMALE','A FATICA','TOSSE', 'BPCO', 'NON NOTO'];
+                break;
+            case 'RESPIRA':
+                opzioni = ['NORMALE','A FATICA','TOSSE', 'BPCO', 'NON NOTO'];
+                break;
+            case 'DOLORE':
+                opzioni = ['TESTA VOLTO','OCCHI','BOCCA','TORACE','TORACE/EPIGASTRICO/MANDIBOLA','ARTO SUP.','SPALLA','MANO','ADDOME','BACINO','SCHIENA','APPARATO GENITALE','ARTO INF.','PIEDE','SANGUINA','EPISTASSI'];
+                break;
+            case 'DEFORMITA':
+                opzioni = ['TESTA VOLTO','OCCHI','BOCCA','TORACE','ARTO SUP.','SPALLA','MANO','ADDOME','BACINO','SCHIENA','APPARATO GENITALE','ARTO INF.','PIEDE','SANGUINA','EPISTASSI'];
+                break;
+            case 'DISTRETTO TRAUMA':
+                opzioni = ['TESTA VOLTO','OCCHI','BOCCA','TORACE','ARTO SUP.','SPALLA','MANO','ADDOME','BACINO','SCHIENA','APPARATO GENITALE','ARTO INF.','PIEDE','SANGUINA','EPISTASSI'];
+                break;
+            case 'EDEMA':
+                opzioni = ['TESTA VOLTO','OCCHI','BOCCA','TORACE','ARTO SUP.','SPALLA','MANO','ADDOME','BACINO','SCHIENA','APPARATO GENITALE','ARTO INF.','PIEDE'];
+                break;
+            case 'SANGUINA':
+                opzioni = ['EPISTASSI','FERITA/LACERAZIONE','FERITA ARMA DA FUOCO','FERITA ARMA BIANCA', 'TESTA VOLTO','BOCCA','TORACE/EPIGASTRICO/MANDIBOLA','TORACE','ARTO SUP.','SPALLA','MANO','ADDOME','BACINO','SCHIENA','APPARATO GENITALE','ARTO INF.','PIEDE'];
+                break;
+            case 'CUTE':
+                opzioni = ['NORMALE','CIANOTICA','ARROSSATA','SUDATA','PALLIDO','PALLIDO + SUDATO','USTIONE'];
+                break;
+            case 'CPSS':
+                opzioni = ['POSITIVA','NEGATIVA','PREGRESSO ICTUS', 'NON NOTO'];
+                break;
+            case 'CONVULSIONI':
+                opzioni = ['EPILETTICO NOTO','MORSUS','IPO/IPERGLICEMIA', 'NON NOTO'];
+                break;
+            case 'DIABETICO':
+                opzioni = ['IPO/IPERGLICEMIA','INSULINO DIPENDENTE', 'NON NOTO'];
+                break;
+            case 'ALTRI SEGNI':
+                opzioni = ['ASTENIA','FEBBRE','TOSSE + FEBBRE','VOMITA','DIARREA','DIARREA E VOMITO','SPOSIZIONAMENTO CATETERE','NO/NON NOTO'];
+                break;
+            case 'TRAVAGLIO':
+                opzioni = ['CONTRAZIONI','ROTTURA DELLE ACQUE','ESPULSIONE','SECONDAMENTO'];
+                break;
+            case 'PSICHIATRICO NOTO':
+                opzioni = ['ASO/TSO','AGITATO', 'NON NOTO'];
+                break;
+            default:
+                opzioni = ['NO/NON NOTO'];
+        }
+        
+        // Recupera il call object per gestire il salvataggio
+        const popup = document.getElementById('popupMissione');
+        const callId = popup?.getAttribute('data-call-id');
+        const call = callId ? this.calls.get(callId) : null;
+        
+        opzioni.forEach(opt => {
+            const option = document.createElement('option');
+            option.value = opt;
+            option.textContent = opt;
+            // Ripristina il valore salvato se corrisponde
+            option.selected = call && call.noteEvento2 === opt;
+            noteEvento2Select.appendChild(option);
+        });
+        
+        // Aggiungi listener per salvare automaticamente
+        noteEvento2Select.onchange = () => {
+            if (call) {
+                call.noteEvento2 = noteEvento2Select.value; // Salva automaticamente
+            }
+        };
     }
 
     updateMezzoMarkers() {
@@ -1366,24 +1630,30 @@ class EmergencyDispatchGame {
             }
         });
         this.mezzi.forEach(m => {
-            // Filter out SRA <-> SRM vehicles not belonging to current view
+            // Per Calabria non filtriamo per centrale - tutte le centrali vedono tutti i mezzi
             const currentCentral = (window.selectedCentral||'').trim().toUpperCase();
             const vehicleCentral = (m.central||'').trim().toUpperCase();
-            if ((currentCentral === 'SRA' && vehicleCentral === 'SRM') ||
-                (currentCentral === 'SRM' && vehicleCentral === 'SRA')) return;            // Never show markers for vehicles in state 3 (sul posto)
+            
+            // Never show markers for vehicles in state 3 (sul posto)
             if (m.stato === 3) return;
             // Show markers only for movement states 2, 4 and 7
             if (![2, 4, 7].includes(m.stato)) return;
             
-            // Determine icon based on vehicle type (secondo le specifiche Emilia-Romagna)
-            let iconUrl = 'src/assets/MSB.png'; // Default icon per MSB, MSI, MSA
-            
-            if (m.tipo_mezzo === 'ELI') {
+            // Determine icon based on vehicle type (Emilia Romagna mapping)
+            // Rules requested:
+            // msb, msi, msa -> MSB.png
+            // ils, als -> MSA.png
+            // vlv -> MSA.png
+            // eli -> ELI.png
+            let iconUrl = 'src/assets/MSB.png'; // Default icon
+            const tipo = (m.tipo_mezzo || '').toUpperCase();
+            if (tipo.includes('ELI')) {
                 iconUrl = 'src/assets/ELI.png';
-            } else if (m.tipo_mezzo === 'ILS' || m.tipo_mezzo === 'ALS') {
-                iconUrl = 'src/assets/MSA.png'; // Auto (ILS, ALS) usano MSA.png
-            } else {
-                iconUrl = 'src/assets/MSB.png'; // MSB, MSI, MSA usano MSB.png
+            } else if (tipo.startsWith('VLV') || tipo === 'ILS' || tipo === 'ALS') {
+                iconUrl = 'src/assets/MSA.png';
+            } else if (tipo.startsWith('MSI') || tipo.startsWith('MSA') || tipo.startsWith('MSB') || tipo === 'MSI' || tipo === 'MSA' || tipo === 'MSB') {
+                // Map all MSA/MSI/MSB variants to MSB.png as requested
+                iconUrl = 'src/assets/MSB.png';
             }
             
             // Create the icon
@@ -1395,9 +1665,9 @@ class EmergencyDispatchGame {
             });
             
             // Compute displayName with prefix when vehicle from another central
-            const prefixMap = { SRA:['SRL','SRP'], SRL:['SRA','SRM','SRP'], SRM:['SRL','SRP'], SRP:['SRA','SRL','SRM'] };
             let markerName = m.nome_radio;
-            if (vehicleCentral && prefixMap[currentCentral]?.includes(vehicleCentral)) {
+            // Per Calabria: mostra prefisso solo se il mezzo è dell'altra centrale
+            if (vehicleCentral && vehicleCentral !== currentCentral && (vehicleCentral === 'NORD' || vehicleCentral === 'SUD')) {
                 markerName = `(${vehicleCentral}) ${m.nome_radio}`;
             }
             // Get stato description
@@ -1588,11 +1858,8 @@ class EmergencyDispatchGame {
         const motivi = ['MEDICO ACUTO','SOCCORSO PERSONA','CADUTA','INCIDENTE/INFORTUNIO','INC. STRADALE'];
         const motivo = motivi[Math.floor(Math.random() * motivi.length)];
         
-        const coscienze = ['RISPONDE','ALTERATA','NON RISPONDE','INCOSCIENTE','NON NOTO'];
-        const coscienza = coscienze[Math.floor(Math.random() * coscienze.length)];
-
         // ensure codice list from loaded statiMezzi
-        const codici = this.statiMezzi ? Object.keys(this.statiMezzi) : ['R  - ROSSO','G  - GIALLO','V  - VERDE'];
+        const codici = this.statiMezzi ? Object.keys(this.statiMezzi) : ['Rosso','Giallo','Verde'];
         const codice = codici[Math.floor(Math.random() * codici.length)];
 
 
@@ -1600,8 +1867,8 @@ class EmergencyDispatchGame {
         const year = now.getFullYear();
         const decina = Math.floor((year % 100) / 10);
         const unita = year % 10;
-        const central = window.selectedCentral || 'SRA';
-        const codeMap = { SRA: 1, SRL: 3, SRM: 5, SRP: 7 };
+        const central = window.selectedCentral || 'NORD';
+        const codeMap = { NORD: 1, SUD: 3 };
         const code = codeMap[central] || 1;
         // incrementa contatore progressivo per central
         this.missionCounter[central] = (this.missionCounter[central] || 0) + 1;
@@ -1621,7 +1888,6 @@ class EmergencyDispatchGame {
             simText: testo_chiamata,
             luogo,
             motivo,
-            coscienza,
             codice,
             mezziAssegnati: [],
             selectedChiamata: chiamataTemplate,
@@ -1703,9 +1969,8 @@ class EmergencyDispatchGame {
             const mm = Math.floor((sec % 3600) / 60);
             const orario = `${String(hh).padStart(2,'0')}:${String(mm).padStart(2,'0')}`;
             const raw = mezzi.filter(m => [1,2].includes(m.stato) && isMezzoOperativo(m, orario));
-            const mezziFiltrati = Array.from(
-                new Map(raw.map(m => [m.nome_radio.trim(), m])).values()
-            );
+            // SENZA deduplicazione - mezzi con stesso nome ma prefissi diversi sono mezzi diversi
+            const mezziFiltrati = raw;
             let html = `<table class='stato-mezzi-table'>
                 <thead><tr>
                     <th>Nome</th>
@@ -1819,9 +2084,10 @@ class EmergencyDispatchGame {
                 newLuogoSelect.appendChild(option);
             });
             
-            // Event listener per salvare automaticamente - UNA SOLA VOLTA
+            // Event listener per aggiornare Dett. Luogo e salvare automaticamente - UNA SOLA VOLTA
             newLuogoSelect.addEventListener('change', () => {
                 call.luogo = newLuogoSelect.value; // Salva automaticamente
+                // this.updateDettLuogo(newLuogoSelect.value); // Commentato: campo dett-luogo rimosso dal popup
             });
         }
         
@@ -1837,7 +2103,7 @@ class EmergencyDispatchGame {
             // Aggiungi opzione vuota come prima opzione
             const emptyOption = document.createElement('option');
             emptyOption.value = '';
-            emptyOption.textContent = '-- Seleziona patologia --';
+            emptyOption.textContent = '-- Seleziona motivo --';
             emptyOption.selected = !call.motivo; // Seleziona solo se non c'è valore salvato
             newMotivoSelect.appendChild(emptyOption);
             
@@ -1850,15 +2116,27 @@ class EmergencyDispatchGame {
                 newMotivoSelect.appendChild(option);
             });
             
-            // Event listener per salvare automaticamente - UNA SOLA VOLTA
+            // Event listener per aggiornare Dett. Motivo e salvare automaticamente - UNA SOLA VOLTA
             newMotivoSelect.addEventListener('change', () => {
                 call.motivo = newMotivoSelect.value; // Salva automaticamente
+                this.updateDettMotivo(newMotivoSelect.value);
             });
         }
         
         // Lascia vuoto il campo Dett. Motivo inizialmente
         
-        // Note evento ora è un campo libero textarea
+        const noteEventoInput = document.getElementById('note-evento');
+        if (noteEventoInput) {
+            noteEventoInput.value = ''; // Sempre vuoto per ogni nuova missione
+            // Aggiungi listener per salvare automaticamente
+            noteEventoInput.addEventListener('input', () => {
+                call.noteEvento = noteEventoInput.value; // Salva automaticamente
+            });
+        }
+        
+        // Lascia vuoto il campo Note evento 2 inizialmente
+        
+        const noteEvento2Select = document.getElementById('note-evento2');
         
         const codiceSelect = document.getElementById('codice');
         if (codiceSelect) {
@@ -1874,7 +2152,7 @@ class EmergencyDispatchGame {
             emptyOption.selected = !call.codice; // Seleziona solo se non c'è valore salvato
             newCodiceSelect.appendChild(emptyOption);
             
-            ['ACC- BLU','R  - ROSSO','GU - GIALLO URGENTE','G  - GIALLO','V  - VERDE','B  - BIANCO'].forEach(opt => {
+            ['A - BLU/ACC','R - ROSSO','GU - GIALLO URGENTE','G - GIALLO','V - VERDE','B - BIANCO'].forEach(opt => {
                 const option = document.createElement('option');
                 option.value = opt;
                 option.textContent = opt;
@@ -1885,6 +2163,17 @@ class EmergencyDispatchGame {
             // Aggiungi listener UNA SOLA VOLTA
             newCodiceSelect.addEventListener('change', () => {
                 call.codice = newCodiceSelect.value; // Salva automaticamente
+                
+                // Aggiorna selectedCase in base al codice selezionato
+                const codiceValue = newCodiceSelect.value.split(' - ')[0]; // Estrai solo la parte prima del trattino
+                if (codiceValue === 'R') {
+                    call.selectedCase = 'caso_critico';
+                } else if (codiceValue === 'GU' || codiceValue === 'G') {
+                    call.selectedCase = 'caso_poco_stabile';
+                } else {
+                    call.selectedCase = 'caso_stabile';
+                }
+                console.log('[DEBUG] Codice cambiato a:', codiceValue, '-> selectedCase aggiornato a:', call.selectedCase);
             });
         }
         const note1 = document.getElementById('altro-evento');
@@ -1895,22 +2184,30 @@ class EmergencyDispatchGame {
                 call.altroEvento = note1.value; // Salva automaticamente
             });
         }
+        const note2 = document.getElementById('note2');
+        if (note2) {
+            note2.value = call.note2 || '';
+            // Aggiungi listener per salvare automaticamente
+            note2.addEventListener('input', () => {
+                call.note2 = note2.value; // Salva automaticamente
+            });
+        }
 
         // Popola i campi dipendenti se ci sono valori salvati
         if (call.luogo) {
-            // Non aggiorniamo più dett-luogo perché rimosso
+            // this.updateDettLuogo(call.luogo); // Commentato: campo dett-luogo rimosso dal popup
         }
         if (call.motivo) {
-            // Non aggiorniamo più dett-motivo perché rimosso
+            // this.updateDettMotivo(call.motivo); // Commentato: campo rimosso dal popup
         }
         if (call.noteEvento) {
-            // Note evento ora è un campo libero, impostato direttamente
+            // this.updateNoteEvento2(call.noteEvento); // Commentato: campo rimosso dal popup
         }
 
         const btnsRapidi = [
             {tipo:'MSB', label:'MSB'},
-            {tipo:'MSI', label:'MSI/ILS'},
-            {tipo:'MSA', label:'MSA/ALS'},
+            {tipo:'MSI,ILS', label:'MSI/ILS'},
+            {tipo:'MSA,ALS', label:'MSA/ALS'},
             {tipo:'ELI', label:'ELI'}
         ];
         const btnsRapidiDiv = document.getElementById('btnsRapidiMezzi');
@@ -1920,13 +2217,8 @@ class EmergencyDispatchGame {
             ).join('');
         }
 
-        // Mostra mezzi in stato 1, 2, 6, 7 oppure già assegnati, quindi deduplica per nome_radio
-        const rawMezziFiltrati = mezzi.filter(m => [1,2,6,7].includes(m.stato) || (call.mezziAssegnati||[]).includes(m.nome_radio));
-        const mezziFiltrati = Array.from(
-            new Map(
-                rawMezziFiltrati.map(m => [m.nome_radio.trim(), m])
-            ).values()
-        );
+        // Mostra mezzi in stato 1, 2, 6, 7 oppure già assegnati - SENZA deduplicazione perché sono mezzi diversi
+        const mezziFiltrati = mezzi.filter(m => [1,2,6,7].includes(m.stato) || (call.mezziAssegnati||[]).includes(m.nome_radio));
         let html = `<table class='stato-mezzi-table' style='width:100%;margin-bottom:0;'>
             <thead><tr>
                 <th style='width:38%;text-align:left; padding:1px 2px;'>Nome</th>
@@ -1953,14 +2245,9 @@ class EmergencyDispatchGame {
             const checked = (call.mezziAssegnati||[]).includes(m.nome_radio) ? 'checked' : '';
             // Disable checkbox if vehicle is not in allowed states
             const disabledAttr = ![1,2,7].includes(m.stato) ? 'disabled' : '';
-            // Compute displayName with prefix for vehicles from other centrals
-            const currentCentral = (window.selectedCentral||'').trim().toUpperCase();
-            const vehicleCentral = (m.central||'').trim().toUpperCase();
-            const prefixMap = { SRA:['SRL','SRP'], SRL:['SRA','SRM','SRP'], SRM:['SRL','SRP'], SRP:['SRA','SRL','SRM'] };
+            // Compute displayName - se il mezzo ha già il prefisso provincia, lo mostra così com'è
             let displayName = m.nome_radio;
-            if (vehicleCentral && prefixMap[currentCentral]?.includes(vehicleCentral)) {
-                displayName = `(${vehicleCentral}) ${m.nome_radio}`;
-            }
+            // I mezzi con prefisso provincia sono già stati processati durante il caricamento
             // Compute distance display for each mezzo
             const distanza = (m._dist !== undefined && isFinite(m._dist))
                 ? `${m._dist.toFixed(1)} km`
@@ -1989,16 +2276,14 @@ class EmergencyDispatchGame {
                     const checkboxes = Array.from(document.querySelectorAll('#mezziAssegnatiScroll input[type=checkbox]'));
                     // Consider only vehicles in state 1, 2 or 7
                     let mezziTipo;
-                    if (tipo === 'MSB') {
-                        mezziTipo = mezziFiltrati.filter(m => m.tipo_mezzo === 'MSB' && [1,7].includes(m.stato));
-                    } else if (tipo === 'MSI') {
-                        mezziTipo = mezziFiltrati.filter(m => (m.tipo_mezzo === 'MSI' || m.tipo_mezzo === 'ILS') && [1,7].includes(m.stato));
-                    } else if (tipo === 'MSA') {
-                        mezziTipo = mezziFiltrati.filter(m => (m.tipo_mezzo === 'MSA' || m.tipo_mezzo === 'ALS') && [1,7].includes(m.stato));
-                    } else if (tipo === 'ELI') {
-                        mezziTipo = mezziFiltrati.filter(m => m.tipo_mezzo === 'ELI' && [1,7].includes(m.stato));
+                    if (tipo === 'MSI,ILS') {
+                        // Per MSI/ILS cerchiamo sia MSI che ILS
+                        mezziTipo = mezziFiltrati.filter(m => m.tipo_mezzo && (m.tipo_mezzo === 'MSI' || m.tipo_mezzo === 'ILS') && [1,7].includes(m.stato));
+                    } else if (tipo === 'MSA,ALS') {
+                        // Per MSA/ALS cerchiamo sia MSA che ALS
+                        mezziTipo = mezziFiltrati.filter(m => m.tipo_mezzo && (m.tipo_mezzo === 'MSA' || m.tipo_mezzo === 'ALS') && [1,7].includes(m.stato));
                     } else {
-                        mezziTipo = mezziFiltrati.filter(m => m.tipo_mezzo === tipo && [1,7].includes(m.stato));
+                        mezziTipo = mezziFiltrati.filter(m => m.tipo_mezzo && m.tipo_mezzo.startsWith(tipo) && [1,7].includes(m.stato));
                     }
                     for (const m of mezziTipo) {
                         const cb = checkboxes.find(c => c.value === m.nome_radio);
@@ -2031,15 +2316,33 @@ class EmergencyDispatchGame {
         }
         if (!call) return;
         const luogo = document.getElementById('luogo')?.value || '';
+        const dettLuogo = document.getElementById('dett-luogo')?.value || '';
         const motivo = document.getElementById('motivo')?.value || '';
+        const dettMotivo = document.getElementById('dett-motivo')?.value || '';
+        const noteEvento = document.getElementById('note-evento')?.value || '';
+        const noteEvento2 = document.getElementById('note-evento2')?.value || '';
         const altroEvento = document.getElementById('altro-evento')?.value || '';
         const codice = document.getElementById('codice')?.value || '';
         
         call.luogo = luogo;
+        call.dettLuogo = dettLuogo;
         call.motivo = motivo;
-        call.noteEvento = altroEvento; // Il campo libero diventa note evento
+        call.dettMotivo = dettMotivo;
+        call.noteEvento = noteEvento;
+        call.noteEvento2 = noteEvento2;
         call.altroEvento = altroEvento;
         call.codice = codice;
+        
+        // Aggiorna selectedCase in base al codice selezionato
+        const codiceValue = codice.split(' - ')[0]; // Estrai solo la parte prima del trattino
+        if (codiceValue === 'R') {
+            call.selectedCase = 'caso_critico';
+        } else if (codiceValue === 'GU' || codiceValue === 'G') {
+            call.selectedCase = 'caso_poco_stabile';
+        } else {
+            call.selectedCase = 'caso_stabile';
+        }
+        console.log('[DEBUG] Codice confermato:', codiceValue, '-> selectedCase aggiornato a:', call.selectedCase);
         // Query robusta per i mezzi selezionati
         const mezziChecked = Array.from(document.querySelectorAll('#popupMissione input[type=checkbox][name=mezzi]:checked')).map(cb => cb.value);
         
@@ -2124,12 +2427,6 @@ class EmergencyDispatchGame {
                     m._reportProntoInviato = false;
                     m._timerReportPronto = null;
                     m._menuOspedaliShown = false;
-                    // Pulisci anche il timer del report pronto se presente
-                    if (m._timerReportPronto) {
-                        console.log(`[DEBUG] Cancellazione timer report per ${m.nome_radio} (riassegnazione)`);
-                        clearTimeout(m._timerReportPronto);
-                        m._timerReportPronto = null;
-                    }
                     // Pulizia comunicazioni e reset trasporto
                     m.comunicazioni = [];
                     m._trasportoConfermato = false;
@@ -2339,6 +2636,42 @@ class EmergencyDispatchGame {
 // Esporta la classe EmergencyDispatchGame globalmente
 window.EmergencyDispatchGame = EmergencyDispatchGame;
 
+// Fallback prototype method: ensure instances have confirmCall to read the popup fields
+if (typeof EmergencyDispatchGame !== 'undefined' && !EmergencyDispatchGame.prototype.confirmCall) {
+    EmergencyDispatchGame.prototype.confirmCall = function() {
+        try {
+            const popup = document.getElementById('popupMissione');
+            const callId = popup?.getAttribute('data-call-id');
+            const call = callId && this.calls ? this.calls.get(callId) : null;
+            if (!call) return;
+
+            const codice = document.getElementById('codice')?.value || '';
+            const luogo = document.getElementById('luogo')?.value || '';
+            const patologia = document.getElementById('patologia')?.value || '';
+            const noteEvento = document.getElementById('note-evento')?.value || '';
+            const vvf = !!document.getElementById('check-vvf')?.checked;
+            const ffo = !!document.getElementById('check-ffo')?.checked;
+
+            call.codice = (codice || '').toUpperCase();
+            call.luogo = luogo;
+            call.patologia = patologia;
+            call.noteEvento = noteEvento;
+            call.vvfAllertati = vvf;
+            call.ffoAllertate = ffo;
+
+            const mezziChecked = Array.from(document.querySelectorAll('#popupMissione input[type=checkbox][name=mezzi]:checked')).map(cb => cb.value);
+            if (mezziChecked.length) call.mezziAssegnati = mezziChecked;
+
+            if (this.ui && typeof this.ui.updateMissioneInCorso === 'function') {
+                this.ui.updateMissioneInCorso(call);
+            }
+            if (popup) popup.classList.add('hidden');
+        } catch (e) {
+            console.error('Veneto confirmCall fallback error:', e);
+        }
+    };
+}
+
 // Esportazione della classe EmergencyDispatchGame
 if (typeof window !== 'undefined') {
     // Non ridefinire la classe se già presente
@@ -2406,3 +2739,48 @@ async function getVelocitaMezzo(tipoMezzo) {
 
 // Esporta la classe EmergencyDispatchGame globalmente
 window.EmergencyDispatchGame = EmergencyDispatchGame;
+
+// Fallback: ensure confirmCall exists to read the new popup fields in this region
+if (typeof EmergencyDispatchGame !== 'undefined') {
+    EmergencyDispatchGame.prototype.confirmCall = EmergencyDispatchGame.prototype.confirmCall || function () {
+        try {
+            var call = this.ui && this.ui.currentCall;
+            if (!call) {
+                console.warn('confirmCall: no current call found');
+                document.getElementById('popupMissione').style.display = 'none';
+                return;
+            }
+
+            // CODICE
+            var codice = (document.getElementById('codice') && document.getElementById('codice').value) || '';
+            call.codice = codice.toUpperCase();
+
+            // LUOGO (token)
+            var luogo = (document.getElementById('luogo') && document.getElementById('luogo').value) || '';
+            call.luogo = luogo;
+
+            // PATOLOGIA
+            var pat = (document.getElementById('patologia') && document.getElementById('patologia').value) || '';
+            call.patologia = pat;
+
+            // NOTE
+            var note = (document.getElementById('note-evento') && document.getElementById('note-evento').value) || '';
+            call.noteEvento = note;
+
+            // VVF / FFO checkboxes
+            var vvf = document.getElementById('check-vvf');
+            var ffo = document.getElementById('check-ffo');
+            if (vvf) call.vvfAllertati = !!vvf.checked;
+            if (ffo) call.ffoAllertate = !!ffo.checked;
+
+            // Update UI and close popup
+            if (this.ui && typeof this.ui.updateMissioneInCorso === 'function') {
+                this.ui.updateMissioneInCorso(call);
+            }
+            var popup = document.getElementById('popupMissione');
+            if (popup) popup.style.display = 'none';
+        } catch (e) {
+            console.error('confirmCall fallback error', e);
+        }
+    };
+}

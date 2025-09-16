@@ -1,10 +1,11 @@
+
 <!DOCTYPE html>
 <html lang="it">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Operatore 118</title>
+    <title>Operatore 118 - Emilia Romagna</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
     <link rel="icon" type="image/png" href="src/assets/logo118.png">
@@ -76,11 +77,11 @@
         <div class="central-logo">
           <img src="src/assets/logo gioco.png" alt="Logo Gioco" />
         </div>
-        <h2>Seleziona la Centrale Operativa</h2>
+        <h2>Seleziona la Centrale 118</h2>
         <select id="central-select">
-          <option value="Ovest">118 Emilia Ovest </option>
-          <option value="Est">118 Emilia Est </option>
-          <option value="Romagna">118 Romagna </option>
+          <option value="118 Emilia Ovest">118 Emilia Ovest</option>
+          <option value="118 Emilia Est">118 Emilia Est</option>
+          <option value="118 Romagna">118 Romagna</option>
         </select>
         <button id="start-central">Avvia simulazione</button>
       </div>
@@ -138,16 +139,53 @@
         </div>
         <div id="testo-chiamata-popup" style="display:none;background:#fffbe6;color:#333;padding:10px 14px 10px 38px;border-bottom:1px solid #e0c200;font-size:15px;line-height:1.4;"></div>
         <form id="missionForm" class="popup-form" autocomplete="off" style="background:#f9f9f9;">
-            <div style="margin-bottom:6px;font-size:14px;"><b>Indirizzo:</b> <span id="missione-indirizzo"></span></div>
-            <div style="display:grid;grid-template-columns:1fr 1fr;gap:6px 8px;align-items:start;">
-                <label for="codice" style="font-weight:bold;color:#003366;">Codice:</label>
-                <select id="codice" name="codice"></select>
-                <label for="luogo" style="font-weight:bold;color:#003366;">Luogo:</label>
-                <select id="luogo" name="luogo"></select>
-                <label for="motivo" style="font-weight:bold;color:#003366;">Patologia:</label>
-                <select id="motivo" name="motivo"></select>
-                <label for="altro-evento" style="font-weight:bold;color:#003366;">Note evento:</label>
-                <textarea id="altro-evento" name="altro-evento" placeholder="Campo libero" style="resize:vertical;min-height:60px;font-family:inherit;"></textarea>
+            <div style="margin-bottom:6px;font-size:14px;"><b>INDIRIZZO:</b> <span id="missione-indirizzo"></span></div>
+            <div style="display:grid;grid-template-columns:1fr 1fr;gap:6px 8px;align-items:center;">
+                <label for="codice" style="font-weight:bold;color:#003366;">CODICE:</label>
+                <select id="codice" name="codice">
+                    <option value="A">A - BLU/ACC</option>
+                    <option value="R">R - ROSSO</option>
+                    <option value="GU">GU - GIALLO URGENTE</option>
+                    <option value="G">G - GIALLO</option>
+                    <option value="V">V - VERDE</option>
+                    <option value="B">B - BIANCO</option>
+                </select>
+
+                <label for="luogo" style="font-weight:bold;color:#003366;">LUOGO:</label>
+                <select id="luogo" name="LUOGO">
+                    <option value="S">S - STRADA</option>
+                    <option value="P">P - ES. PUBBLICI</option>
+                    <option value="Y">Y - IMP. SPORTIVO</option>
+                    <option value="K">K - CASA</option>
+                    <option value="L">L - IMP. LAVORATIVO</option>
+                    <option value="Q">Q - SCUOLE</option>
+                    <option value="Z">Z - ALTRO</option>
+                </select>
+
+                <label for="patologia" style="font-weight:bold;color:#003366;">PATOLOGIA:</label>
+                <select id="patologia" name="PATOLOGIA">
+                    <option value="C01">C01 - TRAUMATICA</option>
+                    <option value="C02">C02 - CARDIO-CIRCOLATORIA</option>
+                    <option value="C03">C03 - RESPIRATORIA</option>
+                    <option value="C04">C04 - NEUROLOGICA</option>
+                    <option value="C05">C05 - PSICHIATRICA</option>
+                    <option value="C06">C06 - NEOPLASTICA</option>
+                    <option value="C07">C07 - TOSSICOLOGICA</option>
+                    <option value="C08">C08 - METABOLICA</option>
+                    <option value="C09">C09 - GASTROENTEROLOGICA</option>
+                    <option value="C10">C10 - UROLOGICA</option>
+                    <option value="C11">C11 - OCULISTICA</option>
+                    <option value="C12">C12 - OTORINOLARINGOIATRICA</option>
+                    <option value="C13">C13 - DERMATOLOGICA</option>
+                    <option value="C14">C14 - OSTETRICO - GINECOLOGICA</option>
+                    <option value="C15">C15 - INFETTIVA</option>
+                    <option value="C19">C19 - ALTRA PATOLOGIA</option>
+                    <option value="C20">C20 - NON IDENTIFICA</option>
+                    <option value="TUI">TUI - TRASFERIMENTO INTRAOSPEDALIERO URGENTE</option>
+                </select>
+
+                <label for="note-evento" style="font-weight:bold;color:#003366;">NOTE EVENTO:</label>
+                <textarea id="note-evento" name="note-evento" placeholder="NOTE EVENTO" style="width:100%;height:72px;padding:6px;border-radius:4px;"></textarea>
             </div>
             <div style="margin:4px 0; display:flex; align-items:center; gap:12px;">
                 <label for="check-vvf" style="margin:0;font-weight:bold;color:#003366;"><input type="checkbox" id="check-vvf" name="check-vvf"> Vigili del Fuoco</label>
@@ -269,22 +307,22 @@
         window.selectedCentral = document.getElementById('central-select').value;
         // Hide overlay
         document.getElementById('central-selector').style.display = 'none';
-        
-        // Update header with selected central name
+        // Aggiorna il titolo in topbar con la SOREU selezionata
         const sel = document.getElementById('central-select');
-        const headerTitle = document.querySelector('.header-title');
-        if (headerTitle) {
-            headerTitle.textContent = sel.options[sel.selectedIndex].text;
-        }
-        
-        // Update page title
-        document.title = `${sel.options[sel.selectedIndex].text} - Operatore 118`;
-        
+        const hdr = document.querySelector('.header-title');
+        if (hdr) hdr.textContent = sel.options[sel.selectedIndex].text;
         // Load corresponding indirizzi file for selected central
         try {
-            const path = `src/data/Indirizzi_${window.selectedCentral}.json`;
-            const resp = await fetch(path);
+            // Carica il file indirizzi corrispondente alla centrale selezionata
+            const centraliConfig = await fetch('src/data/centrali.json').then(r => r.json());
+            const centralData = centraliConfig[window.selectedCentral];
+            if (!centralData) {
+                throw new Error(`Centrale ${window.selectedCentral} non trovata`);
+            }
+            
+            const resp = await fetch(centralData.indirizziFile);
             const data = await resp.json();
+            
             // Costruisci mappa categorie per selezione indirizzo in generateNewCall
             window.categorieIndirizzi = {};
             data.forEach(item => {
@@ -294,8 +332,6 @@
                     window.categorieIndirizzi[key] = window.categorieIndirizzi[key] || [];
                     window.categorieIndirizzi[key].push({
                         indirizzo: item[prop],
-                        coordinate: { lat: item.lat, lon: item.lon },
-                        comune: '', // Estratto dal nome dell'indirizzo se necessario
                         lat: item.lat,
                         lon: item.lon
                     });

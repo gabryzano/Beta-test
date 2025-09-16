@@ -1,0 +1,35 @@
+{
+  "118 Emilia Ovest": {
+    "codice": "Ovest",
+    "provincia": "Parma",
+    "coordinate": "44.80148,10.32895",
+    "attiva": true,
+    "telefono": "118",
+    "indirizzo": "Via Università, 12, 43121 Parma PR",
+    "mezziFile": "src/data/Mezzi_Ovest.json",
+    "ospedaliFile": "src/data/Ospedali_Ovest.json",
+    "indirizziFile": "src/data/Indirizzi_Ovest.json"
+  },
+  "118 Emilia Est": {
+    "codice": "Est",
+    "provincia": "Bologna",
+    "coordinate": "44.49529,11.34265",
+    "attiva": true,
+    "telefono": "118",
+    "indirizzo": "Via Rizzoli, 15, 40125 Bologna BO",
+    "mezziFile": "src/data/Mezzi_Est.json",
+    "ospedaliFile": "src/data/Ospedali_Est.json",
+    "indirizziFile": "src/data/Indirizzi_Est.json"
+  },
+  "118 Romagna": {
+    "codice": "Romagna",
+    "provincia": "Ravenna",
+    "coordinate": "44.41829,12.19765",
+    "attiva": true,
+    "telefono": "118",
+    "indirizzo": "Via di Roma, 15, 48121 Ravenna RA",
+    "mezziFile": "src/data/Mezzi_Romagna.json",
+    "ospedaliFile": "src/data/Ospedali_Romagna.json",
+    "indirizziFile": "src/data/Indirizzi_Romagna.json"
+  }
+}
