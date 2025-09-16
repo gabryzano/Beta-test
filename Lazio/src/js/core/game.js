@@ -2075,7 +2075,7 @@ class EmergencyDispatchGame {
         // note-evento is a free-text textarea in the popup
         const noteEventoEl = document.getElementById('note-evento');
         if (noteEventoEl) {
-            noteEventoEl.value = call.noteEvento || '';
+            noteEventoEl.value = ''; // Sempre vuoto per ogni nuova missione
             noteEventoEl.addEventListener('input', () => {
                 call.noteEvento = noteEventoEl.value;
             });
