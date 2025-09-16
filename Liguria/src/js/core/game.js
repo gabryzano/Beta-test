@@ -2054,7 +2054,7 @@ class EmergencyDispatchGame {
         
         const noteEventoInput = document.getElementById('note-evento');
         if (noteEventoInput) {
-            noteEventoInput.value = call.noteEvento || '';
+            noteEventoInput.value = ''; // Sempre vuoto per ogni nuova missione
             // Aggiungi listener per salvare automaticamente
             noteEventoInput.addEventListener('input', () => {
                 call.noteEvento = noteEventoInput.value; // Salva automaticamente

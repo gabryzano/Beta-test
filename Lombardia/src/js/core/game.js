@@ -2228,7 +2228,7 @@ class EmergencyDispatchGame {
             const emptyOption = document.createElement('option');
             emptyOption.value = '';
             emptyOption.textContent = '-- Seleziona note evento --';
-            emptyOption.selected = !call.noteEvento; // Seleziona solo se non c'è valore salvato
+            emptyOption.selected = true; // Sempre selezionato per ogni nuova missione
             newNoteEventoSelect.appendChild(emptyOption);
             
             const opzioniNoteEvento = ['RESPIRA','DOLORE','DEFORMITA','CARDIOCIRCOLATORIO','EDEMA','DISTRETTO TRAUMA','CONVULSIONI','CPSS','VERTIGINI','STATO CONFUSIONALE','ASTENIA','SEGNI','CUTE','SANGUINA','ABRASIONE/CONTUSIONE','DIABETICO','INSUFFICIENZA RENALE','PENETRANTE','PROIETTATO','SBALZATO','INCASTRATO','-2.5 MT','2.5 - 5 MT','+ 5 MT','TRAVAGLIO','CONTRAZIONI - 5 MIN','GRAVIDANZA','PARTO','INCENDIO','INCENDIO INDUSTRIALE','INCENDIO ABITAZIONE','SOSP INTOSSICAZIONE DA MONOSSIDO','AUTOLESIONISMO','PSICHIATRICO NOTO','NO/NON NOTO','ALTRI SEGNI','SEGUE'];
@@ -2236,7 +2236,7 @@ class EmergencyDispatchGame {
                 const option = document.createElement('option');
                 option.value = opt;
                 option.textContent = opt;
-                option.selected = call.noteEvento === opt; // Ripristina valore salvato
+                // Non selezionare automaticamente il valore precedente - sempre vuoto per nuove missioni
                 newNoteEventoSelect.appendChild(option);
             });
             
