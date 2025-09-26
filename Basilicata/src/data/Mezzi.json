@@ -1,0 +1,380 @@
+[
+ {
+  "Nome Postazione": "PTS - Senise",
+  "Coordinate Postazione": "40.1473555,16.2920611",
+  "Mezzo": "VLV",
+  "Nome radio": "ALFA 01",
+  "Convenzione": "H24",
+  "Orario di lavoro": "00:00-00:00",
+  "Giorni": "LUN-DOM"
+ },
+ {
+  "Nome Postazione": "PTS - Potenza Ospedale",
+  "Coordinate Postazione": "40.65291,15.803109",
+  "Mezzo": "MSI",
+  "Nome radio": "ECHO 01",
+  "Convenzione": "H24",
+  "Orario di lavoro": "00:00-00:00",
+  "Giorni": "LUN-DOM"
+ },
+ {
+  "Nome Postazione": "PTS - Matera",
+  "Coordinate Postazione": "40.6782399,16.5893645",
+  "Mezzo": "MSI",
+  "Nome radio": "ECHO 02",
+  "Convenzione": "H24",
+  "Orario di lavoro": "00:00-00:00",
+  "Giorni": "LUN-DOM"
+ },
+ {
+  "Nome Postazione": "SKT - 02 ",
+  "Coordinate Postazione": "40.65305,16.613954",
+  "Mezzo": "ELI",
+  "Nome radio": "ELIMATERA",
+  "Convenzione": "H24",
+  "Orario di lavoro": "00:00-00:00",
+  "Giorni": "LUN-DOM"
+ },
+ {
+  "Nome Postazione": "SKT - 01 ",
+  "Coordinate Postazione": "40.652784,15.803815",
+  "Mezzo": "ELI",
+  "Nome radio": "ELIPOTENZA",
+  "Convenzione": "H24",
+  "Orario di lavoro": "00:00-00:00",
+  "Giorni": "LUN-DOM"
+ },
+ {
+  "Nome Postazione": "PTS - Pescopagano",
+  "Coordinate Postazione": "40.835049,15.394995",
+  "Mezzo": "MSI",
+  "Nome radio": "INDIA 01",
+  "Convenzione": "H24",
+  "Orario di lavoro": "00:00-00:00",
+  "Giorni": "LUN-DOM"
+ },
+ {
+  "Nome Postazione": "PTS - Brienza",
+  "Coordinate Postazione": "40.474692,15.633127",
+  "Mezzo": "MSI",
+  "Nome radio": "INDIA 02",
+  "Convenzione": "H24",
+  "Orario di lavoro": "00:00-00:00",
+  "Giorni": "LUN-DOM"
+ },
+ {
+  "Nome Postazione": "PTS - Sant’Arcangelo",
+  "Coordinate Postazione": "40.255754,16.260059",
+  "Mezzo": "MSI",
+  "Nome radio": "INDIA 03",
+  "Convenzione": "H24",
+  "Orario di lavoro": "00:00-00:00",
+  "Giorni": "LUN-DOM"
+ },
+ {
+  "Nome Postazione": "PTS - Lagonegro",
+  "Coordinate Postazione": "40.1260046,15.7607964",
+  "Mezzo": "MSI",
+  "Nome radio": "INDIA 04",
+  "Convenzione": "H24",
+  "Orario di lavoro": "00:00-00:00",
+  "Giorni": "LUN-DOM"
+ },
+ {
+  "Nome Postazione": "PTS - Maratea",
+  "Coordinate Postazione": "39.998443,15.718665",
+  "Mezzo": "MSI",
+  "Nome radio": "INDIA 05",
+  "Convenzione": "H24",
+  "Orario di lavoro": "00:00-00:00",
+  "Giorni": "LUN-DOM"
+ },
+ {
+  "Nome Postazione": "PTS - Chiaromonte",
+  "Coordinate Postazione": "40.123673,16.215408",
+  "Mezzo": "MSI",
+  "Nome radio": "INDIA 07",
+  "Convenzione": "H24",
+  "Orario di lavoro": "00:00-00:00",
+  "Giorni": "LUN-DOM"
+ },
+ {
+  "Nome Postazione": "PTS - San Costantino Albanese",
+  "Coordinate Postazione": "40.035039,16.306442",
+  "Mezzo": "MSI",
+  "Nome radio": "INDIA 08",
+  "Convenzione": "H24",
+  "Orario di lavoro": "00:00-00:00",
+  "Giorni": "LUN-DOM"
+ },
+ {
+  "Nome Postazione": "PTS - Mezzana Frido",
+  "Coordinate Postazione": "39.980339,16.176599",
+  "Mezzo": "MSI",
+  "Nome radio": "INDIA 09",
+  "Convenzione": "H24",
+  "Orario di lavoro": "00:00-00:00",
+  "Giorni": "LUN-DOM"
+ },
+ {
+  "Nome Postazione": "PTS - Viggianello",
+  "Coordinate Postazione": "39.97372,16.085123",
+  "Mezzo": "MSI",
+  "Nome radio": "INDIA 10",
+  "Convenzione": "H24",
+  "Orario di lavoro": "00:00-00:00",
+  "Giorni": "LUN-DOM"
+ },
+ {
+  "Nome Postazione": "PTS - Matera",
+  "Coordinate Postazione": "40.6782399,16.5893645",
+  "Mezzo": "MSI",
+  "Nome radio": "INDIA 11",
+  "Convenzione": "H24",
+  "Orario di lavoro": "00:00-00:00",
+  "Giorni": "LUN-DOM"
+ },
+ {
+  "Nome Postazione": "PTS - Ferrandina",
+  "Coordinate Postazione": "40.501533,16.453031",
+  "Mezzo": "MSI",
+  "Nome radio": "INDIA 12",
+  "Convenzione": "H24",
+  "Orario di lavoro": "00:00-00:00",
+  "Giorni": "LUN-DOM"
+ },
+ {
+  "Nome Postazione": "PTS - Enea Trisaia",
+  "Coordinate Postazione": "40.160129,16.644555",
+  "Mezzo": "MSI",
+  "Nome radio": "INDIA 13",
+  "Convenzione": "H24",
+  "Orario di lavoro": "00:00-00:00",
+  "Giorni": "LUN-DOM"
+ },
+ {
+  "Nome Postazione": "PTS - Policoro",
+  "Coordinate Postazione": "40.213086,16.669851",
+  "Mezzo": "MSI",
+  "Nome radio": "INDIA 14",
+  "Convenzione": "H24",
+  "Orario di lavoro": "00:00-00:00",
+  "Giorni": "LUN-DOM"
+ },
+ {
+  "Nome Postazione": "PTS - Bernalda",
+  "Coordinate Postazione": "40.412661,16.688489",
+  "Mezzo": "MSI",
+  "Nome radio": "INDIA 17",
+  "Convenzione": "H24",
+  "Orario di lavoro": "00:00-00:00",
+  "Giorni": "LUN-DOM"
+ },
+ {
+  "Nome Postazione": "PTS - Muro Lucano ",
+  "Coordinate Postazione": "40.755428,15.494621",
+  "Mezzo": "MSI",
+  "Nome radio": "INDIA 18",
+  "Convenzione": "H24",
+  "Orario di lavoro": "00:00-00:00",
+  "Giorni": "LUN-DOM"
+ },
+ {
+  "Nome Postazione": "PTS - San Mauro Forte",
+  "Coordinate Postazione": "40.484799,16.25306",
+  "Mezzo": "MSI",
+  "Nome radio": "INDIA 19",
+  "Convenzione": "H24",
+  "Orario di lavoro": "00:00-00:00",
+  "Giorni": "LUN-DOM"
+ },
+ {
+  "Nome Postazione": "PTS - Tursi",
+  "Coordinate Postazione": "40.246974,16.469029",
+  "Mezzo": "MSI",
+  "Nome radio": "INDIA 20",
+  "Convenzione": "H24",
+  "Orario di lavoro": "00:00-00:00",
+  "Giorni": "LUN-DOM"
+ },
+ {
+  "Nome Postazione": "PTS - Calvello",
+  "Coordinate Postazione": "40.474859,15.847541",
+  "Mezzo": "MSI",
+  "Nome radio": "INDIA 21",
+  "Convenzione": "H24",
+  "Orario di lavoro": "00:00-00:00",
+  "Giorni": "LUN-DOM"
+ },
+ {
+  "Nome Postazione": "PTS - Tricarico",
+  "Coordinate Postazione": "40.617819,16.147417",
+  "Mezzo": "MSI",
+  "Nome radio": "INDIA 22",
+  "Convenzione": "H24",
+  "Orario di lavoro": "00:00-00:00",
+  "Giorni": "LUN-DOM"
+ },
+ {
+  "Nome Postazione": "PTS - Irsina",
+  "Coordinate Postazione": "40.750886,16.23824",
+  "Mezzo": "MSI",
+  "Nome radio": "INDIA 23",
+  "Convenzione": "H24",
+  "Orario di lavoro": "00:00-00:00",
+  "Giorni": "LUN-DOM"
+ },
+ {
+  "Nome Postazione": "PTS - Moliterno",
+  "Coordinate Postazione": "40.25025,15.888292",
+  "Mezzo": "MSI",
+  "Nome radio": "INDIA 24",
+  "Convenzione": "H24",
+  "Orario di lavoro": "00:00-00:00",
+  "Giorni": "LUN-DOM"
+ },
+ {
+  "Nome Postazione": "PTS - Corleto Perticara",
+  "Coordinate Postazione": "40.383724,16.042462",
+  "Mezzo": "MSI",
+  "Nome radio": "INDIA 25",
+  "Convenzione": "H24",
+  "Orario di lavoro": "00:00-00:00",
+  "Giorni": "LUN-DOM"
+ },
+ {
+  "Nome Postazione": "PTS - Lavello",
+  "Coordinate Postazione": "41.043976,15.78442",
+  "Mezzo": "MSI",
+  "Nome radio": "INDIA 26",
+  "Convenzione": "H24",
+  "Orario di lavoro": "00:00-00:00",
+  "Giorni": "LUN-DOM"
+ },
+ {
+  "Nome Postazione": "PTS - Genzano di Lucania",
+  "Coordinate Postazione": "40.845517,16.033133",
+  "Mezzo": "MSI",
+  "Nome radio": "INDIA 27",
+  "Convenzione": "H24",
+  "Orario di lavoro": "00:00-00:00",
+  "Giorni": "LUN-DOM"
+ },
+ {
+  "Nome Postazione": "PTS - S.A.T.A. Melfi ",
+  "Coordinate Postazione": "41.072623,15.70783",
+  "Mezzo": "MSI",
+  "Nome radio": "INDIA 28",
+  "Convenzione": "H24",
+  "Orario di lavoro": "00:00-00:00",
+  "Giorni": "LUN-DOM"
+ },
+ {
+  "Nome Postazione": "PTS - Avigliano",
+  "Coordinate Postazione": "40.729035,15.71481",
+  "Mezzo": "MSI",
+  "Nome radio": "INDIA 29",
+  "Convenzione": "H24",
+  "Orario di lavoro": "00:00-00:00",
+  "Giorni": "LUN-DOM"
+ },
+ {
+  "Nome Postazione": "PTS - Potenza Via Appia",
+  "Coordinate Postazione": "40.644034,15.832765",
+  "Mezzo": "MSA",
+  "Nome radio": "MIKE 01",
+  "Convenzione": "H24",
+  "Orario di lavoro": "00:00-00:00",
+  "Giorni": "LUN-DOM"
+ },
+ {
+  "Nome Postazione": "PTS - Potenza Ospedale",
+  "Coordinate Postazione": "40.65291,15.803109",
+  "Mezzo": "MSA",
+  "Nome radio": "MIKE 02",
+  "Convenzione": "H24",
+  "Orario di lavoro": "00:00-00:00",
+  "Giorni": "LUN-DOM"
+ },
+ {
+  "Nome Postazione": "PTS - Melfi",
+  "Coordinate Postazione": "40.996408,15.640584",
+  "Mezzo": "MSA",
+  "Nome radio": "MIKE 03",
+  "Convenzione": "H24",
+  "Orario di lavoro": "00:00-00:00",
+  "Giorni": "LUN-DOM"
+ },
+ {
+  "Nome Postazione": "PTS - Venosa",
+  "Coordinate Postazione": "40.960332,15.807033",
+  "Mezzo": "MSA",
+  "Nome radio": "MIKE 04",
+  "Convenzione": "H24",
+  "Orario di lavoro": "00:00-00:00",
+  "Giorni": "LUN-DOM"
+ },
+ {
+  "Nome Postazione": "PTS - Villa D'Agri",
+  "Coordinate Postazione": "40.361265,15.824612",
+  "Mezzo": "MSA",
+  "Nome radio": "MIKE 05",
+  "Convenzione": "H24",
+  "Orario di lavoro": "00:00-00:00",
+  "Giorni": "LUN-DOM"
+ },
+ {
+  "Nome Postazione": "PTS - Matera",
+  "Coordinate Postazione": "40.6782399,16.5893645",
+  "Mezzo": "MSA",
+  "Nome radio": "MIKE 06",
+  "Convenzione": "H24",
+  "Orario di lavoro": "00:00-00:00",
+  "Giorni": "LUN-DOM"
+ },
+ {
+  "Nome Postazione": "PTS - Grassano",
+  "Coordinate Postazione": "40.631617,16.289545",
+  "Mezzo": "MSA",
+  "Nome radio": "MIKE 07",
+  "Convenzione": "H24",
+  "Orario di lavoro": "00:00-00:00",
+  "Giorni": "LUN-DOM"
+ },
+ {
+  "Nome Postazione": "PTS - Tinchi",
+  "Coordinate Postazione": "40.360745,16.647578",
+  "Mezzo": "MSA",
+  "Nome radio": "MIKE 08",
+  "Convenzione": "H24",
+  "Orario di lavoro": "00:00-00:00",
+  "Giorni": "LUN-DOM"
+ },
+ {
+  "Nome Postazione": "PTS - Lauria",
+  "Coordinate Postazione": "40.0523556,15.838577",
+  "Mezzo": "MSA",
+  "Nome radio": "MIKE 09",
+  "Convenzione": "H24",
+  "Orario di lavoro": "00:00-00:00",
+  "Giorni": "LUN-DOM"
+ },
+ {
+  "Nome Postazione": "PTS - Stigliano",
+  "Coordinate Postazione": "40.400766,16.23573",
+  "Mezzo": "MSA",
+  "Nome radio": "MIKE 10",
+  "Convenzione": "H24",
+  "Orario di lavoro": "00:00-00:00",
+  "Giorni": "LUN-DOM"
+ },
+ {
+  "Nome Postazione": "PTS - Viggiano",
+  "Coordinate Postazione": "40.335537,15.903298",
+  "Mezzo": "MSA",
+  "Nome radio": "MIKE 11",
+  "Convenzione": "H24",
+  "Orario di lavoro": "00:00-00:00",
+  "Giorni": "LUN-DOM"
+ }
+]

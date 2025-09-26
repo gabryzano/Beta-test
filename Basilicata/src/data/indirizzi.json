@@ -1,0 +1,4027 @@
+[
+    {
+        "indirizzo abitazione":  "Via Pretoria, 1, 85100 Potenza PZ",
+        "lat":  40.6404,
+        "lon":  15.8056
+    },
+    {
+        "indirizzo abitazione":  "Corso XVIII Agosto, 15, 85100 Potenza PZ",
+        "lat":  40.6380,
+        "lon":  15.8030
+    },
+    {
+        "indirizzo abitazione":  "Via Nazario Sauro, 25, 85100 Potenza PZ",
+        "lat":  40.6420,
+        "lon":  15.8070
+    },
+    {
+        "indirizzo abitazione":  "Via del Gallitello, 8, 85100 Potenza PZ",
+        "lat":  40.6440,
+        "lon":  15.8090
+    },
+    {
+        "indirizzo abitazione":  "Via Anzio, 12, 85100 Potenza PZ",
+        "lat":  40.6360,
+        "lon":  15.8010
+    },
+    {
+        "indirizzo abitazione":  "Piazza Mario Pagano, 3, 85100 Potenza PZ",
+        "lat":  40.6410,
+        "lon":  15.8060
+    },
+    {
+        "indirizzo abitazione":  "Via del Duomo, 18, 85100 Potenza PZ",
+        "lat":  40.6390,
+        "lon":  15.8040
+    },
+    {
+        "indirizzo abitazione":  "Via Verdi, 7, 85100 Potenza PZ",
+        "lat":  40.6430,
+        "lon":  15.8080
+    },
+    {
+        "indirizzo abitazione":  "Corso Umberto I, 22, 85100 Potenza PZ",
+        "lat":  40.6370,
+        "lon":  15.8020
+    },
+    {
+        "indirizzo abitazione":  "Via Roma, 14, 85100 Potenza PZ",
+        "lat":  40.6450,
+        "lon":  15.8100
+    },
+    {
+        "indirizzo abitazione":  "Via Milano, 8, 85100 Potenza PZ",
+        "lat":  40.6460,
+        "lon":  15.8110
+    },
+    {
+        "indirizzo abitazione":  "Via Firenze, 16, 85100 Potenza PZ",
+        "lat":  40.6470,
+        "lon":  15.8120
+    },
+    {
+        "indirizzo abitazione":  "Via Napoli, 9, 85100 Potenza PZ",
+        "lat":  40.6480,
+        "lon":  15.8130
+    },
+    {
+        "indirizzo abitazione":  "Via Palermo, 11, 85100 Potenza PZ",
+        "lat":  40.6490,
+        "lon":  15.8140
+    },
+    {
+        "indirizzo abitazione":  "Via Bari, 13, 85100 Potenza PZ",
+        "lat":  40.6500,
+        "lon":  15.8150
+    },
+    {
+        "indirizzo abitazione":  "Via Lecce, 17, 85100 Potenza PZ",
+        "lat":  40.6510,
+        "lon":  15.8160
+    },
+    {
+        "indirizzo abitazione":  "Via Brindisi, 19, 85100 Potenza PZ",
+        "lat":  40.6520,
+        "lon":  15.8170
+    },
+    {
+        "indirizzo abitazione":  "Via Taranto, 21, 85100 Potenza PZ",
+        "lat":  40.6530,
+        "lon":  15.8180
+    },
+    {
+        "indirizzo abitazione":  "Via Cosenza, 23, 85100 Potenza PZ",
+        "lat":  40.6540,
+        "lon":  15.8190
+    },
+    {
+        "indirizzo abitazione":  "Via Catanzaro, 25, 85100 Potenza PZ",
+        "lat":  40.6550,
+        "lon":  15.8200
+    },
+    {
+        "indirizzo abitazione":  "Via Reggio Calabria, 27, 85100 Potenza PZ",
+        "lat":  40.6560,
+        "lon":  15.8210
+    },
+    {
+        "indirizzo abitazione":  "Via Messina, 29, 85100 Potenza PZ",
+        "lat":  40.6570,
+        "lon":  15.8220
+    },
+    {
+        "indirizzo abitazione":  "Via Palermo Sud, 31, 85100 Potenza PZ",
+        "lat":  40.6580,
+        "lon":  15.8230
+    },
+    {
+        "indirizzo abitazione":  "Via Agrigento, 33, 85100 Potenza PZ",
+        "lat":  40.6590,
+        "lon":  15.8240
+    },
+    {
+        "indirizzo abitazione":  "Via Trapani, 35, 85100 Potenza PZ",
+        "lat":  40.6600,
+        "lon":  15.8250
+    },
+    {
+        "indirizzo abitazione":  "Via Siracusa, 37, 85100 Potenza PZ",
+        "lat":  40.6610,
+        "lon":  15.8260
+    },
+    {
+        "indirizzo abitazione":  "Via Ragusa, 39, 85100 Potenza PZ",
+        "lat":  40.6620,
+        "lon":  15.8270
+    },
+    {
+        "indirizzo abitazione":  "Via Enna, 41, 85100 Potenza PZ",
+        "lat":  40.6630,
+        "lon":  15.8280
+    },
+    {
+        "indirizzo abitazione":  "Via Caltanissetta, 43, 85100 Potenza PZ",
+        "lat":  40.6640,
+        "lon":  15.8290
+    },
+    {
+        "indirizzo abitazione":  "Via Marsala, 45, 85100 Potenza PZ",
+        "lat":  40.6650,
+        "lon":  15.8300
+    },
+    {
+        "indirizzo abitazione":  "Via Acireale, 47, 85100 Potenza PZ",
+        "lat":  40.6660,
+        "lon":  15.8310
+    },
+    {
+        "indirizzo abitazione":  "Via Modica, 49, 85100 Potenza PZ",
+        "lat":  40.6670,
+        "lon":  15.8320
+    },
+    {
+        "indirizzo abitazione":  "Via Gela, 51, 85100 Potenza PZ",
+        "lat":  40.6680,
+        "lon":  15.8330
+    },
+    {
+        "indirizzo abitazione":  "Via Vittoria, 53, 85100 Potenza PZ",
+        "lat":  40.6690,
+        "lon":  15.8340
+    },
+    {
+        "indirizzo abitazione":  "Via Scicli, 55, 85100 Potenza PZ",
+        "lat":  40.6700,
+        "lon":  15.8350
+    },
+    {
+        "indirizzo abitazione":  "Via Noto, 57, 85100 Potenza PZ",
+        "lat":  40.6710,
+        "lon":  15.8360
+    },
+    {
+        "scuola":  "Scuola Elementare Dante Alighieri, Via Milano, 20, 85100 Potenza PZ",
+        "lat":  40.6475,
+        "lon":  15.8125
+    },
+    {
+        "scuola":  "Liceo Classico Quinto Orazio Flacco, Corso XVIII Agosto, 10, 85100 Potenza PZ",
+        "lat":  40.6385,
+        "lon":  15.8035
+    },
+    {
+        "scuola":  "Istituto Tecnico Industriale, Via Bari, 30, 85100 Potenza PZ",
+        "lat":  40.6505,
+        "lon":  15.8155
+    },
+    {
+        "impianto sportivo":  "Stadio Alfredo Viviani, Viale Guglielmo Marconi, 219, 85100 Potenza PZ",
+        "lat":  40.6340,
+        "lon":  15.8043
+    },
+    {
+        "impianto sportivo":  "Palazzetto dello Sport, Via della Tecnica, 50, 85100 Potenza PZ",
+        "lat":  40.6425,
+        "lon":  15.8075
+    },
+    {
+        "RSA":  "RSA Casa Serena, Via Napoli, 50, 85100 Potenza PZ",
+        "lat":  40.6485,
+        "lon":  15.8135
+    },
+    {
+        "RSA":  "Residenza Anziani San Giuseppe, Via Cosenza, 40, 85100 Potenza PZ",
+        "lat":  40.6545,
+        "lon":  15.8195
+    },
+    {
+        "strada":  "Autostrada A2 Salerno-Reggio Calabria, km 120, 85100 Potenza PZ",
+        "lat":  40.6245,
+        "lon":  15.7785
+    },
+    {
+        "strada":  "SS7 Via Appia, km 450, 85100 Potenza PZ",
+        "lat":  40.6410,
+        "lon":  15.8060
+    },
+    {
+        "indirizzo abitazione":  "Via del Corso, 10, 75100 Matera MT",
+        "lat":  40.6680,
+        "lon":  16.6060
+    },
+    {
+        "indirizzo abitazione":  "Via San Biagio, 8, 75100 Matera MT",
+        "lat":  40.6640,
+        "lon":  16.6020
+    },
+    {
+        "indirizzo abitazione":  "Via Ridola, 15, 75100 Matera MT",
+        "lat":  40.6700,
+        "lon":  16.6080
+    },
+    {
+        "indirizzo abitazione":  "Via Fiorentini, 12, 75100 Matera MT",
+        "lat":  40.6620,
+        "lon":  16.6000
+    },
+    {
+        "indirizzo abitazione":  "Via Duomo, 5, 75100 Matera MT",
+        "lat":  40.6660,
+        "lon":  16.6040
+    },
+    {
+        "indirizzo abitazione":  "Via Sassi, 20, 75100 Matera MT",
+        "lat":  40.6720,
+        "lon":  16.6100
+    },
+    {
+        "indirizzo abitazione":  "Via Lucana, 25, 75100 Matera MT",
+        "lat":  40.6740,
+        "lon":  16.6120
+    },
+    {
+        "indirizzo abitazione":  "Via Potenza, 30, 75100 Matera MT",
+        "lat":  40.6760,
+        "lon":  16.6140
+    },
+    {
+        "indirizzo abitazione":  "Via Bari, 35, 75100 Matera MT",
+        "lat":  40.6780,
+        "lon":  16.6160
+    },
+    {
+        "indirizzo abitazione":  "Via Taranto, 40, 75100 Matera MT",
+        "lat":  40.6800,
+        "lon":  16.6180
+    },
+    {
+        "indirizzo abitazione":  "Via Brindisi, 45, 75100 Matera MT",
+        "lat":  40.6820,
+        "lon":  16.6200
+    },
+    {
+        "indirizzo abitazione":  "Via Lecce, 50, 75100 Matera MT",
+        "lat":  40.6840,
+        "lon":  16.6220
+    },
+    {
+        "indirizzo abitazione":  "Via Foggia, 55, 75100 Matera MT",
+        "lat":  40.6860,
+        "lon":  16.6240
+    },
+    {
+        "indirizzo abitazione":  "Via Andria, 60, 75100 Matera MT",
+        "lat":  40.6880,
+        "lon":  16.6260
+    },
+    {
+        "indirizzo abitazione":  "Via Trani, 65, 75100 Matera MT",
+        "lat":  40.6900,
+        "lon":  16.6280
+    },
+    {
+        "indirizzo abitazione":  "Via Barletta, 70, 75100 Matera MT",
+        "lat":  40.6920,
+        "lon":  16.6300
+    },
+    {
+        "indirizzo abitazione":  "Via Bisceglie, 75, 75100 Matera MT",
+        "lat":  40.6940,
+        "lon":  16.6320
+    },
+    {
+        "indirizzo abitazione":  "Via Molfetta, 80, 75100 Matera MT",
+        "lat":  40.6960,
+        "lon":  16.6340
+    },
+    {
+        "indirizzo abitazione":  "Via Giovinazzo, 85, 75100 Matera MT",
+        "lat":  40.6980,
+        "lon":  16.6360
+    },
+    {
+        "indirizzo abitazione":  "Via Terlizzi, 90, 75100 Matera MT",
+        "lat":  40.7000,
+        "lon":  16.6380
+    },
+    {
+        "indirizzo abitazione":  "Via Ruvo, 95, 75100 Matera MT",
+        "lat":  40.7020,
+        "lon":  16.6400
+    },
+    {
+        "indirizzo abitazione":  "Via Corato, 100, 75100 Matera MT",
+        "lat":  40.7040,
+        "lon":  16.6420
+    },
+    {
+        "indirizzo abitazione":  "Via Canosa, 105, 75100 Matera MT",
+        "lat":  40.7060,
+        "lon":  16.6440
+    },
+    {
+        "indirizzo abitazione":  "Via Minervino, 110, 75100 Matera MT",
+        "lat":  40.7080,
+        "lon":  16.6460
+    },
+    {
+        "indirizzo abitazione":  "Via Spinazzola, 115, 75100 Matera MT",
+        "lat":  40.7100,
+        "lon":  16.6480
+    },
+    {
+        "indirizzo abitazione":  "Via Gravina, 120, 75100 Matera MT",
+        "lat":  40.7120,
+        "lon":  16.6500
+    },
+    {
+        "indirizzo abitazione":  "Via Altamura, 125, 75100 Matera MT",
+        "lat":  40.7140,
+        "lon":  16.6520
+    },
+    {
+        "indirizzo abitazione":  "Via Santeramo, 130, 75100 Matera MT",
+        "lat":  40.7160,
+        "lon":  16.6540
+    },
+    {
+        "indirizzo abitazione":  "Via Cassano, 135, 75100 Matera MT",
+        "lat":  40.7180,
+        "lon":  16.6560
+    },
+    {
+        "indirizzo abitazione":  "Via Gioia, 140, 75100 Matera MT",
+        "lat":  40.7200,
+        "lon":  16.6580
+    },
+    {
+        "indirizzo abitazione":  "Via Castellaneta, 145, 75100 Matera MT",
+        "lat":  40.7220,
+        "lon":  16.6600
+    },
+    {
+        "scuola":  "Scuola Elementare Pascoli, Via Ridola, 10, 75100 Matera MT",
+        "lat":  40.6705,
+        "lon":  16.6085
+    },
+    {
+        "scuola":  "Liceo Scientifico Enrico Fermi, Via Lucana, 15, 75100 Matera MT",
+        "lat":  40.6745,
+        "lon":  16.6125
+    },
+    {
+        "scuola":  "Istituto Tecnico Commerciale, Via Potenza, 25, 75100 Matera MT",
+        "lat":  40.6765,
+        "lon":  16.6145
+    },
+    {
+        "impianto sportivo":  "Stadio XXI Settembre-Franco Salerno, Via dei Sassi, 10, 75100 Matera MT",
+        "lat":  40.6725,
+        "lon":  16.6105
+    },
+    {
+        "impianto sportivo":  "Palasassi, Via delle Chiese Rupestri, 5, 75100 Matera MT",
+        "lat":  40.6685,
+        "lon":  16.6065
+    },
+    {
+        "RSA":  "RSA Matera, Via Bari, 20, 75100 Matera MT",
+        "lat":  40.6785,
+        "lon":  16.6165
+    },
+    {
+        "RSA":  "Residenza Anziani San Rocco, Via Taranto, 30, 75100 Matera MT",
+        "lat":  40.6805,
+        "lon":  16.6185
+    },
+    {
+        "strada":  "SS7 Via Appia, km 400, 75100 Matera MT",
+        "lat":  40.6680,
+        "lon":  16.6060
+    },
+    {
+        "strada":  "SS99, km 50, 75100 Matera MT",
+        "lat":  40.6700,
+        "lon":  16.6080
+    },
+    {
+        "indirizzo abitazione":  "Via Roma, 10, 85025 Melfi PZ",
+        "lat":  40.9960,
+        "lon":  15.6570
+    },
+    {
+        "indirizzo abitazione":  "Via Garibaldi, 5, 85025 Melfi PZ",
+        "lat":  40.9980,
+        "lon":  15.6590
+    },
+    {
+        "indirizzo abitazione":  "Via Mazzini, 15, 85025 Melfi PZ",
+        "lat":  41.0000,
+        "lon":  15.6610
+    },
+    {
+        "indirizzo abitazione":  "Via Cavour, 20, 85025 Melfi PZ",
+        "lat":  41.0020,
+        "lon":  15.6630
+    },
+    {
+        "indirizzo abitazione":  "Via Verdi, 25, 85025 Melfi PZ",
+        "lat":  41.0040,
+        "lon":  15.6650
+    },
+    {
+        "indirizzo abitazione":  "Via Dante, 30, 85025 Melfi PZ",
+        "lat":  41.0060,
+        "lon":  15.6670
+    },
+    {
+        "indirizzo abitazione":  "Via Petrarca, 35, 85025 Melfi PZ",
+        "lat":  41.0080,
+        "lon":  15.6690
+    },
+    {
+        "indirizzo abitazione":  "Via Leopardi, 40, 85025 Melfi PZ",
+        "lat":  41.0100,
+        "lon":  15.6710
+    },
+    {
+        "indirizzo abitazione":  "Via Foscolo, 45, 85025 Melfi PZ",
+        "lat":  41.0120,
+        "lon":  15.6730
+    },
+    {
+        "indirizzo abitazione":  "Via Manzoni, 50, 85025 Melfi PZ",
+        "lat":  41.0140,
+        "lon":  15.6750
+    },
+    {
+        "scuola":  "Scuola Media Giovanni Pascoli, Via Garibaldi, 10, 85025 Melfi PZ",
+        "lat":  40.9985,
+        "lon":  15.6595
+    },
+    {
+        "scuola":  "Liceo Classico, Via Mazzini, 12, 85025 Melfi PZ",
+        "lat":  41.0005,
+        "lon":  15.6615
+    },
+    {
+        "impianto sportivo":  "Stadio Arturo Valerio, Via dello Sport, 1, 85025 Melfi PZ",
+        "lat":  40.9965,
+        "lon":  15.6575
+    },
+    {
+        "RSA":  "RSA Melfi, Via Verdi, 15, 85025 Melfi PZ",
+        "lat":  41.0045,
+        "lon":  15.6655
+    },
+    {
+        "strada":  "Autostrada A16 Napoli-Bari, km 120, 85025 Melfi PZ",
+        "lat":  40.9940,
+        "lon":  15.6550
+    },
+    {
+        "indirizzo abitazione":  "Via Vittorio Emanuele, 5, 85022 Lavello PZ",
+        "lat":  41.0380,
+        "lon":  15.7970
+    },
+    {
+        "indirizzo abitazione":  "Via Umberto I, 10, 85022 Lavello PZ",
+        "lat":  41.0400,
+        "lon":  15.7990
+    },
+    {
+        "indirizzo abitazione":  "Via Roma, 15, 85022 Lavello PZ",
+        "lat":  41.0420,
+        "lon":  15.8010
+    },
+    {
+        "indirizzo abitazione":  "Via Garibaldi, 20, 85022 Lavello PZ",
+        "lat":  41.0440,
+        "lon":  15.8030
+    },
+    {
+        "indirizzo abitazione":  "Via Mazzini, 25, 85022 Lavello PZ",
+        "lat":  41.0460,
+        "lon":  15.8050
+    },
+    {
+        "indirizzo abitazione":  "Via Cavour, 30, 85022 Lavello PZ",
+        "lat":  41.0480,
+        "lon":  15.8070
+    },
+    {
+        "indirizzo abitazione":  "Via Verdi, 35, 85022 Lavello PZ",
+        "lat":  41.0500,
+        "lon":  15.8090
+    },
+    {
+        "scuola":  "Scuola Elementare, Via Roma, 8, 85022 Lavello PZ",
+        "lat":  41.0425,
+        "lon":  15.8015
+    },
+    {
+        "impianto sportivo":  "Campo Sportivo Comunale, Via dello Sport, 1, 85022 Lavello PZ",
+        "lat":  41.0385,
+        "lon":  15.7975
+    },
+    {
+        "RSA":  "RSA Lavello, Via Garibaldi, 12, 85022 Lavello PZ",
+        "lat":  41.0445,
+        "lon":  15.8035
+    },
+    {
+        "strada":  "SS93, km 50, 85022 Lavello PZ",
+        "lat":  41.0360,
+        "lon":  15.7950
+    },
+    {
+        "indirizzo abitazione":  "Via Nazionale, 10, 85028 Rionero in Vulture PZ",
+        "lat":  40.9260,
+        "lon":  15.6710
+    },
+    {
+        "indirizzo abitazione":  "Via Roma, 15, 85028 Rionero in Vulture PZ",
+        "lat":  40.9280,
+        "lon":  15.6730
+    },
+    {
+        "indirizzo abitazione":  "Via Garibaldi, 20, 85028 Rionero in Vulture PZ",
+        "lat":  40.9300,
+        "lon":  15.6750
+    },
+    {
+        "indirizzo abitazione":  "Via Mazzini, 25, 85028 Rionero in Vulture PZ",
+        "lat":  40.9320,
+        "lon":  15.6770
+    },
+    {
+        "indirizzo abitazione":  "Via Cavour, 30, 85028 Rionero in Vulture PZ",
+        "lat":  40.9340,
+        "lon":  15.6790
+    },
+    {
+        "indirizzo abitazione":  "Via Verdi, 35, 85028 Rionero in Vulture PZ",
+        "lat":  40.9360,
+        "lon":  15.6810
+    },
+    {
+        "indirizzo abitazione":  "Via Dante, 40, 85028 Rionero in Vulture PZ",
+        "lat":  40.9380,
+        "lon":  15.6830
+    },
+    {
+        "scuola":  "Scuola Media, Via Roma, 12, 85028 Rionero in Vulture PZ",
+        "lat":  40.9285,
+        "lon":  15.6735
+    },
+    {
+        "impianto sportivo":  "Stadio Comunale, Via dello Sport, 1, 85028 Rionero in Vulture PZ",
+        "lat":  40.9265,
+        "lon":  15.6715
+    },
+    {
+        "RSA":  "RSA Rionero, Via Garibaldi, 15, 85028 Rionero in Vulture PZ",
+        "lat":  40.9305,
+        "lon":  15.6755
+    },
+    {
+        "strada":  "SS167, km 30, 85028 Rionero in Vulture PZ",
+        "lat":  40.9240,
+        "lon":  15.6690
+    },
+    {
+        "indirizzo abitazione":  "Via Garibaldi, 5, 85044 Lauria PZ",
+        "lat":  40.0480,
+        "lon":  15.8370
+    },
+    {
+        "indirizzo abitazione":  "Via Roma, 10, 85044 Lauria PZ",
+        "lat":  40.0500,
+        "lon":  15.8390
+    },
+    {
+        "indirizzo abitazione":  "Via Vittorio Emanuele, 15, 85044 Lauria PZ",
+        "lat":  40.0520,
+        "lon":  15.8410
+    },
+    {
+        "indirizzo abitazione":  "Via Mazzini, 20, 85044 Lauria PZ",
+        "lat":  40.0540,
+        "lon":  15.8430
+    },
+    {
+        "indirizzo abitazione":  "Via Cavour, 25, 85044 Lauria PZ",
+        "lat":  40.0560,
+        "lon":  15.8450
+    },
+    {
+        "indirizzo abitazione":  "Via Verdi, 30, 85044 Lauria PZ",
+        "lat":  40.0580,
+        "lon":  15.8470
+    },
+    {
+        "indirizzo abitazione":  "Via Dante, 35, 85044 Lauria PZ",
+        "lat":  40.0600,
+        "lon":  15.8490
+    },
+    {
+        "scuola":  "Scuola Elementare, Via Roma, 8, 85044 Lauria PZ",
+        "lat":  40.0505,
+        "lon":  15.8395
+    },
+    {
+        "impianto sportivo":  "Campo Sportivo, Via dello Sport, 1, 85044 Lauria PZ",
+        "lat":  40.0485,
+        "lon":  15.8375
+    },
+    {
+        "RSA":  "RSA Lauria, Via Garibaldi, 10, 85044 Lauria PZ",
+        "lat":  40.0485,
+        "lon":  15.8375
+    },
+    {
+        "strada":  "SS19, km 200, 85044 Lauria PZ",
+        "lat":  40.0460,
+        "lon":  15.8350
+    },
+    {
+        "indirizzo abitazione":  "Via Appia, 10, 85029 Venosa PZ",
+        "lat":  40.9610,
+        "lon":  15.8160
+    },
+    {
+        "indirizzo abitazione":  "Via Roma, 15, 85029 Venosa PZ",
+        "lat":  40.9630,
+        "lon":  15.8180
+    },
+    {
+        "indirizzo abitazione":  "Via Garibaldi, 20, 85029 Venosa PZ",
+        "lat":  40.9650,
+        "lon":  15.8200
+    },
+    {
+        "indirizzo abitazione":  "Via Mazzini, 25, 85029 Venosa PZ",
+        "lat":  40.9670,
+        "lon":  15.8220
+    },
+    {
+        "indirizzo abitazione":  "Via Cavour, 30, 85029 Venosa PZ",
+        "lat":  40.9690,
+        "lon":  15.8240
+    },
+    {
+        "indirizzo abitazione":  "Via Verdi, 35, 85029 Venosa PZ",
+        "lat":  40.9710,
+        "lon":  15.8260
+    },
+    {
+        "scuola":  "Scuola Media, Via Roma, 12, 85029 Venosa PZ",
+        "lat":  40.9635,
+        "lon":  15.8185
+    },
+    {
+        "impianto sportivo":  "Stadio Comunale, Via dello Sport, 1, 85029 Venosa PZ",
+        "lat":  40.9615,
+        "lon":  15.8165
+    },
+    {
+        "RSA":  "RSA Venosa, Via Garibaldi, 15, 85029 Venosa PZ",
+        "lat":  40.9655,
+        "lon":  15.8205
+    },
+    {
+        "strada":  "SS93, km 40, 85029 Venosa PZ",
+        "lat":  40.9590,
+        "lon":  15.8140
+    },
+    {
+        "indirizzo abitazione":  "Via Nazionale, 5, 85021 Avigliano PZ",
+        "lat":  40.7310,
+        "lon":  15.7180
+    },
+    {
+        "indirizzo abitazione":  "Via Roma, 10, 85021 Avigliano PZ",
+        "lat":  40.7330,
+        "lon":  15.7200
+    },
+    {
+        "indirizzo abitazione":  "Via Garibaldi, 15, 85021 Avigliano PZ",
+        "lat":  40.7350,
+        "lon":  15.7220
+    },
+    {
+        "indirizzo abitazione":  "Via Mazzini, 20, 85021 Avigliano PZ",
+        "lat":  40.7370,
+        "lon":  15.7240
+    },
+    {
+        "indirizzo abitazione":  "Via Cavour, 25, 85021 Avigliano PZ",
+        "lat":  40.7390,
+        "lon":  15.7260
+    },
+    {
+        "indirizzo abitazione":  "Via Verdi, 30, 85021 Avigliano PZ",
+        "lat":  40.7410,
+        "lon":  15.7280
+    },
+    {
+        "scuola":  "Scuola Elementare, Via Roma, 8, 85021 Avigliano PZ",
+        "lat":  40.7335,
+        "lon":  15.7205
+    },
+    {
+        "impianto sportivo":  "Campo Sportivo, Via dello Sport, 1, 85021 Avigliano PZ",
+        "lat":  40.7315,
+        "lon":  15.7185
+    },
+    {
+        "RSA":  "RSA Avigliano, Via Garibaldi, 10, 85021 Avigliano PZ",
+        "lat":  40.7355,
+        "lon":  15.7225
+    },
+    {
+        "strada":  "SS658, km 10, 85021 Avigliano PZ",
+        "lat":  40.7290,
+        "lon":  15.7160
+    },
+    {
+        "indirizzo abitazione":  "Via Roma, 5, 75025 Pisticci MT",
+        "lat":  40.3910,
+        "lon":  16.5520
+    },
+    {
+        "indirizzo abitazione":  "Via Garibaldi, 10, 75025 Pisticci MT",
+        "lat":  40.3930,
+        "lon":  16.5540
+    },
+    {
+        "indirizzo abitazione":  "Via Mazzini, 15, 75025 Pisticci MT",
+        "lat":  40.3950,
+        "lon":  16.5560
+    },
+    {
+        "indirizzo abitazione":  "Via Cavour, 20, 75025 Pisticci MT",
+        "lat":  40.3970,
+        "lon":  16.5580
+    },
+    {
+        "indirizzo abitazione":  "Via Verdi, 25, 75025 Pisticci MT",
+        "lat":  40.3990,
+        "lon":  16.5600
+    },
+    {
+        "indirizzo abitazione":  "Via Dante, 30, 75025 Pisticci MT",
+        "lat":  40.4010,
+        "lon":  16.5620
+    },
+    {
+        "indirizzo abitazione":  "Via Petrarca, 35, 75025 Pisticci MT",
+        "lat":  40.4030,
+        "lon":  16.5640
+    },
+    {
+        "indirizzo abitazione":  "Via Leopardi, 40, 75025 Pisticci MT",
+        "lat":  40.4050,
+        "lon":  16.5660
+    },
+    {
+        "indirizzo abitazione":  "Via Foscolo, 45, 75025 Pisticci MT",
+        "lat":  40.4070,
+        "lon":  16.5680
+    },
+    {
+        "scuola":  "Scuola Media, Via Roma, 8, 75025 Pisticci MT",
+        "lat":  40.3915,
+        "lon":  16.5525
+    },
+    {
+        "impianto sportivo":  "Stadio Comunale, Via dello Sport, 1, 75025 Pisticci MT",
+        "lat":  40.3915,
+        "lon":  16.5525
+    },
+    {
+        "RSA":  "RSA Pisticci, Via Garibaldi, 12, 75025 Pisticci MT",
+        "lat":  40.3935,
+        "lon":  16.5545
+    },
+    {
+        "strada":  "SS106, km 350, 75025 Pisticci MT",
+        "lat":  40.3890,
+        "lon":  16.5500
+    },
+    {
+        "indirizzo abitazione":  "Via Litoranea, 10, 75020 Policoro MT",
+        "lat":  40.2110,
+        "lon":  16.6660
+    },
+    {
+        "indirizzo abitazione":  "Via Roma, 15, 75020 Policoro MT",
+        "lat":  40.2130,
+        "lon":  16.6680
+    },
+    {
+        "indirizzo abitazione":  "Via Garibaldi, 20, 75020 Policoro MT",
+        "lat":  40.2150,
+        "lon":  16.6700
+    },
+    {
+        "indirizzo abitazione":  "Via Mazzini, 25, 75020 Policoro MT",
+        "lat":  40.2170,
+        "lon":  16.6720
+    },
+    {
+        "indirizzo abitazione":  "Via Cavour, 30, 75020 Policoro MT",
+        "lat":  40.2190,
+        "lon":  16.6740
+    },
+    {
+        "indirizzo abitazione":  "Via Verdi, 35, 75020 Policoro MT",
+        "lat":  40.2210,
+        "lon":  16.6760
+    },
+    {
+        "indirizzo abitazione":  "Via Dante, 40, 75020 Policoro MT",
+        "lat":  40.2230,
+        "lon":  16.6780
+    },
+    {
+        "indirizzo abitazione":  "Via Petrarca, 45, 75020 Policoro MT",
+        "lat":  40.2250,
+        "lon":  16.6800
+    },
+    {
+        "indirizzo abitazione":  "Via Leopardi, 50, 75020 Policoro MT",
+        "lat":  40.2270,
+        "lon":  16.6820
+    },
+    {
+        "indirizzo abitazione":  "Via Foscolo, 55, 75020 Policoro MT",
+        "lat":  40.2290,
+        "lon":  16.6840
+    },
+    {
+        "scuola":  "Scuola Elementare, Via Roma, 12, 75020 Policoro MT",
+        "lat":  40.2135,
+        "lon":  16.6685
+    },
+    {
+        "impianto sportivo":  "Stadio Comunale, Via dello Sport, 1, 75020 Policoro MT",
+        "lat":  40.2115,
+        "lon":  16.6665
+    },
+    {
+        "RSA":  "RSA Policoro, Via Garibaldi, 15, 75020 Policoro MT",
+        "lat":  40.2155,
+        "lon":  16.6705
+    },
+    {
+        "strada":  "SS106 Jonica, km 400, 75020 Policoro MT",
+        "lat":  40.2090,
+        "lon":  16.6640
+    },
+    {
+        "indirizzo abitazione":  "Via Nazionale, 5, 75012 Bernalda MT",
+        "lat":  40.4130,
+        "lon":  16.6900
+    },
+    {
+        "indirizzo abitazione":  "Via Roma, 10, 75012 Bernalda MT",
+        "lat":  40.4150,
+        "lon":  16.6920
+    },
+    {
+        "indirizzo abitazione":  "Via Garibaldi, 15, 75012 Bernalda MT",
+        "lat":  40.4170,
+        "lon":  16.6940
+    },
+    {
+        "indirizzo abitazione":  "Via Mazzini, 20, 75012 Bernalda MT",
+        "lat":  40.4190,
+        "lon":  16.6960
+    },
+    {
+        "indirizzo abitazione":  "Via Cavour, 25, 75012 Bernalda MT",
+        "lat":  40.4210,
+        "lon":  16.6980
+    },
+    {
+        "indirizzo abitazione":  "Via Verdi, 30, 75012 Bernalda MT",
+        "lat":  40.4230,
+        "lon":  16.7000
+    },
+    {
+        "indirizzo abitazione":  "Via Dante, 35, 75012 Bernalda MT",
+        "lat":  40.4250,
+        "lon":  16.7020
+    },
+    {
+        "scuola":  "Scuola Media, Via Roma, 8, 75012 Bernalda MT",
+        "lat":  40.4155,
+        "lon":  16.6925
+    },
+    {
+        "impianto sportivo":  "Campo Sportivo, Via dello Sport, 1, 75012 Bernalda MT",
+        "lat":  40.4135,
+        "lon":  16.6905
+    },
+    {
+        "RSA":  "RSA Bernalda, Via Garibaldi, 10, 75012 Bernalda MT",
+        "lat":  40.4175,
+        "lon":  16.6945
+    },
+    {
+        "strada":  "SS7, km 380, 75012 Bernalda MT",
+        "lat":  40.4110,
+        "lon":  16.6880
+    },
+    {
+        "indirizzo abitazione":  "Via Roma, 5, 75020 Montescaglioso MT",
+        "lat":  40.5510,
+        "lon":  16.6650
+    },
+    {
+        "indirizzo abitazione":  "Via Garibaldi, 10, 75020 Montescaglioso MT",
+        "lat":  40.5530,
+        "lon":  16.6670
+    },
+    {
+        "indirizzo abitazione":  "Via Mazzini, 15, 75020 Montescaglioso MT",
+        "lat":  40.5550,
+        "lon":  16.6690
+    },
+    {
+        "indirizzo abitazione":  "Via Cavour, 20, 75020 Montescaglioso MT",
+        "lat":  40.5570,
+        "lon":  16.6710
+    },
+    {
+        "indirizzo abitazione":  "Via Verdi, 25, 75020 Montescaglioso MT",
+        "lat":  40.5590,
+        "lon":  16.6730
+    },
+    {
+        "scuola":  "Scuola Elementare, Via Roma, 8, 75020 Montescaglioso MT",
+        "lat":  40.5515,
+        "lon":  16.6655
+    },
+    {
+        "impianto sportivo":  "Campo Sportivo, Via dello Sport, 1, 75020 Montescaglioso MT",
+        "lat":  40.5515,
+        "lon":  16.6655
+    },
+    {
+        "strada":  "SS175, km 20, 75020 Montescaglioso MT",
+        "lat":  40.5490,
+        "lon":  16.6630
+    },
+    {
+        "indirizzo abitazione":  "Via Nazionale, 5, 75013 Ferrandina MT",
+        "lat":  40.5010,
+        "lon":  16.4550
+    },
+    {
+        "indirizzo abitazione":  "Via Roma, 10, 75013 Ferrandina MT",
+        "lat":  40.5030,
+        "lon":  16.4570
+    },
+    {
+        "indirizzo abitazione":  "Via Garibaldi, 15, 75013 Ferrandina MT",
+        "lat":  40.5050,
+        "lon":  16.4590
+    },
+    {
+        "indirizzo abitazione":  "Via Mazzini, 20, 75013 Ferrandina MT",
+        "lat":  40.5070,
+        "lon":  16.4610
+    },
+    {
+        "scuola":  "Scuola Media, Via Roma, 8, 75013 Ferrandina MT",
+        "lat":  40.5035,
+        "lon":  16.4575
+    },
+    {
+        "impianto sportivo":  "Campo Sportivo, Via dello Sport, 1, 75013 Ferrandina MT",
+        "lat":  40.5015,
+        "lon":  16.4555
+    },
+    {
+        "strada":  "SS407, km 10, 75013 Ferrandina MT",
+        "lat":  40.4990,
+        "lon":  16.4530
+    },
+    {
+        "indirizzo abitazione":  "Via Litoranea, 5, 75017 Scanzano Jonico MT",
+        "lat":  40.2490,
+        "lon":  16.6980
+    },
+    {
+        "indirizzo abitazione":  "Via Roma, 10, 75017 Scanzano Jonico MT",
+        "lat":  40.2510,
+        "lon":  16.7000
+    },
+    {
+        "indirizzo abitazione":  "Via Garibaldi, 15, 75017 Scanzano Jonico MT",
+        "lat":  40.2530,
+        "lon":  16.7020
+    },
+    {
+        "indirizzo abitazione":  "Via Mazzini, 20, 75017 Scanzano Jonico MT",
+        "lat":  40.2550,
+        "lon":  16.7040
+    },
+    {
+        "scuola":  "Scuola Elementare, Via Roma, 8, 75017 Scanzano Jonico MT",
+        "lat":  40.2515,
+        "lon":  16.7005
+    },
+    {
+        "impianto sportivo":  "Campo Sportivo, Via dello Sport, 1, 75017 Scanzano Jonico MT",
+        "lat":  40.2495,
+        "lon":  16.6985
+    },
+    {
+        "strada":  "SS106, km 420, 75017 Scanzano Jonico MT",
+        "lat":  40.2470,
+        "lon":  16.6960
+    },
+    {
+        "indirizzo abitazione":  "Via Nazionale, 5, 75013 Montalbano Jonico MT",
+        "lat":  40.2870,
+        "lon":  16.5700
+    },
+    {
+        "indirizzo abitazione":  "Via Roma, 10, 75013 Montalbano Jonico MT",
+        "lat":  40.2890,
+        "lon":  16.5720
+    },
+    {
+        "indirizzo abitazione":  "Via Garibaldi, 15, 75013 Montalbano Jonico MT",
+        "lat":  40.2910,
+        "lon":  16.5740
+    },
+    {
+        "indirizzo abitazione":  "Via Mazzini, 20, 75013 Montalbano Jonico MT",
+        "lat":  40.2930,
+        "lon":  16.5760
+    },
+    {
+        "scuola":  "Scuola Media, Via Roma, 8, 75013 Montalbano Jonico MT",
+        "lat":  40.2895,
+        "lon":  16.5725
+    },
+    {
+        "impianto sportivo":  "Campo Sportivo, Via dello Sport, 1, 75013 Montalbano Jonico MT",
+        "lat":  40.2875,
+        "lon":  16.5705
+    },
+    {
+        "strada":  "SS106, km 380, 75013 Montalbano Jonico MT",
+        "lat":  40.2850,
+        "lon":  16.5680
+    },
+    {
+        "indirizzo abitazione":  "Via Roma, 5, 85010 Tito PZ",
+        "lat":  40.5830,
+        "lon":  15.6750
+    },
+    {
+        "indirizzo abitazione":  "Via Garibaldi, 10, 85010 Tito PZ",
+        "lat":  40.5850,
+        "lon":  15.6770
+    },
+    {
+        "indirizzo abitazione":  "Via Mazzini, 15, 85010 Tito PZ",
+        "lat":  40.5870,
+        "lon":  15.6790
+    },
+    {
+        "indirizzo abitazione":  "Via Cavour, 20, 85010 Tito PZ",
+        "lat":  40.5890,
+        "lon":  15.6810
+    },
+    {
+        "scuola":  "Scuola Elementare, Via Roma, 8, 85010 Tito PZ",
+        "lat":  40.5835,
+        "lon":  15.6755
+    },
+    {
+        "impianto sportivo":  "Campo Sportivo, Via dello Sport, 1, 85010 Tito PZ",
+        "lat":  40.5835,
+        "lon":  15.6755
+    },
+    {
+        "strada":  "SS7, km 500, 85010 Tito PZ",
+        "lat":  40.5810,
+        "lon":  15.6730
+    },
+    {
+        "indirizzo abitazione":  "Via Nazionale, 5, 85010 Picerno PZ",
+        "lat":  40.6380,
+        "lon":  15.6400
+    },
+    {
+        "indirizzo abitazione":  "Via Roma, 10, 85010 Picerno PZ",
+        "lat":  40.6400,
+        "lon":  15.6420
+    },
+    {
+        "indirizzo abitazione":  "Via Garibaldi, 15, 85010 Picerno PZ",
+        "lat":  40.6420,
+        "lon":  15.6440
+    },
+    {
+        "scuola":  "Scuola Media, Via Roma, 8, 85010 Picerno PZ",
+        "lat":  40.6405,
+        "lon":  15.6425
+    },
+    {
+        "impianto sportivo":  "Campo Sportivo, Via dello Sport, 1, 85010 Picerno PZ",
+        "lat":  40.6385,
+        "lon":  15.6405
+    },
+    {
+        "RSA":  "RSA Picerno, Via Garibaldi, 10, 85010 Picerno PZ",
+        "lat":  40.6425,
+        "lon":  15.6445
+    },
+    {
+        "strada":  "SS96, km 10, 85010 Picerno PZ",
+        "lat":  40.6360,
+        "lon":  15.6380
+    },
+    {
+        "indirizzo abitazione":  "Via Roma, 5, 85010 Pignola PZ",
+        "lat":  40.5720,
+        "lon":  15.7860
+    },
+    {
+        "indirizzo abitazione":  "Via Garibaldi, 10, 85010 Pignola PZ",
+        "lat":  40.5740,
+        "lon":  15.7880
+    },
+    {
+        "indirizzo abitazione":  "Via Mazzini, 15, 85010 Pignola PZ",
+        "lat":  40.5760,
+        "lon":  15.7900
+    },
+    {
+        "scuola":  "Scuola Elementare, Via Roma, 8, 85010 Pignola PZ",
+        "lat":  40.5725,
+        "lon":  15.7865
+    },
+    {
+        "impianto sportivo":  "Campo Sportivo, Via dello Sport, 1, 85010 Pignola PZ",
+        "lat":  40.5725,
+        "lon":  15.7865
+    },
+    {
+        "RSA":  "RSA Pignola, Via Garibaldi, 12, 85010 Pignola PZ",
+        "lat":  40.5745,
+        "lon":  15.7885
+    },
+    {
+        "strada":  "SS95, km 5, 85010 Pignola PZ",
+        "lat":  40.5700,
+        "lon":  15.7840
+    },
+    {
+        "indirizzo abitazione":  "Via Nazionale, 5, 85010 Sant\u0027Arcangelo PZ",
+        "lat":  40.2470,
+        "lon":  15.8570
+    },
+    {
+        "indirizzo abitazione":  "Via Roma, 10, 85010 Sant\u0027Arcangelo PZ",
+        "lat":  40.2490,
+        "lon":  15.8590
+    },
+    {
+        "indirizzo abitazione":  "Via Garibaldi, 15, 85010 Sant\u0027Arcangelo PZ",
+        "lat":  40.2510,
+        "lon":  15.8610
+    },
+    {
+        "scuola":  "Scuola Media, Via Roma, 8, 85010 Sant\u0027Arcangelo PZ",
+        "lat":  40.2495,
+        "lon":  15.8595
+    },
+    {
+        "impianto sportivo":  "Campo Sportivo, Via dello Sport, 1, 85010 Sant\u0027Arcangelo PZ",
+        "lat":  40.2475,
+        "lon":  15.8575
+    },
+    {
+        "RSA":  "RSA Sant\u0027Arcangelo, Via Nazionale, 10, 85010 Sant\u0027Arcangelo PZ",
+        "lat":  40.2475,
+        "lon":  15.8575
+    },
+    {
+        "strada":  "SS585, km 20, 85010 Sant\u0027Arcangelo PZ",
+        "lat":  40.2450,
+        "lon":  15.8550
+    },
+    {
+        "indirizzo abitazione":  "Via Roma, 5, 85010 Senise PZ",
+        "lat":  40.1470,
+        "lon":  16.2880
+    },
+    {
+        "indirizzo abitazione":  "Via Garibaldi, 10, 85010 Senise PZ",
+        "lat":  40.1490,
+        "lon":  16.2900
+    },
+    {
+        "indirizzo abitazione":  "Via Mazzini, 15, 85010 Senise PZ",
+        "lat":  40.1510,
+        "lon":  16.2920
+    },
+    {
+        "scuola":  "Scuola Elementare, Via Roma, 8, 85010 Senise PZ",
+        "lat":  40.1475,
+        "lon":  16.2885
+    },
+    {
+        "impianto sportivo":  "Campo Sportivo, Via dello Sport, 1, 85010 Senise PZ",
+        "lat":  40.1475,
+        "lon":  16.2885
+    },
+    {
+        "strada":  "SS92, km 50, 85010 Senise PZ",
+        "lat":  40.1450,
+        "lon":  16.2860
+    },
+    {
+        "indirizzo abitazione":  "Via Nazionale, 5, 85010 Lagonegro PZ",
+        "lat":  40.1340,
+        "lon":  15.7600
+    },
+    {
+        "indirizzo abitazione":  "Via Roma, 10, 85010 Lagonegro PZ",
+        "lat":  40.1360,
+        "lon":  15.7620
+    },
+    {
+        "indirizzo abitazione":  "Via Garibaldi, 15, 85010 Lagonegro PZ",
+        "lat":  40.1380,
+        "lon":  15.7640
+    },
+    {
+        "scuola":  "Scuola Media, Via Roma, 8, 85010 Lagonegro PZ",
+        "lat":  40.1365,
+        "lon":  15.7625
+    },
+    {
+        "impianto sportivo":  "Campo Sportivo, Via dello Sport, 1, 85010 Lagonegro PZ",
+        "lat":  40.1345,
+        "lon":  15.7605
+    },
+    {
+        "strada":  "SS19, km 250, 85010 Lagonegro PZ",
+        "lat":  40.1320,
+        "lon":  15.7580
+    },
+    {
+        "indirizzo abitazione":  "Via Roma, 5, 85010 Maratea PZ",
+        "lat":  39.9900,
+        "lon":  15.7160
+    },
+    {
+        "indirizzo abitazione":  "Via Garibaldi, 10, 85010 Maratea PZ",
+        "lat":  39.9920,
+        "lon":  15.7180
+    },
+    {
+        "indirizzo abitazione":  "Via Mazzini, 15, 85010 Maratea PZ",
+        "lat":  39.9940,
+        "lon":  15.7200
+    },
+    {
+        "scuola":  "Scuola Elementare, Via Roma, 8, 85010 Maratea PZ",
+        "lat":  39.9905,
+        "lon":  15.7165
+    },
+    {
+        "impianto sportivo":  "Campo Sportivo, Via dello Sport, 1, 85010 Maratea PZ",
+        "lat":  39.9905,
+        "lon":  15.7165
+    },
+    {
+        "strada":  "SS18, km 300, 85010 Maratea PZ",
+        "lat":  39.9880,
+        "lon":  15.7140
+    },
+    {
+        "indirizzo abitazione":  "Via Nazionale, 5, 85010 Tolve PZ",
+        "lat":  40.6930,
+        "lon":  16.0190
+    },
+    {
+        "indirizzo abitazione":  "Via Roma, 10, 85010 Tolve PZ",
+        "lat":  40.6950,
+        "lon":  16.0210
+    },
+    {
+        "scuola":  "Scuola Elementare, Via Roma, 8, 85010 Tolve PZ",
+        "lat":  40.6955,
+        "lon":  16.0215
+    },
+    {
+        "impianto sportivo":  "Campo Sportivo, Via dello Sport, 1, 85010 Tolve PZ",
+        "lat":  40.6935,
+        "lon":  16.0195
+    },
+    {
+        "strada":  "SS7, km 550, 85010 Tolve PZ",
+        "lat":  40.6910,
+        "lon":  16.0170
+    },
+    {
+        "indirizzo abitazione":  "Via Roma, 5, 85010 Rapolla PZ",
+        "lat":  40.9750,
+        "lon":  15.6730
+    },
+    {
+        "indirizzo abitazione":  "Via Garibaldi, 10, 85010 Rapolla PZ",
+        "lat":  40.9770,
+        "lon":  15.6750
+    },
+    {
+        "scuola":  "Scuola Media, Via Roma, 8, 85010 Rapolla PZ",
+        "lat":  40.9755,
+        "lon":  15.6735
+    },
+    {
+        "impianto sportivo":  "Campo Sportivo, Via dello Sport, 1, 85010 Rapolla PZ",
+        "lat":  40.9755,
+        "lon":  15.6735
+    },
+    {
+        "strada":  "SS93, km 30, 85010 Rapolla PZ",
+        "lat":  40.9730,
+        "lon":  15.6710
+    },
+    {
+        "indirizzo abitazione":  "Via Nazionale, 5, 85010 Ruoti PZ",
+        "lat":  40.7170,
+        "lon":  15.6850
+    },
+    {
+        "indirizzo abitazione":  "Via Roma, 10, 85010 Ruoti PZ",
+        "lat":  40.7190,
+        "lon":  15.6870
+    },
+    {
+        "scuola":  "Scuola Elementare, Via Roma, 8, 85010 Ruoti PZ",
+        "lat":  40.7195,
+        "lon":  15.6875
+    },
+    {
+        "impianto sportivo":  "Campo Sportivo, Via dello Sport, 1, 85010 Ruoti PZ",
+        "lat":  40.7175,
+        "lon":  15.6855
+    },
+    {
+        "strada":  "SS95, km 15, 85010 Ruoti PZ",
+        "lat":  40.7150,
+        "lon":  15.6830
+    },
+    {
+        "indirizzo abitazione":  "Via Roma, 5, 85010 Bella PZ",
+        "lat":  40.7600,
+        "lon":  15.5370
+    },
+    {
+        "indirizzo abitazione":  "Via Garibaldi, 10, 85010 Bella PZ",
+        "lat":  40.7620,
+        "lon":  15.5390
+    },
+    {
+        "scuola":  "Scuola Media, Via Roma, 8, 85010 Bella PZ",
+        "lat":  40.7605,
+        "lon":  15.5375
+    },
+    {
+        "impianto sportivo":  "Campo Sportivo, Via dello Sport, 1, 85010 Bella PZ",
+        "lat":  40.7605,
+        "lon":  15.5375
+    },
+    {
+        "strada":  "SS276, km 5, 85010 Bella PZ",
+        "lat":  40.7580,
+        "lon":  15.5350
+    },
+    {
+        "indirizzo abitazione":  "Via Nazionale, 5, 85010 Balvano PZ",
+        "lat":  40.6490,
+        "lon":  15.5070
+    },
+    {
+        "indirizzo abitazione":  "Via Roma, 10, 85010 Balvano PZ",
+        "lat":  40.6510,
+        "lon":  15.5090
+    },
+    {
+        "scuola":  "Scuola Elementare, Via Roma, 8, 85010 Balvano PZ",
+        "lat":  40.6515,
+        "lon":  15.5095
+    },
+    {
+        "impianto sportivo":  "Campo Sportivo, Via dello Sport, 1, 85010 Balvano PZ",
+        "lat":  40.6495,
+        "lon":  15.5075
+    },
+    {
+        "strada":  "SS94, km 20, 85010 Balvano PZ",
+        "lat":  40.6470,
+        "lon":  15.5050
+    },
+    {
+        "indirizzo abitazione":  "Via Roma, 5, 85010 Atella PZ",
+        "lat":  40.8790,
+        "lon":  15.6510
+    },
+    {
+        "indirizzo abitazione":  "Via Garibaldi, 10, 85010 Atella PZ",
+        "lat":  40.8810,
+        "lon":  15.6530
+    },
+    {
+        "scuola":  "Scuola Media, Via Roma, 8, 85010 Atella PZ",
+        "lat":  40.8795,
+        "lon":  15.6515
+    },
+    {
+        "impianto sportivo":  "Campo Sportivo, Via dello Sport, 1, 85010 Atella PZ",
+        "lat":  40.8795,
+        "lon":  15.6515
+    },
+    {
+        "strada":  "SS658, km 5, 85010 Atella PZ",
+        "lat":  40.8770,
+        "lon":  15.6490
+    },
+    {
+        "indirizzo abitazione":  "Via Nazionale, 5, 85010 Baragiano PZ",
+        "lat":  40.6780,
+        "lon":  15.5970
+    },
+    {
+        "indirizzo abitazione":  "Via Roma, 10, 85010 Baragiano PZ",
+        "lat":  40.6800,
+        "lon":  15.5990
+    },
+    {
+        "scuola":  "Scuola Elementare, Via Roma, 8, 85010 Baragiano PZ",
+        "lat":  40.6805,
+        "lon":  15.5995
+    },
+    {
+        "impianto sportivo":  "Campo Sportivo, Via dello Sport, 1, 85010 Baragiano PZ",
+        "lat":  40.6785,
+        "lon":  15.5975
+    },
+    {
+        "strada":  "SS95, km 25, 85010 Baragiano PZ",
+        "lat":  40.6760,
+        "lon":  15.5950
+    },
+    {
+        "indirizzo abitazione":  "Via Roma, 5, 85010 Filiano PZ",
+        "lat":  40.8160,
+        "lon":  15.7030
+    },
+    {
+        "indirizzo abitazione":  "Via Garibaldi, 10, 85010 Filiano PZ",
+        "lat":  40.8180,
+        "lon":  15.7050
+    },
+    {
+        "scuola":  "Scuola Media, Via Roma, 8, 85010 Filiano PZ",
+        "lat":  40.8165,
+        "lon":  15.7035
+    },
+    {
+        "impianto sportivo":  "Campo Sportivo, Via dello Sport, 1, 85010 Filiano PZ",
+        "lat":  40.8165,
+        "lon":  15.7035
+    },
+    {
+        "strada":  "SS93, km 20, 85010 Filiano PZ",
+        "lat":  40.8140,
+        "lon":  15.7010
+    },
+    {
+        "indirizzo abitazione":  "Via Nazionale, 5, 85010 Forenza PZ",
+        "lat":  40.8580,
+        "lon":  15.8570
+    },
+    {
+        "indirizzo abitazione":  "Via Roma, 10, 85010 Forenza PZ",
+        "lat":  40.8600,
+        "lon":  15.8590
+    },
+    {
+        "scuola":  "Scuola Elementare, Via Roma, 8, 85010 Forenza PZ",
+        "lat":  40.8605,
+        "lon":  15.8595
+    },
+    {
+        "impianto sportivo":  "Campo Sportivo, Via dello Sport, 1, 85010 Forenza PZ",
+        "lat":  40.8585,
+        "lon":  15.8575
+    },
+    {
+        "strada":  "SS658, km 15, 85010 Forenza PZ",
+        "lat":  40.8560,
+        "lon":  15.8550
+    },
+    {
+        "indirizzo abitazione":  "Via Roma, 5, 85010 Acerenza PZ",
+        "lat":  40.7950,
+        "lon":  15.9430
+    },
+    {
+        "indirizzo abitazione":  "Via Garibaldi, 10, 85010 Acerenza PZ",
+        "lat":  40.7970,
+        "lon":  15.9450
+    },
+    {
+        "scuola":  "Scuola Media, Via Roma, 8, 85010 Acerenza PZ",
+        "lat":  40.7955,
+        "lon":  15.9435
+    },
+    {
+        "impianto sportivo":  "Campo Sportivo, Via dello Sport, 1, 85010 Acerenza PZ",
+        "lat":  40.7955,
+        "lon":  15.9435
+    },
+    {
+        "strada":  "SS96, km 30, 85010 Acerenza PZ",
+        "lat":  40.7930,
+        "lon":  15.9410
+    },
+    {
+        "indirizzo abitazione":  "Via Nazionale, 5, 85010 Genzano di Lucania PZ",
+        "lat":  40.8410,
+        "lon":  16.0290
+    },
+    {
+        "indirizzo abitazione":  "Via Roma, 10, 85010 Genzano di Lucania PZ",
+        "lat":  40.8430,
+        "lon":  16.0310
+    },
+    {
+        "scuola":  "Scuola Elementare, Via Roma, 8, 85010 Genzano di Lucania PZ",
+        "lat":  40.8435,
+        "lon":  16.0315
+    },
+    {
+        "impianto sportivo":  "Campo Sportivo, Via dello Sport, 1, 85010 Genzano di Lucania PZ",
+        "lat":  40.8415,
+        "lon":  16.0295
+    },
+    {
+        "strada":  "SS96, km 40, 85010 Genzano di Lucania PZ",
+        "lat":  40.8390,
+        "lon":  16.0270
+    },
+    {
+        "indirizzo abitazione":  "Via Roma, 5, 85010 Grumento Nova PZ",
+        "lat":  40.2840,
+        "lon":  15.8870
+    },
+    {
+        "indirizzo abitazione":  "Via Garibaldi, 10, 85010 Grumento Nova PZ",
+        "lat":  40.2860,
+        "lon":  15.8890
+    },
+    {
+        "scuola":  "Scuola Media, Via Roma, 8, 85010 Grumento Nova PZ",
+        "lat":  40.2845,
+        "lon":  15.8875
+    },
+    {
+        "impianto sportivo":  "Campo Sportivo, Via dello Sport, 1, 85010 Grumento Nova PZ",
+        "lat":  40.2845,
+        "lon":  15.8875
+    },
+    {
+        "strada":  "SS19, km 220, 85010 Grumento Nova PZ",
+        "lat":  40.2820,
+        "lon":  15.8850
+    },
+    {
+        "indirizzo abitazione":  "Via Nazionale, 5, 85010 Marsico Nuovo PZ",
+        "lat":  40.3730,
+        "lon":  15.7350
+    },
+    {
+        "indirizzo abitazione":  "Via Roma, 10, 85010 Marsico Nuovo PZ",
+        "lat":  40.3750,
+        "lon":  15.7370
+    },
+    {
+        "scuola":  "Scuola Elementare, Via Roma, 8, 85010 Marsico Nuovo PZ",
+        "lat":  40.3755,
+        "lon":  15.7375
+    },
+    {
+        "impianto sportivo":  "Campo Sportivo, Via dello Sport, 1, 85010 Marsico Nuovo PZ",
+        "lat":  40.3735,
+        "lon":  15.7355
+    },
+    {
+        "strada":  "SS95, km 35, 85010 Marsico Nuovo PZ",
+        "lat":  40.3710,
+        "lon":  15.7330
+    },
+    {
+        "indirizzo abitazione":  "Via Roma, 5, 85010 Moliterno PZ",
+        "lat":  40.2360,
+        "lon":  15.8630
+    },
+    {
+        "indirizzo abitazione":  "Via Garibaldi, 10, 85010 Moliterno PZ",
+        "lat":  40.2380,
+        "lon":  15.8650
+    },
+    {
+        "scuola":  "Scuola Media, Via Roma, 8, 85010 Moliterno PZ",
+        "lat":  40.2365,
+        "lon":  15.8635
+    },
+    {
+        "impianto sportivo":  "Campo Sportivo, Via dello Sport, 1, 85010 Moliterno PZ",
+        "lat":  40.2365,
+        "lon":  15.8635
+    },
+    {
+        "strada":  "SS19, km 240, 85010 Moliterno PZ",
+        "lat":  40.2340,
+        "lon":  15.8610
+    },
+    {
+        "indirizzo abitazione":  "Via Nazionale, 5, 85010 Montemurro PZ",
+        "lat":  40.2960,
+        "lon":  15.9820
+    },
+    {
+        "indirizzo abitazione":  "Via Roma, 10, 85010 Montemurro PZ",
+        "lat":  40.2980,
+        "lon":  15.9840
+    },
+    {
+        "scuola":  "Scuola Elementare, Via Roma, 8, 85010 Montemurro PZ",
+        "lat":  40.2985,
+        "lon":  15.9845
+    },
+    {
+        "impianto sportivo":  "Campo Sportivo, Via dello Sport, 1, 85010 Montemurro PZ",
+        "lat":  40.2965,
+        "lon":  15.9825
+    },
+    {
+        "strada":  "SS598, km 5, 85010 Montemurro PZ",
+        "lat":  40.2940,
+        "lon":  15.9800
+    },
+    {
+        "indirizzo abitazione":  "Via Roma, 5, 85010 Muro Lucano PZ",
+        "lat":  40.7550,
+        "lon":  15.4850
+    },
+    {
+        "indirizzo abitazione":  "Via Garibaldi, 10, 85010 Muro Lucano PZ",
+        "lat":  40.7570,
+        "lon":  15.4870
+    },
+    {
+        "scuola":  "Scuola Media, Via Roma, 8, 85010 Muro Lucano PZ",
+        "lat":  40.7555,
+        "lon":  15.4855
+    },
+    {
+        "impianto sportivo":  "Campo Sportivo, Via dello Sport, 1, 85010 Muro Lucano PZ",
+        "lat":  40.7555,
+        "lon":  15.4855
+    },
+    {
+        "strada":  "SS276, km 15, 85010 Muro Lucano PZ",
+        "lat":  40.7530,
+        "lon":  15.4830
+    },
+    {
+        "indirizzo abitazione":  "Via Nazionale, 5, 85010 Oppido Lucano PZ",
+        "lat":  40.7640,
+        "lon":  15.9910
+    },
+    {
+        "indirizzo abitazione":  "Via Roma, 10, 85010 Oppido Lucano PZ",
+        "lat":  40.7660,
+        "lon":  15.9930
+    },
+    {
+        "scuola":  "Scuola Elementare, Via Roma, 8, 85010 Oppido Lucano PZ",
+        "lat":  40.7665,
+        "lon":  15.9935
+    },
+    {
+        "impianto sportivo":  "Campo Sportivo, Via dello Sport, 1, 85010 Oppido Lucano PZ",
+        "lat":  40.7645,
+        "lon":  15.9915
+    },
+    {
+        "strada":  "SS96, km 50, 85010 Oppido Lucano PZ",
+        "lat":  40.7620,
+        "lon":  15.9890
+    },
+    {
+        "indirizzo abitazione":  "Via Roma, 5, 85010 Pescopagano PZ",
+        "lat":  40.8320,
+        "lon":  15.3970
+    },
+    {
+        "indirizzo abitazione":  "Via Garibaldi, 10, 85010 Pescopagano PZ",
+        "lat":  40.8340,
+        "lon":  15.3990
+    },
+    {
+        "scuola":  "Scuola Media, Via Roma, 8, 85010 Pescopagano PZ",
+        "lat":  40.8325,
+        "lon":  15.3975
+    },
+    {
+        "impianto sportivo":  "Campo Sportivo, Via dello Sport, 1, 85010 Pescopagano PZ",
+        "lat":  40.8325,
+        "lon":  15.3975
+    },
+    {
+        "strada":  "SS276, km 25, 85010 Pescopagano PZ",
+        "lat":  40.8300,
+        "lon":  15.3950
+    },
+    {
+        "indirizzo abitazione":  "Via Nazionale, 5, 85010 Pietragalla PZ",
+        "lat":  40.7450,
+        "lon":  15.8580
+    },
+    {
+        "indirizzo abitazione":  "Via Roma, 10, 85010 Pietragalla PZ",
+        "lat":  40.7470,
+        "lon":  15.8600
+    },
+    {
+        "scuola":  "Scuola Elementare, Via Roma, 8, 85010 Pietragalla PZ",
+        "lat":  40.7475,
+        "lon":  15.8605
+    },
+    {
+        "impianto sportivo":  "Campo Sportivo, Via dello Sport, 1, 85010 Pietragalla PZ",
+        "lat":  40.7455,
+        "lon":  15.8585
+    },
+    {
+        "strada":  "SS95, km 45, 85010 Pietragalla PZ",
+        "lat":  40.7430,
+        "lon":  15.8560
+    },
+    {
+        "indirizzo abitazione":  "Via Roma, 5, 85010 Pietrapertosa PZ",
+        "lat":  40.5180,
+        "lon":  16.0620
+    },
+    {
+        "indirizzo abitazione":  "Via Garibaldi, 10, 85010 Pietrapertosa PZ",
+        "lat":  40.5200,
+        "lon":  16.0640
+    },
+    {
+        "scuola":  "Scuola Media, Via Roma, 8, 85010 Pietrapertosa PZ",
+        "lat":  40.5185,
+        "lon":  16.0625
+    },
+    {
+        "impianto sportivo":  "Campo Sportivo, Via dello Sport, 1, 85010 Pietrapertosa PZ",
+        "lat":  40.5185,
+        "lon":  16.0625
+    },
+    {
+        "strada":  "SS407, km 20, 85010 Pietrapertosa PZ",
+        "lat":  40.5160,
+        "lon":  16.0600
+    },
+    {
+        "indirizzo abitazione":  "Via Nazionale, 5, 85010 Ripacandida PZ",
+        "lat":  40.9050,
+        "lon":  15.7260
+    },
+    {
+        "indirizzo abitazione":  "Via Roma, 10, 85010 Ripacandida PZ",
+        "lat":  40.9070,
+        "lon":  15.7280
+    },
+    {
+        "scuola":  "Scuola Elementare, Via Roma, 8, 85010 Ripacandida PZ",
+        "lat":  40.9075,
+        "lon":  15.7285
+    },
+    {
+        "impianto sportivo":  "Campo Sportivo, Via dello Sport, 1, 85010 Ripacandida PZ",
+        "lat":  40.9055,
+        "lon":  15.7265
+    },
+    {
+        "strada":  "SS93, km 45, 85010 Ripacandida PZ",
+        "lat":  40.9030,
+        "lon":  15.7240
+    },
+    {
+        "indirizzo abitazione":  "Via Roma, 5, 85010 Rivello PZ",
+        "lat":  40.0780,
+        "lon":  15.7560
+    },
+    {
+        "indirizzo abitazione":  "Via Garibaldi, 10, 85010 Rivello PZ",
+        "lat":  40.0800,
+        "lon":  15.7580
+    },
+    {
+        "scuola":  "Scuola Media, Via Roma, 8, 85010 Rivello PZ",
+        "lat":  40.0785,
+        "lon":  15.7565
+    },
+    {
+        "impianto sportivo":  "Campo Sportivo, Via dello Sport, 1, 85010 Rivello PZ",
+        "lat":  40.0785,
+        "lon":  15.7565
+    },
+    {
+        "strada":  "SS19, km 270, 85010 Rivello PZ",
+        "lat":  40.0760,
+        "lon":  15.7540
+    },
+    {
+        "indirizzo abitazione":  "Via Nazionale, 5, 85010 Roccanova PZ",
+        "lat":  40.2110,
+        "lon":  16.2010
+    },
+    {
+        "indirizzo abitazione":  "Via Roma, 10, 85010 Roccanova PZ",
+        "lat":  40.2130,
+        "lon":  16.2030
+    },
+    {
+        "scuola":  "Scuola Elementare, Via Roma, 8, 85010 Roccanova PZ",
+        "lat":  40.2135,
+        "lon":  16.2035
+    },
+    {
+        "impianto sportivo":  "Campo Sportivo, Via dello Sport, 1, 85010 Roccanova PZ",
+        "lat":  40.2115,
+        "lon":  16.2015
+    },
+    {
+        "strada":  "SS92, km 60, 85010 Roccanova PZ",
+        "lat":  40.2090,
+        "lon":  16.1990
+    },
+    {
+        "indirizzo abitazione":  "Via Roma, 5, 85010 Rotonda PZ",
+        "lat":  39.9520,
+        "lon":  16.0390
+    },
+    {
+        "indirizzo abitazione":  "Via Garibaldi, 10, 85010 Rotonda PZ",
+        "lat":  39.9540,
+        "lon":  16.0410
+    },
+    {
+        "scuola":  "Scuola Media, Via Roma, 8, 85010 Rotonda PZ",
+        "lat":  39.9525,
+        "lon":  16.0395
+    },
+    {
+        "impianto sportivo":  "Campo Sportivo, Via dello Sport, 1, 85010 Rotonda PZ",
+        "lat":  39.9525,
+        "lon":  16.0395
+    },
+    {
+        "strada":  "SS19, km 290, 85010 Rotonda PZ",
+        "lat":  39.9500,
+        "lon":  16.0370
+    },
+    {
+        "indirizzo abitazione":  "Via Nazionale, 5, 85010 San Chirico Nuovo PZ",
+        "lat":  40.6730,
+        "lon":  15.7790
+    },
+    {
+        "indirizzo abitazione":  "Via Roma, 10, 85010 San Chirico Nuovo PZ",
+        "lat":  40.6750,
+        "lon":  15.7810
+    },
+    {
+        "scuola":  "Scuola Elementare, Via Roma, 8, 85010 San Chirico Nuovo PZ",
+        "lat":  40.6755,
+        "lon":  15.7815
+    },
+    {
+        "impianto sportivo":  "Campo Sportivo, Via dello Sport, 1, 85010 San Chirico Nuovo PZ",
+        "lat":  40.6735,
+        "lon":  15.7795
+    },
+    {
+        "strada":  "SS95, km 55, 85010 San Chirico Nuovo PZ",
+        "lat":  40.6710,
+        "lon":  15.7770
+    },
+    {
+        "indirizzo abitazione":  "Via Roma, 5, 85010 San Chirico Raparo PZ",
+        "lat":  40.4880,
+        "lon":  16.1790
+    },
+    {
+        "indirizzo abitazione":  "Via Garibaldi, 10, 85010 San Chirico Raparo PZ",
+        "lat":  40.4900,
+        "lon":  16.1810
+    },
+    {
+        "scuola":  "Scuola Media, Via Roma, 8, 85010 San Chirico Raparo PZ",
+        "lat":  40.4885,
+        "lon":  16.1795
+    },
+    {
+        "impianto sportivo":  "Campo Sportivo, Via dello Sport, 1, 85010 San Chirico Raparo PZ",
+        "lat":  40.4885,
+        "lon":  16.1795
+    },
+    {
+        "strada":  "SS92, km 70, 85010 San Chirico Raparo PZ",
+        "lat":  40.4860,
+        "lon":  16.1770
+    },
+    {
+        "indirizzo abitazione":  "Via Nazionale, 5, 85010 San Fele PZ",
+        "lat":  40.8190,
+        "lon":  15.5370
+    },
+    {
+        "indirizzo abitazione":  "Via Roma, 10, 85010 San Fele PZ",
+        "lat":  40.8210,
+        "lon":  15.5390
+    },
+    {
+        "scuola":  "Scuola Elementare, Via Roma, 8, 85010 San Fele PZ",
+        "lat":  40.8215,
+        "lon":  15.5395
+    },
+    {
+        "impianto sportivo":  "Campo Sportivo, Via dello Sport, 1, 85010 San Fele PZ",
+        "lat":  40.8195,
+        "lon":  15.5375
+    },
+    {
+        "strada":  "SS658, km 25, 85010 San Fele PZ",
+        "lat":  40.8170,
+        "lon":  15.5350
+    },
+    {
+        "indirizzo abitazione":  "Via Roma, 5, 85010 San Martino d\u0027Agri PZ",
+        "lat":  40.2350,
+        "lon":  15.9870
+    },
+    {
+        "indirizzo abitazione":  "Via Garibaldi, 10, 85010 San Martino d\u0027Agri PZ",
+        "lat":  40.2370,
+        "lon":  15.9890
+    },
+    {
+        "scuola":  "Scuola Media, Via Roma, 8, 85010 San Martino d\u0027Agri PZ",
+        "lat":  40.2355,
+        "lon":  15.9875
+    },
+    {
+        "impianto sportivo":  "Campo Sportivo, Via dello Sport, 1, 85010 San Martino d\u0027Agri PZ",
+        "lat":  40.2355,
+        "lon":  15.9875
+    },
+    {
+        "strada":  "SS598, km 15, 85010 San Martino d\u0027Agri PZ",
+        "lat":  40.2330,
+        "lon":  15.9850
+    },
+    {
+        "indirizzo abitazione":  "Via Nazionale, 5, 85010 San Severino Lucano PZ",
+        "lat":  40.0220,
+        "lon":  16.1390
+    },
+    {
+        "indirizzo abitazione":  "Via Roma, 10, 85010 San Severino Lucano PZ",
+        "lat":  40.0240,
+        "lon":  16.1410
+    },
+    {
+        "scuola":  "Scuola Elementare, Via Roma, 8, 85010 San Severino Lucano PZ",
+        "lat":  40.0245,
+        "lon":  16.1415
+    },
+    {
+        "impianto sportivo":  "Campo Sportivo, Via dello Sport, 1, 85010 San Severino Lucano PZ",
+        "lat":  40.0225,
+        "lon":  16.1395
+    },
+    {
+        "strada":  "SS92, km 80, 85010 San Severino Lucano PZ",
+        "lat":  40.0200,
+        "lon":  16.1370
+    },
+    {
+        "indirizzo abitazione":  "Via Roma, 5, 85010 Sant\u0027Angelo Le Fratte PZ",
+        "lat":  40.5480,
+        "lon":  15.5610
+    },
+    {
+        "indirizzo abitazione":  "Via Garibaldi, 10, 85010 Sant\u0027Angelo Le Fratte PZ",
+        "lat":  40.5500,
+        "lon":  15.5630
+    },
+    {
+        "scuola":  "Scuola Media, Via Roma, 8, 85010 Sant\u0027Angelo Le Fratte PZ",
+        "lat":  40.5485,
+        "lon":  15.5615
+    },
+    {
+        "impianto sportivo":  "Campo Sportivo, Via dello Sport, 1, 85010 Sant\u0027Angelo Le Fratte PZ",
+        "lat":  40.5485,
+        "lon":  15.5615
+    },
+    {
+        "RSA":  "RSA Sant\u0027Angelo Le Fratte, Via Garibaldi, 12, 85010 Sant\u0027Angelo Le Fratte PZ",
+        "lat":  40.5505,
+        "lon":  15.5635
+    },
+    {
+        "strada":  "SS94, km 30, 85010 Sant\u0027Angelo Le Fratte PZ",
+        "lat":  40.5460,
+        "lon":  15.5590
+    },
+    {
+        "indirizzo abitazione":  "Via Nazionale, 5, 85010 Sant\u0027Arcangelo PZ",
+        "lat":  40.2420,
+        "lon":  15.8510
+    },
+    {
+        "indirizzo abitazione":  "Via Roma, 10, 85010 Sant\u0027Arcangelo PZ",
+        "lat":  40.2440,
+        "lon":  15.8530
+    },
+    {
+        "scuola":  "Scuola Elementare, Via Roma, 8, 85010 Sant\u0027Arcangelo PZ",
+        "lat":  40.2445,
+        "lon":  15.8535
+    },
+    {
+        "impianto sportivo":  "Campo Sportivo, Via dello Sport, 1, 85010 Sant\u0027Arcangelo PZ",
+        "lat":  40.2425,
+        "lon":  15.8515
+    },
+    {
+        "RSA":  "RSA Sant\u0027Arcangelo, Via Nazionale, 10, 85010 Sant\u0027Arcangelo PZ",
+        "lat":  40.2425,
+        "lon":  15.8515
+    },
+    {
+        "strada":  "SS585, km 30, 85010 Sant\u0027Arcangelo PZ",
+        "lat":  40.2400,
+        "lon":  15.8490
+    },
+    {
+        "indirizzo abitazione":  "Via Roma, 5, 85010 Sarconi PZ",
+        "lat":  40.2510,
+        "lon":  15.8890
+    },
+    {
+        "indirizzo abitazione":  "Via Garibaldi, 10, 85010 Sarconi PZ",
+        "lat":  40.2530,
+        "lon":  15.8910
+    },
+    {
+        "scuola":  "Scuola Media, Via Roma, 8, 85010 Sarconi PZ",
+        "lat":  40.2515,
+        "lon":  15.8895
+    },
+    {
+        "impianto sportivo":  "Campo Sportivo, Via dello Sport, 1, 85010 Sarconi PZ",
+        "lat":  40.2515,
+        "lon":  15.8895
+    },
+    {
+        "strada":  "SS19, km 260, 85010 Sarconi PZ",
+        "lat":  40.2490,
+        "lon":  15.8870
+    },
+    {
+        "indirizzo abitazione":  "Via Nazionale, 5, 85010 Sasso di Castalda PZ",
+        "lat":  40.4830,
+        "lon":  16.1550
+    },
+    {
+        "indirizzo abitazione":  "Via Roma, 10, 85010 Sasso di Castalda PZ",
+        "lat":  40.4850,
+        "lon":  16.1570
+    },
+    {
+        "scuola":  "Scuola Elementare, Via Roma, 8, 85010 Sasso di Castalda PZ",
+        "lat":  40.4855,
+        "lon":  16.1575
+    },
+    {
+        "impianto sportivo":  "Campo Sportivo, Via dello Sport, 1, 85010 Sasso di Castalda PZ",
+        "lat":  40.4835,
+        "lon":  16.1555
+    },
+    {
+        "strada":  "SS92, km 75, 85010 Sasso di Castalda PZ",
+        "lat":  40.4810,
+        "lon":  16.1530
+    },
+    {
+        "indirizzo abitazione":  "Via Roma, 5, 85010 Satriano di Lucania PZ",
+        "lat":  40.5430,
+        "lon":  16.4820
+    },
+    {
+        "indirizzo abitazione":  "Via Garibaldi, 10, 85010 Satriano di Lucania PZ",
+        "lat":  40.5450,
+        "lon":  16.4840
+    },
+    {
+        "scuola":  "Scuola Media, Via Roma, 8, 85010 Satriano di Lucania PZ",
+        "lat":  40.5435,
+        "lon":  16.4825
+    },
+    {
+        "impianto sportivo":  "Campo Sportivo, Via dello Sport, 1, 85010 Satriano di Lucania PZ",
+        "lat":  40.5435,
+        "lon":  16.4825
+    },
+    {
+        "strada":  "SS407, km 30, 85010 Satriano di Lucania PZ",
+        "lat":  40.5410,
+        "lon":  16.4800
+    },
+    {
+        "indirizzo abitazione":  "Via Nazionale, 5, 85010 Savoia di Lucania PZ",
+        "lat":  40.5650,
+        "lon":  15.5510
+    },
+    {
+        "indirizzo abitazione":  "Via Roma, 10, 85010 Savoia di Lucania PZ",
+        "lat":  40.5670,
+        "lon":  15.5530
+    },
+    {
+        "scuola":  "Scuola Elementare, Via Roma, 8, 85010 Savoia di Lucania PZ",
+        "lat":  40.5675,
+        "lon":  15.5535
+    },
+    {
+        "impianto sportivo":  "Campo Sportivo, Via dello Sport, 1, 85010 Savoia di Lucania PZ",
+        "lat":  40.5655,
+        "lon":  15.5515
+    },
+    {
+        "strada":  "SS94, km 40, 85010 Savoia di Lucania PZ",
+        "lat":  40.5630,
+        "lon":  15.5490
+    },
+    {
+        "indirizzo abitazione":  "Via Roma, 5, 85010 Spinoso PZ",
+        "lat":  40.2690,
+        "lon":  15.9630
+    },
+    {
+        "indirizzo abitazione":  "Via Garibaldi, 10, 85010 Spinoso PZ",
+        "lat":  40.2710,
+        "lon":  15.9650
+    },
+    {
+        "scuola":  "Scuola Media, Via Roma, 8, 85010 Spinoso PZ",
+        "lat":  40.2695,
+        "lon":  15.9635
+    },
+    {
+        "impianto sportivo":  "Campo Sportivo, Via dello Sport, 1, 85010 Spinoso PZ",
+        "lat":  40.2695,
+        "lon":  15.9635
+    },
+    {
+        "strada":  "SS598, km 25, 85010 Spinoso PZ",
+        "lat":  40.2670,
+        "lon":  15.9610
+    },
+    {
+        "indirizzo abitazione":  "Via Nazionale, 5, 85010 Teana PZ",
+        "lat":  39.7910,
+        "lon":  16.1790
+    },
+    {
+        "indirizzo abitazione":  "Via Roma, 10, 85010 Teana PZ",
+        "lat":  39.7930,
+        "lon":  16.1810
+    },
+    {
+        "scuola":  "Scuola Elementare, Via Roma, 8, 85010 Teana PZ",
+        "lat":  39.7935,
+        "lon":  16.1815
+    },
+    {
+        "impianto sportivo":  "Campo Sportivo, Via dello Sport, 1, 85010 Teana PZ",
+        "lat":  39.7915,
+        "lon":  16.1795
+    },
+    {
+        "strada":  "SS92, km 90, 85010 Teana PZ",
+        "lat":  39.7890,
+        "lon":  16.1770
+    },
+    {
+        "indirizzo abitazione":  "Via Roma, 5, 85010 Terranova di Pollino PZ",
+        "lat":  39.9790,
+        "lon":  16.3070
+    },
+    {
+        "indirizzo abitazione":  "Via Garibaldi, 10, 85010 Terranova di Pollino PZ",
+        "lat":  39.9810,
+        "lon":  16.3090
+    },
+    {
+        "scuola":  "Scuola Media, Via Roma, 8, 85010 Terranova di Pollino PZ",
+        "lat":  39.9795,
+        "lon":  16.3075
+    },
+    {
+        "impianto sportivo":  "Campo Sportivo, Via dello Sport, 1, 85010 Terranova di Pollino PZ",
+        "lat":  39.9795,
+        "lon":  16.3075
+    },
+    {
+        "strada":  "SS19, km 310, 85010 Terranova di Pollino PZ",
+        "lat":  39.9770,
+        "lon":  16.3050
+    },
+    {
+        "indirizzo abitazione":  "Via Nazionale, 5, 85010 Tramutola PZ",
+        "lat":  40.3160,
+        "lon":  15.7860
+    },
+    {
+        "indirizzo abitazione":  "Via Roma, 10, 85010 Tramutola PZ",
+        "lat":  40.3180,
+        "lon":  15.7880
+    },
+    {
+        "scuola":  "Scuola Elementare, Via Roma, 8, 85010 Tramutola PZ",
+        "lat":  40.3185,
+        "lon":  15.7885
+    },
+    {
+        "impianto sportivo":  "Campo Sportivo, Via dello Sport, 1, 85010 Tramutola PZ",
+        "lat":  40.3165,
+        "lon":  15.7865
+    },
+    {
+        "strada":  "SS19, km 280, 85010 Tramutola PZ",
+        "lat":  40.3140,
+        "lon":  15.7840
+    },
+    {
+        "indirizzo abitazione":  "Via Roma, 5, 85010 Trecchina PZ",
+        "lat":  40.0260,
+        "lon":  15.7730
+    },
+    {
+        "indirizzo abitazione":  "Via Garibaldi, 10, 85010 Trecchina PZ",
+        "lat":  40.0280,
+        "lon":  15.7750
+    },
+    {
+        "scuola":  "Scuola Media, Via Roma, 8, 85010 Trecchina PZ",
+        "lat":  40.0265,
+        "lon":  15.7735
+    },
+    {
+        "impianto sportivo":  "Campo Sportivo, Via dello Sport, 1, 85010 Trecchina PZ",
+        "lat":  40.0265,
+        "lon":  15.7735
+    },
+    {
+        "strada":  "SS19, km 300, 85010 Trecchina PZ",
+        "lat":  40.0240,
+        "lon":  15.7710
+    },
+    {
+        "indirizzo abitazione":  "Via Nazionale, 5, 85010 Trivigno PZ",
+        "lat":  40.5820,
+        "lon":  15.9930
+    },
+    {
+        "indirizzo abitazione":  "Via Roma, 10, 85010 Trivigno PZ",
+        "lat":  40.5840,
+        "lon":  15.9950
+    },
+    {
+        "scuola":  "Scuola Elementare, Via Roma, 8, 85010 Trivigno PZ",
+        "lat":  40.5845,
+        "lon":  15.9955
+    },
+    {
+        "impianto sportivo":  "Campo Sportivo, Via dello Sport, 1, 85010 Trivigno PZ",
+        "lat":  40.5825,
+        "lon":  15.9935
+    },
+    {
+        "strada":  "SS96, km 60, 85010 Trivigno PZ",
+        "lat":  40.5800,
+        "lon":  15.9910
+    },
+    {
+        "indirizzo abitazione":  "Via Roma, 5, 85010 Vaglio Basilicata PZ",
+        "lat":  40.6690,
+        "lon":  15.8930
+    },
+    {
+        "indirizzo abitazione":  "Via Garibaldi, 10, 85010 Vaglio Basilicata PZ",
+        "lat":  40.6710,
+        "lon":  15.8950
+    },
+    {
+        "scuola":  "Scuola Media, Via Roma, 8, 85010 Vaglio Basilicata PZ",
+        "lat":  40.6695,
+        "lon":  15.8935
+    },
+    {
+        "impianto sportivo":  "Campo Sportivo, Via dello Sport, 1, 85010 Vaglio Basilicata PZ",
+        "lat":  40.6695,
+        "lon":  15.8935
+    },
+    {
+        "strada":  "SS95, km 65, 85010 Vaglio Basilicata PZ",
+        "lat":  40.6670,
+        "lon":  15.8910
+    },
+    {
+        "indirizzo abitazione":  "Via Nazionale, 5, 85010 Vietri di Potenza PZ",
+        "lat":  40.5950,
+        "lon":  15.5070
+    },
+    {
+        "indirizzo abitazione":  "Via Roma, 10, 85010 Vietri di Potenza PZ",
+        "lat":  40.5970,
+        "lon":  15.5090
+    },
+    {
+        "scuola":  "Scuola Elementare, Via Roma, 8, 85010 Vietri di Potenza PZ",
+        "lat":  40.5975,
+        "lon":  15.5095
+    },
+    {
+        "impianto sportivo":  "Campo Sportivo, Via dello Sport, 1, 85010 Vietri di Potenza PZ",
+        "lat":  40.5955,
+        "lon":  15.5075
+    },
+    {
+        "strada":  "SS94, km 50, 85010 Vietri di Potenza PZ",
+        "lat":  40.5930,
+        "lon":  15.5050
+    },
+    {
+        "indirizzo abitazione":  "Via Roma, 5, 85010 Viggianello PZ",
+        "lat":  39.9730,
+        "lon":  16.0850
+    },
+    {
+        "indirizzo abitazione":  "Via Garibaldi, 10, 85010 Viggianello PZ",
+        "lat":  39.9750,
+        "lon":  16.0870
+    },
+    {
+        "scuola":  "Scuola Media, Via Roma, 8, 85010 Viggianello PZ",
+        "lat":  39.9735,
+        "lon":  16.0855
+    },
+    {
+        "impianto sportivo":  "Campo Sportivo, Via dello Sport, 1, 85010 Viggianello PZ",
+        "lat":  39.9735,
+        "lon":  16.0855
+    },
+    {
+        "strada":  "SS19, km 320, 85010 Viggianello PZ",
+        "lat":  39.9710,
+        "lon":  16.0830
+    },
+    {
+        "indirizzo abitazione":  "Via Nazionale, 5, 85010 Viggiano PZ",
+        "lat":  40.3410,
+        "lon":  15.8990
+    },
+    {
+        "indirizzo abitazione":  "Via Roma, 10, 85010 Viggiano PZ",
+        "lat":  40.3430,
+        "lon":  15.9010
+    },
+    {
+        "scuola":  "Scuola Elementare, Via Roma, 8, 85010 Viggiano PZ",
+        "lat":  40.3435,
+        "lon":  15.9015
+    },
+    {
+        "impianto sportivo":  "Campo Sportivo, Via dello Sport, 1, 85010 Viggiano PZ",
+        "lat":  40.3415,
+        "lon":  15.8995
+    },
+    {
+        "strada":  "SS19, km 270, 85010 Viggiano PZ",
+        "lat":  40.3390,
+        "lon":  15.8970
+    },
+    {
+        "indirizzo abitazione":  "Via Roma, 5, 85010 Ruvo del Monte PZ",
+        "lat":  40.8470,
+        "lon":  15.5350
+    },
+    {
+        "indirizzo abitazione":  "Via Garibaldi, 10, 85010 Ruvo del Monte PZ",
+        "lat":  40.8490,
+        "lon":  15.5370
+    },
+    {
+        "scuola":  "Scuola Media, Via Roma, 8, 85010 Ruvo del Monte PZ",
+        "lat":  40.8475,
+        "lon":  15.5355
+    },
+    {
+        "impianto sportivo":  "Campo Sportivo, Via dello Sport, 1, 85010 Ruvo del Monte PZ",
+        "lat":  40.8475,
+        "lon":  15.5355
+    },
+    {
+        "strada":  "SS658, km 35, 85010 Ruvo del Monte PZ",
+        "lat":  40.8450,
+        "lon":  15.5330
+    },
+    {
+        "indirizzo abitazione":  "Via Nazionale, 5, 85010 Palazzo San Gervasio PZ",
+        "lat":  40.9250,
+        "lon":  15.9820
+    },
+    {
+        "indirizzo abitazione":  "Via Roma, 10, 85010 Palazzo San Gervasio PZ",
+        "lat":  40.9270,
+        "lon":  15.9840
+    },
+    {
+        "scuola":  "Scuola Elementare, Via Roma, 8, 85010 Palazzo San Gervasio PZ",
+        "lat":  40.9275,
+        "lon":  15.9845
+    },
+    {
+        "impianto sportivo":  "Campo Sportivo, Via dello Sport, 1, 85010 Palazzo San Gervasio PZ",
+        "lat":  40.9255,
+        "lon":  15.9825
+    },
+    {
+        "strada":  "SS96, km 70, 85010 Palazzo San Gervasio PZ",
+        "lat":  40.9230,
+        "lon":  15.9800
+    },
+    {
+        "indirizzo abitazione":  "Via Roma, 5, 85010 Paterno PZ",
+        "lat":  40.3780,
+        "lon":  15.7370
+    },
+    {
+        "indirizzo abitazione":  "Via Garibaldi, 10, 85010 Paterno PZ",
+        "lat":  40.3800,
+        "lon":  15.7390
+    },
+    {
+        "scuola":  "Scuola Media, Via Roma, 8, 85010 Paterno PZ",
+        "lat":  40.3785,
+        "lon":  15.7375
+    },
+    {
+        "impianto sportivo":  "Campo Sportivo, Via dello Sport, 1, 85010 Paterno PZ",
+        "lat":  40.3785,
+        "lon":  15.7375
+    },
+    {
+        "strada":  "SS95, km 40, 85010 Paterno PZ",
+        "lat":  40.3760,
+        "lon":  15.7350
+    },
+    {
+        "indirizzo abitazione":  "Via Nazionale, 5, 85010 Episcopia PZ",
+        "lat":  40.0780,
+        "lon":  15.8220
+    },
+    {
+        "indirizzo abitazione":  "Via Roma, 10, 85010 Episcopia PZ",
+        "lat":  40.0800,
+        "lon":  15.8240
+    },
+    {
+        "scuola":  "Scuola Elementare, Via Roma, 8, 85010 Episcopia PZ",
+        "lat":  40.0805,
+        "lon":  15.8245
+    },
+    {
+        "impianto sportivo":  "Campo Sportivo, Via dello Sport, 1, 85010 Episcopia PZ",
+        "lat":  40.0785,
+        "lon":  15.8225
+    },
+    {
+        "strada":  "SS19, km 285, 85010 Episcopia PZ",
+        "lat":  40.0760,
+        "lon":  15.8200
+    },
+    {
+        "indirizzo abitazione":  "Via Roma, 5, 85010 Fardella PZ",
+        "lat":  40.1110,
+        "lon":  15.8330
+    },
+    {
+        "indirizzo abitazione":  "Via Garibaldi, 10, 85010 Fardella PZ",
+        "lat":  40.1130,
+        "lon":  15.8350
+    },
+    {
+        "scuola":  "Scuola Media, Via Roma, 8, 85010 Fardella PZ",
+        "lat":  40.1115,
+        "lon":  15.8335
+    },
+    {
+        "impianto sportivo":  "Campo Sportivo, Via dello Sport, 1, 85010 Fardella PZ",
+        "lat":  40.1115,
+        "lon":  15.8335
+    },
+    {
+        "strada":  "SS19, km 290, 85010 Fardella PZ",
+        "lat":  40.1090,
+        "lon":  15.8310
+    },
+    {
+        "indirizzo abitazione":  "Via Nazionale, 5, 85010 Francavilla in Sinni PZ",
+        "lat":  40.0810,
+        "lon":  16.2110
+    },
+    {
+        "indirizzo abitazione":  "Via Roma, 10, 85010 Francavilla in Sinni PZ",
+        "lat":  40.0830,
+        "lon":  16.2130
+    },
+    {
+        "scuola":  "Scuola Elementare, Via Roma, 8, 85010 Francavilla in Sinni PZ",
+        "lat":  40.0835,
+        "lon":  16.2135
+    },
+    {
+        "impianto sportivo":  "Campo Sportivo, Via dello Sport, 1, 85010 Francavilla in Sinni PZ",
+        "lat":  40.0815,
+        "lon":  16.2115
+    },
+    {
+        "strada":  "SS92, km 85, 85010 Francavilla in Sinni PZ",
+        "lat":  40.0790,
+        "lon":  16.2090
+    },
+    {
+        "indirizzo abitazione":  "Via Roma, 5, 85010 Gallicchio PZ",
+        "lat":  40.1190,
+        "lon":  15.8410
+    },
+    {
+        "indirizzo abitazione":  "Via Garibaldi, 10, 85010 Gallicchio PZ",
+        "lat":  40.1210,
+        "lon":  15.8430
+    },
+    {
+        "scuola":  "Scuola Media, Via Roma, 8, 85010 Gallicchio PZ",
+        "lat":  40.1195,
+        "lon":  15.8415
+    },
+    {
+        "impianto sportivo":  "Campo Sportivo, Via dello Sport, 1, 85010 Gallicchio PZ",
+        "lat":  40.1195,
+        "lon":  15.8415
+    },
+    {
+        "strada":  "SS19, km 295, 85010 Gallicchio PZ",
+        "lat":  40.1170,
+        "lon":  15.8390
+    },
+    {
+        "indirizzo abitazione":  "Via Nazionale, 5, 85010 Guardia Perticara PZ",
+        "lat":  40.3610,
+        "lon":  16.1010
+    },
+    {
+        "indirizzo abitazione":  "Via Roma, 10, 85010 Guardia Perticara PZ",
+        "lat":  40.3630,
+        "lon":  16.1030
+    },
+    {
+        "scuola":  "Scuola Elementare, Via Roma, 8, 85010 Guardia Perticara PZ",
+        "lat":  40.3635,
+        "lon":  16.1035
+    },
+    {
+        "impianto sportivo":  "Campo Sportivo, Via dello Sport, 1, 85010 Guardia Perticara PZ",
+        "lat":  40.3615,
+        "lon":  16.1015
+    },
+    {
+        "strada":  "SS598, km 35, 85010 Guardia Perticara PZ",
+        "lat":  40.3590,
+        "lon":  16.0990
+    },
+    {
+        "indirizzo abitazione":  "Via Roma, 5, 85010 Laurenzana PZ",
+        "lat":  40.4580,
+        "lon":  15.9710
+    },
+    {
+        "indirizzo abitazione":  "Via Garibaldi, 10, 85010 Laurenzana PZ",
+        "lat":  40.4600,
+        "lon":  15.9730
+    },
+    {
+        "scuola":  "Scuola Media, Via Roma, 8, 85010 Laurenzana PZ",
+        "lat":  40.4585,
+        "lon":  15.9715
+    },
+    {
+        "impianto sportivo":  "Campo Sportivo, Via dello Sport, 1, 85010 Laurenzana PZ",
+        "lat":  40.4585,
+        "lon":  15.9715
+    },
+    {
+        "strada":  "SS598, km 40, 85010 Laurenzana PZ",
+        "lat":  40.4560,
+        "lon":  15.9690
+    },
+    {
+        "indirizzo abitazione":  "Via Nazionale, 5, 85010 Latronico PZ",
+        "lat":  40.0880,
+        "lon":  16.0090
+    },
+    {
+        "indirizzo abitazione":  "Via Roma, 10, 85010 Latronico PZ",
+        "lat":  40.0900,
+        "lon":  16.0110
+    },
+    {
+        "scuola":  "Scuola Elementare, Via Roma, 8, 85010 Latronico PZ",
+        "lat":  40.0905,
+        "lon":  16.0115
+    },
+    {
+        "impianto sportivo":  "Campo Sportivo, Via dello Sport, 1, 85010 Latronico PZ",
+        "lat":  40.0885,
+        "lon":  16.0095
+    },
+    {
+        "strada":  "SS598, km 45, 85010 Latronico PZ",
+        "lat":  40.0860,
+        "lon":  16.0070
+    },
+    {
+        "indirizzo abitazione":  "Via Roma, 5, 85010 Marsicovetere PZ",
+        "lat":  40.3730,
+        "lon":  15.8270
+    },
+    {
+        "indirizzo abitazione":  "Via Garibaldi, 10, 85010 Marsicovetere PZ",
+        "lat":  40.3750,
+        "lon":  15.8290
+    },
+    {
+        "scuola":  "Scuola Media, Via Roma, 8, 85010 Marsicovetere PZ",
+        "lat":  40.3735,
+        "lon":  15.8275
+    },
+    {
+        "impianto sportivo":  "Campo Sportivo, Via dello Sport, 1, 85010 Marsicovetere PZ",
+        "lat":  40.3735,
+        "lon":  15.8275
+    },
+    {
+        "strada":  "SS95, km 50, 85010 Marsicovetere PZ",
+        "lat":  40.3710,
+        "lon":  15.8250
+    },
+    {
+        "indirizzo abitazione":  "Via Nazionale, 5, 85010 Missanello PZ",
+        "lat":  40.2890,
+        "lon":  16.1670
+    },
+    {
+        "indirizzo abitazione":  "Via Roma, 10, 85010 Missanello PZ",
+        "lat":  40.2910,
+        "lon":  16.1690
+    },
+    {
+        "scuola":  "Scuola Elementare, Via Roma, 8, 85010 Missanello PZ",
+        "lat":  40.2915,
+        "lon":  16.1695
+    },
+    {
+        "impianto sportivo":  "Campo Sportivo, Via dello Sport, 1, 85010 Missanello PZ",
+        "lat":  40.2895,
+        "lon":  16.1675
+    },
+    {
+        "strada":  "SS92, km 95, 85010 Missanello PZ",
+        "lat":  40.2870,
+        "lon":  16.1650
+    },
+    {
+        "indirizzo abitazione":  "Via Roma, 5, 85010 Noepoli PZ",
+        "lat":  40.0880,
+        "lon":  16.3270
+    },
+    {
+        "indirizzo abitazione":  "Via Garibaldi, 10, 85010 Noepoli PZ",
+        "lat":  40.0900,
+        "lon":  16.3290
+    },
+    {
+        "scuola":  "Scuola Media, Via Roma, 8, 85010 Noepoli PZ",
+        "lat":  40.0885,
+        "lon":  16.3275
+    },
+    {
+        "impianto sportivo":  "Campo Sportivo, Via dello Sport, 1, 85010 Noepoli PZ",
+        "lat":  40.0885,
+        "lon":  16.3275
+    },
+    {
+        "strada":  "SS92, km 100, 85010 Noepoli PZ",
+        "lat":  40.0860,
+        "lon":  16.3250
+    },
+    {
+        "indirizzo abitazione":  "Via Nazionale, 5, 85010 Castronuovo di Sant\u0027Andrea PZ",
+        "lat":  39.2830,
+        "lon":  16.1890
+    },
+    {
+        "indirizzo abitazione":  "Via Roma, 10, 85010 Castronuovo di Sant\u0027Andrea PZ",
+        "lat":  39.2850,
+        "lon":  16.1910
+    },
+    {
+        "scuola":  "Scuola Elementare, Via Roma, 8, 85010 Castronuovo di Sant\u0027Andrea PZ",
+        "lat":  39.2855,
+        "lon":  16.1915
+    },
+    {
+        "impianto sportivo":  "Campo Sportivo, Via dello Sport, 1, 85010 Castronuovo di Sant\u0027Andrea PZ",
+        "lat":  39.2835,
+        "lon":  16.1895
+    },
+    {
+        "strada":  "SS19, km 330, 85010 Castronuovo di Sant\u0027Andrea PZ",
+        "lat":  39.2810,
+        "lon":  16.1870
+    },
+    {
+        "indirizzo abitazione":  "Via Roma, 5, 85010 Cersosimo PZ",
+        "lat":  40.0580,
+        "lon":  16.3510
+    },
+    {
+        "indirizzo abitazione":  "Via Garibaldi, 10, 85010 Cersosimo PZ",
+        "lat":  40.0600,
+        "lon":  16.3530
+    },
+    {
+        "scuola":  "Scuola Media, Via Roma, 8, 85010 Cersosimo PZ",
+        "lat":  40.0585,
+        "lon":  16.3515
+    },
+    {
+        "impianto sportivo":  "Campo Sportivo, Via dello Sport, 1, 85010 Cersosimo PZ",
+        "lat":  40.0585,
+        "lon":  16.3515
+    },
+    {
+        "strada":  "SS92, km 105, 85010 Cersosimo PZ",
+        "lat":  40.0560,
+        "lon":  16.3490
+    },
+    {
+        "indirizzo abitazione":  "Via Nazionale, 5, 85010 Chiaromonte PZ",
+        "lat":  40.1230,
+        "lon":  15.9430
+    },
+    {
+        "indirizzo abitazione":  "Via Roma, 10, 85010 Chiaromonte PZ",
+        "lat":  40.1250,
+        "lon":  15.9450
+    },
+    {
+        "scuola":  "Scuola Elementare, Via Roma, 8, 85010 Chiaromonte PZ",
+        "lat":  40.1255,
+        "lon":  15.9455
+    },
+    {
+        "impianto sportivo":  "Campo Sportivo, Via dello Sport, 1, 85010 Chiaromonte PZ",
+        "lat":  40.1235,
+        "lon":  15.9435
+    },
+    {
+        "strada":  "SS19, km 305, 85010 Chiaromonte PZ",
+        "lat":  40.1210,
+        "lon":  15.9410
+    },
+    {
+        "indirizzo abitazione":  "Via Roma, 5, 85010 Corleto Perticara PZ",
+        "lat":  40.3830,
+        "lon":  16.0430
+    },
+    {
+        "indirizzo abitazione":  "Via Garibaldi, 10, 85010 Corleto Perticara PZ",
+        "lat":  40.3850,
+        "lon":  16.0450
+    },
+    {
+        "scuola":  "Scuola Media, Via Roma, 8, 85010 Corleto Perticara PZ",
+        "lat":  40.3835,
+        "lon":  16.0435
+    },
+    {
+        "impianto sportivo":  "Campo Sportivo, Via dello Sport, 1, 85010 Corleto Perticara PZ",
+        "lat":  40.3835,
+        "lon":  16.0435
+    },
+    {
+        "strada":  "SS598, km 50, 85010 Corleto Perticara PZ",
+        "lat":  40.3810,
+        "lon":  16.0410
+    },
+    {
+        "indirizzo abitazione":  "Via Nazionale, 5, 85010 Castelgrande PZ",
+        "lat":  40.7830,
+        "lon":  15.6290
+    },
+    {
+        "indirizzo abitazione":  "Via Roma, 10, 85010 Castelgrande PZ",
+        "lat":  40.7850,
+        "lon":  15.6310
+    },
+    {
+        "scuola":  "Scuola Elementare, Via Roma, 8, 85010 Castelgrande PZ",
+        "lat":  40.7855,
+        "lon":  15.6315
+    },
+    {
+        "impianto sportivo":  "Campo Sportivo, Via dello Sport, 1, 85010 Castelgrande PZ",
+        "lat":  40.7835,
+        "lon":  15.6295
+    },
+    {
+        "strada":  "SS658, km 40, 85010 Castelgrande PZ",
+        "lat":  40.7810,
+        "lon":  15.6270
+    },
+    {
+        "indirizzo abitazione":  "Via Roma, 5, 85010 Castelluccio Inferiore PZ",
+        "lat":  39.9930,
+        "lon":  15.9810
+    },
+    {
+        "indirizzo abitazione":  "Via Garibaldi, 10, 85010 Castelluccio Inferiore PZ",
+        "lat":  39.9950,
+        "lon":  15.9830
+    },
+    {
+        "scuola":  "Scuola Media, Via Roma, 8, 85010 Castelluccio Inferiore PZ",
+        "lat":  39.9935,
+        "lon":  15.9815
+    },
+    {
+        "impianto sportivo":  "Campo Sportivo, Via dello Sport, 1, 85010 Castelluccio Inferiore PZ",
+        "lat":  39.9935,
+        "lon":  15.9815
+    },
+    {
+        "strada":  "SS19, km 315, 85010 Castelluccio Inferiore PZ",
+        "lat":  39.9910,
+        "lon":  15.9790
+    },
+    {
+        "indirizzo abitazione":  "Via Nazionale, 5, 85010 Castelluccio Superiore PZ",
+        "lat":  40.0090,
+        "lon":  15.9870
+    },
+    {
+        "indirizzo abitazione":  "Via Roma, 10, 85010 Castelluccio Superiore PZ",
+        "lat":  40.0110,
+        "lon":  15.9890
+    },
+    {
+        "scuola":  "Scuola Elementare, Via Roma, 8, 85010 Castelluccio Superiore PZ",
+        "lat":  40.0115,
+        "lon":  15.9895
+    },
+    {
+        "impianto sportivo":  "Campo Sportivo, Via dello Sport, 1, 85010 Castelluccio Superiore PZ",
+        "lat":  40.0095,
+        "lon":  15.9875
+    },
+    {
+        "strada":  "SS19, km 318, 85010 Castelluccio Superiore PZ",
+        "lat":  40.0070,
+        "lon":  15.9850
+    },
+    {
+        "indirizzo abitazione":  "Via Roma, 5, 85010 Castelsaraceno PZ",
+        "lat":  40.1590,
+        "lon":  15.9790
+    },
+    {
+        "indirizzo abitazione":  "Via Garibaldi, 10, 85010 Castelsaraceno PZ",
+        "lat":  40.1610,
+        "lon":  15.9810
+    },
+    {
+        "scuola":  "Scuola Media, Via Roma, 8, 85010 Castelsaraceno PZ",
+        "lat":  40.1595,
+        "lon":  15.9795
+    },
+    {
+        "impianto sportivo":  "Campo Sportivo, Via dello Sport, 1, 85010 Castelsaraceno PZ",
+        "lat":  40.1595,
+        "lon":  15.9795
+    },
+    {
+        "strada":  "SS598, km 55, 85010 Castelsaraceno PZ",
+        "lat":  40.1570,
+        "lon":  15.9770
+    },
+    {
+        "indirizzo abitazione":  "Via Nazionale, 5, 85010 Maschito PZ",
+        "lat":  41.0000,
+        "lon":  15.8270
+    },
+    {
+        "indirizzo abitazione":  "Via Roma, 10, 85010 Maschito PZ",
+        "lat":  41.0020,
+        "lon":  15.8290
+    },
+    {
+        "scuola":  "Scuola Elementare, Via Roma, 8, 85010 Maschito PZ",
+        "lat":  41.0025,
+        "lon":  15.8295
+    },
+    {
+        "impianto sportivo":  "Campo Sportivo, Via dello Sport, 1, 85010 Maschito PZ",
+        "lat":  41.0005,
+        "lon":  15.8275
+    },
+    {
+        "strada":  "SS93, km 55, 85010 Maschito PZ",
+        "lat":  40.9980,
+        "lon":  15.8250
+    },
+    {
+        "indirizzo abitazione":  "Via Roma, 5, 85010 Ginestra PZ",
+        "lat":  40.9290,
+        "lon":  15.7410
+    },
+    {
+        "indirizzo abitazione":  "Via Garibaldi, 10, 85010 Ginestra PZ",
+        "lat":  40.9310,
+        "lon":  15.7430
+    },
+    {
+        "scuola":  "Scuola Media, Via Roma, 8, 85010 Ginestra PZ",
+        "lat":  40.9295,
+        "lon":  15.7415
+    },
+    {
+        "impianto sportivo":  "Campo Sportivo, Via dello Sport, 1, 85010 Ginestra PZ",
+        "lat":  40.9295,
+        "lon":  15.7415
+    },
+    {
+        "strada":  "SS93, km 60, 85010 Ginestra PZ",
+        "lat":  40.9270,
+        "lon":  15.7390
+    },
+    {
+        "indirizzo abitazione":  "Via Nazionale, 5, 85010 San Costantino Albanese PZ",
+        "lat":  40.0320,
+        "lon":  16.2930
+    },
+    {
+        "indirizzo abitazione":  "Via Roma, 10, 85010 San Costantino Albanese PZ",
+        "lat":  40.0340,
+        "lon":  16.2950
+    },
+    {
+        "scuola":  "Scuola Elementare, Via Roma, 8, 85010 San Costantino Albanese PZ",
+        "lat":  40.0345,
+        "lon":  16.2955
+    },
+    {
+        "impianto sportivo":  "Campo Sportivo, Via dello Sport, 1, 85010 San Costantino Albanese PZ",
+        "lat":  40.0325,
+        "lon":  16.2935
+    },
+    {
+        "strada":  "SS92, km 110, 85010 San Costantino Albanese PZ",
+        "lat":  40.0300,
+        "lon":  16.2910
+    },
+    {
+        "indirizzo abitazione":  "Via Roma, 5, 85010 San Paolo Albanese PZ",
+        "lat":  40.0380,
+        "lon":  16.3110
+    },
+    {
+        "indirizzo abitazione":  "Via Garibaldi, 10, 85010 San Paolo Albanese PZ",
+        "lat":  40.0400,
+        "lon":  16.3130
+    },
+    {
+        "scuola":  "Scuola Media, Via Roma, 8, 85010 San Paolo Albanese PZ",
+        "lat":  40.0385,
+        "lon":  16.3115
+    },
+    {
+        "impianto sportivo":  "Campo Sportivo, Via dello Sport, 1, 85010 San Paolo Albanese PZ",
+        "lat":  40.0385,
+        "lon":  16.3115
+    },
+    {
+        "strada":  "SS92, km 115, 85010 San Paolo Albanese PZ",
+        "lat":  40.0360,
+        "lon":  16.3090
+    },
+    {
+        "indirizzo abitazione":  "Via Nazionale, 5, 85010 Barile PZ",
+        "lat":  40.9470,
+        "lon":  15.6710
+    },
+    {
+        "indirizzo abitazione":  "Via Roma, 10, 85010 Barile PZ",
+        "lat":  40.9490,
+        "lon":  15.6730
+    },
+    {
+        "scuola":  "Scuola Elementare, Via Roma, 8, 85010 Barile PZ",
+        "lat":  40.9495,
+        "lon":  15.6735
+    },
+    {
+        "impianto sportivo":  "Campo Sportivo, Via dello Sport, 1, 85010 Barile PZ",
+        "lat":  40.9475,
+        "lon":  15.6715
+    },
+    {
+        "strada":  "SS93, km 65, 85010 Barile PZ",
+        "lat":  40.9450,
+        "lon":  15.6690
+    },
+    {
+        "indirizzo abitazione":  "Via Roma, 5, 85010 Anzi PZ",
+        "lat":  40.5180,
+        "lon":  15.9240
+    },
+    {
+        "indirizzo abitazione":  "Via Garibaldi, 10, 85010 Anzi PZ",
+        "lat":  40.5200,
+        "lon":  15.9260
+    },
+    {
+        "scuola":  "Scuola Media, Via Roma, 8, 85010 Anzi PZ",
+        "lat":  40.5185,
+        "lon":  15.9245
+    },
+    {
+        "impianto sportivo":  "Campo Sportivo, Via dello Sport, 1, 85010 Anzi PZ",
+        "lat":  40.5185,
+        "lon":  15.9245
+    },
+    {
+        "strada":  "SS598, km 60, 85010 Anzi PZ",
+        "lat":  40.5160,
+        "lon":  15.9220
+    },
+    {
+        "indirizzo abitazione":  "Via Nazionale, 5, 85010 Armento PZ",
+        "lat":  40.3070,
+        "lon":  16.0610
+    },
+    {
+        "indirizzo abitazione":  "Via Roma, 10, 85010 Armento PZ",
+        "lat":  40.3090,
+        "lon":  16.0630
+    },
+    {
+        "scuola":  "Scuola Elementare, Via Roma, 8, 85010 Armento PZ",
+        "lat":  40.3095,
+        "lon":  16.0635
+    },
+    {
+        "impianto sportivo":  "Campo Sportivo, Via dello Sport, 1, 85010 Armento PZ",
+        "lat":  40.3075,
+        "lon":  16.0615
+    },
+    {
+        "strada":  "SS598, km 65, 85010 Armento PZ",
+        "lat":  40.3050,
+        "lon":  16.0590
+    },
+    {
+        "indirizzo abitazione":  "Via Roma, 5, 85010 Albano di Lucania PZ",
+        "lat":  40.5880,
+        "lon":  16.0370
+    },
+    {
+        "indirizzo abitazione":  "Via Garibaldi, 10, 85010 Albano di Lucania PZ",
+        "lat":  40.5900,
+        "lon":  16.0390
+    },
+    {
+        "scuola":  "Scuola Media, Via Roma, 8, 85010 Albano di Lucania PZ",
+        "lat":  40.5885,
+        "lon":  16.0375
+    },
+    {
+        "impianto sportivo":  "Campo Sportivo, Via dello Sport, 1, 85010 Albano di Lucania PZ",
+        "lat":  40.5885,
+        "lon":  16.0375
+    },
+    {
+        "strada":  "SS96, km 80, 85010 Albano di Lucania PZ",
+        "lat":  40.5860,
+        "lon":  16.0350
+    },
+    {
+        "indirizzo abitazione":  "Via Nazionale, 5, 85010 Brienza PZ",
+        "lat":  40.4780,
+        "lon":  15.6280
+    },
+    {
+        "indirizzo abitazione":  "Via Roma, 10, 85010 Brienza PZ",
+        "lat":  40.4800,
+        "lon":  15.6300
+    },
+    {
+        "scuola":  "Scuola Elementare, Via Roma, 8, 85010 Brienza PZ",
+        "lat":  40.4805,
+        "lon":  15.6305
+    },
+    {
+        "impianto sportivo":  "Campo Sportivo, Via dello Sport, 1, 85010 Brienza PZ",
+        "lat":  40.4785,
+        "lon":  15.6285
+    },
+    {
+        "strada":  "SS95, km 60, 85010 Brienza PZ",
+        "lat":  40.4760,
+        "lon":  15.6260
+    },
+    {
+        "indirizzo abitazione":  "Via Roma, 5, 85010 Brindisi Montagna PZ",
+        "lat":  40.6180,
+        "lon":  15.9470
+    },
+    {
+        "indirizzo abitazione":  "Via Garibaldi, 10, 85010 Brindisi Montagna PZ",
+        "lat":  40.6200,
+        "lon":  15.9490
+    },
+    {
+        "scuola":  "Scuola Media, Via Roma, 8, 85010 Brindisi Montagna PZ",
+        "lat":  40.6185,
+        "lon":  15.9475
+    },
+    {
+        "impianto sportivo":  "Campo Sportivo, Via dello Sport, 1, 85010 Brindisi Montagna PZ",
+        "lat":  40.6185,
+        "lon":  15.9475
+    },
+    {
+        "strada":  "SS96, km 85, 85010 Brindisi Montagna PZ",
+        "lat":  40.6160,
+        "lon":  15.9450
+    },
+    {
+        "indirizzo abitazione":  "Via Nazionale, 5, 85010 Calvello PZ",
+        "lat":  40.4730,
+        "lon":  15.8570
+    },
+    {
+        "indirizzo abitazione":  "Via Roma, 10, 85010 Calvello PZ",
+        "lat":  40.4750,
+        "lon":  15.8590
+    },
+    {
+        "scuola":  "Scuola Elementare, Via Roma, 8, 85010 Calvello PZ",
+        "lat":  40.4755,
+        "lon":  15.8595
+    },
+    {
+        "impianto sportivo":  "Campo Sportivo, Via dello Sport, 1, 85010 Calvello PZ",
+        "lat":  40.4735,
+        "lon":  15.8575
+    },
+    {
+        "strada":  "SS95, km 65, 85010 Calvello PZ",
+        "lat":  40.4710,
+        "lon":  15.8550
+    },
+    {
+        "indirizzo abitazione":  "Via Roma, 5, 85010 Calvera PZ",
+        "lat":  40.1480,
+        "lon":  15.7430
+    },
+    {
+        "indirizzo abitazione":  "Via Garibaldi, 10, 85010 Calvera PZ",
+        "lat":  40.1500,
+        "lon":  15.7450
+    },
+    {
+        "scuola":  "Scuola Media, Via Roma, 8, 85010 Calvera PZ",
+        "lat":  40.1485,
+        "lon":  15.7435
+    },
+    {
+        "impianto sportivo":  "Campo Sportivo, Via dello Sport, 1, 85010 Calvera PZ",
+        "lat":  40.1485,
+        "lon":  15.7435
+    },
+    {
+        "strada":  "SS19, km 275, 85010 Calvera PZ",
+        "lat":  40.1460,
+        "lon":  15.7410
+    },
+    {
+        "indirizzo abitazione":  "Via Nazionale, 5, 85010 Campomaggiore PZ",
+        "lat":  39.5620,
+        "lon":  16.0720
+    },
+    {
+        "indirizzo abitazione":  "Via Roma, 10, 85010 Campomaggiore PZ",
+        "lat":  39.5640,
+        "lon":  16.0740
+    },
+    {
+        "scuola":  "Scuola Elementare, Via Roma, 8, 85010 Campomaggiore PZ",
+        "lat":  39.5645,
+        "lon":  16.0745
+    },
+    {
+        "impianto sportivo":  "Campo Sportivo, Via dello Sport, 1, 85010 Campomaggiore PZ",
+        "lat":  39.5625,
+        "lon":  16.0725
+    },
+    {
+        "strada":  "SS19, km 340, 85010 Campomaggiore PZ",
+        "lat":  39.5600,
+        "lon":  16.0700
+    },
+    {
+        "indirizzo abitazione":  "Via Roma, 5, 85010 Cancellara PZ",
+        "lat":  40.7300,
+        "lon":  15.9250
+    },
+    {
+        "indirizzo abitazione":  "Via Garibaldi, 10, 85010 Cancellara PZ",
+        "lat":  40.7320,
+        "lon":  15.9270
+    },
+    {
+        "scuola":  "Scuola Media, Via Roma, 8, 85010 Cancellara PZ",
+        "lat":  40.7305,
+        "lon":  15.9255
+    },
+    {
+        "impianto sportivo":  "Campo Sportivo, Via dello Sport, 1, 85010 Cancellara PZ",
+        "lat":  40.7305,
+        "lon":  15.9255
+    },
+    {
+        "strada":  "SS96, km 90, 85010 Cancellara PZ",
+        "lat":  40.7280,
+        "lon":  15.9230
+    },
+    {
+        "indirizzo abitazione":  "Via Nazionale, 5, 85010 Carbone PZ",
+        "lat":  40.1430,
+        "lon":  15.7170
+    },
+    {
+        "indirizzo abitazione":  "Via Roma, 10, 85010 Carbone PZ",
+        "lat":  40.1450,
+        "lon":  15.7190
+    },
+    {
+        "scuola":  "Scuola Elementare, Via Roma, 8, 85010 Carbone PZ",
+        "lat":  40.1455,
+        "lon":  15.7195
+    },
+    {
+        "impianto sportivo":  "Campo Sportivo, Via dello Sport, 1, 85010 Carbone PZ",
+        "lat":  40.1435,
+        "lon":  15.7175
+    },
+    {
+        "strada":  "SS19, km 280, 85010 Carbone PZ",
+        "lat":  40.1410,
+        "lon":  15.7150
+    },
+    {
+        "indirizzo abitazione":  "Via Roma, 5, 85010 Castelmezzano PZ",
+        "lat":  40.5290,
+        "lon":  16.0470
+    },
+    {
+        "indirizzo abitazione":  "Via Garibaldi, 10, 85010 Castelmezzano PZ",
+        "lat":  40.5310,
+        "lon":  16.0490
+    },
+    {
+        "scuola":  "Scuola Media, Via Roma, 8, 85010 Castelmezzano PZ",
+        "lat":  40.5295,
+        "lon":  16.0475
+    },
+    {
+        "impianto sportivo":  "Campo Sportivo, Via dello Sport, 1, 85010 Castelmezzano PZ",
+        "lat":  40.5295,
+        "lon":  16.0475
+    },
+    {
+        "strada":  "SS407, km 20, 85010 Castelmezzano PZ",
+        "lat":  40.5270,
+        "lon":  16.0450
+    },
+    {
+        "indirizzo abitazione":  "Via Nazionale, 5, 85010 Montemilone PZ",
+        "lat":  41.0280,
+        "lon":  15.9630
+    },
+    {
+        "indirizzo abitazione":  "Via Roma, 10, 85010 Montemilone PZ",
+        "lat":  41.0300,
+        "lon":  15.9650
+    },
+    {
+        "scuola":  "Scuola Elementare, Via Roma, 8, 85010 Montemilone PZ",
+        "lat":  41.0305,
+        "lon":  15.9655
+    },
+    {
+        "impianto sportivo":  "Campo Sportivo, Via dello Sport, 1, 85010 Montemilone PZ",
+        "lat":  41.0285,
+        "lon":  15.9635
+    },
+    {
+        "strada":  "SS96, km 95, 85010 Montemilone PZ",
+        "lat":  41.0260,
+        "lon":  15.9610
+    },
+    {
+        "indirizzo abitazione":  "Via Roma, 5, 85010 Nemoli PZ",
+        "lat":  40.0680,
+        "lon":  15.8050
+    },
+    {
+        "indirizzo abitazione":  "Via Garibaldi, 10, 85010 Nemoli PZ",
+        "lat":  40.0700,
+        "lon":  15.8070
+    },
+    {
+        "scuola":  "Scuola Media, Via Roma, 8, 85010 Nemoli PZ",
+        "lat":  40.0685,
+        "lon":  15.8055
+    },
+    {
+        "impianto sportivo":  "Campo Sportivo, Via dello Sport, 1, 85010 Nemoli PZ",
+        "lat":  40.0685,
+        "lon":  15.8055
+    },
+    {
+        "strada":  "SS19, km 290, 85010 Nemoli PZ",
+        "lat":  40.0660,
+        "lon":  15.8030
+    },
+    {
+        "indirizzo abitazione":  "Via Nazionale, 5, 85010 Abriola PZ",
+        "lat":  40.5080,
+        "lon":  15.8140
+    },
+    {
+        "indirizzo abitazione":  "Via Roma, 10, 85010 Abriola PZ",
+        "lat":  40.5100,
+        "lon":  15.8160
+    },
+    {
+        "scuola":  "Scuola Elementare, Via Roma, 8, 85010 Abriola PZ",
+        "lat":  40.5105,
+        "lon":  15.8165
+    },
+    {
+        "impianto sportivo":  "Campo Sportivo, Via dello Sport, 1, 85010 Abriola PZ",
+        "lat":  40.5085,
+        "lon":  15.8145
+    },
+    {
+        "strada":  "SS95, km 70, 85010 Abriola PZ",
+        "lat":  40.5060,
+        "lon":  15.8120
+    },
+    {
+        "indirizzo abitazione":  "Via Roma, 5, 75025 Nova Siri MT",
+        "lat":  40.3250,
+        "lon":  16.6370
+    },
+    {
+        "indirizzo abitazione":  "Via Garibaldi, 10, 75025 Nova Siri MT",
+        "lat":  40.3270,
+        "lon":  16.6390
+    },
+    {
+        "indirizzo abitazione":  "Via Mazzini, 15, 75025 Nova Siri MT",
+        "lat":  40.3290,
+        "lon":  16.6410
+    },
+    {
+        "indirizzo abitazione":  "Via Cavour, 20, 75025 Nova Siri MT",
+        "lat":  40.3310,
+        "lon":  16.6430
+    },
+    {
+        "scuola":  "Scuola Elementare, Via Roma, 8, 75025 Nova Siri MT",
+        "lat":  40.3255,
+        "lon":  16.6375
+    },
+    {
+        "impianto sportivo":  "Campo Sportivo, Via dello Sport, 1, 75025 Nova Siri MT",
+        "lat":  40.3255,
+        "lon":  16.6375
+    },
+    {
+        "strada":  "SS106, km 430, 75025 Nova Siri MT",
+        "lat":  40.3230,
+        "lon":  16.6350
+    },
+    {
+        "indirizzo abitazione":  "Via Nazionale, 5, 75012 Accettura MT",
+        "lat":  40.4930,
+        "lon":  16.1570
+    },
+    {
+        "indirizzo abitazione":  "Via Roma, 10, 75012 Accettura MT",
+        "lat":  40.4950,
+        "lon":  16.1590
+    },
+    {
+        "scuola":  "Scuola Elementare, Via Roma, 8, 75012 Accettura MT",
+        "lat":  40.4955,
+        "lon":  16.1595
+    },
+    {
+        "impianto sportivo":  "Campo Sportivo, Via dello Sport, 1, 75012 Accettura MT",
+        "lat":  40.4935,
+        "lon":  16.1575
+    },
+    {
+        "strada":  "SS92, km 120, 75012 Accettura MT",
+        "lat":  40.4910,
+        "lon":  16.1550
+    },
+    {
+        "indirizzo abitazione":  "Via Roma, 5, 75010 Aliano MT",
+        "lat":  40.3150,
+        "lon":  16.2290
+    },
+    {
+        "indirizzo abitazione":  "Via Garibaldi, 10, 75010 Aliano MT",
+        "lat":  40.3170,
+        "lon":  16.2310
+    },
+    {
+        "scuola":  "Scuola Media, Via Roma, 8, 75010 Aliano MT",
+        "lat":  40.3155,
+        "lon":  16.2295
+    },
+    {
+        "impianto sportivo":  "Campo Sportivo, Via dello Sport, 1, 75010 Aliano MT",
+        "lat":  40.3155,
+        "lon":  16.2295
+    },
+    {
+        "strada":  "SS92, km 125, 75010 Aliano MT",
+        "lat":  40.3130,
+        "lon":  16.2270
+    },
+    {
+        "indirizzo abitazione":  "Via Nazionale, 5, 75010 Calciano MT",
+        "lat":  40.5800,
+        "lon":  16.1950
+    },
+    {
+        "indirizzo abitazione":  "Via Roma, 10, 75010 Calciano MT",
+        "lat":  40.5820,
+        "lon":  16.1970
+    },
+    {
+        "scuola":  "Scuola Elementare, Via Roma, 8, 75010 Calciano MT",
+        "lat":  40.5825,
+        "lon":  16.1975
+    },
+    {
+        "impianto sportivo":  "Campo Sportivo, Via dello Sport, 1, 75010 Calciano MT",
+        "lat":  40.5805,
+        "lon":  16.1955
+    },
+    {
+        "strada":  "SS407, km 35, 75010 Calciano MT",
+        "lat":  40.5780,
+        "lon":  16.1930
+    },
+    {
+        "indirizzo abitazione":  "Via Roma, 5, 75010 Cirigliano MT",
+        "lat":  40.3950,
+        "lon":  16.1770
+    },
+    {
+        "indirizzo abitazione":  "Via Garibaldi, 10, 75010 Cirigliano MT",
+        "lat":  40.3970,
+        "lon":  16.1790
+    },
+    {
+        "scuola":  "Scuola Media, Via Roma, 8, 75010 Cirigliano MT",
+        "lat":  40.3955,
+        "lon":  16.1775
+    },
+    {
+        "impianto sportivo":  "Campo Sportivo, Via dello Sport, 1, 75010 Cirigliano MT",
+        "lat":  40.3955,
+        "lon":  16.1775
+    },
+    {
+        "strada":  "SS92, km 130, 75010 Cirigliano MT",
+        "lat":  40.3930,
+        "lon":  16.1750
+    },
+    {
+        "indirizzo abitazione":  "Via Nazionale, 5, 75010 Colobraro MT",
+        "lat":  40.1880,
+        "lon":  16.4270
+    },
+    {
+        "indirizzo abitazione":  "Via Roma, 10, 75010 Colobraro MT",
+        "lat":  40.1900,
+        "lon":  16.4290
+    },
+    {
+        "scuola":  "Scuola Elementare, Via Roma, 8, 75010 Colobraro MT",
+        "lat":  40.1905,
+        "lon":  16.4295
+    },
+    {
+        "impianto sportivo":  "Campo Sportivo, Via dello Sport, 1, 75010 Colobraro MT",
+        "lat":  40.1885,
+        "lon":  16.4275
+    },
+    {
+        "strada":  "SS92, km 135, 75010 Colobraro MT",
+        "lat":  40.1860,
+        "lon":  16.4250
+    },
+    {
+        "indirizzo abitazione":  "Via Roma, 5, 75010 Craco MT",
+        "lat":  40.3810,
+        "lon":  16.4390
+    },
+    {
+        "indirizzo abitazione":  "Via Garibaldi, 10, 75010 Craco MT",
+        "lat":  40.3830,
+        "lon":  16.4410
+    },
+    {
+        "scuola":  "Scuola Media, Via Roma, 8, 75010 Craco MT",
+        "lat":  40.3815,
+        "lon":  16.4395
+    },
+    {
+        "impianto sportivo":  "Campo Sportivo, Via dello Sport, 1, 75010 Craco MT",
+        "lat":  40.3815,
+        "lon":  16.4395
+    },
+    {
+        "strada":  "SS407, km 40, 75010 Craco MT",
+        "lat":  40.3790,
+        "lon":  16.4370
+    },
+    {
+        "indirizzo abitazione":  "Via Nazionale, 5, 75010 Garaguso MT",
+        "lat":  40.4470,
+        "lon":  16.2350
+    },
+    {
+        "indirizzo abitazione":  "Via Roma, 10, 75010 Garaguso MT",
+        "lat":  40.4490,
+        "lon":  16.2370
+    },
+    {
+        "scuola":  "Scuola Elementare, Via Roma, 8, 75010 Garaguso MT",
+        "lat":  40.4495,
+        "lon":  16.2375
+    },
+    {
+        "impianto sportivo":  "Campo Sportivo, Via dello Sport, 1, 75010 Garaguso MT",
+        "lat":  40.4475,
+        "lon":  16.2355
+    },
+    {
+        "strada":  "SS92, km 140, 75010 Garaguso MT",
+        "lat":  40.4450,
+        "lon":  16.2330
+    },
+    {
+        "indirizzo abitazione":  "Via Roma, 5, 75010 Gorgoglione MT",
+        "lat":  40.3930,
+        "lon":  16.1550
+    },
+    {
+        "indirizzo abitazione":  "Via Garibaldi, 10, 75010 Gorgoglione MT",
+        "lat":  40.3950,
+        "lon":  16.1570
+    },
+    {
+        "scuola":  "Scuola Media, Via Roma, 8, 75010 Gorgoglione MT",
+        "lat":  40.3935,
+        "lon":  16.1555
+    },
+    {
+        "impianto sportivo":  "Campo Sportivo, Via dello Sport, 1, 75010 Gorgoglione MT",
+        "lat":  40.3935,
+        "lon":  16.1555
+    },
+    {
+        "strada":  "SS92, km 145, 75010 Gorgoglione MT",
+        "lat":  40.3910,
+        "lon":  16.1530
+    },
+    {
+        "indirizzo abitazione":  "Via Nazionale, 5, 75010 Grassano MT",
+        "lat":  40.6340,
+        "lon":  16.2800
+    },
+    {
+        "indirizzo abitazione":  "Via Roma, 10, 75010 Grassano MT",
+        "lat":  40.6360,
+        "lon":  16.2820
+    },
+    {
+        "scuola":  "Scuola Elementare, Via Roma, 8, 75010 Grassano MT",
+        "lat":  40.6365,
+        "lon":  16.2825
+    },
+    {
+        "impianto sportivo":  "Campo Sportivo, Via dello Sport, 1, 75010 Grassano MT",
+        "lat":  40.6345,
+        "lon":  16.2805
+    },
+    {
+        "strada":  "SS407, km 45, 75010 Grassano MT",
+        "lat":  40.6320,
+        "lon":  16.2780
+    },
+    {
+        "indirizzo abitazione":  "Via Roma, 5, 75010 Grottole MT",
+        "lat":  40.6030,
+        "lon":  16.3750
+    },
+    {
+        "indirizzo abitazione":  "Via Garibaldi, 10, 75010 Grottole MT",
+        "lat":  40.6050,
+        "lon":  16.3770
+    },
+    {
+        "scuola":  "Scuola Media, Via Roma, 8, 75010 Grottole MT",
+        "lat":  40.6035,
+        "lon":  16.3755
+    },
+    {
+        "impianto sportivo":  "Campo Sportivo, Via dello Sport, 1, 75010 Grottole MT",
+        "lat":  40.6035,
+        "lon":  16.3755
+    },
+    {
+        "strada":  "SS407, km 50, 75010 Grottole MT",
+        "lat":  40.6010,
+        "lon":  16.3730
+    },
+    {
+        "indirizzo abitazione":  "Via Nazionale, 5, 75010 Irsina MT",
+        "lat":  40.7490,
+        "lon":  16.2360
+    },
+    {
+        "indirizzo abitazione":  "Via Roma, 10, 75010 Irsina MT",
+        "lat":  40.7510,
+        "lon":  16.2380
+    },
+    {
+        "scuola":  "Scuola Elementare, Via Roma, 8, 75010 Irsina MT",
+        "lat":  40.7515,
+        "lon":  16.2385
+    },
+    {
+        "impianto sportivo":  "Campo Sportivo, Via dello Sport, 1, 75010 Irsina MT",
+        "lat":  40.7495,
+        "lon":  16.2365
+    },
+    {
+        "strada":  "SS407, km 55, 75010 Irsina MT",
+        "lat":  40.7470,
+        "lon":  16.2340
+    },
+    {
+        "indirizzo abitazione":  "Via Roma, 5, 75010 Miglionico MT",
+        "lat":  40.5680,
+        "lon":  16.5090
+    },
+    {
+        "indirizzo abitazione":  "Via Garibaldi, 10, 75010 Miglionico MT",
+        "lat":  40.5700,
+        "lon":  16.5110
+    },
+    {
+        "scuola":  "Scuola Media, Via Roma, 8, 75010 Miglionico MT",
+        "lat":  40.5685,
+        "lon":  16.5095
+    },
+    {
+        "impianto sportivo":  "Campo Sportivo, Via dello Sport, 1, 75010 Miglionico MT",
+        "lat":  40.5685,
+        "lon":  16.5095
+    },
+    {
+        "strada":  "SS407, km 60, 75010 Miglionico MT",
+        "lat":  40.5660,
+        "lon":  16.5070
+    },
+    {
+        "indirizzo abitazione":  "Via Nazionale, 5, 75010 Oliveto Lucano MT",
+        "lat":  40.5410,
+        "lon":  16.1870
+    },
+    {
+        "indirizzo abitazione":  "Via Roma, 10, 75010 Oliveto Lucano MT",
+        "lat":  40.5430,
+        "lon":  16.1890
+    },
+    {
+        "scuola":  "Scuola Elementare, Via Roma, 8, 75010 Oliveto Lucano MT",
+        "lat":  40.5435,
+        "lon":  16.1895
+    },
+    {
+        "impianto sportivo":  "Campo Sportivo, Via dello Sport, 1, 75010 Oliveto Lucano MT",
+        "lat":  40.5415,
+        "lon":  16.1875
+    },
+    {
+        "strada":  "SS92, km 150, 75010 Oliveto Lucano MT",
+        "lat":  40.5390,
+        "lon":  16.1850
+    },
+    {
+        "indirizzo abitazione":  "Via Roma, 5, 75010 Pomarico MT",
+        "lat":  40.5290,
+        "lon":  16.4850
+    },
+    {
+        "indirizzo abitazione":  "Via Garibaldi, 10, 75010 Pomarico MT",
+        "lat":  40.5310,
+        "lon":  16.4870
+    },
+    {
+        "scuola":  "Scuola Media, Via Roma, 8, 75010 Pomarico MT",
+        "lat":  40.5295,
+        "lon":  16.4855
+    },
+    {
+        "impianto sportivo":  "Campo Sportivo, Via dello Sport, 1, 75010 Pomarico MT",
+        "lat":  40.5295,
+        "lon":  16.4855
+    },
+    {
+        "strada":  "SS407, km 65, 75010 Pomarico MT",
+        "lat":  40.5270,
+        "lon":  16.4830
+    },
+    {
+        "indirizzo abitazione":  "Via Nazionale, 5, 75010 Rotondella MT",
+        "lat":  40.1710,
+        "lon":  16.5110
+    },
+    {
+        "indirizzo abitazione":  "Via Roma, 10, 75010 Rotondella MT",
+        "lat":  40.1730,
+        "lon":  16.5130
+    },
+    {
+        "scuola":  "Scuola Elementare, Via Roma, 8, 75010 Rotondella MT",
+        "lat":  40.1735,
+        "lon":  16.5135
+    },
+    {
+        "impianto sportivo":  "Campo Sportivo, Via dello Sport, 1, 75010 Rotondella MT",
+        "lat":  40.1715,
+        "lon":  16.5115
+    },
+    {
+        "strada":  "SS106, km 440, 75010 Rotondella MT",
+        "lat":  40.1690,
+        "lon":  16.5090
+    },
+    {
+        "indirizzo abitazione":  "Via Roma, 5, 75010 Salandra MT",
+        "lat":  40.5310,
+        "lon":  16.3270
+    },
+    {
+        "indirizzo abitazione":  "Via Garibaldi, 10, 75010 Salandra MT",
+        "lat":  40.5330,
+        "lon":  16.3290
+    },
+    {
+        "scuola":  "Scuola Media, Via Roma, 8, 75010 Salandra MT",
+        "lat":  40.5315,
+        "lon":  16.3275
+    },
+    {
+        "impianto sportivo":  "Campo Sportivo, Via dello Sport, 1, 75010 Salandra MT",
+        "lat":  40.5315,
+        "lon":  16.3275
+    },
+    {
+        "strada":  "SS407, km 70, 75010 Salandra MT",
+        "lat":  40.5290,
+        "lon":  16.3250
+    },
+    {
+        "indirizzo abitazione":  "Via Nazionale, 5, 75010 San Giorgio Lucano MT",
+        "lat":  40.1150,
+        "lon":  16.3830
+    },
+    {
+        "indirizzo abitazione":  "Via Roma, 10, 75010 San Giorgio Lucano MT",
+        "lat":  40.1170,
+        "lon":  16.3850
+    },
+    {
+        "scuola":  "Scuola Elementare, Via Roma, 8, 75010 San Giorgio Lucano MT",
+        "lat":  40.1175,
+        "lon":  16.3855
+    },
+    {
+        "impianto sportivo":  "Campo Sportivo, Via dello Sport, 1, 75010 San Giorgio Lucano MT",
+        "lat":  40.1155,
+        "lon":  16.3835
+    },
+    {
+        "strada":  "SS92, km 155, 75010 San Giorgio Lucano MT",
+        "lat":  40.1130,
+        "lon":  16.3810
+    },
+    {
+        "indirizzo abitazione":  "Via Roma, 5, 75010 San Mauro Forte MT",
+        "lat":  40.3130,
+        "lon":  16.3370
+    },
+    {
+        "indirizzo abitazione":  "Via Garibaldi, 10, 75010 San Mauro Forte MT",
+        "lat":  40.3150,
+        "lon":  16.3390
+    },
+    {
+        "scuola":  "Scuola Media, Via Roma, 8, 75010 San Mauro Forte MT",
+        "lat":  40.3135,
+        "lon":  16.3375
+    },
+    {
+        "impianto sportivo":  "Campo Sportivo, Via dello Sport, 1, 75010 San Mauro Forte MT",
+        "lat":  40.3135,
+        "lon":  16.3375
+    },
+    {
+        "strada":  "SS92, km 160, 75010 San Mauro Forte MT",
+        "lat":  40.3110,
+        "lon":  16.3350
+    },
+    {
+        "indirizzo abitazione":  "Via Nazionale, 5, 75010 Stigliano MT",
+        "lat":  40.4030,
+        "lon":  16.2330
+    },
+    {
+        "indirizzo abitazione":  "Via Roma, 10, 75010 Stigliano MT",
+        "lat":  40.4050,
+        "lon":  16.2350
+    },
+    {
+        "scuola":  "Scuola Elementare, Via Roma, 8, 75010 Stigliano MT",
+        "lat":  40.4055,
+        "lon":  16.2355
+    },
+    {
+        "impianto sportivo":  "Campo Sportivo, Via dello Sport, 1, 75010 Stigliano MT",
+        "lat":  40.4035,
+        "lon":  16.2335
+    },
+    {
+        "strada":  "SS92, km 165, 75010 Stigliano MT",
+        "lat":  40.4010,
+        "lon":  16.2310
+    },
+    {
+        "indirizzo abitazione":  "Via Roma, 5, 75010 Tursi MT",
+        "lat":  40.2470,
+        "lon":  16.4730
+    },
+    {
+        "indirizzo abitazione":  "Via Garibaldi, 10, 75010 Tursi MT",
+        "lat":  40.2490,
+        "lon":  16.4750
+    },
+    {
+        "scuola":  "Scuola Media, Via Roma, 8, 75010 Tursi MT",
+        "lat":  40.2475,
+        "lon":  16.4735
+    },
+    {
+        "impianto sportivo":  "Campo Sportivo, Via dello Sport, 1, 75010 Tursi MT",
+        "lat":  40.2475,
+        "lon":  16.4735
+    },
+    {
+        "strada":  "SS106, km 450, 75010 Tursi MT",
+        "lat":  40.2450,
+        "lon":  16.4710
+    },
+    {
+        "indirizzo abitazione":  "Via Nazionale, 5, 75010 Valsinni MT",
+        "lat":  40.1710,
+        "lon":  16.4430
+    },
+    {
+        "indirizzo abitazione":  "Via Roma, 10, 75010 Valsinni MT",
+        "lat":  40.1730,
+        "lon":  16.4450
+    },
+    {
+        "scuola":  "Scuola Elementare, Via Roma, 8, 75010 Valsinni MT",
+        "lat":  40.1735,
+        "lon":  16.4455
+    },
+    {
+        "impianto sportivo":  "Campo Sportivo, Via dello Sport, 1, 75010 Valsinni MT",
+        "lat":  40.1715,
+        "lon":  16.4435
+    },
+    {
+        "strada":  "SS106, km 455, 75010 Valsinni MT",
+        "lat":  40.1690,
+        "lon":  16.4410
+    }
+]

@@ -321,6 +321,20 @@
       "NCH": false,
       "RIANIMAZIONE": true,
       "PSICHIATRIA": false
+    },
+    {
+      "OSPEDALE": "H BOLOGNA RIZZOLI",
+      "COORDINATE": "44.4804252,11.3424133",
+      "N° pazienti Max": 25,
+      "CLASSE": "PS",
+      "PUNTO NASCITA": false,
+      "PEDIATRIA": false,
+      "TRAUMA": "PST",
+      "EMODINAMICA": false,
+      "STROKE UNIT": true,
+      "NCH": false,
+      "RIANIMAZIONE": true,
+      "PSICHIATRIA": false
     }
   ]
 }

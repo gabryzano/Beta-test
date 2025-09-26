@@ -198,7 +198,7 @@ class GameUI {
             });
             const mezzoConOspedale = eligibleMezzi.find(m => m.ospedale && m.codice_trasporto && m._trasportoConfermato);
             if (mezzoConOspedale) {
-                ospedaleHtml = ` <span style='margin-left:12px;'></span><span style='font-size:13px;'>Destinazione: <b>${mezzoConOspedale.ospedale.nome}</b></span> <span style='display:inline-block;width:5px;height:5px;margin-left:6px;vertical-align:middle;background:${getColoreCodice(mezzoConOspedale.codice_trasporto)};background-size:cover;'></span>`;
+                ospedaleHtml = ` <span style='margin-left:12px;'></span><span style='font-size:13px;'>Destinazione: <b>${mezzoConOspedale.ospedale.nome}</b></span> <span style='display:inline-block;width:5px;height:5px;margin-left:6px;vertical-align:middle;background:${getColoreCodice(mezzoConOspedale.codice_trasporto)};background-size:cover;border:1px solid #000;'></span>`;
             }
         }
           // Calcola fasce operative basate sul nome_radio assegnati e orario simulato
@@ -221,7 +221,7 @@ class GameUI {
         
         div.innerHTML = `            <div class="missione-header" style="display:flex;align-items:center;justify-content:space-between;gap:8px;cursor:pointer;">
                  <span>
-                     <span class="missione-codice-box" style="display:inline-block;width:5px;height:5px;margin-right:8px;vertical-align:middle;background:${getColoreCodice(call.codice)};background-size:cover;"></span>
+                     <span class="missione-codice-box" style="display:inline-block;width:5px;height:5px;margin-right:8px;vertical-align:middle;background:${getColoreCodice(call.codice)};background-size:cover;border:1px solid #000;"></span>
                      ${call.missioneId} - ${indirizzoSintetico}${tipiMezziText}${ospedaleHtml}
                      ${missioneStatusIcon}${missioneStatusText}
                      ${call.vvfAllertati ? '<span style="margin-left:8px;color:#d32f2f;font-weight:bold;">VVF</span>' : ''}
@@ -372,7 +372,7 @@ class GameUI {
             });
             const mezzoConOspedale = eligibleMezzi.find(m => m.ospedale && m.codice_trasporto && m._trasportoConfermato);
             if (mezzoConOspedale) {
-                ospedaleHtml = ` <span style='margin-left:12px;'></span><span style='font-size:13px;'>Destinazione: <b>${mezzoConOspedale.ospedale.nome}</b></span> <span style='display:inline-block;width:16px;height:16px;border-radius:4px;margin-left:6px;vertical-align:middle;background:${getColoreCodice(mezzoConOspedale.codice_trasporto)};border:1px solid #888;'></span>`;
+                ospedaleHtml = ` <span style='margin-left:12px;'></span><span style='font-size:13px;'>Destinazione: <b>${mezzoConOspedale.ospedale.nome}</b></span> <span style='display:inline-block;width:16px;height:16px;border-radius:4px;margin-left:6px;vertical-align:middle;background:${getColoreCodice(mezzoConOspedale.codice_trasporto)};border:1px solid #000;'></span>`;
             }
         }        // Aggiorna header e dettagli
         const header = div.querySelector('.missione-header');
@@ -399,7 +399,7 @@ class GameUI {
             
             header.innerHTML = `
             <span style="display:flex;align-items:center;gap:8px;">
-                <span class="missione-codice-box" style="display:inline-block;width:18px;height:18px;border-radius:4px;margin-right:8px;vertical-align:middle;background:${getColoreCodice(call.codice)};"></span>
+                <span class="missione-codice-box" style="display:inline-block;width:18px;height:18px;border-radius:4px;margin-right:8px;vertical-align:middle;background:${getColoreCodice(call.codice)};border:1px solid #000;"></span>
                 ${call.missioneId} - ${indirizzoSintetico}${tipiMezziText}${ospedaleHtml}
                 ${missioneStatusIcon}${missioneStatusText}
                 ${call.vvfAllertati ? '<span style="margin-left:8px;color:#d32f2f;font-weight:bold;">VVF</span>' : ''}

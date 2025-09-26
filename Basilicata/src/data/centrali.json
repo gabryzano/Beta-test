@@ -1,0 +1,13 @@
+{
+  "118 Basilicata": {
+    "codice": "BAS",
+    "provincia": "Potenza",
+    "coordinate": "40.6404,15.8056",
+    "attiva": true,
+    "telefono": "118",
+    "indirizzo": "Via Nazario Sauro, 85100 Potenza PZ",
+    "mezziFile": "src/data/Mezzi.json",
+    "ospedaliFile": "src/data/Ospedali.json",
+    "indirizziFile": "src/data/indirizzi.json"
+  }
+}
