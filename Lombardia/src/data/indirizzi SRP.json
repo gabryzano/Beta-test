@@ -69,46 +69,14 @@
     "lat": 45.4667,
     "lon": 8.8833
   },
-  {
-    "indirizzo abitazione": "Via Volta, 11, 20063 Cernusco sul Naviglio MI",
-    "lat": 45.525,
-    "lon": 9.3333
-  },
-  {
-    "indirizzo abitazione": "Via Italia, 62, 20064 Gorgonzola MI",
-    "lat": 45.5333,
-    "lon": 9.4
-  },
-  {
-    "indirizzo abitazione": "Piazza Marconi, 20081 Abbiategrasso MI",
-    "lat": 45.4,
-    "lon": 8.9167
-  },
-  {
-    "indirizzo abitazione": "Piazza Risorgimento, 1, 20077 Melegnano MI",
-    "lat": 45.3667,
-    "lon": 9.3333
-  },
-  {
-    "indirizzo abitazione": "Piazza Vittorio Emanuele II, 1, 20066 Melzo MI",
-    "lat": 45.5,
-    "lon": 9.4167
-  },
-  {
-    "indirizzo abitazione": "Via Dante Alighieri, 4, 20062 Cassano d'Adda MI",
-    "lat": 45.5262703,
-    "lon": 9.5205693
-  },
-  {
-    "indirizzo abitazione": "Piazza Maggiore, 20065 Inzago MI",
-    "lat": 45.5400456,
-    "lon": 9.4807924
-  },
-  {
-    "indirizzo abitazione": "Piazza Nazionale, 20056 Trezzo sull'Adda MI",
-    "lat": 45.6077753,
-    "lon": 9.5178327
-  },
+  {"indirizzo abitazione": "Via Monsignore Luigi Biraghi, 20, 20063 Cernusco sul Naviglio MI","lat": 45.5267852,"lon": 9.3362323},
+  {"indirizzo abitazione": "Via Italia, 62, 20064 Gorgonzola MI","lat": 45.5310675,"lon": 9.4063402},
+  {"indirizzo abitazione": "Corso XX Settembre, 25, 20081 Abbiategrasso MI","lat": 45.398362,"lon": 8.9152385},
+  {"indirizzo abitazione": "Piazza Giacomo Matteotti, 11, 20077 Melegnano MI","lat": 45.3586785,"lon": 9.3231387},
+  {"indirizzo abitazione": "Piazza Vittorio Emanuele II, 1, 20066 Melzo MI","lat": 45.4986211,"lon": 9.4248868},
+  {"indirizzo abitazione": "Via Dante Alighieri, 4, 20062 Cassano d'Adda MI","lat": 45.5262703,"lon": 9.5205693},
+  {"indirizzo abitazione": "Piazza Maggiore, 20065 Inzago MI","lat": 45.5400456,"lon": 9.4807924},
+  {"indirizzo abitazione": "Piazza Nazionale, 20056 Trezzo sull'Adda MI","lat": 45.6077753,"lon": 9.5178327},
   {
     "indirizzo abitazione": "Piazza della Vittoria, 26900 Lodi LO",
     "lat": 45.3141,
@@ -1725,20 +1693,11 @@
     "lon": 9.4655
   },
   {
-    "indirizzo abitazione": "Via Milano, 26840 Cavenago d'Adda LO",
-    "lat": 45.4355,
-    "lon": 9.4955
-  },
+    "indirizzo abitazione": "Viale Italia, 4, 26824 Cavenago d'Adda LO","lat": 45.2828332,"lon": 9.596029},
   {
-    "indirizzo abitazione": "Piazza della Chiesa, 26836 Cervignano d'Adda LO",
-    "lat": 45.4255,
-    "lon": 9.4755
-  },
+    "indirizzo abitazione": "Piazza della Chiesa, 26836 Cervignano d'Adda LO","lat": 45.3725217,"lon": 9.4236282},
   {
-    "indirizzo abitazione": "Via Roma, 26835 Mulazzano LO",
-    "lat": 45.3855,
-    "lon": 9.4555
-  },
+    "indirizzo abitazione": "Via Roma, 26835 Mulazzano LO","lat": 45.3746761,"lon": 9.3972412},
   {
     "indirizzo abitazione": "Via Garibaldi, 26834 Livraga LO",
     "lat": 45.1855,

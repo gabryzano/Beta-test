@@ -600,7 +600,7 @@
       }
      },
     "chiamata_36": {
-    "testo": "Salve chiamo da (indirizzo abitazione), ho un dolore molto forte nella parte destra dell’addome da qualche ora. È peggiorato da qualche minuto ed ho anche un po’ di nausea.",
+    "testo": "Salve chiamo da (indirizzo abitazione), ho un dolore molto forte nella parte destra dell’addome da qualche ora. È peggiorato da qualche minuto ed ho anche un po di nausea.",
     "caso_stabile": {
         "MSB": "Maschio, 37 anni, vigile, dolore al fianco dx, PA 130/85 mmHg, FC 82 bpm, SpO₂ 99%. Pz noto per coliche renali. [PS]",
         "MSA1": "Maschio, 37 anni, GCS 15, dolore al fianco dx, PA 130/85 mmHg, FC 82 bpm, SpO₂ 99%. Sospetta colica renale in pz noto per coliche renali, in corso Ketorolac EV. [PS]",
@@ -966,7 +966,7 @@
     }
   },
   "chiamata_58": {
-    "testo_chiamata": "Buongiorno, chiamo dalla RSA (nome struttura), un nostro ospite anziano oggi appare molto più debole del solito, si alimenta poco e non riesce ad alzarsi come fa di solito. È molto affaticato e si assopisce facilmente.",
+    "testo_chiamata": "Buongiorno, chiamo dalla RSA (rsa), un nostro ospite anziano oggi appare molto più debole del solito, si alimenta poco e non riesce ad alzarsi come fa di solito. È molto affaticato e si assopisce facilmente.",
 
    "caso_stabile": {
       "MSB": "Maschio, 88 anni, astenia progressiva da 2 giorni, alimentazione ridotta, PA 120/70 mmHg, FC 78 bpm, SpO₂ 98%, orientato, febbrile al mattino, TC 37.8°C, anamnesi di cardiopatia cronica, nessun segno acuto. [PS]",
@@ -1748,7 +1748,6 @@
       "MSA2": "Femmina, 33 anni, cefalea esplosiva con PA 215/120 mmHg. Vomito attivo, dolore 10/10. Paziente vigile ma rallentata. Accesso EV x2, somministrato Urapidil 25 mg + Paracetamolo 1g. [PS]" 
     }
   },
-
   "chiamata_96": {
     "testo_chiamata": "Salve, sono il medico di guardia medica, mi trovo presso il domicilio di un paziente cardiopatico di 68 anni. Presenta dispnea ingravescente con rantoli diffusi e segni di scompenso acuto. Ha già una storia di scompenso cardiaco e riferisce peggioramento rapido nelle ultime ore. Serve una valutazione urgente in pronto soccorso, l’indirizzo è (indirizzo abitazione).", 
 
@@ -1768,6 +1767,90 @@
       "MSB": "Maschio, 68 anni, valutato da guardia medica che sospetta edema polmonare acuto. Grave dispnea , cianosi e rantoli. PA 90/60 mmHg, FC 120 bpm, SpO₂ 82% in aria ambiente. Paziente soporoso, necessaria MSA. [DEA]", 
       "MSA1": "Maschio, 68 anni, valutato da guardia medica che sospetta edema polmonare acuto. Grave dispnea, tachipnea, rantoli estesi, cianosi periferica. PA 88/58 mmHg, FC 122 bpm, SpO₂ 85% in aria ambiente, 90% con O₂ 10 L/min. Furosemide 40 mg EV, CPAP 50% FiO₂ con 7,5 cmH₂ O con parziale miglioramento. [DEA]", 
       "MSA2": "Maschio, 68 anni, grave insufficienza respiratoria da edema polmonare acuto. Paziente soporoso, cianotico, rantoli massivi, SpO₂ 85% con O₂ alto flusso. PA 85/55 mmHg, FC 125 bpm. EV x2, Furosemide 40 mg EV, CPAP 50% FiO₂ con 7,5 cmH₂ O con parziale miglioramento. [DEA]" 
+    }
+  },
+  "chiamata_97": {
+    "testo_chiamata": "Ci serve aiuto! un nostro collega di 53 anni si è accidentalmente ustionato mentre stava lavorando vicino a un macchinario caldo. È sveglio ma ha tanto dolore. Potete inviare un’ambulanza? L’indirizzo è (indirizzo impianto).", 
+
+    "caso_stabile": {
+      "MSB": "Maschio, 53 anni, ustione accidentale da contatto con superficie calda a livello dell’avambraccio dx. Area arrossata, verosimile ustione di I grado di circa 5x5 cm. Dolore locale. Parametri vitali: PA 135/80 mmHg, FC 82 bpm, SpO₂ 98%. [PS]", 
+      "MSA1": "Maschio, 53 anni, ustione di I grado all’avambraccio dx, limitata, dolore moderato. Paziente vigile, collaborante, parametri nella norma. Refrigerazione in atto, analgesia con Paracetamolo 1g EV. [PS]",
+      "MSA2": "Maschio, 53 anni, ustione superficiale all’avambraccio dx, area limitata <5%, dolore gestibile. Parametri vitali regolari. Medicazione sterile applicata, analgesia in corso, è possibile affidare il mezzo all'ambulanza? [PS]" 
+    },
+
+    "poco_stabile": {
+      "MSB": "Maschio, 53 anni, ustione di II grado superficiale estesa all'avambraccio dx e dorso mano. Flittene presenti, dolore severo. PA 125/75 mmHg, FC 96 bpm, SpO₂ 97%. [PS]", 
+      "MSA1": "Maschio, 53 anni, ustione da contatto termico a braccio dx e mano, circa 7-8% , II grado con flittene. Dolore intenso, parametri vitali stabili. EV posizionato, infusione cristalloidi, analgesia con Ketorolac 30 mg EV. [PS]",
+      "MSA2": "Maschio, 53 anni, ustione termica da macchinario, interessamento avambraccio e dorso mano dx, 7%, dolore severo. Parametri vitali stabili. Medicazione sterile + infusione liquidi + analgesia in corso. [PS]" 
+    },
+
+    "critico": {
+      "MSB": "Maschio, 53 anni, ustione estesa a torace e arto superiore dx. Dolore molto intenso, paziente agitato, vigile ma sofferente. PA 95/60 mmHg, FC 120 bpm, SpO₂ 93%. Richiesto supporto medico urgente. [CTZ]", 
+      "MSA1": "Maschio, 53 anni, ustioni termiche di II grado a torace anteriore e arto superiore dx, circa 20% SCT. Paziente tachicardico, ipoteso, sofferente. PA 92/58 mmHg, FC 122 bpm, SpO₂ 92%. EV x2, cristalloidi rapidi, analgesia con ketamina 30 mg EV, O₂ 10 L/min. [CTZ]", 
+      "MSA2": "Maschio, 53 anni, ustioni termiche di II grado torace e arto sup. dx, circa 20% SCT. Paziente agitato, pallido, dolore non controllato. PA 90/55 mmHg, FC 125 bpm, SpO₂ 91%. EV x2, fluidi in corso, analgesia con ketamina 30 mg EV, O₂. [CTZ]" 
+    }
+  },
+  "chiamata_98": {
+    "testo_chiamata": "Salve, Mio padre di 70 anni da ieri lamenta dolore alla gamba sinistra, oggi si è gonfiata un po’. Non ha mai avuto una cosa simile. Potete mandare un’ambulanza per controllare? L’indirizzo è (indirizzo abitazione).",
+
+    "caso_stabile": {
+      "MSB": "Maschio, 70 anni, dolore localizzato al polpaccio sinistro, senza edema né segni di flogosi. Parametri vitali nella norma: PA 135/80 mmHg, FC 78 bpm, SpO₂ 98%. [PS]",
+      "MSA1": "Maschio, 70 anni, dolore puntorio a polpaccio sn da 24h, no tumefazione evidente, no dolore a riposo. Parametri vitali PA 135/80 mmHg, FC 78 bpm, SpO₂ 98%. Trasporto non urgente per valutazione ecografica per escludere TVP. [PS]",
+      "MSA2": "Maschio, 70 anni, dolore polpaccio sn, nessun segno obiettivo di edema. Parametri stabili. Vigile, collaborante. Trasporto non urgente per valutazione ecografica per escludere TVP. [PS]"
+    },
+
+    "poco_stabile": {
+      "MSB": "Maschio, 70 anni, dolore e edema gamba sinistra comparsi da 24h. Arto gonfio, caldo e dolente. Parametri vitali: PA 125/78 mmHg, FC 95 bpm, SpO₂ 96%. Paziente vigile, collaborante. [PS]",
+      "MSA1": "Maschio, 70 anni, sospetta TVP arto inferiore sn, gamba tumefatta e dolente. Parametri vitali stabili: PA 120/75 mmHg, FC 98 bpm, SpO₂ 96%. Accesso EV, analgesia con Paracetamolo 1g EV. [PS]",
+      "MSA2": "Maschio, 70 anni, edema gamba sinistra con dolore intenso, sospetta TVP. Parametri vitali nei limiti. EV posizionato, analgesia in corso, necessaria valutazione ospedaliera. [PS]"
+    },
+
+    "critico": {
+      "MSB": "Maschio, 70 anni, dolore e gonfiore gamba sinistra. Durante valutazione riferisce dispnea da qualche ora con SpO₂ 88%, PA 95/60 mmHg, FC 120 bpm. è possible inviare un mezzo avanzato?. [DEA]",
+      "MSA1": "Maschio, 70 anni, sospetta TVP arto sn complicata da TEP acuta: dispnea improvvisa, tachicardia, ipotensione. PA 90/55 mmHg, FC 122 bpm, SpO₂ 86% in aria ambiente, 92% con O₂ 10 L/min. EV x2, O₂ alto flusso, monitoraggio. [DEA]",
+      "MSA2": "Maschio, 70 anni, probabile TEP acuta insorta su sospetta TVP. Paziente dispnoico, cianotico, ipoteso. PA 88/50 mmHg, FC 125 bpm, SpO₂ 85% con O₂ 10 L/min. Accesso EV x2, O₂ alto flusso, fluidi in corso. Richiesta ospedalizzazione urgente. [DEA]"
+    }
+  },
+  "chiamata_99": {
+    "testo_chiamata": "Chiamo per mio padre, ha 78 anni e da ieri sera non riesce più ad urinare. Ha dolore al basso ventre, si lamenta molto e la pancia sembra gonfia. Non ha febbre, ma non è mai successo prima. Potete mandare qualcuno? L’indirizzo è (indirizzo abitazione).",
+
+    "caso_stabile": {
+      "MSB": "Maschio, 78 anni, Dolore ai quadranti inferiori dell'addome da circa 3 ore, riferisce che non riesce ad urinare. Parametri vitali: PA 135/80 mmHg, FC 82 bpm, SpO₂ 98%. Afebbrile, vigile, collaborante.Consigliato trasporto non urgente per posizionamento di catetere vescicale. [PS]",
+      "MSA1": "Maschio, 78 anni, dolore sovrapubico, globo vescicale palpabile da circa 3 ore. Non ha febbre, riferisce solo difficoltà minzionale e dolore. Parametri vitali nella norma. [PS]",
+      "MSA2": "Maschio, 78 anni, sospetta ritenzione urinaria da circa 3 ore. Dolore sovrapubico moderato, parametri vitali stabili (PA 132/78 mmHg, FC 80 bpm, SpO₂ 98%). Assenza di febbre o segni di infezione. Consigliato trasporto non urgente per posizionamento di catetere vescicale. [PS]"
+    },
+
+    "poco_stabile": {
+      "MSB": "Maschio, 78 anni, ritenzione urinaria da circa 8 ore, dolore ai quadranti inferiori dell'addome severo, agitato. PA 125/75 mmHg, FC 96 bpm, SpO₂ 97%. No febbre, ma molto sofferente. [PS]",
+      "MSA1": "Maschio, 78 anni, globo vescicale teso, dolore severo, nausea. Parametri: PA 120/72 mmHg, FC 100 bpm, SpO₂ 97%. EV posizionato, trasporto per posizionamento di catetere vescicale. [PS]",
+      "MSA2": "Maschio, 78 anni, dolore addominale sovrapubico severo, addome disteso, parametri vitali stabili ma paziente sofferente. PA 118/70 mmHg, FC 102 bpm, SpO₂ 97%. necessario posizionamento di catetere vescicale. [PS]"
+    },
+
+    "critico": {
+      "MSB": "Maschio, 78 anni, ritenzione urinaria da circa 8 ore e febbre (38,8°C). Confuso, PA 95/60 mmHg, FC 115 bpm, SpO₂ 94%. Paziente agitato, è possibile inviare un mezzo avanzato?. [RIANIMAZIONE]",
+      "MSA1": "Maschio, 78 anni, globo vescicale con febbre ed ipotensione. PA 92/58 mmHg, FC 120 bpm, SpO₂ 93%. Stato confusionale. EV x2, cristalloidi in infusione, probabile urosepsi. [RIANIMAZIONE]",
+      "MSA2": "Maschio, 78 anni, sospetta sepsi urinaria secondaria a ritenzione. PA 90/55 mmHg, FC 122 bpm, SpO₂ 92%. Confuso, agitato, febbre 39°C. EV x2, fluidi rapidi, O₂ 10 L/min, monitoraggio in PS. [RIANIMAZIONE]"
+    }
+  },
+  "chiamata_100": {
+    "testo_chiamata": "Salve, vi chiamo per mia moglie, ha 42 anni e da ieri ha un dolore molto forte all’orecchio destro. Dice che peggiora quando si sdraia, non riesce quasi a dormire. Ha un po’ di fastidio ma non ha febbre alta. Potete mandare qualcuno all’indirizzo (indirizzo abitazione).",
+
+    "caso_stabile": {
+      "MSB": "Femmina, 42 anni, dolore auricolare dx da circa 24h, senza febbre. Parametri vitali: PA 120/75 mmHg, FC 78 bpm, SpO₂ 99%. Paziente vigile, collaborante, nessun segno di compromissione generale. [PS]",
+      "MSA1": "Femmina, 42 anni, dolore auricolare dx, no febbre, no vertigini. Parametri vitali PA 122/78 mmHg, FC 80 bpm, SpO₂ 99%. Non necessaria ospedalizzazione. [PS]",
+      "MSA2": "Femmina, 42 anni, sospetta otite dx, dolore locale, no febbre, parametri stabili. PA 118/76 mmHg, FC 76 bpm, SpO₂ 99%. Non necessaria ospedalizzazione. [PS]"
+    },
+
+    "poco_stabile": {
+      "MSB": "Femmina, 42 anni, dolore auricolare dx intenso con febbricola (37,8°C). Paziente agitata per dolore, parametri vitali: PA 118/74 mmHg, FC 92 bpm, SpO₂ 98%. [PS]",
+      "MSA1": "Femmina, 42 anni, dolore auricolare dx severo, febbricola, nausea lieve. PA 116/72 mmHg, FC 94 bpm, SpO₂ 98%. EV posizionato, analgesia con paracetamolo 1 gr. [PS]",
+      "MSA2": "Femmina, 42 anni, sospetta otite dx con dolore severo e febbricola. Parametri vitali stabili: PA 115/70 mmHg, FC 90 bpm, SpO₂ 98%. Analgesia con paracetamolo 1 gr. [PS]"
+    },
+
+    "critico": {
+      "MSB": "Femmina, 42 anni, dolore auricolare dx con stato confusionale e febbre 39,5°C. PA 95/60 mmHg, FC 118 bpm, SpO₂ 94%. E' possibile inviare supporto avanzato?. [DEA]",
+      "MSA1": "Femmina, 42 anni, dolore auricolare dx, febbre alta 39,7°C, nausea e disorientamento. PA 92/58 mmHg, FC 120 bpm, SpO₂ 93%. Accesso EV, fluidi rapidi, probabile otite complicata. [DEA]",
+      "MSA2": "Femmina, 42 anni, sospetta complicanza infettiva da otite. Febbre alta, confusione mentale, ipotensione. PA 90/55 mmHg, FC 122 bpm, SpO₂ 92%. EV x2, fluidi, O₂. [DEA]"
     }
   }
 }
