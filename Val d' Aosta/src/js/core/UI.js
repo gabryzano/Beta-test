@@ -483,18 +483,12 @@ class GameUI {
                 const hasReportPronto = (m.comunicazioni||[]).some(c => c.toLowerCase().includes('report pronto'));
                 
                 if (hasReportPronto && mostraReport) {
-                    // Determina il tipo di mezzo per la ricerca del report (mappatura per Veneto)
+                    // Determina il tipo di mezzo per la ricerca del report
                     let tipo = '';
                     if (m.tipo_mezzo && m.tipo_mezzo.startsWith('MSB')) tipo = 'MSB';
-                    else if (m.tipo_mezzo && m.tipo_mezzo === 'MSI') tipo = 'MSA1'; // MSI usa report MSA1
-                    else if (m.tipo_mezzo && m.tipo_mezzo === 'MSA') tipo = 'MSA2'; // MSA usa report MSA2
-                    else if (m.tipo_mezzo && m.tipo_mezzo === 'VLV') tipo = 'MSA2'; // VLV usa report MSA2
-                    else if (m.tipo_mezzo && m.tipo_mezzo.toUpperCase().includes('ELI')) tipo = 'MSA2'; // ELI usa sempre MSA2
-                    // Fallback per altre regioni
                     else if (m.tipo_mezzo && m.tipo_mezzo.startsWith('MSA1')) tipo = 'MSA1';
                     else if (m.tipo_mezzo && m.tipo_mezzo.startsWith('MSA2')) tipo = 'MSA2';
-                    
-                    console.log('[DEBUG UI] Mezzo:', m.nome_radio, 'tipo_mezzo:', m.tipo_mezzo, 'mapped tipo:', tipo);
+                    else if (m.tipo_mezzo && m.tipo_mezzo.toUpperCase().includes('ELI')) tipo = 'MSA2'; // ELI usa sempre MSA2
                     
                     // Cerca il report nella struttura dati della chiamata
                     if (tipo && call.selectedChiamata) {
@@ -598,8 +592,8 @@ class GameUI {
                         return 0;
                     });
 
-                    // Per veicoli MSA1, MSA2 e VLV mostriamo solo rientro o accompagna
-                    if (m.tipo_mezzo === 'MSA1' || m.tipo_mezzo === 'MSA2' || m.tipo_mezzo === 'VLV') {
+                    // Per veicoli MSA1 e MSA2 mostriamo solo rientro o accompagna
+                    if (m.tipo_mezzo === 'MSA1' || m.tipo_mezzo === 'MSA2') {
                         const selectOsp = `<select class='select-ospedale' data-nome='${m.nome_radio}'>`+
                             `<option value="__rientro__">Rientro in sede</option>`+
                             `<option value="__accompagna__">Accompagna in ospedale</option>`+
@@ -696,8 +690,8 @@ class GameUI {
                         const codiceSel = dettagli.querySelector(`.select-codice-trasporto[data-nome='${nome}']`)?.value;
                         const mezzo = mezzi.find(m => m.nome_radio === nome);
                         if (!mezzo) return;
-                        // Escort for MSA1/MSA2/VLV: accompany confirmed transport to hospital in Verde
-                        if ((mezzo.tipo_mezzo === 'MSA1' || mezzo.tipo_mezzo === 'MSA2' || mezzo.tipo_mezzo === 'VLV') && ospedaleSel === '__accompagna__') {
+                        // Escort for MSA1/MSA2: accompany confirmed transport to hospital in Verde
+                        if ((mezzo.tipo_mezzo === 'MSA1' || mezzo.tipo_mezzo === 'MSA2') && ospedaleSel === '__accompagna__') {
                             const lead = mezzi.find(x =>
                                 (call.mezziAssegnati || []).includes(x.nome_radio) &&
                                 (x.tipo_mezzo.startsWith('MSB') || x.tipo_mezzo.endsWith('_A') || x.tipo_mezzo === 'ELI')
@@ -858,12 +852,12 @@ class GameUI {
 
         // Filter vehicles: always include Creli (no m.central) and those of selected central; others only if state !=1 and !=8
         const allMezzi = window.game.mezzi || [];
-        const currentCentral = (window.selectedCentral || '').trim();
+        const currentCentral = (window.selectedCentral || '').trim().toUpperCase();
         const mezzi = allMezzi.filter(m => {
             // Creli vehicles have no m.central
             if (!m.central) return true;
             // Vehicles of selected central
-            if (m.central === currentCentral) return true;
+            if ((m.central || '').toUpperCase() === currentCentral) return true;
             // Other central vehicles only if not available (state !=1) and not unknown(8)
             return m.stato !== 1 && m.stato !== 8;
         });
@@ -917,12 +911,12 @@ class GameUI {
                 // Aggiungi prefisso e sfondo bianco ai mezzi di altre centrali
                 let displayName = m.nome_radio;
                 let extraStyle = '';
-                // Prefix other central vehicles and apply white background per Veneto
-                const vehicleCentral = (m.central || '').trim();
+                // Prefix other central vehicles and apply white background
+                const vehicleCentral = (m.central || '').trim().toUpperCase();
                 const sel = currentCentral;
-                if (vehicleCentral && vehicleCentral !== sel && window.game && window.game.centrali && window.game.centrali[vehicleCentral]) {
-                    const codice = window.game.centrali[vehicleCentral].codice || vehicleCentral;
-                    displayName = `${codice}_${m.nome_radio}`;
+                const prefixMap = { ASL1: ['ASL2','ASL3','ASL4','ASL5'], ASL2: ['ASL1','ASL3','ASL4','ASL5'], ASL3: ['ASL1','ASL2','ASL4','ASL5'], ASL4: ['ASL1','ASL2','ASL3','ASL5'], ASL5: ['ASL1','ASL2','ASL3','ASL4'] };
+                if (vehicleCentral && vehicleCentral !== sel && prefixMap[sel]?.includes(vehicleCentral)) {
+                    displayName = `(${vehicleCentral}) ${m.nome_radio}`;
                     extraStyle = 'background-color:white;';
                 }
                 const rowStyle = `display:flex;align-items:center;border-bottom:1px solid #ddd;padding:4px 0;${hasUnreadReport ? 'animation: blink-report 1s infinite;' : ''}${extraStyle}`;
@@ -951,30 +945,36 @@ class GameUI {
                 }
         });
         
-        // Populate hospital list
-        // Dynamic grouping per centrale operativa del Veneto
-        const center = window.selectedCentral || 'Belluno Emergenza';
-        const currentCentralCode = window.game && window.game.centrali && window.game.centrali[center] 
-            ? window.game.centrali[center].codice 
-            : center;
+        // Populate hospital list - separazione come in Veneto
+        const center = window.selectedCentral || 'ASL1'; // Centrale corrente
         
         // Calcola la percentuale di occupazione per ogni ospedale prima dell'ordinamento
         const ospedaliConOccupazione = window.game.hospitals.map(h => {
             const count = window.game.hospitalPatientCount[h.nome] || 0;
             const capacity = Number(h.raw["N° pazienti Max"] || 0);
             const pct = capacity ? (count / capacity) * 100 : 0;
+            
+            // Determina la centrale di appartenenza dell'ospedale dal prefisso
+            let ospedalecentral = center; // Default: centrale corrente
+            const nameA = h.nome || '';
+            if (nameA.startsWith('(ASL1)')) ospedalecentral = 'ASL1';
+            else if (nameA.startsWith('(ASL2)')) ospedalecentral = 'ASL2';
+            else if (nameA.startsWith('(ASL3)')) ospedalecentral = 'ASL3';
+            else if (nameA.startsWith('(ASL4)')) ospedalecentral = 'ASL4';
+            else if (nameA.startsWith('(ASL5)')) ospedalecentral = 'ASL5';
+            
             return {
                 ...h,
-                pct: pct
+                pct: pct,
+                central: ospedalecentral
             };
         });
         
-        // Raggruppa ospedali per centrale operativa del Veneto
+        // Raggruppa ospedali per centrale operativa di Liguria
         const ospedaliCentraleCorrente = [];
         const ospedaliAltreCentrali = [];
         
         ospedaliConOccupazione.forEach(h => {
-            // Gli ospedali hanno il campo central che indica la provincia di appartenenza
             if (h.central === center) {
                 ospedaliCentraleCorrente.push(h);
             } else {
@@ -1001,24 +1001,15 @@ class GameUI {
             if (!separatorAdded && h.central !== center) {
                 hospDiv.insertAdjacentHTML('beforeend', `
                     <div style="padding:4px 4px;border-bottom:2px solid #005baa;background:#e3e3e3;font-weight:bold;font-size:12px;">
-                        Altre Province
+                        Altre ASL
                     </div>
                 `);
                 separatorAdded = true;
             }
             
-            // Aggiungi prefisso provincia per ospedali di altre centrali
-            let displayName = h.nome;
-            let extraStyle = '';
-            if (h.central !== center && window.game && window.game.centrali && window.game.centrali[h.central]) {
-                const codice = window.game.centrali[h.central].codice || h.central;
-                displayName = `${codice}_${h.nome}`;
-                extraStyle = 'background-color:#f5f5f5;';
-            }
-            
             hospDiv.insertAdjacentHTML('beforeend', `
-                <div style="padding:2px 4px;border-bottom:1px solid #eee;${extraStyle}">
-                    ${displayName} (${pct}%)
+                <div style="padding:2px 4px;border-bottom:1px solid #eee;">
+                    ${h.nome} (${pct}%)
                 </div>
             `);
         });

@@ -1,0 +1,44 @@
+[
+ {
+  "OSPEDALE": "H AOSTA",
+  "COORDINATE": "45.7406272,7.3135498",
+  "N° pazienti Max": 40,
+  "CLASSE": "DEA",
+  "PUNTO NASCITA": true,
+  "PEDIATRIA": true,
+  "TRAUMA": "CTZ",
+  "EMODINAMICA": true,
+  "STROKE UNIT": true,
+  "NCH": true,
+  "RIANIMAZIONE": true,
+  "PSICHIATRIA": true
+ },
+ {
+  "OSPEDALE": "H CTO TORINO",
+  "COORDINATE": "45.0338286,7.6741132",
+  "N° pazienti Max": 60,
+  "CLASSE": "EAS",
+  "PUNTO NASCITA": true,
+  "PEDIATRIA": true,
+  "TRAUMA": "CTS",
+  "EMODINAMICA": true,
+  "STROKE UNIT": true,
+  "NCH": true,
+  "RIANIMAZIONE": true,
+  "PSICHIATRIA": true
+ },
+ {
+  "OSPEDALE": "H IVREA",
+  "COORDINATE": "45.4670184,7.8725876",
+  "N° pazienti Max": 40,
+  "CLASSE": "DEA",
+  "PUNTO NASCITA": true,
+  "PEDIATRIA": true,
+  "TRAUMA": "CTZ",
+  "EMODINAMICA": true,
+  "STROKE UNIT": true,
+  "NCH": false,
+  "RIANIMAZIONE": true,
+  "PSICHIATRIA": true
+ }
+]

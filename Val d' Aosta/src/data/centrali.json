@@ -1,0 +1,9 @@
+{
+    "118 Val d' Aosta": {
+        "nome": "118 Val d' Aosta",
+        "sede": "Aosta",
+        "lat": 45.7375,
+        "lon": 7.3201,
+        "indirizziFile": "src/data/indirizzi.json"
+    }
+}

@@ -588,7 +588,7 @@
         "Mezzo":"MSB",
         "Nome radio":"SIERRA ECHO 36",
         "Convenzione":"H6",
-        "Orario di lavoro":"18:00-24:00",
+        "Orario di lavoro":"18:00-00:00",
         "Giorni":"GIO-VEN",
         "Unnamed: 7":null,
         "note":null
@@ -600,7 +600,7 @@
         "Nome radio":"SIERRA ECHO 36",
         "Convenzione":"H24",
         "Orario di lavoro":"07:00-07:00",
-        "Giorni":"LUN-DOM",
+        "Giorni":"SAB-DOM",
         "Unnamed: 7":null,
         "note":null
     },

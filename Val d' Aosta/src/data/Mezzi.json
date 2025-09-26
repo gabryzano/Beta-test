@@ -1,0 +1,344 @@
+[
+ {
+  "Nome Postazione": "Elisoccorso Aosta",
+  "Coordinate Postazione": "45.739465,7.3673973",
+  "Mezzo": "ELI",
+  "Nome radio": "SIERRA ALPHA 1",
+  "Convenzione": "H24",
+  "Orario di lavoro": "00:00-00:00",
+  "Giorni": "LUN-DOM"
+ },
+ {
+  "Nome Postazione": "Elisoccorso Aosta",
+  "Coordinate Postazione": "45.739465,7.3673973",
+  "Mezzo": "ELI",
+  "Nome radio": "SIERRA ALPHA 2",
+  "Convenzione": "H12",
+  "Orario di lavoro": "7:30-19:30",
+  "Giorni": "LUN-DOM"
+ },
+ {
+  "Nome Postazione": "Postazione 118 Chatillon",
+  "Coordinate Postazione": "45.7497291,7.6178338",
+  "Mezzo": "MSA",
+  "Nome radio": "MSA 306",
+  "Convenzione": "H12",
+  "Orario di lavoro": "19:00-7:00",
+  "Giorni": "LUN-DOM"
+ },
+ {
+  "Nome Postazione": "Postazione 118 Chatillon",
+  "Coordinate Postazione": "45.7497291,7.6178338",
+  "Mezzo": "MSI",
+  "Nome radio": "MSI 306",
+  "Convenzione": "H12",
+  "Orario di lavoro": "7:00-19:00",
+  "Giorni": "LUN-DOM"
+ },
+ {
+  "Nome Postazione": "Postazione 118 Donnas",
+  "Coordinate Postazione": "45.6031824,7.7746399",
+  "Mezzo": "MSA",
+  "Nome radio": "MSA 322",
+  "Convenzione": "H12",
+  "Orario di lavoro": "7:00-19:00",
+  "Giorni": "LUN-DOM"
+ },
+ {
+  "Nome Postazione": "Postazione 118 Donnas",
+  "Coordinate Postazione": "45.6031824,7.7746399",
+  "Mezzo": "MSI",
+  "Nome radio": "MSI 322",
+  "Convenzione": "H12",
+  "Orario di lavoro": "19:00-7:00",
+  "Giorni": "LUN-DOM"
+ },
+ {
+  "Nome Postazione": "Postazione 118 Donnas",
+  "Coordinate Postazione": "45.6031824,7.7746399",
+  "Mezzo": "VLV",
+  "Nome radio": "VLV 399",
+  "Convenzione": "H12",
+  "Orario di lavoro": "19:00-7:00",
+  "Giorni": "LUN-DOM"
+ },
+ {
+  "Nome Postazione": "118 Postazione Morgex",
+  "Coordinate Postazione": "45.7585727,7.0387117",
+  "Mezzo": "MSI",
+  "Nome radio": "MSI 325",
+  "Convenzione": "H24",
+  "Orario di lavoro": "00:00-00:00",
+  "Giorni": "LUN-DOM"
+ },
+ {
+  "Nome Postazione": "Postazione 118 Ospedale Regionale",
+  "Coordinate Postazione": "45.7406795,7.3143186",
+  "Mezzo": "MSI",
+  "Nome radio": "MSI 309",
+  "Convenzione": "H24",
+  "Orario di lavoro": "00:00-00:00",
+  "Giorni": "LUN-DOM"
+ },
+ {
+  "Nome Postazione": "Postazione 118 Ospedale Regionale",
+  "Coordinate Postazione": "45.7406795,7.3143186",
+  "Mezzo": "VLV",
+  "Nome radio": "VLV 398",
+  "Convenzione": "H12",
+  "Orario di lavoro": "7:00-19:00",
+  "Giorni": "LUN-DOM"
+ },
+ {
+  "Nome Postazione": "Postazione 118 Ospedale Regionale",
+  "Coordinate Postazione": "45.7406795,7.3143186",
+  "Mezzo": "MSB",
+  "Nome radio": "MSB 355",
+  "Convenzione": "H12",
+  "Orario di lavoro": "7:00-19:00",
+  "Giorni": "LUN-DOM"
+ },
+ {
+  "Nome Postazione": "Postazione 118 Ospedale Regionale",
+  "Coordinate Postazione": "45.7406795,7.3143186",
+  "Mezzo": "MSB",
+  "Nome radio": "MSB 327",
+  "Convenzione": "H12",
+  "Orario di lavoro": "8:00-20:00",
+  "Giorni": "LUN-VEN"
+ },
+ {
+  "Nome Postazione": "Postazione 118 Ospedale Regionale",
+  "Coordinate Postazione": "45.7406795,7.3143186",
+  "Mezzo": "MSB",
+  "Nome radio": "MSB 305",
+  "Convenzione": "H4",
+  "Orario di lavoro": "15:00-19:00",
+  "Giorni": "LUN-VEN"
+ },
+ {
+  "Nome Postazione": "Postazione 118 Ospedale Regionale",
+  "Coordinate Postazione": "45.7406795,7.3143186",
+  "Mezzo": "MSB",
+  "Nome radio": "MSB 311",
+  "Convenzione": "H4",
+  "Orario di lavoro": "15:00-19:00",
+  "Giorni": "LUN-VEN"
+ },
+ {
+  "Nome Postazione": "Postazione 118 Ospedale Regionale",
+  "Coordinate Postazione": "45.7406795,7.3143186",
+  "Mezzo": "MSB",
+  "Nome radio": "MSB 321",
+  "Convenzione": "H12",
+  "Orario di lavoro": "20:00-8:00",
+  "Giorni": "LUN-VEN"
+ },
+ {
+  "Nome Postazione": "ANPAS St. Pierre",
+  "Coordinate Postazione": "45.7118459,7.2217347",
+  "Mezzo": "MSB",
+  "Nome radio": "MSB 726",
+  "Convenzione": "H12",
+  "Orario di lavoro": "7:00-19:00",
+  "Giorni": "LUN-VEN"
+ },
+ {
+  "Nome Postazione": "ANPAS St. Pierre",
+  "Coordinate Postazione": "45.7118459,7.2217347",
+  "Mezzo": "MSB",
+  "Nome radio": "MSB 726",
+  "Convenzione": "H12",
+  "Orario di lavoro": "8:00-20:00",
+  "Giorni": "SAB-DOM"
+ },
+ {
+  "Nome Postazione": "ABVAM St. Marcel",
+  "Coordinate Postazione": "45.7325615,7.4472829",
+  "Mezzo": "MSB",
+  "Nome radio": "MSB 420",
+  "Convenzione": "H6",
+  "Orario di lavoro": "18:00-00:00",
+  "Giorni": "SAB-DOM"
+ },
+ {
+  "Nome Postazione": "Brusson Soccorso",
+  "Coordinate Postazione": "45.8298272,7.7235084",
+  "Mezzo": "MSB",
+  "Nome radio": "MSB 479",
+  "Convenzione": "H24",
+  "Orario di lavoro": "00:00-00:00",
+  "Giorni": "LUN-DOM"
+ },
+ {
+  "Nome Postazione": "Champorcher Soccorso",
+  "Coordinate Postazione": "45.622804,7.6082721",
+  "Mezzo": "MSB",
+  "Nome radio": "MSB 482",
+  "Convenzione": "H24",
+  "Orario di lavoro": "00:00-00:00",
+  "Giorni": "LUN-DOM"
+ },
+ {
+  "Nome Postazione": "Chatillon Soccorso",
+  "Coordinate Postazione": "45.7497314,7.6179022",
+  "Mezzo": "MSB",
+  "Nome radio": "MSB 457",
+  "Convenzione": "H12",
+  "Orario di lavoro": "8:00-20:00",
+  "Giorni": "SAB-DOM"
+ },
+ {
+  "Nome Postazione": "Chatillon Soccorso",
+  "Coordinate Postazione": "45.7497314,7.6179022",
+  "Mezzo": "MSB",
+  "Nome radio": "MSB 457",
+  "Convenzione": "H6",
+  "Orario di lavoro": "18:00-00:00",
+  "Giorni": "LUN-VEN"
+ },
+ {
+  "Nome Postazione": "Cogne Soccorso",
+  "Coordinate Postazione": "45.608276,7.3604688",
+  "Mezzo": "MSB",
+  "Nome radio": "MSB 725",
+  "Convenzione": "H12",
+  "Orario di lavoro": "7:00-19:00",
+  "Giorni": "LUN-DOM"
+ },
+ {
+  "Nome Postazione": "Courmayeur Soccorso",
+  "Coordinate Postazione": "45.7869689,6.9708269",
+  "Mezzo": "MSB",
+  "Nome radio": "MSB 439",
+  "Convenzione": "H6",
+  "Orario di lavoro": "18:00-00:00",
+  "Giorni": "SAB-DOM"
+ },
+ {
+  "Nome Postazione": "Grand Paradis Soccorso",
+  "Coordinate Postazione": "45.7048559,7.2181821",
+  "Mezzo": "MSB",
+  "Nome radio": "MSB 447",
+  "Convenzione": "H12",
+  "Orario di lavoro": "8:00-20:00",
+  "Giorni": "SAB-DOM"
+ },
+ {
+  "Nome Postazione": "La Thuile Soccorso",
+  "Coordinate Postazione": "45.7087499,6.9557112",
+  "Mezzo": "MSB",
+  "Nome radio": "MSB 440",
+  "Convenzione": "H6",
+  "Orario di lavoro": "18:00-00:00",
+  "Giorni": "SAB-DOM"
+ },
+ {
+  "Nome Postazione": "Montjovet Soccorso",
+  "Coordinate Postazione": "45.7033598,7.6737914",
+  "Mezzo": "MSB",
+  "Nome radio": "MSB 470",
+  "Convenzione": "H6",
+  "Orario di lavoro": "18:00-00:00",
+  "Giorni": "SAB-DOM"
+ },
+ {
+  "Nome Postazione": "Mont Rose Soccorso",
+  "Coordinate Postazione": "45.597328,7.8015642",
+  "Mezzo": "MSB",
+  "Nome radio": "MSB 472",
+  "Convenzione": "H6",
+  "Orario di lavoro": "18:00-00:00",
+  "Giorni": "SAB-DOM"
+ },
+ {
+  "Nome Postazione": "Morgex Soccorso",
+  "Coordinate Postazione": "45.7583366,7.0391018",
+  "Mezzo": "MSB",
+  "Nome radio": "MSB 443",
+  "Convenzione": "H10",
+  "Orario di lavoro": "14:00-00:00",
+  "Giorni": "SAB-DOM"
+ },
+ {
+  "Nome Postazione": "Morgex Soccorso",
+  "Coordinate Postazione": "45.7583366,7.0391018",
+  "Mezzo": "MSB",
+  "Nome radio": "MSB 443",
+  "Convenzione": "H6",
+  "Orario di lavoro": "18:00-00:00",
+  "Giorni": "LUN-VEN"
+ },
+ {
+  "Nome Postazione": "Valpelline Soccorso",
+  "Coordinate Postazione": "45.7404739,7.3150598",
+  "Mezzo": "MSB",
+  "Nome radio": "MSB 428",
+  "Convenzione": "H5",
+  "Orario di lavoro": "19:00-00:00",
+  "Giorni": "LUN-DOM"
+ },
+ {
+  "Nome Postazione": "Valtournenche Soccorso",
+  "Coordinate Postazione": "45.8767881,7.6238789",
+  "Mezzo": "MSB",
+  "Nome radio": "MSB 462",
+  "Convenzione": "H5",
+  "Orario di lavoro": "19:00-00:00",
+  "Giorni": "LUN-DOM"
+ },
+ {
+  "Nome Postazione": "Valtournenche Soccorso",
+  "Coordinate Postazione": "45.8767881,7.6238789",
+  "Mezzo": "MSB",
+  "Nome radio": "MSB 469",
+  "Convenzione": "H12",
+  "Orario di lavoro": "7:00-19:00",
+  "Giorni": "SAB-DOM"
+ },
+ {
+  "Nome Postazione": "Verrés Soccorso PS e Solidarietà",
+  "Coordinate Postazione": "45.6636096,7.6919996",
+  "Mezzo": "MSB",
+  "Nome radio": "MSB 476",
+  "Convenzione": "H12",
+  "Orario di lavoro": "20:00-8:00",
+  "Giorni": "SAB-DOM"
+ },
+ {
+  "Nome Postazione": "Walser Soccorso Gressoney",
+  "Coordinate Postazione": "45.778731,7.8253303",
+  "Mezzo": "MSB",
+  "Nome radio": "MSB 487",
+  "Convenzione": "H24",
+  "Orario di lavoro": "00:00-00:00",
+  "Giorni": "LUN-DOM"
+ },
+ {
+  "Nome Postazione": "Postazione 118 Centrale",
+  "Coordinate Postazione": "45.7395092,7.3642566",
+  "Mezzo": "VLV",
+  "Nome radio": "VLV 396",
+  "Convenzione": "H24",
+  "Orario di lavoro": "00:00-00:00",
+  "Giorni": "LUN-DOM"
+ },
+ {
+  "Nome Postazione": "Croce Rossa Italiana - Aosta",
+  "Coordinate Postazione": "45.7321176,7.3022554",
+  "Mezzo": "MSB",
+  "Nome radio": "MSB 496",
+  "Convenzione": "H12",
+  "Orario di lavoro": "20:00-8:00",
+  "Giorni": "SAB-DOM"
+ },
+ {
+  "Nome Postazione": "Croce Rossa Italiana - Aosta",
+  "Coordinate Postazione": "45.7321176,7.3022554",
+  "Mezzo": "MSB",
+  "Nome radio": "MSB 496",
+  "Convenzione": "H10",
+  "Orario di lavoro": "20:00-6:00",
+  "Giorni": "LUN-VEN"
+ }
+]
