@@ -1,0 +1,49 @@
+{
+    "Sheet1": [
+        {
+            "Tipo": "MSB",
+            "Nome Esteso": "Mezzo di Soccorso Base",
+            "Trasporta Pazienti": "1 + 1(non critico)",
+            "Equipaggio": "2 o 3 Soccorritori (BLS)",
+            "Competenze": "BLS, ecg, glicemia",
+            "Caratteristiche Tecniche": "Ambulanza base",
+            "Velocità media": "60 km/h",
+            "calcolo distanza": "strada",
+            "Parametri": "No GCS"
+        },
+        {
+            "Tipo": "MSI",
+            "Nome Esteso": "Mezzo Soccorso Infermieristico",
+            "Trasporta Pazienti": "No",
+            "Equipaggio": "Infermiere + Autista",
+            "Competenze": "ACLS, GCS, PAC, PNX, analgesia, ipoglicemia",
+            "Caratteristiche Tecniche": "Auto infermieristica",
+            "Velocità media": "80 km/h",
+            "calcolo distanza": "strada",
+            "Parametri": "tutti"
+        },
+
+        {
+            "Tipo": "AM",
+            "Nome Esteso": "Mezzo Soccorso Avanzato 2",
+            "Trasporta Pazienti": "No",
+            "Equipaggio": "Medico + Infermieire + Autista",
+            "Competenze": "MSA1 + Intubazione, Sedazione, ASO",
+            "Caratteristiche Tecniche": "Auto medicalizzata",
+            "Velocità media": "80 km/h",
+            "calcolo distanza": "strada",
+            "Parametri": "tutti"
+        },
+        {
+            "Tipo": "ELI",
+            "Nome Esteso": "Elisoccorso",
+            "Trasporta Pazienti": "1 + 1(non critico)",
+            "Equipaggio": "Medico + Infermiere + Pilota",
+            "Competenze": "Stesse di MSA2 + Trasporto",
+            "Caratteristiche Tecniche": "Velocità alta, via aerea, attivazione in 8 min",
+            "Velocità media": "150 km/h",
+            "calcolo distanza": "aria",
+            "Parametri": "tutti"
+        }
+    ]
+}

@@ -1,0 +1,41 @@
+{
+  "Sheet1": [
+    {
+        "Nome Postazione": "Elisoccorso Verona",
+        "Coordinate Postazione": "45.4616641,10.9522853",
+        "Mezzo": "ELI",
+        "Nome radio": "LEONE 03",
+        "Convenzione": "H12",
+        "Orario di lavoro": "07:30-19:30",
+        "Giorni": "LUN-DOM"
+    }, 
+      {
+        "Nome Postazione": "Elisoccorso Padova",
+        "Coordinate Postazione": "45.3943159,11.8435718",
+        "Mezzo": "ELI",
+        "Nome radio": "LEONE 02",
+        "Convenzione": "H12",
+        "Orario di lavoro": "07:30-19:30",
+        "Giorni": "LUN-DOM"
+    },
+      {
+        "Nome Postazione": "Elisoccorso Treviso",
+        "Coordinate Postazione": "45.6553462,12.2636435",
+        "Mezzo": "ELI",
+        "Nome radio": "LEONE 01",
+        "Convenzione": "H24",
+        "Orario di lavoro": "00:00-00:00",
+        "Giorni": "LUN-DOM"
+    },
+        {
+        "Nome Postazione": "Elisoccorso Belluno",
+        "Coordinate Postazione": "46.4319643,12.3761914",
+        "Mezzo": "ELI",
+        "Nome radio": "FALCO 01",
+        "Convenzione": "H24",
+        "Orario di lavoro": "00:00-00:00",
+        "Giorni": "LUN-DOM"
+    }
+
+  ]
+}

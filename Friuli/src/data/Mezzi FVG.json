@@ -1,0 +1,587 @@
+[
+ {
+  "Nome Postazione": "Base Elisoccorso FVG",
+  "Coordinate Postazione": "46.0363051,13.1805394",
+  "Mezzo": "ELI ",
+  "Nome radio": "2INDIA",
+  "Convenzione": "H24",
+  "Orario di lavoro": "00:00-00:00",
+  "Giorni": "LUN-DOM"
+ },
+ {
+  "Nome Postazione": "Croce Rossa Italiana - Palmanova",
+  "Coordinate Postazione": "45.8978257,13.3093027",
+  "Mezzo": "MSB",
+  "Nome radio": "PA52",
+  "Convenzione": "H14",
+  "Orario di lavoro": "7:00-21:00",
+  "Giorni": "LUN-DOM"
+ },
+ {
+  "Nome Postazione": "Croce Rossa Italiana - Trieste",
+  "Coordinate Postazione": "45.6457415,13.7754415",
+  "Mezzo": "MSB",
+  "Nome radio": "CT42",
+  "Convenzione": "H14",
+  "Orario di lavoro": "7:00-21:00",
+  "Giorni": "LUN-DOM"
+ },
+ {
+  "Nome Postazione": "Croce Verde - Cervignano del Friuli",
+  "Coordinate Postazione": "45.8199892,13.3354643",
+  "Mezzo": "MSI",
+  "Nome radio": "B43",
+  "Convenzione": "H24",
+  "Orario di lavoro": "00:00-00:00",
+  "Giorni": "LUN-DOM"
+ },
+ {
+  "Nome Postazione": "Croce Verde - Gorizia",
+  "Coordinate Postazione": "45.9437129,13.6221581",
+  "Mezzo": "MSB",
+  "Nome radio": "V61",
+  "Convenzione": "H14",
+  "Orario di lavoro": "7:00-21:00",
+  "Giorni": "LUN-DOM"
+ },
+ {
+  "Nome Postazione": "Postazione 118 - Ampezzo",
+  "Coordinate Postazione": "46.415343678053,12.796061341904",
+  "Mezzo": "MSI",
+  "Nome radio": "I63",
+  "Convenzione": "H12",
+  "Orario di lavoro": "8:00-20:00",
+  "Giorni": "LUN-DOM"
+ },
+ {
+  "Nome Postazione": "Postazione 118 - Azzano Decimo",
+  "Coordinate Postazione": "45.879849133268,12.706852972998",
+  "Mezzo": "MSI",
+  "Nome radio": "P23",
+  "Convenzione": "H24",
+  "Orario di lavoro": "00:00-00:00",
+  "Giorni": "LUN-DOM"
+ },
+ {
+  "Nome Postazione": "Postazione 118 - Chiusaforte",
+  "Coordinate Postazione": "46.405409526107,13.304221217805",
+  "Mezzo": "MSI",
+  "Nome radio": "I61",
+  "Convenzione": "H12",
+  "Orario di lavoro": "8:00-20:00",
+  "Giorni": "LUN-DOM"
+ },
+ {
+  "Nome Postazione": "Postazione 118 - Cimolais",
+  "Coordinate Postazione": "46.287024823089,12.433903122164",
+  "Mezzo": "MSI",
+  "Nome radio": "MA40",
+  "Convenzione": "H24",
+  "Orario di lavoro": "00:00-00:00",
+  "Giorni": "LUN-DOM"
+ },
+ {
+  "Nome Postazione": "Postazione 118 - Cividale del Friuli",
+  "Coordinate Postazione": "46.0919633,13.4382935",
+  "Mezzo": "MSI",
+  "Nome radio": "D09",
+  "Convenzione": "H24",
+  "Orario di lavoro": "00:00-00:00",
+  "Giorni": "LUN-DOM"
+ },
+ {
+  "Nome Postazione": "Postazione 118 - Codroipo",
+  "Coordinate Postazione": "45.960935896309,12.995443890802",
+  "Mezzo": "MSI",
+  "Nome radio": "I56",
+  "Convenzione": "H24",
+  "Orario di lavoro": "00:00-00:00",
+  "Giorni": "LUN-DOM"
+ },
+ {
+  "Nome Postazione": "Postazione 118 - Cormons",
+  "Coordinate Postazione": "45.959655465312,13.461776002669",
+  "Mezzo": "MSI",
+  "Nome radio": "V64",
+  "Convenzione": "H24",
+  "Orario di lavoro": "00:00-00:00",
+  "Giorni": "LUN-DOM"
+ },
+ {
+  "Nome Postazione": "Postazione 118 - Gemona del Friuli",
+  "Coordinate Postazione": "46.288072067406,13.125324643701",
+  "Mezzo": "MSI",
+  "Nome radio": "GE14",
+  "Convenzione": "H24",
+  "Orario di lavoro": "00:00-00:00",
+  "Giorni": "LUN-DOM"
+ },
+ {
+  "Nome Postazione": "Postazione 118 - Gemona del Friuli",
+  "Coordinate Postazione": "46.288072067406,13.125324643702",
+  "Mezzo": "MSI",
+  "Nome radio": "I60",
+  "Convenzione": "H12",
+  "Orario di lavoro": "8:00-20:00",
+  "Giorni": "LUN-DOM"
+ },
+ {
+  "Nome Postazione": "Postazione 118 - Gorizia",
+  "Coordinate Postazione": "45.936185620688,13.604828824898",
+  "Mezzo": "MSI",
+  "Nome radio": "O03",
+  "Convenzione": "H24",
+  "Orario di lavoro": "00:00-00:00",
+  "Giorni": "LUN-DOM"
+ },
+ {
+  "Nome Postazione": "Postazione 118 - Gradisca d' Isonzo",
+  "Coordinate Postazione": "45.894531309195,13.496958776069",
+  "Mezzo": "MSI",
+  "Nome radio": "V51",
+  "Convenzione": "H14",
+  "Orario di lavoro": "7:00-21:00",
+  "Giorni": "LUN-DOM"
+ },
+ {
+  "Nome Postazione": "Postazione 118 - Gradisca d' Isonzo",
+  "Coordinate Postazione": "45.894531309195,13.496958776070",
+  "Mezzo": "AM",
+  "Nome radio": "VV03",
+  "Convenzione": "H24",
+  "Orario di lavoro": "00:00-00:00",
+  "Giorni": "LUN-DOM"
+ },
+ {
+  "Nome Postazione": "Postazione 118 - Grado",
+  "Coordinate Postazione": "45.679207752067,13.382949318503",
+  "Mezzo": "MSI",
+  "Nome radio": "S76",
+  "Convenzione": "H24",
+  "Orario di lavoro": "00:00-00:00",
+  "Giorni": "LUN-DOM"
+ },
+ {
+  "Nome Postazione": "Postazione 118 - Latisana",
+  "Coordinate Postazione": "45.7697508,13.001868",
+  "Mezzo": "MSI",
+  "Nome radio": "LA23",
+  "Convenzione": "H24",
+  "Orario di lavoro": "00:00-00-00",
+  "Giorni": "LUN-DOM"
+ },
+ {
+  "Nome Postazione": "Postazione 118 - Latisana",
+  "Coordinate Postazione": "45.7697508,13.001868",
+  "Mezzo": "MSB",
+  "Nome radio": "LI37",
+  "Convenzione": "H14",
+  "Orario di lavoro": "7:00-21:00",
+  "Giorni": "LUN-DOM"
+ },
+ {
+  "Nome Postazione": "Postazione 118 - Latisana",
+  "Coordinate Postazione": "45.7697508,13.001868",
+  "Mezzo": "AM",
+  "Nome radio": "LL02",
+  "Convenzione": "H12",
+  "Orario di lavoro": "8:00-20:00",
+  "Giorni": "LUN-DOM"
+ },
+ {
+  "Nome Postazione": "Postazione 118 - Maniago",
+  "Coordinate Postazione": "46.1725104,12.7137073",
+  "Mezzo": "MSI",
+  "Nome radio": "MA41",
+  "Convenzione": "H24",
+  "Orario di lavoro": "00:00-00:00",
+  "Giorni": "LUN-DOM"
+ },
+ {
+  "Nome Postazione": "Postazione 118 - Monfalcone",
+  "Coordinate Postazione": "45.8153372,13.5196737",
+  "Mezzo": "MSI",
+  "Nome radio": "R43",
+  "Convenzione": "H24",
+  "Orario di lavoro": "00:00-00:00",
+  "Giorni": "LUN-DOM"
+ },
+ {
+  "Nome Postazione": "Postazione 118 - Monfalcone",
+  "Coordinate Postazione": "45.8153372,13.5196737",
+  "Mezzo": "MSB",
+  "Nome radio": "R44",
+  "Convenzione": "H24",
+  "Orario di lavoro": "00:00-00:00",
+  "Giorni": "LUN-DOM"
+ },
+ {
+  "Nome Postazione": "Postazione 118 - Muggia",
+  "Coordinate Postazione": "45.604074062977,13.770015558972",
+  "Mezzo": "MSI",
+  "Nome radio": "T12",
+  "Convenzione": "H12",
+  "Orario di lavoro": "8:00-20:00",
+  "Giorni": "LUN-DOM"
+ },
+ {
+  "Nome Postazione": "Postazione 118 - Opicina",
+  "Coordinate Postazione": "45.6891021,13.7879588",
+  "Mezzo": "AM",
+  "Nome radio": "T1",
+  "Convenzione": "H12",
+  "Orario di lavoro": "8:00-20:00",
+  "Giorni": "LUN-DOM"
+ },
+ {
+  "Nome Postazione": "Postazione 118 - Opicina",
+  "Coordinate Postazione": "45.6891021,13.7879588",
+  "Mezzo": "MSI",
+  "Nome radio": "T33",
+  "Convenzione": "H12",
+  "Orario di lavoro": "20:00-8:00",
+  "Giorni": "LUN-DOM"
+ },
+ {
+  "Nome Postazione": "Postazione 118 - Palmanova",
+  "Coordinate Postazione": "45.9088689,13.3371973",
+  "Mezzo": "MSI",
+  "Nome radio": "PA13",
+  "Convenzione": "H24",
+  "Orario di lavoro": "00:00-00:00",
+  "Giorni": "LUN-DOM"
+ },
+ {
+  "Nome Postazione": "Postazione 118 - Paluzza",
+  "Coordinate Postazione": "46.530040312106,13.014354553251",
+  "Mezzo": "MSI",
+  "Nome radio": "I62",
+  "Convenzione": "H12",
+  "Orario di lavoro": "8:00-20:00",
+  "Giorni": "LUN-DOM"
+ },
+ {
+  "Nome Postazione": "Postazione 118 - Pordenone",
+  "Coordinate Postazione": "45.968268514922,12.652559055249",
+  "Mezzo": "MSI",
+  "Nome radio": "P17",
+  "Convenzione": "H24",
+  "Orario di lavoro": "00:00-00:00",
+  "Giorni": "LUN-DOM"
+ },
+ {
+  "Nome Postazione": "Postazione 118 - Pordenone",
+  "Coordinate Postazione": "45.968268514922,12.652559055249",
+  "Mezzo": "MSI",
+  "Nome radio": "P19",
+  "Convenzione": "H24",
+  "Orario di lavoro": "00:00-00:00",
+  "Giorni": "LUN-DOM"
+ },
+ {
+  "Nome Postazione": "Postazione 118 - Pordenone",
+  "Coordinate Postazione": "45.968268514922,12.652559055249",
+  "Mezzo": "MSI",
+  "Nome radio": "P22",
+  "Convenzione": "H15",
+  "Orario di lavoro": "7:00-22:00",
+  "Giorni": "LUN-DOM"
+ },
+ {
+  "Nome Postazione": "Postazione 118 - Pordenone",
+  "Coordinate Postazione": "45.968268514922,12.652559055249",
+  "Mezzo": "AM",
+  "Nome radio": "SM07",
+  "Convenzione": "H24",
+  "Orario di lavoro": "00:00-00:00",
+  "Giorni": "LUN-DOM"
+ },
+ {
+  "Nome Postazione": "Postazione 118 - Pradis\/Clauzetto",
+  "Coordinate Postazione": "46.249117779532,12.889028889177",
+  "Mezzo": "MSI",
+  "Nome radio": "SG36",
+  "Convenzione": "H14",
+  "Orario di lavoro": "7:00-21:00",
+  "Giorni": "LUN-DOM"
+ },
+ {
+  "Nome Postazione": "Postazione 118 - Rigolato",
+  "Coordinate Postazione": "46.5520148,12.8529681",
+  "Mezzo": "MSI",
+  "Nome radio": "SP13",
+  "Convenzione": "H12",
+  "Orario di lavoro": "8:00-20:00",
+  "Giorni": "LUN-DOM"
+ },
+ {
+  "Nome Postazione": "Postazione 118 - Sacile",
+  "Coordinate Postazione": "45.955990822563,12.500154517317",
+  "Mezzo": "MSI",
+  "Nome radio": "P26",
+  "Convenzione": "H24",
+  "Orario di lavoro": "00:00-00:00",
+  "Giorni": "LUN-DOM"
+ },
+ {
+  "Nome Postazione": "Postazione 118 - San Daniele del Friuli",
+  "Coordinate Postazione": "46.1546907,13.0094347",
+  "Mezzo": "MSI",
+  "Nome radio": "SA15",
+  "Convenzione": "H24",
+  "Orario di lavoro": "00:00-00:00",
+  "Giorni": "LUN-DOM"
+ },
+ {
+  "Nome Postazione": "Postazione 118 - San Daniele del Friuli",
+  "Coordinate Postazione": "46.1546907,13.0094347",
+  "Mezzo": "MSI",
+  "Nome radio": "I58",
+  "Convenzione": "H12",
+  "Orario di lavoro": "8:00-20:00",
+  "Giorni": "LUN-DOM"
+ },
+ {
+  "Nome Postazione": "Postazione 118 - San Giorgio di Nogaro",
+  "Coordinate Postazione": "45.837002095161,13.207454849422",
+  "Mezzo": "MSI",
+  "Nome radio": "SO12",
+  "Convenzione": "H12",
+  "Orario di lavoro": "8:00-20:00",
+  "Giorni": "LUN-DOM"
+ },
+ {
+  "Nome Postazione": "Postazione 118 - San Giorgio di Nogaro",
+  "Coordinate Postazione": "45.837002095161,13.207454849422",
+  "Mezzo": "MSB",
+  "Nome radio": "SO12",
+  "Convenzione": "H12",
+  "Orario di lavoro": "20:00-8:00",
+  "Giorni": "LUN-DOM"
+ },
+ {
+  "Nome Postazione": "Postazione 118 - San Pietro al Nastione",
+  "Coordinate Postazione": "46.1293227,13.488674",
+  "Mezzo": "MSI",
+  "Nome radio": "D23",
+  "Convenzione": "H24",
+  "Orario di lavoro": "00:00-00:00",
+  "Giorni": "LUN-DOM"
+ },
+ {
+  "Nome Postazione": "Postazione 118 - San Vito al Tagliamento",
+  "Coordinate Postazione": "45.911798433343,12.856514908463",
+  "Mezzo": "MSI",
+  "Nome radio": "SV13",
+  "Convenzione": "H24",
+  "Orario di lavoro": "00:00-00:00",
+  "Giorni": "LUN-DOM"
+ },
+ {
+  "Nome Postazione": "Postazione 118 - San Vito al Tagliamento",
+  "Coordinate Postazione": "45.911798433343,12.856514908463",
+  "Mezzo": "MSI",
+  "Nome radio": "SV14",
+  "Convenzione": "H12",
+  "Orario di lavoro": "8:00-20:00",
+  "Giorni": "LUN-DOM"
+ },
+ {
+  "Nome Postazione": "Postazione 118 - Sequals",
+  "Coordinate Postazione": "46.17252103976,12.83709269016",
+  "Mezzo": "MSI",
+  "Nome radio": "SG34",
+  "Convenzione": "H24",
+  "Orario di lavoro": "00:00-00:00",
+  "Giorni": "LUN-DOM"
+ },
+ {
+  "Nome Postazione": "Postazione 118 - Spilimbergo",
+  "Coordinate Postazione": "46.111662940815,12.891755828402",
+  "Mezzo": "MSI",
+  "Nome radio": "SG31",
+  "Convenzione": "H24",
+  "Orario di lavoro": "00:00-00:00",
+  "Giorni": "LUN-DOM"
+ },
+ {
+  "Nome Postazione": "Postazione 118 - Tarcento",
+  "Coordinate Postazione": "46.2132338,13.2131635",
+  "Mezzo": "MSI",
+  "Nome radio": "I53",
+  "Convenzione": "H24",
+  "Orario di lavoro": "00:00-00:00",
+  "Giorni": "LUN-DOM"
+ },
+ {
+  "Nome Postazione": "Postazione 118 - Tarvisio",
+  "Coordinate Postazione": "46.5030596,13.5760036",
+  "Mezzo": "MSI",
+  "Nome radio": "TV14",
+  "Convenzione": "H24",
+  "Orario di lavoro": "00:00-00:00",
+  "Giorni": "LUN-DOM"
+ },
+ {
+  "Nome Postazione": "Postazione 118 - Tolmezzo",
+  "Coordinate Postazione": "46.405347385766,13.005125803228",
+  "Mezzo": "MSI",
+  "Nome radio": "TZ18",
+  "Convenzione": "H24",
+  "Orario di lavoro": "00:00-00:00",
+  "Giorni": "LUN-DOM"
+ },
+ {
+  "Nome Postazione": "Postazione 118 - Tolmezzo",
+  "Coordinate Postazione": "46.405347385766,13.005125803228",
+  "Mezzo": "MSI",
+  "Nome radio": "I62",
+  "Convenzione": "H12",
+  "Orario di lavoro": "20:00-8:00",
+  "Giorni": "LUN-DOM"
+ },
+ {
+  "Nome Postazione": "Postazione 118 - Tolmezzo",
+  "Coordinate Postazione": "46.405347385766,13.005125803228",
+  "Mezzo": "AM",
+  "Nome radio": "ZZ01",
+  "Convenzione": "H12",
+  "Orario di lavoro": "8:00-20:00",
+  "Giorni": "LUN-VEN"
+ },
+ {
+  "Nome Postazione": "Postazione 118 - Trieste Santa Croce",
+  "Coordinate Postazione": "45.737089006528,13.690463670584",
+  "Mezzo": "MSI",
+  "Nome radio": "T15",
+  "Convenzione": "H24",
+  "Orario di lavoro": "00:00-00:00",
+  "Giorni": "LUN-DOM"
+ },
+ {
+  "Nome Postazione": "Postazione 118 - Trieste Via D'Alviano",
+  "Coordinate Postazione": "45.6366401,13.77921",
+  "Mezzo": "MSI",
+  "Nome radio": "T14",
+  "Convenzione": "H24",
+  "Orario di lavoro": "00:00-00:00",
+  "Giorni": "LUN-DOM"
+ },
+ {
+  "Nome Postazione": "Postazione 118 - Trieste Via D'Alviano",
+  "Coordinate Postazione": "45.6366401,13.77921",
+  "Mezzo": "AM",
+  "Nome radio": "T8",
+  "Convenzione": "H24",
+  "Orario di lavoro": "00:00-00:00",
+  "Giorni": "LUN-DOM"
+ },
+ {
+  "Nome Postazione": "Postazione 118 - Trieste Via del Farneto",
+  "Coordinate Postazione": "45.652210023177,13.787377624391",
+  "Mezzo": "MSI",
+  "Nome radio": "T17",
+  "Convenzione": "H12",
+  "Orario di lavoro": "8:00-20:00",
+  "Giorni": "LUN-DOM"
+ },
+ {
+  "Nome Postazione": "Postazione 118 - Trieste Via Stock",
+  "Coordinate Postazione": "45.664703336356,13.769930929928",
+  "Mezzo": "MSI",
+  "Nome radio": "T36",
+  "Convenzione": "H24",
+  "Orario di lavoro": "00:00-00:00",
+  "Giorni": "LUN-DOM"
+ },
+ {
+  "Nome Postazione": "Postazione 118 - Udine Est",
+  "Coordinate Postazione": "46.0702347,13.2463067",
+  "Mezzo": "MSI",
+  "Nome radio": "D16",
+  "Convenzione": "H12",
+  "Orario di lavoro": "8:00-20:00",
+  "Giorni": "LUN-VEN"
+ },
+ {
+  "Nome Postazione": "Postazione 118 - Udine Nord",
+  "Coordinate Postazione": "46.077239,13.2287566",
+  "Mezzo": "MSI",
+  "Nome radio": "D05",
+  "Convenzione": "H24",
+  "Orario di lavoro": "00:00-00:00",
+  "Giorni": "LUN-DOM"
+ },
+ {
+  "Nome Postazione": "Postazione 118 - Udine Nord",
+  "Coordinate Postazione": "46.077239,13.2287567",
+  "Mezzo": "AM",
+  "Nome radio": "MM01",
+  "Convenzione": "H24",
+  "Orario di lavoro": "00:00-00:00",
+  "Giorni": "LUN-DOM"
+ },
+ {
+  "Nome Postazione": "Postazione 118 - Udine Nord BLS",
+  "Coordinate Postazione": "46.0809676,13.2252084",
+  "Mezzo": "MSB",
+  "Nome radio": "SC16",
+  "Convenzione": "H24",
+  "Orario di lavoro": "00:00-00:00",
+  "Giorni": "LUN-DOM"
+ },
+ {
+  "Nome Postazione": "Postazione 118 - Udine Nord BLS",
+  "Coordinate Postazione": "46.0809676,13.2252084",
+  "Mezzo": "MSB",
+  "Nome radio": "SC19",
+  "Convenzione": "H12",
+  "Orario di lavoro": "8:00-20:00",
+  "Giorni": "LUN-DOM"
+ },
+ {
+  "Nome Postazione": "Postazione 118 - Udine Sud",
+  "Coordinate Postazione": "46.0506519,13.2364368",
+  "Mezzo": "MSI",
+  "Nome radio": "SC18",
+  "Convenzione": "H24",
+  "Orario di lavoro": "00:00-00:00",
+  "Giorni": "LUN-DOM"
+ },
+ {
+  "Nome Postazione": "Sede S.O.G.It - Trieste",
+  "Coordinate Postazione": "45.617437527042,13.81988735188",
+  "Mezzo": "MSB",
+  "Nome radio": "ST74",
+  "Convenzione": "H24",
+  "Orario di lavoro": "00:00-00:00",
+  "Giorni": "LUN-DOM"
+ },
+ {
+  "Nome Postazione": "Sede S.O.G.It - Trieste",
+  "Coordinate Postazione": "45.617437527042,13.81988735189",
+  "Mezzo": "MSB",
+  "Nome radio": "ST80",
+  "Convenzione": "H24",
+  "Orario di lavoro": "00:00-00:00",
+  "Giorni": "LUN-DOM"
+ },
+ {
+  "Nome Postazione": "SVEP - Sappada",
+  "Coordinate Postazione": "46.56761357447,12.687785666371",
+  "Mezzo": "MSI",
+  "Nome radio": "SP12",
+  "Convenzione": "H24",
+  "Orario di lavoro": "00:00-00:00",
+  "Giorni": "LUN-DOM"
+ },
+ {
+  "Nome Postazione": "Postazione CRI - Piancavallo",
+  "Coordinate Postazione": "46.1122001,12.5148581",
+  "Mezzo": "MSB",
+  "Nome radio": "CRI PIANCAVALLO",
+  "Convenzione": "H12",
+  "Orario di lavoro": "8:00-20:00",
+  "Giorni": "LUN-DOM"
+ }
+]

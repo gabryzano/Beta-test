@@ -1,0 +1,13 @@
+{
+  "SORES": {
+    "codice": "FVG",
+    "provincia": "Udine",
+    "coordinate": "45.9045,13.3097",
+    "attiva": true,
+    "telefono": "118",
+    "indirizzo": "Piazza Grande, 33057 Palmanova UD",
+    "mezziFile": "src/data/Mezzi FVG.json",
+    "ospedaliFile": "src/data/Ospedali FVG.json",
+    "indirizziFile": "src/data/Indirizzi FVG.json"
+  }
+}
