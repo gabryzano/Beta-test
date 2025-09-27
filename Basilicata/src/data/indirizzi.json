@@ -4023,5 +4023,10 @@
         "strada":  "SS106, km 455, 75010 Valsinni MT",
         "lat":  40.1690,
         "lon":  16.4410
-    }
+    },
+    { "Pronto Soccorso ": "H Matera, SP 10 Matera Sud, 75100 Matera MT", "lat": 40.6537502, "lon": 16.612578 },
+    { "Pronto Soccorso ": "H Melfi, Via Foggia, 10, 85025 Melfi PZ", "lat": 40.9973064, "lon": 15.6418155 },
+    { "Pronto Soccorso ": "H Villa D' Agri, Viale S. Pio da Pietrelcina, 85050 Villa d’Agri PZ", "lat": 40.3612423, "lon": 15.8256436 },
+    { "Pronto Soccorso ": "H Lagonegro, Viale Colombo, 85042 Lagonegro PZ", "lat": 40.1267605, "lon": 15.7608335 },
+    { "Pronto Soccorso ": "H Policoro, Via Salerno, 75025 Policoro MT", "lat": 40.2145778, "lon": 16.6706849 }
 ]

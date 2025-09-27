@@ -38,6 +38,13 @@
   {"indirizzo abitazione": "Via Carlo Caneva, 15, 33013 Gemona UD", "lat": 46.2789441, "lon": 13.1388917},
   {"indirizzo abitazione": "Via Patriarcato, 12, 33043 Cividale del Friuli UD", "lat": 46.0939044, "lon": 13.4318008},
   {"indirizzo abitazione": "Via Ploc, 16, 33010 Raccolana UD", "lat": 46.4084629, "lon": 13.3147611},
+  {"indirizzo abitazione": "Via Vittorio Veneto, 106, 33018 Tarvisio UD", "lat": 46.5043241, "lon": 13.5800469},
+  {"indirizzo abitazione": "Via Barc, 14-40, 33025 Ovaro UD", "lat": 46.4856158, "lon": 12.8669203},
+  {"indirizzo abitazione": "Via G. V. Menotti, 33, 33072 Casarsa della Delizia PN", "lat": 45.9583417, "lon": 12.8403683},
+  {"indirizzo abitazione": "Via Latisana, 75, 33054 Lignano Sabbiadoro UD", "lat": 45.6889524, "lon": 13.1378727},  
+  {"indirizzo abitazione": "Via Gorizia, 1, 34070 Doberdò del Lago GO", "lat": 45.8463998, "lon": 13.5390205},
+  {"indirizzo abitazione": "Via di Noghere, 19-191, 34015 Aquilinia-Stramare TS", "lat": 45.5997666, "lon": 13.8069592},
+  {"indirizzo abitazione": "Via Raffaele Zovenzoni, 16, 34126 Trieste TS", "lat": 45.6531177, "lon": 13.7843621},
   {"scuola": "IIS Trieste, Via Domenico Rossetti, 74, 34142 Trieste TS", "lat": 45.6440601, "lon": 13.7904918},
   {"scuola": "IIS Pordenone, Via Molinari, 46/a, 33170 Pordenone PN", "lat": 45.9640788, "lon": 12.6565698},
   {"scuola": "IIS Udine, Viale Leonardo Da Vinci, 10, 33100 Udine UD", "lat": 46.0691373, "lon": 13.2209713},
@@ -62,5 +69,12 @@
   {"strada": "A23, 33010 Pontebba UD", "lat": 46.5068165, "lon": 13.4760884},
   {"strada": "A23, 33030 Gemona del Friuli UD", "lat": 46.2021662, "lon": 13.0977425},
   {"strada": "A4, 33041 Palmanova UD", "lat": 45.8786764, "lon": 13.3648502},
-  {"strada": "A34, 34072 Gorizia GO", "lat": 45.9035795, "lon": 13.5473794}
+  {"strada": "A34, 34072 Gorizia GO", "lat": 45.9035795, "lon": 13.5473794},
+  { "Pronto Soccorso ": "H Latisana, Via Sabbionera, 45, 33053 Latisana UD", "lat": 45.7694222, "lon": 13.001742 },
+  { "Pronto Soccorso ": "H San Vito, Via Savorgnano, 2, 33078 San Vito al Tagliamento PN", "lat": 45.9117493, "lon": 12.8563362 },
+  { "Pronto Soccorso ": "H San Daniele, Via Trento Trieste, 12, 33038 San Daniele del Friuli UD", "lat": 46.1549256, "lon": 13.0094428 },
+  { "Pronto Soccorso ": "H Tolmezzo, Via Giobatta Morgagni, 18, 33028 Tolmezzo UD", "lat": 46.4055769, "lon": 13.0055593 },
+  { "Pronto Soccorso ": "H Palmanova, Via Natisone, 11, 33057 Palmanova UD", "lat": 45.9088624, "lon": 13.3370936 },
+  { "Pronto Soccorso ": "H Monfalcone, Via Galvani, 1, 34074 Monfalcone GO", "lat": 45.815572, "lon": 13.5188677 },
+  { "Pronto Soccorso ": "H Gorizia, Via Fatebenefratelli, 34, 34170 Gorizia GO", "lat": 45.9360523, "lon": 13.6047566 }
 ]
