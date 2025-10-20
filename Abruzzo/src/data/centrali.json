@@ -1,0 +1,24 @@
+{
+  "118 L'Aquila": {
+    "codice": "AQ",
+    "provincia": "L'Aquila",
+    "coordinate": "42.3505,13.3995",
+    "attiva": true,
+    "telefono": "118",
+    "indirizzo": "Via XX Settembre, 67100 L'Aquila AQ",
+    "mezziFile": "src/data/Mezzi AQ.json",
+    "ospedaliFile": "src/data/Ospedali AQ.json",
+    "indirizziFile": "src/data/indirizzi AQ.json"
+  },
+  "118 Pescara": {
+    "codice": "PE",
+    "provincia": "Pescara",
+    "coordinate": "42.4617,14.2106",
+    "attiva": true,
+    "telefono": "118",
+    "indirizzo": "Via Raffaele Paolucci, 65100 Pescara PE",
+    "mezziFile": "src/data/Mezzi PE.json",
+    "ospedaliFile": "src/data/Ospedali PE.json",
+    "indirizziFile": "src/data/indirizzi PE.json"
+  }
+}

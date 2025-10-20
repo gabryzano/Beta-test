@@ -1,0 +1,335 @@
+[
+ {
+  "Nome Postazione": "Elisoccorso Pescara",
+  "Coordinate Postazione": "42.4297061,14.1864651",
+  "Mezzo": "ELI",
+  "Nome radio": "GRIFO 69",
+  "Convenzione": "H12",
+  "Orario di lavoro": "7:30-19:30",
+  "Giorni": "LUN-DOM"
+ },
+ {
+  "Nome Postazione": "PTE 118 - Atessa",
+  "Coordinate Postazione": "42.073147,14.4476512",
+  "Mezzo": "MSA",
+  "Nome radio": "MIKE ATESSA",
+  "Convenzione": "H24",
+  "Orario di lavoro": "00:00-00:00",
+  "Giorni": "LUN-DOM"
+ },
+ {
+  "Nome Postazione": "PTE 118 - Caramanico Terme",
+  "Coordinate Postazione": "42.1580035,14.003478",
+  "Mezzo": "MSAB",
+  "Nome radio": "INDIA CARAMANICO",
+  "Convenzione": "H12",
+  "Orario di lavoro": "8:00-20:00",
+  "Giorni": "LUN-DOM"
+ },
+ {
+  "Nome Postazione": "PTE 118 - Carunchio",
+  "Coordinate Postazione": "41.9178463,14.5274592",
+  "Mezzo": "ASA",
+  "Nome radio": "ALFA CARUNCHIO",
+  "Convenzione": "H12",
+  "Orario di lavoro": "8:00-20:00",
+  "Giorni": "LUN-DOM"
+ },
+ {
+  "Nome Postazione": "PTE 118 - Carunchio",
+  "Coordinate Postazione": "41.9178463,14.5274592",
+  "Mezzo": "MSB",
+  "Nome radio": "BRAVO CARUNCHIO",
+  "Convenzione": "H12",
+  "Orario di lavoro": "8:00-20:00",
+  "Giorni": "LUN-DOM"
+ },
+ {
+  "Nome Postazione": "PTE 118 - Casoli",
+  "Coordinate Postazione": "42.1182044,14.2948794",
+  "Mezzo": "MSA",
+  "Nome radio": "MIKE CASOLI",
+  "Convenzione": "H24",
+  "Orario di lavoro": "00:00-00:00",
+  "Giorni": "LUN-DOM"
+ },
+ {
+  "Nome Postazione": "PTE 118 - Castiglione",
+  "Coordinate Postazione": "41.8688851,14.4525774",
+  "Mezzo": "MSA",
+  "Nome radio": "MIKE CASTIGLIONE",
+  "Convenzione": "H24",
+  "Orario di lavoro": "00:00-00:00",
+  "Giorni": "LUN-DOM"
+ },
+ {
+  "Nome Postazione": "PTE 118 - Catignano",
+  "Coordinate Postazione": "42.3480696,13.9564524",
+  "Mezzo": "MSA",
+  "Nome radio": "MIKE CATIGNANO",
+  "Convenzione": "H12",
+  "Orario di lavoro": "20:00-8:00",
+  "Giorni": "LUN-DOM"
+ },
+ {
+  "Nome Postazione": "PTE 118 - Chieti Città",
+  "Coordinate Postazione": "42.3508768,14.1739541",
+  "Mezzo": "MSA",
+  "Nome radio": "MIKE CHIETI",
+  "Convenzione": "H24",
+  "Orario di lavoro": "00:00-00:00",
+  "Giorni": "LUN-DOM"
+ },
+ {
+  "Nome Postazione": "PTE 118 - Chieti Ospedale",
+  "Coordinate Postazione": "42.3660064,14.1515056",
+  "Mezzo": "MSAB",
+  "Nome radio": "INDIA CHIETI",
+  "Convenzione": "H24",
+  "Orario di lavoro": "00:00-00:00",
+  "Giorni": "LUN-DOM"
+ },
+ {
+  "Nome Postazione": "PTE 118 - Città Sant Angelo",
+  "Coordinate Postazione": "42.5202596,14.0631728",
+  "Mezzo": "MSB",
+  "Nome radio": "BRAVO S. ANGELO  ",
+  "Convenzione": "H12",
+  "Orario di lavoro": "8:00-20:00",
+  "Giorni": "LUN-DOM"
+ },
+ {
+  "Nome Postazione": "PTE 118 - Civitella Casanova",
+  "Coordinate Postazione": "42.3650942,13.8882588",
+  "Mezzo": "MSB",
+  "Nome radio": "BRAVO CIVITELLA",
+  "Convenzione": "H12",
+  "Orario di lavoro": "8:00-20:00",
+  "Giorni": "LUN-DOM"
+ },
+ {
+  "Nome Postazione": "PTE 118 - Francavilla",
+  "Coordinate Postazione": "42.406638,14.3140932",
+  "Mezzo": "MSA",
+  "Nome radio": "MIKE FRANCAVILLA",
+  "Convenzione": "H24",
+  "Orario di lavoro": "00:00-00:00",
+  "Giorni": "LUN-DOM"
+ },
+ {
+  "Nome Postazione": "PTE 118 - Gissi",
+  "Coordinate Postazione": "42.0095163,14.547471",
+  "Mezzo": "MSA",
+  "Nome radio": "MIKE GISSI",
+  "Convenzione": "H24",
+  "Orario di lavoro": "00:00-00:00",
+  "Giorni": "LUN-DOM"
+ },
+ {
+  "Nome Postazione": "PTE 118 - Guardiagrele",
+  "Coordinate Postazione": "42.2015536,14.2164378",
+  "Mezzo": "MSA",
+  "Nome radio": "MIKE GUARDIAGRELE",
+  "Convenzione": "H24",
+  "Orario di lavoro": "00:00-00:00",
+  "Giorni": "LUN-DOM"
+ },
+ {
+  "Nome Postazione": "PTE 118 - Lama dei Peligni",
+  "Coordinate Postazione": "42.0412628,14.1861086",
+  "Mezzo": "ASA",
+  "Nome radio": "ALFA LAMA",
+  "Convenzione": "H12",
+  "Orario di lavoro": "20:00-8:00",
+  "Giorni": "LUN-DOM"
+ },
+ {
+  "Nome Postazione": "PTE 118 - Lama dei Peligni",
+  "Coordinate Postazione": "42.0412628,14.1861086",
+  "Mezzo": "MSAB",
+  "Nome radio": "INDIA LAMA",
+  "Convenzione": "H24",
+  "Orario di lavoro": "00:00-00:00",
+  "Giorni": "LUN-DOM"
+ },
+ {
+  "Nome Postazione": "PTE 118 - Lanciano",
+  "Coordinate Postazione": "42.2298378,14.3974667",
+  "Mezzo": "MSAB",
+  "Nome radio": "INDIA LANCIANO ",
+  "Convenzione": "H12",
+  "Orario di lavoro": "8:00-20:00",
+  "Giorni": "LUN-DOM"
+ },
+ {
+  "Nome Postazione": "PTE 118 - Lanciano",
+  "Coordinate Postazione": "42.2298378,14.3974667",
+  "Mezzo": "MSA",
+  "Nome radio": "MIKE LANCIANO ",
+  "Convenzione": "H24",
+  "Orario di lavoro": "00:00-00:00",
+  "Giorni": "LUN-DOM"
+ },
+ {
+  "Nome Postazione": "PTE 118 - Montesilvano",
+  "Coordinate Postazione": "42.5174516,14.1570704",
+  "Mezzo": "MSA",
+  "Nome radio": "MIKE MONTESILVANO",
+  "Convenzione": "H24",
+  "Orario di lavoro": "00:00-00:00",
+  "Giorni": "LUN-DOM"
+ },
+ {
+  "Nome Postazione": "PTE 118 - Ortona",
+  "Coordinate Postazione": "42.3512853,14.3901251",
+  "Mezzo": "MSA",
+  "Nome radio": "MIKE ORTONA",
+  "Convenzione": "H24",
+  "Orario di lavoro": "00:00-00:00",
+  "Giorni": "LUN-DOM"
+ },
+ {
+  "Nome Postazione": "PTE 118 - Penne",
+  "Coordinate Postazione": "42.4588301,13.9211019",
+  "Mezzo": "MSA",
+  "Nome radio": "MIKE PENNE",
+  "Convenzione": "H24",
+  "Orario di lavoro": "00:00-00:00",
+  "Giorni": "LUN-DOM"
+ },
+ {
+  "Nome Postazione": "PTE 118 - Pescara Centro",
+  "Coordinate Postazione": "42.4627623,14.1983169",
+  "Mezzo": "MSA",
+  "Nome radio": "MIKE CENTRO",
+  "Convenzione": "H24",
+  "Orario di lavoro": "00:00-00:00",
+  "Giorni": "LUN-DOM"
+ },
+ {
+  "Nome Postazione": "PTE 118 - Pescara Centro",
+  "Coordinate Postazione": "42.4627623,14.1983169",
+  "Mezzo": "MSB",
+  "Nome radio": "BRAVO CENTRO",
+  "Convenzione": "H12",
+  "Orario di lavoro": "8:00-20:00",
+  "Giorni": "LUN-DOM"
+ },
+ {
+  "Nome Postazione": "PTE 118 - Pescara Nord",
+  "Coordinate Postazione": "42.4888671,14.1830787",
+  "Mezzo": "MSB",
+  "Nome radio": "BRAVO NORD",
+  "Convenzione": "H24",
+  "Orario di lavoro": "00:00-00:00",
+  "Giorni": "LUN-DOM"
+ },
+ {
+  "Nome Postazione": "PTE 118 - Pescara Sud",
+  "Coordinate Postazione": "42.4503519,14.2256586",
+  "Mezzo": "MSA",
+  "Nome radio": "MIKE SUD",
+  "Convenzione": "H24",
+  "Orario di lavoro": "00:00-00:00",
+  "Giorni": "LUN-DOM"
+ },
+ {
+  "Nome Postazione": "PTE 118 - Pescara Sud",
+  "Coordinate Postazione": "42.4503519,14.2256586",
+  "Mezzo": "MSB",
+  "Nome radio": "BRAVO SUD",
+  "Convenzione": "H24",
+  "Orario di lavoro": "00:00-00:00",
+  "Giorni": "LUN-DOM"
+ },
+ {
+  "Nome Postazione": "PTE 118 - Pianella",
+  "Coordinate Postazione": "42.4011818,14.0519399",
+  "Mezzo": "MSA",
+  "Nome radio": "MIKE PIANELLA",
+  "Convenzione": "H24",
+  "Orario di lavoro": "00:00-00:00",
+  "Giorni": "LUN-DOM"
+ },
+ {
+  "Nome Postazione": "PTE 118 - Popoli",
+  "Coordinate Postazione": "42.1758423,13.8277075",
+  "Mezzo": "MSA",
+  "Nome radio": "MIKE POPOLI",
+  "Convenzione": "H24",
+  "Orario di lavoro": "00:00-00:00",
+  "Giorni": "LUN-DOM"
+ },
+ {
+  "Nome Postazione": "PTE 118 - S. Giovanni Teatino",
+  "Coordinate Postazione": "42.4305682,14.1887131",
+  "Mezzo": "MSB",
+  "Nome radio": "BRAVO S. GIOVANNI",
+  "Convenzione": "H12",
+  "Orario di lavoro": "8:00-20:00",
+  "Giorni": "LUN-DOM"
+ },
+ {
+  "Nome Postazione": "PTE 118 - San Salvo",
+  "Coordinate Postazione": "42.0461717,14.7324094",
+  "Mezzo": "MSA",
+  "Nome radio": "MIKE SAN SALVO",
+  "Convenzione": "H24",
+  "Orario di lavoro": "00:00-00:00",
+  "Giorni": "LUN-DOM"
+ },
+ {
+  "Nome Postazione": "PTE 118 - Scafa",
+  "Coordinate Postazione": "42.267166,13.998461",
+  "Mezzo": "MSA",
+  "Nome radio": "MIKE SCAFA",
+  "Convenzione": "H24",
+  "Orario di lavoro": "00:00-00:00",
+  "Giorni": "LUN-DOM"
+ },
+ {
+  "Nome Postazione": "PTE 118 - Torrebruna",
+  "Coordinate Postazione": "41.8668505,14.5430491",
+  "Mezzo": "MSB",
+  "Nome radio": "BRAVO TORREBRUNA",
+  "Convenzione": "H12",
+  "Orario di lavoro": "8:00-20:00",
+  "Giorni": "LUN-DOM"
+ },
+ {
+  "Nome Postazione": "PTE 118 - Torricella Peligna",
+  "Coordinate Postazione": "42.0248651,14.2511728",
+  "Mezzo": "MSB",
+  "Nome radio": "BRAVO TORRICELLA",
+  "Convenzione": "H24",
+  "Orario di lavoro": "00:00-00:00",
+  "Giorni": "LUN-DOM"
+ },
+ {
+  "Nome Postazione": "PTE 118 - Val Pescara",
+  "Coordinate Postazione": "42.3065442,14.0617511",
+  "Mezzo": "MSAB",
+  "Nome radio": "INDIA MANOPPELLO",
+  "Convenzione": "H12",
+  "Orario di lavoro": "8:00-20:00",
+  "Giorni": "LUN-DOM"
+ },
+ {
+  "Nome Postazione": "PTE 118 - Vasto",
+  "Coordinate Postazione": "42.1181037,14.709943",
+  "Mezzo": "MSA",
+  "Nome radio": "MIKE VASTO",
+  "Convenzione": "H24",
+  "Orario di lavoro": "00:00-00:00",
+  "Giorni": "LUN-DOM"
+ },
+ {
+  "Nome Postazione": "PTE 118 - Villa S. Maria",
+  "Coordinate Postazione": "41.9581263,14.3516783",
+  "Mezzo": "MSAB",
+  "Nome radio": "INDIA VILLA S. MARIA",
+  "Convenzione": "H24",
+  "Orario di lavoro": "00:00-00:00",
+  "Giorni": "LUN-DOM"
+ }
+]

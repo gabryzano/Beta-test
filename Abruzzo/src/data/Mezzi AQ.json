@@ -1,0 +1,416 @@
+[
+ {
+  "Nome Postazione": "Associazione 16 Maggio - Pescasseroli",
+  "Coordinate Postazione": "41.8077342,13.7879418",
+  "Mezzo": "MSA",
+  "Nome radio": "MIKE PESCASSEROLI",
+  "Convenzione": "H12",
+  "Orario di lavoro": "8:00-20:00",
+  "Giorni": "LUN-DOM"
+ },
+ {
+  "Nome Postazione": "Associazione 16 Maggio - Pescasseroli",
+  "Coordinate Postazione": "41.8077342,13.7879418",
+  "Mezzo": "MSAB",
+  "Nome radio": "INDIA PESCASSEROLI",
+  "Convenzione": "H12",
+  "Orario di lavoro": "20:00-8:00",
+  "Giorni": "LUN-DOM"
+ },
+ {
+  "Nome Postazione": "Associazione 16 Maggio - Pescocostanzo",
+  "Coordinate Postazione": "41.8869492,14.0657705",
+  "Mezzo": "MSAB",
+  "Nome radio": "INDIA PESCOCOSTANZO",
+  "Convenzione": "H12",
+  "Orario di lavoro": "8:00-20:00",
+  "Giorni": "LUN-DOM"
+ },
+ {
+  "Nome Postazione": "Associazione 16 Maggio - Pescocostanzo",
+  "Coordinate Postazione": "41.8869492,14.0657705",
+  "Mezzo": "MSA",
+  "Nome radio": "MIKE PESCOCOSTANZO",
+  "Convenzione": "H12",
+  "Orario di lavoro": "20:00-8:00",
+  "Giorni": "LUN-DOM"
+ },
+ {
+  "Nome Postazione": "Associazione 16 Maggio - Tagliacozzo",
+  "Coordinate Postazione": "42.0716161,13.2547143",
+  "Mezzo": "MSA",
+  "Nome radio": "MIKE TAGLIACOZZO",
+  "Convenzione": "H24",
+  "Orario di lavoro": "00:00-00:00",
+  "Giorni": "LUN-DOM"
+ },
+ {
+  "Nome Postazione": "Croce Bianca L Aquila - S. Egidio a Vibrata",
+  "Coordinate Postazione": "42.813013,13.7146974",
+  "Mezzo": "MSB",
+  "Nome radio": "BRAVO S. EGIDIO",
+  "Convenzione": "H24",
+  "Orario di lavoro": "00:00-00:00",
+  "Giorni": "LUN-DOM"
+ },
+ {
+  "Nome Postazione": "Croce Bianca L'Aquila - Barisciano",
+  "Coordinate Postazione": "42.3193332,13.5876674",
+  "Mezzo": "MSAB",
+  "Nome radio": "INDIA BARISCIANO",
+  "Convenzione": "H12",
+  "Orario di lavoro": "20:00-8:00",
+  "Giorni": "LUN-DOM"
+ },
+ {
+  "Nome Postazione": "Croce Bianca Teramo - Isola del Gran Sasso",
+  "Coordinate Postazione": "42.5061011,13.6568503",
+  "Mezzo": "MSAB",
+  "Nome radio": "INDIA ISOLA GRAN SASSO",
+  "Convenzione": "H24",
+  "Orario di lavoro": "00:00-00:00",
+  "Giorni": "LUN-DOM"
+ },
+ {
+  "Nome Postazione": "Croce Bianca Teramo - Montorio al Vomano",
+  "Coordinate Postazione": "42.5795233,13.6389824",
+  "Mezzo": "MSB",
+  "Nome radio": "BRAVO MONTORIO",
+  "Convenzione": "H24",
+  "Orario di lavoro": "00:00-00:00",
+  "Giorni": "LUN-DOM"
+ },
+ {
+  "Nome Postazione": "Croce Gialla Vomano - Castellalto",
+  "Coordinate Postazione": "42.675688,13.817551",
+  "Mezzo": "MSB",
+  "Nome radio": "BRAVO CASTELLALTO",
+  "Convenzione": "H12",
+  "Orario di lavoro": "8:00-20:00",
+  "Giorni": "LUN-DOM"
+ },
+ {
+  "Nome Postazione": "Croce Rossa Italiana - Campo di Giove",
+  "Coordinate Postazione": "42.0109934,14.0447744",
+  "Mezzo": "MSA",
+  "Nome radio": "MIKE CAMPO DI GIOVE  ",
+  "Convenzione": "H12",
+  "Orario di lavoro": "20:00-8:00",
+  "Giorni": "LUN-DOM"
+ },
+ {
+  "Nome Postazione": "Croce Rossa Italiana - Carsoli",
+  "Coordinate Postazione": "42.0995597,13.0887187",
+  "Mezzo": "MSA",
+  "Nome radio": "MIKE CARSOLI",
+  "Convenzione": "H24",
+  "Orario di lavoro": "00:00-00:00",
+  "Giorni": "LUN-DOM"
+ },
+ {
+  "Nome Postazione": "Croce Rossa Italiana - Ovindoli",
+  "Coordinate Postazione": "42.1374535,13.5173731",
+  "Mezzo": "MSA",
+  "Nome radio": "MIKE OVINDOLI",
+  "Convenzione": "H12",
+  "Orario di lavoro": "8:00-20:00",
+  "Giorni": "LUN-DOM"
+ },
+ {
+  "Nome Postazione": "Croce Rossa Italiana - Pescina",
+  "Coordinate Postazione": "42.0274593,13.6480602",
+  "Mezzo": "MSA",
+  "Nome radio": "MIKE PESCINA",
+  "Convenzione": "H24",
+  "Orario di lavoro": "00:00-00:00",
+  "Giorni": "LUN-DOM"
+ },
+ {
+  "Nome Postazione": "Croce Rossa Italiana - Rocca di Mezzo",
+  "Coordinate Postazione": "42.2102624,13.5182653",
+  "Mezzo": "MSAB",
+  "Nome radio": "INDIA ROCCA",
+  "Convenzione": "H24",
+  "Orario di lavoro": "00:00-00:00",
+  "Giorni": "LUN-DOM"
+ },
+ {
+  "Nome Postazione": "Croce Rossa Italiana - Scanno",
+  "Coordinate Postazione": "41.902351,13.8784336",
+  "Mezzo": "MSA",
+  "Nome radio": "MIKE SCANNO",
+  "Convenzione": "H12",
+  "Orario di lavoro": "8:00-20:00",
+  "Giorni": "LUN-DOM"
+ },
+ {
+  "Nome Postazione": "Croce Rossa Italiana - Silvi",
+  "Coordinate Postazione": "42.5757508,14.0956706",
+  "Mezzo": "MSAB",
+  "Nome radio": "INDIA SILVI",
+  "Convenzione": "H24",
+  "Orario di lavoro": "00:00-00:00",
+  "Giorni": "LUN-DOM"
+ },
+ {
+  "Nome Postazione": "Croce Rossa Italiana - Sulmona",
+  "Coordinate Postazione": "42.055387,13.925591",
+  "Mezzo": "MSB",
+  "Nome radio": "BRAVO SULMONA",
+  "Convenzione": "H24",
+  "Orario di lavoro": "00:00-00:00",
+  "Giorni": "LUN-DOM"
+ },
+ {
+  "Nome Postazione": "Croce Rossa Italiana - Teramo",
+  "Coordinate Postazione": "42.6623188,13.6964297",
+  "Mezzo": "MSB",
+  "Nome radio": "BRAVO TERAMO",
+  "Convenzione": "H24",
+  "Orario di lavoro": "00:00-00:00",
+  "Giorni": "LUN-DOM"
+ },
+ {
+  "Nome Postazione": "Croce Verde - Castelvecchio Subequo",
+  "Coordinate Postazione": "42.1253398,13.7333839",
+  "Mezzo": "MSAB",
+  "Nome radio": "INDIA CASTELVECCHIO",
+  "Convenzione": "H24",
+  "Orario di lavoro": "00:00-00:00",
+  "Giorni": "LUN-DOM"
+ },
+ {
+  "Nome Postazione": "Croce Verde - Civitella Rovereto",
+  "Coordinate Postazione": "41.9160516,13.4248102",
+  "Mezzo": "MSAB",
+  "Nome radio": "INDIA CIVITELLA",
+  "Convenzione": "H24",
+  "Orario di lavoro": "00:00-00:00",
+  "Giorni": "LUN-DOM"
+ },
+ {
+  "Nome Postazione": "Croce Verde - Martinsicuro",
+  "Coordinate Postazione": "42.848676,13.9221201",
+  "Mezzo": "MSB",
+  "Nome radio": "BRAVO MARTINSICURO",
+  "Convenzione": "H24",
+  "Orario di lavoro": "00:00-00:00",
+  "Giorni": "LUN-DOM"
+ },
+ {
+  "Nome Postazione": "Croce Verde - Navelli",
+  "Coordinate Postazione": "42.2353432,13.7285254",
+  "Mezzo": "MSA",
+  "Nome radio": "MIKE NAVELLI",
+  "Convenzione": "H12",
+  "Orario di lavoro": "8:00-20:00",
+  "Giorni": "LUN-DOM"
+ },
+ {
+  "Nome Postazione": "Croce Verde - Pratola Peligna",
+  "Coordinate Postazione": "42.0961981,13.8713219",
+  "Mezzo": "MSA",
+  "Nome radio": "MIKE PRATOLA",
+  "Convenzione": "H24",
+  "Orario di lavoro": "00:00-00:00",
+  "Giorni": "LUN-DOM"
+ },
+ {
+  "Nome Postazione": "Elisoccorso L'Aquila",
+  "Coordinate Postazione": "42.3792882,13.3103153",
+  "Mezzo": "ELI",
+  "Nome radio": "AQUILA 39",
+  "Convenzione": "H12",
+  "Orario di lavoro": "7:30-19:30",
+  "Giorni": "LUN-DOM"
+ },
+ {
+  "Nome Postazione": "PTE 118 - Alba Adriatica",
+  "Coordinate Postazione": "42.8139477,13.9375905",
+  "Mezzo": "MSA",
+  "Nome radio": "MIKE ALBA ADRIATICA",
+  "Convenzione": "H24",
+  "Orario di lavoro": "00:00-00:00",
+  "Giorni": "LUN-DOM"
+ },
+ {
+  "Nome Postazione": "PTE 118 - Atri",
+  "Coordinate Postazione": "42.5785893,13.9860739",
+  "Mezzo": "MSA",
+  "Nome radio": "MIKE ATRI",
+  "Convenzione": "H24",
+  "Orario di lavoro": "00:00-00:00",
+  "Giorni": "LUN-DOM"
+ },
+ {
+  "Nome Postazione": "PTE 118 - Avezzano",
+  "Coordinate Postazione": "42.0542985,13.4278334",
+  "Mezzo": "MSA",
+  "Nome radio": "MIKE AVEZZANO",
+  "Convenzione": "H24",
+  "Orario di lavoro": "00:00-00:00",
+  "Giorni": "LUN-DOM"
+ },
+ {
+  "Nome Postazione": "PTE 118 - Avezzano",
+  "Coordinate Postazione": "42.0542985,13.4278334",
+  "Mezzo": "MSB",
+  "Nome radio": "BRAVO AVEZZANO",
+  "Convenzione": "H24",
+  "Orario di lavoro": "00:00-00:00",
+  "Giorni": "LUN-DOM"
+ },
+ {
+  "Nome Postazione": "PTE 118 - Bisenti",
+  "Coordinate Postazione": "42.5289007,13.8002435",
+  "Mezzo": "MSAB",
+  "Nome radio": "INDIA BISENTI",
+  "Convenzione": "H24",
+  "Orario di lavoro": "00:00-00:00",
+  "Giorni": "LUN-DOM"
+ },
+ {
+  "Nome Postazione": "PTE 118 - Castel di Sangro",
+  "Coordinate Postazione": "41.7763332,14.1160134",
+  "Mezzo": "MSA",
+  "Nome radio": "MIKE CASTEL SANGRO",
+  "Convenzione": "H24",
+  "Orario di lavoro": "00:00-00:00",
+  "Giorni": "LUN-DOM"
+ },
+ {
+  "Nome Postazione": "PTE 118 - Giulianova",
+  "Coordinate Postazione": "42.7459801,13.9627297",
+  "Mezzo": "MSA",
+  "Nome radio": "MIKE GIULIANOVA",
+  "Convenzione": "H24",
+  "Orario di lavoro": "00:00-00:00",
+  "Giorni": "LUN-DOM"
+ },
+ {
+  "Nome Postazione": "PTE 118 - L'Aquila",
+  "Coordinate Postazione": "42.3661847,13.3522042",
+  "Mezzo": "MSA",
+  "Nome radio": "MIKE AQUILA",
+  "Convenzione": "H24",
+  "Orario di lavoro": "00:00-00:00",
+  "Giorni": "LUN-DOM"
+ },
+ {
+  "Nome Postazione": "PTE 118 - L'Aquila",
+  "Coordinate Postazione": "42.3661847,13.3522042",
+  "Mezzo": "MSB",
+  "Nome radio": "BRAVO AQUILA",
+  "Convenzione": "H24",
+  "Orario di lavoro": "00:00-00:00",
+  "Giorni": "LUN-DOM"
+ },
+ {
+  "Nome Postazione": "PTE 118 - Roseto degli Abruzzi",
+  "Coordinate Postazione": "42.6633608,14.0245306",
+  "Mezzo": "MSA",
+  "Nome radio": "MIKE ROSETO",
+  "Convenzione": "H24",
+  "Orario di lavoro": "00:00-00:00",
+  "Giorni": "LUN-DOM"
+ },
+ {
+  "Nome Postazione": "PTE 118 - Sant'Omero",
+  "Coordinate Postazione": "42.7927509,13.8000759",
+  "Mezzo": "MSA",
+  "Nome radio": "MIKE S. OMERO",
+  "Convenzione": "H24",
+  "Orario di lavoro": "00:00-00:00",
+  "Giorni": "LUN-DOM"
+ },
+ {
+  "Nome Postazione": "PTE 118 - Sulmona",
+  "Coordinate Postazione": "42.0383084,13.9317312",
+  "Mezzo": "MSA",
+  "Nome radio": "MIKE SULMONA",
+  "Convenzione": "H24",
+  "Orario di lavoro": "00:00-00:00",
+  "Giorni": "LUN-DOM"
+ },
+ {
+  "Nome Postazione": "PTE 118 - Teramo",
+  "Coordinate Postazione": "42.6661873,13.7149903",
+  "Mezzo": "MSA",
+  "Nome radio": "MIKE TERAMO",
+  "Convenzione": "H24",
+  "Orario di lavoro": "00:00-00:00",
+  "Giorni": "LUN-DOM"
+ },
+ {
+  "Nome Postazione": "PTE 118 - Torricella Sicura",
+  "Coordinate Postazione": "42.6560892,13.6550376",
+  "Mezzo": "MSB",
+  "Nome radio": "BRAVO TORRICELLA",
+  "Convenzione": "H24",
+  "Orario di lavoro": "00:00-00:00",
+  "Giorni": "LUN-DOM"
+ },
+ {
+  "Nome Postazione": "PTE 118 - Trasacco",
+  "Coordinate Postazione": "41.9586676,13.5285753",
+  "Mezzo": "MSB",
+  "Nome radio": "BRAVO TRASACCO",
+  "Convenzione": "H12",
+  "Orario di lavoro": "8:00-20:00",
+  "Giorni": "LUN-DOM"
+ },
+ {
+  "Nome Postazione": "Pubblica Assistenza Gran Sasso - Bazzano",
+  "Coordinate Postazione": "42.3368261,13.4432974",
+  "Mezzo": "MSAB",
+  "Nome radio": "INDIA BAZZANO",
+  "Convenzione": "H12",
+  "Orario di lavoro": "20:00-8:00",
+  "Giorni": "LUN-DOM"
+ },
+ {
+  "Nome Postazione": "Pubblica Assistenza Montereale",
+  "Coordinate Postazione": "42.5194996,13.2507255",
+  "Mezzo": "MSA",
+  "Nome radio": "MIKE MONTEREALE",
+  "Convenzione": "H12",
+  "Orario di lavoro": "8:00-20:00",
+  "Giorni": "LUN-DOM"
+ },
+ {
+  "Nome Postazione": "Pubblica Assistenza Montereale",
+  "Coordinate Postazione": "42.5194996,13.2507255",
+  "Mezzo": "MSAB",
+  "Nome radio": "INDIA MONTEREALE",
+  "Convenzione": "H12",
+  "Orario di lavoro": "20:00-8:00",
+  "Giorni": "LUN-DOM"
+ },
+ {
+  "Nome Postazione": "Pubblica Assistenza PROS Pineto",
+  "Coordinate Postazione": "42.6072311,14.0689191",
+  "Mezzo": "MSB",
+  "Nome radio": "BRAVO PINETO",
+  "Convenzione": "H24",
+  "Orario di lavoro": "00:00-00:00",
+  "Giorni": "LUN-DOM"
+ },
+ {
+  "Nome Postazione": "Pubblica Assistenza Soccorso Amico",
+  "Coordinate Postazione": "42.7141401,13.91088",
+  "Mezzo": "MSB",
+  "Nome radio": "BRAVO MOSCIANO",
+  "Convenzione": "H24",
+  "Orario di lavoro": "00:00-00:00",
+  "Giorni": "LUN-DOM"
+ },
+ {
+  "Nome Postazione": "Unione Soccorso Intercomunale Notaresco",
+  "Coordinate Postazione": "42.6567794,13.8939831",
+  "Mezzo": "MSB",
+  "Nome radio": "BRAVO NOTARESCO",
+  "Convenzione": "H12",
+  "Orario di lavoro": "20:00-8:00",
+  "Giorni": "LUN-DOM"
+ }
+]
