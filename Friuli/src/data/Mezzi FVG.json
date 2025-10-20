@@ -2,7 +2,7 @@
  {
   "Nome Postazione": "Base Elisoccorso FVG",
   "Coordinate Postazione": "46.0363051,13.1805394",
-  "Mezzo": "ELI ",
+  "Mezzo": "ELI",
   "Nome radio": "2INDIA",
   "Convenzione": "H24",
   "Orario di lavoro": "00:00-00:00",
@@ -49,8 +49,8 @@
   "Coordinate Postazione": "46.415343678053,12.796061341904",
   "Mezzo": "MSI",
   "Nome radio": "I63",
-  "Convenzione": "H12",
-  "Orario di lavoro": "8:00-20:00",
+  "Convenzione": "H24",
+  "Orario di lavoro": "00:00-00:00",
   "Giorni": "LUN-DOM"
  },
  {
@@ -167,7 +167,7 @@
   "Mezzo": "MSI",
   "Nome radio": "LA23",
   "Convenzione": "H24",
-  "Orario di lavoro": "00:00-00-00",
+  "Orario di lavoro": "00:00-00:00",
   "Giorni": "LUN-DOM"
  },
  {
@@ -193,8 +193,17 @@
   "Coordinate Postazione": "46.1725104,12.7137073",
   "Mezzo": "MSI",
   "Nome radio": "MA41",
-  "Convenzione": "H24",
-  "Orario di lavoro": "00:00-00:00",
+  "Convenzione": "H12",
+  "Orario di lavoro": "20:00-8:00",
+  "Giorni": "LUN-DOM"
+ },
+ {
+  "Nome Postazione": "Postazione 118 - Maniago",
+  "Coordinate Postazione": "46.1725104,12.7137073",
+  "Mezzo": "MSA",
+  "Nome radio": "MA41",
+  "Convenzione": "H12",
+  "Orario di lavoro": "8:00-20:00",
   "Giorni": "LUN-DOM"
  },
  {
@@ -319,8 +328,17 @@
   "Coordinate Postazione": "45.955990822563,12.500154517317",
   "Mezzo": "MSI",
   "Nome radio": "P26",
-  "Convenzione": "H24",
-  "Orario di lavoro": "00:00-00:00",
+  "Convenzione": "H12",
+  "Orario di lavoro": "20:00-8:00",
+  "Giorni": "LUN-DOM"
+ },
+ {
+  "Nome Postazione": "Postazione 118 - Sacile",
+  "Coordinate Postazione": "45.955990822563,12.500154517317",
+  "Mezzo": "MSA",
+  "Nome radio": "P26",
+  "Convenzione": "H12",
+  "Orario di lavoro": "8:00-20:00",
   "Giorni": "LUN-DOM"
  },
  {
@@ -573,15 +591,6 @@
   "Nome radio": "SP12",
   "Convenzione": "H24",
   "Orario di lavoro": "00:00-00:00",
-  "Giorni": "LUN-DOM"
- },
- {
-  "Nome Postazione": "Postazione CRI - Piancavallo",
-  "Coordinate Postazione": "46.1122001,12.5148581",
-  "Mezzo": "MSB",
-  "Nome radio": "CRI PIANCAVALLO",
-  "Convenzione": "H12",
-  "Orario di lavoro": "8:00-20:00",
   "Giorni": "LUN-DOM"
  }
 ]
