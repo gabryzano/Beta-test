@@ -181,10 +181,10 @@ class GameUI {
         let ospedaleHtml = '';
         if (call.mezziAssegnati && call.mezziAssegnati.length > 0 && window.game && window.game.mezzi) {
             const mezzi = window.game.mezzi.filter(m => (call.mezziAssegnati||[]).includes(m.nome_radio));
-            // Filtra solo MSA1_A, MSA2_A, ELI o MSB
+            // Filtra solo MSI, MSA, VLV, ELI o MSB (mezzi che possono accompagnare)
             const eligibleMezzi = mezzi.filter(m => {
                 const tipo = m.tipo_mezzo || '';
-                return tipo === 'MSA1_A' || tipo === 'MSA2_A' || tipo.includes('ELI') || tipo === 'MSB';
+                return tipo === 'MSI' || tipo === 'MSA' || tipo === 'VLV' || tipo.includes('ELI') || tipo === 'MSB';
             });
             const mezzoConOspedale = eligibleMezzi.find(m => m.ospedale && m.codice_trasporto && m._trasportoConfermato);
             if (mezzoConOspedale) {
@@ -470,7 +470,7 @@ class GameUI {
             let almenoUnMezzoReportPronto = false;
             mezzi.forEach(m => {
                 let testoScheda = '';
-                const avanzati = mezzi.filter(x => (x.tipo_mezzo && (x.tipo_mezzo.startsWith('MSA1') || x.tipo_mezzo.startsWith('MSA2') || (x.tipo_mezzo.toUpperCase().includes('ELI')))) && (x.comunicazioni||[]).some(c => c.toLowerCase().includes('report pronto')));
+                const avanzati = mezzi.filter(x => (x.tipo_mezzo && (x.tipo_mezzo === 'MSI' || x.tipo_mezzo === 'MSA' || x.tipo_mezzo === 'VLV' || x.tipo_mezzo.startsWith('MSA1') || x.tipo_mezzo.startsWith('MSA2') || (x.tipo_mezzo.toUpperCase().includes('ELI')))) && (x.comunicazioni||[]).some(c => c.toLowerCase().includes('report pronto')));
                 // Se c'è almeno un MSB in stato 3 e almeno un avanzato, non mostrare il report del MSB
                 const isMSBStato3 = m.tipo_mezzo && m.tipo_mezzo.startsWith('MSB') && m.stato === 3;
                 const altriAvanzatiPresenti = avanzati.length > 0;
@@ -485,10 +485,10 @@ class GameUI {
                 if (hasReportPronto && mostraReport) {
                     // Determina il tipo di mezzo per la ricerca del report
                     let tipo = '';
-                    if (m.tipo_mezzo && m.tipo_mezzo.startsWith('MSB')) tipo = 'MSB';
-                    else if (m.tipo_mezzo && m.tipo_mezzo.startsWith('MSA1')) tipo = 'MSA1';
-                    else if (m.tipo_mezzo && m.tipo_mezzo.startsWith('MSA2')) tipo = 'MSA2';
-                    else if (m.tipo_mezzo && m.tipo_mezzo.toUpperCase().includes('ELI')) tipo = 'MSA2'; // ELI usa sempre MSA2
+                    if (m.tipo_mezzo && m.tipo_mezzo === 'MSB') tipo = 'MSB';
+                    else if (m.tipo_mezzo && m.tipo_mezzo === 'MSI') tipo = 'MSA1';
+                    else if (m.tipo_mezzo && (m.tipo_mezzo === 'MSA' || m.tipo_mezzo === 'VLV')) tipo = 'MSA2';
+                    else if (m.tipo_mezzo && m.tipo_mezzo.toUpperCase().includes('ELI')) tipo = 'MSA2';
                     
                     // Cerca il report nella struttura dati della chiamata
                     if (tipo && call.selectedChiamata) {
@@ -592,8 +592,8 @@ class GameUI {
                         return 0;
                     });
 
-                    // Per veicoli MSA1 e MSA2 mostriamo solo rientro o accompagna
-                    if (m.tipo_mezzo === 'MSA1' || m.tipo_mezzo === 'MSA2') {
+                    // Per VLV mostriamo solo rientro o accompagna
+                    if (m.tipo_mezzo === 'VLV') {
                         const selectOsp = `<select class='select-ospedale' data-nome='${m.nome_radio}'>`+
                             `<option value="__rientro__">Rientro in sede</option>`+
                             `<option value="__accompagna__">Accompagna in ospedale</option>`+

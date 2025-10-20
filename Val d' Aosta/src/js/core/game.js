@@ -337,20 +337,20 @@ function gestisciStato3(mezzo, call) {
         const mezzoType = mezzo.tipo_mezzo || '';
         // Map vehicle type to report type
         let reportKey = null;
-        if (mezzoType === 'MSA1_A') {
-            // MSI uses MSA1 report
-            reportKey = 'MSA1';
-        } else if (mezzoType === 'MSA2_A') {
-            // MSA uses MSA2 report
-            reportKey = 'MSA2';
-        } else if (mezzoType === 'MSA2') {
-            // VLV uses MSA2 report
-            reportKey = 'MSA2';
-        } else if (mezzoType.startsWith('MSB')) {
+        
+        // Mappa completa dei tipi di mezzo ai report (allineata con la logica di sincronizzazione)
+        if (mezzoType.startsWith('MSB') || mezzoType.startsWith('BLS')) {
             reportKey = 'MSB';
-        } else if (mezzoType === 'ELI') {
-            // ELI uses MSA2 report
+        } else if (mezzoType.startsWith('MSA1') || mezzoType === 'MSA1_1' || 
+                  mezzoType.startsWith('MSI') || mezzoType.startsWith('ILS') ||
+                  mezzoType === 'MSA1_A') {
+            reportKey = 'MSA1';
+        } else if (mezzoType.startsWith('MSA2') || mezzoType === 'MSA2_A' || 
+                  mezzoType === 'MSA' || mezzoType.startsWith('ALS') || 
+                  mezzoType.startsWith('VLV') || mezzoType === 'ELI') {
             reportKey = 'MSA2';
+        } else if (mezzoType.startsWith('MSAI')) {
+            reportKey = 'MSA1'; // MSAI usa report MSA1
         }
 
         // Prima cerca nel caso selezionato
@@ -557,6 +557,11 @@ function aggiornaDisponibilitaMezzi() {
         window.game.mezzi.forEach(m => {
             // Process all vehicles that are not currently on a mission
             if (!m.chiamata) {
+                // Do NOT override vehicles that are in progress or returning (2..7)
+                // Only enforce availability for vehicles that are idle in sede (1) or explicitly non disponibile (8)
+                if (m.stato !== 1 && m.stato !== 8) {
+                    return;
+                }
                 // Format simulated time as HH:MM
                 const orarioSimulato = ora.toString().padStart(2, '0') + ':' + minuti.toString().padStart(2, '0');
                 
@@ -1473,15 +1478,15 @@ class EmergencyDispatchGame {
             }
             
             // Determine icon based on vehicle type
-            let iconUrl = 'src/assets/MSB.png'; // Default icon for MSB and others
+            let iconUrl = 'src/assets/MSB.png'; // Default icon for MSB, MSI, MSA
             if (m.tipo_mezzo && m.tipo_mezzo.toUpperCase().includes('ELI')) {
                 iconUrl = 'src/assets/ELI.png';
-            } else if (m.tipo_mezzo === 'MSA1_A' || m.tipo_mezzo === 'MSA2_A') {
-                // MSI and MSA use MSB marker
-                iconUrl = 'src/assets/MSB.png';
-            } else if (m.tipo_mezzo === 'MSA2') {
+            } else if (m.tipo_mezzo === 'VLV') {
                 // VLV uses MSA marker
                 iconUrl = 'src/assets/MSA.png';
+            } else if (m.tipo_mezzo === 'MSB' || m.tipo_mezzo === 'MSI' || m.tipo_mezzo === 'MSA') {
+                // MSB, MSI, MSA use MSB marker
+                iconUrl = 'src/assets/MSB.png';
             }
             
             // Create the icon
@@ -2286,22 +2291,39 @@ class EmergencyDispatchGame {
                     // pulisci vecchi riferimenti
                     m.ospedale = null;
                     m.codice_trasporto = null;
-                    // CORRETTO: usa setStatoMezzo invece di bypass, poi il timer gestirà il passaggio a 2
+                    // Evita che setStatoMezzo(1) chiuda la missione corrente togliendo questo mezzo
+                    // rimuovendolo temporaneamente da call.mezziAssegnati prima del passaggio di stato
+                    let eraSelezionato = false;
+                    if (Array.isArray(call.mezziAssegnati) && call.mezziAssegnati.includes(m.nome_radio)) {
+                        eraSelezionato = true;
+                        call.mezziAssegnati = call.mezziAssegnati.filter(n => n !== m.nome_radio);
+                    }
+                    // CORRETTO: passa a stato 1, poi direttamente a 2 per assegnazione nuova missione
                     setStatoMezzo(m, 1);
-                    aggiornaMissioniPerMezzo(m);
+                    // Dopo il passaggio a stato 1, il mezzo viene rimosso da tutte le chiamate
+                    // Re-aggancialo esplicitamente alla chiamata corrente e aggiorna l'UI
+                    if (!Array.isArray(call.mezziAssegnati)) call.mezziAssegnati = [];
+                    if (eraSelezionato || !call.mezziAssegnati.includes(m.nome_radio)) {
+                        call.mezziAssegnati.push(m.nome_radio);
+                    }
                     // assegna chiamata e reset flags
                     m.chiamata = call;
-                    m._reportProntoInviato = false;
-                    m._timerReportPronto = null;
-                    m._menuOspedaliShown = false;
+                    if (window.game.ui && typeof window.game.ui.updateMissioneInCorso === 'function') {
+                        window.game.ui.updateMissioneInCorso(call);
+                    }
                     // Pulizia comunicazioni e reset trasporto
                     m.comunicazioni = [];
                     m._trasportoConfermato = false;
                     m._trasportoAvviato = false;
+                    m._reportProntoInviato = false;
+                    m._timerReportPronto = null;
+                    m._menuOspedaliShown = false;
                     // aggiorna UI, marker, e pannello missione in corso
                     window.game.ui.updateStatoMezzi(m);
                     window.game.updateMezzoMarkers();
                     window.game.ui.updateMissioneInCorso(call);
+                    // Passa direttamente a stato 2
+                    setStatoMezzo(m, 2, true);
                     // NON fare return qui - continua per avviare il timer di partenza
                 } else if (m.stato === 3) {
                     // Stato 3: mezzo già in missione, interrompere e reindirizzare
@@ -2310,8 +2332,17 @@ class EmergencyDispatchGame {
                     // reset old hospital and transport code to avoid carrying over
                     m.ospedale = null;
                     m.codice_trasporto = null;
+                    // Temporarily remove from mezziAssegnati to prevent setStatoMezzo(1) from clearing it
+                    const wasAssigned = call.mezziAssegnati && call.mezziAssegnati.includes(m.nome_radio);
+                    if (wasAssigned) {
+                        call.mezziAssegnati = call.mezziAssegnati.filter(n => n !== m.nome_radio);
+                    }
                     // Forza transizione scena->disponibile->intervento
                     setStatoMezzo(m, 1);
+                    // Re-add to mezziAssegnati
+                    if (wasAssigned) {
+                        call.mezziAssegnati.push(m.nome_radio);
+                    }
                     setStatoMezzo(m, 2, true); // MANUALE: con suono confirm
                     // Assegna la nuova chiamata e reset flags
                     m.chiamata = call;
@@ -2450,6 +2481,7 @@ class EmergencyDispatchGame {
     }
 
     gestisciStato7(mezzo) {
+        console.log(`[DEBUG] gestisciStato7 start for ${mezzo.nome_radio} at (${mezzo.lat.toFixed(5)},${mezzo.lon.toFixed(5)}) stato=${mezzo.stato}`);
         // Se il mezzo ha già una nuova chiamata, non procedere con il rientro
         if (mezzo.chiamata) {
             console.log('[INFO] Mezzo in stato 7 ha una nuova chiamata, non procedo con il rientro:', mezzo.nome_radio);
@@ -2459,29 +2491,37 @@ class EmergencyDispatchGame {
         const postazione = Object.values(this.postazioniMap).find(p => p.nome === mezzo.postazione);
         if (!postazione) return;
         
-        // Se il mezzo è già alla postazione, passa a stato 1
-        if (Math.abs(mezzo.lat - postazione.lat) < 0.0001 && Math.abs(mezzo.lon - postazione.lon) < 0.0001) {
+        // NON saltare lo stato 7 con tolleranze: esci solo se coordinate esatte coincidono
+        if (mezzo.lat === postazione.lat && mezzo.lon === postazione.lon) {
             // Reset dati di trasporto residui
             mezzo.ospedale = null;
             mezzo.codice_trasporto = null;
             mezzo._trasportoConfermato = false;
             mezzo._trasportoAvviato = false;
             setStatoMezzo(mezzo, 1);
+            console.log(`[DEBUG] ${mezzo.nome_radio} già in postazione: passaggio diretto a stato 1`);
             return;
         }
         
         // Indica che il mezzo sta tornando alla base
         mezzo._inRientroInSede = true;
         
-        // Calcola tempo di rientro
+        // Calcola tempo di rientro e avvia movimento: lo stato 7 rappresenta il tragitto
         const dist = distanzaKm(mezzo.lat, mezzo.lon, postazione.lat, postazione.lon);
         getVelocitaMezzo(mezzo.tipo_mezzo).then(vel => {
-            const tempoRientro = Math.round((dist / vel) * 60);
+            const tempoRientro = Math.max(2, Math.round((dist / vel) * 60));
+            // Imposta/assicura stato 7 durante il rientro
+            if (mezzo.stato !== 7) {
+                console.log(`[DEBUG] ${mezzo.nome_radio} entra in stato 7 (rientro): distanza ${dist.toFixed(2)} km, tempo ${tempoRientro} min`);
+                setStatoMezzo(mezzo, 7);
+            } else {
+                console.log(`[DEBUG] ${mezzo.nome_radio} continua rientro (stato 7): distanza ${dist.toFixed(2)} km, tempo ${tempoRientro} min`);
+            }
             this.moveMezzoGradualmente(
                 mezzo,
                 mezzo.lat, mezzo.lon,
                 postazione.lat, postazione.lon,
-                Math.max(tempoRientro, 2),
+                tempoRientro,
                 1,
                 () => {
                     mezzo._inRientroInSede = false;
@@ -2491,6 +2531,7 @@ class EmergencyDispatchGame {
                     mezzo._trasportoConfermato = false;
                     mezzo._trasportoAvviato = false;
                     mezzo.comunicazioni = (mezzo.comunicazioni || []).concat([`Libero in sede`]);
+                    console.log(`[DEBUG] ${mezzo.nome_radio} ha completato il rientro: passaggio a stato 1`);
                     this.ui.updateStatoMezzi(mezzo);
                     this.updateMezzoMarkers();
                     this.updatePostazioneMarkers();
