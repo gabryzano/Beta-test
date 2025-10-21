@@ -1856,18 +1856,7 @@ class EmergencyDispatchGame {
         }
 
         // Generazione automatica di alcuni campi
-        const luoghi = ['CASA','STRADA','UFFICI ED ES. PUBBL.','STR. SANITARIA','IMPIANTO SPORTIVO','SCUOLE'];
-        const luogo = luoghi[Math.floor(Math.random() * luoghi.length)];
-        
-        const motivi = ['MEDICO ACUTO','SOCCORSO PERSONA','CADUTA','INCIDENTE/INFORTUNIO','INC. STRADALE'];
-        const motivo = motivi[Math.floor(Math.random() * motivi.length)];
-        
-        const coscienze = ['RISPONDE','ALTERATA','NON RISPONDE','INCOSCIENTE','NON NOTO'];
-        const coscienza = coscienze[Math.floor(Math.random() * coscienze.length)];
-
-        // ensure codice list from loaded statiMezzi
-        const codici = this.statiMezzi ? Object.keys(this.statiMezzi) : ['Rosso','Giallo','Verde'];
-        const codice = codici[Math.floor(Math.random() * codici.length)];
+        // (rimossi per lasciare campi vuoti nel popup nuova missione)
 
 
         const now = new Date();
@@ -1893,10 +1882,6 @@ class EmergencyDispatchGame {
             lon: indirizzo.lon,
             // Use only template text for call description
             simText: testo_chiamata,
-            luogo,
-            motivo,
-            coscienza,
-            codice,
             mezziAssegnati: [],
             selectedChiamata: chiamataTemplate,
             selectedCase: selectedCase
@@ -2101,37 +2086,95 @@ class EmergencyDispatchGame {
         
         // Lascia vuoto il campo Dett. Luogo inizialmente
         
-        const motivoSelect = document.getElementById('motivo');
-        if (motivoSelect) {
+        const problemaSelect = document.getElementById('problema');
+        if (problemaSelect) {
             // RIMUOVI listener precedenti per evitare duplicati
-            motivoSelect.replaceWith(motivoSelect.cloneNode(false));
-            const newMotivoSelect = document.getElementById('motivo');
+            problemaSelect.replaceWith(problemaSelect.cloneNode(false));
+            const newProblemaSelect = document.getElementById('problema');
             
-            newMotivoSelect.innerHTML = '';
+            newProblemaSelect.innerHTML = '';
             // Aggiungi opzione vuota come prima opzione
             const emptyOption = document.createElement('option');
             emptyOption.value = '';
-            emptyOption.textContent = '-- Seleziona motivo --';
-            emptyOption.selected = !call.motivo; // Seleziona solo se non c'è valore salvato
-            newMotivoSelect.appendChild(emptyOption);
+            emptyOption.textContent = '-- Seleziona evento --';
+            emptyOption.selected = !call.problema; // Seleziona solo se non c'è valore salvato
+            newProblemaSelect.appendChild(emptyOption);
             
-            const opzioniMotivo = ['C01 - TRAUMATICA','C02 - CARDIOCIRCOLATORIA','C03 - RESPIRATORIA','C04 - NEUROLOGICA','C05 - PSICHIATRICA','C06 - NEOPLASTICA','C07 - TOSSICOLOGICA','C08 - METABOLICA','C09 - GASTROENTEROLOGICA','C10 - UROLOGICA','C11 - OCULISTICA','C12 - OTORINOLARINGOIATRICA','C13 - DERMATOLOGICA','C14 - OSTETRICO-GINECOLOGICA','C15 - INFETTIVA','C19 - ALTRA','C20 - NON IDENTIFICATA'];
-            opzioniMotivo.forEach(opt => {
+            const opzioniProblema = ['M - MEDICO','T - TRAUMATICO','A - ALTRO/NON CLASSIFICATO'];
+            opzioniProblema.forEach(opt => {
                 const option = document.createElement('option');
                 option.value = opt;
                 option.textContent = opt;
-                option.selected = call.motivo === opt; // Ripristina valore salvato
-                newMotivoSelect.appendChild(option);
+                option.selected = call.problema === opt; // Ripristina valore salvato
+                newProblemaSelect.appendChild(option);
             });
             
-            // Event listener per aggiornare Dett. Motivo e salvare automaticamente - UNA SOLA VOLTA
-            newMotivoSelect.addEventListener('change', () => {
-                call.motivo = newMotivoSelect.value; // Salva automaticamente
-                this.updateDettMotivo(newMotivoSelect.value);
+            // Aggiungi listener per salvare automaticamente - UNA SOLA VOLTA
+            newProblemaSelect.addEventListener('change', () => {
+                call.problema = newProblemaSelect.value; // Salva automaticamente
             });
         }
         
-        // Lascia vuoto il campo Dett. Motivo inizialmente
+        // Lascia vuoto il campo Dett. Problema inizialmente
+        
+        const patologiaSelect = document.getElementById('patologia');
+        if (patologiaSelect) {
+            // RIMUOVI listener precedenti per evitare duplicati
+            patologiaSelect.replaceWith(patologiaSelect.cloneNode(false));
+            const newPatologiaSelect = document.getElementById('patologia');
+            
+            newPatologiaSelect.innerHTML = '';
+            // Aggiungi opzione vuota come prima opzione
+            const emptyOption = document.createElement('option');
+            emptyOption.value = '';
+            emptyOption.textContent = '-- Seleziona patologia --';
+            emptyOption.selected = !call.patologia; // Seleziona solo se non c'è valore salvato
+            newPatologiaSelect.appendChild(emptyOption);
+            
+            const opzioniPatologia = ['C01 - TRAUMATICA','C02 - CARDIOCIRCOLATORIA','C03 - RESPIRATORIA','C04 - NEUROLOGICA','C05 - PSICHIATRICA','C06 - NEOPLASTICA','C07 - TOSSICOLOGICA','C08 - METABOLICA','C09 - GASTROENTEROLOGICA','C10 - UROLOGICA','C11 - OCULISTICA','C12 - OTORINOLARINGOIATRICA','C13 - DERMATOLOGICA','C14 - OSTETRICO-GINECOLOGICA','C15 - INFETTIVA','C19 - ALTRA','C20 - NON IDENTIFICATA'];
+            opzioniPatologia.forEach(opt => {
+                const option = document.createElement('option');
+                option.value = opt;
+                option.textContent = opt;
+                option.selected = call.patologia === opt; // Ripristina valore salvato
+                newPatologiaSelect.appendChild(option);
+            });
+            
+            // Aggiungi listener per salvare automaticamente - UNA SOLA VOLTA
+            newPatologiaSelect.addEventListener('change', () => {
+                call.patologia = newPatologiaSelect.value; // Salva automaticamente
+            });
+        }
+        
+        const problemiSelect = document.getElementById('problemi');
+        if (problemiSelect) {
+            // RIMUOVI listener precedenti per evitare duplicati
+            problemiSelect.replaceWith(problemiSelect.cloneNode(false));
+            const newProblemiSelect = document.getElementById('problemi');
+            
+            newProblemiSelect.innerHTML = '';
+            // Aggiungi opzione vuota come prima opzione
+            const emptyOption = document.createElement('option');
+            emptyOption.value = '';
+            emptyOption.textContent = '-- Seleziona problemi --';
+            emptyOption.selected = !call.problemi || call.problemi.length === 0; // Seleziona solo se non c'è valore salvato
+            newProblemiSelect.appendChild(emptyOption);
+            
+            const opzioniProblemi = ['APERTURA_PORTE','PROBLEMI_SCONOSCIUTI','ANAFILASSI/REAZ._ALLERGICA','ARRESTO_CARDIACO','CEFALEA','ESAUR._CALORE/COLPO_CALORE/IPERTERMIA','CONVULSIONI','DIABETE','DOLORE_ADDOMINALE','DOLORE_SCHIENA_NON_TRAUMATICO','DOLORE_TORACICO/EPIGASTRICO','EMORRAGIA_NON_TRAUMATICA','GRAVIDANZA/PARTO','ICTUS/PROBL._NEURO','INTOSSICAZIONE/AVVELENAMENTO','MALESSERE_GENERICO','PERDITA_DI_COSCIENZA','PROBL._CARDIACI','PROBL._PSICHIATRICI/MINACCIA_SUICIDIO','PROBL._RESPIRATORI','SOFFOCAMENTO/OSTRUZ_VIE_AEREE','AGGRESSIONE/FERITA_DA_ARMA','ANNEGAMENTO/IMMERSIONE','ASSIDERAMENTO/CONGELAMENTO','CADUTA','FOLGORAZIONE/ELETTROCUZIONE','INC._MACCHINARIO','INC._STRADALE','MORSO/GRAFFIO/PUNTURA_ANIMALE','TRAUMI/SPECIFICI','USTIONI/ESPLOSIONE/INCENDIO','VALANGA'];
+            opzioniProblemi.forEach(opt => {
+                const option = document.createElement('option');
+                option.value = opt;
+                option.textContent = opt.replace(/_/g, ' ').replace(/\//g, '/').replace(/\b\w/g, l => l.toUpperCase()); // Format text
+                option.selected = call.problemi && call.problemi.includes(opt); // Ripristina valore salvato
+                newProblemiSelect.appendChild(option);
+            });
+            
+            // Aggiungi listener per salvare automaticamente - UNA SOLA VOLTA
+            newProblemiSelect.addEventListener('change', () => {
+                const selected = newProblemiSelect.value;
+                call.problemi = selected ? [selected] : []; // Salva come array per consistenza
+            });
+        }
         
         const coscienzaSelect = document.getElementById('coscienza');
         if (coscienzaSelect) {
@@ -2223,8 +2266,8 @@ class EmergencyDispatchGame {
         if (call.luogo) {
             this.updateDettLuogo(call.luogo);
         }
-        if (call.motivo) {
-            this.updateDettMotivo(call.motivo);
+        if (call.patologia) {
+            this.updateDettMotivo(call.patologia);
         }
         if (call.noteEvento) {
             this.updateNoteEvento2(call.noteEvento);
