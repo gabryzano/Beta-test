@@ -14,7 +14,7 @@
   "Mezzo": "MSB",
   "Nome radio": "CA 148",
   "Convenzione": "H14",
-  "Orario di lavoro": "18:00-8:00",
+  "Orario di lavoro": "18:00-08:00",
   "Giorni": "LUN-DOM"
  },
  {
@@ -23,7 +23,7 @@
   "Mezzo": "MSB",
   "Nome radio": "CA 101",
   "Convenzione": "H18",
-  "Orario di lavoro": "14:00-8:00",
+  "Orario di lavoro": "14:00-08:00",
   "Giorni": "LUN-DOM"
  },
  {
@@ -32,7 +32,7 @@
   "Mezzo": "MSB",
   "Nome radio": "BE 162",
   "Convenzione": "H17",
-  "Orario di lavoro": "14:00-7:00",
+  "Orario di lavoro": "14:00-07:00",
   "Giorni": "LUN-DOM"
  },
  {
@@ -41,7 +41,7 @@
   "Mezzo": "MSB",
   "Nome radio": "BE 163",
   "Convenzione": "H7",
-  "Orario di lavoro": "7:00-14:00",
+  "Orario di lavoro": "07:00-14:00",
   "Giorni": "LUN-DOM"
  },
  {
@@ -59,7 +59,7 @@
   "Mezzo": "MSB",
   "Nome radio": "BE 168",
   "Convenzione": "H14",
-  "Orario di lavoro": "18:00-8:00",
+  "Orario di lavoro": "18:00-08:00",
   "Giorni": "LUN-DOM"
  },
  {
@@ -68,16 +68,16 @@
   "Mezzo": "MSB",
   "Nome radio": "BE 103",
   "Convenzione": "H7",
-  "Orario di lavoro": "7:00-14:00",
+  "Orario di lavoro": "07:00-14:00",
   "Giorni": "LUN-DOM"
  },
  {
-  "Nome Postazione": "AVOS Sant'Anna d'Arresi",
+  "Nome Postazione": "AVOS Sant'Anna d'Arresi - INVERNALE",
   "Coordinate Postazione": "39.005627,8.640755",
   "Mezzo": "MSB",
   "Nome radio": "BE 172",
   "Convenzione": "H7",
-  "Orario di lavoro": "7:00-14:00",
+  "Orario di lavoro": "07:00-14:00",
   "Giorni": "LUN-DOM"
  },
  {
@@ -122,7 +122,7 @@
   "Mezzo": "MSB",
   "Nome radio": "CA 124",
   "Convenzione": "H10",
-  "Orario di lavoro": "22:00-8:00",
+  "Orario di lavoro": "22:00-08:00",
   "Giorni": "LUN-DOM"
  },
  {
@@ -131,7 +131,7 @@
   "Mezzo": "ELI",
   "Nome radio": "EL 03",
   "Convenzione": "H12",
-  "Orario di lavoro": "7:30-19:30",
+  "Orario di lavoro": "07:30-19:30",
   "Giorni": "LUN-DOM"
  },
  {
@@ -140,7 +140,7 @@
   "Mezzo": "MSB",
   "Nome radio": "CA 144",
   "Convenzione": "H12",
-  "Orario di lavoro": "8:00-20:00",
+  "Orario di lavoro": "08:00-20:00",
   "Giorni": "LUN-DOM"
  },
  {
@@ -166,6 +166,15 @@
   "Coordinate Postazione": "39.147636,8.303425",
   "Mezzo": "MSB",
   "Nome radio": "BE 151",
+  "Convenzione": "H24",
+  "Orario di lavoro": "00:00-00:00",
+  "Giorni": "LUN-DOM"
+ },
+ {
+  "Nome Postazione": "Croce Azzurra Carloforte",
+  "Coordinate Postazione": "39.147636,8.303425",
+  "Mezzo": "MSI",
+  "Nome radio": "ID 151",
   "Convenzione": "H24",
   "Orario di lavoro": "00:00-00:00",
   "Giorni": "LUN-DOM"
@@ -203,7 +212,7 @@
   "Mezzo": "MSB",
   "Nome radio": "CA 105",
   "Convenzione": "H8",
-  "Orario di lavoro": "8:00-16:00",
+  "Orario di lavoro": "08:00-16:00",
   "Giorni": "LUN-DOM"
  },
  {
@@ -266,7 +275,7 @@
   "Mezzo": "MSB",
   "Nome radio": "CA 196",
   "Convenzione": "H12",
-  "Orario di lavoro": "8:00-20:00",
+  "Orario di lavoro": "08:00-20:00",
   "Giorni": "LUN-DOM"
  },
  {
@@ -275,7 +284,7 @@
   "Mezzo": "MSB",
   "Nome radio": "CA 182",
   "Convenzione": "H12",
-  "Orario di lavoro": "20:00-8:00",
+  "Orario di lavoro": "20:00-08:00",
   "Giorni": "LUN-DOM"
  },
  {
@@ -311,7 +320,7 @@
   "Mezzo": "MSB",
   "Nome radio": "CA 155",
   "Convenzione": "H17",
-  "Orario di lavoro": "7:00-00:00",
+  "Orario di lavoro": "07:00-00:00",
   "Giorni": "LUN-DOM"
  },
  {
@@ -338,7 +347,7 @@
   "Mezzo": "MSB",
   "Nome radio": "CA 198",
   "Convenzione": "H16",
-  "Orario di lavoro": "8:00-00:00",
+  "Orario di lavoro": "08:00-00:00",
   "Giorni": "LUN-DOM"
  },
  {
@@ -410,7 +419,7 @@
   "Mezzo": "MSB",
   "Nome radio": "CA 112",
   "Convenzione": "H12",
-  "Orario di lavoro": "8:00-20:00",
+  "Orario di lavoro": "08:00-20:00",
   "Giorni": "LUN-DOM"
  },
  {
@@ -445,17 +454,17 @@
   "Coordinate Postazione": "39.00317,9.00196",
   "Mezzo": "MSB",
   "Nome radio": "CA 139",
-  "Convenzione": "H16",
-  "Orario di lavoro": "08:00-00:00",
-  "Giorni": "MAR,MER,GIO"
+  "Convenzione": "H17",
+  "Orario di lavoro": "09:00-01:00",
+  "Giorni": "MAR,MER,GIOV"
  },
  {
   "Nome Postazione": "LAVS Pula",
   "Coordinate Postazione": "39.00317,9.00196",
   "Mezzo": "MSB",
   "Nome radio": "CA 139",
-  "Convenzione": "H12",
-  "Orario di lavoro": "08:00-20:00",
+  "Convenzione": "H24",
+  "Orario di lavoro": "00:00-00:00",
   "Giorni": "LUN,VEN,SAB,DOM"
  },
  {
@@ -473,7 +482,7 @@
   "Mezzo": "MSB",
   "Nome radio": "GA 152",
   "Convenzione": "H14",
-  "Orario di lavoro": "7:00-21:00",
+  "Orario di lavoro": "07:00-21:00",
   "Giorni": "LUN-DOM"
  },
  {
@@ -491,7 +500,7 @@
   "Mezzo": "MSB",
   "Nome radio": "CA 133",
   "Convenzione": "H12",
-  "Orario di lavoro": "8:00-20:00",
+  "Orario di lavoro": "08:00-20:00",
   "Giorni": "LUN-DOM"
  },
  {
@@ -510,7 +519,7 @@
   "Nome radio": "CA 108",
   "Convenzione": "H24",
   "Orario di lavoro": "00:00-00:00",
-  "Giorni": "SAB,DOM"
+  "Giorni": "LUN,VEN,SAB,DOM"
  },
  {
   "Nome Postazione": "Misericordia - Capoterra",
@@ -527,7 +536,7 @@
   "Mezzo": "MSB",
   "Nome radio": "CA 138",
   "Convenzione": "H14",
-  "Orario di lavoro": "8:00-00:00",
+  "Orario di lavoro": "08:00-00:00",
   "Giorni": "LUN-DOM"
  },
  {
@@ -545,7 +554,7 @@
   "Mezzo": "MSB",
   "Nome radio": "CA 154",
   "Convenzione": "H16",
-  "Orario di lavoro": "16:00-8:00",
+  "Orario di lavoro": "16:00-08:00",
   "Giorni": "LUN-DOM"
  },
  {
@@ -554,7 +563,7 @@
   "Mezzo": "MSB",
   "Nome radio": "CA 114",
   "Convenzione": "H6",
-  "Orario di lavoro": "00:00-6:00",
+  "Orario di lavoro": "00:00-06:00",
   "Giorni": "LUN-DOM"
  },
  {
@@ -572,7 +581,7 @@
   "Mezzo": "MSB",
   "Nome radio": "CA 119",
   "Convenzione": "H12",
-  "Orario di lavoro": "8:00-20:00",
+  "Orario di lavoro": "08:00-20:00",
   "Giorni": "LUN-DOM"
  },
  {
@@ -590,7 +599,7 @@
   "Mezzo": "MSB",
   "Nome radio": "GA 184",
   "Convenzione": "H5",
-  "Orario di lavoro": "8:00-13:00",
+  "Orario di lavoro": "08:00-13:00",
   "Giorni": "LUN-DOM"
  },
  {
@@ -617,7 +626,7 @@
   "Mezzo": "MSI",
   "Nome radio": "IN 110",
   "Convenzione": "H12",
-  "Orario di lavoro": "8:00-20:00",
+  "Orario di lavoro": "08:00-20:00",
   "Giorni": "LUN-DOM"
  },
  {
@@ -725,7 +734,7 @@
   "Mezzo": "MSB",
   "Nome radio": "CA 142",
   "Convenzione": "H17",
-  "Orario di lavoro": "7:00-00:00",
+  "Orario di lavoro": "07:00-00:00",
   "Giorni": "LUN-DOM"
  },
  {
@@ -770,7 +779,7 @@
   "Mezzo": "MSB",
   "Nome radio": "CA 117",
   "Convenzione": "H14",
-  "Orario di lavoro": "8:00-00:00",
+  "Orario di lavoro": "08:00-00:00",
   "Giorni": "LUN-DOM"
  },
  {
@@ -788,7 +797,7 @@
   "Mezzo": "MSB",
   "Nome radio": "CA 159",
   "Convenzione": "H14",
-  "Orario di lavoro": "8:00-00:00",
+  "Orario di lavoro": "08:00-00:00",
   "Giorni": "LUN-DOM"
  },
  {
@@ -842,7 +851,7 @@
   "Mezzo": "MSB",
   "Nome radio": "CA 183",
   "Convenzione": "H14",
-  "Orario di lavoro": "8:00-00:00",
+  "Orario di lavoro": "08:00-00:00",
   "Giorni": "LUN-DOM"
  },
  {
@@ -905,7 +914,7 @@
   "Mezzo": "MSB",
   "Nome radio": "CA 186",
   "Convenzione": "H12",
-  "Orario di lavoro": "20:00-8:00",
+  "Orario di lavoro": "20:00-08:00",
   "Giorni": "LUN-DOM"
  },
  {
@@ -914,7 +923,7 @@
   "Mezzo": "MSB",
   "Nome radio": "BE 148",
   "Convenzione": "H12",
-  "Orario di lavoro": "8:00-20:00",
+  "Orario di lavoro": "08:00-20:00",
   "Giorni": "LUN-DOM"
  },
  {
@@ -932,7 +941,7 @@
   "Mezzo": "MSB",
   "Nome radio": "CA 151",
   "Convenzione": "H12",
-  "Orario di lavoro": "8:00-20:00",
+  "Orario di lavoro": "08:00-20:00",
   "Giorni": "LUN-DOM"
  },
  {
@@ -941,7 +950,7 @@
   "Mezzo": "MSI",
   "Nome radio": "IN 119",
   "Convenzione": "H12",
-  "Orario di lavoro": "20:00-8:00",
+  "Orario di lavoro": "20:00-08:00",
   "Giorni": "LUN-DOM"
  },
  {
@@ -950,7 +959,7 @@
   "Mezzo": "MSB",
   "Nome radio": "BE 161",
   "Convenzione": "H12",
-  "Orario di lavoro": "20:00-8:00",
+  "Orario di lavoro": "20:00-08:00",
   "Giorni": "LUN-DOM"
  },
  {
@@ -959,7 +968,7 @@
   "Mezzo": "MSB",
   "Nome radio": "CA 156",
   "Convenzione": "H15",
-  "Orario di lavoro": "8:00-20:00",
+  "Orario di lavoro": "08:00-20:00",
   "Giorni": "LUN-DOM"
  },
  {
@@ -977,7 +986,7 @@
   "Mezzo": "MSB",
   "Nome radio": "CA 134",
   "Convenzione": "H12",
-  "Orario di lavoro": "20:00-8:00",
+  "Orario di lavoro": "20:00-08:00",
   "Giorni": "LUN-DOM"
  },
  {
@@ -986,7 +995,7 @@
   "Mezzo": "MSI",
   "Nome radio": "IN 118",
   "Convenzione": "H12",
-  "Orario di lavoro": "8:00-20:00",
+  "Orario di lavoro": "08:00-20:00",
   "Giorni": "LUN-DOM"
  },
  {
@@ -1004,7 +1013,7 @@
   "Mezzo": "MSB",
   "Nome radio": "CA 136",
   "Convenzione": "H14",
-  "Orario di lavoro": "8:00-00:00",
+  "Orario di lavoro": "08:00-00:00",
   "Giorni": "LUN-DOM"
  },
  {
@@ -1013,7 +1022,7 @@
   "Mezzo": "MSB",
   "Nome radio": "CA 137",
   "Convenzione": "H16",
-  "Orario di lavoro": "16:00-8:00",
+  "Orario di lavoro": "16:00-08:00",
   "Giorni": "LUN-DOM"
  },
  {
@@ -1022,7 +1031,7 @@
   "Mezzo": "MSB",
   "Nome radio": "CA 115",
   "Convenzione": "H16",
-  "Orario di lavoro": "16:00-8:00",
+  "Orario di lavoro": "16:00-08:00",
   "Giorni": "LUN-DOM"
  },
  {
@@ -1031,7 +1040,7 @@
   "Mezzo": "MSB",
   "Nome radio": "CA 173",
   "Convenzione": "H16",
-  "Orario di lavoro": "16:00-8:00",
+  "Orario di lavoro": "16:00-08:00",
   "Giorni": "LUN-DOM"
  },
  {
@@ -1039,15 +1048,6 @@
   "Coordinate Postazione": "39.109724,8.52147",
   "Mezzo": "MSB",
   "Nome radio": "BE 104",
-  "Convenzione": "H24",
-  "Orario di lavoro": "00:00-00:00",
-  "Giorni": "LUN-DOM"
- },
- {
-  "Nome Postazione": "Volontari Costa Sud Est Villasimius",
-  "Coordinate Postazione": "39.163101,9.515064",
-  "Mezzo": "MSB",
-  "Nome radio": "ID 116",
   "Convenzione": "H24",
   "Orario di lavoro": "00:00-00:00",
   "Giorni": "LUN-DOM"
@@ -1067,7 +1067,7 @@
   "Mezzo": "MSB",
   "Nome radio": "BE 174",
   "Convenzione": "H17",
-  "Orario di lavoro": "14:00-7:00",
+  "Orario di lavoro": "14:00-07:00",
   "Giorni": "LUN-DOM"
  },
  {
@@ -1076,7 +1076,7 @@
   "Mezzo": "MSB",
   "Nome radio": "BE 169",
   "Convenzione": "H12",
-  "Orario di lavoro": "8:00-20:00",
+  "Orario di lavoro": "08:00-20:00",
   "Giorni": "LUN-DOM"
  },
  {
@@ -1095,7 +1095,7 @@
   "Nome radio": "ID 159",
   "Convenzione": "H24",
   "Orario di lavoro": "00:00-00:00",
-  "Giorni": "VEN,SAB,DOM"
+  "Giorni": "VENDOM"
  },
  {
   "Nome Postazione": "Volontari del Soccorso Giba",
@@ -1103,7 +1103,7 @@
   "Mezzo": "MSI",
   "Nome radio": "ID 159",
   "Convenzione": "H12",
-  "Orario di lavoro": "00:00-00:00",
+  "Orario di lavoro": "08:00-20:00",
   "Giorni": "LUN,MAR,MER,GIO"
  },
  {
@@ -1112,7 +1112,7 @@
   "Mezzo": "MSB",
   "Nome radio": "CA 146",
   "Convenzione": "H12",
-  "Orario di lavoro": "8:00-20:00",
+  "Orario di lavoro": "08:00-20:00",
   "Giorni": "LUN-DOM"
  },
  {
@@ -1170,19 +1170,10 @@
   "Giorni": "LUN-DOM"
  },
  {
-  "Nome Postazione": "Volontariato Primo Soccorso - Cagliari Via Talete",
-  "Coordinate Postazione": "39.2378444,9.1321465",
+  "Nome Postazione": "S.E.S.A. ODV - SENEGHE",
+  "Coordinate Postazione": "40.080481,8.611646",
   "Mezzo": "MSB",
-  "Nome radio": "CA102",
-  "Convenzione": "H12",
-  "Orario di lavoro": "08:00-20:00",
-  "Giorni": "LUN-DOM"
- },
- {
-  "Nome Postazione": "Volontariato Primo Soccorso - Cagliari Is Mirrisionis",
-  "Coordinate Postazione": "39.2335208,9.0970397",
-  "Mezzo": "MSB",
-  "Nome radio": "CA103",
+  "Nome radio": "GA121",
   "Convenzione": "H12",
   "Orario di lavoro": "08:00-20:00",
   "Giorni": "LUN-DOM "

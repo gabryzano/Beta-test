@@ -58,20 +58,18 @@
   "Coordinate Postazione": "39.946788,9.0747919",
   "Mezzo": "MSB",
   "Nome radio": "NU 349",
-  "Convenzione": "H4",
+  "Convenzione": "EST",
   "Orario di lavoro": "19:00-00:00 ",
-  "Giorni": "LUN-DOM",
-  "note": "FUORI CONVENZIONE VIENE ATTIVATA SE MEZZI CIRCOSTANTI SONO TUTTI FUORI"
+  "Giorni": "LUN-DOM"
  },
  {
   "Nome Postazione": "Associazione Volontari Meana Sardo",
   "Coordinate Postazione": "39.946788,9.0747919",
   "Mezzo": "MSB",
   "Nome radio": "NU 349",
-  "Convenzione": "H20",
+  "Convenzione": "EST",
   "Orario di lavoro": "00:00-19:00 ",
-  "Giorni": "LUN-DOM",
-  "note": "REPERIBILE FUORI CONVENZIONE VIENE ATTIVATA SE MEZZI CIRCOSTANTI SONO TUTTI FUORI"
+  "Giorni": "LUN-DOM"
  },
  {
   "Nome Postazione": "Associazione Volontari Soccorso Aritzo - Belvì",
@@ -96,8 +94,8 @@
   "Coordinate Postazione": "40.760576,8.346823",
   "Mezzo": "MSB",
   "Nome radio": "SS 424",
-  "Convenzione": "H12",
-  "Orario di lavoro": "8:00-20:00",
+  "Convenzione": "H24",
+  "Orario di lavoro": "00:00-00:00",
   "Giorni": "LUN-DOM"
  },
  {
@@ -314,7 +312,7 @@
   "Nome radio": "SS 402",
   "Convenzione": "H24",
   "Orario di lavoro": "8:00-8:00",
-  "Giorni": "LUN-MER-VEN"
+  "Giorni": "LUN,MER,VEN"
  },
  {
   "Nome Postazione": "Croce Blu Sassari",
@@ -323,7 +321,7 @@
   "Nome radio": "SS 402",
   "Convenzione": "H24",
   "Orario di lavoro": "20:00-8:00",
-  "Giorni": "MAR-GIO-VEN"
+  "Giorni": "MAR,GIO,VEN"
  },
  {
   "Nome Postazione": "Croce Gialla Ploaghe",
@@ -393,10 +391,9 @@
   "Coordinate Postazione": "40.61101,9.745972",
   "Mezzo": "MSB",
   "Nome radio": "NU 325",
-  "Convenzione": "H6",
-  "Orario di lavoro": "18:00-00:00",
-  "Giorni": "LUN-DOM",
-  "Column8": " "
+  "Convenzione": "H16",
+  "Orario di lavoro": "08:00-00:00",
+  "Giorni": "LUN-DOM"
  },
  {
   "Nome Postazione": "Croce Verde La Maddalena",
@@ -448,7 +445,7 @@
   "Coordinate Postazione": "40.0374723,8.9848339",
   "Mezzo": "MSB",
   "Nome radio": "NU 348",
-  "Convenzione": "H8",
+  "Convenzione": "EST",
   "Orario di lavoro": "22:00-06:00",
   "Giorni": "LUN-DOM"
  },
@@ -457,7 +454,7 @@
   "Coordinate Postazione": "40.0374723,8.9848339",
   "Mezzo": "MSB",
   "Nome radio": "NU 348",
-  "Convenzione": "H16",
+  "Convenzione": "EST",
   "Orario di lavoro": "06:00-22:00",
   "Giorni": "LUN-DOM"
  },
@@ -475,10 +472,9 @@
   "Coordinate Postazione": "40.204632,9.355144",
   "Mezzo": "MSB",
   "Nome radio": "NU 313",
-  "Convenzione": "H19",
+  "Convenzione": "REP",
   "Orario di lavoro": "23:00-18:00",
-  "Giorni": "LUN-DOM",
-  "note": "REPERIBILE"
+  "Giorni": "LUN-DOM"
  },
  {
   "Nome Postazione": "Croce Verde Orune",
@@ -494,8 +490,8 @@
   "Coordinate Postazione": "39.68061,9.441222",
   "Mezzo": "MSB",
   "Nome radio": "LA 606",
-  "Convenzione": "H12",
-  "Orario di lavoro": "08:00-20:00",
+  "Convenzione": "H24",
+  "Orario di lavoro": "00:00-00:00",
   "Giorni": "LUN-DOM"
  },
  {
@@ -710,17 +706,17 @@
   "Coordinate Postazione": "41.24252,9.192134",
   "Mezzo": "MSB",
   "Nome radio": "OL 528",
-  "Convenzione": "H7",
-  "Orario di lavoro": "00:00-7:00",
+  "Convenzione": "REP",
+  "Orario di lavoro": "07:00-00:00",
   "Giorni": "LUN-DOM"
  },
  {
   "Nome Postazione": "Misericordia S. Teresa di Gallura",
   "Coordinate Postazione": "41.24252,9.192134",
-  "Mezzo": "MSI",
-  "Nome radio": "IND 001",
-  "Convenzione": "H24",
-  "Orario di lavoro": "00:00-00:00",
+  "Mezzo": "MSB",
+  "Nome radio": "OL 528",
+  "Convenzione": "H7",
+  "Orario di lavoro": "00:00-07:00",
   "Giorni": "LUN-DOM"
  },
  {
@@ -890,19 +886,9 @@
   "Coordinate Postazione": "40.021307,9.09936",
   "Mezzo": "MSB",
   "Nome radio": "NU 352",
-  "Convenzione": "H12",
-  "Orario di lavoro": "20:00-8:00",
+  "Convenzione": "H24",
+  "Orario di lavoro": "00:00-00:00",
   "Giorni": "LUN-DOM"
- },
- {
-  "Nome Postazione": "Postazione AREUS - Sorgono",
-  "Coordinate Postazione": "40.021307,9.09936",
-  "Mezzo": "MSB",
-  "Nome radio": "NU 352",
-  "Convenzione": "H12",
-  "Orario di lavoro": "8:00-20:00",
-  "Giorni": "LUN-DOM",
-  "note": "REPERIBILI"
  },
  {
   "Nome Postazione": "Postazione AREUS - Tempio Pausania",
@@ -919,9 +905,17 @@
   "Mezzo": "MSI",
   "Nome radio": "IND 006",
   "Convenzione": "H12",
-  "Orario di lavoro": "8:00-20:00",
-  "Giorni": "LUN-DOM",
-  "note": "REPERIBILI"
+  "Orario di lavoro": "20:00-08:00",
+  "Giorni": "LUN-DOM"
+ },
+ {
+  "Nome Postazione": "Postazione AREUS - Tempio Pausania",
+  "Coordinate Postazione": "40.89665,9.102668",
+  "Mezzo": "MSI",
+  "Nome radio": "IND 006",
+  "Convenzione": "REP",
+  "Orario di lavoro": "08:00-20:00",
+  "Giorni": "LUN-DOM"
  },
  {
   "Nome Postazione": "Postazione AREUS - Tempio Pausania",
@@ -937,8 +931,8 @@
   "Coordinate Postazione": "40.89665,9.102668",
   "Mezzo": "MSB",
   "Nome radio": "OL 526",
-  "Convenzione": "H12",
-  "Orario di lavoro": "8:00-20:00",
+  "Convenzione": "H24",
+  "Orario di lavoro": "00:00-00:00",
   "Giorni": "LUN-DOM"
  },
  {
@@ -1099,10 +1093,9 @@
   "Coordinate Postazione": "41.233725,9.188429",
   "Mezzo": "MSB",
   "Nome radio": "OL 527",
-  "Convenzione": "H7",
+  "Convenzione": "REP",
   "Orario di lavoro": "00:00-07:00",
-  "Giorni": "LUN-DOM",
-  "note": "REPERIBILI"
+  "Giorni": "LUN-DOM"
  },
  {
   "Nome Postazione": "Volontari Protezione Civile Lungoni Santa Teresa di Gallura",
@@ -1145,9 +1138,26 @@
   "Coordinate Postazione": "40.119112,9.248606",
   "Mezzo": "MSB",
   "Nome radio": "NU 319",
-  "Convenzione": "H12",
+  "Convenzione": "REP",
   "Orario di lavoro": "20:00-08:00",
-  "Giorni": "LUN-DOM",
-  "note": "REPERIBILI"
+  "Giorni": "LUN-DOM"
+ },
+ {
+  "Nome Postazione": "Mike Soccorso - Desulo",
+  "Coordinate Postazione": "40.011740, 9.229080",
+  "Mezzo": "MSB",
+  "Nome radio": "NU353",
+  "Convenzione": "H12",
+  "Orario di lavoro": "08:00-20:00",
+  "Giorni": "LUN-DOM"
+ },
+ {
+  "Nome Postazione": "Aves - Monti",
+  "Coordinate Postazione": "40.84053,9.39885",
+  "Mezzo": "MSB",
+  "Nome radio": "OL512",
+  "Convenzione": "H24",
+  "Orario di lavoro": "00:00-00:00",
+  "Giorni": "LUN-DOM"
  }
 ]
