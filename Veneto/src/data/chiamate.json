@@ -211,8 +211,8 @@
         },
         "caso_critico": {
             "MSB": "Femmina, 28 anni, ha tentato di buttarsi sotto un’auto. Incosciente per trauma cranico successivo. FC 45 bpm, PA 70/40 mmHg, SpO₂ 84%. Richiesto MSA. [NCH]",
-            "MSA1": "Paziente incosciente, trauma cranico, GCS 6. Pupille anisocoriche. Immobilizzata. O₂ ad alti flussi, accesso EV. Richiesta MSA2. [NCH]",
-            "MSA2": "Femmina, 28 anni, GCS 3, trauma cranico maggiore post tentato suicidio. Intubata in posto, ventilazione assistita. Trasferimento urgente in rianimazione. [NCH]"
+            "MSA1": "Paziente incosciente, trauma cranico, GCS 6. Pupille anisocoriche. Immobilizzata. O₂ ad alti flussi, accesso EV. Richiesta MSA. [NCH]",
+            "MSA2": "Femmina, 28 anni, GCS 6, trauma cranico maggiore post tentato suicidio. Intubata in posto, ventilazione assistita. Trasferimento urgente in rianimazione. [NCH]"
         }
     },
     "chiamata_13": {
@@ -348,7 +348,7 @@
         },
         "caso_critico": {
             "MSB": "Maschio, 3 anni, incosciente. FC 50 bpm, PA 60/30 mmHg, SpO₂ 72%. Arresto respiratorio imminente. Richiesta MSA. [PEDIATRIA + RIANIMAZIONE]",
-            "MSA1": "Paziente ipossico grave. GCS 6. Intubazione d’urgenza, O₂ 100%, adrenalina nebulizzata. Richiesto MSA2. [PEDIATRIA + RIANIMAZIONE]",
+            "MSA1": "Paziente ipossico grave. GCS 6. Intubazione d’urgenza, O₂ 100%, adrenalina nebulizzata. Richiesto MSA. [PEDIATRIA + RIANIMAZIONE]",
             "MSA2": "Maschio, 3 anni, GCS 6. Apnea. Intubato, ventilato, trasferimento urgente. [PEDIATRIA + RIANIMAZIONE]"
         }
     },
@@ -1766,7 +1766,7 @@
 
     "critico": {
       "MSB": "Maschio, 53 anni, ustione estesa a torace e arto superiore dx. Dolore molto intenso, paziente agitato, vigile ma sofferente. PA 95/60 mmHg, FC 120 bpm, SpO₂ 93%. Richiesto supporto medico urgente. [CTZ]", 
-      "MSA1": "Maschio, 53 anni, ustioni termiche di II grado a torace anteriore e arto superiore dx, circa 20% SCT. Paziente tachicardico, ipoteso, sofferente. PA 92/58 mmHg, FC 122 bpm, SpO₂ 92%. EV x2, cristalloidi rapidi, O₂ 10 L/min,. [CTZ]", 
+      "MSA1": "Maschio, 53 anni, ustioni termiche di II grado a torace anteriore e arto superiore dx, circa 20% SCT. Paziente tachicardico, ipoteso, sofferente. PA 92/58 mmHg, FC 122 bpm, SpO₂ 92%. EV x2, cristalloidi rapidi, O₂ 10 L/min. [CTZ]", 
       "MSA2": "Maschio, 53 anni, ustioni termiche di II grado torace e arto sup. dx, circa 20% SCT. Paziente agitato, pallido, dolore non controllato. PA 90/55 mmHg, FC 125 bpm, SpO₂ 91%. EV x2, fluidi in corso, analgesia con ketamina 30 mg EV, O₂. [CTZ]" 
     }
   },

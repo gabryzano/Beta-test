@@ -700,7 +700,7 @@ class GameUI {
                         if ((mezzo.tipo_mezzo === 'MSA1' || mezzo.tipo_mezzo === 'MSA2' || mezzo.tipo_mezzo === 'VLV') && ospedaleSel === '__accompagna__') {
                             const lead = mezzi.find(x =>
                                 (call.mezziAssegnati || []).includes(x.nome_radio) &&
-                                (x.tipo_mezzo.startsWith('MSB') || x.tipo_mezzo.endsWith('_A') || x.tipo_mezzo === 'ELI')
+                                (x.tipo_mezzo.startsWith('MSB') || x.tipo_mezzo.endsWith('_A') || x.tipo_mezzo === 'ELI' || x.tipo_mezzo === 'MSI')
                             );
                             if (lead && lead._trasportoConfermato && lead.ospedale) {                                mezzo.ospedale = lead.ospedale;
                                 mezzo.codice_trasporto = 'Verde';
@@ -716,7 +716,7 @@ class GameUI {
                                 mezzo.ospedale = null;
                                 mezzo.codice_trasporto = null;
                                 mezzo._trasportoConfermato = false;
-                                mezzo.comunicazioni = ['In attesa destinazione MSB'];
+                                mezzo.comunicazioni = ['In attesa destinazione MSB/MSI'];
                                 aggiornaMissioniPerMezzo(mezzo);
                             }
                             return;
@@ -766,7 +766,7 @@ class GameUI {
                         // Se questo mezzo è un MSB/ELI che ha appena confermato, aggiorna eventuali MSA in attesa
                         if ((mezzo.tipo_mezzo.startsWith('MSB') || mezzo.tipo_mezzo.endsWith('_A') || mezzo.tipo_mezzo === 'ELI') && mezzo._trasportoConfermato && mezzo.ospedale) {
                             (mezzi || []).forEach(m => {
-                                if ((m.tipo_mezzo === 'MSA1' || m.tipo_mezzo === 'MSA2') && m._attesaDestinazioneDa === mezzo.nome_radio) {                                    m.ospedale = mezzo.ospedale;
+                                if ((m.tipo_mezzo === 'MSA1' || m.tipo_mezzo === 'MSA2' || m.tipo_mezzo === 'VLV') && m._attesaDestinazioneDa === mezzo.nome_radio) {                                    m.ospedale = mezzo.ospedale;
                                     m.codice_trasporto = 'Verde';
                                     m._trasportoConfermato = true;
                                     m._reportProntoInviato = true; // Assicuriamoci che il report sia segnato come inviato
