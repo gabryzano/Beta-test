@@ -1547,6 +1547,107 @@ class EmergencyDispatchGame {
         };
     }
 
+    updatePatologia(problema) {
+        const patologiaSelect = document.getElementById('patologia');
+        if (!patologiaSelect) return;
+        
+        patologiaSelect.innerHTML = '';
+        // Aggiungi opzione vuota come prima opzione
+        const emptyOption = document.createElement('option');
+        emptyOption.value = '';
+        emptyOption.textContent = '-- Seleziona patologia --';
+        emptyOption.selected = true; // Sempre selezionata inizialmente
+        patologiaSelect.appendChild(emptyOption);
+        
+        let opzioni = [];
+        
+        switch(problema) {
+            case 'T - TRAUMATICO':
+                opzioni = ['C01 - TRAUMATICA'];
+                break;
+            case 'M - MEDICO':
+                opzioni = ['C02 - CARDIOCIRCOLATORIA','C03 - RESPIRATORIA','C04 - NEUROLOGICA','C05 - PSICHIATRICA','C06 - NEOPLASTICA','C07 - TOSSICOLOGICA','C08 - METABOLICA','C09 - GASTROENTEROLOGICA','C10 - UROLOGICA','C11 - OCULISTICA','C12 - OTORINOLARINGOIATRICA','C13 - DERMATOLOGICA','C14 - OSTETRICO-GINECOLOGICA','C15 - INFETTIVA','C19 - ALTRA'];
+                break;
+            case 'A - ALTRO/NON CLASSIFICATO':
+                opzioni = ['C19 - ALTRA','C20 - NON IDENTIFICATA'];
+                break;
+            default:
+                opzioni = ['C01 - TRAUMATICA','C02 - CARDIOCIRCOLATORIA','C03 - RESPIRATORIA','C04 - NEUROLOGICA','C05 - PSICHIATRICA','C06 - NEOPLASTICA','C07 - TOSSICOLOGICA','C08 - METABOLICA','C09 - GASTROENTEROLOGICA','C10 - UROLOGICA','C11 - OCULISTICA','C12 - OTORINOLARINGOIATRICA','C13 - DERMATOLOGICA','C14 - OSTETRICO-GINECOLOGICA','C15 - INFETTIVA','C19 - ALTRA','C20 - NON IDENTIFICATA'];
+        }
+        
+        // Recupera il call object per gestire il salvataggio
+        const popup = document.getElementById('popupMissione');
+        const callId = popup?.getAttribute('data-call-id');
+        const call = callId ? this.calls.get(callId) : null;
+        
+        opzioni.forEach(opt => {
+            const option = document.createElement('option');
+            option.value = opt;
+            option.textContent = opt;
+            // Ripristina il valore salvato se corrisponde
+            option.selected = call && call.patologia === opt;
+            patologiaSelect.appendChild(option);
+        });
+        
+        // Aggiungi listener per salvare automaticamente
+        patologiaSelect.onchange = () => {
+            if (call) {
+                call.patologia = patologiaSelect.value; // Salva automaticamente
+            }
+        };
+    }
+
+    updateProblemi(problema) {
+        const problemiSelect = document.getElementById('problemi');
+        if (!problemiSelect) return;
+        
+        problemiSelect.innerHTML = '';
+        // Aggiungi opzione vuota come prima opzione
+        const emptyOption = document.createElement('option');
+        emptyOption.value = '';
+        emptyOption.textContent = '-- Seleziona problemi --';
+        emptyOption.selected = true; // Sempre selezionata inizialmente
+        problemiSelect.appendChild(emptyOption);
+        
+        let opzioni = [];
+        
+        switch(problema) {
+            case 'A - ALTRO/NON CLASSIFICATO':
+                opzioni = ['APERTURA_PORTE','PROBLEMI_SCONOSCIUTI'];
+                break;
+            case 'M - MEDICO':
+                opzioni = ['PROBLEMI_SCONOSCIUTI','ANAFILASSI/REAZ_ALLERGICA','ARRESTO_CARDIACO','CEFALEA','ESAUR.CALORE/COLPO_CALORE/IPERTERMIA','CONVULSIONI','DIABETE','DOLORE_ADDOMINALE','DOLORE_SCHIENA_NON_TRAUMATICO','DOLORE_TORACICO/EPIGASTRICO','EMORRAGIA_NON_TRAUMATICA','GRAVIDANZA/PARTO','ICTUS/PROBL_NEUROLOGICO','INTOSSICAZIONE/AVVELENAMENTO','MALESSERE_GENERICO','PERDITA_DI_COSCIENZA','PROBL.CARDIACI','PROBL.PSICHIATRICI/MINACCIA_SUICIDIO','PROBL.RESPIRATORI','SOFFOCAMENTO/OSTRUZ.VIE_AEREE'];
+                break;
+            case 'T - TRAUMATICO':
+                opzioni = ['AGGRESSIONE/FERITA_DA_ARMA','ANNEGAMENTO/IMMERSIONE','ASSIDERAMENTO/CONGELAMENTO','CADUTA','FOLGORAZIONE/ELETTROCUZIONE','INC.MACCHINARIO','INC.STRADALE','MORSO/GRAFFIO/PUNTURA_ANIMALE','TRAUMI_SPECIFICI','USTIONI/ESPLOSIONE/INCENDIO','VALANGA'];
+                break;
+            default:
+                opzioni = [];
+        }
+        
+        // Recupera il call object per gestire il salvataggio
+        const popup = document.getElementById('popupMissione');
+        const callId = popup?.getAttribute('data-call-id');
+        const call = callId ? this.calls.get(callId) : null;
+        
+        opzioni.forEach(opt => {
+            const option = document.createElement('option');
+            option.value = opt;
+            option.textContent = opt.replace(/_/g, ' ').replace(/\//g, '/').replace(/\b\w/g, l => l.toUpperCase()); // Format text
+            // Ripristina il valore salvato se corrisponde
+            option.selected = call && call.problemi && call.problemi.includes(opt);
+            problemiSelect.appendChild(option);
+        });
+        
+        // Aggiungi listener per salvare automaticamente
+        problemiSelect.onchange = () => {
+            if (call) {
+                const selected = problemiSelect.value;
+                call.problemi = selected ? [selected] : []; // Salva come array
+            }
+        };
+    }
+
     updateNoteEvento2(noteEvento) {
         const noteEvento2Select = document.getElementById('note-evento2');
         if (!noteEvento2Select) return;
@@ -2112,69 +2213,18 @@ class EmergencyDispatchGame {
             // Aggiungi listener per salvare automaticamente - UNA SOLA VOLTA
             newProblemaSelect.addEventListener('change', () => {
                 call.problema = newProblemaSelect.value; // Salva automaticamente
+                this.updatePatologia(newProblemaSelect.value);
+                this.updateProblemi(newProblemaSelect.value);
             });
         }
         
         // Lascia vuoto il campo Dett. Problema inizialmente
         
-        const patologiaSelect = document.getElementById('patologia');
-        if (patologiaSelect) {
-            // RIMUOVI listener precedenti per evitare duplicati
-            patologiaSelect.replaceWith(patologiaSelect.cloneNode(false));
-            const newPatologiaSelect = document.getElementById('patologia');
-            
-            newPatologiaSelect.innerHTML = '';
-            // Aggiungi opzione vuota come prima opzione
-            const emptyOption = document.createElement('option');
-            emptyOption.value = '';
-            emptyOption.textContent = '-- Seleziona patologia --';
-            emptyOption.selected = !call.patologia; // Seleziona solo se non c'è valore salvato
-            newPatologiaSelect.appendChild(emptyOption);
-            
-            const opzioniPatologia = ['C01 - TRAUMATICA','C02 - CARDIOCIRCOLATORIA','C03 - RESPIRATORIA','C04 - NEUROLOGICA','C05 - PSICHIATRICA','C06 - NEOPLASTICA','C07 - TOSSICOLOGICA','C08 - METABOLICA','C09 - GASTROENTEROLOGICA','C10 - UROLOGICA','C11 - OCULISTICA','C12 - OTORINOLARINGOIATRICA','C13 - DERMATOLOGICA','C14 - OSTETRICO-GINECOLOGICA','C15 - INFETTIVA','C19 - ALTRA','C20 - NON IDENTIFICATA'];
-            opzioniPatologia.forEach(opt => {
-                const option = document.createElement('option');
-                option.value = opt;
-                option.textContent = opt;
-                option.selected = call.patologia === opt; // Ripristina valore salvato
-                newPatologiaSelect.appendChild(option);
-            });
-            
-            // Aggiungi listener per salvare automaticamente - UNA SOLA VOLTA
-            newPatologiaSelect.addEventListener('change', () => {
-                call.patologia = newPatologiaSelect.value; // Salva automaticamente
-            });
-        }
+        // Popola patologia in base a problema
+        this.updatePatologia(call.problema || '');
         
-        const problemiSelect = document.getElementById('problemi');
-        if (problemiSelect) {
-            // RIMUOVI listener precedenti per evitare duplicati
-            problemiSelect.replaceWith(problemiSelect.cloneNode(false));
-            const newProblemiSelect = document.getElementById('problemi');
-            
-            newProblemiSelect.innerHTML = '';
-            // Aggiungi opzione vuota come prima opzione
-            const emptyOption = document.createElement('option');
-            emptyOption.value = '';
-            emptyOption.textContent = '-- Seleziona problemi --';
-            emptyOption.selected = !call.problemi || call.problemi.length === 0; // Seleziona solo se non c'è valore salvato
-            newProblemiSelect.appendChild(emptyOption);
-            
-            const opzioniProblemi = ['APERTURA_PORTE','PROBLEMI_SCONOSCIUTI','ANAFILASSI/REAZ._ALLERGICA','ARRESTO_CARDIACO','CEFALEA','ESAUR._CALORE/COLPO_CALORE/IPERTERMIA','CONVULSIONI','DIABETE','DOLORE_ADDOMINALE','DOLORE_SCHIENA_NON_TRAUMATICO','DOLORE_TORACICO/EPIGASTRICO','EMORRAGIA_NON_TRAUMATICA','GRAVIDANZA/PARTO','ICTUS/PROBL._NEURO','INTOSSICAZIONE/AVVELENAMENTO','MALESSERE_GENERICO','PERDITA_DI_COSCIENZA','PROBL._CARDIACI','PROBL._PSICHIATRICI/MINACCIA_SUICIDIO','PROBL._RESPIRATORI','SOFFOCAMENTO/OSTRUZ_VIE_AEREE','AGGRESSIONE/FERITA_DA_ARMA','ANNEGAMENTO/IMMERSIONE','ASSIDERAMENTO/CONGELAMENTO','CADUTA','FOLGORAZIONE/ELETTROCUZIONE','INC._MACCHINARIO','INC._STRADALE','MORSO/GRAFFIO/PUNTURA_ANIMALE','TRAUMI/SPECIFICI','USTIONI/ESPLOSIONE/INCENDIO','VALANGA'];
-            opzioniProblemi.forEach(opt => {
-                const option = document.createElement('option');
-                option.value = opt;
-                option.textContent = opt.replace(/_/g, ' ').replace(/\//g, '/').replace(/\b\w/g, l => l.toUpperCase()); // Format text
-                option.selected = call.problemi && call.problemi.includes(opt); // Ripristina valore salvato
-                newProblemiSelect.appendChild(option);
-            });
-            
-            // Aggiungi listener per salvare automaticamente - UNA SOLA VOLTA
-            newProblemiSelect.addEventListener('change', () => {
-                const selected = newProblemiSelect.value;
-                call.problemi = selected ? [selected] : []; // Salva come array per consistenza
-            });
-        }
+        // Popola problemi in base a problema
+        this.updateProblemi(call.problema || '');
         
         const coscienzaSelect = document.getElementById('coscienza');
         if (coscienzaSelect) {
@@ -2265,9 +2315,6 @@ class EmergencyDispatchGame {
         // Popola i campi dipendenti se ci sono valori salvati
         if (call.luogo) {
             this.updateDettLuogo(call.luogo);
-        }
-        if (call.patologia) {
-            this.updateDettMotivo(call.patologia);
         }
         if (call.noteEvento) {
             this.updateNoteEvento2(call.noteEvento);
