@@ -81,7 +81,7 @@
   "Giorni": "LUN-DOM"
  },
  {
-  "Nome Postazione": "SUEM 118 - Caorle",
+  "Nome Postazione": "Postazione SUEM 118 - Caorle",
   "Coordinate Postazione": "45.601894,12.881262",
   "Mezzo": "MSA",
   "Nome radio": "PAPA CHARLIE 01",
@@ -90,7 +90,7 @@
   "Giorni": "LUN-DOM"
  },
  {
-  "Nome Postazione": "SUEM 118 - Caorle",
+  "Nome Postazione": "Postazione SUEM 118 - Caorle",
   "Coordinate Postazione": "45.601894,12.881262",
   "Mezzo": "MSI",
   "Nome radio": "PAPA CHARLIE 02",
@@ -99,7 +99,7 @@
   "Giorni": "LUN-DOM"
  },
  {
-  "Nome Postazione": "SUEM 118 - Cavarzere",
+  "Nome Postazione": "Postazione SUEM 118 - Cavarzere",
   "Coordinate Postazione": "45.137821,12.092348",
   "Mezzo": "MSI",
   "Nome radio": "CHARLIE ROMEO 01",
@@ -108,7 +108,7 @@
   "Giorni": "LUN-DOM"
  },
  {
-  "Nome Postazione": "SUEM 118 - Chioggia",
+  "Nome Postazione": "Postazione SUEM 118 - Chioggia",
   "Coordinate Postazione": "45.198288,12.281719",
   "Mezzo": "MSI",
   "Nome radio": "CHARLIE 01",
@@ -117,7 +117,7 @@
   "Giorni": "LUN-DOM"
  },
  {
-  "Nome Postazione": "SUEM 118 - Chioggia",
+  "Nome Postazione": "Postazione SUEM 118 - Chioggia",
   "Coordinate Postazione": "45.198288,12.281719",
   "Mezzo": "MSI",
   "Nome radio": "CHARLIE 02",
@@ -126,7 +126,7 @@
   "Giorni": "LUN-DOM"
  },
  {
-  "Nome Postazione": "SUEM 118 - Chioggia",
+  "Nome Postazione": "Postazione SUEM 118 - Chioggia",
   "Coordinate Postazione": "45.198288,12.281719",
   "Mezzo": "MSI",
   "Nome radio": "CHARLIE 03",
@@ -135,16 +135,16 @@
   "Giorni": "LUN-DOM"
  },
  {
-  "Nome Postazione": "SUEM 118 - Chioggia",
+  "Nome Postazione": "Postazione SUEM 118 - Chioggia",
   "Coordinate Postazione": "45.198288,12.281719",
-  "Mezzo": "MSI",
+  "Mezzo": "CMR",
   "Nome radio": "CHARLIE 11",
   "Convenzione": "H24",
   "Orario di lavoro": "00:00-00:00",
   "Giorni": "LUN-DOM"
  },
  {
-  "Nome Postazione": "SUEM 118 - Chioggia",
+  "Nome Postazione": "Postazione SUEM 118 - Chioggia",
   "Coordinate Postazione": "45.198288,12.281719",
   "Mezzo": "VLV",
   "Nome radio": "CHARLIE 21",
@@ -153,7 +153,7 @@
   "Giorni": "LUN-DOM"
  },
  {
-  "Nome Postazione": "SUEM 118 - Dolo",
+  "Nome Postazione": "Postazione SUEM 118 - Dolo",
   "Coordinate Postazione": "45.422107,12.067584",
   "Mezzo": "MSI",
   "Nome radio": "DELTA 01",
@@ -162,7 +162,7 @@
   "Giorni": "LUN-DOM"
  },
  {
-  "Nome Postazione": "SUEM 118 - Dolo",
+  "Nome Postazione": "Postazione SUEM 118 - Dolo",
   "Coordinate Postazione": "45.422107,12.067584",
   "Mezzo": "MSI",
   "Nome radio": "DELTA 02",
@@ -171,7 +171,7 @@
   "Giorni": "LUN-DOM"
  },
  {
-  "Nome Postazione": "SUEM 118 - Dolo",
+  "Nome Postazione": "Postazione SUEM 118 - Dolo",
   "Coordinate Postazione": "45.422107,12.067584",
   "Mezzo": "MSI",
   "Nome radio": "DELTA 03",
@@ -180,7 +180,7 @@
   "Giorni": "LUN-DOM"
  },
  {
-  "Nome Postazione": "SUEM 118 - Dolo",
+  "Nome Postazione": "Postazione SUEM 118 - Dolo",
   "Coordinate Postazione": "45.422107,12.067584",
   "Mezzo": "MSA",
   "Nome radio": "DELTA 03",
@@ -189,7 +189,7 @@
   "Giorni": "LUN-DOM"
  },
  {
-  "Nome Postazione": "SUEM 118 - Dolo",
+  "Nome Postazione": "Postazione SUEM 118 - Dolo",
   "Coordinate Postazione": "45.422107,12.067584",
   "Mezzo": "VLV",
   "Nome radio": "DELTA 21",
@@ -198,16 +198,16 @@
   "Giorni": "LUN-DOM"
  },
  {
-  "Nome Postazione": "SUEM 118 - Dolo",
+  "Nome Postazione": "Postazione SUEM 118 - Dolo",
   "Coordinate Postazione": "45.422107,12.067584",
-  "Mezzo": "MSI",
+  "Mezzo": "CMR",
   "Nome radio": "DELTA 11",
   "Convenzione": "H24",
   "Orario di lavoro": "00:00-00:00",
   "Giorni": "LUN-DOM"
  },
  {
-  "Nome Postazione": "SUEM 118 - Dolo",
+  "Nome Postazione": "Postazione SUEM 118 - Dolo",
   "Coordinate Postazione": "45.422107,12.067584",
   "Mezzo": "MSI",
   "Nome radio": "DELTA CHARLIE 01",
@@ -216,34 +216,7 @@
   "Giorni": "LUN-DOM"
  },
  {
-  "Nome Postazione": "SUEM 118 - Dolo",
-  "Coordinate Postazione": "45.422107,12.067584",
-  "Mezzo": "MSI",
-  "Nome radio": "DELTA CHARLIE 02",
-  "Convenzione": "H14",
-  "Orario di lavoro": "08:00-22:00",
-  "Giorni": "LUN-DOM"
- },
- {
-  "Nome Postazione": "SUEM 118 - Dolo",
-  "Coordinate Postazione": "45.422107,12.067584",
-  "Mezzo": "MSB",
-  "Nome radio": "DELTA CHARLIE 31",
-  "Convenzione": "H14",
-  "Orario di lavoro": "08:00-22:00",
-  "Giorni": "LUN-DOM"
- },
- {
-  "Nome Postazione": "SUEM 118 - Dolo",
-  "Coordinate Postazione": "45.422107,12.067584",
-  "Mezzo": "MSB",
-  "Nome radio": "DELTA CHARLIE 32",
-  "Convenzione": "H14",
-  "Orario di lavoro": "08:00-22:00",
-  "Giorni": "LUN-DOM"
- },
- {
-  "Nome Postazione": "SUEM 118 - Jesolo",
+  "Nome Postazione": "Postazione SUEM 118 - Jesolo",
   "Coordinate Postazione": "45.510819,12.659833",
   "Mezzo": "MSA",
   "Nome radio": "INDIA 01",
@@ -252,7 +225,7 @@
   "Giorni": "LUN-DOM"
  },
  {
-  "Nome Postazione": "SUEM 118 - Jesolo",
+  "Nome Postazione": "Postazione SUEM 118 - Jesolo",
   "Coordinate Postazione": "45.510819,12.659833",
   "Mezzo": "MSI",
   "Nome radio": "INDIA 02",
@@ -261,7 +234,16 @@
   "Giorni": "LUN-DOM"
  },
  {
-  "Nome Postazione": "SUEM 118 - Jesolo",
+  "Nome Postazione": "Postazione SUEM 118 - Jesolo",
+  "Coordinate Postazione": "45.510819,12.659833",
+  "Mezzo": "MSI",
+  "Nome radio": "INDIA 04",
+  "Convenzione": "H17",
+  "Orario di lavoro": "07:00-00:00",
+  "Giorni": "LUN-DOM"
+ },
+ {
+  "Nome Postazione": "Postazione SUEM 118 - Jesolo",
   "Coordinate Postazione": "45.510819,12.659833",
   "Mezzo": "VLV",
   "Nome radio": "INDIA 21",
@@ -270,16 +252,16 @@
   "Giorni": "LUN-DOM"
  },
  {
-  "Nome Postazione": "SUEM 118 - Jesolo",
+  "Nome Postazione": "Postazione SUEM 118 - Jesolo",
   "Coordinate Postazione": "45.510819,12.659833",
-  "Mezzo": "MSI",
+  "Mezzo": "CMR",
   "Nome radio": "INDIA 11",
   "Convenzione": "H24",
   "Orario di lavoro": "00:00-00:00",
   "Giorni": "LUN-DOM"
  },
  {
-  "Nome Postazione": "SUEM 118 - Lido di Venezia",
+  "Nome Postazione": "Postazione SUEM 118 - Lido di Venezia",
   "Coordinate Postazione": "45.421864,12.38465",
   "Mezzo": "MSA",
   "Nome radio": "ECHO LIMA 01",
@@ -288,7 +270,7 @@
   "Giorni": "LUN-DOM"
  },
  {
-  "Nome Postazione": "SUEM 118 - Lido di Venezia",
+  "Nome Postazione": "Postazione SUEM 118 - Lido di Venezia",
   "Coordinate Postazione": "45.421864,12.38465",
   "Mezzo": "MSI",
   "Nome radio": "ECHO LIMA 02",
@@ -297,7 +279,7 @@
   "Giorni": "LUN-DOM"
  },
  {
-  "Nome Postazione": "SUEM 118 - Lido di Venezia",
+  "Nome Postazione": "Postazione SUEM 118 - Lido di Venezia",
   "Coordinate Postazione": "45.421864,12.38465",
   "Mezzo": "MSI",
   "Nome radio": "ECHO LIMA 03",
@@ -306,16 +288,7 @@
   "Giorni": "LUN-DOM"
  },
  {
-  "Nome Postazione": "SUEM 118 - Lido di Venezia",
-  "Coordinate Postazione": "45.421864,12.38465",
-  "Mezzo": "MSB",
-  "Nome radio": "ECHO VICTOR 32",
-  "Convenzione": "H12",
-  "Orario di lavoro": "07:00-19:00",
-  "Giorni": "LUN-DOM"
- },
- {
-  "Nome Postazione": "SUEM 118 - Mestre Vigili del Fuoco",
+  "Nome Postazione": "Postazione SUEM 118 - Mestre Vigili del Fuoco",
   "Coordinate Postazione": "45.51646,12.241628",
   "Mezzo": "MSI",
   "Nome radio": "ALFA 01",
@@ -324,16 +297,16 @@
   "Giorni": "LUN-DOM"
  },
  {
-  "Nome Postazione": "SUEM 118 - Mestre Vigili del Fuoco",
+  "Nome Postazione": "Postazione SUEM 118 - Mestre Vigili del Fuoco",
   "Coordinate Postazione": "45.51646,12.241628",
   "Mezzo": "MSI",
   "Nome radio": "ALFA 02",
   "Convenzione": "H12",
   "Orario di lavoro": "20:00-08:00",
-  "Giorni": "MAR,GIO,SAB"
+  "Giorni": "LUN,MER,VEN,DOM"
  },
  {
-  "Nome Postazione": "SUEM 118 - Mestre Vigili del Fuoco",
+  "Nome Postazione": "Postazione SUEM 118 - Mestre Vigili del Fuoco",
   "Coordinate Postazione": "45.51646,12.241628",
   "Mezzo": "MSI",
   "Nome radio": "ALFA 03",
@@ -342,7 +315,7 @@
   "Giorni": "LUN-DOM"
  },
  {
-  "Nome Postazione": "SUEM 118 - Mestre Vigili del Fuoco",
+  "Nome Postazione": "Postazione SUEM 118 - Mestre Vigili del Fuoco",
   "Coordinate Postazione": "45.51646,12.241628",
   "Mezzo": "MSI",
   "Nome radio": "ALFA 04",
@@ -351,16 +324,16 @@
   "Giorni": "LUN-DOM"
  },
  {
-  "Nome Postazione": "SUEM 118 - Mestre Vigili del Fuoco",
+  "Nome Postazione": "Postazione SUEM 118 - Mestre Vigili del Fuoco",
   "Coordinate Postazione": "45.51646,12.241628",
   "Mezzo": "MSI",
   "Nome radio": "ALFA 05",
   "Convenzione": "H12",
   "Orario di lavoro": "20:00-08:00",
-  "Giorni": "LUN,MER,VEN,DOM"
+  "Giorni": "MAR,GIO,SAB"
  },
  {
-  "Nome Postazione": "SUEM 118 - Mestre Vigili del Fuoco",
+  "Nome Postazione": "Postazione SUEM 118 - Mestre Vigili del Fuoco",
   "Coordinate Postazione": "45.51646,12.241628",
   "Mezzo": "MSI",
   "Nome radio": "ALFA 06",
@@ -369,7 +342,7 @@
   "Giorni": "LUN-DOM"
  },
  {
-  "Nome Postazione": "SUEM 118 - Mestre Vigili del Fuoco",
+  "Nome Postazione": "Postazione SUEM 118 - Mestre Vigili del Fuoco",
   "Coordinate Postazione": "45.51646,12.241628",
   "Mezzo": "MSA",
   "Nome radio": "ALFA 09",
@@ -378,7 +351,7 @@
   "Giorni": "LUN-DOM"
  },
  {
-  "Nome Postazione": "SUEM 118 - Mestre Vigili del Fuoco",
+  "Nome Postazione": "Postazione SUEM 118 - Mestre Vigili del Fuoco",
   "Coordinate Postazione": "45.51646,12.241628",
   "Mezzo": "VLV",
   "Nome radio": "ALFA 21",
@@ -387,7 +360,7 @@
   "Giorni": "LUN-DOM"
  },
  {
-  "Nome Postazione": "SUEM 118 - Mestre Vigili del Fuoco",
+  "Nome Postazione": "Postazione SUEM 118 - Mestre Vigili del Fuoco",
   "Coordinate Postazione": "45.51646,12.241628",
   "Mezzo": "VLV",
   "Nome radio": "ALFA 22",
@@ -396,7 +369,7 @@
   "Giorni": "LUN-DOM"
  },
  {
-  "Nome Postazione": "SUEM 118 - Mestre Vigili del Fuoco",
+  "Nome Postazione": "Postazione SUEM 118 - Mestre Vigili del Fuoco",
   "Coordinate Postazione": "45.51646,12.241628",
   "Mezzo": "MSI",
   "Nome radio": "ALFA VICTOR 01",
@@ -405,7 +378,7 @@
   "Giorni": "LUN,MER,VEN,DOM"
  },
  {
-  "Nome Postazione": "SUEM 118 - Mestre Vigili del Fuoco",
+  "Nome Postazione": "Postazione SUEM 118 - Mestre Vigili del Fuoco",
   "Coordinate Postazione": "45.51646,12.241628",
   "Mezzo": "MSI",
   "Nome radio": "ALFA VICTOR 02",
@@ -414,7 +387,7 @@
   "Giorni": "LUN-DOM"
  },
  {
-  "Nome Postazione": "SUEM 118 - Mestre Vigili del Fuoco",
+  "Nome Postazione": "Postazione SUEM 118 - Mestre Vigili del Fuoco",
   "Coordinate Postazione": "45.51646,12.241628",
   "Mezzo": "MSB",
   "Nome radio": "ALFA VICTOR 31",
@@ -423,7 +396,7 @@
   "Giorni": "MAR,GIO,SAB"
  },
  {
-  "Nome Postazione": "SUEM 118 - Mirano",
+  "Nome Postazione": "Postazione SUEM 118 - Mirano",
   "Coordinate Postazione": "45.498962,12.111547",
   "Mezzo": "MSI",
   "Nome radio": "MIKE 01",
@@ -432,7 +405,7 @@
   "Giorni": "LUN-DOM"
  },
  {
-  "Nome Postazione": "SUEM 118 - Mirano",
+  "Nome Postazione": "Postazione SUEM 118 - Mirano",
   "Coordinate Postazione": "45.498962,12.111547",
   "Mezzo": "MSI",
   "Nome radio": "MIKE 02",
@@ -441,7 +414,7 @@
   "Giorni": "LUN-DOM"
  },
  {
-  "Nome Postazione": "SUEM 118 - Mirano",
+  "Nome Postazione": "Postazione SUEM 118 - Mirano",
   "Coordinate Postazione": "45.498962,12.111547",
   "Mezzo": "MSI",
   "Nome radio": "MIKE 03",
@@ -450,7 +423,7 @@
   "Giorni": "LUN-DOM"
  },
  {
-  "Nome Postazione": "SUEM 118 - Mirano",
+  "Nome Postazione": "Postazione SUEM 118 - Mirano",
   "Coordinate Postazione": "45.498962,12.111547",
   "Mezzo": "MSA",
   "Nome radio": "MIKE 03",
@@ -459,7 +432,7 @@
   "Giorni": "LUN-DOM"
  },
  {
-  "Nome Postazione": "SUEM 118 - Mirano",
+  "Nome Postazione": "Postazione SUEM 118 - Mirano",
   "Coordinate Postazione": "45.498962,12.111547",
   "Mezzo": "VLV",
   "Nome radio": "MIKE 21",
@@ -468,16 +441,16 @@
   "Giorni": "LUN-DOM"
  },
  {
-  "Nome Postazione": "SUEM 118 - Mirano",
+  "Nome Postazione": "Postazione SUEM 118 - Mirano",
   "Coordinate Postazione": "45.498962,12.111547",
-  "Mezzo": "MSI",
+  "Mezzo": "CMR",
   "Nome radio": "MIKE 11",
   "Convenzione": "H24",
   "Orario di lavoro": "00:00-00:00",
   "Giorni": "LUN-DOM"
  },
  {
-  "Nome Postazione": "SUEM 118 - Mirano",
+  "Nome Postazione": "Postazione SUEM 118 - Mirano",
   "Coordinate Postazione": "45.498962,12.111547",
   "Mezzo": "MSI",
   "Nome radio": "MIKE CHARLIE 01",
@@ -486,34 +459,7 @@
   "Giorni": "LUN-DOM"
  },
  {
-  "Nome Postazione": "SUEM 118 - Mirano",
-  "Coordinate Postazione": "45.498962,12.111547",
-  "Mezzo": "MSI",
-  "Nome radio": "MIKE CHARLIE 02",
-  "Convenzione": "H14",
-  "Orario di lavoro": "08:00-22:00",
-  "Giorni": "LUN-DOM"
- },
- {
-  "Nome Postazione": "SUEM 118 - Mirano",
-  "Coordinate Postazione": "45.498962,12.111547",
-  "Mezzo": "MSB",
-  "Nome radio": "MIKE CHARLIE 31",
-  "Convenzione": "H14",
-  "Orario di lavoro": "08:00-22:00",
-  "Giorni": "LUN-DOM"
- },
- {
-  "Nome Postazione": "SUEM 118 - Mirano",
-  "Coordinate Postazione": "45.498962,12.111547",
-  "Mezzo": "MSB",
-  "Nome radio": "MIKE CHARLIE 32",
-  "Convenzione": "H14",
-  "Orario di lavoro": "08:00-22:00",
-  "Giorni": "LUN-DOM"
- },
- {
-  "Nome Postazione": "SUEM 118 - Nicelli",
+  "Nome Postazione": "Postazione SUEM 118 - Nicelli",
   "Coordinate Postazione": "45.427,12.380961",
   "Mezzo": "IDRO I",
   "Nome radio": "ECHO LIMA 08",
@@ -522,7 +468,7 @@
   "Giorni": "LUN-DOM"
  },
  {
-  "Nome Postazione": "SUEM 118 - Noale",
+  "Nome Postazione": "Postazione SUEM 118 - Noale",
   "Coordinate Postazione": "45.552084,12.075305",
   "Mezzo": "MSI",
   "Nome radio": "MIKE NOVEMBER 01",
@@ -531,25 +477,25 @@
   "Giorni": "LUN-DOM"
  },
  {
-  "Nome Postazione": "SUEM 118 - OC Mestre",
+  "Nome Postazione": "Postazione SUEM 118 - OC Mestre",
   "Coordinate Postazione": "45.514383,12.224727",
   "Mezzo": "MSI",
   "Nome radio": "ALFA 02",
   "Convenzione": "H12",
   "Orario di lavoro": "08:00-20:00",
-  "Giorni": "LUN,MER,VEN,DOM"
+  "Giorni": "MAR,GIO,SAB"
  },
  {
-  "Nome Postazione": "SUEM 118 - OC Mestre",
+  "Nome Postazione": "Postazione SUEM 118 - OC Mestre",
   "Coordinate Postazione": "45.514383,12.224727",
   "Mezzo": "MSI",
   "Nome radio": "ALFA 05",
   "Convenzione": "H12",
   "Orario di lavoro": "08:00-20:00",
-  "Giorni": "MAR,GIO,SAB"
+  "Giorni": "LUN,MER,VEN,DOM"
  },
  {
-  "Nome Postazione": "SUEM 118 - Pellestrina",
+  "Nome Postazione": "Postazione SUEM 118 - Pellestrina",
   "Coordinate Postazione": "45.28122,12.30196",
   "Mezzo": "MSA",
   "Nome radio": "ECHO PAPA 01",
@@ -558,7 +504,7 @@
   "Giorni": "LUN-DOM"
  },
  {
-  "Nome Postazione": "SUEM 118 - Pellestrina",
+  "Nome Postazione": "Postazione SUEM 118 - Pellestrina",
   "Coordinate Postazione": "45.28122,12.30196",
   "Mezzo": "MSI",
   "Nome radio": "ECHO PAPA 02",
@@ -567,7 +513,7 @@
   "Giorni": "LUN-DOM"
  },
  {
-  "Nome Postazione": "SUEM 118 - Porto di Venezia",
+  "Nome Postazione": "Postazione SUEM 118 - Porto di Venezia",
   "Coordinate Postazione": "45.432334,12.310966",
   "Mezzo": "MSI",
   "Nome radio": "ALFA PAPA 01",
@@ -576,7 +522,7 @@
   "Giorni": "LUN-DOM"
  },
  {
-  "Nome Postazione": "SUEM 118 - Portogruaro",
+  "Nome Postazione": "Postazione SUEM 118 - Portogruaro",
   "Coordinate Postazione": "45.770907,12.840825",
   "Mezzo": "MSI",
   "Nome radio": "PAPA 01",
@@ -585,7 +531,7 @@
   "Giorni": "LUN-DOM"
  },
  {
-  "Nome Postazione": "SUEM 118 - Portogruaro",
+  "Nome Postazione": "Postazione SUEM 118 - Portogruaro",
   "Coordinate Postazione": "45.770907,12.840825",
   "Mezzo": "MSI",
   "Nome radio": "PAPA 02",
@@ -594,7 +540,7 @@
   "Giorni": "LUN-DOM"
  },
  {
-  "Nome Postazione": "SUEM 118 - Portogruaro",
+  "Nome Postazione": "Postazione SUEM 118 - Portogruaro",
   "Coordinate Postazione": "45.770907,12.840825",
   "Mezzo": "MSA",
   "Nome radio": "PAPA 03",
@@ -603,16 +549,16 @@
   "Giorni": "LUN-DOM"
  },
  {
-  "Nome Postazione": "SUEM 118 - Portogruaro",
+  "Nome Postazione": "Postazione SUEM 118 - Portogruaro",
   "Coordinate Postazione": "45.770907,12.840825",
-  "Mezzo": "MSI",
-  "Nome radio": "PAPA REP",
-  "Convenzione": "H12",
-  "Orario di lavoro": "20:00-08:00",
+  "Mezzo": "CMR",
+  "Nome radio": "PAPA 11",
+  "Convenzione": "H24",
+  "Orario di lavoro": "00:00-00:00",
   "Giorni": "LUN-DOM"
  },
  {
-  "Nome Postazione": "SUEM 118 - Portogruaro",
+  "Nome Postazione": "Postazione SUEM 118 - Portogruaro",
   "Coordinate Postazione": "45.770907,12.840825",
   "Mezzo": "MSI",
   "Nome radio": "PAPA VICTOR 01",
@@ -621,7 +567,7 @@
   "Giorni": "LUN-DOM"
  },
  {
-  "Nome Postazione": "SUEM 118 - San Donà di Piave",
+  "Nome Postazione": "Postazione SUEM 118 - San Donà di Piave",
   "Coordinate Postazione": "45.635023,12.573336",
   "Mezzo": "MSI",
   "Nome radio": "SIERRA 01",
@@ -630,7 +576,7 @@
   "Giorni": "LUN-DOM"
  },
  {
-  "Nome Postazione": "SUEM 118 - San Donà di Piave",
+  "Nome Postazione": "Postazione SUEM 118 - San Donà di Piave",
   "Coordinate Postazione": "45.635023,12.573336",
   "Mezzo": "MSI",
   "Nome radio": "SIERRA 02",
@@ -639,7 +585,7 @@
   "Giorni": "LUN-DOM"
  },
  {
-  "Nome Postazione": "SUEM 118 - San Donà di Piave",
+  "Nome Postazione": "Postazione SUEM 118 - San Donà di Piave",
   "Coordinate Postazione": "45.635023,12.573336",
   "Mezzo": "MSA",
   "Nome radio": "SIERRA 03",
@@ -648,16 +594,16 @@
   "Giorni": "LUN-DOM"
  },
  {
-  "Nome Postazione": "SUEM 118 - San Donà di Piave",
+  "Nome Postazione": "Postazione SUEM 118 - San Donà di Piave",
   "Coordinate Postazione": "45.635023,12.573336",
-  "Mezzo": "MSI",
-  "Nome radio": "SIERRA REP",
-  "Convenzione": "H12",
-  "Orario di lavoro": "20:00-08:00",
+  "Mezzo": "CMR",
+  "Nome radio": "SIERRA 11",
+  "Convenzione": "H24",
+  "Orario di lavoro": "00:00-00:00",
   "Giorni": "LUN-DOM"
  },
  {
-  "Nome Postazione": "SUEM 118 - San Donà di Piave",
+  "Nome Postazione": "Postazione SUEM 118 - San Donà di Piave",
   "Coordinate Postazione": "45.635023,12.573336",
   "Mezzo": "MSI",
   "Nome radio": "SIERRA VICTOR 01",
@@ -666,7 +612,7 @@
   "Giorni": "LUN-DOM"
  },
  {
-  "Nome Postazione": "SUEM 118 - San Donà di Piave",
+  "Nome Postazione": "Postazione SUEM 118 - San Donà di Piave",
   "Coordinate Postazione": "45.635023,12.573336",
   "Mezzo": "VLV",
   "Nome radio": "SIERRA 21",
@@ -675,16 +621,16 @@
   "Giorni": "LUN-DOM"
  },
  {
-  "Nome Postazione": "SUEM 118 - Venezia Laguna",
+  "Nome Postazione": "Postazione SUEM 118 - Venezia Laguna",
   "Coordinate Postazione": "45.441001,12.344142",
-  "Mezzo": "IDRO A",
+  "Mezzo": "IDRO I",
   "Nome radio": "ECHO 01",
   "Convenzione": "H24",
   "Orario di lavoro": "00:00-00:00",
   "Giorni": "LUN-DOM"
  },
  {
-  "Nome Postazione": "SUEM 118 - Venezia Laguna",
+  "Nome Postazione": "Postazione SUEM 118 - Venezia Laguna",
   "Coordinate Postazione": "45.441001,12.344142",
   "Mezzo": "IDRO A",
   "Nome radio": "ECHO 02",
@@ -693,7 +639,7 @@
   "Giorni": "LUN-DOM"
  },
  {
-  "Nome Postazione": "SUEM 118 - Venezia Laguna",
+  "Nome Postazione": "Postazione SUEM 118 - Venezia Laguna",
   "Coordinate Postazione": "45.441001,12.344142",
   "Mezzo": "IDRO I",
   "Nome radio": "ECHO 03",
@@ -702,7 +648,7 @@
   "Giorni": "LUN-DOM"
  },
  {
-  "Nome Postazione": "SUEM 118 - Venezia Laguna",
+  "Nome Postazione": "Postazione SUEM 118 - Venezia Laguna",
   "Coordinate Postazione": "45.441001,12.344142",
   "Mezzo": "IDRO A",
   "Nome radio": "ECHO 04",
@@ -711,7 +657,7 @@
   "Giorni": "LUN-DOM"
  },
  {
-  "Nome Postazione": "SUEM 118 - Venezia Laguna",
+  "Nome Postazione": "Postazione SUEM 118 - Venezia Laguna",
   "Coordinate Postazione": "45.441001,12.344142",
   "Mezzo": "IDRO I",
   "Nome radio": "ECHO 05",
@@ -720,16 +666,16 @@
   "Giorni": "LUN-DOM"
  },
  {
-  "Nome Postazione": "SUEM 118 - Venezia Laguna",
+  "Nome Postazione": "Postazione SUEM 118 - Venezia Laguna",
   "Coordinate Postazione": "45.441001,12.344142",
-  "Mezzo": "IDRO A",
+  "Mezzo": "IDRO V",
   "Nome radio": "ECHO 07",
   "Convenzione": "H24",
   "Orario di lavoro": "00:00-00:00",
   "Giorni": "LUN-DOM"
  },
  {
-  "Nome Postazione": "SUEM 118 - Venezia Laguna",
+  "Nome Postazione": "Postazione SUEM 118 - Venezia Laguna",
   "Coordinate Postazione": "45.441001,12.344142",
   "Mezzo": "IDRO I",
   "Nome radio": "ECHO VICTOR 01",
@@ -738,7 +684,7 @@
   "Giorni": "LUN-DOM"
  },
  {
-  "Nome Postazione": "SUEM 118 - Venezia Laguna",
+  "Nome Postazione": "Postazione SUEM 118 - Venezia Laguna",
   "Coordinate Postazione": "45.441001,12.344142",
   "Mezzo": "IDRO I",
   "Nome radio": "ECHO VICTOR 02",
@@ -747,7 +693,7 @@
   "Giorni": "LUN-DOM"
  },
  {
-  "Nome Postazione": "SUEM 118 - Venezia Laguna",
+  "Nome Postazione": "Postazione SUEM 118 - Venezia Laguna",
   "Coordinate Postazione": "45.441001,12.344142",
   "Mezzo": "IDRO B",
   "Nome radio": "ECHO VICTOR 31",
@@ -756,9 +702,9 @@
   "Giorni": "LUN-DOM"
  },
  {
-  "Nome Postazione": "SUEM 118 - Venezia Piazzale Roma",
+  "Nome Postazione": "Postazione SUEM 118 - Venezia Piazzale Roma",
   "Coordinate Postazione": "45.439036,12.3172",
-  "Mezzo": "MSB",
+  "Mezzo": "IDRO B",
   "Nome radio": "ALFA VICTOR 34",
   "Convenzione": "H12",
   "Orario di lavoro": "08:00-20:00",

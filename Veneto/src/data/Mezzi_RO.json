@@ -18,34 +18,7 @@
   "Giorni": "LUN-DOM"
  },
  {
-  "Nome Postazione": "Croce Verde - Rovigo",
-  "Coordinate Postazione": "45.0747594,11.8017779",
-  "Mezzo": "MSB",
-  "Nome radio": "VICTOR 22",
-  "Convenzione": "H12",
-  "Orario di lavoro": "08:00-20:00",
-  "Giorni": "LUN-DOM"
- },
- {
-  "Nome Postazione": "Croce Verde - Rovigo",
-  "Coordinate Postazione": "45.0747594,11.8017779",
-  "Mezzo": "MSB",
-  "Nome radio": "VICTOR 23",
-  "Convenzione": "H12",
-  "Orario di lavoro": "20:00-08:00",
-  "Giorni": "LUN-DOM"
- },
- {
-  "Nome Postazione": "Croce Verde - Rovigo",
-  "Coordinate Postazione": "45.0747594,11.8017779",
-  "Mezzo": "MSB",
-  "Nome radio": "VICTOR 24",
-  "Convenzione": "H24",
-  "Orario di lavoro": "00:00-00:00",
-  "Giorni": "LUN-DOM"
- },
- {
-  "Nome Postazione": "SUEM 118 - Adria",
+  "Nome Postazione": "Postazione SUEM 118 - Adria",
   "Coordinate Postazione": "45.0476029,12.0538519",
   "Mezzo": "VLV",
   "Nome radio": "CHARLIE 02",
@@ -54,7 +27,7 @@
   "Giorni": "LUN-DOM"
  },
  {
-  "Nome Postazione": "SUEM 118 - Adria",
+  "Nome Postazione": "Postazione SUEM 118 - Adria",
   "Coordinate Postazione": "45.0476029,12.0538519",
   "Mezzo": "MSI",
   "Nome radio": "CHARLIE 07",
@@ -63,7 +36,7 @@
   "Giorni": "LUN-DOM"
  },
  {
-  "Nome Postazione": "SUEM 118 - Adria",
+  "Nome Postazione": "Postazione SUEM 118 - Adria",
   "Coordinate Postazione": "45.0476029,12.0538519",
   "Mezzo": "MSI",
   "Nome radio": "CHARLIE 08",
@@ -72,7 +45,7 @@
   "Giorni": "LUN-DOM"
  },
  {
-  "Nome Postazione": "SUEM 118 - Castelmassa",
+  "Nome Postazione": "Postazione SUEM 118 - Castelmassa",
   "Coordinate Postazione": "45.0174756,11.310294",
   "Mezzo": "MSI",
   "Nome radio": "CHARLIE 05",
@@ -81,7 +54,7 @@
   "Giorni": "LUN-DOM"
  },
  {
-  "Nome Postazione": "SUEM 118 - Porto Tolle",
+  "Nome Postazione": "Postazione SUEM 118 - Porto Tolle",
   "Coordinate Postazione": "44.9501152,12.3242793",
   "Mezzo": "MSA",
   "Nome radio": "CHARLIE 11",
@@ -90,7 +63,7 @@
   "Giorni": "LUN-DOM"
  },
  {
-  "Nome Postazione": "SUEM 118 - Porto Viro",
+  "Nome Postazione": "Postazione SUEM 118 - Porto Viro",
   "Coordinate Postazione": "45.0267504,12.223735",
   "Mezzo": "VLV",
   "Nome radio": "BRAVO 01",
@@ -99,7 +72,7 @@
   "Giorni": "LUN-DOM"
  },
  {
-  "Nome Postazione": "SUEM 118 - Porto Viro",
+  "Nome Postazione": "Postazione SUEM 118 - Porto Viro",
   "Coordinate Postazione": "45.0267504,12.223735",
   "Mezzo": "MSI",
   "Nome radio": "BRAVO 03",
@@ -108,7 +81,7 @@
   "Giorni": "LUN-DOM"
  },
  {
-  "Nome Postazione": "SUEM 118 - Porto Viro",
+  "Nome Postazione": "Postazione SUEM 118 - Porto Viro",
   "Coordinate Postazione": "45.0267504,12.223735",
   "Mezzo": "MSI",
   "Nome radio": "BRAVO 04",
@@ -117,7 +90,7 @@
   "Giorni": "LUN-DOM"
  },
  {
-  "Nome Postazione": "SUEM 118 - Rovigo",
+  "Nome Postazione": "Postazione SUEM 118 - Rovigo",
   "Coordinate Postazione": "45.0733784,11.8173038",
   "Mezzo": "VLV",
   "Nome radio": "CHARLIE 01",
@@ -126,7 +99,7 @@
   "Giorni": "LUN-DOM"
  },
  {
-  "Nome Postazione": "SUEM 118 - Rovigo",
+  "Nome Postazione": "Postazione SUEM 118 - Rovigo",
   "Coordinate Postazione": "45.0733784,11.8173038",
   "Mezzo": "MSI",
   "Nome radio": "CHARLIE 03",
@@ -135,7 +108,7 @@
   "Giorni": "LUN-DOM"
  },
  {
-  "Nome Postazione": "SUEM 118 - Rovigo",
+  "Nome Postazione": "Postazione SUEM 118 - Rovigo",
   "Coordinate Postazione": "45.0733784,11.8173038",
   "Mezzo": "MSI",
   "Nome radio": "CHARLIE 04",
@@ -144,7 +117,7 @@
   "Giorni": "LUN-DOM"
  },
  {
-  "Nome Postazione": "SUEM 118 - Rovigo",
+  "Nome Postazione": "Postazione SUEM 118 - Rovigo",
   "Coordinate Postazione": "45.0733784,11.8173038",
   "Mezzo": "MSI",
   "Nome radio": "CHARLIE 05",
@@ -153,7 +126,7 @@
   "Giorni": "LUN-DOM"
  },
  {
-  "Nome Postazione": "SUEM 118 - Santa Maria Maddalena",
+  "Nome Postazione": "Postazione SUEM 118 - Santa Maria Maddalena",
   "Coordinate Postazione": "44.89169,11.61207",
   "Mezzo": "MSI",
   "Nome radio": "CHARLIE 10",
@@ -162,7 +135,7 @@
   "Giorni": "LUN-DOM"
  },
  {
-  "Nome Postazione": "SUEM 118 - Trecenta",
+  "Nome Postazione": "Postazione SUEM 118 - Trecenta",
   "Coordinate Postazione": "45.029306,11.466648",
   "Mezzo": "MSI",
   "Nome radio": "CHARLIE 14",
@@ -171,7 +144,7 @@
   "Giorni": "LUN-DOM"
  },
  {
-  "Nome Postazione": "SUEM 118 - Trecenta",
+  "Nome Postazione": "Postazione SUEM 118 - Trecenta",
   "Coordinate Postazione": "45.029306,11.466648",
   "Mezzo": "VLV",
   "Nome radio": "CHARLIE 33",

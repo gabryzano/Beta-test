@@ -12,19 +12,10 @@
   "Nome Postazione": "Castel Monte - Motta di Livenza",
   "Coordinate Postazione": "45.773332,12.597815",
   "Mezzo": "MSI",
-  "Nome radio": "OSCAR MIKE 01",
-  "Convenzione": "H7",
-  "Orario di lavoro": "08:00-15:00",
-  "Giorni": "LUN-SAB"
- },
- {
-  "Nome Postazione": "Castel Monte - Motta di Livenza",
-  "Coordinate Postazione": "45.773332,12.597815",
-  "Mezzo": "MSI",
-  "Nome radio": "OSCAR MIKE 02",
-  "Convenzione": "H7",
-  "Orario di lavoro": "10:00-15:00",
-  "Giorni": "LUN-VEN"
+  "Nome radio": "OSCAR MIKE 03",
+  "Convenzione": "H24",
+  "Orario di lavoro": "00:00-00:00",
+  "Giorni": "LUN-DOM"
  },
  {
   "Nome Postazione": "Castel Monte - Oderzo",
@@ -34,42 +25,6 @@
   "Convenzione": "H12",
   "Orario di lavoro": "07:00-19:00",
   "Giorni": "LUN-DOM"
- },
- {
-  "Nome Postazione": "Castel Monte - Oderzo",
-  "Coordinate Postazione": "45.781586,12.488068",
-  "Mezzo": "MSB",
-  "Nome radio": "TANGO OSCAR 31",
-  "Convenzione": "H14",
-  "Orario di lavoro": "07:00-21:00",
-  "Giorni": "LUN-DOM"
- },
- {
-  "Nome Postazione": "Castel Monte - Oderzo",
-  "Coordinate Postazione": "45.781586,12.488068",
-  "Mezzo": "MSB",
-  "Nome radio": "TANGO OSCAR 32",
-  "Convenzione": "H14",
-  "Orario di lavoro": "07:00-21:00",
-  "Giorni": "LUN-DOM"
- },
- {
-  "Nome Postazione": "Castel Monte - Oderzo",
-  "Coordinate Postazione": "45.781586,12.488068",
-  "Mezzo": "MSB",
-  "Nome radio": "TANGO OSCAR 33",
-  "Convenzione": "H13",
-  "Orario di lavoro": "08:00-21:00",
-  "Giorni": "LUN-VEN"
- },
- {
-  "Nome Postazione": "Castel Monte - Oderzo",
-  "Coordinate Postazione": "45.781586,12.488068",
-  "Mezzo": "MSB",
-  "Nome radio": "TANGO OSCAR 34",
-  "Convenzione": "H8",
-  "Orario di lavoro": "08:00-16:00",
-  "Giorni": "LUN-SAB"
  },
  {
   "Nome Postazione": "Castel Monte - Treviso",
@@ -84,46 +39,10 @@
   "Nome Postazione": "Castel Monte - Treviso",
   "Coordinate Postazione": "45.659617,12.263272",
   "Mezzo": "MSB",
-  "Nome radio": "TANGO CHARLIE 31",
-  "Convenzione": "H12",
-  "Orario di lavoro": "07:00-19:00",
-  "Giorni": "LUN-DOM"
- },
- {
-  "Nome Postazione": "Castel Monte - Treviso",
-  "Coordinate Postazione": "45.659617,12.263272",
-  "Mezzo": "MSB",
   "Nome radio": "TANGO CHARLIE 32",
   "Convenzione": "H14",
   "Orario di lavoro": "07:00-21:00",
   "Giorni": "LUN-SAB"
- },
- {
-  "Nome Postazione": "Castel Monte - Treviso",
-  "Coordinate Postazione": "45.659617,12.263272",
-  "Mezzo": "MSB",
-  "Nome radio": "TANGO CHARLIE 33",
-  "Convenzione": "H12",
-  "Orario di lavoro": "09:00-21:00",
-  "Giorni": "LUN-VEN"
- },
- {
-  "Nome Postazione": "Castel Monte - Treviso",
-  "Coordinate Postazione": "45.659617,12.263272",
-  "Mezzo": "MSB",
-  "Nome radio": "TANGO CHARLIE 34",
-  "Convenzione": "H7",
-  "Orario di lavoro": "08:00-15:00",
-  "Giorni": "LUN-VEN"
- },
- {
-  "Nome Postazione": "Castel Monte - Treviso",
-  "Coordinate Postazione": "45.659617,12.263272",
-  "Mezzo": "MSB",
-  "Nome radio": "TANGO CHARLIE 35",
-  "Convenzione": "H8",
-  "Orario di lavoro": "13:00-21:00",
-  "Giorni": "LUN-DOM"
  },
  {
   "Nome Postazione": "Castel Monte - Treviso",
@@ -144,40 +63,13 @@
   "Giorni": "LUN-DOM"
  },
  {
-  "Nome Postazione": "Croce Azzurra - Castelfranco Veneto",
-  "Coordinate Postazione": "45.676621,11.931346",
-  "Mezzo": "MSB",
-  "Nome radio": "TANGO SIERRA 34",
-  "Convenzione": "H14",
-  "Orario di lavoro": "07:00-21:00",
-  "Giorni": "LUN-VEN"
- },
- {
-  "Nome Postazione": "Croce Azzurra - Castelfranco Veneto",
-  "Coordinate Postazione": "45.676621,11.931346",
-  "Mezzo": "MSB",
-  "Nome radio": "TANGO SIERRA 34",
-  "Convenzione": "H7",
-  "Orario di lavoro": "07:00-14:00",
-  "Giorni": "SAB"
- },
- {
-  "Nome Postazione": "Croce Azzurra - Castelfranco Veneto",
-  "Coordinate Postazione": "45.676621,11.931346",
-  "Mezzo": "MSB",
-  "Nome radio": "TANGO SIERRA 35",
-  "Convenzione": "H14",
-  "Orario di lavoro": "07:00-21:00",
-  "Giorni": "LUN-VEN"
- },
- {
   "Nome Postazione": "Croce Azzurra - Cimadolmo",
   "Coordinate Postazione": "45.78632,12.36236",
   "Mezzo": "MSB",
   "Nome radio": "OSCAR ROMEO 37",
   "Convenzione": "H6",
   "Orario di lavoro": "18:00-00:00",
-  "Giorni": "LUN\/MERC\/VEN\/SAB\/DOM"
+  "Giorni": "LUN,MER,VEN,SAB,DOM"
  },
  {
   "Nome Postazione": "Croce Azzurra - Cimadolmo",
@@ -186,7 +78,7 @@
   "Nome radio": "OSCAR ROMEO 37",
   "Convenzione": "H8",
   "Orario di lavoro": "00:00-08:00",
-  "Giorni": "LUN\/VEN\/SAB\/DOM"
+  "Giorni": "LUN,VEN,SAB,DOM"
  },
  {
   "Nome Postazione": "Croce Azzurra - Cimadolmo",
@@ -195,7 +87,7 @@
   "Nome radio": "OSCAR ZULU 38",
   "Convenzione": "H5",
   "Orario di lavoro": "19:00-00:00",
-  "Giorni": "LUN E GIO"
+  "Giorni": "LUN,GIO"
  },
  {
   "Nome Postazione": "Croce Azzurra - Cimadolmo",
@@ -222,7 +114,7 @@
   "Nome radio": "ALFA DELTA 35",
   "Convenzione": "H5",
   "Orario di lavoro": "19:00-00:00",
-  "Giorni": "MERC E GIO"
+  "Giorni": "MER,GIO"
  },
  {
   "Nome Postazione": "Croce Azzurra - Maserada sul Piave",
@@ -264,55 +156,10 @@
   "Nome Postazione": "Croce Azzurra - Montebelluna",
   "Coordinate Postazione": "45.77704,12.034053",
   "Mezzo": "MSB",
-  "Nome radio": "TANGO SIERRA 32",
-  "Convenzione": "H7",
-  "Orario di lavoro": "07:00-14:00",
-  "Giorni": "SAB"
- },
- {
-  "Nome Postazione": "Croce Azzurra - Montebelluna",
-  "Coordinate Postazione": "45.77704,12.034053",
-  "Mezzo": "MSB",
-  "Nome radio": "TANGO SIERRA 32",
-  "Convenzione": "H14",
-  "Orario di lavoro": "07:00-21:00",
-  "Giorni": "LUN-VEN"
- },
- {
-  "Nome Postazione": "Croce Azzurra - Montebelluna",
-  "Coordinate Postazione": "45.77704,12.034053",
-  "Mezzo": "MSB",
-  "Nome radio": "TANGO SIERRA 33",
-  "Convenzione": "H7",
-  "Orario di lavoro": "07:00-14:00",
-  "Giorni": "SAB"
- },
- {
-  "Nome Postazione": "Croce Azzurra - Montebelluna",
-  "Coordinate Postazione": "45.77704,12.034053",
-  "Mezzo": "MSB",
-  "Nome radio": "TANGO SIERRA 33",
-  "Convenzione": "H14",
-  "Orario di lavoro": "07:00-21:00",
-  "Giorni": "LUN-VEN"
- },
- {
-  "Nome Postazione": "Croce Azzurra - Montebelluna",
-  "Coordinate Postazione": "45.77704,12.034053",
-  "Mezzo": "MSB",
-  "Nome radio": "TANGO SIERRA 36",
-  "Convenzione": "H12",
-  "Orario di lavoro": "07:00-19:00",
-  "Giorni": "LUN-VEN"
- },
- {
-  "Nome Postazione": "Croce Azzurra - Montebelluna",
-  "Coordinate Postazione": "45.77704,12.034053",
-  "Mezzo": "MSB",
   "Nome radio": "TANGO SIERRA 37",
   "Convenzione": "H12",
   "Orario di lavoro": "07:00-19:00",
-  "Giorni": "TUTTI I GIORNI"
+  "Giorni": "LUN-DOM"
  },
  {
   "Nome Postazione": "Croce Bianca Italiana - Castelfranco Veneto",
@@ -321,7 +168,7 @@
   "Nome radio": "LIMA INDIA 40",
   "Convenzione": "H16",
   "Orario di lavoro": "07:00-23:00",
-  "Giorni": "TUTTI I GIORNI"
+  "Giorni": "LUN-DOM"
  },
  {
   "Nome Postazione": "Croce Bianca Italiana - Montebelluna",
@@ -357,7 +204,7 @@
   "Nome radio": "MIKE VICTOR 42",
   "Convenzione": "H8",
   "Orario di lavoro": "00:00-08:00",
-  "Giorni": "LUN\/VEN\/SAB\/DOM"
+  "Giorni": "SAB-DOM"
  },
  {
   "Nome Postazione": "Croce Rossa Italiana - Mogliano Veneto",
@@ -384,7 +231,7 @@
   "Nome radio": "ALFA SIERRA 32",
   "Convenzione": "H6",
   "Orario di lavoro": "18:30-00:00",
-  "Giorni": "LUN\/MERC\/GIO\/VEN\/SAB\/DOM"
+  "Giorni": "LUN,MER,VEN,SAB,DOM"
  },
  {
   "Nome Postazione": "Croce Rossa Italiana - Spresiano",
@@ -393,7 +240,7 @@
   "Nome radio": "ALFA SIERRA 32",
   "Convenzione": "H7",
   "Orario di lavoro": "00:00-07:30",
-  "Giorni": "LUN\/VEN\/SAB\/DOM"
+  "Giorni": "LUN,VEN,SAB,DOM"
  },
  {
   "Nome Postazione": "Croce Rossa Italiana - Treviso",
@@ -411,7 +258,7 @@
   "Nome radio": "ALFA ROMEO 31",
   "Convenzione": "H7",
   "Orario di lavoro": "00:00-07:00",
-  "Giorni": "LUN\/VEN\/SAB\/DOM"
+  "Giorni": "LUN,VEN,SAB,DOM"
  },
  {
   "Nome Postazione": "Croce Rossa Italiana - Treviso",
@@ -429,7 +276,7 @@
   "Nome radio": "ALFA ROMEO 32",
   "Convenzione": "H7",
   "Orario di lavoro": "00:00-07:00",
-  "Giorni": "LUN\/VEN\/SAB\/DOM"
+  "Giorni": "LUN,VEN,SAB,DOM"
  },
  {
   "Nome Postazione": "Croce Verde La Marca - Quinto di Treviso",
@@ -438,7 +285,7 @@
   "Nome radio": "ALFA LIMA 34",
   "Convenzione": "H6",
   "Orario di lavoro": "18:00-00:00",
-  "Giorni": "MAR\/MERC\/GIO"
+  "Giorni": "MAR,MER,GIO"
  },
  {
   "Nome Postazione": "Croce Verde La Marca - Roncade",
@@ -483,7 +330,7 @@
   "Nome radio": "SIERRA ECHO 36",
   "Convenzione": "H6",
   "Orario di lavoro": "18:00-24:00",
-  "Giorni": "GIO\/VEN"
+  "Giorni": "GIO-VEN"
  },
  {
   "Nome Postazione": "Esam - Soligo",
@@ -533,7 +380,7 @@
  {
   "Nome Postazione": "SUEM 118 - Castrelfranco Veneto",
   "Coordinate Postazione": "45.6767,11.931692",
-  "Mezzo": "MSI",
+  "Mezzo": "CMR",
   "Nome radio": "LIMA 11",
   "Convenzione": "H24",
   "Orario di lavoro": "00:00-00:00",
@@ -560,7 +407,7 @@
  {
   "Nome Postazione": "SUEM 118 - Conegliano",
   "Coordinate Postazione": "45.881808,12.290612",
-  "Mezzo": "MSI",
+  "Mezzo": "CMR",
   "Nome radio": "CHARLIE 11",
   "Convenzione": "H24",
   "Orario di lavoro": "00:00-00:00",
@@ -571,15 +418,6 @@
   "Coordinate Postazione": "45.881808,12.290612",
   "Mezzo": "VLV",
   "Nome radio": "CHARLIE 21",
-  "Convenzione": "H24",
-  "Orario di lavoro": "00:00-00:00",
-  "Giorni": "LUN-DOM"
- },
- {
-  "Nome Postazione": "SUEM 118 - Conegliano",
-  "Coordinate Postazione": "45.881808,12.290612",
-  "Mezzo": "VLV",
-  "Nome radio": "CHARLIE 22",
   "Convenzione": "H24",
   "Orario di lavoro": "00:00-00:00",
   "Giorni": "LUN-DOM"
@@ -619,42 +457,6 @@
   "Convenzione": "H14",
   "Orario di lavoro": "07:00-21:00",
   "Giorni": "LUN-DOM"
- },
- {
-  "Nome Postazione": "SUEM 118 - Conegliano",
-  "Coordinate Postazione": "45.881808,12.290612",
-  "Mezzo": "MSB",
-  "Nome radio": "TANGO PAPA 32",
-  "Convenzione": "H8",
-  "Orario di lavoro": "08:00-16:00",
-  "Giorni": "LUN-SAB"
- },
- {
-  "Nome Postazione": "SUEM 118 - Conegliano",
-  "Coordinate Postazione": "45.881808,12.290612",
-  "Mezzo": "MSB",
-  "Nome radio": "TANGO PAPA 33",
-  "Convenzione": "H8",
-  "Orario di lavoro": "08:00-16:00",
-  "Giorni": "LUN-VEN"
- },
- {
-  "Nome Postazione": "SUEM 118 - Conegliano",
-  "Coordinate Postazione": "45.881808,12.290612",
-  "Mezzo": "MSB",
-  "Nome radio": "TANGO PAPA 34",
-  "Convenzione": "H8",
-  "Orario di lavoro": "07:00-15:00",
-  "Giorni": "LUN-SAB"
- },
- {
-  "Nome Postazione": "SUEM 118 - Conegliano",
-  "Coordinate Postazione": "45.881808,12.290612",
-  "Mezzo": "MSB",
-  "Nome radio": "TANGO PAPA 35",
-  "Convenzione": "H14",
-  "Orario di lavoro": "07:00-21:00",
-  "Giorni": "LUN-SAB"
  },
  {
   "Nome Postazione": "SUEM 118 - Crespano",
@@ -749,7 +551,7 @@
  {
   "Nome Postazione": "SUEM 118 - Montebelluna",
   "Coordinate Postazione": "45.777015,12.03452",
-  "Mezzo": "MSI",
+  "Mezzo": "CMR",
   "Nome radio": "MIKE 11",
   "Convenzione": "H24 ",
   "Orario di lavoro": "00:00-00:00",
@@ -803,7 +605,7 @@
  {
   "Nome Postazione": "SUEM 118 - Oderzo",
   "Coordinate Postazione": "45.781586,12.488068",
-  "Mezzo": "MSI",
+  "Mezzo": "CMR",
   "Nome radio": "OSCAR 11",
   "Convenzione": "H24",
   "Orario di lavoro": "00:00-00:00",
@@ -870,7 +672,7 @@
   "Nome radio": "LIMA PAPA 01",
   "Convenzione": "H12",
   "Orario di lavoro": "08:00-20:00",
-  "Giorni": "LUN\/VEN\/SAB\/DOM"
+  "Giorni": "SAB-DOM"
  },
  {
   "Nome Postazione": "SUEM 118 - Sernaglia della Battaglia",
@@ -913,15 +715,6 @@
   "Coordinate Postazione": "45.913874,12.150011",
   "Mezzo": "VLV",
   "Nome radio": "SIERRA 21",
-  "Convenzione": "H24",
-  "Orario di lavoro": "00:00-00:00",
-  "Giorni": "LUN-DOM"
- },
- {
-  "Nome Postazione": "SUEM 118 - Soligo",
-  "Coordinate Postazione": "45.913874,12.150011",
-  "Mezzo": "VLV",
-  "Nome radio": "SIERRA 22",
   "Convenzione": "H24",
   "Orario di lavoro": "00:00-00:00",
   "Giorni": "LUN-DOM"
@@ -1049,7 +842,7 @@
   "Mezzo": "VLV",
   "Nome radio": "ALFA 22",
   "Convenzione": "H24",
-  "Orario di lavoro": "8:00-20:00",
+  "Orario di lavoro": "00:00-00:00",
   "Giorni": "LUN-DOM"
  },
  {
@@ -1057,7 +850,7 @@
   "Coordinate Postazione": "45.65576,12.26438",
   "Mezzo": "VLV",
   "Nome radio": "ALFA 23",
-  "Convenzione": "H24",
+  "Convenzione": "H12",
   "Orario di lavoro": "20:00-8:00",
   "Giorni": "LUN-DOM"
  },
@@ -1089,15 +882,6 @@
   "Giorni": "LUN-VEN"
  },
  {
-  "Nome Postazione": "SUEM 118 - Treviso",
-  "Coordinate Postazione": "45.65576,12.26438",
-  "Mezzo": "MSB",
-  "Nome radio": "TANGO ALFA 34",
-  "Convenzione": "H10",
-  "Orario di lavoro": "10:00-20:00",
-  "Giorni": "LUN-DOM"
- },
- {
   "Nome Postazione": "SUEM 118 -  Valdobbiadene",
   "Coordinate Postazione": "45.900466,11.989541",
   "Mezzo": "MSI",
@@ -1127,7 +911,7 @@
  {
   "Nome Postazione": "SUEM 118 - Vittorio Veneto",
   "Coordinate Postazione": "45.987259,12.319128",
-  "Mezzo": "MSI",
+  "Mezzo": "CMR",
   "Nome radio": "VICTOR 11",
   "Convenzione": "H24",
   "Orario di lavoro": "00:00-00:00",
@@ -1176,7 +960,7 @@
   "Nome radio": "VICTOR PAPA 43",
   "Convenzione": "H12",
   "Orario di lavoro": "20:00-08:00",
-  "Giorni": "VEN E SAB"
+  "Giorni": "VEN-SAB"
  },
  {
   "Nome Postazione": "Prealpi Soccorso - Cordignano",
@@ -1203,7 +987,7 @@
   "Nome radio": "CHARLIE OSCAR 44",
   "Convenzione": "H8",
   "Orario di lavoro": "16:00-00:00",
-  "Giorni": "LUN\/MAR\/SAB"
+  "Giorni": "LUN,MAR,SAB"
  },
  {
   "Nome Postazione": "Prociv Mareno Soccorso - Mareno di Piave",
@@ -1221,7 +1005,7 @@
   "Nome radio": "CHARLIE MIKE 45",
   "Convenzione": "H7",
   "Orario di lavoro": "00:00-07:00",
-  "Giorni": "VEN\/SAB"
+  "Giorni": "VEN-SAB"
  },
  {
   "Nome Postazione": "Prociv Mareno Soccorso - Mareno di Piave",
@@ -1230,6 +1014,6 @@
   "Nome radio": "CHARLIE MIKE 45",
   "Convenzione": "H24",
   "Orario di lavoro": "07:00-07:00",
-  "Giorni": "SAB\/DOM\/LUN"
+  "Giorni": "SAB-LUN"
  }
 ]
